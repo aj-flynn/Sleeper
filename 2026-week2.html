@@ -18,7 +18,7 @@
       --shadow: 0 18px 50px rgba(35,31,20,.13);
     }
     * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
+    html { scroll-behavior: smooth; overflow-x: clip; max-width: 100%; }
     body {
       margin: 0;
       color: var(--ink);
@@ -26,6 +26,8 @@
       font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       font-size: 16px;
       line-height: 1.5;
+      overflow-x: clip;
+      max-width: 100%;
     }
     body:before {
       content: "";
@@ -207,12 +209,13 @@
     }
     .matchup-head {
       display: grid;
-      grid-template-columns: 1fr 88px 1fr;
+      grid-template-columns: minmax(0, 1fr) 88px minmax(0, 1fr);
       align-items: stretch;
       border-bottom: 2px solid var(--ink);
       background: var(--ink);
       color: var(--paper);
       min-height: 150px;
+      min-width: 0;
     }
     .vs-medallion {
       display: grid;
@@ -232,7 +235,7 @@
       font-family: ui-sans-serif, system-ui, sans-serif;
     }
     .vs-medallion strong { display: block; font-size: 28px; margin-top: 4px; }
-    .matchup-side { padding: 24px 28px; }
+    .matchup-side { padding: 24px 28px; min-width: 0; overflow-wrap: anywhere; word-break: break-word; }
     .matchup-side-b { text-align: end; }
     .eyebrow {
       margin: 0 0 7px;
@@ -291,8 +294,9 @@
       letter-spacing: .12em;
       text-transform: uppercase;
     }
-    .table-wrap { overflow-x: auto; }
+    .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; max-width: 100%; width: 100%; }
     table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    img, table, .matchup-card, .team-card, .rank-board, .award, .standout-card, .bench-box, .trade-card, .faab-card { max-width: 100%; }
     th {
       text-align: start;
       background: var(--ink);
@@ -421,7 +425,8 @@
       .nav { top: 34px; }
     }
     @media (max-width: 650px) {
-      h1 { font-size: 52px; }
+      h1 { font-size: clamp(40px, 12vw, 52px); }
+      .nav { flex-wrap: wrap; }
       .nav a { font-size: 10px; padding: 6px 8px; }
       .section-head { display: block; }
       .section-head p { margin-top: 12px; }
@@ -448,10 +453,11 @@
     /* COMPONENT: rank row (DNA) */
     .rankings { margin-bottom: 72px; }
     .rank-board { background: var(--paper-2); border: 2px solid var(--ink); box-shadow: var(--shadow); }
-    .rank-row { display: grid; grid-template-columns: 55px minmax(220px, 1fr) 1.5fr 72px; align-items: center; min-height: 74px; padding: 10px 18px; text-decoration: none; border-bottom: 1px solid var(--line); transition: .18s ease; color: inherit; }
+    .rank-row { display: grid; grid-template-columns: 55px minmax(0, 1fr) 1.5fr 72px; align-items: center; min-height: 74px; padding: 10px 18px; text-decoration: none; border-bottom: 1px solid var(--line); transition: .18s ease; color: inherit; min-width: 0; }
     .rank-row:last-child { border-bottom: 0; }
     .rank-row:hover { transform: translateX(7px); background: var(--acid); }
     .rank-num { font-family: Georgia, serif; font-size: 30px; font-weight: 900; }
+    .rank-team { min-width: 0; overflow-wrap: anywhere; word-break: break-word; }
     .rank-team strong, .rank-team small { display: block; }
     .rank-team strong { font-size: 17px; }
     .rank-team small { color: var(--muted); margin-top: 4px; }
@@ -484,9 +490,9 @@
     .bench-list b { font-family: Georgia, serif; font-size: 16px; }
     /* COMPONENT: team damage panel (DNA) */
     .team-card { background: var(--paper-2); border: 2px solid var(--ink); box-shadow: var(--shadow); margin: 0 0 28px; scroll-margin-top: 90px; }
-    .team-head { display: grid; grid-template-columns: 90px 1fr 110px; align-items: center; border-bottom: 2px solid var(--ink); background: var(--ink); color: var(--paper); min-height: 130px; }
+    .team-head { display: grid; grid-template-columns: 90px minmax(0, 1fr) 110px; align-items: center; border-bottom: 2px solid var(--ink); background: var(--ink); color: var(--paper); min-height: 130px; min-width: 0; }
     .rank-medallion { align-self: stretch; display: grid; place-items: center; background: var(--acid); color: var(--ink); font-family: Georgia, serif; font-size: 36px; font-weight: 900; }
-    .team-identity { padding: 22px 28px; }
+    .team-identity { padding: 22px 28px; min-width: 0; overflow-wrap: anywhere; word-break: break-word; }
     .team-identity h2 { margin: 0; font-family: Georgia, serif; font-size: clamp(26px, 3.5vw, 42px); line-height: 1.05; letter-spacing: -.04em; }
     .team-identity .tagline { margin: 10px 0 0; }
     .grade { margin-right: 18px; border: 2px solid var(--paper); text-align: center; padding: 12px 8px; font-family: Georgia, serif; font-size: 28px; font-weight: 900; transform: rotate(2deg); line-height: 1.05; }
@@ -506,7 +512,7 @@
     .path { margin-top: 16px; }
     @media (max-width: 900px) {
       .awards { grid-template-columns: 1fr 1fr; }
-      .rank-row { grid-template-columns: 44px 1fr 64px; }
+      .rank-row { grid-template-columns: 44px minmax(0, 1fr) 64px; }
       .rank-core { display: none; }
       .standout-grid { grid-template-columns: 1fr; }
       .analysis-grid { grid-template-columns: 1fr; }
@@ -515,8 +521,49 @@
     }
     @media (max-width: 650px) {
       .awards { grid-template-columns: 1fr; }
-      .team-head { grid-template-columns: 64px 1fr; }
+      .team-head { grid-template-columns: 64px minmax(0, 1fr); }
       .grade { grid-column: 1 / -1; margin: 0; border-width: 1px 0 0; transform: none; font-size: 24px; padding: 8px; }
+    }
+
+
+    /* Mobile phone band — no page-level horizontal scroll; stack cleanly */
+    @media (max-width: 430px) {
+      html, body { overflow-x: clip; max-width: 100%; }
+      img, table, .matchup-card, .team-card, .rank-board, .award, .standout-card, .bench-box, .trade-card, .faab-card { max-width: 100%; }
+      .rank-row, .team-head, .matchup-head { min-width: 0; }
+      .rank-team, .team-identity, .matchup-side { min-width: 0; overflow-wrap: anywhere; word-break: break-word; }
+      .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; max-width: 100%; width: 100%; }
+      .rank-row { grid-template-columns: 40px minmax(0, 1fr) 56px; padding: 10px 12px; }
+      .rank-num { font-size: 24px; }
+      .rank-team strong { font-size: 15px; }
+      .rank-grade { font-size: 15px; padding: 6px 8px; }
+      .awards { grid-template-columns: 1fr; gap: 12px; }
+      .award { min-height: 0; padding: 16px; }
+      .award strong { font-size: 18px; margin: 12px 0 8px; }
+      .award .award-num { font-size: 24px; }
+      .award p { font-size: 12px; }
+      .team-head { grid-template-columns: 56px minmax(0, 1fr); }
+      .rank-medallion { font-size: 28px; }
+      .team-identity { padding: 16px 14px; }
+      .team-identity h2 { font-size: clamp(22px, 7vw, 30px); }
+      .team-body { padding: 16px 14px 20px; }
+      .matchup-side { padding: 16px 14px; }
+      .matchup-side h2 { font-size: clamp(18px, 6vw, 26px); }
+      .nav { flex-wrap: wrap; }
+      .nav-inner { padding: 10px 12px; gap: 8px; }
+      .nav a { font-size: 9px; padding: 5px 7px; }
+      h1 { font-size: clamp(34px, 11vw, 44px); line-height: .88; margin: 20px 0; }
+      .deck { font-size: clamp(16px, 4.2vw, 20px); }
+      .hero { padding: 36px 14px 32px; }
+      .section-head h2 { font-size: clamp(28px, 9vw, 40px); }
+      .ticker { font-size: 11px; }
+      .ticker-track { padding: 8px 0; }
+      main { padding: 28px 12px 64px; }
+      .split-col, .watch-strip { padding-left: 14px; padding-right: 14px; }
+      .watch-strip { padding-top: 16px; padding-bottom: 16px; }
+      .watch-strip h3 { font-size: 18px; }
+      .watch-strip p { font-size: 15px; }
+      .take { padding: 14px; }
     }
 
   </style>
@@ -526,30 +573,32 @@
     <div class="ticker" aria-hidden="true">
       <div class="ticker-track">
         <span class="ticker-seq">
-          <span>Four teams still undefeated after Week 2: Unsportsmanlike Conduct, J’Allen Waffle Stompers, Split Safety Syndicate, Micah parsons fan club — all 2-0.</span>
-          <span>Split Safety Syndicate posted the Week 2 high at 166.06 and sits on a league-best 393.06 season PF.</span>
-          <span>ThePeopleBeaters printed the floor: 82.66 points and a −64.94 loss to J’Allen Waffle Stompers.</span>
-          <span>Unsportsmanlike Conduct beat Mendozareamazingpicks 165.68–154.24 (+11.44) and co-leads Elo at 1032.0.</span>
-          <span>Micah parsons fan club edged hammball 95.58–91.0 (+4.58) — lowest combined final of the week that still produced a winner.</span>
-          <span>Jaxon Smith-Njigba scored 42.5 for Mendozareamazingpicks and still lost.</span>
-          <span>No notable trades in the Week 2 window.</span>
+          <span>Four teams still undefeated: Unsportsmanlike Conduct, J’Allen Waffle Stompers, Split Safety Syndicate, Micah parsons fan club.</span>
+          <span>Split Safety Syndicate printed the Week 2 ceiling at 166.06 — and a league-best 393.06 season PF.</span>
+          <span>ThePeopleBeaters hit the floor: 82.66 points, blown out by 64.94.</span>
+          <span>Unsportsmanlike Conduct outlasted Mendozareamazingpicks by 11.44 and co-leads the Elo board.</span>
+          <span>Micah parsons fan club survived hammball by 4.58 — thinnest win among the undefeated.</span>
+          <span>Jaxon Smith-Njigba scored 42.5 and still lost. Davante Adams scored 39.5 and still lost.</span>
+          <span>Mendozareamazingpicks benched White and Worthy; White alone would have covered the margin.</span>
+          <span>No trades moved in the Week 2 window.</span>
         </span>
         <span class="ticker-seq">
-          <span>Four teams still undefeated after Week 2: Unsportsmanlike Conduct, J’Allen Waffle Stompers, Split Safety Syndicate, Micah parsons fan club — all 2-0.</span>
-          <span>Split Safety Syndicate posted the Week 2 high at 166.06 and sits on a league-best 393.06 season PF.</span>
-          <span>ThePeopleBeaters printed the floor: 82.66 points and a −64.94 loss to J’Allen Waffle Stompers.</span>
-          <span>Unsportsmanlike Conduct beat Mendozareamazingpicks 165.68–154.24 (+11.44) and co-leads Elo at 1032.0.</span>
-          <span>Micah parsons fan club edged hammball 95.58–91.0 (+4.58) — lowest combined final of the week that still produced a winner.</span>
-          <span>Jaxon Smith-Njigba scored 42.5 for Mendozareamazingpicks and still lost.</span>
-          <span>No notable trades in the Week 2 window.</span>
+          <span>Four teams still undefeated: Unsportsmanlike Conduct, J’Allen Waffle Stompers, Split Safety Syndicate, Micah parsons fan club.</span>
+          <span>Split Safety Syndicate printed the Week 2 ceiling at 166.06 — and a league-best 393.06 season PF.</span>
+          <span>ThePeopleBeaters hit the floor: 82.66 points, blown out by 64.94.</span>
+          <span>Unsportsmanlike Conduct outlasted Mendozareamazingpicks by 11.44 and co-leads the Elo board.</span>
+          <span>Micah parsons fan club survived hammball by 4.58 — thinnest win among the undefeated.</span>
+          <span>Jaxon Smith-Njigba scored 42.5 and still lost. Davante Adams scored 39.5 and still lost.</span>
+          <span>Mendozareamazingpicks benched White and Worthy; White alone would have covered the margin.</span>
+          <span>No trades moved in the Week 2 window.</span>
         </span>
       </div>
     </div>
     <div class="hero">
       <div>
         <span class="kicker">Week 2 results — Rebuilders Anonymous</span>
-        <h1>Rebuilders Anonymous — Week 2<br><em>Four undefeated. One 82.66 floor. The second blowout already has a name.</em></h1>
-        <p class="deck">Split Safety Syndicate’s 166.06 and J’Allen Waffle Stompers’ +64.94 demolition of ThePeopleBeaters set the tone; Unsportsmanlike Conduct’s 165.68 over Mendozareamazingpicks kept the house brand on the co-#1 Elo line.</p>
+        <h1>Rebuilders Anonymous — Week 2<br><em>Four still perfect. One roster cratered. The house brand held.</em></h1>
+        <p class="deck">Split Safety Syndicate’s 166.06 set the high-water mark, J’Allen Waffle Stompers’ 64.94-point demolition named the week’s villain, and Unsportsmanlike Conduct’s 11-point escape over Mendozareamazingpicks kept the co-#1 line.</p>
       </div>
       <div class="hero-brand">
         <div class="mark" aria-hidden="true">UC</div>
@@ -581,73 +630,73 @@
         <a class="rank-row" href="#team-1">
           <span class="rank-num">1</span>
           <span class="rank-team"><strong>Unsportsmanlike Conduct</strong><small>2-0 · PF 326.62 / PA 287.54</small></span>
-          <span class="rank-core">Beat Mendozareamazingpicks 165.68–154.24; co-#1 Elo on PF tiebreak over J’Allen Waffle Stompers.</span>
+          <span class="rank-core">Beat Mendozareamazingpicks by 11.44; co-#1 on PF tiebreak.</span>
           <span class="rank-grade">1032.0<small>1016.0 → +16.00</small></span>
         </a>
         <a class="rank-row" href="#team-2">
           <span class="rank-num">2</span>
           <span class="rank-team"><strong>J’Allen Waffle Stompers</strong><small>2-0 · PF 300.82 / PA 200.8</small></span>
-          <span class="rank-core">Crushed ThePeopleBeaters 147.6–82.66 (+64.94); PA 200.8 is the board’s softest.</span>
+          <span class="rank-core">Crushed ThePeopleBeaters by 64.94; softest PA on the board.</span>
           <span class="rank-grade">1032.0<small>1016.0 → +16.00</small></span>
         </a>
         <a class="rank-row" href="#team-3">
           <span class="rank-num">3</span>
           <span class="rank-team"><strong>Split Safety Syndicate</strong><small>2-0 · PF 393.06 / PA 272.2</small></span>
-          <span class="rank-core">Week-high 166.06; season PF 393.06 leads the league by a mile.</span>
+          <span class="rank-core">Week-high 166.06; season PF 393.06 leads everyone.</span>
           <span class="rank-grade">1030.53<small>1016.0 → +14.53</small></span>
         </a>
         <a class="rank-row" href="#team-4">
           <span class="rank-num">4</span>
           <span class="rank-team"><strong>Micah parsons fan club</strong><small>2-0 · PF 275.48 / PA 224.1</small></span>
-          <span class="rank-core">Survived 95.58–91.0; 2-0 with the thinnest winning total among undefeateds.</span>
+          <span class="rank-core">Survived by 4.58 — thinnest undefeated win.</span>
           <span class="rank-grade">1030.53<small>1016.0 → +14.53</small></span>
         </a>
         <a class="rank-row" href="#team-5">
           <span class="rank-num">5</span>
           <span class="rank-team"><strong>Dak Side of the Sun</strong><small>1-1 · PF 294.3 / PA 317.7</small></span>
-          <span class="rank-core">First win: 152.14–136.1 over Kingslayers; Elo back to par.</span>
+          <span class="rank-core">First win: 152.14 over Kingslayers.</span>
           <span class="rank-grade">1000.0<small>984.0 → +16.00</small></span>
         </a>
         <a class="rank-row" href="#team-6">
           <span class="rank-num">6</span>
           <span class="rank-team"><strong>Mendozareamazingpicks</strong><small>1-1 · PF 284.14 / PA 279.58</small></span>
-          <span class="rank-core">154.24 with a 42.5 WR and still −11.44; bench crime cost the W.</span>
+          <span class="rank-core">42.5 from JSN and still −11.44; bench crime.</span>
           <span class="rank-grade">1000.0<small>1016.0 → −16.00</small></span>
         </a>
         <a class="rank-row" href="#team-7">
           <span class="rank-num">7</span>
           <span class="rank-team"><strong>ThePeopleBeaters</strong><small>1-1 · PF 264.26 / PA 289.76</small></span>
-          <span class="rank-core">82.66 PF / −64.94 margin — largest hole punched in any W2 ledger.</span>
+          <span class="rank-core">82.66 PF — largest hole punched all week.</span>
           <span class="rank-grade">1000.0<small>1016.0 → −16.00</small></span>
         </a>
         <a class="rank-row" href="#team-8">
           <span class="rank-num">8</span>
           <span class="rank-team"><strong>WELL! It's The Big Shough</strong><small>1-1 · PF 258.2 / PA 286.46</small></span>
-          <span class="rank-core">First win 140.06–133.24; Goff 29.78 + NE DEF 23.0 did the math.</span>
+          <span class="rank-core">First win by 6.82; Goff + NE DEF did the math.</span>
           <span class="rank-grade">1000.0<small>984.0 → +16.00</small></span>
         </a>
         <a class="rank-row" href="#team-9">
           <span class="rank-num">9</span>
           <span class="rank-team"><strong>Skat’s BruteForce Theorem</strong><small>0-2 · PF 243.8 / PA 295.96</small></span>
-          <span class="rank-core">Lost 129.9–166.06 to Split Safety Syndicate (−36.16); 0-2 and bleeding Elo.</span>
+          <span class="rank-core">Lost by 36.16 to Split Safety Syndicate.</span>
           <span class="rank-grade">969.47<small>984.0 → −14.53</small></span>
         </a>
         <a class="rank-row" href="#team-10">
           <span class="rank-num">10</span>
           <span class="rank-team"><strong>hammball</strong><small>0-2 · PF 233.3 / PA 322.58</small></span>
-          <span class="rank-core">91.0–95.58 nail-biter L with empty K and three 0.0 starters.</span>
+          <span class="rank-core">Lost by 4.58 with an empty K and three zeros.</span>
           <span class="rank-grade">969.47<small>984.0 → −14.53</small></span>
         </a>
         <a class="rank-row" href="#team-11">
           <span class="rank-num">11</span>
           <span class="rank-team"><strong>Kingslayers</strong><small>0-2 · PF 269.2 / PA 332.04</small></span>
-          <span class="rank-core">136.1–152.14 to Dak Side of the Sun; PA 332.04 is the league’s worst.</span>
+          <span class="rank-core">Lost by 16.04; worst PA in the league.</span>
           <span class="rank-grade">968.0<small>984.0 → −16.00</small></span>
         </a>
         <a class="rank-row" href="#team-12">
           <span class="rank-num">12</span>
           <span class="rank-team"><strong>Rams of Steel</strong><small>0-2 · PF 266.54 / PA 301.0</small></span>
-          <span class="rank-core">Adams 39.5 and still lost 133.24–140.06; 0-2 with a star and no solvency.</span>
+          <span class="rank-core">Adams 39.5 and still lost by 6.82.</span>
           <span class="rank-grade">968.0<small>984.0 → −16.00</small></span>
         </a>
       </div>
@@ -664,25 +713,25 @@
           <span>Standout</span>
           <strong>Split Safety Syndicate</strong>
           <div class="award-num">166.06</div>
-          <p>Week 2 points (league-high among winners). Season PF <strong>393.06</strong> (league-high). Beat Skat’s BruteForce Theorem 166.06–129.9 (+36.16). Now 2-0. Top of the card: Mahomes 28.98, Chase 26.5, Young 24.08, Walker 23.8, Gibbs 23.3. The only portfolio that looks both undefeated and overfunded.</p>
+          <p>That was the Week 2 high among winners, and it wasn’t a fluke — season PF sits at 393.06, also league-best. Kylejones10’s portfolio blew out Skat’s BruteForce Theorem by 36.16 and is now 2-0 with a five-man core that cleared 23 each. The only book that looks both undefeated and overfunded.</p>
         </article>
         <article class="award">
           <span>Villain</span>
           <strong>ThePeopleBeaters</strong>
-          <div class="award-num">82.66 / −64.94</div>
-          <p>Lowest Week 2 PF. Largest margin of defeat. Fell 82.66–147.6 to J’Allen Waffle Stompers. Dart 0.8, Goedert 1.4, KC DEF 1.0 as starters; Olave 22.6 was the only starter above 16. That is not variance. That is a filing.</p>
+          <div class="award-num">82.66</div>
+          <p>Lowest print of the week, largest margin of defeat (−64.94). Dart at 0.8, Goedert at 1.4, KC DEF at 1.0 — and Olave’s 22.6 as the only starter above 16. That is not variance. That is a filing.</p>
         </article>
         <article class="award">
           <span>Weird Flex</span>
           <strong>Jaxon Smith-Njigba, 42.5, in a loss</strong>
           <div class="award-num">42.5</div>
-          <p>Highest single-starter score of Week 2 — on Mendozareamazingpicks, who still lost 154.24–165.68 to Unsportsmanlike Conduct (−11.44). Secondary exhibit: Davante Adams 39.5 for Rams of Steel in a 133.24–140.06 loss. Production without the W is just a nice footnote on a losing statement.</p>
+          <p>Highest single-starter score of Week 2, on a team that still lost to Unsportsmanlike Conduct by 11.44. Secondary exhibit: Davante Adams at 39.5 for Rams of Steel in a six-point loss. Production without the W is a nice footnote on a losing statement.</p>
         </article>
         <article class="award">
           <span>Trade / Start Crime</span>
           <strong>Mendozareamazingpicks (primary); hammball (secondary)</strong>
           <div class="award-num">11.44</div>
-          <p>Benched Rachaad White <strong>14.3</strong> and Xavier Worthy <strong>13.5</strong>; started Rhamondre Stevenson <strong>3.6</strong> and Michael Wilson <strong>3.8</strong>; lost by <strong>11.44</strong>. White alone exceeds the margin vs Unsportsmanlike Conduct. Secondary: hammball started an empty K (0.0) plus Darnold / A. Brown / N. Collins at 0.0 each in a 91.0–95.58 loss (−4.58). Two different flavors of the same audit finding: the bench scored what the lineup needed.</p>
+          <p>DarknessMonster left White (14.3) and Worthy (13.5) on the pine, started Stevenson (3.6) and Wilson (3.8), and lost by 11.44. White alone clears the margin. Secondary: hammball fielded an empty K plus Darnold, A. Brown, and N. Collins at 0.0 each in a 4.58-point loss. Two flavors of the same audit finding — the bench scored what the lineup needed.</p>
         </article>
       </div>
     </section>
@@ -709,7 +758,7 @@
         </header>
         <div class="watch-strip">
           <h3>Deciding factor</h3>
-          <p>Split Safety Syndicate’s five-man core cleared 23+ each; Skat’s BruteForce Theorem third-best starter was a kicker.</p>
+          <p>Split Safety Syndicate did not win with a spike. They won with depth: five starters above 23, and Skat’s BruteForce Theorem’s third-best scorer was a kicker. Mahomes set the floor; Chase, Young, Walker, and Gibbs made the margin look inevitable. Skat’s Purdy-Ward QB line was honest and still irrelevant once the WR room topped out at Egbuka’s 10.3.</p>
         </div>
         <div class="split">
           <div class="split-col split-a">
@@ -722,8 +771,6 @@
                   <tr><td class="player-name">Mahomes</td><td><span class="pos pos-qb">QB</span></td><td class="n">28.98</td></tr>
                   <tr><td class="player-name">Chase</td><td><span class="pos pos-wr">WR</span></td><td class="n">26.5</td></tr>
                   <tr><td class="player-name">Young</td><td><span class="pos pos-qb">QB</span></td><td class="n">24.08</td></tr>
-                  <tr><td class="player-name">Walker</td><td><span class="pos pos-rb">RB</span></td><td class="n">23.8</td></tr>
-                  <tr><td class="player-name">Gibbs</td><td><span class="pos pos-rb">RB</span></td><td class="n">23.3</td></tr>
                 </tbody>
               </table>
             </div>
@@ -738,8 +785,6 @@
                   <tr><td class="player-name">Purdy</td><td><span class="pos pos-qb">QB</span></td><td class="n">28.48</td></tr>
                   <tr><td class="player-name">Ward</td><td><span class="pos pos-qb">QB</span></td><td class="n">20.02</td></tr>
                   <tr><td class="player-name">Aubrey</td><td><span class="pos pos-k">K</span></td><td class="n">16.0</td></tr>
-                  <tr><td class="player-name">Hall</td><td><span class="pos pos-rb">RB</span></td><td class="n">14.2</td></tr>
-                  <tr><td class="player-name">Egbuka</td><td><span class="pos pos-wr">WR</span></td><td class="n">10.3</td></tr>
                 </tbody>
               </table>
             </div>
@@ -763,7 +808,7 @@
         </header>
         <div class="watch-strip">
           <h3>Deciding factor</h3>
-          <p>Unsportsmanlike Conduct’s Taylor/Smith floor beat Mendozareamazingpicks’ JSN spike after Mendozareamazingpicks benched White+Worthy. Presented by Unsportsmanlike Conduct — and this week the numbers earn it: 2-0, 165.68, Elo 1032.0 co-#1.</p>
+          <p>This one was decided on the wrong side of Mendozareamazingpicks’ bench. JSN’s 42.5 was the week’s loudest starter and still wasn’t enough — because White (14.3) and Worthy (13.5) sat while Stevenson and Wilson combined for 7.4. Unsportsmanlike Conduct’s Taylor-Smith floor (29.2 + 27.7) absorbed the spike and closed the books. <em>Presented by Unsportsmanlike Conduct — and this week the house brand earned the masthead: 2-0, co-#1 Elo.</em></p>
         </div>
         <div class="split">
           <div class="split-col split-a">
@@ -776,8 +821,6 @@
                   <tr><td class="player-name">Taylor</td><td><span class="pos pos-rb">RB</span></td><td class="n">29.2</td></tr>
                   <tr><td class="player-name">D. Smith</td><td><span class="pos pos-wr">WR</span></td><td class="n">27.7</td></tr>
                   <tr><td class="player-name">Waddle</td><td><span class="pos pos-wr">WR</span></td><td class="n">21.8</td></tr>
-                  <tr><td class="player-name">Kittle</td><td><span class="pos pos-te">TE</span></td><td class="n">18.0</td></tr>
-                  <tr><td class="player-name">P. Washington</td><td><span class="pos pos-wr">WR</span></td><td class="n">16.8</td></tr>
                 </tbody>
               </table>
             </div>
@@ -792,8 +835,6 @@
                   <tr><td class="player-name">Smith-Njigba</td><td><span class="pos pos-wr">WR</span></td><td class="n">42.5</td></tr>
                   <tr><td class="player-name">Cook</td><td><span class="pos pos-rb">RB</span></td><td class="n">20.9</td></tr>
                   <tr><td class="player-name">Daniels</td><td><span class="pos pos-qb">QB</span></td><td class="n">14.74</td></tr>
-                  <tr><td class="player-name">Warren</td><td><span class="pos pos-te">TE</span></td><td class="n">14.4</td></tr>
-                  <tr><td class="player-name">Shrader</td><td><span class="pos pos-k">K</span></td><td class="n">14.0</td></tr>
                 </tbody>
               </table>
             </div>
@@ -817,7 +858,7 @@
         </header>
         <div class="watch-strip">
           <h3>Deciding factor</h3>
-          <p>McBride 18.1 paced a low-scoring win while hammball left an empty K and three starters at 0.0.</p>
+          <p>Lowest combined final that still produced a winner — and hammball gifted most of the margin. Empty K slot, plus Darnold, A. Brown, and N. Collins at 0.0 each. McBride’s 18.1 paced Micah parsons fan club’s thin win; Lamb’s 35.3 for hammball was a star performance wasted on a process failure. Undefeated on 95.58 is a warning label, not a coronation.</p>
         </div>
         <div class="split">
           <div class="split-col split-a">
@@ -830,8 +871,6 @@
                   <tr><td class="player-name">McBride</td><td><span class="pos pos-te">TE</span></td><td class="n">18.1</td></tr>
                   <tr><td class="player-name">L. Jackson</td><td><span class="pos pos-qb">QB</span></td><td class="n">14.8</td></tr>
                   <tr><td class="player-name">Watson</td><td><span class="pos pos-wr">WR</span></td><td class="n">14.1</td></tr>
-                  <tr><td class="player-name">Mayfield</td><td><span class="pos pos-qb">QB</span></td><td class="n">12.18</td></tr>
-                  <tr><td class="player-name">A. Jones</td><td><span class="pos pos-rb">RB</span></td><td class="n">10.5</td></tr>
                 </tbody>
               </table>
             </div>
@@ -846,8 +885,6 @@
                   <tr><td class="player-name">Lamb</td><td><span class="pos pos-wr">WR</span></td><td class="n">35.3</td></tr>
                   <tr><td class="player-name">Love</td><td><span class="pos pos-qb">QB</span></td><td class="n">13.8</td></tr>
                   <tr><td class="player-name">Irving</td><td><span class="pos pos-rb">RB</span></td><td class="n">13.0</td></tr>
-                  <tr><td class="player-name">B. Robinson</td><td><span class="pos pos-rb">RB</span></td><td class="n">11.1</td></tr>
-                  <tr><td class="player-name">PIT DEF</td><td><span class="pos pos-def">DEF</span></td><td class="n">10.0</td></tr>
                 </tbody>
               </table>
             </div>
@@ -871,7 +908,7 @@
         </header>
         <div class="watch-strip">
           <h3>Deciding factor</h3>
-          <p>Goff 29.78 + NE DEF 23.0 outlasted Adams’s 39.5 lone-wolf spike.</p>
+          <p>Adams dropped 39.5 — second-highest starter league-wide — and it still wasn’t enough. Goff’s 29.78 and NE DEF’s 23.0 built the floor; T. Shough’s 22.38 as the named flex finished the math. After Adams, Rams of Steel’s next starter was Hampton at 17.5. Star without a second engine.</p>
         </div>
         <div class="split">
           <div class="split-col split-a">
@@ -884,8 +921,6 @@
                   <tr><td class="player-name">Goff</td><td><span class="pos pos-qb">QB</span></td><td class="n">29.78</td></tr>
                   <tr><td class="player-name">NE DEF</td><td><span class="pos pos-def">DEF</span></td><td class="n">23.0</td></tr>
                   <tr><td class="player-name">T. Shough</td><td><span class="pos pos-qb">QB</span></td><td class="n">22.38</td></tr>
-                  <tr><td class="player-name">G. Wilson</td><td><span class="pos pos-wr">WR</span></td><td class="n">16.7</td></tr>
-                  <tr><td class="player-name">Tuten</td><td><span class="pos pos-rb">RB</span></td><td class="n">14.2</td></tr>
                 </tbody>
               </table>
             </div>
@@ -900,8 +935,6 @@
                   <tr><td class="player-name">Adams</td><td><span class="pos pos-wr">WR</span></td><td class="n">39.5</td></tr>
                   <tr><td class="player-name">Hampton</td><td><span class="pos pos-rb">RB</span></td><td class="n">17.5</td></tr>
                   <tr><td class="player-name">Nix</td><td><span class="pos pos-qb">QB</span></td><td class="n">14.12</td></tr>
-                  <tr><td class="player-name">Achane</td><td><span class="pos pos-rb">RB</span></td><td class="n">12.3</td></tr>
-                  <tr><td class="player-name">Rice</td><td><span class="pos pos-wr">WR</span></td><td class="n">12.3</td></tr>
                 </tbody>
               </table>
             </div>
@@ -925,7 +958,7 @@
         </header>
         <div class="watch-strip">
           <h3>Deciding factor</h3>
-          <p>St. Brown 35.2 + Prescott 29.76 built a 16-point cushion Kingslayers never closed.</p>
+          <p>First win of the season, and it arrived with a two-man spike: St. Brown at 35.2, Prescott at 29.76. Kingslayers had Schultz’s 26.0 (TE high for the week) and Stafford’s 26.98 and still never closed. Nacua at 0.0 as a starter was a dead slot in a 16-point loss. Dak Side of the Sun is back to Elo par; Kingslayers’ PA is the league’s worst.</p>
         </div>
         <div class="split">
           <div class="split-col split-a">
@@ -938,8 +971,6 @@
                   <tr><td class="player-name">A. St. Brown</td><td><span class="pos pos-wr">WR</span></td><td class="n">35.2</td></tr>
                   <tr><td class="player-name">Prescott</td><td><span class="pos pos-qb">QB</span></td><td class="n">29.76</td></tr>
                   <tr><td class="player-name">LaPorta</td><td><span class="pos pos-te">TE</span></td><td class="n">17.2</td></tr>
-                  <tr><td class="player-name">Burrow</td><td><span class="pos pos-qb">QB</span></td><td class="n">16.18</td></tr>
-                  <tr><td class="player-name">K. Williams</td><td><span class="pos pos-rb">RB</span></td><td class="n">15.7</td></tr>
                 </tbody>
               </table>
             </div>
@@ -954,8 +985,6 @@
                   <tr><td class="player-name">Stafford</td><td><span class="pos pos-qb">QB</span></td><td class="n">26.98</td></tr>
                   <tr><td class="player-name">Schultz</td><td><span class="pos pos-te">TE</span></td><td class="n">26.0</td></tr>
                   <tr><td class="player-name">MIN DEF</td><td><span class="pos pos-def">DEF</span></td><td class="n">18.0</td></tr>
-                  <tr><td class="player-name">Henry</td><td><span class="pos pos-rb">RB</span></td><td class="n">17.7</td></tr>
-                  <tr><td class="player-name">McPherson</td><td><span class="pos pos-k">K</span></td><td class="n">12.0</td></tr>
                 </tbody>
               </table>
             </div>
@@ -979,7 +1008,7 @@
         </header>
         <div class="watch-strip">
           <h3>Deciding factor</h3>
-          <p>Allen 40.82 and a functional supporting cast met a lineup that maxed at Olave 22.6.</p>
+          <p>The week’s demolition. Allen’s 40.82 (QB high) met a lineup that maxed at Olave’s 22.6. McCaffrey and Kincaid both cleared 22; ThePeopleBeaters answered with Dart at 0.8 and a defense at 1.0. Sixty-five points is not a bad matchup. It is a solvency event.</p>
         </div>
         <div class="split">
           <div class="split-col split-a">
@@ -992,8 +1021,6 @@
                   <tr><td class="player-name">J. Allen</td><td><span class="pos pos-qb">QB</span></td><td class="n">40.82</td></tr>
                   <tr><td class="player-name">McCaffrey</td><td><span class="pos pos-rb">RB</span></td><td class="n">22.6</td></tr>
                   <tr><td class="player-name">Kincaid</td><td><span class="pos pos-te">TE</span></td><td class="n">22.5</td></tr>
-                  <tr><td class="player-name">Higgins</td><td><span class="pos pos-wr">WR</span></td><td class="n">14.5</td></tr>
-                  <tr><td class="player-name">Reichard</td><td><span class="pos pos-k">K</span></td><td class="n">10.0</td></tr>
                 </tbody>
               </table>
             </div>
@@ -1008,8 +1035,6 @@
                   <tr><td class="player-name">Olave</td><td><span class="pos pos-wr">WR</span></td><td class="n">22.6</td></tr>
                   <tr><td class="player-name">McMillan</td><td><span class="pos pos-wr">WR</span></td><td class="n">15.1</td></tr>
                   <tr><td class="player-name">Jeanty</td><td><span class="pos pos-rb">RB</span></td><td class="n">10.3</td></tr>
-                  <tr><td class="player-name">Lloyd</td><td><span class="pos pos-rb">RB</span></td><td class="n">8.6</td></tr>
-                  <tr><td class="player-name">H. Henry</td><td><span class="pos pos-te">TE</span></td><td class="n">7.0</td></tr>
                 </tbody>
               </table>
             </div>
@@ -1030,7 +1055,7 @@
           <h3>None this week.</h3>
         </header>
         <div class="body">
-          <p>No notable trades in the Week 2 window.</p>
+          <p>None this week.</p>
         </div>
       </article>
     </section>
@@ -1130,7 +1155,7 @@
       </div>
       <aside class="bench-box">
         <h3>Notable bench ≥15 (not started)</h3>
-        <p>Split Safety Syndicate left 25.1 / 21.7 / 20.5 on the pine and still scored 166.06 — that is not a crime; that is a surplus.</p>
+        <p>Kelce 25.1, Diggs 21.7, Boston 20.5, G. Smith 15.58 (all Split Safety Syndicate) · Tucker 22.9, Cousins 20.22 (J’Allen Waffle Stompers) · Ferguson 20.3 (Dak Side of the Sun) · Stroud 17.02 (Unsportsmanlike Conduct). Split Safety Syndicate left three 20+ pieces on the pine and still scored 166.06 — surplus, not crime.</p>
         <ul class="bench-list">
           <li><span>Kelce 25.1 (Split Safety Syndicate)</span><b>25.1</b></li>
           <li><span>Tucker 22.9 (J’Allen Waffle Stompers)</span><b>22.9</b></li>
@@ -1147,7 +1172,7 @@
     <section id="damage">
       <div class="section-head">
         <h2>Damage reports</h2>
-        <p>All twelve clubs. Painfully Honest Verdict / What Actually Worked / Where It Got Weird.</p>
+        <p>All twelve clubs. Verdict / What worked / Fix.</p>
       </div>
 
       <article class="team-card" id="team-1">
@@ -1162,13 +1187,12 @@
         </header>
         <div class="team-body">
           <div class="analysis-grid">
-            <section class="take take-bad"><h3>Painfully Honest Verdict</h3><p>Co-#1 Elo, 165.68 over Mendozareamazingpicks, Taylor 29.2 + D. Smith 27.7. The house brand is solvent.</p></section>
-            <section class="take take-good"><h3>What Actually Worked</h3><p>Starting core cleared 16+ five deep; beat a 154.24 opponent that had the week’s top WR.</p></section>
-            <section class="take take-path"><h3>Where It Got Weird</h3><p>Stroud 17.02 sat on the bench — fine when you’re 2-0 and 165.68; less fine if the next Mendozareamazingpicks-class spike lands cleaner.</p></section>
+            <section class="take take-bad"><h3>Verdict</h3><p>Co-#1 on the board after beating Mendozareamazingpicks by 11.44. The house brand is solvent — and this week the numbers earn the roast immunity.</p></section>
+            <section class="take take-good"><h3>What worked</h3><p>Taylor 29.2 and D. Smith 27.7 absorbed the week’s top WR spike.</p></section>
+            <section class="take take-path"><h3>Fix</h3><p>Stroud’s 17.02 sat fine in a 165.68 win; less fine if the next opponent’s spike lands cleaner.</p></section>
           </div>
         </div>
       </article>
-
       <article class="team-card" id="team-2">
         <header class="team-head">
           <div class="rank-medallion">#2</div>
@@ -1181,13 +1205,12 @@
         </header>
         <div class="team-body">
           <div class="analysis-grid">
-            <section class="take take-bad"><h3>Painfully Honest Verdict</h3><p>+64.94 over ThePeopleBeaters; Allen 40.82; PA 200.8 is the softest allow on the board. Co-#1 earned.</p></section>
-            <section class="take take-good"><h3>What Actually Worked</h3><p>Allen / McCaffrey 22.6 / Kincaid 22.5 turned a mismatch into a filing.</p></section>
-            <section class="take take-path"><h3>Where It Got Weird</h3><p>Tucker 22.9 and Cousins 20.22 left on the bench in a 147.6 win — surplus, not malpractice. Keep the starter bar honest when the opponent isn’t 82.66.</p></section>
+            <section class="take take-bad"><h3>Verdict</h3><p>Demolished ThePeopleBeaters by 64.94. Softest points allowed on the board. Co-#1 earned.</p></section>
+            <section class="take take-good"><h3>What worked</h3><p>Allen 40.82, McCaffrey 22.6, Kincaid 22.5 turned a mismatch into a filing.</p></section>
+            <section class="take take-path"><h3>Fix</h3><p>Tucker 22.9 and Cousins 20.22 on the bench in a blowout is surplus. Keep the starter bar honest when the opponent isn’t 82.66.</p></section>
           </div>
         </div>
       </article>
-
       <article class="team-card" id="team-3">
         <header class="team-head">
           <div class="rank-medallion">#3</div>
@@ -1200,13 +1223,12 @@
         </header>
         <div class="team-body">
           <div class="analysis-grid">
-            <section class="take take-bad"><h3>Painfully Honest Verdict</h3><p>Week-high 166.06; season PF 393.06 league-best; Mahomes/Chase/Walker/Gibbs all 23+. Undefeated and overcapitalized.</p></section>
-            <section class="take take-good"><h3>What Actually Worked</h3><p>Five starters above 23; blew out Skat’s BruteForce Theorem by 36.16.</p></section>
-            <section class="take take-path"><h3>Where It Got Weird</h3><p>Kelce 25.1, Diggs 21.7, Boston 20.5, G. Smith 15.58 all benched in a 166.06 win. That is embarrassment of riches, not a start crime — just don’t get cute when the margin shrinks.</p></section>
+            <section class="take take-bad"><h3>Verdict</h3><p>Week-high 166.06 and a league-best 393.06 season PF. Undefeated and overcapitalized.</p></section>
+            <section class="take take-good"><h3>What worked</h3><p>Five starters above 23; blew out Skat’s BruteForce Theorem by 36.16.</p></section>
+            <section class="take take-path"><h3>Fix</h3><p>Kelce, Diggs, and Boston all cleared 20 on the pine. Embarrassment of riches — just don’t get cute when the margin shrinks.</p></section>
           </div>
         </div>
       </article>
-
       <article class="team-card" id="team-4">
         <header class="team-head">
           <div class="rank-medallion">#4</div>
@@ -1219,13 +1241,12 @@
         </header>
         <div class="team-body">
           <div class="analysis-grid">
-            <section class="take take-bad"><h3>Painfully Honest Verdict</h3><p>2-0 via 95.58–91.0. Undefeated on the thinnest winning total among the four.</p></section>
-            <section class="take take-good"><h3>What Actually Worked</h3><p>McBride 18.1 paced a low-scoring win; hammball’s empty slots did the rest.</p></section>
-            <section class="take take-path"><h3>Where It Got Weird</h3><p>Top starter at 18.1 in a win is a warning label. 2-0 is 2-0; 95.58 will not survive every week if the opponent fields a full K.</p></section>
+            <section class="take take-bad"><h3>Verdict</h3><p>Survived by 4.58. Undefeated on the thinnest winning total among the four.</p></section>
+            <section class="take take-good"><h3>What worked</h3><p>McBride 18.1 paced a low-scoring win; hammball’s empty slots did the rest.</p></section>
+            <section class="take take-path"><h3>Fix</h3><p>Top starter at 18.1 in a win is a warning label. 95.58 will not survive every week if the opponent fields a full K.</p></section>
           </div>
         </div>
       </article>
-
       <article class="team-card" id="team-5">
         <header class="team-head">
           <div class="rank-medallion">#5</div>
@@ -1238,13 +1259,12 @@
         </header>
         <div class="team-body">
           <div class="analysis-grid">
-            <section class="take take-bad"><h3>Painfully Honest Verdict</h3><p>First win, 152.14–136.1 over Kingslayers. St. Brown 35.2 + Prescott 29.76. Elo back to 1000.0.</p></section>
-            <section class="take take-good"><h3>What Actually Worked</h3><p>Dual-QB + St. Brown spike built a 16.04 margin.</p></section>
-            <section class="take take-path"><h3>Where It Got Weird</h3><p>PA 317.7 still ugly for 1-1; Ferguson 20.3 sat. First win bought solvency — defense of points allowed is the next audit.</p></section>
+            <section class="take take-bad"><h3>Verdict</h3><p>First win, 152.14 over Kingslayers. Elo back to par.</p></section>
+            <section class="take take-good"><h3>What worked</h3><p>St. Brown 35.2 and Prescott 29.76 built a 16-point cushion.</p></section>
+            <section class="take take-path"><h3>Fix</h3><p>Points allowed still ugly for 1-1; Ferguson’s 20.3 sat. First win bought solvency — the next audit is defense.</p></section>
           </div>
         </div>
       </article>
-
       <article class="team-card" id="team-6">
         <header class="team-head">
           <div class="rank-medallion">#6</div>
@@ -1257,13 +1277,12 @@
         </header>
         <div class="team-body">
           <div class="analysis-grid">
-            <section class="take take-bad"><h3>Painfully Honest Verdict</h3><p>154.24 with JSN 42.5 and still −11.44 to Unsportsmanlike Conduct. White 14.3 + Worthy 13.5 benched; Stevenson 3.6 + Wilson 3.8 started. Self-inflicted.</p></section>
-            <section class="take take-good"><h3>What Actually Worked</h3><p>Smith-Njigba 42.5 (week-high starter); Cook 20.9. The ceiling showed up.</p></section>
-            <section class="take take-path"><h3>Where It Got Weird</h3><p>Start the 14.3 and 13.5. White alone clears the 11.44 margin. This is the week’s cleanest start crime.</p></section>
+            <section class="take take-bad"><h3>Verdict</h3><p>154.24 with JSN’s 42.5 and still lost by 11.44. Self-inflicted.</p></section>
+            <section class="take take-good"><h3>What worked</h3><p>Smith-Njigba’s week-high starter; Cook 20.9. The ceiling showed up.</p></section>
+            <section class="take take-path"><h3>Fix</h3><p>Start White (14.3) and Worthy (13.5). White alone clears the margin. Cleanest start crime of the week.</p></section>
           </div>
         </div>
       </article>
-
       <article class="team-card" id="team-7">
         <header class="team-head">
           <div class="rank-medallion">#7</div>
@@ -1276,13 +1295,12 @@
         </header>
         <div class="team-body">
           <div class="analysis-grid">
-            <section class="take take-bad"><h3>Painfully Honest Verdict</h3><p>82.66 / −64.94. Dart 0.8 as a starter. League floor. Villain of the week by arithmetic.</p></section>
-            <section class="take take-good"><h3>What Actually Worked</h3><p>Olave 22.6 — the only starter above 16. That is the whole list.</p></section>
-            <section class="take take-path"><h3>Where It Got Weird</h3><p>Dart 0.8, Goedert 1.4, KC DEF 1.0 cannot be the plan again. 1-1 on paper; the Week 2 statement is insolvent.</p></section>
+            <section class="take take-bad"><h3>Verdict</h3><p>82.66 and −64.94. League floor. Villain by arithmetic.</p></section>
+            <section class="take take-good"><h3>What worked</h3><p>Olave 22.6 — the only starter above 16. That is the whole list.</p></section>
+            <section class="take take-path"><h3>Fix</h3><p>Dart 0.8, Goedert 1.4, KC DEF 1.0 cannot be the plan again. 1-1 on paper; the Week 2 statement is insolvent.</p></section>
           </div>
         </div>
       </article>
-
       <article class="team-card" id="team-8">
         <header class="team-head">
           <div class="rank-medallion">#8</div>
@@ -1295,13 +1313,12 @@
         </header>
         <div class="team-body">
           <div class="analysis-grid">
-            <section class="take take-bad"><h3>Painfully Honest Verdict</h3><p>First win 140.06–133.24 over Rams of Steel. Goff 29.78 + NE DEF 23.0. Elo back to par.</p></section>
-            <section class="take take-good"><h3>What Actually Worked</h3><p>Goff and NE DEF outlasted Adams 39.5; Shough 22.38 as the named QB flex did real work.</p></section>
-            <section class="take take-path"><h3>Where It Got Weird</h3><p>PF 258.2 is still mid-pack for a winner. Don’t lean on DEF 23.0 as a weekly assumption.</p></section>
+            <section class="take take-bad"><h3>Verdict</h3><p>First win by 6.82 over Rams of Steel. Elo back to par.</p></section>
+            <section class="take take-good"><h3>What worked</h3><p>Goff 29.78 and NE DEF 23.0 outlasted Adams’s 39.5; T. Shough 22.38 did real flex work.</p></section>
+            <section class="take take-path"><h3>Fix</h3><p>Mid-pack PF for a winner. Don’t lean on a 23-point defense as a weekly assumption.</p></section>
           </div>
         </div>
       </article>
-
       <article class="team-card" id="team-9">
         <header class="team-head">
           <div class="rank-medallion">#9</div>
@@ -1314,13 +1331,12 @@
         </header>
         <div class="team-body">
           <div class="analysis-grid">
-            <section class="take take-bad"><h3>Painfully Honest Verdict</h3><p>0-2; lost 129.9–166.06 to Split Safety Syndicate (−36.16). Purdy 28.48 wasn’t enough when the WR room topped out at Egbuka 10.3.</p></section>
-            <section class="take take-good"><h3>What Actually Worked</h3><p>Purdy 28.48 and Ward 20.02 kept the QB line honest.</p></section>
-            <section class="take take-path"><h3>Where It Got Weird</h3><p>Coleman 14.8 left on the bench in a 36-point loss. Start the 14.8. Season Elo Δ −30.53 and counting.</p></section>
+            <section class="take take-bad"><h3>Verdict</h3><p>Lost by 36.16 to Split Safety Syndicate. Purdy’s 28.48 wasn’t enough when the WR room topped out at 10.3.</p></section>
+            <section class="take take-good"><h3>What worked</h3><p>Purdy and Ward kept the QB line honest.</p></section>
+            <section class="take take-path"><h3>Fix</h3><p>Coleman’s 14.8 sat in a 36-point loss. Start the 14.8. Season Elo still bleeding.</p></section>
           </div>
         </div>
       </article>
-
       <article class="team-card" id="team-10">
         <header class="team-head">
           <div class="rank-medallion">#10</div>
@@ -1333,13 +1349,12 @@
         </header>
         <div class="team-body">
           <div class="analysis-grid">
-            <section class="take take-bad"><h3>Painfully Honest Verdict</h3><p>0-2; 91.0–95.58 nail-biter L. Empty K + Darnold / A. Brown / N. Collins all 0.0 starters. Lamb 35.3 wasted.</p></section>
-            <section class="take take-good"><h3>What Actually Worked</h3><p>Lamb 35.3 — the only entry that would pass a spot-check.</p></section>
-            <section class="take take-path"><h3>Where It Got Weird</h3><p>Fill the K slot. Do not start three zeros. A −4.58 loss with an empty kicker is a process failure, not bad luck.</p></section>
+            <section class="take take-bad"><h3>Verdict</h3><p>Lost by 4.58. Empty K, three starters at 0.0, Lamb’s 35.3 wasted.</p></section>
+            <section class="take take-good"><h3>What worked</h3><p>Lamb 35.3 — the only entry that would pass a spot-check.</p></section>
+            <section class="take take-path"><h3>Fix</h3><p>Fill the K slot. Do not start three zeros. A nail-biter loss with an empty kicker is process failure, not bad luck.</p></section>
           </div>
         </div>
       </article>
-
       <article class="team-card" id="team-11">
         <header class="team-head">
           <div class="rank-medallion">#11</div>
@@ -1352,13 +1367,12 @@
         </header>
         <div class="team-body">
           <div class="analysis-grid">
-            <section class="take take-bad"><h3>Painfully Honest Verdict</h3><p>0-2; 136.1–152.14 to Dak Side of the Sun. PA 332.04 league-worst. Nacua 0.0 as a starter; Schultz 26.0 wasted in a loss.</p></section>
-            <section class="take take-good"><h3>What Actually Worked</h3><p>Schultz 26.0 (TE high) and Stafford 26.98 — production without the result.</p></section>
-            <section class="take take-path"><h3>Where It Got Weird</h3><p>Nacua at 0.0 in the lineup is a dead slot. Season Elo Δ −32.00. Stop bleeding points allowed.</p></section>
+            <section class="take take-bad"><h3>Verdict</h3><p>Lost by 16.04 to Dak Side of the Sun. Worst points allowed in the league. Nacua at 0.0; Schultz’s 26.0 wasted.</p></section>
+            <section class="take take-good"><h3>What worked</h3><p>Schultz (TE high) and Stafford 26.98 — production without the result.</p></section>
+            <section class="take take-path"><h3>Fix</h3><p>A 0.0 starter is a dead slot. Stop bleeding points allowed.</p></section>
           </div>
         </div>
       </article>
-
       <article class="team-card" id="team-12">
         <header class="team-head">
           <div class="rank-medallion">#12</div>
@@ -1371,9 +1385,9 @@
         </header>
         <div class="team-body">
           <div class="analysis-grid">
-            <section class="take take-bad"><h3>Painfully Honest Verdict</h3><p>0-2; Adams 39.5 (2nd-high starter league-wide) and still lost 133.24–140.06 to WELL! It's The Big Shough. Star without solvency.</p></section>
-            <section class="take take-good"><h3>What Actually Worked</h3><p>Adams 39.5 — elite single-player print that did not buy a win.</p></section>
-            <section class="take take-path"><h3>Where It Got Weird</h3><p>After Adams, the next starter was Hampton 17.5; Nix 14.12 isn’t a Superflex answer. Season Elo Δ −32.00. Need a second engine.</p></section>
+            <section class="take take-bad"><h3>Verdict</h3><p>Adams 39.5 (second-high starter league-wide) and still lost by 6.82. Star without solvency.</p></section>
+            <section class="take take-good"><h3>What worked</h3><p>Adams’s elite single-player print.</p></section>
+            <section class="take take-path"><h3>Fix</h3><p>After Adams, Hampton 17.5 and Nix 14.12 aren’t a Superflex answer. Need a second engine.</p></section>
           </div>
         </div>
       </article>
@@ -1391,7 +1405,8 @@
         <li><strong>Data:</strong> Sleeper via nfl-mcp — <code>get_matchups(week=2)</code>, <code>get_rosters</code>, <code>get_league_users</code>, <code>get_transactions</code> (weeks 2–3), <code>get_nfl_state</code>.</li>
         <li><strong>NFL state note:</strong> <code>display_week=2</code> while <code>week=3</code> / <code>leg=3</code>; this issue treats <strong>Week 2 as the scored leg</strong>. Week 3 is not settled.</li>
         <li><strong>Trades:</strong> No <code>type=trade</code> in the W2 window (one waiver only — not covered here).</li>
-        <li><strong>Status:</strong>. Scores and Elo above are pack-sourced only.</li>
+        <li><strong>Gaps flagged:</strong> hammball empty K slot (<code>player_id=0</code>) counted as 0.0 starter, not a named player; roster <code>settings.fpts</code> are truncated integers — pack PF/PA use full matchup floats.</li>
+        <li><strong>Status:</strong> Published revision 2026-09-22. Scores and Elo above are pack-sourced only.</li>
       </ul>
     </div>
   </footer>
