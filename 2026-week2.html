@@ -45,8 +45,8 @@
 
     /* COMPONENT: draft-banner */
     .draft-banner {
-      position: sticky;
-      top: 0;
+      position: relative;
+      top: auto;
       z-index: 30;
       background: var(--acid);
       color: var(--ink);
@@ -147,10 +147,10 @@
     }
 
     .nav {
-      position: sticky;
-      top: 36px;
+      position: relative;
+      top: auto;
       z-index: 15;
-      background: rgba(243,238,223,.94);
+      background: rgba(243,238,223,.96);
       backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--line);
     }
@@ -200,7 +200,7 @@
       border: 2px solid var(--ink);
       box-shadow: var(--shadow);
       margin: 0 0 48px;
-      scroll-margin-top: 90px;
+      scroll-margin-top: 140px;
     }
     .matchup-head {
       display: grid;
@@ -418,7 +418,6 @@
       .matchup-side-b { text-align: start; border-top: 1px solid rgba(243,238,223,.2); }
       .split { grid-template-columns: 1fr; }
       .split-a { border-right: 0; border-bottom: 2px solid var(--ink); }
-      .nav { top: 34px; }
     }
     @media (max-width: 650px) {
       h1 { font-size: clamp(40px, 12vw, 52px); }
@@ -472,6 +471,24 @@
     .award .award-num { font-family: Georgia, serif; font-size: 28px; font-weight: 900; margin: 0 0 8px; }
     .award p { margin: 0; font-size: 13px; line-height: 1.45; }
     .winner-pill { display: inline-block; margin-left: 8px; background: var(--acid); color: var(--ink); border: 1px solid var(--ink); padding: 2px 6px; font-size: 9px; font-weight: 900; letter-spacing: .08em; vertical-align: 3px; font-family: ui-sans-serif, system-ui, sans-serif; font-style: normal; }
+
+    /* COMPONENT: waiver grade pills (GOOD / MIXED / BAD) — cream/acid/ink/red/blue only */
+    .grade-pill {
+      display: inline-block;
+      padding: 3px 8px;
+      border: 1px solid var(--ink);
+      font-size: 10px;
+      font-weight: 900;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      vertical-align: middle;
+      line-height: 1.2;
+      font-family: ui-sans-serif, system-ui, sans-serif;
+      font-style: normal;
+    }
+    .grade-good { background: var(--acid); color: var(--ink); }
+    .grade-mixed { background: var(--blue); color: var(--ink); }
+    .grade-bad { background: var(--red); color: var(--ink); }
     .pos-k { background: #ffd6a8; }
     .pos-def { background: #ddd6c7; }
     .trade-lede { margin: 0 0 22px; font-family: Georgia, serif; font-size: 18px; line-height: 1.5; color: var(--muted); }
@@ -485,7 +502,7 @@
     .bench-list li { display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px solid var(--line); padding: 8px 0; }
     .bench-list b { font-family: Georgia, serif; font-size: 16px; }
     /* COMPONENT: team damage panel (DNA) */
-    .team-card { background: var(--paper-2); border: 2px solid var(--ink); box-shadow: var(--shadow); margin: 0 0 28px; scroll-margin-top: 90px; }
+    .team-card { background: var(--paper-2); border: 2px solid var(--ink); box-shadow: var(--shadow); margin: 0 0 28px; scroll-margin-top: 140px; }
     .team-head { display: grid; grid-template-columns: 90px minmax(0, 1fr) 110px; align-items: center; border-bottom: 2px solid var(--ink); background: var(--ink); color: var(--paper); min-height: 130px; min-width: 0; }
     .rank-medallion { align-self: stretch; display: grid; place-items: center; background: var(--acid); color: var(--ink); font-family: Georgia, serif; font-size: 36px; font-weight: 900; }
     .team-identity { padding: 22px 28px; min-width: 0; overflow-wrap: anywhere; word-break: break-word; }
@@ -562,6 +579,87 @@
       .take { padding: 14px; }
     }
 
+  
+    /* LAYOUT FIXES 2026-09-22 — sticky nav clearance, masthead height, Elo fit */
+    #rankings, #awards, #autopsies, #trades, #waivers, #standouts, #damage, #methods,
+    .matchup-card, .team-card, .section-head, main > section {
+      scroll-margin-top: 140px;
+    }
+    .masthead {
+      /* do not fill the viewport — leave room for nav + first content */
+      max-height: none;
+    }
+    .hero {
+      padding: 40px 24px 36px;
+      align-items: center;
+      gap: 28px;
+    }
+    h1 {
+      font-size: clamp(36px, 5.5vw, 64px);
+      line-height: .9;
+      margin: 16px 0 14px;
+      letter-spacing: -.05em;
+    }
+    .deck {
+      font-size: clamp(15px, 1.5vw, 20px);
+      line-height: 1.4;
+    }
+    .hero-logo {
+      width: 112px;
+      height: 112px;
+    }
+    .grade {
+      width: auto;
+      min-width: 128px;
+      max-width: 160px;
+      box-sizing: border-box;
+      padding: 10px 6px;
+      font-size: clamp(15px, 1.5vw, 20px);
+      overflow: hidden;
+      transform: rotate(1deg);
+      white-space: nowrap;
+    }
+    .grade span {
+      font-size: 8px;
+      letter-spacing: .12em;
+    }
+    .team-head {
+      grid-template-columns: 90px minmax(0, 1fr) minmax(128px, 160px);
+    }
+    .rank-grade {
+      font-size: 15px;
+      padding: 6px 8px;
+      white-space: nowrap;
+      overflow: hidden;
+      max-width: 100%;
+    }
+    @media (max-width: 900px) {
+      .hero { padding: 28px 18px 28px; gap: 20px; }
+      h1 { font-size: clamp(32px, 7vw, 48px); }
+      .nav { top: 0; }
+      #rankings, #awards, #autopsies, #trades, #waivers, #standouts, #damage, #methods,
+      .matchup-card, .team-card, .section-head, main > section {
+        scroll-margin-top: 160px;
+      }
+    }
+    @media (max-width: 650px) {
+      .grade {
+        max-width: none;
+        min-width: 0;
+        width: 100%;
+        font-size: 20px;
+        white-space: normal;
+        overflow: visible;
+      }
+      .team-head { grid-template-columns: 64px minmax(0, 1fr); }
+      h1 { font-size: clamp(28px, 8vw, 40px); margin: 12px 0; }
+      .hero-logo { width: 88px; height: 88px; }
+      #rankings, #awards, #autopsies, #trades, #waivers, #standouts, #damage, #methods,
+      .matchup-card, .team-card, .section-head, main > section {
+        scroll-margin-top: 180px;
+      }
+    }
+
   </style>
 </head>
 <body>
@@ -610,6 +708,7 @@
       <a href="#awards">Awards</a>
       <a href="#autopsies">Autopsies</a>
       <a href="#trades">Trades</a>
+      <a href="#waivers">Waivers</a>
       <a href="#standouts">Standouts</a>
       <a href="#damage">Damage</a>
       <a href="#method">Methods</a>
@@ -1054,6 +1153,177 @@
           <p>None this week.</p>
         </div>
       </article>
+    </section>
+
+    <section id="waivers">
+      <div class="section-head">
+        <h2>Waivers / roster changes</h2>
+        <p>Week 2 clear cycle — one claim, zero FAAB spent, grades attached.</p>
+      </div>
+      <p class="trade-lede">Week 2’s clear cycle was nearly idle. One waiver cleared the whole league — Kingslayers took <strong>C. Brooks</strong> for <strong>$0</strong> — and <strong>$0</strong> FAAB left the bank. Unsportsmanlike Conduct filed nothing: still <strong>$200</strong> remaining, waiver slot 3, zero moves on the season ledger.</p>
+
+      <h3 style="font-family:Georgia,serif;font-size:22px;letter-spacing:-.02em;margin:0 0 12px;">Week 2 clears</h3>
+      <div class="table-wrap" style="margin-bottom:16px;">
+        <table>
+          <thead>
+            <tr>
+              <th>Team</th>
+              <th>Add</th>
+              <th>Drop</th>
+              <th class="n">FAAB</th>
+              <th>Grade</th>
+              <th>One-liner</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Kingslayers</td>
+              <td class="player-name">C. Brooks <span class="pos pos-rb">RB</span></td>
+              <td>—</td>
+              <td class="n">$0</td>
+              <td><span class="grade-pill grade-mixed">MIXED</span></td>
+              <td>Free GB RB dart; 3.6 pts / ~46% snaps on the bench — cheap, not a smash.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="faab-note" style="margin:0 0 28px;">Everyone else (R1–R6, R8–R12): no week=2 waiver or free-agent adds or drops. No trades in the window. No IR or drop-only free-agent moves exposed as transactions.</p>
+
+      <article class="trade-card" style="margin-bottom:28px;">
+        <header>
+          <span>Week 2 · Clear · <span class="grade-pill grade-mixed">MIXED</span></span>
+          <h3>C. Brooks — Kingslayers</h3>
+        </header>
+        <div class="body">
+          <p>Kingslayers paid nothing and dropped nothing — a free bench claim cleared 2026-09-19. Brooks sat for <strong>3.6</strong> fantasy points on about <strong>46%</strong> snaps against the Jets. Sleeper has him third on Green Bay’s RB chart; FantasyCalc puts him at dynasty <strong>#256</strong> overall. Best (and only) skill add of the W2 clear — still just a dart with the safety off.</p>
+        </div>
+      </article>
+
+      <h3 style="font-family:Georgia,serif;font-size:22px;letter-spacing:-.02em;margin:0 0 12px;">Mini-board (W2 clear cycle)</h3>
+      <div class="table-wrap" style="margin-bottom:40px;">
+        <table>
+          <thead>
+            <tr>
+              <th>Award</th>
+              <th>Pick</th>
+              <th>Line</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Best pickup</strong></td>
+              <td class="player-name">C. Brooks (Kingslayers, $0)</td>
+              <td>Only W2 skill add; free RB with real snap share and a 3.6-point sample on the pine.</td>
+            </tr>
+            <tr>
+              <td><strong>Worst / most expensive miss</strong></td>
+              <td>N/A</td>
+              <td>League spent <strong>$0</strong> FAAB in the W2 clear — nothing to overpay. Expensive misses live in the post–W1 appendix below, not this window.</td>
+            </tr>
+            <tr>
+              <td><strong>FAAB discipline</strong></td>
+              <td>Entire league idle</td>
+              <td>Zero dollars cleared week=2. Unsportsmanlike Conduct still full <strong>$200</strong> / <strong>$0</strong> used.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="bench-box" style="margin-bottom:28px;">
+        <h3>Appendix — Post–Week 1 FAAB cycle</h3>
+        <p><strong>NOT Week 2 clears.</strong> Sleeper <code>leg=1</code> / MCP <code>week=1</code> transactions that cleared <strong>2026-09-16–17 ET</strong> — after Week 1 scoring, before the W2 clear window. Useful for “what managers spent after W1.” Do not count these as Week 2 clears.</p>
+        <div class="table-wrap" style="margin:16px 0 20px;">
+          <table>
+            <thead>
+              <tr>
+                <th>Team</th>
+                <th>Add</th>
+                <th>Drop</th>
+                <th class="n">FAAB</th>
+                <th>Grade</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>J’Allen Waffle Stompers</td>
+                <td class="player-name">D. Vele <span class="pos pos-wr">WR</span></td>
+                <td>—</td>
+                <td class="n">$20</td>
+                <td><span class="grade-pill grade-good">GOOD</span></td>
+              </tr>
+              <tr>
+                <td>Kingslayers</td>
+                <td class="player-name">C. Wentz <span class="pos pos-qb">QB</span></td>
+                <td>A. Kamara (RB)</td>
+                <td class="n">$20</td>
+                <td><span class="grade-pill grade-mixed">MIXED</span></td>
+              </tr>
+              <tr>
+                <td>Kingslayers</td>
+                <td class="player-name">M. Gesicki <span class="pos pos-te">TE</span></td>
+                <td>T. Ferguson (TE)</td>
+                <td class="n">$15</td>
+                <td><span class="grade-pill grade-bad">BAD</span></td>
+              </tr>
+              <tr>
+                <td>Mendozareamazingpicks</td>
+                <td class="player-name">J. Brissett <span class="pos pos-qb">QB</span></td>
+                <td>T. Tagovailoa (QB)</td>
+                <td class="n">$10</td>
+                <td><span class="grade-pill grade-mixed">MIXED</span></td>
+              </tr>
+              <tr>
+                <td>Kingslayers</td>
+                <td class="player-name">C. Rush <span class="pos pos-qb">QB</span></td>
+                <td>X. Hutchinson (WR)</td>
+                <td class="n">$9</td>
+                <td><span class="grade-pill grade-bad">BAD</span></td>
+              </tr>
+              <tr>
+                <td>Skat’s BruteForce Theorem</td>
+                <td class="player-name">C. Douglas <span class="pos pos-wr">WR</span></td>
+                <td>—</td>
+                <td class="n">$7</td>
+                <td><span class="grade-pill grade-mixed">MIXED</span></td>
+              </tr>
+              <tr>
+                <td>Skat’s BruteForce Theorem</td>
+                <td class="player-name">A. Williams <span class="pos pos-wr">WR</span></td>
+                <td>—</td>
+                <td class="n">$6</td>
+                <td><span class="grade-pill grade-mixed">MIXED</span></td>
+              </tr>
+              <tr>
+                <td>ThePeopleBeaters</td>
+                <td class="player-name">H. Henry <span class="pos pos-te">TE</span></td>
+                <td>O. Gordon (RB)</td>
+                <td class="n">$1</td>
+                <td><span class="grade-pill grade-good">GOOD</span> <span class="fc">micro</span></td>
+              </tr>
+              <tr>
+                <td>Skat’s BruteForce Theorem</td>
+                <td>—</td>
+                <td>J. Brissett (QB)</td>
+                <td class="n">FA drop</td>
+                <td>—</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h4 style="font-family:Georgia,serif;font-size:18px;margin:8px 0 12px;">Grades (W2 on-field check on leg=1 claims)</h4>
+        <p style="margin:0 0 12px;font-family:Georgia,serif;font-size:15px;line-height:1.55;"><span class="grade-pill grade-good">GOOD</span> <strong>D. Vele.</strong> J’Allen Waffle Stompers spent <strong>$20</strong> with no drop. Vele ran <strong>95.6%</strong> snaps vs Baltimore and scored <strong>11.4</strong> on the bench — volume that showed up before the starter bar did. Dynasty market jumped with him (FantasyCalc WR74 / +836 over 30 days). Best post–W1 spend in the league.</p>
+        <p style="margin:0 0 12px;font-family:Georgia,serif;font-size:15px;line-height:1.55;"><span class="grade-pill grade-mixed">MIXED</span> <strong>C. Wentz.</strong> Kingslayers paid <strong>$20</strong> and cut Kamara. Wentz started for <strong>6.32</strong> on full snaps vs Chicago — usable Superflex depth, not a smash, and the drop cost still hangs on the ledger.</p>
+        <p style="margin:0 0 12px;font-family:Georgia,serif;font-size:15px;line-height:1.55;"><span class="grade-pill grade-bad">BAD</span> <strong>M. Gesicki.</strong> <strong>$15</strong> for a TE who printed <strong>0.0</strong> on <strong>35%</strong> snaps vs Houston. Expensive stream relative to a dead fantasy week.</p>
+        <p style="margin:0 0 12px;font-family:Georgia,serif;font-size:15px;line-height:1.55;"><span class="grade-pill grade-mixed">MIXED</span> <strong>J. Brissett.</strong> Mendozareamazingpicks paid <strong>$10</strong> after Tagovailoa and got <strong>6.5</strong> on the bench (full snaps vs Seattle). Fine SF stash; not a start win in W2. Skat’s BruteForce Theorem had dumped Brissett to free agency a day earlier.</p>
+        <p style="margin:0 0 12px;font-family:Georgia,serif;font-size:15px;line-height:1.55;"><span class="grade-pill grade-bad">BAD</span> <strong>C. Rush.</strong> <strong>$9</strong> more Kingslayers FAAB after the Wentz spend — then <strong>−0.56</strong> on the bench. Third arm on the same roster; negative return.</p>
+        <p style="margin:0 0 12px;font-family:Georgia,serif;font-size:15px;line-height:1.55;"><span class="grade-pill grade-mixed">MIXED</span> <strong>C. Douglas.</strong> Skat’s BruteForce Theorem <strong>$7</strong>, no drop. <strong>3.9</strong> bench points on <strong>86.4%</strong> snaps — real work, thin fantasy.</p>
+        <p style="margin:0 0 12px;font-family:Georgia,serif;font-size:15px;line-height:1.55;"><span class="grade-pill grade-mixed">MIXED</span> <strong>A. Williams.</strong> Skat’s BruteForce Theorem <strong>$6</strong>, no drop. <strong>5.4</strong> bench on about half the snaps. Micro-mid dart; no drop cost. Combined with Douglas, R1 stacked <strong>$13</strong> of WR speculation.</p>
+        <p style="margin:0 0 16px;font-family:Georgia,serif;font-size:15px;line-height:1.55;"><span class="grade-pill grade-good">GOOD</span> <strong>H. Henry</strong> <span class="fc">(micro)</span>. ThePeopleBeaters spent <strong>$1</strong>, cut Gordon, and <strong>started</strong> Henry for <strong>7.0</strong> in an 82.66-point loss. Positive ROI at pocket change — the week’s cheapest hit.</p>
+        <p style="margin:0;font-family:Georgia,serif;font-size:14px;line-height:1.55;color:var(--muted);"><strong>Best post–W1 spend:</strong> D. Vele <strong>$20</strong> (J’Allen Waffle Stompers) — snaps, targets, and an 11.4 W2 sample. <strong>Worst expensive miss:</strong> Gesicki <strong>$15</strong> and Rush <strong>$9</strong> on Kingslayers — dead or negative W2 after real FAAB; Wentz <strong>$20</strong> only MIXED once Kamara was cut. <strong>FAAB used live (roster settings):</strong> J’Allen Waffle Stompers <strong>$49</strong> · Kingslayers <strong>$44</strong> · Skat’s BruteForce Theorem <strong>$23</strong> · Mendozareamazingpicks <strong>$11</strong> · ThePeopleBeaters <strong>$3</strong> · Unsportsmanlike Conduct <strong>$0</strong> (and six other clubs still at <strong>$0</strong>).</p>
+      </div>
+
+      <p class="faab-note" style="margin:0 0 64px;">Methods (waivers): Primary window <code>get_transactions(week=2)</code> complete only — <strong>1</strong> waiver, <strong>0</strong> trades, <strong>0</strong> free_agent. Appendix: <code>get_transactions(week=1)</code> complete with <code>status_updated</code> on/after 2026-09-15 ET — labeled post–W1 / not W2. W3 pending queue excluded (uncleared). Grades use pack verdicts + W2 matchup points / snap enrich; FantasyCalc cited only where the pack pulled it. Soft flags: ESPN GB RB depth order conflicts with Sleeper order=3 for Brooks; usage samples are 1-week thin.</p>
     </section>
 
     <section id="standouts">
