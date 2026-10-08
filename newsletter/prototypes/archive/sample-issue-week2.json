@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "title": "Rebuilders Anonymous · Week 2",
+    "league": "Rebuilders Anonymous",
+    "issue": "Week 2",
+    "issue_number": "2",
+    "season": "2026",
+    "dateline": "Week 2 · September 2026",
+    "format_line": "12 teams · Superflex · Full PPR · Dynasty",
+    "presented_by": "Unsportsmanlike Conduct",
+    "sample_notice": "Design sample. Scores, records, Elo, and transactions are the real Week 2 numbers from the published issue. The next-week preview uses placeholder pairings and is marked <strong>Sample data</strong>."
+  },
+
+  "lead": {
+    "kicker": "The Lead",
+    "headline": "Split Safety benched 67 points and still won by 36",
+    "dek": "The best team in the league is also the most wasteful, and somehow that is the scariest thing about it.",
+    "byline": "The Rebuilders Anonymous desk",
+    "stats": [
+      { "value": "67.3", "label": "Points on Split Safety’s bench" },
+      { "value": "166.06", "label": "Their Week 2 score, a league high" },
+      { "value": "393.06", "label": "Season points for, also a league high" }
+    ],
+    "body": [
+      "Split Safety Syndicate scored 166.06 this week, the most in the league, with Travis Kelce, Stefon Diggs, and Denzel Boston on the bench. Those three scored 67.3 points while sitting. That is most of what ThePeopleBeaters scored as an entire team, left in a drawer, and it didn’t matter, because Mahomes, Chase, Young, Walker, and Gibbs all cleared 23.",
+      "Skat’s BruteForce Theorem scored a respectable 129.9 and lost by 36.16. Brock Purdy gave them 28.48. Their best receiver gave them 10.3. You can’t brute-force your way past a lineup with no soft spots.",
+      "The draft review gave Split Safety an A+ and called the depth “mostly decorative.” The decorations scored 67.3. They are 2-0 with 393.06 points for, and it is only Week 2. Everybody else is playing for the right to lose to them in December.",
+      "Four teams are undefeated, and one of them should not feel great about it. Micah parsons fan club is 2-0 after scoring 95.58, tenth-best of twelve, against a hammball lineup with no kicker and three starters who scored zero. Undefeated is undefeated. In this case it also came with a gift receipt."
+    ]
+  },
+
+  "rankings_intro": "Ranked on how good each team actually looks, not just the record. Records, Week 2 scores, and Elo are real; the order is our opinion.",
+  "rankings": [
+    {
+      "rank": "1", "team": "Split Safety Syndicate", "record": "2-0", "pts": "166.06", "elo": "1030.53",
+      "take": "Week-high score, league-high 393.06 for the season. Their bench scored 67.3, which is most of a ThePeopleBeaters."
+    },
+    {
+      "rank": "2", "team": "J’Alle", "record": "2-0", "pts": "147.60", "elo": "1032.00",
+      "take": "Josh Allen scored 40.82 in the biggest win of the week. The asterisk: 200.8 points against is the softest schedule in the league. Good team, unproven team."
+    },
+    {
+      "rank": "3", "team": "Unsportsmanlike Conduct", "record": "2-0", "pts": "165.68", "elo": "1032.00",
+      "take": "Second-best score of the week against a 154-point opponent. Then spent $16 to beat a $0 bid and $16 more on a claim nobody else made. Sharp on Sunday, generous on waivers."
+    },
+    {
+      "rank": "4", "team": "Mendozareamazingpicks", "record": "1-1", "pts": "154.24", "elo": "1000.00",
+      "take": "Third-best score in the league and a loss anyway. White and Worthy scored 27.8 on the bench. The roster is good. The lineup decisions are the opponent."
+    },
+    {
+      "rank": "5", "team": "Dak Side of the Sun", "record": "1-1", "pts": "152.14", "elo": "1000.00",
+      "take": "St. Brown and Prescott combined for 64.96. They have also allowed 317.7 points and left Ferguson’s 20.3 on the bench, so the stars are carrying more than their share."
+    },
+    {
+      "rank": "6", "team": "Micah parsons fan club", "record": "2-0", "pts": "95.58", "elo": "1030.53",
+      "take": "Undefeated and sixth. Their top scorer had 18.1 and they won because the other team didn’t start a kicker. They move up when they beat someone who showed up."
+    },
+    {
+      "rank": "7", "team": "WELL! It's The Big Shough", "record": "1-1", "pts": "140.06", "elo": "1000.00",
+      "take": "Goff’s 29.78 and 23 points from the Patriots defense got them a first win. A defense scoring 23 is a nice Sunday, not a plan."
+    },
+    {
+      "rank": "8", "team": "Kingslayers", "record": "0-2", "pts": "136.10", "elo": "968.00",
+      "take": "Started Nacua, got 0.0, lost by 16.04. Also the most points allowed in the league at 332.04. Part schedule, part self-inflicted."
+    },
+    {
+      "rank": "9", "team": "Rams of Steel", "record": "0-2", "pts": "133.24", "elo": "968.00",
+      "take": "Davante Adams scored 39.5 and the next-best starter scored 17.5. In Superflex, one star and a shrug gets you to 0-2."
+    },
+    {
+      "rank": "10", "team": "Skat’s BruteForce Theorem", "record": "0-2", "pts": "129.90", "elo": "969.47",
+      "take": "Purdy’s 28.48 was buried under a receiver room that peaked at 10.3, while Coleman’s 14.8 sat on the bench. Hard to brute-force anything from there."
+    },
+    {
+      "rank": "11", "team": "hammball", "record": "0-2", "pts": "91.00", "elo": "969.47",
+      "take": "Lamb scored 35.3 for a lineup with no kicker and three zeros, and they lost by 4.58. That isn’t bad luck. That is a lineup nobody checked."
+    },
+    {
+      "rank": "12", "team": "ThePeopleBeaters", "record": "1-1", "pts": "82.66", "elo": "1000.00",
+      "take": "The floor of the week, by 8.34 points. Dart, Goedert, and the Chiefs defense combined for 3.2. Olave scored 22.6, which made him the only starter above 16 and the loneliest man in the league."
+    }
+  ],
+
+  "recaps": [
+    {
+      "headline": "Depth beats a perfectly decent quarterback",
+      "winner": "Split Safety Syndicate", "w_score": "166.06",
+      "loser": "Skat’s BruteForce Theorem", "l_score": "129.90",
+      "margin": "36.16",
+      "body": "Five Split Safety starters cleared 23 points. Skat’s third-best scorer was the kicker. Purdy and Ward combined for 48.5 at quarterback, a fine Superflex day that was never going to be enough against a lineup with no holes in it.",
+      "w_keys": [ { "player": "P. Mahomes", "pts": "28.98" }, { "player": "J. Chase", "pts": "26.50" } ],
+      "l_keys": [ { "player": "B. Purdy", "pts": "28.48" }, { "player": "C. Ward", "pts": "20.02" } ]
+    },
+    {
+      "headline": "Mendoza’s bench lost this one",
+      "winner": "Unsportsmanlike Conduct", "w_score": "165.68",
+      "loser": "Mendozareamazingpicks", "l_score": "154.24",
+      "margin": "11.44",
+      "body": "Smith-Njigba scored 42.5, the best individual number of the week, and Mendoza still lost. White (14.3) and Worthy (13.5) sat while Stevenson (3.6) and Wilson (3.8) started. That swap was worth 20.4 points in an 11.44-point loss. Unsportsmanlike Conduct got 29.2 from Taylor and 27.7 from DeVonta Smith and let the math finish the job.",
+      "w_keys": [ { "player": "J. Taylor", "pts": "29.20" }, { "player": "D. Smith", "pts": "27.70" } ],
+      "l_keys": [ { "player": "J. Smith-Njigba", "pts": "42.50" }, { "player": "J. Cook", "pts": "20.90" } ]
+    },
+    {
+      "headline": "A win, technically",
+      "winner": "Micah parsons fan club", "w_score": "95.58",
+      "loser": "hammball", "l_score": "91.00",
+      "margin": "4.58",
+      "body": "The lowest-scoring game of the week came down to an empty kicker slot. hammball also started Darnold, A. Brown, and N. Collins, who scored 0.0 each. Lamb’s 35.3 was the best performance on either side. Micah’s top scorer was McBride at 18.1. Micah gets the win. hammball gets a calendar reminder to check the lineup.",
+      "w_keys": [ { "player": "T. McBride", "pts": "18.10" }, { "player": "L. Jackson", "pts": "14.80" } ],
+      "l_keys": [ { "player": "C. Lamb", "pts": "35.30" }, { "player": "J. Love", "pts": "13.80" } ]
+    },
+    {
+      "headline": "Davante Adams against everybody",
+      "winner": "WELL! It's The Big Shough", "w_score": "140.06",
+      "loser": "Rams of Steel", "l_score": "133.24",
+      "margin": "6.82",
+      "body": "Adams scored 39.5, second-best in the league, and lost to a team whose second-best scorer was a defense. Goff (29.78), the Patriots (23.0), and T. Shough (22.38) were enough, because after Adams the Rams’ next starter was Hampton at 17.5.",
+      "w_keys": [ { "player": "J. Goff", "pts": "29.78" }, { "player": "NE DEF", "pts": "23.00" } ],
+      "l_keys": [ { "player": "D. Adams", "pts": "39.50" }, { "player": "O. Hampton", "pts": "17.50" } ]
+    },
+    {
+      "headline": "Two stars, one zero",
+      "winner": "Dak Side of the Sun", "w_score": "152.14",
+      "loser": "Kingslayers", "l_score": "136.10",
+      "margin": "16.04",
+      "body": "St. Brown (35.2) and Prescott (29.76) delivered Dak Side’s first win. Kingslayers got 26.98 from Stafford, 26.0 from Schultz (the top tight end score of the week), and 0.0 from Nacua in the starting lineup. A 16-point loss with a zero in it is a loss with a clear culprit.",
+      "w_keys": [ { "player": "A. St. Brown", "pts": "35.20" }, { "player": "D. Prescott", "pts": "29.76" } ],
+      "l_keys": [ { "player": "M. Stafford", "pts": "26.98" }, { "player": "D. Schultz", "pts": "26.00" } ]
+    },
+    {
+      "headline": "This was not a game",
+      "winner": "J’Alle", "w_score": "147.60",
+      "loser": "ThePeopleBeaters", "l_score": "82.66",
+      "margin": "64.94",
+      "body": "Allen scored 40.82, the top quarterback score of the week, and McCaffrey and Kincaid added 22.6 and 22.5. ThePeopleBeaters started Dart (0.8), Goedert (1.4), and the Chiefs defense (1.0). The final margin was 64.94, a little less than Split Safety left on its bench.",
+      "w_keys": [ { "player": "J. Allen", "pts": "40.82" }, { "player": "C. McCaffrey", "pts": "22.60" } ],
+      "l_keys": [ { "player": "C. Olave", "pts": "22.60" }, { "player": "T. McMillan", "pts": "15.10" } ]
+    }
+  ],
+
+  "awards": [
+    {
+      "name": "Manager of the Week", "winner": "Split Safety Syndicate", "stat": "166.06",
+      "body": "Week-high score, five starters over 23, and enough surplus to leave 67.3 on the bench without breaking a sweat. Rich people problems."
+    },
+    {
+      "name": "Lineup Crime", "winner": "Mendozareamazingpicks", "stat": "20.4 pts",
+      "body": "Stevenson and Wilson started over White and Worthy. The difference was 20.4 points. The loss was by 11.44. Lineups lock; regret doesn’t."
+    },
+    {
+      "name": "The Empty Chair", "winner": "hammball", "stat": "0 kickers",
+      "body": "Lost by 4.58 with no kicker in the lineup. In the next waiver run, Rams of Steel picked up Butker for $2. It can be done cheaply."
+    },
+    {
+      "name": "Best Performance in a Loss", "winner": "J. Smith-Njigba, Mendozareamazingpicks", "stat": "42.5",
+      "body": "The top individual score of the week, delivered to a manager who benched 27.8 points behind him. Runner-up: Davante Adams, 39.5, also in a loss."
+    },
+    {
+      "name": "Floor of the Week", "winner": "ThePeopleBeaters", "stat": "82.66",
+      "body": "Lowest score in the league by 8.34 points. Three starters combined for 3.2, which is roughly one Butker field goal."
+    }
+  ],
+
+  "standouts_intro": "Top starter at each position in Week 2.",
+  "standouts": [
+    { "pos": "QB", "player": "J. Allen", "team": "J’Alle", "pts": "40.82" },
+    { "pos": "RB", "player": "J. Taylor", "team": "Unsportsmanlike Conduct", "pts": "29.20" },
+    { "pos": "WR", "player": "J. Smith-Njigba", "team": "Mendozareamazingpicks", "pts": "42.50" },
+    { "pos": "TE", "player": "D. Schultz", "team": "Kingslayers", "pts": "26.00" },
+    { "pos": "K", "player": "B. Aubrey", "team": "Skat’s BruteForce Theorem", "pts": "16.00" },
+    { "pos": "DEF", "player": "New England", "team": "WELL! It's The Big Shough", "pts": "23.00" }
+  ],
+  "bench_note": "Best bench: Split Safety, 67.3 (Kelce 25.1, Diggs 21.7, Boston 20.5). Honorable mention to J’Alle, who sat Tucker (22.9) and Cousins (20.22) in a 64-point win and didn’t need either.",
+
+  "transactions": {
+    "summary": "Five waiver claims cleared for $46 of FAAB. Unsportsmanlike Conduct spent $32 of it, which is a lot of money to beat a $0 bid and nobody. UC has $168 left and sits 10th in waiver order.",
+    "stats": [
+      { "value": "$46", "label": "FAAB spent" },
+      { "value": "5", "label": "Waiver claims" },
+      { "value": "0", "label": "Trades" }
+    ],
+    "waivers": [
+      { "team": "Unsportsmanlike Conduct", "add": "D. Wicks", "pos": "WR", "drop": "J. Meyers", "faab": "$16", "grade": "C", "note": "Beat Micah’s $0 bid by the full $16." },
+      { "team": "Unsportsmanlike Conduct", "add": "A. Mitchell", "pos": "WR", "drop": "C. Sutton", "faab": "$16", "grade": "C", "note": "No competing bids. $16 for an empty room." },
+      { "team": "Skat’s BruteForce Theorem", "add": "T. Ferguson", "pos": "TE", "drop": "C. Allen", "faab": "$12", "grade": "B", "note": "A 58.1% snap share is a real role. Fair price to find out." },
+      { "team": "Rams of Steel", "add": "H. Butker", "pos": "K", "drop": "H. Mevis", "faab": "$2", "grade": "A", "note": "Kicker upgrade for $2. Best value of the run." },
+      { "team": "Kingslayers", "add": "C. Brooks", "pos": "RB", "drop": null, "faab": "$0", "grade": "C", "note": "Free add, 3.6 points on the bench. Priced correctly." }
+    ],
+    "free_agents_label": "Free-agent adds after the clear ($0, Week 3)",
+    "free_agents": [
+      { "team": "WELL! It's The Big Shough", "add": "T. Dell", "pos": "WR", "drop": null },
+      { "team": "WELL! It's The Big Shough", "add": "N. Singleton", "pos": "RB", "drop": null },
+      { "team": "Kingslayers", "add": "D. Lock", "pos": "QB", "drop": "C. Rush" },
+      { "team": "Kingslayers", "add": "R. Bateman", "pos": "WR", "drop": "C. Wentz" }
+    ],
+    "trades": [],
+    "no_trades": "No trades. Twelve dynasty managers, two weeks of evidence, and nobody blinked."
+  },
+
+  "preview": {
+    "is_sample": true,
+    "label": "Week 3",
+    "note": "Sample data: the Week 3 schedule isn’t in the repo, so these pairings are placeholders that show the layout. Every number in the context lines is real Week 2 data.",
+    "games": [
+      { "home": "Split Safety Syndicate", "away": "J’Alle", "line": "The league’s best offense against its easiest schedule. If J’Alle wins this, the 200.8 points against stops being a footnote." },
+      { "home": "Unsportsmanlike Conduct", "away": "Micah parsons fan club", "line": "Two undefeated teams, one of which outscored the other by 70.1 last week. Micah needs the opponent to forget a kicker again." },
+      { "home": "Mendozareamazingpicks", "away": "hammball", "line": "The two worst lineup decisions of Week 2, head to head. Whoever reads the injury report first wins." },
+      { "home": "Dak Side of the Sun", "away": "Rams of Steel", "line": "St. Brown and Prescott against Adams and a $2 kicker. Whichever star blinks first loses." },
+      { "home": "Kingslayers", "away": "ThePeopleBeaters", "line": "The league’s most-scored-upon team against the league’s lowest score. Something has to give." },
+      { "home": "Skat’s BruteForce Theorem", "away": "WELL! It's The Big Shough", "line": "Purdy needs a receiver. Big Shough needs another 23-point defense. Only one of those is repeatable." }
+    ]
+  },
+
+  "footer": {
+    "methods": "Scores, lineups, and transactions come from the league’s Sleeper data for Week 2. Elo carries over from Week 1 with K=32. Rankings and grades are opinion and should be taken personally.",
+    "credit": "Rebuilders Anonymous · Week 2 · Presented by Unsportsmanlike Conduct"
+  }
+}

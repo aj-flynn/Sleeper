@@ -1,0 +1,221 @@
+<!doctype html>
+<!-- fonts: alfa-slab-one-400-normal archivo-narrow-400-normal archivo-narrow-400-italic archivo-narrow-600-normal archivo-narrow-700-normal -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{meta.title}}</title>
+<style>
+/*@font-faces*/
+/* Card Back. Tokens:
+   card stock #BDB9AF, maroon ink #8A1C2B, black ink #262321, rose screen #E6C6C1, stock shadow #A7A397.
+   Alfa Slab One prints the names and numbers; Archivo Narrow sets the stat tables and the small print. */
+:root{
+  --stock:#BDB9AF; --maroon:#8A1C2B; --ink:#262321; --rose:#E6C6C1; --shade:#A7A397;
+  --slab:'Alfa Slab One',Rockwell,serif; --nar:'Archivo Narrow','Arial Narrow',sans-serif;
+}
+*{box-sizing:border-box}
+html{background:var(--stock);-webkit-text-size-adjust:100%}
+body{margin:0;color:var(--ink);font:400 1.0625rem/1.5 var(--nar);
+  background-image:radial-gradient(rgba(38,35,33,.06) 1px,transparent 1.2px);background-size:5px 5px}
+a{color:var(--maroon)}
+a:focus-visible{outline:3px solid var(--maroon);outline-offset:3px}
+.wrap{max-width:70rem;margin:0 auto;padding:1rem .85rem 3rem}
+@media (min-width:52rem){.wrap{padding:2.5rem 2rem 4rem}}
+p{margin:0 0 .9em;max-width:38rem}
+.mast{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:.5rem 1rem;border-bottom:4px solid var(--maroon);padding-bottom:.6rem}
+.mast h1{font-family:var(--slab);font-weight:400;color:var(--maroon);font-size:clamp(1.75rem,6.5vw,3.25rem);line-height:1;margin:0}
+.mast p{margin:0;font-weight:600}
+.mast .series{font-size:.9375rem}
+.fine{font-size:.875rem;max-width:44rem;margin-top:.75rem}
+.fine code{font-family:inherit}
+h2{font-family:var(--slab);font-weight:400;font-size:1.625rem;line-height:1.1;color:var(--maroon);margin:3rem 0 1rem}
+h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;margin:0}
+.card{background:var(--rose);border:5px solid var(--maroon);border-radius:7px;box-shadow:3px 3px 0 var(--shade);overflow:hidden}
+.card .band{background:var(--maroon);color:var(--rose);display:flex;align-items:center;gap:.75rem;padding:.55rem .75rem}
+.card .band h3{color:#F6E9E6;flex:1}
+.card .no{flex:none;width:2.6rem;height:2.6rem;border-radius:50%;background:var(--rose);color:var(--maroon);display:grid;place-items:center;font-family:var(--slab);font-size:1.125rem;line-height:1}
+.card .body{padding:.8rem .85rem .9rem}
+.vitals{display:flex;flex-wrap:wrap;gap:.15rem 1rem;font-weight:600;font-size:.9375rem;border-bottom:2px solid var(--maroon);padding-bottom:.45rem;margin-bottom:.65rem}
+.vitals b{font-family:var(--slab);font-weight:400;color:var(--maroon)}
+.stats{width:100%;border-collapse:collapse;font-size:.9375rem;font-variant-numeric:tabular-nums;margin:.25rem 0 .8rem;background:#F1E2DF}
+.stats th{background:var(--ink);color:var(--rose);font-weight:700;text-align:left;padding:.3rem .45rem;font-size:.8125rem}
+.stats td{padding:.35rem .45rem;border-top:1px solid rgba(138,28,43,.35);vertical-align:top;line-height:1.35}
+.stats .pts{text-align:right;font-weight:700;white-space:nowrap}
+.stats .tm{white-space:nowrap}
+.stats tr.side td{background:var(--rose);font-weight:700;color:var(--maroon);font-size:.8125rem;padding-top:.45rem}
+.stats td small{display:block;color:#4A4441}
+.blurb{background:#F6EDEB;border:2px solid var(--ink);border-radius:4px;padding:.65rem .75rem;position:relative;margin-top:.25rem}
+.blurb p{margin:0;max-width:none;font-size:1rem;line-height:1.55}
+.blurb .q{display:block;font-family:var(--slab);color:var(--maroon);font-size:.9375rem;margin-bottom:.2rem}
+/* lead */
+.lead{display:grid;gap:1.25rem;margin-top:1.5rem}
+@media (min-width:52rem){.lead{grid-template-columns:minmax(0,24rem) minmax(0,1fr);gap:2.5rem;align-items:start}}
+.lead .card h3{font-size:1.5rem}
+.lead .big{font-family:var(--slab);font-size:clamp(1.75rem,6vw,2.5rem);line-height:1.05;margin:0 0 .65rem;color:var(--ink)}
+.lead .trio{display:grid;grid-template-columns:repeat(3,1fr);border:2px solid var(--ink);background:#F1E2DF;margin:.75rem 0}
+.lead .trio div{padding:.45rem .4rem;border-left:2px solid var(--ink)}
+.lead .trio div:first-child{border-left:0}
+.lead .trio b{display:block;font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.1;color:var(--maroon)}
+.lead .trio span{font-size:.75rem;line-height:1.25;display:block}
+.lead .copy p{font-size:1.125rem;line-height:1.6;max-width:36rem}
+.by{font-weight:600;font-size:.9375rem}
+.aside{font-weight:600;border-left:5px solid var(--maroon);padding:.15rem 0 .15rem .75rem;max-width:36rem}
+.aside b{font-family:var(--slab);font-weight:400;color:var(--maroon);margin-right:.25rem}
+/* checklist */
+.check{list-style:none;margin:0;padding:0;max-width:46rem}
+@media (min-width:64rem){.check{max-width:none;columns:2;column-gap:3rem}.check li{break-inside:avoid}}
+.check li{display:grid;grid-template-columns:2rem minmax(0,1fr) auto;gap:0 .6rem;padding:.6rem 0;border-bottom:2px dotted rgba(38,35,33,.45)}
+.check .rk{font-family:var(--slab);color:var(--maroon);font-size:1.25rem;line-height:1.2}
+.check .nm{font-weight:700;font-size:1.0625rem}
+.check .nm small{font-weight:400;font-size:.8125rem;display:block}
+.check .fig{text-align:right;font-variant-numeric:tabular-nums;font-weight:600;white-space:nowrap}
+.check .fig small{display:block;font-weight:400;font-size:.8125rem}
+.check p{grid-column:2 / -1;margin:.3rem 0 0;font-size:.9375rem}
+/* recaps */
+.deck{display:grid;gap:1.5rem}
+@media (min-width:52rem){.deck{grid-template-columns:1fr 1fr;gap:2rem}}
+.awards{display:grid;gap:1rem}
+@media (min-width:52rem){.awards{grid-template-columns:repeat(3,1fr)}}
+.award .band h3{font-size:1.0625rem}
+.award .stat{font-family:var(--slab);font-size:1.75rem;color:var(--maroon);line-height:1;margin:0 0 .35rem}
+.award .who{font-weight:700;margin:0 0 .35rem}
+.award p{font-size:.9375rem}
+.tablewrap{overflow-x:auto;max-width:100%}
+.slate{list-style:none;margin:0;padding:0;columns:1;max-width:72rem}
+@media (min-width:52rem){.slate{columns:2;column-gap:2.5rem}}
+.slate li{break-inside:avoid;padding:.55rem 0;border-bottom:2px dotted rgba(38,35,33,.45);font-size:.9375rem}
+.slate b{font-family:var(--slab);font-weight:400;color:var(--maroon);margin-right:.35rem}
+.slate .w{font-style:italic}
+.moves .stats td:first-child{font-weight:700}
+.grade{font-family:var(--slab);color:var(--maroon);font-size:1.125rem;text-align:center}
+.trades{display:grid;gap:1rem;margin-bottom:1.5rem}
+@media (min-width:52rem){.trades{grid-template-columns:1fr 1fr}}
+.foot{margin-top:3.5rem;border-top:4px solid var(--maroon);padding-top:.75rem;font-size:.875rem}
+.foot a{word-break:break-all}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="mast">
+    <h1>{{meta.league}}</h1>
+    <div>
+      <p class="series">{{meta.dateline}}, presented by {{meta.presented_by}}</p>
+      <p class="series">{{meta.format_line}}</p>
+    </div>
+  </header>
+  <p class="fine">{{meta.data_note}}</p>
+
+  <section aria-labelledby="s-lead">
+    <h2 id="s-lead">Lead story</h2>
+    <div class="lead">
+      <article class="card">
+        <div class="band"><span class="no" aria-hidden="true">{{meta.issue_number}}</span><h3>{{lead.kicker}}</h3></div>
+        <div class="body">
+          <p class="big">{{lead.headline}}</p>
+          <div class="trio">{{#lead.stats}}<div><b>{{value}}</b><span>{{label}}</span></div>{{/lead.stats}}</div>
+          <div class="blurb"><span class="q">The short version</span><p>{{lead.dek}}</p></div>
+        </div>
+      </article>
+      <div class="copy">
+        <p class="by">By {{lead.byline}}</p>
+        {{#lead.body}}<p>{{.}}</p>{{/lead.body}}
+        {{#asides.lead}}<p class="aside"><b>{{figure}}</b>{{text}}</p>{{/asides.lead}}
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="s-rank">
+    <h2 id="s-rank">Power rankings</h2>
+    <p>{{rankings_intro}}</p>
+    {{#asides.rankings}}<p class="aside"><b>{{figure}}</b>{{text}}</p>{{/asides.rankings}}
+    <ol class="check">
+    {{#rankings}}<li><span class="rk">{{rank}}</span><span class="nm">{{team}}<small>{{manager}}</small></span><span class="fig">{{record}}<small>{{pf}} season, {{pts}} week</small></span><p>{{take}}</p></li>{{/rankings}}
+    </ol>
+  </section>
+
+  <section aria-labelledby="s-recaps">
+    <h2 id="s-recaps">Matchup recaps</h2>
+    {{#asides.recaps}}<p class="aside"><b>{{figure}}</b>{{text}}</p>{{/asides.recaps}}
+    <div class="deck">
+    {{#recaps}}
+      <article class="card">
+        <div class="band"><span class="no" aria-hidden="true">{{@index}}</span><h3>{{headline}}</h3></div>
+        <div class="body">
+          <p class="vitals"><span><b>{{w_score}}</b> {{winner}}</span><span>{{l_score}} {{loser}}</span><span>Margin {{margin}}</span></p>
+          <div class="tablewrap"><table class="stats">
+            <thead><tr><th scope="col">Player</th><th scope="col">Tm</th><th scope="col">{{meta.issue}} line</th><th scope="col" class="pts">Pts</th></tr></thead>
+            <tbody>
+              <tr class="side"><td colspan="4">{{winner}}</td></tr>
+              {{#w_keys}}<tr><td>{{player}}</td><td class="tm">{{nfl_team}}</td><td>{{line}}</td><td class="pts">{{pts}}</td></tr>{{/w_keys}}
+              <tr class="side"><td colspan="4">{{loser}}</td></tr>
+              {{#l_keys}}<tr><td>{{player}}</td><td class="tm">{{nfl_team}}</td><td>{{line}}</td><td class="pts">{{pts}}</td></tr>{{/l_keys}}
+            </tbody>
+          </table></div>
+          <div class="blurb"><p>{{body}}</p></div>
+        </div>
+      </article>
+    {{/recaps}}
+    </div>
+  </section>
+
+  <section aria-labelledby="s-awards">
+    <h2 id="s-awards">Awards and standouts</h2>
+    {{#asides.awards}}<p class="aside"><b>{{figure}}</b>{{text}}</p>{{/asides.awards}}
+    <div class="awards">
+    {{#awards}}
+      <article class="card award">
+        <div class="band"><h3>{{name}}</h3></div>
+        <div class="body"><p class="stat">{{stat}}</p><p class="who">{{winner}}</p><p>{{body}}</p></div>
+      </article>
+    {{/awards}}
+    </div>
+    <h3 style="margin:2rem 0 .5rem">Standouts</h3>
+    <p>{{standouts_intro}}</p>
+    <div class="tablewrap"><table class="stats" style="max-width:52rem">
+      <thead><tr><th scope="col">Pos</th><th scope="col">Player</th><th scope="col">NFL line</th><th scope="col" class="pts">Pts</th></tr></thead>
+      <tbody>{{#standouts}}<tr><td>{{pos}}</td><td>{{player}}, {{nfl_team}}<small>{{team}}</small></td><td>{{line}}</td><td class="pts">{{pts}}</td></tr>{{/standouts}}</tbody>
+    </table></div>
+    <p>{{bench_note}}</p>
+    <h3 style="margin:2rem 0 .5rem">The NFL week</h3>
+    <p>{{nfl.intro}}</p>
+    <ul class="slate">{{#nfl.games}}<li><b>{{final}}</b><span class="w">{{when}}.</span> {{note}}</li>{{/nfl.games}}</ul>
+    <h3 style="margin:2rem 0 .5rem">Injuries</h3>
+    <p>{{nfl.injuries_intro}}</p>
+    <ul class="slate">{{#nfl.injuries}}<li><b>{{player}}</b><span class="w">{{nfl_team}}, {{team}}.</span> {{note}}</li>{{/nfl.injuries}}</ul>
+  </section>
+
+  <section aria-labelledby="s-moves" class="moves">
+    <h2 id="s-moves">Transactions</h2>
+    <p>{{transactions.summary}}</p>
+    {{#asides.transactions}}<p class="aside"><b>{{figure}}</b>{{text}}</p>{{/asides.transactions}}
+    <h3 style="margin:1.5rem 0 .5rem">Waiver claims</h3>
+    <div class="tablewrap"><table class="stats" style="max-width:60rem">
+      <thead><tr><th scope="col">Team</th><th scope="col">Claim</th><th scope="col" class="pts">Bid</th><th scope="col">Grade</th></tr></thead>
+      <tbody>{{#transactions.waivers}}<tr><td>{{team}}</td><td>{{add}} ({{pos}}{{#nfl_team}}, {{nfl_team}}{{/nfl_team}}){{#drop}}, drops {{drop}}{{/drop}}<small>{{note}}</small></td><td class="pts">{{faab}}</td><td class="grade">{{grade}}</td></tr>{{/transactions.waivers}}</tbody>
+    </table></div>
+    <h3 style="margin:1.5rem 0 .75rem">Trades</h3>
+    <div class="trades">
+    {{#transactions.trades}}<article class="card"><div class="band"><h3>{{teams}}</h3></div><div class="body"><p class="vitals"><span>{{date}}</span><span><b>{{grade}}</b></span></p><p>{{summary}}</p><p>{{note}}</p></div></article>{{/transactions.trades}}
+    </div>
+    {{^transactions.trades}}<p>{{transactions.no_trades}}</p>{{/transactions.trades}}
+    <h3 style="margin:1.5rem 0 .5rem">{{transactions.free_agents_label}}</h3>
+    <ul class="slate">{{#transactions.free_agents}}<li><b>{{add}}</b>{{pos}}, {{nfl_team}}, to {{team}}{{#drop}} for {{drop}}{{/drop}}. <span class="w">{{note}}</span></li>{{/transactions.free_agents}}</ul>
+  </section>
+
+  <section aria-labelledby="s-next">
+    <h2 id="s-next">Next week</h2>
+    {{#preview.is_sample}}<p><strong>Sample data.</strong></p>{{/preview.is_sample}}
+    <p>{{preview.label}}. {{preview.note}}</p>
+    {{#asides.preview}}<p class="aside"><b>{{figure}}</b>{{text}}</p>{{/asides.preview}}
+    <ul class="slate">{{#preview.games}}<li><b>{{a}}</b>vs. <b style="margin-left:.35rem">{{b}}</b><br>{{line}}</li>{{/preview.games}}</ul>
+  </section>
+
+  <footer class="foot">
+    <p>{{footer.methods}}</p>
+    <ul>{{#footer.sources}}<li><a href="{{url}}">{{name}}</a></li>{{/footer.sources}}</ul>
+    <p>{{footer.credit}}</p>
+  </footer>
+</div>
+</body>
+</html>

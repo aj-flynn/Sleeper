@@ -1,0 +1,100 @@
+<!doctype html>
+<!-- fonts: atkinson-hyperlegible-400-normal atkinson-hyperlegible-700-normal courier-prime-700-normal barlow-condensed-700-normal libre-caslon-text-700-normal alfa-slab-one-400-normal saira-stencil-one-400-normal -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rebuilders Anonymous newsletter prototypes</title>
+<style>
+/*@font-faces*/
+:root{--bg:#F3F4F6;--ink:#1E2430;--muted:#535B69;--rule:#D3D7DE;--text:'Atkinson Hyperlegible',system-ui,sans-serif}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;background:var(--bg)}
+body{margin:0;color:var(--ink);font:400 1.0625rem/1.6 var(--text)}
+a{color:var(--ink);text-underline-offset:3px}
+a:focus-visible{outline:3px solid #1E4D8F;outline-offset:3px}
+.page{max-width:52rem;margin:0 auto;padding:1.75rem 1.1rem 4rem}
+h1{font-size:clamp(1.875rem,6vw,2.75rem);line-height:1.1;margin:0 0 .75rem}
+.intro{max-width:40rem}
+.intro p{margin:0 0 .9em}
+.opts{list-style:none;margin:2rem 0 0;padding:0}
+.opt{padding:1.5rem 0;border-top:1px solid var(--rule)}
+.opt h2{margin:0 0 .35rem;line-height:1.1;font-weight:400}
+.opt h2 a{text-decoration:none}
+.opt h2 a:hover,.opt h2 a:focus-visible{text-decoration:underline}
+.opt p{margin:0 0 .6rem;max-width:40rem}
+.opt .type{font-size:.9375rem;color:var(--muted)}
+.sw{display:flex;gap:.35rem;margin:.6rem 0 .75rem;padding:0;list-style:none}
+.sw li{width:2rem;height:2rem;border-radius:50%;box-shadow:inset 0 0 0 1px rgba(30,36,48,.25)}
+.open{font-weight:700}
+.n1{font-family:'Courier Prime',monospace;font-weight:700;font-size:1.875rem;color:#46368C}
+.n2{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:2.125rem;color:#1E4D8F}
+.n3{font-family:'Libre Caslon Text',serif;font-weight:700;font-size:1.875rem;color:#1F2433}
+.n4{font-family:'Alfa Slab One',serif;font-size:1.875rem;color:#8A1C2B}
+.n5{font-family:'Saira Stencil One',sans-serif;font-size:2.125rem;color:#2F6E3B}
+h3{font-size:1.25rem;margin:3rem 0 .5rem}
+.archive{list-style:none;padding:0;margin:0}
+.archive li{padding:.6rem 0;border-top:1px solid var(--rule)}
+.small{font-size:.9375rem;color:var(--muted)}
+</style>
+</head>
+<body>
+<main class="page">
+  <h1>Five new designs for the newsletter</h1>
+  <div class="intro">
+    <p>Each one is the same real Week 4 issue, so you’re comparing design and nothing else. Every number is from the league on Sleeper and the NFL box scores, with ESPN for game context. Open them on your phone first, since that’s where the league reads them.</p>
+    <p class="small">These are drafts on a branch. None of them is published, and the live issues are unchanged.</p>
+  </div>
+
+  <ul class="opts">
+    <li class="opt">
+      <h2><a class="n1" href="minutes.html">Meeting Minutes</a></h2>
+      <p>The league is called Rebuilders Anonymous, so the issue is the typed handout from the weekly meeting, with one red pen circling the number that matters in each item.</p>
+      <ul class="sw" aria-label="Palette: duplicator paper, ditto purple, faded ink, felt-tip red"><li style="background:#EEEDF4"></li><li style="background:#46368C"></li><li style="background:#625698"></li><li style="background:#C22F2A"></li></ul>
+      <p class="type">Courier Prime for everything typed, Kalam for the margin notes.</p>
+      <a class="open" href="minutes.html">Open Meeting Minutes</a>
+    </li>
+    <li class="opt">
+      <h2><a class="n2" href="blueprint.html">Blueprint</a></h2>
+      <p>Rebuilders, taken literally: the week as a construction drawing, where every margin of victory is drawn to scale as a dimension line between the two scores.</p>
+      <ul class="sw" aria-label="Palette: cyanotype blue, deep blue, white linework, soft blue, redline"><li style="background:#1E4D8F"></li><li style="background:#173E75"></li><li style="background:#F2F6FC"></li><li style="background:#B4CAEA"></li><li style="background:#FF9A86"></li></ul>
+      <p class="type">Barlow Condensed lettering, Barlow text, Architects Daughter for the draftsman’s notes.</p>
+      <a class="open" href="blueprint.html">Open Blueprint</a>
+    </li>
+    <li class="opt">
+      <h2><a class="n3" href="docket.html">The Docket</a></h2>
+      <p>A roast is a trial, so each matchup is filed as a case caption, the box score goes in as lettered exhibits, and numbered paragraphs let anyone in the chat cite paragraph 14.</p>
+      <ul class="sw" aria-label="Palette: white paper, blue-black ink, margin red, exhibit yellow"><li style="background:#FFFFFF"></li><li style="background:#1F2433"></li><li style="background:#B3262B"></li><li style="background:#F3D35B"></li></ul>
+      <p class="type">Libre Caslon Text throughout, set like a filed pleading.</p>
+      <a class="open" href="docket.html">Open The Docket</a>
+    </li>
+    <li class="opt">
+      <h2><a class="n4" href="card-back.html">Card Back</a></h2>
+      <p>The NFL half of every issue is a stat line, and the back of a football card is the most-read stat line ever printed, so each matchup is printed as one.</p>
+      <ul class="sw" aria-label="Palette: card stock grey, maroon ink, black ink, rose screen"><li style="background:#BDB9AF"></li><li style="background:#8A1C2B"></li><li style="background:#262321"></li><li style="background:#E6C6C1"></li></ul>
+      <p class="type">Alfa Slab One for names and numbers, Archivo Narrow for the stat tables.</p>
+      <a class="open" href="card-back.html">Open Card Back</a>
+    </li>
+    <li class="opt">
+      <h2><a class="n5" href="downfield.html">Downfield</a></h2>
+      <p>The standings are drawn on a football field, each team at the spot its season points earn, so the gap between first and last reads as distance.</p>
+      <ul class="sw" aria-label="Palette: turf green, end zone green, chalk, pylon orange"><li style="background:#2F6E3B"></li><li style="background:#1F4D29"></li><li style="background:#F5F7F2"></li><li style="background:#FF7A1A"></li></ul>
+      <p class="type">Saira Stencil One for painted numbers, Atkinson Hyperlegible for reading.</p>
+      <a class="open" href="downfield.html">Open Downfield</a>
+    </li>
+  </ul>
+
+  <h3>Where the numbers come from</h3>
+  <p>The data brief for this issue, with every source URL and stat line, is in <a href="../issues/2026-week4/brief.md">newsletter/issues/2026-week4/brief.md</a>. The raw API responses are saved next to it.</p>
+
+  <h3>Earlier designs</h3>
+  <p class="small">The first round, filled with the Week 2 sample. They’re kept for comparison and are no longer part of the weekly build.</p>
+  <ul class="archive">
+    <li><a href="archive/broadsheet.html">The Broadsheet</a></li>
+    <li><a href="archive/ledger.html">The Ledger</a></li>
+    <li><a href="archive/night-edition.html">Night Edition</a></li>
+  </ul>
+  <p class="small" style="margin-top:1.5rem">The published issue is still <a href="../../2026-week2.html">Week 2</a>.</p>
+</main>
+</body>
+</html>

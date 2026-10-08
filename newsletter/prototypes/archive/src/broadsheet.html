@@ -1,0 +1,261 @@
+<!doctype html>
+<!-- fonts: newsreader-400-normal newsreader-400-italic newsreader-600-normal newsreader-800-normal libre-franklin-600-normal libre-franklin-800-normal -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{meta.title}}</title>
+<style>
+/*@font-faces*/
+:root{
+  --paper:#f3efe6; --ink:#161513; --muted:#5f5a51; --hair:rgba(22,21,19,.2); --red:#9b1c1c;
+  --serif:'Newsreader',Georgia,'Times New Roman',serif;
+  --sans:'Libre Franklin','Franklin Gothic Medium','Helvetica Neue',Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;font-synthesis:none}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:1.0625rem;line-height:1.55;text-rendering:optimizeLegibility}
+.page{max-width:1160px;margin:0 auto;padding:0 20px 56px}
+p{margin:0 0 1em}
+em{font-style:italic}
+.label{font-family:var(--sans);font-weight:800;font-size:.6875rem;letter-spacing:.14em;text-transform:uppercase}
+.meta{font-family:var(--sans);font-weight:600;font-size:.75rem;letter-spacing:.04em;color:var(--muted);font-variant-numeric:tabular-nums lining-nums}
+.num{font-variant-numeric:tabular-nums lining-nums}
+
+/* Masthead */
+.ears{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 16px;padding:14px 0 10px;border-bottom:1px solid var(--ink)}
+.ears span{font-family:var(--sans);font-weight:600;font-size:.6875rem;letter-spacing:.1em;text-transform:uppercase}
+.nameplate{margin:0;padding:18px 0 12px;text-align:center;font-weight:800;font-size:clamp(2.35rem,11.6vw,7.25rem);line-height:.92;letter-spacing:-.03em}
+.nameplate span{display:block}
+@media(min-width:720px){.nameplate span{display:inline}}
+.edition{border-top:3px solid var(--ink);border-bottom:1px solid var(--ink);margin-top:2px;padding:8px 0;display:flex;flex-wrap:wrap;justify-content:center;gap:2px 14px;text-align:center}
+.edition span{font-family:var(--sans);font-weight:600;font-size:.6875rem;letter-spacing:.12em;text-transform:uppercase}
+.notice{margin:14px 0 0;font-style:italic;font-size:.9rem;color:var(--muted);text-align:center}
+.notice strong{font-style:normal;font-family:var(--sans);font-weight:800;font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--red)}
+
+/* Lead */
+.lead{padding:30px 0 8px}
+.kicker{color:var(--red)}
+.lead h1{margin:10px 0 14px;font-weight:800;font-size:clamp(2.2rem,9.4vw,4.75rem);line-height:1;letter-spacing:-.025em;max-width:16ch}
+.dek{font-style:italic;font-size:1.3rem;line-height:1.35;color:#2e2b27;margin:0 0 14px;max-width:34ch}
+.byline{padding:10px 0;border-top:1px solid var(--hair);border-bottom:1px solid var(--hair);margin-bottom:20px}
+.lead-body p:first-child::first-letter{float:left;font-weight:800;font-size:4.1em;line-height:.8;padding:.06em .08em 0 0}
+.lead-stats{list-style:none;margin:8px 0 0;padding:0;border-top:3px solid var(--ink)}
+.lead-stats li{display:grid;grid-template-columns:8.6rem 1fr;align-items:baseline;gap:12px;padding:12px 0;border-bottom:1px solid var(--hair)}
+.lead-stats b{font-weight:800;font-size:2.1rem;line-height:1;font-variant-numeric:tabular-nums lining-nums}
+.lead-stats span{font-family:var(--sans);font-weight:600;font-size:.8rem;line-height:1.35;color:var(--muted)}
+@media(min-width:900px){
+  .lead-grid{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:0 40px}
+  .lead-body{columns:2;column-gap:32px;column-rule:1px solid var(--hair)}
+  .lead-stats{margin:0;border-left:1px solid var(--hair);border-top:0;padding-left:24px}
+  .lead-stats li:first-child{border-top:3px solid var(--ink)}
+  .lead-stats li{grid-template-columns:1fr;gap:4px}
+}
+
+/* Sections */
+.section{margin-top:40px}
+.section-head{border-top:3px solid var(--ink);padding-top:8px;margin-bottom:18px;display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 16px}
+.section-head h2{margin:0;font-weight:800;font-size:clamp(1.65rem,6vw,2.4rem);letter-spacing:-.02em;line-height:1.05}
+.section-head .label{color:var(--muted)}
+.intro{font-style:italic;color:var(--muted);margin-bottom:16px;max-width:60ch}
+
+/* Rankings */
+.ranks{list-style:none;margin:0;padding:0}
+.ranks li{display:grid;grid-template-columns:2.6rem minmax(0,1fr);gap:0 12px;padding:14px 0;border-top:1px solid var(--hair);break-inside:avoid}
+.ranks .r{font-weight:800;font-size:2.2rem;line-height:.95;font-variant-numeric:tabular-nums lining-nums}
+.ranks h3{margin:0;font-weight:600;font-size:1.22rem;line-height:1.2}
+.ranks .meta{margin:3px 0 6px}
+.ranks p{margin:0;font-size:1rem;line-height:1.5}
+@media(min-width:900px){.ranks{columns:2;column-gap:40px;column-rule:1px solid var(--hair)}}
+
+/* Recaps */
+.recaps{display:grid;gap:0}
+.recap{padding:18px 0;border-top:1px solid var(--hair);display:flex;flex-direction:column}
+.recap .keys{margin-top:auto}
+.recap p{margin-bottom:14px}
+.recap:first-child{border-top:0;padding-top:0}
+.score{font-family:var(--sans);font-size:.82rem;line-height:1.45;font-variant-numeric:tabular-nums lining-nums}
+.score b{font-weight:800}
+.score .margin{color:var(--red);font-weight:800;letter-spacing:.06em;text-transform:uppercase;font-size:.68rem;margin-left:4px;white-space:nowrap}
+.recap h3{margin:6px 0 8px;font-weight:800;font-size:1.45rem;line-height:1.12;letter-spacing:-.01em}
+.keys{display:grid;grid-template-columns:1fr 1fr;gap:0 16px;margin-top:4px;border-top:1px solid var(--ink);padding-top:6px}
+.keys>div{font-family:var(--sans);font-weight:600;font-size:.75rem;line-height:1.7;font-variant-numeric:tabular-nums lining-nums}
+.keys .k{display:flex;justify-content:space-between;gap:8px}
+.keys .side{display:block;font-weight:800;font-size:.625rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+@media(min-width:720px){
+  .recaps{grid-template-columns:1fr 1fr;column-gap:40px}
+  .recap{padding:18px 0}
+  .recap:nth-child(2){border-top:0;padding-top:0}
+}
+@media(min-width:1040px){
+  .recaps{grid-template-columns:repeat(3,1fr)}
+  .recap:nth-child(3){border-top:0;padding-top:0}
+}
+
+/* Awards + standouts */
+.awards-grid{display:grid;gap:28px}
+.awards{margin:0;padding:0;list-style:none}
+.award{padding:14px 0;border-top:1px solid var(--hair)}
+.award:first-child{border-top:0;padding-top:0}
+.award .label{color:var(--red)}
+.award h3{margin:4px 0 6px;display:flex;justify-content:space-between;align-items:baseline;gap:12px;font-weight:800;font-size:1.25rem;line-height:1.2}
+.award h3 .num{font-size:1.1rem;white-space:nowrap}
+.award p{margin:0}
+.agate{width:100%;border-collapse:collapse;font-family:var(--sans);font-size:.8125rem;font-variant-numeric:tabular-nums lining-nums}
+.agate caption{text-align:left;padding-bottom:8px}
+.agate th{font-weight:800;font-size:.625rem;letter-spacing:.12em;text-transform:uppercase;text-align:left;padding:6px 6px 6px 0;border-bottom:1px solid var(--ink)}
+.agate td{font-weight:600;padding:7px 6px 7px 0;border-bottom:1px solid var(--hair);vertical-align:top}
+.agate td.team{color:var(--muted)}
+.agate .pts{text-align:right;padding-right:0}
+.bench-note{font-style:italic;color:var(--muted);font-size:.95rem;margin-top:12px}
+.leaders{border-top:3px solid var(--ink);padding-top:10px}
+@media(min-width:900px){.awards-grid{grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:40px}.awards-col{border-right:1px solid var(--hair);padding-right:40px}}
+
+/* Transactions, agate style */
+.tx-summary{font-size:1.1rem;max-width:62ch}
+.tx-cols{display:grid;gap:24px}
+.tx-list{list-style:none;margin:0;padding:0;font-family:var(--sans);font-size:.875rem;line-height:1.5}
+.tx-list li{padding:9px 0;border-top:1px solid var(--hair)}
+.tx-list .team{font-weight:800;letter-spacing:.06em;text-transform:uppercase;font-size:.75rem}
+.tx-list .grade{display:inline-block;min-width:1.8em;text-align:center;font-weight:800;border:1.5px solid var(--ink);padding:0 4px;margin-right:6px;font-size:.75rem;line-height:1.5}
+.tx-list .note{display:block;font-family:var(--serif);font-size:.98rem;margin-top:2px}
+.tx-head{border-top:3px solid var(--ink);padding-top:8px;margin-bottom:4px}
+.no-trades{font-style:italic}
+@media(min-width:900px){.tx-cols{grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:40px}}
+
+/* Preview */
+.stamp{display:inline-block;font-family:var(--sans);font-weight:800;font-size:.625rem;letter-spacing:.14em;text-transform:uppercase;color:var(--red);border:1.5px solid var(--red);padding:3px 7px;transform:rotate(-2deg)}
+.preview-note{font-style:italic;color:var(--muted);max-width:62ch}
+.games{list-style:none;margin:0;padding:0;display:grid}
+.games li{padding:14px 0;border-top:1px solid var(--hair)}
+.games h3{margin:0 0 4px;font-weight:600;font-size:1.15rem;line-height:1.25}
+.games h3 i{font-style:italic;font-weight:400;color:var(--muted)}
+.games p{margin:0}
+@media(min-width:720px){.games{grid-template-columns:1fr 1fr;column-gap:40px}}
+@media(min-width:1040px){.games{grid-template-columns:repeat(3,1fr)}}
+
+footer{margin-top:48px;border-top:3px solid var(--ink);padding-top:2px}
+footer .inner{border-top:1px solid var(--ink);padding-top:14px}
+footer p{font-style:italic;color:var(--muted);font-size:.9rem;max-width:70ch}
+@media(min-width:720px){.page{padding:0 32px 72px}body{font-size:1.125rem}}
+</style>
+</head>
+<body>
+<div class="page">
+
+<header>
+  <div class="ears">
+    <span>Vol. {{meta.season}} · No. {{meta.issue_number}}</span>
+    <span>Presented by {{meta.presented_by}}</span>
+  </div>
+  <div class="nameplate"><span>Rebuilders</span> <span>Anonymous</span></div>
+  <div class="edition"><span>{{meta.dateline}}</span><span>{{meta.format_line}}</span></div>
+  <p class="notice">{{meta.sample_notice}}</p>
+</header>
+
+<main>
+<article class="lead" id="lead">
+  <div class="label kicker">{{lead.kicker}}</div>
+  <h1>{{lead.headline}}</h1>
+  <p class="dek">{{lead.dek}}</p>
+  <div class="byline meta">By {{lead.byline}}</div>
+  <div class="lead-grid">
+    <div class="lead-body">{{#lead.body}}<p>{{.}}</p>{{/lead.body}}</div>
+    <ul class="lead-stats">{{#lead.stats}}<li><b>{{value}}</b><span>{{label}}</span></li>{{/lead.stats}}</ul>
+  </div>
+</article>
+
+<section class="section" id="rankings">
+  <div class="section-head"><h2>Power Rankings</h2><span class="label">All twelve, in order</span></div>
+  <p class="intro">{{rankings_intro}}</p>
+  <ol class="ranks">
+    {{#rankings}}<li>
+      <div class="r">{{rank}}</div>
+      <div>
+        <h3>{{team}}</h3>
+        <div class="meta">{{record}} · {{pts}} pts · Elo {{elo}}</div>
+        <p>{{take}}</p>
+      </div>
+    </li>{{/rankings}}
+  </ol>
+</section>
+
+<section class="section" id="recaps">
+  <div class="section-head"><h2>The Scores</h2><span class="label">Six matchups</span></div>
+  <div class="recaps">
+    {{#recaps}}<article class="recap">
+      <div class="score"><b>{{winner}} {{w_score}}</b>, {{loser}} {{l_score}} <span class="margin">by {{margin}}</span></div>
+      <h3>{{headline}}</h3>
+      <p>{{body}}</p>
+      <div class="keys">
+        <div><span class="side">Winner</span>{{#w_keys}}<div class="k">{{player}}<span>{{pts}}</span></div>{{/w_keys}}</div>
+        <div><span class="side">Loser</span>{{#l_keys}}<div class="k">{{player}}<span>{{pts}}</span></div>{{/l_keys}}</div>
+      </div>
+    </article>{{/recaps}}
+  </div>
+</section>
+
+<section class="section" id="awards">
+  <div class="section-head"><h2>Awards &amp; Standouts</h2><span class="label">Citations issued</span></div>
+  <div class="awards-grid">
+    <div class="awards-col">
+      <ul class="awards">
+        {{#awards}}<li class="award">
+          <div class="label">{{name}}</div>
+          <h3><span>{{winner}}</span><span class="num">{{stat}}</span></h3>
+          <p>{{body}}</p>
+        </li>{{/awards}}
+      </ul>
+    </div>
+    <div class="leaders">
+      <table class="agate">
+        <caption class="label">Leaders · {{standouts_intro}}</caption>
+        <thead><tr><th>Pos</th><th>Player</th><th>Team</th><th class="pts">Pts</th></tr></thead>
+        <tbody>{{#standouts}}<tr><td>{{pos}}</td><td>{{player}}</td><td class="team">{{team}}</td><td class="pts">{{pts}}</td></tr>{{/standouts}}</tbody>
+      </table>
+      <p class="bench-note">{{bench_note}}</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="transactions">
+  <div class="section-head"><h2>Transactions</h2><span class="label">Waivers &amp; trades</span></div>
+  <p class="tx-summary">{{transactions.summary}}</p>
+  <div class="tx-cols">
+    <div>
+      <div class="tx-head label">Waiver claims</div>
+      <ul class="tx-list">
+        {{#transactions.waivers}}<li><span class="team">{{team}}</span> claimed {{pos}} {{add}} ({{faab}}){{#drop}}; released {{drop}}{{/drop}}.<span class="note"><span class="grade">{{grade}}</span>{{note}}</span></li>{{/transactions.waivers}}
+      </ul>
+    </div>
+    <div>
+      <div class="tx-head label">Trades</div>
+      {{#transactions.trades}}<ul class="tx-list"><li><span class="team">{{teams}}</span> {{summary}}<span class="note"><span class="grade">{{grade}}</span>{{note}}</span></li></ul>{{/transactions.trades}}
+      {{^transactions.trades}}<p class="no-trades">{{transactions.no_trades}}</p>{{/transactions.trades}}
+      <div class="tx-head label" style="margin-top:20px">{{transactions.free_agents_label}}</div>
+      <ul class="tx-list">
+        {{#transactions.free_agents}}<li><span class="team">{{team}}</span> signed {{pos}} {{add}}{{#drop}}; released {{drop}}{{/drop}}.</li>{{/transactions.free_agents}}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="preview">
+  <div class="section-head"><h2>Next: {{preview.label}}</h2>{{#preview.is_sample}}<span class="stamp">Sample data</span>{{/preview.is_sample}}</div>
+  <p class="preview-note">{{preview.note}}</p>
+  <ul class="games">
+    {{#preview.games}}<li><h3>{{home}} <i>vs.</i> {{away}}</h3><p>{{line}}</p></li>{{/preview.games}}
+  </ul>
+</section>
+</main>
+
+<footer>
+  <div class="inner">
+    <p>{{footer.methods}}</p>
+    <div class="label">{{footer.credit}}</div>
+  </div>
+</footer>
+
+</div>
+</body>
+</html>

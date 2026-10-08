@@ -1,0 +1,260 @@
+<!doctype html>
+<!-- fonts: barlow-400-normal barlow-400-italic barlow-600-normal barlow-condensed-500-normal barlow-condensed-700-normal architects-daughter-400-normal -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{meta.title}}</title>
+<style>
+/*@font-faces*/
+/* Blueprint. Tokens:
+   cyanotype #1E4D8F, deep #173E75, linework #F2F6FC, soft line #B4CAEA, redline #FF9A86.
+   Barlow Condensed letters the drawing, Barlow carries the reading, Architects Daughter is the draftsman's hand. */
+:root{
+  --cyan:#1E4D8F; --deep:#173E75; --line:#F2F6FC; --soft:#B4CAEA; --red:#FF9A86;
+  --grid:rgba(242,246,252,.07);
+  --letter:'Barlow Condensed','Arial Narrow',sans-serif; --text:'Barlow',system-ui,sans-serif;
+  --hand:'Architects Daughter','Segoe Print',cursive;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;background:var(--cyan)}
+body{margin:0;color:var(--line);font:400 1.0625rem/1.6 var(--text);
+  background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+  background-size:24px 24px}
+a{color:var(--line);text-underline-offset:3px}
+a:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+.sheet{margin:.75rem;border:1.5px solid var(--line);padding:1.25rem 1rem 2rem;position:relative}
+.sheet::before{content:"";position:absolute;inset:4px;border:1px solid rgba(242,246,252,.35);pointer-events:none}
+@media (min-width:56rem){.sheet{max-width:72rem;margin:2rem auto;padding:2.5rem 3rem 3rem}}
+p{margin:0 0 1em;max-width:38rem}
+.top{display:grid;gap:1.5rem}
+
+.kicker{font-family:var(--hand);color:var(--soft);font-size:1.125rem;margin:0 0 .5rem}
+h1{font-family:var(--letter);font-weight:700;font-size:clamp(2.25rem,8vw,4.5rem);line-height:.98;margin:0 0 1rem;letter-spacing:.01em}
+.dek{font-size:1.1875rem;color:var(--soft);max-width:34rem}
+.titleblock{order:-1;border:1.5px solid var(--line);font-family:var(--letter);font-weight:500;font-size:1rem;background:var(--deep)}
+.titleblock div{display:grid;grid-template-columns:6.5rem 1fr;border-top:1px solid rgba(242,246,252,.45)}
+.titleblock div:first-child{border-top:0}
+.titleblock dt,.titleblock dd{margin:0;padding:.4rem .6rem}
+.titleblock dt{color:var(--soft);border-right:1px solid rgba(242,246,252,.45)}
+.titleblock .proj dd{font-weight:700;font-size:1.25rem;line-height:1.15}
+@media (min-width:56rem){.top{grid-template-columns:minmax(0,1fr) 20rem;align-items:start;gap:3rem}.titleblock{order:0;margin-top:.5rem}}
+.note{font-size:.9375rem;color:var(--soft)}
+.note code{font-family:inherit}
+section{margin-top:3.5rem}
+.sec{display:flex;align-items:center;gap:.75rem;font-family:var(--letter);font-weight:700;font-size:1.625rem;margin:0 0 1.25rem;line-height:1.1}
+.sec .bub{flex:none;width:2.4rem;height:2.4rem;border:1.5px solid var(--line);border-radius:50%;display:grid;place-items:center;font-size:1.125rem;position:relative}
+.sec .bub::after{content:"";position:absolute;left:0;right:0;top:50%;border-top:1px solid var(--line)}
+.sec .bub span{position:relative;top:-.55rem;font-size:.9rem}
+.sec::after{content:"";flex:1;border-top:1px solid rgba(242,246,252,.5)}
+.callout{font-family:var(--hand);font-size:1.125rem;line-height:1.4;color:var(--line);margin:0 0 1.5rem;padding-left:2.25rem;position:relative;max-width:30rem}
+.callout::before{content:"";position:absolute;left:0;top:.7rem;width:1.75rem;border-top:1px solid var(--line)}
+.callout::after{content:"";position:absolute;left:-4px;top:calc(.7rem - 4px);width:7px;height:7px;border-radius:50%;background:var(--line)}
+.callout b{font-weight:400;border-bottom:1.5px solid var(--red);color:var(--red)}
+.lead-body{display:grid;gap:0 3rem}
+@media (min-width:56rem){.lead-body{grid-template-columns:minmax(0,38rem) 1fr}}
+.spec{border:1.5px solid var(--line);align-self:start;margin:0;padding:0;list-style:none}
+.spec li{padding:.75rem .9rem;border-top:1px solid rgba(242,246,252,.45)}
+.spec li:first-child{border-top:0}
+.spec b{display:block;font-family:var(--letter);font-weight:700;font-size:2.25rem;line-height:1}
+.spec span{font-size:.9375rem;color:var(--soft)}
+.by{font-size:.9375rem;color:var(--soft)}
+/* schedule: rankings */
+.schedule{list-style:none;margin:0;padding:0;border:1.5px solid var(--line);max-width:52rem}
+.schedule li{display:grid;grid-template-columns:2.25rem minmax(0,1fr) auto;border-top:1px solid rgba(242,246,252,.45)}
+.schedule li:first-child{border-top:0}
+.schedule .mk{font-family:var(--letter);font-weight:700;font-size:1.25rem;padding:.6rem 0;text-align:center;border-right:1px solid rgba(242,246,252,.45);grid-row:span 2}
+.schedule .nm{padding:.55rem .75rem 0;font-weight:600}
+.schedule .nm small{display:block;font-weight:400;color:var(--soft);font-size:.8125rem}
+.schedule .fig{padding:.55rem .75rem 0;text-align:right;font-family:var(--letter);font-weight:500;font-size:1.0625rem;line-height:1.25;white-space:nowrap}
+.schedule .fig small{display:block;color:var(--soft);font-size:.8125rem}
+.schedule .tk{grid-column:2 / -1;padding:.25rem .75rem .75rem;font-size:.9375rem;color:var(--soft);margin:0;max-width:none}
+/* recaps: dimensioned drawings */
+.recaps{display:grid;gap:2.75rem}
+@media (min-width:56rem){.recaps{grid-template-columns:1fr 1fr;gap:3rem 3.5rem}}
+.recap h3{font-family:var(--letter);font-weight:700;font-size:1.5rem;line-height:1.1;margin:0 0 1rem}
+.dwg{margin:0 0 1.25rem;padding:0 0 .25rem}
+.dwg .lbl{font-family:var(--letter);font-weight:500;font-size:1rem;line-height:1.2;display:flex;justify-content:space-between;gap:.75rem}
+.dwg .lbl b{font-weight:700}
+.bar{height:1.1rem;border:1.5px solid var(--line);width:var(--p);margin:.2rem 0 .65rem}
+.bar.w{background:repeating-linear-gradient(-45deg,var(--line) 0 1.5px,transparent 1.5px 7px)}
+.dim{position:relative;height:2.4rem;margin-top:-.4rem}
+.dim .span{position:absolute;left:var(--a);width:calc(var(--b) - var(--a));top:1.5rem;border-top:1px solid var(--red)}
+.dim .span::before,.dim .span::after{content:"";position:absolute;bottom:-.35rem;border-left:1px dashed var(--red)}
+.dim .span::before{left:0;height:2.1rem}
+.dim .span::after{right:0;height:5.3rem}
+.dim .tick{position:absolute;top:-5px;width:9px;height:9px;border-left:1.5px solid var(--red);transform:skewX(-40deg)}
+.dim .tick.a{left:-1px}
+.dim .tick.b{right:-5px}
+.dim .val{position:absolute;right:calc(100% - var(--a) + .5rem);top:.85rem;font-family:var(--hand);color:var(--red);font-size:1.125rem;white-space:nowrap;line-height:1.2}
+.dwg figcaption{font-size:.8125rem;color:var(--soft)}
+.keys{display:grid;gap:.75rem;margin:0;font-size:.9375rem}
+.keys dt{font-family:var(--letter);font-weight:700;font-size:1rem;border-bottom:1px solid rgba(242,246,252,.45);padding-bottom:.15rem}
+.keys dd{margin:.3rem 0 0}
+.keys dd span{color:var(--soft)}
+/* awards and the rest */
+.notes{margin:0;padding-left:1.5rem;max-width:40rem}
+.notes li{margin:0 0 1.1rem;padding-left:.25rem}
+.notes li::marker{font-family:var(--letter);font-weight:700}
+.notes .st{font-family:var(--letter);font-weight:700;color:var(--red);margin-left:.35rem}
+.matl{width:100%;border-collapse:collapse;max-width:52rem;font-size:.9375rem;margin:1.5rem 0}
+.matl caption{text-align:left;font-family:var(--letter);font-weight:700;font-size:1.25rem;margin-bottom:.5rem}
+.matl th,.matl td{border:1px solid rgba(242,246,252,.55);padding:.45rem .6rem;text-align:left;vertical-align:top}
+.matl th{font-family:var(--letter);font-weight:500;color:var(--soft)}
+.matl .n{text-align:right;font-family:var(--letter);font-weight:700;font-size:1.0625rem;white-space:nowrap}
+@media (max-width:39.99rem){
+  .matl thead{display:none}
+  .matl tr{display:grid;grid-template-columns:3rem 1fr auto;border:1px solid rgba(242,246,252,.55);border-top:0}
+  .matl tr:first-child{border-top:1px solid rgba(242,246,252,.55)}
+  .matl td{border:0}
+  .matl td.ln{grid-column:2 / -1;padding-top:0;color:var(--soft)}
+}
+.two{display:grid;gap:2rem}
+@media (min-width:56rem){.two{grid-template-columns:1fr 1fr;gap:3rem}}
+.sub{font-family:var(--letter);font-weight:700;font-size:1.25rem;margin:2rem 0 .75rem}
+.list{list-style:none;margin:0;padding:0}
+.list li{border-top:1px solid rgba(242,246,252,.35);padding:.6rem 0;font-size:.9375rem}
+.list b{font-family:var(--letter);font-weight:700;font-size:1.0625rem}
+.list span.w{color:var(--soft)}
+.co{list-style:none;margin:0;padding:0;counter-reset:co}
+.co li{counter-increment:co;border:1px solid rgba(242,246,252,.55);padding:.7rem .8rem;margin:0 0 -1px;font-size:.9375rem}
+.co li::before{content:"Change order " counter(co);display:block;font-family:var(--letter);font-weight:500;color:var(--soft);font-size:.875rem}
+.co .gr{float:right;font-family:var(--hand);color:var(--red);font-size:1.25rem;line-height:1}
+.co .nt{display:block;color:var(--soft);margin-top:.25rem}
+.trade{border:1.5px solid var(--line);padding:.9rem 1rem;margin:0 0 1rem;max-width:44rem}
+.trade h4{font-family:var(--letter);font-weight:700;font-size:1.125rem;margin:0 0 .35rem}
+.trade p{margin:0 0 .5rem;font-size:.9375rem}
+.trade .gr{font-family:var(--hand);color:var(--red)}
+.foot{margin-top:3.5rem;border-top:1.5px solid var(--line);padding-top:1rem;font-size:.875rem;color:var(--soft)}
+.foot a{color:var(--line);word-break:break-all}
+</style>
+</head>
+<body>
+<main class="sheet">
+  <header class="top">
+    <div>
+      <p class="kicker">{{lead.kicker}}</p>
+      <h1>{{lead.headline}}</h1>
+      <p class="dek">{{lead.dek}}</p>
+    </div>
+    <dl class="titleblock" aria-label="Title block">
+      <div class="proj"><dt>Project</dt><dd>{{meta.league}}</dd></div>
+      <div><dt>Sheet</dt><dd>{{meta.dateline}}</dd></div>
+      <div><dt>Season</dt><dd>{{meta.season}}, {{meta.format_line}}</dd></div>
+      <div><dt>Issued by</dt><dd>Presented by {{meta.presented_by}}</dd></div>
+      <div><dt>Scale</dt><dd>Score bars drawn to the week’s high</dd></div>
+    </dl>
+  </header>
+  <p class="note" style="margin-top:1.25rem">{{meta.data_note}}</p>
+
+  <section aria-labelledby="s1">
+    <h2 class="sec" id="s1"><span class="bub" aria-hidden="true"><span>1</span></span>Lead story</h2>
+    {{#asides.lead}}<p class="callout"><b>{{figure}}</b> {{text}}</p>{{/asides.lead}}
+    <div class="lead-body">
+      <div>
+        <p class="by">By {{lead.byline}}</p>
+        {{#lead.body}}<p>{{.}}</p>{{/lead.body}}
+      </div>
+      <ul class="spec">{{#lead.stats}}<li><b>{{value}}</b><span>{{label}}</span></li>{{/lead.stats}}</ul>
+    </div>
+  </section>
+
+  <section aria-labelledby="s2">
+    <h2 class="sec" id="s2"><span class="bub" aria-hidden="true"><span>2</span></span>Power rankings</h2>
+    {{#asides.rankings}}<p class="callout"><b>{{figure}}</b> {{text}}</p>{{/asides.rankings}}
+    <p>{{rankings_intro}}</p>
+    <ol class="schedule">
+    {{#rankings}}
+      <li><span class="mk">{{rank}}</span><span class="nm">{{team}}<small>{{manager}}</small></span><span class="fig">{{record}}<small>{{pf}} for the season</small><small>{{pts}} this week</small></span><p class="tk">{{take}}</p></li>
+    {{/rankings}}
+    </ol>
+  </section>
+
+  <section aria-labelledby="s3">
+    <h2 class="sec" id="s3"><span class="bub" aria-hidden="true"><span>3</span></span>Matchup recaps</h2>
+    {{#asides.recaps}}<p class="callout"><b>{{figure}}</b> {{text}}</p>{{/asides.recaps}}
+    <div class="recaps">
+    {{#recaps}}
+      <article class="recap">
+        <h3>{{headline}}</h3>
+        <figure class="dwg" aria-label="{{winner}} {{w_score}}, {{loser}} {{l_score}}, margin {{margin}}">
+          <div class="lbl"><b>{{winner}}</b><b>{{w_score}}</b></div>
+          <div class="bar w" style="--p:{{w_pct}}%"></div>
+          <div class="lbl"><span>{{loser}}</span><span>{{l_score}}</span></div>
+          <div class="bar" style="--p:{{l_pct}}%"></div>
+          <div class="dim" style="--a:{{l_pct}}%;--b:{{w_pct}}%"><div class="span"><i class="tick a"></i><i class="tick b"></i></div><span class="val">{{margin}}</span></div>
+        </figure>
+        <p>{{body}}</p>
+        <dl class="keys">
+          <div><dt>{{winner}}</dt>{{#w_keys}}<dd>{{player}} ({{nfl_team}}) <b>{{pts}}</b> <span>{{line}}</span></dd>{{/w_keys}}</div>
+          <div><dt>{{loser}}</dt>{{#l_keys}}<dd>{{player}} ({{nfl_team}}) <b>{{pts}}</b> <span>{{line}}</span></dd>{{/l_keys}}</div>
+        </dl>
+      </article>
+    {{/recaps}}
+    </div>
+  </section>
+
+  <section aria-labelledby="s4">
+    <h2 class="sec" id="s4"><span class="bub" aria-hidden="true"><span>4</span></span>Awards and standouts</h2>
+    {{#asides.awards}}<p class="callout"><b>{{figure}}</b> {{text}}</p>{{/asides.awards}}
+    <ol class="notes">
+    {{#awards}}<li><strong>{{name}}</strong>, {{winner}}<span class="st">{{stat}}</span><br>{{body}}</li>{{/awards}}
+    </ol>
+    <table class="matl">
+      <caption>{{standouts_intro}}</caption>
+      <thead><tr><th>Pos</th><th>Starter</th><th>NFL line</th><th>Pts</th></tr></thead>
+      <tbody>{{#standouts}}<tr><td>{{pos}}</td><td>{{player}}, {{nfl_team}}<br><small>{{team}}</small></td><td class="ln">{{line}}</td><td class="n">{{pts}}</td></tr>{{/standouts}}</tbody>
+    </table>
+    <p>{{bench_note}}</p>
+    <div class="two">
+      <div>
+        <h3 class="sub">The NFL week</h3>
+        <p class="note">{{nfl.intro}}</p>
+        <ul class="list">{{#nfl.games}}<li><b>{{final}}</b> <span class="w">{{when}}</span><br>{{note}}</li>{{/nfl.games}}</ul>
+      </div>
+      <div>
+        <h3 class="sub">Injuries</h3>
+        <p class="note">{{nfl.injuries_intro}}</p>
+        <ul class="list">{{#nfl.injuries}}<li><b>{{player}}</b> <span class="w">{{nfl_team}}, {{team}}</span><br>{{note}}</li>{{/nfl.injuries}}</ul>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="s5">
+    <h2 class="sec" id="s5"><span class="bub" aria-hidden="true"><span>5</span></span>Transactions</h2>
+    {{#asides.transactions}}<p class="callout"><b>{{figure}}</b> {{text}}</p>{{/asides.transactions}}
+    <p>{{transactions.summary}}</p>
+    <ul class="spec" style="max-width:44rem;margin-bottom:2rem">{{#transactions.stats}}<li><b>{{value}}</b><span>{{label}}</span></li>{{/transactions.stats}}</ul>
+    <div class="two">
+      <div>
+        <h3 class="sub">Waiver claims</h3>
+        <ol class="co">
+        {{#transactions.waivers}}<li><span class="gr" title="Grade">{{grade}}</span><strong>{{team}}</strong> claims {{add}} ({{pos}}{{#nfl_team}}, {{nfl_team}}{{/nfl_team}}) for {{faab}}{{#drop}}, drops {{drop}}{{/drop}}.<span class="nt">{{note}}</span></li>{{/transactions.waivers}}
+        </ol>
+      </div>
+      <div>
+        <h3 class="sub">Trades</h3>
+        {{#transactions.trades}}<div class="trade"><h4>{{teams}}</h4><p class="note">{{date}}</p><p>{{summary}}</p><p class="note">{{note}}</p><p class="gr">{{grade}}</p></div>{{/transactions.trades}}
+        {{^transactions.trades}}<p>{{transactions.no_trades}}</p>{{/transactions.trades}}
+        <h3 class="sub">{{transactions.free_agents_label}}</h3>
+        <ul class="list">{{#transactions.free_agents}}<li><b>{{team}}</b><br>Adds {{add}} ({{pos}}, {{nfl_team}}){{#drop}}, drops {{drop}}{{/drop}}. <span class="w">{{note}}</span></li>{{/transactions.free_agents}}</ul>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="s6">
+    <h2 class="sec" id="s6"><span class="bub" aria-hidden="true"><span>6</span></span>Next week</h2>
+    {{#asides.preview}}<p class="callout"><b>{{figure}}</b> {{text}}</p>{{/asides.preview}}
+    {{#preview.is_sample}}<p><strong>Sample data.</strong></p>{{/preview.is_sample}}
+    <p>{{preview.label}}. {{preview.note}}</p>
+    <ul class="list" style="max-width:44rem">{{#preview.games}}<li><b>{{a}}</b> and <b>{{b}}</b><br>{{line}}</li>{{/preview.games}}</ul>
+  </section>
+
+  <footer class="foot">
+    <p>{{footer.methods}}</p>
+    <ul>{{#footer.sources}}<li><a href="{{url}}">{{name}}</a></li>{{/footer.sources}}</ul>
+    <p>{{footer.credit}}</p>
+  </footer>
+</main>
+</body>
+</html>
