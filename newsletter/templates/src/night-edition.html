@@ -1,0 +1,284 @@
+<!doctype html>
+<!-- fonts: big-shoulders-display-600-normal big-shoulders-display-800-normal big-shoulders-display-900-normal source-serif-4-400-normal source-serif-4-400-italic source-serif-4-600-normal -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>{{meta.title}}</title>
+<style>
+/*@font-faces*/
+:root{
+  --night:#111214; --ink:#ebe6dc; --muted:#a29d92; --hair:rgba(235,230,220,.16); --gold:#f3bd3f;
+  --display:'Big Shoulders Display','Arial Narrow','Helvetica Neue Condensed',Impact,sans-serif;
+  --serif:'Source Serif 4',Georgia,serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;font-synthesis:none;background:var(--night)}
+body{margin:0;background:var(--night);color:var(--ink);font-family:var(--serif);font-size:1.0625rem;line-height:1.62}
+p{margin:0 0 1em}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+.cap{font-family:var(--display);font-weight:600;font-size:.8125rem;letter-spacing:.16em;text-transform:uppercase}
+.d{font-family:var(--display);text-transform:uppercase;font-variant-numeric:tabular-nums lining-nums}
+.gold{color:var(--gold)}
+
+/* Masthead */
+.mast{padding:18px 0 0}
+.mast .line{display:flex;justify-content:space-between;gap:12px;color:var(--muted);padding-bottom:14px;border-bottom:1px solid var(--hair)}
+.mast .line{flex-direction:column;gap:2px}
+@media(min-width:600px){.mast .line{flex-direction:row}.mast .line span:last-child{text-align:right}}
+.mast h1{margin:18px 0 6px;font-family:var(--display);font-weight:900;text-transform:uppercase;font-size:clamp(3.4rem,19vw,10.5rem);line-height:.8;letter-spacing:-.01em}
+.mast h1 span{display:block}
+.mast h1 span:last-child{color:var(--gold)}
+.mast .sub{display:flex;flex-wrap:wrap;gap:4px 18px;padding:12px 0;border-top:4px solid var(--ink);margin-top:14px}
+.notice{margin:6px 0 0;padding:12px 0 0;border-top:1px solid var(--hair);font-size:.85rem;color:var(--muted);font-style:italic}
+.notice strong{font-style:normal;font-family:var(--display);font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+
+/* Section openers */
+.sec{margin-top:64px}
+.opener{display:flex;align-items:baseline;gap:14px;border-top:1px solid var(--gold);padding-top:10px;margin-bottom:22px}
+.opener .n{font-family:var(--display);font-weight:800;color:var(--gold);font-size:1rem;letter-spacing:.08em}
+.opener h2{margin:0;font-family:var(--display);font-weight:900;text-transform:uppercase;font-size:clamp(2.2rem,10vw,4.2rem);line-height:.9;letter-spacing:.005em}
+.opener .aside{margin-left:auto;color:var(--muted);text-align:right}
+.intro{font-style:italic;color:var(--muted);max-width:58ch}
+
+/* Lead */
+.lead{margin-top:40px}
+.lead .kick{color:var(--gold);margin-bottom:10px}
+.lead h2{margin:0 0 16px;font-family:var(--display);font-weight:900;text-transform:uppercase;font-size:clamp(2.9rem,14vw,6.4rem);line-height:.86;letter-spacing:-.005em;max-width:12ch}
+@media(min-width:900px){.lead h2{max-width:17ch}}
+.lead .dek{font-style:italic;font-size:1.3rem;line-height:1.4;max-width:34ch;color:#d9d4ca}
+.lead .by{color:var(--muted);margin-bottom:28px}
+.big-stat{display:grid;grid-template-columns:auto 1fr;gap:6px 18px;align-items:end;border-top:1px solid var(--hair);border-bottom:1px solid var(--hair);padding:14px 0;margin:0 0 28px}
+.big-stat .d{font-weight:900;font-size:clamp(5.5rem,30vw,11rem);line-height:.78;color:var(--gold)}
+.big-stat .cap{color:var(--ink);line-height:1.35;padding-bottom:6px}
+.minor-stats{display:flex;gap:28px;grid-column:1 / -1;padding-top:10px}
+.minor-stats div .d{display:block;font-weight:800;font-size:2rem;line-height:1;color:var(--ink)}
+.minor-stats .cap{display:block;margin-top:6px;font-size:.6875rem;color:var(--muted);line-height:1.35}
+.lead-body p{max-width:60ch}
+.lead-body p:first-child::first-line{font-weight:600}
+@media(min-width:900px){
+  .lead-grid{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:48px;align-items:start}
+  .big-stat{margin:0;grid-template-columns:1fr}
+  .lead-body{font-size:1.125rem}
+}
+
+/* Rankings */
+.rk{list-style:none;margin:0;padding:0}
+.rk li{display:grid;grid-template-columns:4.2rem minmax(0,1fr);gap:0 14px;padding:16px 0;border-top:1px solid var(--hair)}
+.rk .num{font-family:var(--display);font-weight:900;font-size:4.4rem;line-height:.78;color:transparent;-webkit-text-stroke:1.5px var(--gold);text-align:right;font-variant-numeric:tabular-nums lining-nums}
+.rk li:nth-child(-n+3) .num{color:var(--gold);-webkit-text-stroke:0}
+.rk h3{margin:0;font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:1.7rem;line-height:.95;letter-spacing:.01em}
+.rk .meta{color:var(--muted);margin:6px 0 6px;font-size:.75rem}
+.rk .meta b{color:var(--ink);font-weight:600}
+.rk p{margin:0;font-size:1rem;line-height:1.55;color:#d6d1c7}
+@media(min-width:900px){
+  .rk{display:grid;grid-template-columns:1fr 1fr;column-gap:48px}
+  .rk li:nth-child(2){border-top:1px solid var(--hair)}
+  .rk .num{font-size:5rem}
+  .rk li{grid-template-columns:5rem minmax(0,1fr)}
+}
+
+/* Recaps */
+.finals{display:grid;gap:0}
+.final{padding:22px 0;border-top:1px solid var(--hair);display:flex;flex-direction:column}
+.final .sb{display:grid;grid-template-columns:1fr 1fr;gap:0 16px;margin-bottom:12px}
+.final .sb div{display:flex;flex-direction:column}
+.final .sb .s{font-family:var(--display);font-weight:900;font-size:3.1rem;line-height:.9;font-variant-numeric:tabular-nums lining-nums}
+.final .sb .w .s{color:var(--gold)}
+.final .sb .l .s{color:var(--muted)}
+.final .sb .t{font-family:var(--display);font-weight:600;font-size:.95rem;letter-spacing:.06em;text-transform:uppercase;line-height:1.15;margin-top:6px}
+.final .sb .l .t{color:var(--muted)}
+.final .mg{color:var(--gold);margin-bottom:8px}
+.final h3{margin:0 0 8px;font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:1.75rem;line-height:.95}
+.final p{color:#d6d1c7}
+.final .keys{margin-top:auto;display:grid;grid-template-columns:1fr 1fr;gap:16px;border-top:1px solid var(--hair);padding-top:8px}
+.final .keys div{font-size:.875rem;line-height:1.7}
+.final .keys .row{display:flex;justify-content:space-between;gap:8px}
+.final .keys .row b{font-family:var(--display);font-weight:800;font-size:1rem;font-variant-numeric:tabular-nums}
+.final .keys .cap{color:var(--muted);font-size:.6875rem;display:block}
+@media(min-width:760px){
+  .finals{grid-template-columns:1fr 1fr;column-gap:48px}
+}
+
+/* Awards */
+.awards{list-style:none;margin:0;padding:0}
+.awards li{padding:18px 0;border-top:1px solid var(--hair)}
+.awards .cap{color:var(--gold)}
+.awards .row{display:flex;justify-content:space-between;align-items:baseline;gap:14px;margin:4px 0 6px}
+.awards h3{margin:0;font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:1.65rem;line-height:1}
+.awards .st{font-family:var(--display);font-weight:900;text-transform:uppercase;font-size:1.9rem;line-height:1;white-space:nowrap;font-variant-numeric:tabular-nums}
+.awards p{margin:0;color:#d6d1c7}
+.allweek{margin-top:30px;border-top:4px solid var(--ink);padding-top:12px}
+.allweek h3{margin:0 0 6px;font-family:var(--display);font-weight:900;text-transform:uppercase;font-size:1.9rem;line-height:1}
+.allweek .intro{margin-bottom:8px}
+.aw-row{display:grid;grid-template-columns:2.8rem minmax(0,1fr) auto;gap:0 12px;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--hair)}
+.aw-row .pos{font-family:var(--display);font-weight:800;color:var(--gold);letter-spacing:.06em}
+.aw-row .pl{font-weight:600}
+.aw-row .tm{display:block;font-size:.85rem;color:var(--muted);font-weight:400}
+.aw-row .p{font-family:var(--display);font-weight:900;font-size:1.5rem;font-variant-numeric:tabular-nums}
+.bench{font-style:italic;color:var(--muted);font-size:.95rem;margin-top:12px}
+@media(min-width:900px){.aw-grid{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:48px}.allweek{margin-top:0}}
+
+/* Transactions */
+.tx-lede{font-size:1.15rem;max-width:58ch}
+.tx-stats{display:flex;gap:32px;margin:6px 0 24px}
+.tx-stats .d{display:block;font-weight:900;font-size:2.8rem;line-height:.9;color:var(--gold)}
+.tx-stats .cap{color:var(--muted);font-size:.6875rem}
+.wire{list-style:none;margin:0;padding:0}
+.wire li{display:grid;grid-template-columns:4.2rem minmax(0,1fr);gap:0 14px;padding:14px 0;border-top:1px solid var(--hair)}
+.wire .amt{font-family:var(--display);font-weight:900;font-size:2.2rem;line-height:.9;text-align:right;color:var(--gold);font-variant-numeric:tabular-nums}
+.wire .g{display:block;margin-top:8px;font-family:var(--display);font-weight:800;font-size:.875rem;letter-spacing:.06em;color:var(--ink);text-align:right}
+.wire .who{color:var(--muted);font-size:.75rem}
+.wire h3{margin:2px 0 4px;font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:1.35rem;line-height:1}
+.wire h3 span{color:var(--muted);font-weight:600}
+.wire p{margin:0;color:#d6d1c7;font-size:.98rem}
+.side h3.cap{margin:0 0 8px;color:var(--gold)}
+.side p{color:#d6d1c7}
+.fa{list-style:none;margin:0;padding:0}
+.fa li{padding:8px 0;border-top:1px solid var(--hair);font-size:.95rem}
+.fa li span{display:block;color:var(--muted);font-size:.8125rem}
+@media(min-width:900px){.tx-grid{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:48px}}
+
+/* Preview */
+.sample{display:inline-block;font-family:var(--display);font-weight:800;font-size:.8125rem;letter-spacing:.14em;text-transform:uppercase;background:var(--gold);color:var(--night);padding:3px 8px}
+.ondeck{list-style:none;margin:0;padding:0;display:grid}
+.ondeck li{padding:16px 0;border-top:1px solid var(--hair)}
+.ondeck h3{margin:0 0 6px;font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:1.5rem;line-height:1}
+.ondeck h3 i{font-style:normal;color:var(--gold);font-weight:600;font-size:1rem;letter-spacing:.1em;padding:0 4px}
+.ondeck p{margin:0;color:#d6d1c7}
+@media(min-width:760px){.ondeck{grid-template-columns:1fr 1fr;column-gap:48px}}
+@media(min-width:1040px){.ondeck{grid-template-columns:repeat(3,1fr)}}
+
+footer{margin-top:72px;border-top:4px solid var(--ink)}
+footer .wrap{padding-top:16px;padding-bottom:40px}
+footer p{color:var(--muted);font-size:.9rem;font-style:italic;max-width:70ch}
+footer .cap{color:var(--gold)}
+@media(min-width:720px){.wrap{padding:0 36px}body{font-size:1.125rem}}
+</style>
+</head>
+<body>
+
+<header class="wrap mast">
+  <div class="line cap"><span>{{meta.dateline}}</span><span>Presented by {{meta.presented_by}}</span></div>
+  <h1><span>Rebuilders</span><span>Anonymous</span></h1>
+  <div class="sub cap"><span>{{meta.format_line}}</span></div>
+  <p class="notice">{{meta.sample_notice}}</p>
+</header>
+
+<main class="wrap">
+
+<article class="lead" id="lead">
+  <div class="cap kick">{{lead.kicker}}</div>
+  <h2>{{lead.headline}}</h2>
+  <p class="dek">{{lead.dek}}</p>
+  <div class="cap by">By {{lead.byline}}</div>
+  <div class="lead-grid">
+    <div class="lead-body">{{#lead.body}}<p>{{.}}</p>{{/lead.body}}</div>
+    <div class="big-stat">
+      {{#lead.stats}}{{#@first}}<span class="d">{{value}}</span><span class="cap">{{label}}</span>{{/@first}}{{/lead.stats}}
+      <div class="minor-stats">{{#lead.stats}}{{^@first}}<div><span class="d">{{value}}</span><span class="cap">{{label}}</span></div>{{/@first}}{{/lead.stats}}</div>
+    </div>
+  </div>
+</article>
+
+<section class="sec" id="rankings">
+  <div class="opener"><span class="n">02</span><h2>Power Rankings</h2></div>
+  <p class="intro">{{rankings_intro}}</p>
+  <ol class="rk">
+    {{#rankings}}<li>
+      <div class="num">{{rank}}</div>
+      <div>
+        <h3>{{team}}</h3>
+        <div class="meta cap"><b>{{record}}</b> · {{pts}} pts · Elo {{elo}}</div>
+        <p>{{take}}</p>
+      </div>
+    </li>{{/rankings}}
+  </ol>
+</section>
+
+<section class="sec" id="recaps">
+  <div class="opener"><span class="n">03</span><h2>Finals</h2></div>
+  <div class="finals">
+    {{#recaps}}<article class="final">
+      <div class="sb">
+        <div class="w"><span class="s">{{w_score}}</span><span class="t">{{winner}}</span></div>
+        <div class="l"><span class="s">{{l_score}}</span><span class="t">{{loser}}</span></div>
+      </div>
+      <div class="mg cap">Won by {{margin}}</div>
+      <h3>{{headline}}</h3>
+      <p>{{body}}</p>
+      <div class="keys">
+        <div><span class="cap">Winner</span>{{#w_keys}}<div class="row"><span>{{player}}</span><b>{{pts}}</b></div>{{/w_keys}}</div>
+        <div><span class="cap">Loser</span>{{#l_keys}}<div class="row"><span>{{player}}</span><b>{{pts}}</b></div>{{/l_keys}}</div>
+      </div>
+    </article>{{/recaps}}
+  </div>
+</section>
+
+<section class="sec" id="awards">
+  <div class="opener"><span class="n">04</span><h2>Awards</h2></div>
+  <div class="aw-grid">
+    <ul class="awards">
+      {{#awards}}<li>
+        <div class="cap">{{name}}</div>
+        <div class="row"><h3>{{winner}}</h3><span class="st">{{stat}}</span></div>
+        <p>{{body}}</p>
+      </li>{{/awards}}
+    </ul>
+    <div class="allweek">
+      <h3>All-Week Team</h3>
+      <p class="intro">{{standouts_intro}}</p>
+      {{#standouts}}<div class="aw-row"><span class="pos">{{pos}}</span><span class="pl">{{player}}<span class="tm">{{team}}</span></span><span class="p">{{pts}}</span></div>{{/standouts}}
+      <p class="bench">{{bench_note}}</p>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="transactions">
+  <div class="opener"><span class="n">05</span><h2>The Wire</h2></div>
+  <p class="tx-lede">{{transactions.summary}}</p>
+  <div class="tx-stats">{{#transactions.stats}}<div><span class="d">{{value}}</span><span class="cap">{{label}}</span></div>{{/transactions.stats}}</div>
+  <div class="tx-grid">
+    <ul class="wire">
+      {{#transactions.waivers}}<li>
+        <div><div class="amt">{{faab}}</div><span class="g">Grade {{grade}}</span></div>
+        <div>
+          <div class="cap who">{{team}}</div>
+          <h3>{{add}} <span>{{pos}}</span></h3>
+          <p>{{#drop}}Dropped {{drop}}. {{/drop}}{{note}}</p>
+        </div>
+      </li>{{/transactions.waivers}}
+    </ul>
+    <div class="side">
+      <h3 class="cap">Trades</h3>
+      {{#transactions.trades}}<p><b>{{teams}}</b>: {{summary}} Grade {{grade}}. {{note}}</p>{{/transactions.trades}}
+      {{^transactions.trades}}<p>{{transactions.no_trades}}</p>{{/transactions.trades}}
+      <h3 class="cap" style="margin-top:22px">{{transactions.free_agents_label}}</h3>
+      <ul class="fa">
+        {{#transactions.free_agents}}<li>{{add}}, {{pos}}{{#drop}} (dropped {{drop}}){{/drop}}<span>{{team}}</span></li>{{/transactions.free_agents}}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="preview">
+  <div class="opener"><span class="n">06</span><h2>On Deck: {{preview.label}}</h2></div>
+  {{#preview.is_sample}}<p><span class="sample">Sample data</span></p>{{/preview.is_sample}}
+  <p class="intro">{{preview.note}}</p>
+  <ul class="ondeck">
+    {{#preview.games}}<li><h3>{{home}}<i>vs</i>{{away}}</h3><p>{{line}}</p></li>{{/preview.games}}
+  </ul>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>{{footer.methods}}</p>
+    <div class="cap">{{footer.credit}}</div>
+  </div>
+</footer>
+
+</body>
+</html>
