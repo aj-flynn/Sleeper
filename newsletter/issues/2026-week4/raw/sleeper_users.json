@@ -1,0 +1,180 @@
+[
+ {
+  "avatar": "e4d90bf3a010debbcbef6993d3a5df1c",
+  "display_name": "KaranLuvSport",
+  "is_bot": false,
+  "is_owner": false,
+  "league_id": "1319718857249665024",
+  "metadata": {
+   "allow_pn": "on",
+   "avatar": "https://sleepercdn.com/uploads/d0734703ea824c385227592c32743578.jpg",
+   "mention_pn": "on",
+   "team_name": "WELL! It's The Big Shough"
+  },
+  "settings": null,
+  "user_id": "462091608632848384"
+ },
+ {
+  "avatar": "b7a486917eb76fc6b018fdd343fcf4e4",
+  "display_name": "kylejones10",
+  "is_bot": false,
+  "is_owner": false,
+  "league_id": "1319718857249665024",
+  "metadata": {
+   "allow_pn": "on",
+   "avatar": "https://sleepercdn.com/uploads/fa82e69e917e4009d5cf76e904e95a49.jpg",
+   "mention_pn": "on",
+   "team_name": "Split Safety Syndicate"
+  },
+  "settings": null,
+  "user_id": "649471208764682240"
+ },
+ {
+  "avatar": "bb137d158f31ed0ce30f8ec7ba11621f",
+  "display_name": "Packersfan1992",
+  "is_bot": false,
+  "is_owner": null,
+  "league_id": "1319718857249665024",
+  "metadata": {
+   "allow_pn": "on",
+   "archived": "off",
+   "mention_pn": "on",
+   "team_name": "Micah parsons fan club"
+  },
+  "settings": null,
+  "user_id": "1266127330573553664"
+ },
+ {
+  "avatar": "a398b3dcab87461f885e3ad2728a382d",
+  "display_name": "LittleTimmyFlynn",
+  "is_bot": false,
+  "is_owner": true,
+  "league_id": "1319718857249665024",
+  "metadata": {
+   "allow_pn": "on",
+   "allow_sms": "on",
+   "avatar": "https://sleepercdn.com/uploads/659e7a1f456246058950ad8aa23eb7cb",
+   "mention_pn": "on",
+   "team_name": "Skat’s BruteForce Theorem"
+  },
+  "settings": null,
+  "user_id": "1319389915150061568"
+ },
+ {
+  "avatar": "84030266f117ea1efef73c843b8152b7",
+  "display_name": "SweetRavenge84",
+  "is_bot": false,
+  "is_owner": true,
+  "league_id": "1319718857249665024",
+  "metadata": {
+   "allow_pn": "on",
+   "allow_sms": "on",
+   "mention_pn": "on",
+   "team_name": "Dak Side of the Sun"
+  },
+  "settings": null,
+  "user_id": "1319446801392095232"
+ },
+ {
+  "avatar": "7572250c2fb084c434fed0e82229e183",
+  "display_name": "ThePeopleBeaters",
+  "is_bot": false,
+  "is_owner": false,
+  "league_id": "1319718857249665024",
+  "metadata": {
+   "allow_pn": "on",
+   "allow_sms": "on",
+   "mention_pn": "on"
+  },
+  "settings": null,
+  "user_id": "1320611153528766464"
+ },
+ {
+  "avatar": "b2b3995892b391bc3d9c4c7140d21c5f",
+  "display_name": "iemerson969",
+  "is_bot": false,
+  "is_owner": false,
+  "league_id": "1319718857249665024",
+  "metadata": {
+   "allow_pn": "on",
+   "mention_pn": "on",
+   "team_name": "Rams of Steel "
+  },
+  "settings": null,
+  "user_id": "1321165369498402816"
+ },
+ {
+  "avatar": "1611d93083d777a248be576e5f096a2e",
+  "display_name": "hammball",
+  "is_bot": false,
+  "is_owner": false,
+  "league_id": "1319718857249665024",
+  "metadata": {
+   "allow_pn": "on",
+   "allow_sms": "on",
+   "mention_pn": "on"
+  },
+  "settings": null,
+  "user_id": "1321703323350364160"
+ },
+ {
+  "avatar": "c41a39631d8f05b1200526233a6eeffd",
+  "display_name": "maierz3948",
+  "is_bot": false,
+  "is_owner": null,
+  "league_id": "1319718857249665024",
+  "metadata": {
+   "allow_pn": "on",
+   "allow_sms": "on",
+   "avatar": "https://sleepercdn.com/uploads/c41a39631d8f05b1200526233a6eeffd.jpg",
+   "mention_pn": "on",
+   "team_name": "Kingslayers"
+  },
+  "settings": null,
+  "user_id": "1356084801446121472"
+ },
+ {
+  "avatar": "d55d1f7075eda01948318de4af616075",
+  "display_name": "DarknessMonster",
+  "is_bot": false,
+  "is_owner": null,
+  "league_id": "1319718857249665024",
+  "metadata": {
+   "allow_pn": "on",
+   "mention_pn": "on",
+   "team_name": "Mendozareamazingpicks"
+  },
+  "settings": null,
+  "user_id": "1356115626329923584"
+ },
+ {
+  "avatar": "d22e52781a5d7a94bcbf2aa70e748382",
+  "display_name": "JeffyWaterton",
+  "is_bot": false,
+  "is_owner": null,
+  "league_id": "1319718857249665024",
+  "metadata": {
+   "allow_pn": "on",
+   "avatar": "https://sleepercdn.com/uploads/ea8158c1f5c444d4a38cd4742d939215",
+   "mention_pn": "on",
+   "team_name": "Unsportsmanlike Conduct"
+  },
+  "settings": null,
+  "user_id": "1366153680109203456"
+ },
+ {
+  "avatar": "d55d1f7075eda01948318de4af616075",
+  "display_name": "BigJohnDeBo008",
+  "is_bot": false,
+  "is_owner": null,
+  "league_id": "1319718857249665024",
+  "metadata": {
+   "allow_pn": "on",
+   "avatar": "https://sleepercdn.com/uploads/bfdd100b648f6c8887f2edb5367dc66d.jpg",
+   "mention_pn": "on",
+   "team_name": "J’Allen Waffle Stompers"
+  },
+  "settings": null,
+  "user_id": "1367167398649565184"
+ }
+]

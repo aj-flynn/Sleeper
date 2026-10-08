@@ -1,0 +1,1396 @@
+[
+ {
+  "espn_id": "401872964",
+  "date_utc": "2026-10-02T00:15Z",
+  "away": "PIT",
+  "away_score": 24,
+  "home": "CLE",
+  "home_score": 27,
+  "status": "Final",
+  "venue": "Huntington Bank Field",
+  "notes": [],
+  "recap_headline": "Watson leads another game-winning drive, Szmyt hits 56-yard FG and Browns beat Steelers 27-24",
+  "recap_text": "CLEVELAND -- — Deshaun Watson and the Cleveland Browns are developing a knack for coming up big in the fourth quarter. Watson led a go-ahead drive in the fourth quarter for the third straight week as he moved the Browns into position for Andre Szmyt 's career-long 56-yard field goal with 10 seconds remaining that gave Cleveland a 27-24 win over the Pittsburgh Steelers on Thursday night. “I knew it was money. He told me the landmark, so he was just lining it up and we see it all the time,” Watson said about Szmyt’s second field goal, which gave the Browns a 3-1 record for the first time since 2001. The Browns had a 21-7 lead late in the first half before the Steelers rallied to tie it at 24-all. Aaron Rodgers threw a 3-yard touchdown pass to Pat Freiermuth with 1:44 remaining and Rodgers sneaked in for the 2-point conversion. Watson went 4 for 5 for 46 yards on the winning drive, including two completions to Jerry Jeudy for 27 yards. The 10-year veteran was sacked for a 4-yard loss with 19 seconds left, which put the ball on the Steelers 38, but it ended up not mattering as Szmyt drilled the kick down the middle to extend his streak of made field goals to 22. \"I honestly said, ‘I’ll hit it from anywhere,\"' but I told him ‘let’s get to the 42, maybe a 60-yard field goal,' He got me a couple extra yards, so kudos to him,\" said Szmyt, who had his third field goal in the final 15 seconds since joining the Browns last season. Cleveland has won eight straight Thursday night games, the longest active streak and fourth longest in NFL history. Four have come against the Steelers. Pittsburgh (2-2) is 0-10 on the road against AFC North rivals on Thursdays. Watson completed 24 of 33 passes for 268 yards with a touchdown and interception. He passed for 181 yards in the first half, his most since being traded by Houston to Cleveland in 2022. “Happy for Deshaun. Not happy about the sack there at the end, but three straight fourth-quarter comebacks really cool for him and our team,” Browns coach Todd Monken said. Rodgers, who was 22 of 40 for 299 yards with three touchdowns and two interceptions, had one final chance to get the Steelers in field goal range, but he was picked off by Grant Delpit at the Browns 18 on a Hail Mary throw with 1 second left. Pittsburgh's Jaylen Warren rushed for 93 yards on 17 carries and DK Metcalf had five catches for 115 yards. “I wouldn't say it was our cleanest game all the way around,” Rodgers said. “They were getting after us on some of the long yardage stuff that we weren't winning a bunch. I missed some throws I usually hit.” The Browns defense got consistent pressure on Rodgers with five sacks and 10 quarterback hits. “We had some protection challenges. It was a five-man pressure, man-to-man game. They established that right from the beginning,” Steelers coach Mike McCarthy said. “I think it was an aggressive game plan by them. I kind of expected some of it, and we were one play short.” Big second quarter by Browns Pittsburgh controlled the first 15 minutes and took a 7-0 lead when Roman Wilson took a shovel pass 12 yards around left end on a jet sweep. Momentum shifted on the second play of the second quarter after Denzel Ward picked off Rodgers’ pass intended for Michael Pittman Jr . at the Browns 44. The rest of the first half was all Browns. It was the first time since Week 13 of the 2020 season against Tennessee that the Browns scored at least 21 points in the second quarter. “Denzel flipped it, and then we kind of got things going a little bit, got in a good rhythm,” Monken said. Jaleel McLaughlin tied it at 7 with 12:14 remaining in the first half on a 28-yard run around right end. The fourth-year running back broke a pair of tackles at the 22 and went through a narrow opening at the 15 before scoring. Cleveland took a 14-7 lead midway through the second quarter on Quinshon Judkins’ 2-yard run off right guard. The touchdown came three plays after Watson found Denzel Boston for a 60-yard completion to the Steelers 14 on the first play of the drive. Harold Fannin Jr . then hauled in his third touchdown in two games on a 2-yard pass from Watson on third-and-goal with 1:22 remaining. The Steelers got within 21-10 on Boswell’s 31-yard field goal with 8 seconds left before halftime. Rodgers rolled right and connected with Washington for a 21-yard touchdown early in the fourth quarter to bring Pittsburgh within 21-16. The 2-point conversion attempt failed. Injuries Steelers: DT Derrick Harmon (foot) was carted to the locker room during the second quarter and did not return. CB Jamel Dean (ankle) went out late in the second quarter and did not return. Browns: DT Mason Graham (left knee) was injured in the first quarter and did not return. DT Mike Hall Jr . (right ankle) went out late in the second quarter but came back in the third. Up next Steelers: Host Indianapolis on Oct. 11. Browns: At the New York Jets on Oct. 11. ------ See AP’s full NFL coverage here",
+  "scoring_plays": [
+   "Roman Wilson 12 Yd pass from Aaron Rodgers (Chris Boswell Kick)",
+   "Jaleel McLaughlin 28 Yd Rush (Andre Szmyt Kick)",
+   "Quinshon Judkins 2 Yd Rush (Andre Szmyt Kick)",
+   "Harold Fannin Jr. 2 Yd pass from Deshaun Watson (Andre Szmyt Kick)",
+   "Chris Boswell 31 Yd Field Goal",
+   "Darnell Washington 21 Yd pass from Aaron Rodgers (Two-Point Pass Conversion Failed)",
+   "Andre Szmyt 44 Yd Field Goal ",
+   "Pat Freiermuth 3 Yd pass from Aaron Rodgers (Aaron Rodgers Run for Two-Point Conversion)",
+   "Andre Szmyt 56 Yd Field Goal"
+  ],
+  "injury_report": [
+   {
+    "team": "CLE",
+    "player": "Tylan Wallace",
+    "status": "Questionable",
+    "injury": "Knee"
+   },
+   {
+    "team": "CLE",
+    "player": "Dillon Gabriel",
+    "status": "Injured Reserve",
+    "injury": "Back"
+   },
+   {
+    "team": "CLE",
+    "player": "Mike Hall Jr.",
+    "status": "Questionable",
+    "injury": "Ankle"
+   },
+   {
+    "team": "CLE",
+    "player": "Grant Delpit",
+    "status": "Questionable",
+    "injury": "Shoulder"
+   },
+   {
+    "team": "CLE",
+    "player": "Derek Barnett",
+    "status": "Questionable",
+    "injury": "Ankle"
+   },
+   {
+    "team": "PIT",
+    "player": "Rico Dowdle",
+    "status": "Questionable",
+    "injury": "Toe"
+   },
+   {
+    "team": "PIT",
+    "player": "Michael Pittman Jr.",
+    "status": "Out",
+    "injury": "Foot"
+   },
+   {
+    "team": "PIT",
+    "player": "Jalen Ramsey",
+    "status": "Questionable",
+    "injury": "Wrist"
+   },
+   {
+    "team": "PIT",
+    "player": "Derrick Harmon",
+    "status": "Injured Reserve",
+    "injury": "Foot"
+   },
+   {
+    "team": "PIT",
+    "player": "Jamel Dean",
+    "status": "Doubtful",
+    "injury": "Ankle"
+   }
+  ],
+  "final": "CLE 27, PIT 24"
+ },
+ {
+  "espn_id": "401872965",
+  "date_utc": "2026-10-04T13:30Z",
+  "away": "IND",
+  "away_score": 30,
+  "home": "WAS",
+  "home_score": 13,
+  "status": "Final",
+  "venue": "Tottenham Hotspur Stadium",
+  "notes": [
+   "NFL London Games"
+  ],
+  "recap_headline": "Tea time as Jonathan Taylor runs for 2 TDs and Colts beat Commanders 30-13 in London",
+  "recap_text": "LONDON -- — Sip some tea, score some touchdowns. Jonathan Taylor 's secret is out. The Colts running back rushed for two touchdowns, quarterback Daniel Jones also ran one in and Indianapolis beat Washington 30-13 after the Commanders lost yet another quarterback to injury on Sunday. Taylor said he enjoyed some tea at dinner on the eve of the game at Tottenham Hotspur Stadium. And then he mimicked the same after one of his 5-yard touchdown runs to help the Colts (2-2) win their second straight game. “I had to show the world, hey, I had a really good tea,” Taylor said. Marcus Mariota , who was starting in place of the injured Jayden Daniels , left the game after Washington’s second drive because of a knee injury. The veteran quarterback was sacked and didn’t return for the Commanders (1-3). Coach Dan Quinn said it looks like an MCL injury and it's unknown how long he'll be out. Third-string rookie quarterback Athan Kaliakmanis threw his first NFL touchdown pass to cut Indy's lead to 17-13 in the third quarter, but the Colts answered with Spencer Shrader 's 52-yard field goal and Jones' 4-yard run early in the fourth quarter. Taylor rushed for 95 yards on 20 carries as the Colts overcame two turnovers from Jones, who completed 19 of 34 passes for 143 yards with an interception and a fumble. “Can’t afford to turn the ball over like that,” Jones said. “Got to understand when to take a chance, when not to, when to protect the ball, when you have a chance to make a play.” Kaliakmanis threw a costly interception early in the third quarter and the Colts quickly capitalized. Linebacker Jaylon Carlies picked off Kaliakmanis' pass at the Washington 27 and returned it to the 20. Taylor’s second 5-yard run of the game made it 17-6. Kaliakmanis bounced back on the next drive, though, hitting Treylon Burks on a 47-yard touchdown pass that closed the gap to 17-13. Burks got past cornerback Sauce Gardner and found space before hauling in the deep ball . “It was surreal, man, it was absolutely surreal,” Kaliakmanis said, “but I've got to be honest, right now I'm just thinking about the loss. It's not about me. It's about this team.” Shrader later added a 44-yard field goal — his third of the game — to extend Indy's lead to 30-13. Kaliakmanis completed 15 of 33 passes for 186 yards with one touchdown and the interception. The Colts led 10-6 at halftime after Taylor's first 5-yard touchdown run and then Shrader’s 48-yard field goal. The Commanders failed to capitalize on two red zone opportunities in the first quarter, settling for field goals. Odafe Oweh drove Colts left tackle Bernhard Raimann backward into Jones causing the quarterback to fumble on Indy's first drive. Oweh then recovered it at the 21. The Commanders had fourth-and-2 from the 13 but opted for Drew Stevens ' 31-yarder. Washington then stalled at the Colts 5 on their next drive. On third down, Mariota was sacked at the 11 by Adetomiwa Adebawore and Laiatu Latu . Mariota walked off gingerly to the sideline, and another Stevens field goal made it 6-0, but the quarterback didn't return. Attendance was 60,907 for the 13th NFL game played at Tottenham. The league had recently reduced remaining ticket prices to 79 pounds ($105) including for some high-end seats. Attendance has never been below 60,000 in previous games. The venue opened in 2019 and features an NFL field below the Premier League team’s moveable soccer pitch . It was 70 degrees Fahrenheit at kickoff. Global success Taylor's big day made him the all-time leading rusher in NFL international games , the Colts said. Taylor had rushed for 244 yards and three touchdowns last season in Indy's 31-25 overtime victory over the Atlanta Falcons in Berlin. “I hope that I can continue to stack that, now that I’m apparently the leader,” Taylor said. Injuries Colts: LT Bernhard Raimann was hurt early in the third quarter but returned.... WR Ashton Dulin and DE Arden Key both sustained hamstring injuries. Commanders: In addition to Mariota, WR Jaylin Lane had a “serious ankle injury,” Quinn said. DE Charles Omenihu had a groin problem... S Tyler Owens left late with a hamstring injury. Up next Colts: at Pittsburgh next Sunday. Commanders: host New York Giants next Sunday. ------ See AP’s full NFL coverage here",
+  "scoring_plays": [
+   "Drew Stevens 31 Yd Field Goal",
+   "Drew Stevens 29 Yd Field Goal ",
+   "Jonathan Taylor 5 Yd Rush (Spencer Shrader Kick)",
+   "Spencer Shrader 48 Yd Field Goal ",
+   "Jonathan Taylor 5 Yd Rush (Spencer Shrader Kick)",
+   "Treylon Burks 47 Yd pass from Athan Kaliakmanis (Drew Stevens Kick)",
+   "Spencer Shrader 52 Yd Field Goal ",
+   "Daniel Jones 4 Yd Rush (Spencer Shrader Kick)",
+   "Spencer Shrader 44 Yd Field Goal "
+  ],
+  "injury_report": [
+   {
+    "team": "WAS",
+    "player": "Sonny Styles",
+    "status": "Questionable",
+    "injury": "Groin"
+   },
+   {
+    "team": "WAS",
+    "player": "Frankie Luvu",
+    "status": "Questionable",
+    "injury": "Groin"
+   },
+   {
+    "team": "WAS",
+    "player": "Jeremy McNichols",
+    "status": "Injured Reserve",
+    "injury": "Quadriceps"
+   },
+   {
+    "team": "WAS",
+    "player": "Deatrich Wise Jr.",
+    "status": "Out",
+    "injury": "Quadriceps"
+   },
+   {
+    "team": "WAS",
+    "player": "Trey Amos",
+    "status": "Injured Reserve",
+    "injury": "Ankle"
+   },
+   {
+    "team": "IND",
+    "player": "Akeem Davis-Gaither",
+    "status": "Questionable",
+    "injury": "Knee"
+   },
+   {
+    "team": "IND",
+    "player": "Ashton Dulin",
+    "status": "Questionable",
+    "injury": "Hamstring"
+   },
+   {
+    "team": "IND",
+    "player": "Keenan Allen",
+    "status": "Questionable",
+    "injury": "Groin"
+   },
+   {
+    "team": "IND",
+    "player": "Tanor Bortolini",
+    "status": "Questionable",
+    "injury": "Ankle"
+   },
+   {
+    "team": "IND",
+    "player": "Will Mallory",
+    "status": "Injured Reserve",
+    "injury": "Thumb"
+   }
+  ],
+  "final": "IND 30, WAS 13"
+ },
+ {
+  "espn_id": "401872971",
+  "date_utc": "2026-10-04T17:00Z",
+  "away": "NE",
+  "away_score": 29,
+  "home": "BUF",
+  "home_score": 26,
+  "status": "Final",
+  "venue": "Highmark Stadium",
+  "notes": [],
+  "recap_headline": "Maye overcomes his two turnovers with 3 TD passes in Patriots' 29-26 win over Bills",
+  "recap_text": "ORCHARD PARK, N.Y. -- — Drake Maye didn’t have to be perfect after his rough start to the season. The New England Patriots quarterback understood he simply needed to be more consistent. Maye delivered by shaking off two first-half turnovers to finish with three touchdown passes — including Efton Chism’s one-handed catch with 1:50 remaining — in rallying New England to a 29-26 win over Josh Allen and the previously unbeaten Buffalo Bills on Sunday. The three touchdowns were two more than Maye combined for in New England losing two of its first three games to open the season. The 29 offensive points scored against Buffalo matched the Patriots’ total from their first three outings. “It’s relieving a little bit,” said Maye, who was facing criticism after opening the season throwing six interceptions and losing a fumble. “I know I’ve got to play better and still left some stuff out there today. But we’ve got to build on it.” Patriots coach Mike Vrabel was far more enthusiastic about his third-year quarterback’s performance in an outcome that allowed the defending AFC East champions to improve to 2-2 and close the gap on their division rival Bills (3-1). “Gets us back in the race. Josh (Allen) was unbelievable,” Vrabel said. “Felt like Drake went toe to toe with him.” Indeed he did. With New England trailing 26-21 following Allen’s 34-yard touchdown pass to Keon Coleman , Maye led an eight-play, 73-yard drive, which he capped with the completion to Chism. Facing third-and-5, Maye rolled to his right and lobbed a perfectly placed pass to the second-year receiver, who caught it with his right hand and maintained control falling to the ground. “Shoot, when I’m out there and the ball is in the air, I kind of black out,” said Chism, who was getting extended playing time after Mack Hollins left with a calf injury. “Drake gave me an opportunity and you have to come down with those opportunities.” Maye finished 22 of 37 for 269 yards. Romeo Doubs had touchdown catches of 2 and 14 yards, and Rhamondre Stevenson scored on a 1-yard run. The Bills, meanwhile, frittered away a chance to widen their division lead, losing for the first time under coach Joe Brady and first time at their new Highmark Stadium. “The wins and losses are all the same to me. I don’t mean that in a negative way,” Brady said, before explaining his objective is always finding ways to be better. “We’re not going to make excuses. We’re not gonna let others make excuses for us,” he added. “Let’s just start with ourselves and then we’ll continue to clean it up and obviously start with myself.” Buffalo has much to clean up after committing two turnovers a week after a five-giveaway outing in a 24-16 win over the Los Angeles Chargers . Receiver Khalil Shakir lost a fumble, and Allen’s interception — his third of the season — essentially sealed the loss in ending Buffalo’s final drive. Despite having a minute left and the ball at the Buffalo 40, Allen turned overly aggressive. On second-and-6, he spun out of Dre’Mont Jones’ sack attempt, stepped up in the pocket and went deep only to have his underthrown pass intended for Josh Palmer intercepted by Craig Woodson . “Should have thrown that one out of bounds and live another day. That’s what I should have done,” Allen said. “It stinks. I feel like we hurt ourselves.” Allen finished 23 of 33 for 253 yards with a touchdown and also scored on a 2-yard run. James Cook scored on an 8-yard run. The offense also appeared to struggle after DJ Moore left with a shoulder injury late in the first half. Defensively, tackle Ed Oliver was sidelined by a knee injury, and the unit was already missing its top cornerback, Christian Benford (toe). Maye put the finishing touches on the win after Allen’s interception by rolling out to his right and lobbing a 12-yard pass to Hunter Henry in allowing the Patriots to run out the clock. “I thought he just competed today, whether it was a bad snap, dropping the ball, whatever it may have been,” Vrabel said of Maye, who’s turnover issues extended to the start of last season's playoffs. “I’m happy for him, I’m proud of him. He deserves all the credit.” Allen milestones Allen’s 2-yard touchdown run to tie the game at 14 with one minute left in the first half was his 88th career from scrimmage (rushing/receiving) to break the team record held by Hall of Famers Thurman Thomas and Andre Reed. It was also Allen’s 86th TD rushing, moving him into a tie with Priest Holmes for 16th place on the NFL's career list. Up next Patriots: host the Las Vegas on Sunday. Bills: at the Los Angeles Rams on \"Monday Night Football\" on Oct. 12 ------ See AP’s full NFL coverage here",
+  "scoring_plays": [
+   "Romeo Doubs 14 Yd pass from Drake Maye (Andy Borregales Kick)",
+   "James Cook III 8 Yd Rush (Tyler Bass Kick)",
+   "Rhamondre Stevenson 1 Yd Rush (Andy Borregales Kick)",
+   "Josh Allen 2 Yd Rush (Tyler Bass Kick)",
+   "Tyler Bass 27 Yd Field Goal",
+   "Romeo Doubs 2 Yd pass from Drake Maye (Andy Borregales Kick)",
+   "Tyler Bass 38 Yd Field Goal",
+   "Keon Coleman 34 Yd pass from Josh Allen (Two-Point Pass Conversion Failed)",
+   "Efton Chism III 23 Yd pass from Drake Maye (Drake Maye Pass to Rhamondre Stevenson for Two-Point Conversion)"
+  ],
+  "injury_report": [
+   {
+    "team": "BUF",
+    "player": "T.J. Sanders",
+    "status": "Questionable",
+    "injury": null
+   },
+   {
+    "team": "BUF",
+    "player": "Christian Benford",
+    "status": "Questionable",
+    "injury": "Toe"
+   },
+   {
+    "team": "BUF",
+    "player": "DJ Moore",
+    "status": "Questionable",
+    "injury": "Shoulder"
+   },
+   {
+    "team": "BUF",
+    "player": "Dee Alford",
+    "status": "Questionable",
+    "injury": "Ankle"
+   },
+   {
+    "team": "BUF",
+    "player": "Ed Oliver",
+    "status": "Questionable",
+    "injury": "Knee"
+   },
+   {
+    "team": "NE",
+    "player": "Craig Woodson",
+    "status": "Questionable",
+    "injury": "Shoulder"
+   },
+   {
+    "team": "NE",
+    "player": "Morgan Moses",
+    "status": "Questionable",
+    "injury": "Foot"
+   },
+   {
+    "team": "NE",
+    "player": "Dre'Mont Jones",
+    "status": "Questionable",
+    "injury": "Shoulder"
+   },
+   {
+    "team": "NE",
+    "player": "Christian Elliss",
+    "status": "Questionable",
+    "injury": "Chest"
+   },
+   {
+    "team": "NE",
+    "player": "Reggie Gilliam",
+    "status": "Questionable",
+    "injury": "Ankle"
+   }
+  ],
+  "final": "NE 29, BUF 26"
+ },
+ {
+  "espn_id": "401872972",
+  "date_utc": "2026-10-04T17:00Z",
+  "away": "NYJ",
+  "away_score": 12,
+  "home": "CHI",
+  "home_score": 23,
+  "status": "Final",
+  "venue": "Soldier Field",
+  "notes": [],
+  "recap_headline": "Kyle Monangai scores 2 TDs as the Chicago Bears beat the New York Jets 23-12",
+  "recap_text": "CHICAGO -- — The Chicago Bears kept handing the ball to Kyle Monangai and the New York Jets had precious little time to respond. It was that kind of day. Monangai rushed for 146 yards and two touchdowns, and Chicago stuffed New York for a 23-12 victory on Sunday. “Shout out to the offensive line, the running backs, the whole offensive crew as well as the defense as well for having a great day,” wide receiver Rome Odunze said. Devin Bush , Austin Booker and Dayo Odeyingbo each had a sack as Chicago limited New York to seven first downs and 157 yards overall. The Bears have allowed a total of 28 points in three games since their wild 59-37 victory at Carolina in their season opener. “I thought those guys all stood out,” Bears coach Ben Johnson said. “It was another one of those days where it’s hard to single out any particular guy. I just thought everyone played really good football on that side.” Chicago (3-1) had 34 first downs and ran 89 plays while possessing the ball for almost 43 minutes. The Bears also did not punt in a game for the first time since 2014. New York (1-3) went 0 for 7 on third down and ran a total of 32 plays. “We’ve got to execute and do whatever we can to keep our defense off the field,” Jets quarterback Geno Smith said. \"That’s a part of playing complementary football. I think we can do a lot better job in that area.” It was the first time an NFL team had more first downs than its opponent had offensive plays since Pittsburgh's 43-0 victory over Cleveland on Sept. 12, 1999. It also was the first time since 1997 that the Bears held their opponent without a third-down conversion. “We have to do a better job of complementing each other and that did not show up today at all,” Jets coach Aaron Glenn said. “When you have the discrepancy of 89 plays and 32 plays, it’s something we have to look at and something we have to continue to work on. That’s the only thing we can do is continue to work.” Tyson Bagent passed for a career-high 268 yards for Chicago and Cairo Santos kicked three field goals. Odunze had six receptions for 94 yards. Minkah Fitzpatrick stopped New York's NFL-record interception drought at 20 games , but the Jets dropped their third consecutive game since their season-opening win at Tennessee. Smith found Isaiah Williams for a 58-yard touchdown pass in the fourth quarter, trimming New York's deficit to 23-12 with 9:16 left. It was Williams' first TD in his 27th career game. But Jason Sanders missed the ensuing extra point and Chicago ran out the clock with an 18-play, 77-yard drive. “Toward the end of the game, if they don’t want to be out there anymore, you just keep running at them,” Monangai said, “running at them, 4-yard gain, 4-yard gain, 20-yarder come out of nowhere, big play in the passing game, and then 4-yard gain, 4-yard gain, it gets tiring. So you definitely feel it.” Monangai finished with 30 carries. He was dealing with a thumb injury at the end of the game and he said he will know more about it Monday. Bagent was 25 for 34 while subbing for Caleb Williams , who missed his second straight game because of a right hamstring injury. Case Keenum started Monday night's 27-7 win over Philadelphia, passing for 247 yards and two touchdowns. Keenum was behind center for Chicago's first play against New York and Bagent was split out wide. Keenum pitched the ball to D’Andre Swift for a 2-yard gain before Bagent took over at QB. “I got all these memos saying that Tyson was starting before I ever made an announcement so I wanted to get Case out there the first time,” Johnson said. “It was like a ceremonial first pitch out there, handing off the torch.” Chicago turned the ball over on downs at the New York 1 on its first drive. But Monangai's 1-yard TD on fourth-and-goal gave the Bears a 7-0 lead late in the first quarter. The Bears opened a 20-6 lead on Monangai's 5-yard touchdown with 2:26 left in the third. “No flinch from him,” Bagent said. “He’s been outstanding ever since he got here. Does the right thing.” Fitzpatrick stepped in front of Colston Loveland and picked off a pass by Bagent in the second quarter for New York's first interception since Ashtyn Davis had two against Miami in the 2024 season finale. But the Jets had three more interceptions taken off the board because of penalties. Injuries Jets: Edge rusher Braiden McGregor departed with a chest injury. ... Cornerback Jarvis Brownlee Jr . departed with a concussion. Up next Jets: Host Cleveland next Sunday. Bears: At Green Bay next Sunday. ------ See AP’s full NFL coverage here",
+  "scoring_plays": [
+   "Kyle Monangai 1 Yd Rush (Cairo Santos Kick)",
+   "Jason Sanders 36 Yd Field Goal",
+   "Cairo Santos 30 Yd Field Goal ",
+   "Cairo Santos 30 Yd Field Goal",
+   "Jason Sanders 30 Yd Field Goal ",
+   "Kyle Monangai 5 Yd Rush (Cairo Santos Kick)",
+   "Cairo Santos 21 Yd Field Goal ",
+   "Isaiah Williams 58 Yd pass from Geno Smith (Jason Sanders PAT Failed)"
+  ],
+  "injury_report": [
+   {
+    "team": "CHI",
+    "player": "Anthony Johnson Jr.",
+    "status": "Out",
+    "injury": "Undisclosed"
+   },
+   {
+    "team": "CHI",
+    "player": "Caleb Williams",
+    "status": "Out",
+    "injury": "Hamstring"
+   },
+   {
+    "team": "CHI",
+    "player": "Kyler Gordon",
+    "status": "Out",
+    "injury": "Calf"
+   },
+   {
+    "team": "CHI",
+    "player": "Joe Thuney",
+    "status": "Questionable",
+    "injury": "Pectoral"
+   },
+   {
+    "team": "CHI",
+    "player": "Darnell Wright",
+    "status": "Questionable",
+    "injury": "Ankle"
+   },
+   {
+    "team": "NYJ",
+    "player": "Dylan Parham",
+    "status": "Doubtful",
+    "injury": "Knee"
+   },
+   {
+    "team": "NYJ",
+    "player": "Kingsley Enagbare",
+    "status": "Questionable",
+    "injury": "Knee"
+   },
+   {
+    "team": "NYJ",
+    "player": "Braiden McGregor",
+    "status": "Injured Reserve",
+    "injury": "Pectoral"
+   },
+   {
+    "team": "NYJ",
+    "player": "Breece Hall",
+    "status": "Doubtful",
+    "injury": "Quadriceps"
+   },
+   {
+    "team": "NYJ",
+    "player": "Kiko Mauigoa",
+    "status": "Doubtful",
+    "injury": "Quadriceps"
+   }
+  ],
+  "final": "CHI 23, NYJ 12"
+ },
+ {
+  "espn_id": "401872969",
+  "date_utc": "2026-10-04T17:00Z",
+  "away": "JAX",
+  "away_score": 22,
+  "home": "CIN",
+  "home_score": 17,
+  "status": "Final",
+  "venue": "Paycor Stadium",
+  "notes": [],
+  "recap_headline": "Trevor Lawrence finally gets 1st win over Bengals as Jaguars hold on for 22-17 victory",
+  "recap_text": "CINCINNATI -- — The Jaguars didn't have a nightmare finish in Cincinnati for the second straight year. Jacksonville's defense made two key stops in the red zone — including stopping Bengals running back Chase Brown 1 yard shy of a first down with 50 seconds remaining — and Trevor Lawrence passed for 227 yards and a touchdown as the Jaguars held off the Bengals 22-17 on Sunday. Being able to hold on for a tight victory marked a milestone for Liam Coen's team. Jacksonville lost to the Bengals 31-27 in Week 2 last year on Jake Browning 's 1-yard sneak with 18 seconds remaining. The Jags had another tough Week 2 this season at Denver, when the Broncos rallied with two fourth-quarter touchdowns. “You look at the last time we were in this locker room, we weren’t able to close out a game where we weren’t able to get it done offensively and the defense had to hold strong and we end up (in) a game of inches,” Coen said. “Proud of the growth and the group for sticking with it and overcoming a lot of bad stuff, a lot of self-inflicted wounds.” Lawrence completed 18 of 23 passes to beat the Bengals for the first time in four attempts. The sixth-year quarterback, the top pick in the 2021 NFL draft, has at least one win over every AFC opponent. It was Lawrence's first victory over Bengals counterpart Joe Burrow in four matchups, dating to the 2020 College Football Playoff title game between Clemson and LSU. “It felt good. You look at all the different games we’ve played and they all went about like today went, except we were on the other end of it,” Lawrence said. “You’re going to have to win games like this throughout the season where you maybe don’t play your best and it’s not pretty, but find a way.” Brian Thomas Jr. and Chris Rodriguez scored touchdowns for the Jaguars and Cam Little kicked three field goals. Burrow passed for 428 yards for the Bengals, who lost All-Pro wide receiver Ja'Marr Chase to a concussion in the second quarter. Tee Higgins had 11 receptions for 151 yards before he went down with a groin injury in the fourth quarter. Burrow, who completed 39 of 54 passes and had his eighth 400-yard game, also threw two interceptions — one that Jacksonville converted into a touchdown and the other when the Bengals were in the red zone. “We know we had some chances. We've got to find a way to not turn the ball over there, specifically the one in the red zone. That's the one I'm the most upset about. I got pressured and was trying to get rid of it and didn't see (the defender),” said Burrow, who had a TD pass to Mike Gesicki along with a QB sneak for a score, both in the second half. Bengals' last drive comes up short Rodriguez ran 25 yards off left guard to put the Jaguars ahead 22-10 with 6:25 remaining. The 2-point conversion failed. The Bengals answered three minutes later with a nine-play touchdown drive, capped by Burrow’s 1-yard sneak. Parker Washington appeared to put it away for the Jaguars on third-and-10 when he caught a screen pass from Lawrence and went 39 yards to the Bengals 16. But replays showed Washington stepped out of bounds at the Bengals 48. After a punt, the Bengals got the ball at their own 17 with 1:44 remaining. Burrow completed three straight passes and moved Cincinnati to the Jaguars 21, but then misfired on three straight passes. On fourth-and-10, Burrow found Brown in the flat. Brown beat linebacker Foyesade Oluokun but safety Rayuan Lane III stopped him 1 yard short at the 12. Cincinnati has dropped two straight after winning its first two for the second straight year, which did not make coach Zac Taylor happy. The eighth-year coach could be heard from the adjoining interview room ripping into his team in the locker room. “I believe in these guys. Really disappointed that we lost. We’re not that kind of a team this year that’s going to take consolation in losses. I think we lost tough games to some really good teams,” Taylor said. Jaguars seize momentum late in first half Jacksonville had a 6-3 advantage before Jourdan Lewis picked off Burrow's pass intended for Dohnte Meyers and returned it 45 yards up the left sideline to the Bengals 18. It was the ninth straight game in which the Jaguars have recorded an interception, a franchise record and the NFL's longest active streak. Four plays later, Lawrence found Thomas wide open in the back of the end zone for a 7-yard touchdown to make it 13-3 with 1:23 remaining in the first half. Flag day Referee Alex Moore's crew called 24 penalties for 244 yards. That crew came in with the fourth-most penalties called during the first three weeks after leading the league last season. The first half saw 16 penalties for 149 yards. “I’ve just never quite seen something that much the first half of the football game,” Coen said. Injuries Jaguars: Safety Caleb Ransaw went out with a knee injury in the first quarter and did not return. Safety Eric Murray was ruled out in the second half because of a concussion. Up next Jaguars: Face the Philadelphia Eagles in London next Sunday. Bengals: At Miami next Sunday. ------ See AP’s full NFL coverage here",
+  "scoring_plays": [
+   "Cam Little 55 Yd Field Goal",
+   "Evan McPherson 29 Yd Field Goal ",
+   "Cam Little 28 Yd Field Goal ",
+   "Brian Thomas Jr. 7 Yd pass from Trevor Lawrence (Cam Little Kick)",
+   "Mike Gesicki 15 Yd pass from Joe Burrow (Evan McPherson Kick)",
+   "Cam Little 54 Yd Field Goal",
+   "Chris Rodriguez Jr. 25 Yd Rush (Two-Point Pass Conversion Failed)",
+   "Joe Burrow 1 Yd Rush (Evan McPherson Kick)"
+  ],
+  "injury_report": [
+   {
+    "team": "CIN",
+    "player": "Colbie Young",
+    "status": "Questionable",
+    "injury": "Knee"
+   },
+   {
+    "team": "CIN",
+    "player": "Tee Higgins",
+    "status": "Questionable",
+    "injury": "Groin"
+   },
+   {
+    "team": "CIN",
+    "player": "Dalton Risner",
+    "status": "Questionable",
+    "injury": "Knee"
+   },
+   {
+    "team": "CIN",
+    "player": "Dexter Lawrence II",
+    "status": "Questionable",
+    "injury": "Wrist"
+   },
+   {
+    "team": "CIN",
+    "player": "Jordan Battle",
+    "status": "Questionable",
+    "injury": "Hamstring"
+   },
+   {
+    "team": "JAX",
+    "player": "Christian Braswell",
+    "status": "Injured Reserve",
+    "injury": "Knee"
+   },
+   {
+    "team": "JAX",
+    "player": "Cole Van Lanen",
+    "status": "Questionable",
+    "injury": "Knee"
+   },
+   {
+    "team": "JAX",
+    "player": "Jarrian Jones",
+    "status": "Questionable",
+    "injury": "Foot"
+   },
+   {
+    "team": "JAX",
+    "player": "Josh Hines-Allen",
+    "status": "Questionable",
+    "injury": "Groin"
+   },
+   {
+    "team": "JAX",
+    "player": "DaVon Hamilton",
+    "status": "Questionable",
+    "injury": "Foot"
+   }
+  ],
+  "final": "JAX 22, CIN 17"
+ },
+ {
+  "espn_id": "401872966",
+  "date_utc": "2026-10-04T17:00Z",
+  "away": "ARI",
+  "away_score": 24,
+  "home": "NYG",
+  "home_score": 36,
+  "status": "Final",
+  "venue": "MetLife Stadium",
+  "notes": [],
+  "recap_headline": "Winston throws 3 TD passes and Banks' pick-6 seals Giants' 36-24 win over Cardinals",
+  "recap_text": "EAST RUTHERFORD, N.J. -- — Jameis Winston showed off the good, bad and ugly of his football career and it required another late defensive stand to get it done. It was far from a masterpiece, but the New York Giants will take it. Winston threw three touchdown passes to offset a pair of interceptions, Deonte Banks had a 98-yard pick-6 to seal it and the Giants won another not-so-pretty game, defeating the Arizona Cardinals 36-24 on Sunday to take sole possession of first place in the NFC East. “It wasn’t the most beautiful game, as far as playing perfectly: It was a winning game,” coach John Harbaugh said. “That’s what winning teams do: They find ways to win games, and that’s why they’re winning teams.” Making his second start in place of injured franchise quarterback Jaxson Dart , Winston again did what he needed to do to engineer a victory with TD passes to Malachi Fields , Malik Nabers and Theo Johnson . Winston's 12-yard toss to Fields with 4:30 remaining in the second quarter was the team's first touchdown since the season opener , ending a drought that lasted nine-plus quarters. Winston finished 18 of 29 for 250 yards in a roller-coaster showing of highs and lows. J.J. McCarthy was in uniform six days after the Giants (3-1) acquired him in a trade with Minnesota but did not play. \"It just gave us an option in case we wanted to put J.J. out there and run certain plays that we had prepared for him,\" said Harbaugh, who added McCarthy was not close to entering the game. Nabers more than doubled his receiving yardage this season by making six catches for 112 yards. He had 96 through his first three games back from a serious knee injury. “I knew it was coming this game,” Nabers said. “I don’t know — I just felt good. I felt good through the whole week. I just didn’t want to jinx myself, so I was just trying to be humble and just wait for the game to come to me.” The defense also made some big plays, sacking Brissett twice and rebounding from allowing two long touchdown drives in the first 12 minutes. For a second game in a row, New York got an interception after its opponent reached the red zone, and Banks made up for his pass interference penalty a few plays earlier that Harbaugh called crazy. “I thought you had to touch a guy for it to be pass interference,” Harbaugh said. “He didn’t bat an eye. Nobody flinched, nobody blinked.” Dominic Zvada continued to validate Harbaugh's trust in another rookie kicker by improving to 9 of 9 on field goal attempts. Jacoby Brissett was 21 of 35 and threw three interceptions — the last coming on the final play — which turned out to be the difference. Arizona (1-3) blew a 14-3 lead after Brissett connected with Marvin Harrison Jr . for a TD and Tyler Allgeier ran into the end zone in the first quarter. “We kind of got in our own way,\" Brissett said. \"We made some plays after getting stops, but you can’t have three interceptions.” The Cardinals gained just 138 yards the rest of the way, losing their third in a row since winning coach Mike LaFleur's debut in Week 1 at the Los Angeles Chargers . “All three loses we’ve had over the last three weeks have been different,\" LaFleur said. \"This one is going to sting. It's not going to be the most fun ride home. There are certainly things I know I could have done better. We have to get right back to work because no one is going to feel sorry for us.” Arvell Reese impresses in front of ‘LT’ Rookie linebacker Arvell Reese picked off Brissett for his first interception in the NFL as part of a dominant performance that included nine tackles. And the No. 5 pick in the draft did so with Hall of Famer Lawrence Taylor in attendance as part of the 40th anniversary celebration of the 1986 Super Bowl championship team at halftime. “He has been great,” Taylor said. “I think he’s a good player.” Injuries Cardinals: Safety Andrew Wingard was carted off with a knee injury and right guard Isaiah Adams with an ankle injury. ... Tight end Hunter Long left with a knee injury. ... Left tackle Paris Johnson walked off the field holding his left arm late. Giants: Receiver/returner Braxton Berrios (foot), defensive lineman Chauncey Golston (neck) and safety Jason Pinnock (concussion) left with injuries. Up next Cardinals: Host Detroit next Sunday. Giants: Visit Washington next Sunday. ------ See AP’s full NFL coverage here",
+  "scoring_plays": [
+   "Marvin Harrison Jr. 12 Yd pass from Jacoby Brissett (Chad Ryland Kick)",
+   "Dominic Zvada 39 Yd Field Goal",
+   "Tyler Allgeier 22 Yd Rush (Chad Ryland Kick)",
+   "Dominic Zvada 50 Yd Field Goal",
+   "Malachi Fields 12 Yd pass from Jameis Winston (Two-Point Pass Conversion Failed)",
+   "Malik Nabers 25 Yd pass from Jameis Winston (Dominic Zvada Kick)",
+   "Chad Ryland 60 Yd Field Goal",
+   "Elijah Higgins 2 Yd pass from Jacoby Brissett (Chad Ryland Kick)",
+   "Theo Johnson 11 Yd pass from Jameis Winston (Najee Harris Run for Two-Point Conversion)",
+   "Dominic Zvada 52 Yd Field Goal",
+   "Deonte Banks 98 Yd Interception Return "
+  ],
+  "injury_report": [
+   {
+    "team": "NYG",
+    "player": "Chauncey Golston",
+    "status": "Out",
+    "injury": "Neck"
+   },
+   {
+    "team": "NYG",
+    "player": "Braxton Berrios",
+    "status": "Injured Reserve",
+    "injury": "Foot"
+   },
+   {
+    "team": "NYG",
+    "player": "Andrew Thomas",
+    "status": "Questionable",
+    "injury": "Groin"
+   },
+   {
+    "team": "NYG",
+    "player": "Chris Manhertz",
+    "status": "Questionable",
+    "injury": "Shoulder"
+   },
+   {
+    "team": "NYG",
+    "player": "Isaiah Likely",
+    "status": "Questionable",
+    "injury": "Knee"
+   },
+   {
+    "team": "ARI",
+    "player": "Dadrion Taylor-Demerson",
+    "status": "Questionable",
+    "injury": "Back"
+   },
+   {
+    "team": "ARI",
+    "player": "Andrew Wingard",
+    "status": "Questionable",
+    "injury": "Knee"
+   },
+   {
+    "team": "ARI",
+    "player": "Isaiah Adams",
+    "status": "Out",
+    "injury": "Ankle"
+   },
+   {
+    "team": "ARI",
+    "player": "Jeremiyah Love",
+    "status": "Questionable",
+    "injury": "Ankle"
+   },
+   {
+    "team": "ARI",
+    "player": "Paris Johnson Jr.",
+    "status": "Injured Reserve",
+    "injury": "Biceps"
+   }
+  ],
+  "final": "NYG 36, ARI 24"
+ },
+ {
+  "espn_id": "401872970",
+  "date_utc": "2026-10-04T17:00Z",
+  "away": "LAR",
+  "away_score": 24,
+  "home": "PHI",
+  "home_score": 20,
+  "status": "Final",
+  "venue": "Lincoln Financial Field",
+  "notes": [],
+  "recap_headline": "Rams rally behind Stafford, Williams from 10 points down in 4th quarter to beat Eagles 24-20",
+  "recap_text": "PHILADELPHIA -- — Sean McVay had seen enough of a Rams team mired in a funk. Los Angeles' coach huddled the entire offense around him as the clock ticked down toward the end of the third quarter and his team down by 10. The rallying message, per Matthew Stafford : “Just trying to put some belief in our team.” A week after blowing a 16-point lead in a loss at Denver, perhaps that belief in the Rams was underserving. It was instead unwavering. Oh, and a poor fourth-down decision by the Philadelphia Eagles played a role in the rally, too. Kyren Williams ran for two touchdowns in the final four minutes as Stafford and the Rams rallied from a 10-point deficit to beat the Eagles 24-20 on Sunday. “I think a lot of teams would have folded in those situations,” McVay said. “I think our defense kept giving us a reason to believe.” The Rams (2-2) had struggled offensively all afternoon and a win seemed out of reach until late in the fourth quarter, when Eagles coach Nick Sirianni decided against kicking a chip-shot field goal that would have made it 23-10 and instead went for it on fourth down. The Eagles (2-2) failed to convert, giving the Rams new life. Stafford and the Rams were aided by an unnecessary roughness penalty that helped them cap a 98-yard drive on Williams’ 1-yard TD run with 3:59 left that made it 20-17. The Eagles — who failed to convert a single third down on 12 tries — punted to set up Stafford for the winning drive. He connected with Puka Nacua three times and had a clutch 8-yard scramble on the 10-play, 79-yard march, and Williams finished it off when he broke a few tackles for a 7-yard touchdown with 1:10 remaining. “Plenty of plays where we didn’t get the result we wanted,” Stafford said. “But we got the result we wanted at the end of the game.” The Rams have seen their share of blown late leads of late under McVay, and Sirianni was 4-0 lifetime against his coaching counterpart. Sirianni took the fall for the Eagles' failure to convert the fourth down that could have sealed the win. “You go for it and you get it, great,” Sirianni said. “You go for it and don’t get it, that’s on the head coach.” Once the Rams completed the comeback, McVay skipped and sprinted down the sideline in celebration and nearly leapfrogged safety Quentin Lake . Did it all come down to the speech? “It was just more of what is on my heart to just say, ‘Guys, we’re capable. You got to believe and we got to just string good plays together. Our defense is doing everything that they can to keep us in this game,'” McVay said. Just don't call this one an upset. Sportsbooks had installed the Rams as road favorites. Jalen Hurts was sacked twice on Philadelphia’s final possession and had a desperation pass knocked down. He threw two touchdown passes to Darius Cooper in the first half but finished just 12 of 27 for 93 yards. The Eagles have been outscored 31-0 in the second half of their last two games, both losses. They had only 68 net yards passing and a measly 172 yards of total offense. “Poor execution,” Hurts said. “I don't think there's any other way to put it.” Cooper, who made the game-winning TD catch in a Week 2 win at Tennessee, had touchdown catches of 10 and 18 yards. The Eagles entered with a depleted roster that had them down six starters. That number increased to 10 as star running back Saquon Barkley was among the Eagles who got hurt as the team prepares for a trip to London next week. Offensive lineman Lane Johnson was a late scratch for personal reasons. The Rams, coming a late pass-interference penalty that swung their loss at Denver , played without three-time AP Defensive Player of the Year Aaron Donald . He sat out with a sore back. Nacua returned after a two-game absence with injuries and had a 2-yard rushing TD in the second quarter that cut the Eagles’ lead to 13-10. He finished with nine catches for 125 yards. Stafford, the reigning MVP, was 32 of 51 for 317 yards and two interceptions. His picks led to 10 Eagles points in the first half and Philadelphia led 20-10 at halftime. Injuries Rams WR Konata Mumpfield suffered a shoulder injury. Barkley injured his right hamstring. Eagles cornerback Quinyon Mitchell suffered a knee injury and linebacker Jonathan Greenard left with an ankle injury. Tank Bigsby , who replaced Barkley, needed help off the field after a hard tackle late in the game. Up next The Rams host Buffalo on Monday, Oct. 12. The Eagles play Jacksonville next Sunday in London. ------ See AP’s full NFL coverage here",
+  "scoring_plays": [
+   "Jake Elliott 29 Yd Field Goal",
+   "Harrison Mevis 40 Yd Field Goal",
+   "Jake Elliott 56 Yd Field Goal",
+   "Darius Cooper 18 Yd pass from Jalen Hurts (Jake Elliott Kick)",
+   "Puka Nacua 2 Yd Rush (Harrison Mevis Kick)",
+   "Darius Cooper 10 Yd pass from Jalen Hurts (Jake Elliott Kick)",
+   "Kyren Williams 1 Yd Rush (Harrison Mevis Kick)",
+   "Kyren Williams 7 Yd Rush (Harrison Mevis Kick)"
+  ],
+  "injury_report": [
+   {
+    "team": "PHI",
+    "player": "Quinyon Mitchell",
+    "status": "Questionable",
+    "injury": "Knee"
+   },
+   {
+    "team": "PHI",
+    "player": "Marcus Epps",
+    "status": "Questionable",
+    "injury": "Groin"
+   },
+   {
+    "team": "PHI",
+    "player": "Jonathan Greenard",
+    "status": "Questionable",
+    "injury": "Ankle"
+   },
+   {
+    "team": "PHI",
+    "player": "Jihaad Campbell",
+    "status": "Questionable",
+    "injury": "Knee"
+   },
+   {
+    "team": "PHI",
+    "player": "Zack Baun",
+    "status": "Questionable",
+    "injury": "Concussion"
+   },
+   {
+    "team": "LAR",
+    "player": "Terrance Ferguson",
+    "status": "Injured Reserve",
+    "injury": "Ankle"
+   },
+   {
+    "team": "LAR",
+    "player": "Jaylen Watson",
+    "status": "Questionable",
+    "injury": "Shoulder"
+   },
+   {
+    "team": "LAR",
+    "player": "Colby Parkinson",
+    "status": "Questionable",
+    "injury": "Shoulder - AC Joint"
+   },
+   {
+    "team": "LAR",
+    "player": "Aaron Donald",
+    "status": "Questionable",
+    "injury": "Back"
+   },
+   {
+    "team": "LAR",
+    "player": "Konata Mumpfield",
+    "status": "Questionable",
+    "injury": "Shoulder"
+   }
+  ],
+  "final": "LAR 24, PHI 20"
+ },
+ {
+  "espn_id": "401872968",
+  "date_utc": "2026-10-04T17:00Z",
+  "away": "GB",
+  "away_score": 17,
+  "home": "TB",
+  "home_score": 14,
+  "status": "Final",
+  "venue": "Raymond James Stadium",
+  "notes": [],
+  "recap_headline": "Jordan Love throws 2 touchdown passes, Packers edge Buccaneers 17-14",
+  "recap_text": "TAMPA, Fla. -- — An ugly win left the Green Bay Packers dissatisfied. Jordan Love threw two touchdown passes and the Packers overcame two fourth-quarter turnovers to beat the Tampa Bay Buccaneers 17-14 on Sunday. Undrafted rookie Jalon Daniels threw two picks that led to 10 points in his first career start filling in for Baker Mayfield , who missed a game for the first time in his three-plus seasons in Tampa Bay because of a dislocated thumb. The Packers (2-2) wasted two opportunities to extend a three-point lead in the fourth quarter but the Buccaneers couldn't capitalize. “There were some positive things but we’re never going to be satisfied with scoring 17 points in a game,” Packers coach Matt LaFleur said. “That’s just not to our standard and we have to find ways when we’re in the red area to convert. We can’t be turning the ball over. We can’t have penalties. That is a stingy defense. You have to give them a lot of credit. … But we also have to clean up a lot of stuff. It’s gotta get fixed and it’s gotta get fixed now.” Tykee Smith forced Kaleb Johnson to fumble inside the 5 with just over nine minutes left in the game. A’Shawn Robinson recovered at the 4 but the ensuing drive went nowhere. “A great teacher is the bench. If guys don’t start holding onto the ball, they’re gonna be sitting on the bench,” LaFleur said bluntly. The Packers then had a first-and-15 at the Buccaneers 26 when Jacob Parrish picked Love's pass and gave Tampa Bay the ball at the 15 and a chance for a comeback win. Instead, Daniels threw a short screen pass to Emeka Egbuka on third-and-16 and incomplete on fourth down from the Packers 47. Coach Todd Bowles passed up a 65-yard field-goal attempt by Chase McLaughlin , who made one from that distance last year. Bowles said a little wind factored into the decision not to try it. The Buccaneers are 0-4 for the first time since 2013. Only the 1992 Chargers overcame an 0-4 start to make the playoffs. “I’m the head coach. I can do more. I can always do more. I’ll always take the blame,\" Bowles said. \"We’re gonna fight, we’re gonna stick together and we’re gonna figure this thing out. And I’ll lead them to that. It’s my job.” Love tossed a 2-yard touchdown pass to Matthew Golden on fourth down to give the Packers a 7-0 lead in the second quarter. Evan Williams made a sliding interception near the sideline to give Green Bay the ball at the 32. Love connected with Tucker Kraft for 10 yards on fourth-and-1 to keep the drive going. Kraft also took a direct snap and sneaked for a first down on another fourth-and-1 at the Buccaneers 10. The Packers turned an interception by Edgerrin Cooper in the final minute of the first half into a field goal. Cooper stepped in front of Daniels' pass to Kameron Johnson , caught the ball falling to the ground, got up and returned it 18 yards to the Buccaneers 44. Trey Smack kicked a 58-yarder to give Green Bay a 10-7 lead. Love's 2-yard TD pass to Kraft on the opening drive of the third quarter extended the lead to 17-7. “We’ll take the win for sure. It was sloppy on those last drives,” Love said. “We have a chance to put the game out of reach. Two turnovers is unacceptable. That’s something we have to clean up. … That was the disappointing part of the game.” Sean Tucker ran in from the 2 to tie it at 7. Daniels completed both of his passes for 27 yards combined on the drive and scrambled 9 yards before Tucker's score. Daniels connected with Kenneth Gainwell on a 10-yard TD pass to cut the deficit to 17-14 early in the fourth quarter. Depleted Packers Cooper was carted off the field in the third quarter with an Achilles tendon injury. The Packers are still missing three-time All-Pro edge rusher Micah Parsons , who is recovering from surgery for a torn ACL suffered last December. Love got his best protection this season despite playing played behind an offensive line missing three starters: Zach Bako-Bewele , Aaron Banks and Jacob Monk . Laken Tomlinson became the fourth player to start at left guard. Veteran guard Kevin Zeitler signed earlier in the week was inactive. After taking 31 QB hits in the first three games, Love took two. “The O-line did a great job,” Love said. “Pass protection, run game, just keeping me clean and giving me time. They did a great job and you can feel the difference back there for sure.” I njuries Packers: CB Brandon Cisse hurt his neck and was being evaluated for concussion. ... LB Isaiah McDuffie replaced Cooper and briefly left with an eye injury. ... RB Chris Brooks and DT Devonte Wyatt both left in the first half with ankle injuries. ... Banks (toe, knee) and Monk (quadriceps) will return while Bako-Bewele (knee) is out for the season. Buccaneers: Edge rusher Rueben Bain Jr . (groin), CB Benjamin Morrison (quadriceps), TE Ko Kieft (elbow) were inactive. ... S Antoine Winfield Jr . hurt his abdomen and a rib late in the fourth quarter. ... LB SirVocea Dennis injured his ankle. Up next Packers: Host Chicago next Sunday. Buccaneers: Visit Dallas on Thursday night. ------ See AP’s full NFL coverage here",
+  "scoring_plays": [
+   "Matthew Golden 2 Yd pass from Jordan Love (Trey Smack Kick)",
+   "Sean Tucker 2 Yd Rush (Chase McLaughlin Kick)",
+   "Trey Smack 58 Yd Field Goal",
+   "Tucker Kraft 2 Yd pass from Jordan Love (Trey Smack Kick)",
+   "Kenny Gainwell 10 Yd pass from Jalon Daniels (Chase McLaughlin Kick)"
+  ],
+  "injury_report": [
+   {
+    "team": "TB",
+    "player": "Antoine Winfield Jr.",
+    "status": "Out",
+    "injury": "Ribs"
+   },
+   {
+    "team": "TB",
+    "player": "SirVocea Dennis",
+    "status": "Out",
+    "injury": "Ankle"
+   },
+   {
+    "team": "TB",
+    "player": "Benjamin Morrison",
+    "status": "Out",
+    "injury": "Quadriceps"
+   },
+   {
+    "team": "TB",
+    "player": "Baker Mayfield",
+    "status": "Out",
+    "injury": "Thumb"
+   },
+   {
+    "team": "TB",
+    "player": "Jalen McMillan",
+    "status": "Injured Reserve",
+    "injury": "Knee - PCL"
+   },
+   {
+    "team": "GB",
+    "player": "Lukas Van Ness",
+    "status": "Questionable",
+    "injury": "Shoulder"
+   },
+   {
+    "team": "GB",
+    "player": "Savion Williams",
+    "status": "Injured Reserve",
+    "injury": "Ankle"
+   },
+   {
+    "team": "GB",
+    "player": "Devonte Wyatt",
+    "status": "Questionable",
+    "injury": "Ankle"
+   },
+   {
+    "team": "GB",
+    "player": "Anthony Belton",
+    "status": "Questionable",
+    "injury": "Knee"
+   },
+   {
+    "team": "GB",
+    "player": "Jager Burton",
+    "status": "Questionable",
+    "injury": "Back"
+   }
+  ],
+  "final": "GB 17, TB 14"
+ },
+ {
+  "espn_id": "401872973",
+  "date_utc": "2026-10-04T17:00Z",
+  "away": "TEN",
+  "away_score": 18,
+  "home": "BAL",
+  "home_score": 24,
+  "status": "Final",
+  "venue": "M&T Bank Stadium",
+  "notes": [],
+  "recap_headline": "Ravens beat Titans 24-18 but lose Lamar Jackson to ankle injury. Henry scores against his old team",
+  "recap_text": "BALTIMORE -- — The Baltimore Ravens could have used a quiet, boring victory as a heavy favorite at home. They were halfway toward exactly that — before Lamar Jackson 's latest injury. Jackson's ankle appeared to roll under a Tennessee defender in the final seconds of the second quarter, and although the Ravens held on for a 24-18 win over the Titans on Sunday, they didn't score after their star quarterback left the game. Tyler Huntley , no stranger to replacing Jackson when needed, took the snaps for Baltimore in the second half. “We obviously played maybe a little more bit more conservative in the second half with the weather and the lead,” Ravens coach Jesse Minter said. “Proud of ‘Snoop’ coming in there when his number's called.” Jackson threw for 222 yards and two touchdowns before leaving the game, and Derrick Henry scored against his former team. Zay Flowers had eight catches for 118 yards and a TD for the Ravens, who snapped a four-game home losing streak but now have to deal with more health concerns about their two-time MVP quarterback. Jackson took a sack at the end of first half. Baltimore kicked a field goal on the next play, and when the third quarter started, Huntley replaced Jackson. By then, the Ravens (3-1) were already up 24-7. With something of a patchwork offensive line at the moment, they built the lead mostly through passing. Huntley went 8 of 9 for 63 yards, but Baltimore did little offensively after halftime on a drizzly day in Charm City. “It was just take care of the ball,” Huntley said. “It was raining, weather, and you know we had the lead, so it was just take care of the ball and just do what I could do for the team.” Tennessee (0-4) is now 6-32 since Henry left the Titans to join the Ravens via free agency before the 2024 season. This was the teams' first meeting since then. Henry opened the scoring, powering through safety Kevin Winston Jr . for a 5-yard touchdown run on fourth-and-1. That drive was set up when Tennessee's Cam Ward tried to flip a desperation pass to Tony Pollard on the second play from scrimmage, and the ball went through Pollard's arms and was picked off by Trenton Simpson . The Titans, however, were more functional offensively than they'd been in previous first halves. They drove 70 yards for a tying touchdown, a 3-yard run by Pollard. Jackson's 19-yard scoring pass to Flowers put Baltimore back in front, and then the Titans were stopped on fourth-and-goal from the 2 when they tried a direct snap to Pollard. The Ravens drove 98 yards and went up 21-7 on Jackson's 3-yard TD pass to Mark Andrews . Tyler Loop , fresh off his game-winning 56-yard kick against Dallas the previous weekend, connected from a career-long 64 yards on the last play of the half, but Jackson was hurt on the snap before. “Offense I thought came out and played with a lot of juice,” Titans coach Robert Saleh said. “Obviously, we had the two turnovers that resulted into 10 points, and then the turnover on downs inside the 5. Was a goofy game in that it didn’t feel like 24-7 at halftime.” Ward threw a 3-yard scoring pass to Wan'Dale Robinson with 1:12 to go in the fourth quarter, and a 2-point conversion pass to Gunnar Helm made it a six-point game, but Malaki Starks snatched the onside kick for Baltimore to seal the game. Henry finished with 73 yards on 23 carries. The Titans committed the game's only two turnovers, but the Ravens were sloppy in other ways, with 13 penalties for 131 yards. Receiver battle Tennessee rookie Carnell Tate had nine catches for 145 yards, but he lost a fumble at the end of a 33-yard reception in the second quarter. Flowers did almost all of his damage in the first half, contributing catches of 52 and 23 yards in addition to his touchdown. “Wide receiver one, man. He’s so good. He’s so versatile, and each and every game is so explosive,” Andrews said. “It’s really impressive to see, honestly, just how good he is.” Injuries Baltimore was losing players all game. CB Marlon Humphrey (calf) went down in the first half. G Andrew Vorhees (foot) and TE Durham Smythe (Achilles tendon) were also injured. The Ravens did get T Ronnie Stanley (toe) back after he missed Week 3. Tennessee S Amani Hooker was evaluated for a concussion in the fourth quarter and cleared to return. Up next Titans: Host Houston next Sunday in a matchup of winless AFC South teams. Ravens: At Atlanta next Sunday night. ------ See AP’s full NFL coverage here",
+  "scoring_plays": [
+   "Derrick Henry 5 Yd Rush (Tyler Loop Kick)",
+   "Tony Pollard 3 Yd Rush (Joey Slye Kick)",
+   "Zay Flowers 19 Yd pass from Lamar Jackson (Tyler Loop Kick)",
+   "Mark Andrews 3 Yd pass from Lamar Jackson (Tyler Loop Kick)",
+   "Tyler Loop 64 Yd Field Goal",
+   "Joey Slye 33 Yd Field Goal",
+   "Wan'Dale Robinson 3 Yd pass from Cam Ward (Cam Ward Pass to Gunnar Helm for Two-Point Conversion)"
+  ],
+  "injury_report": [
+   {
+    "team": "BAL",
+    "player": "Chris Moore",
+    "status": "Questionable",
+    "injury": "Ankle"
+   },
+   {
+    "team": "BAL",
+    "player": "Durham Smythe",
+    "status": "Injured Reserve",
+    "injury": "Achilles"
+   },
+   {
+    "team": "BAL",
+    "player": "Trey Hendrickson",
+    "status": "Questionable",
+    "injury": "Finger"
+   },
+   {
+    "team": "BAL",
+    "player": "Rashod Bateman",
+    "status": "Questionable",
+    "injury": "Shoulder"
+   },
+   {
+    "team": "BAL",
+    "player": "John Simpson",
+    "status": "Questionable",
+    "injury": "Groin"
+   },
+   {
+    "team": "TEN",
+    "player": "Joshua Williams",
+    "status": "Injured Reserve",
+    "injury": "Pectoral"
+   },
+   {
+    "team": "TEN",
+    "player": "Amani Hooker",
+    "status": "Questionable",
+    "injury": "Concussion"
+   },
+   {
+    "team": "TEN",
+    "player": "Jeffery Simmons",
+    "status": "Questionable",
+    "injury": "Back"
+   },
+   {
+    "team": "TEN",
+    "player": "Marcus Harris",
+    "status": "Questionable",
+    "injury": "Knee"
+   },
+   {
+    "team": "TEN",
+    "player": "Kevin Winston Jr.",
+    "status": "Questionable",
+    "injury": "Shoulder"
+   }
+  ],
+  "final": "BAL 24, TEN 18"
+ },
+ {
+  "espn_id": "401872967",
+  "date_utc": "2026-10-04T17:00Z",
+  "away": "DAL",
+  "away_score": 34,
+  "home": "HOU",
+  "home_score": 30,
+  "status": "Final",
+  "venue": "Reliant Stadium",
+  "notes": [],
+  "recap_headline": "CeeDee Lamb’s late TD caps a wild Cowboys rally to beat winless Texans 34-30",
+  "recap_text": "HOUSTON -- — CeeDee Lamb shined in his first NFL game in the city he considers his second home to carry the Dallas Cowboys to a victory on Sunday. Lamb had a career-high 17 catches for 189 yards and his 12-yard TD reception with 40 seconds left lifted Dallas to the 34-30 win over Houston to keep the Texans winless. “I knew this one was a big one for him,” coach Brian Schottenheimer said. “I know how much Houston means to him and his family means to him. And he put on a show.” Lamb was born in Louisiana and lived in New Orleans until relocating to the Houston area after the city was destroyed by Hurricane Katrina in 2005. “My grandma came out here, which was really good to see,” Lamb said. \"She doesn’t really come to many of my games and do all the hoorah and screaming. It was good to see my family here. It’s just been a long road to end up in this situation and I’m grateful for it.” Javonte Williams ran for a career-high three touchdowns — all in the second half — to help the Cowboys to the victory. Dallas (2-2) trailed by 4 after a 6-yard touchdown run by Woody Marks with about 2 ½ minutes to play. The Texans were facing third-and-14 when a hook-and-ladder play with a 2-yard catch by Dalton Schultz and a 19-yard run by David Montgomery set up that score. Dak Prescott then orchestrated an 11-play, 74-yard drive that included a fourth down conversion and capped it with the throw to Lamb to give the Cowboys the victory. “As soon as it was called,” Prescott said, \"I knew it was a touchdown.” The Texans (0-4) had a last chance after that, but C.J. Stroud’s desperation pass fell incomplete. “Our guys moved the ball really well,” coach DeMeco Ryans said. “We just did not play well enough defensively and it’s really a bad feeling.” Prescott threw for 335 yards and Stroud had 347 yards passing. Nico Collins had seven receptions for 118 yards and two touchdowns in his return after missing two games with a hamstring injury. But his big day wasn't enough to get the Texans in the win column. “It's tough,” Collins said. “We’re 0-4 right now. You've got to move forward. Go to the next week, man. You can’t look back on this.” The Cowboys took their first lead on the third score by Williams, a 2-yard run that made it 27-23 with about 11 minutes to go. Dallas cut the lead to 16-13 on an 8-yard run by Williams on the opening drive of the third quarter. A 30-yard reception by Lamb set up the score. The Texans had great field position on their next drive thanks to a 53-yard kickoff return by Jaylin Noel . The second score by Collins made it 23-13 with about 11 minutes left in the third. George Pickens grabbed a 53-yard reception over Kamari Lassiter to get the Cowboys to the 11-yard line after that. Lassiter was flagged for pass interference on Pickens on third down to give Dallas a first down at the 1. Jadeveon Clowney stuffed Williams for a loss of 3 on first down and the Cowboys couldn’t move the ball after that to bring up fourth down. Dallas went for it and a holding penalty by Lassiter gave the Cowboys another first down at the 1. Williams plunged in for the touchdown on the next play to cut the lead to 23-20 with seven minutes left in the third. Collins had a 45-yard catch-and-run on Houston’s first play and made it 7-0 when he capped the drive with a 7-yard TD reception. Houston led by 4 when Will Anderson blocked Brandon Aubrey’s 62-yard field-goal attempt about 4 ½ minutes before halftime. Kaʻimi Fairbairn’s 39-yard field goal on Houston’s next drive extended the lead to 13-6. Aubrey’s 65-yard attempt with about 30 seconds left in the second quarter sailed wide left. A 54-yard field goal by Fairbairn made it 16-6 at halftime. Injuries Houston: CB Jaylin Smith left in the second quarter with a hamstring injury. … DT Jaden Crumedy injured his shoulder in the third quarter. Anniversary celebration The Texans, who are in their 25th season, had an anniversary celebration at halftime. Texans greats including Hall of Famer Andre Johnson, Arian Foster, DeAndre Hopkins , Brian Cushing and Billy Miller along with former coach Gary Kubiak were honored in the ceremony. J.J. Watt did not attend but recorded a message that was played on the video boards. Porter’s debut Cornerback Joey Porter Jr . played extensively in his debut with the Cowboys after being traded from the Steelers on Wednesday. It was his first action of the season after he was inactive for the first three games while upset about his contract situation and dealing with a back issue. “Man that’s the main thing I was missing was to play football,” he said. “So the fact that I got out there, got the dub with the guys, man it’s a blessing.” Up next Cowboys: Host Tampa Bay Thursday night. Texans: Visit Tennessee next Sunday. ------ See AP’s full NFL coverage here",
+  "scoring_plays": [
+   "Nico Collins 7 Yd pass from C.J. Stroud (Ka'imi Fairbairn Kick)",
+   "Brandon Aubrey 39 Yd Field Goal ",
+   "Ka'imi Fairbairn 51 Yd Field Goal ",
+   "Brandon Aubrey 50 Yd Field Goal ",
+   "Ka'imi Fairbairn 39 Yd Field Goal",
+   "Ka'imi Fairbairn 54 Yd Field Goal ",
+   "Javonte Williams 8 Yd Rush (Brandon Aubrey Kick)",
+   "Nico Collins 22 Yd pass from C.J. Stroud (Ka'imi Fairbairn Kick)",
+   "Javonte Williams 1 Yd Rush (Brandon Aubrey Kick)",
+   "Javonte Williams 2 Yd Rush (Brandon Aubrey Kick)",
+   "Woody Marks 6 Yd Rush (Ka'imi Fairbairn Kick)",
+   "CeeDee Lamb 12 Yd pass from Dak Prescott (Brandon Aubrey Kick)"
+  ],
+  "injury_report": [
+   {
+    "team": "HOU",
+    "player": "Will Anderson Jr.",
+    "status": "Questionable",
+    "injury": "Ankle"
+   },
+   {
+    "team": "HOU",
+    "player": "Braden Smith",
+    "status": "Injured Reserve",
+    "injury": "Foot"
+   },
+   {
+    "team": "HOU",
+    "player": "Azeez Al-Shaair",
+    "status": "Questionable",
+    "injury": "Groin"
+   },
+   {
+    "team": "HOU",
+    "player": "Kayden McDonald",
+    "status": "Injured Reserve",
+    "injury": "Ankle"
+   },
+   {
+    "team": "HOU",
+    "player": "Jadeveon Clowney",
+    "status": "Questionable",
+    "injury": "Knee"
+   },
+   {
+    "team": "DAL",
+    "player": "Drew Shelton",
+    "status": "Out",
+    "injury": "Hamstring"
+   },
+   {
+    "team": "DAL",
+    "player": "Tyler Smith",
+    "status": "Injured Reserve",
+    "injury": "Thumb"
+   },
+   {
+    "team": "DAL",
+    "player": "Cobie Durant",
+    "status": "Out",
+    "injury": "Hamstring"
+   },
+   {
+    "team": "DAL",
+    "player": "DeMarvion Overshown",
+    "status": "Out",
+    "injury": "Hamstring"
+   },
+   {
+    "team": "DAL",
+    "player": "Jonathan Mingo",
+    "status": "Questionable",
+    "injury": "Illness"
+   }
+  ],
+  "final": "DAL 34, HOU 30"
+ },
+ {
+  "espn_id": "401872974",
+  "date_utc": "2026-10-04T20:05Z",
+  "away": "MIA",
+  "away_score": 10,
+  "home": "MIN",
+  "home_score": 15,
+  "status": "Final",
+  "venue": "U.S. Bank Stadium",
+  "notes": [],
+  "recap_headline": "Unbeaten Vikings keep Dolphins winless with dominant defense, Reichard's kicks, Hockenson's catches",
+  "recap_text": "MINNEAPOLIS -- — Kyler Murray and the Minnesota Vikings ' offense would've appreciated a touchdown for their progress down the stretch, but there was only one way to truly secure this victory. T.J. Hockenson fittingly took the winning slide. The Vikings stayed undefeated with more dominance by their defense and five field goals from Will Reichard , sidestepping their early passing game problems to beat the winless Miami Dolphins 15-10 on Sunday. Hockenson tied a career high with 13 receptions for 119 yards on 13 targets from Murray, including the game-sealing 8-yard catch on third-and-5 from the 10. The eighth-year tight end was wide open and could've coasted into the end zone, but he wisely slid in front of the goal line to drain the clock to the two-minute warning. “Once you get the first down, you’ve got to get down,” said Hockenson, who had his highest yardage total since Week 10 of the 2023 season. “It was tough. I saw that goal line and I wanted it, but it's for the betterment of the team that we ended on offense.” With the Dolphins out of timeouts, the Vikings had Murray take three straight kneel-downs to move to 4-0 for the second time in three years — despite going without a touchdown in two games. “If we want to score, we should do it earlier,” Vikings coach Kevin O'Connell said. Murray finished 27 for 37 for 247 yards without a turnover, but he took four sacks for 34 yards against a Dolphins defense that had none in the first three games and was often tentative and unsteady in the pocket until Hockenson helped him open up the field with a handful of clutch and difficult catches. The Dolphins, who are 0-4 for the first time since starting 0-7 in 2019 in their first season under then-coach Brian Flores, were crushed by a combination of unforced mistakes — including nine penalties for 55 yards. New Dolphins quarterback Malik Willis went just 9 for 17 for 85 yards, losing a fumble during one of the two sacks by Dallas Turner . The four teams the Dolphins have faced in coach Jeff Hafley's first year are 15-1. “You hate the feeling of continuing to get better without actually gaining wins on the win column, but as we see, we’re going out there and competing,” Willis said. Willis thought he had escaped the relentless Vikings pass rush to float a 68-yard touchdown pass to Chris Bell early in the second quarter, but Bell was flagged for illegal touching after stepping out of bounds as he moved to get open. The Vikings had 11 penalties for 85 yards, but they dodged one when Ivan Pace Jr . had a call for roughing the kicker waved off by the video replay assist system's determination that he tipped Bradley Pinion 's punt and therefore didn't commit a penalty. After netting just 76 yards on 21 plays in the first half and failing to finish any possession across midfield, the Dolphins finally found a couple of creases in Minnesota’s suffocating defense directed by Flores. Ollie Gordon, in an elevated role following the season-ending knee injury to star running back De’Vone Achane, ripped off a career-best 53-yard run on third-and-5 to set up Riley Patterson’s 27-yard field goal. Gordon had a 12-yard touchdown run on the next drive to pull the Dolphins within 12-10. Vikings offense builds some momentum Reichard, who stretched the NFL 's longest active streak to 31 consecutive made field goals, drew a loud roar when he was shown on the videoboard during the two-minute warning. Murray, on the other hand, heard some mild rounds of boos as the unproductive possessions began to pile up. But the Vikings had the ball for 14 of 15 minutes in the fourth quarter, accumulating eight first downs. Aaron Jones also carried another heavy load with 20 carries for 94 yards and four receptions for 34 yards, with the Vikings missing star wide receiver Justin Jefferson (ankle) for the first time since Week 12 of the 2023 season and running back Jordan Mason (thumb) for the third game in a row. “That door will get kicked down soon,” Murray said. Injury report The Vikings played most of the second half without two of their best blockers. Left guard Donovan Jackson (knee) was sidelined in the first quarter and left tackle Christian Darrisaw (neck) was hurt in the second after going head-first into the pile at the end of a run. Darrisaw returned after halftime, only to be pulled again as a precaution for a concussion evaluation following a second hit. Up next Dolphins: Host Cincinnati next Sunday. Vikings: Play at New Orleans next Sunday. ------ See AP’s full NFL coverage here",
+  "scoring_plays": [
+   "Will Reichard 47 Yd Field Goal",
+   "Will Reichard 50 Yd Field Goal",
+   "Will Reichard 33 Yd Field Goal",
+   "Riley Patterson 27 Yd Field Goal",
+   "Will Reichard 41 Yd Field Goal",
+   "Ollie Gordon II 12 Yd Rush (Riley Patterson Kick)",
+   "Will Reichard 29 Yd Field Goal "
+  ],
+  "injury_report": [
+   {
+    "team": "MIN",
+    "player": "Michael Jurgens",
+    "status": "Injured Reserve",
+    "injury": "Elbow"
+   },
+   {
+    "team": "MIN",
+    "player": "Justin Jefferson",
+    "status": "Questionable",
+    "injury": "Ankle"
+   },
+   {
+    "team": "MIN",
+    "player": "Brian O'Neill",
+    "status": "Questionable",
+    "injury": "Knee"
+   },
+   {
+    "team": "MIN",
+    "player": "Ben Yurosek",
+    "status": "Injured Reserve",
+    "injury": "Ankle"
+   },
+   {
+    "team": "MIN",
+    "player": "Jordan Addison",
+    "status": "Questionable",
+    "injury": "Hamstring"
+   },
+   {
+    "team": "MIA",
+    "player": "Kenneth Grant",
+    "status": "Injured Reserve",
+    "injury": "Toe"
+   },
+   {
+    "team": "MIA",
+    "player": "Chris Bell",
+    "status": "Questionable",
+    "injury": "Knee"
+   },
+   {
+    "team": "MIA",
+    "player": "Austin Jackson",
+    "status": "Questionable",
+    "injury": "Knee"
+   },
+   {
+    "team": "MIA",
+    "player": "JuJu Brents",
+    "status": "Questionable",
+    "injury": "Heel"
+   },
+   {
+    "team": "MIA",
+    "player": "Tucker Addington",
+    "status": "Questionable",
+    "injury": "Shoulder"
+   }
+  ],
+  "final": "MIN 15, MIA 10"
+ },
+ {
+  "espn_id": "401872976",
+  "date_utc": "2026-10-04T20:25Z",
+  "away": "KC",
+  "away_score": 30,
+  "home": "LV",
+  "home_score": 27,
+  "status": "Final",
+  "venue": "Allegiant Stadium",
+  "notes": [],
+  "recap_headline": "Chiefs beat the Raiders 30-27 to move to 4-0 behind Patrick Mahomes and Kenneth Walker III",
+  "recap_text": "LAS VEGAS -- — Patrick Mahomes said he loves playing in Allegiant Stadium, and it's no wonder, given his perfect record in one of the NFL's newer venues. He's rarely been pushed as much as he was Sunday against a Raiders team out to show its quick start wasn't a fluke. As he has so often, Mahomes came through, passing for 225 yards and two touchdowns. He got a big assist from Kenneth Walker III , who rushed for 177 yards and two TDs to lead the Kansas City Chiefs to a 30-27 victory over Las Vegas. Walker's 2-yard touchdown run with 3:21 left put the Chiefs (4-0) ahead for good at 23-19. It was set up by Tyquan Thornton 's 55-yard reception on the previous play. Thornton, who had five catches for 111 yards and two touchdowns, suffered a gruesome-looking left ankle injury on the play and was carted off. “I think you have to stay with it,” Mahomes said, describing the back-and-forth game. “I keep saying it, but it’s not always going to be pretty. That’s a good football team, a good defense. It’s not going to always be light it up and go out there and scoring 50 points or whatever. It’s if you stay with the process, it’s going to come.” Kirk Cousins passed for 365 yards and two touchdowns for the Raiders, ending his seven-game winning streak that included the final four games last season with Atlanta. Brock Bowers , who played with an illness, caught six passes for 86 yards and a TD. Las Vegas' running game produced just 72 yards, averaging 2.8 per carry. “We've got to find that answer,” Raiders coach Klint Kubiak said of the run game struggles. “That will be a big factor in us being a better football team.” One of the NFL's early-season surprises, the Raiders put up a strong fight against their AFC West rivals, and Kubiak expressed confidence in his team at halftime. “We're winning,” Kubiak said on the CBS broadcast. “We're going to win the game.” Las Vegas certainly gave it a shot, taking a 13-10 advantage into the fourth quarter. The lead didn't last long. Walker ended the third by busting free for a 76-yard run before he was chased down from behind by Raiders cornerback Taron Johnson at the 8-yard line. Walker ran 21.21 mph on that play, according to the NFL's Next Gen Stats. “(Johnson) probably was going 23,” Walker said. “I thought I was out of there until I started hearing breathing.” Two plays later, the Chiefs took their first lead on Mahomes' 8-yard scoring pass to Thornton. It was the first time the Raiders' defense had been scored on in the fourth quarter this season. Las Vegas came right back, with Matt Gay making field goals of 44 and 48 yards for a 19-17 lead with 4:53 left. But it's hard to count out Mahomes in Las Vegas — or most places. He led the go-ahead touchdown drive and then took advantage of a fumble on the ensuing kickoff by handing the ball to Walker for another TD. Mahomes has won all six of his starts at Allegiant Stadium against the Raiders, plus the Super Bowl after the 2023 season. “I trust him to do that,” Chiefs coach Andy Reid said. “I don’t expect anything, but I do trust that he’s going to do the right thing when the ball’s in his hand.” Reid, amazingly, has the most wins of any coach at Allegiant with seven. He broke a tie with former Raiders coaches Josh McDaniels and Antonio Pierce. Reid is 7-1 at the stadium, which opened in 2020. Backed by plenty of their red-clad fans, the Chiefs held off a frantic comeback attempt in the final minutes. Cousins hit Bowers for a 20-yard touchdown with 1:46 left and the Raiders got the ball back, moving to midfield before Cousins was intercepted. Chiefs left guard benched Reid said left guard Kingsley Suamataia didn't start for disciplinary reasons. Mike Caliendo took his place. “That's between Kingsley and I,” Reid said. “We'll figure it out, and down the road, we'll be better as a team for it and Kingsley will be better for it.” Injuries Chiefs: WR Rashee Rice (hamstring) pulled up limping in the first quarter and didn't return. Up next Chiefs: Are off next weekend before hosting the Los Angeles Chargers on Oct. 18. Raiders: Visit New England next Sunday for their third road game in four weeks. ------ See AP’s full NFL coverage here",
+  "scoring_plays": [
+   "Ian Thomas 27 Yd pass from Kirk Cousins (Matt Gay Kick)",
+   "Tyquan Thornton 2 Yd pass from Patrick Mahomes (Harrison Butker Kick)",
+   "Matt Gay 32 Yd Field Goal",
+   "Harrison Butker 28 Yd Field Goal",
+   "Matt Gay 48 Yd Field Goal",
+   "Tyquan Thornton 8 Yd pass from Patrick Mahomes (Harrison Butker Kick)",
+   "Matt Gay 44 Yd Field Goal",
+   "Matt Gay 48 Yd Field Goal",
+   "Kenneth Walker III 2 Yd Rush (Two-Point Pass Conversion Failed)",
+   "Kenneth Walker III 22 Yd Rush (Harrison Butker Kick)",
+   "Brock Bowers 20 Yd pass from Kirk Cousins (Kirk Cousins Pass to Cody White for Two-Point Conversion)"
+  ],
+  "injury_report": [
+   {
+    "team": "LV",
+    "player": "Cody White",
+    "status": "Questionable",
+    "injury": "Ankle"
+   },
+   {
+    "team": "LV",
+    "player": "Dont'e Thornton Jr.",
+    "status": "Injured Reserve",
+    "injury": "Hamstring"
+   },
+   {
+    "team": "LV",
+    "player": "Folorunso Fatukasi",
+    "status": "Questionable",
+    "injury": "Shoulder"
+   },
+   {
+    "team": "LV",
+    "player": "Spencer Burford",
+    "status": "Questionable",
+    "injury": "Knee"
+   },
+   {
+    "team": "LV",
+    "player": "Brock Bowers",
+    "status": "Questionable",
+    "injury": "Knee"
+   },
+   {
+    "team": "KC",
+    "player": "Josh Simmons",
+    "status": "Questionable",
+    "injury": "Back"
+   },
+   {
+    "team": "KC",
+    "player": "Tyquan Thornton",
+    "status": "Out",
+    "injury": "Ankle"
+   },
+   {
+    "team": "KC",
+    "player": "Rashee Rice",
+    "status": "Questionable",
+    "injury": "Hamstring"
+   },
+   {
+    "team": "KC",
+    "player": "Cooper McDonald",
+    "status": "Injured Reserve",
+    "injury": "Knee"
+   },
+   {
+    "team": "KC",
+    "player": "Omarr Norman-Lott",
+    "status": "Out",
+    "injury": "Knee - ACL"
+   }
+  ],
+  "final": "KC 30, LV 27"
+ },
+ {
+  "espn_id": "401872975",
+  "date_utc": "2026-10-04T20:25Z",
+  "away": "DEN",
+  "away_score": 14,
+  "home": "SF",
+  "home_score": 24,
+  "status": "Final",
+  "venue": "Levi's Stadium",
+  "notes": [],
+  "recap_headline": "Brock Purdy throws 2 TD passes to lead the undefeated 49ers past the Broncos 24-14",
+  "recap_text": "SANTA CLARA, Calif. -- — Once the San Francisco 49ers got going on offense, Brock Purdy and crew once again couldn't be stopped. Brock Purdy threw two touchdown passes and Christian McCaffrey ran for a score as the 49ers scored touchdowns on three straight second-half possessions to beat the Denver Broncos 24-14 on Sunday to remain undefeated. Both offenses struggled to generate offense on a hot day in the Bay Area, but the 49ers (4-0) took advantage of a fumbled punt return by Marvin Mims Jr . to set up a short touchdown drive in the third quarter that gave them the lead for good. San Francisco had been held to three points on seven possessions before the takeaway that set the stage for three straight touchdowns as the Niners took advantage of injuries that knocked out both of Denver's starting cornerbacks, including two-time All Pro Patrick Surtain II . “We wanted to break through whatever that was and just be ourselves,” Purdy said. “I'm glad we could get some momentum going in the second half. That's why it's a four-quarter game.” Purdy capped the 28-yard drive with a 1-yard touchdown pass to Deebo Samuel that made it 10-3 late in the third quarter. He then engineered a 74-yard drive that McCaffrey finished with a 1-yard run to extend the lead to 17-6 midway through the fourth after the Broncos (2-2) had settled for a field goal on fourth-and-2. Bo Nix , who has thrived in late-game comeback situations , tried to mount another for Denver with his 13-yard touchdown pass to Jaylen Waddle cutting the Niners' lead to 17-14 with a 2-point conversion with 4:05 to play. But the 49ers sealed the win when Kittle took a screen pass behind the line of scrimmage and outraced former teammate Talanoa Hufanga for a 56-yard touchdown with 2:15 to go. “Any time you see green grass, I think I ran the entire time with a smile on my face,” said Kittle, who'll turn 33 on Friday. “Always outrunning younger, old teammates is always a good time, especially when they’re (27).” Purdy finished 19 of 30 for 218 yards and avoided taking a sack for a fourth straight game and had no turnovers. Nix struggled to push the ball downfield most of the game with Denver's running game unable to loosen up the defense. He finished 25 of 42 for 214 yards and one touchdown. “We just didn’t have enough offense to get a lead and then go beyond that,” coach Sean Payton said. “We just didn’t have enough answers to get past that and get a lead.” The 49ers came in scoring touchdowns on nearly half of their possessions, but struggled to move the ball against Denver's stout defense. They punted on two of their first three possessions with Purdy getting stopped on a fourth-down sneak on the other. San Francisco got on the board with a 24-yard field goal to tie it late in the first half, but had a chance to take the lead thwarted when a field goal was blocked on the final play of the first half to keep the game tied at 3. “I think we had plays to be made,\" Nix said. “I think as a team there were plays out there for us that needed to be made.” Injuries Broncos: Surtain (ankle), CB Riley Moss (ribs) and WR Pat Bryant (ankle) all left with injuries and didn't return. Payton had no immediate word on the extent of the injuries. 49ers: FB Kyle Juszczyk left with a sprained knee injury after being hit by Jahdae Barron and didn't return. ... S Marques Sigle (ankle) and CB Upton Stout (shoulder) also left. Shanahan had no immediate word on the extent of the injuries. Up next Broncos: Visit the Los Angeles Chargers next Sunday. 49ers: Visit Seattle next Sunday. ------ See AP’s full NFL coverage here",
+  "scoring_plays": [
+   "Wil Lutz 52 Yd Field Goal",
+   "Eddy Pineiro 24 Yd Field Goal",
+   "Deebo Samuel Sr. 1 Yd pass from Brock Purdy (Eddy Pineiro Kick)",
+   "Wil Lutz 40 Yd Field Goal",
+   "Christian McCaffrey 1 Yd Rush (Eddy Pineiro Kick)",
+   "Jaylen Waddle 13 Yd pass from Bo Nix (Tyler Badie Run for Two-Point Conversion)",
+   "George Kittle 56 Yd pass from Brock Purdy (Eddy Pineiro Kick)"
+  ],
+  "injury_report": [
+   {
+    "team": "SF",
+    "player": "Kaelon Black",
+    "status": "Questionable",
+    "injury": "Illness"
+   },
+   {
+    "team": "SF",
+    "player": "Mike Evans",
+    "status": "Questionable",
+    "injury": "Ribs"
+   },
+   {
+    "team": "SF",
+    "player": "Marques Sigle",
+    "status": "Out",
+    "injury": "Ankle"
+   },
+   {
+    "team": "SF",
+    "player": "Upton Stout",
+    "status": "Questionable",
+    "injury": "Shoulder - AC Joint"
+   },
+   {
+    "team": "SF",
+    "player": "Kyle Juszczyk",
+    "status": "Out",
+    "injury": "Knee"
+   },
+   {
+    "team": "DEN",
+    "player": "Pat Surtain II",
+    "status": "Doubtful",
+    "injury": "Ankle"
+   },
+   {
+    "team": "DEN",
+    "player": "Adam Trautman",
+    "status": "Questionable",
+    "injury": "Shoulder"
+   },
+   {
+    "team": "DEN",
+    "player": "Pat Bryant",
+    "status": "Doubtful",
+    "injury": "Ankle"
+   },
+   {
+    "team": "DEN",
+    "player": "Dondrea Tillman",
+    "status": "Questionable",
+    "injury": "Hamstring"
+   },
+   {
+    "team": "DEN",
+    "player": "Riley Moss",
+    "status": "Questionable",
+    "injury": "Ribs"
+   }
+  ],
+  "final": "SF 24, DEN 14"
+ },
+ {
+  "espn_id": "401872977",
+  "date_utc": "2026-10-04T20:25Z",
+  "away": "LAC",
+  "away_score": 23,
+  "home": "SEA",
+  "home_score": 30,
+  "status": "Final",
+  "venue": "Lumen Field",
+  "notes": [],
+  "recap_headline": "Emanuel Wilson sparks Seahawks past Chargers 30-23, handing Los Angeles a fourth straight loss",
+  "recap_text": "SEATTLE -- — The Seattle Seahawks got their rebound win, but it was far from perfect. Emanuel Wilson caught a touchdown pass and ran for another score as the Seahawks handed the Los Angeles Chargers a fourth straight loss to start the season with a 30-23 victory on Sunday. Sam Darnold threw for 168 yards and two touchdowns for the defending Super Bowl champions, who are 3-1 after bouncing back from last week's 33-31 loss to the Washington Commanders . But Darnold was also intercepted once and sacked three times. The Seahawks had 14 penalties for a franchise-record 150 yards and they let the Chargers get back in it after leading 27-6 in the third quarter. “We're really grateful for where we're at right now and excited to move forward,\" Seahawks coach Mike Macdonald said. \"But we also understand that we have definitely a lot of room for improvement with our operation, how we take care of the football and obviously the penalties are something we need to address.” Wilson rushed for 81 yards on 21 carries and caught three passes for 39 yards. The backup running back, a four-year pro in his first season with the Seahawks, was thrust into a greater role when rookie Jadarian Price was placed on injured reserve on Saturday after aggravating a chest injury during practice. Justin Herbert threw for 189 yards a touchdown and two interceptions for the Chargers (0-4). He has been intercepted six times this season and sacked 12 times, including four for 35 yards on Sunday. The only team to reach the playoffs after a four-loss start is the 1992 San Diego Chargers. That squad started 0-4, then beat Seattle 17-6 on Oct. 4 and went on to finish 11-5 and win AFC West. Chargers coach Jim Harbaugh said he has hope. “What I saw from our players, that will, that never say die attitude that they have,” Harbaugh said. “I mean, it's throughout the team.” The game was chaotic at the start with both teams giving up early turnovers. Seattle's Drake Thomas intercepted Herbert's attempted pass to Oronde Gadsden on the Chargers' opening play. Then on Seattle's first play from scrimmage, Darnold's pass intended for Wilson was intercepted by Tuli Tuipulotu , giving the ball back to the Chargers. Los Angeles' drive ended with Cameron Dicker 's 40-yard field goal. According to Sportradar, it was the first game since at least 1991 when both teams threw interceptions on their opening play from scrimmage. Derius Davis muffed a punt return and it was recovered by Seattle's Connor O'Toole . On the next play, Darnold hit Wilson with a 23-yard touchdown pass to put Seattle up 7-3. “Man, it was just like Moses parting the red sea,” Wilson said. “Everybody got in the blocks.” Rashid Shaheed 's 28-yard scoring run made it 13-3 midway through the second quarter. Jason Myers ' extra point attempt went wide right, breaking a streak of 80 consecutive converted PAT dating to 2024. Ernest Jones intercepted Herbert again on a pass intended for Ladd McConkey and returned it 20 yards. Wilson capped Seattle's next series with an 8-yard touchdown run. The Chargers closed the gap with Dicker's 39-yard field goal before halftime that made it 20-6. Los Angeles finished the half with just 92 yards of total offense. The Seahawks opened the second half with Darnold's 6-yard TD pass to Tory Horton , extending the lead to 27-6. The Chargers have allowed 24 or more points in each of their first four games. The Chargers showed life with Herbert's 9-yard touchdown pass to Kimani Vidal . After a field goal by Seattle, Omarion Hampton ran for a 2-yard touchdown and Dicker added a 36-yarder to pull the Chargers within 30-23 with 2:14 to go. Los Angeles got the ball back with 1:42 to go, but Herbert was sacked and fumbled, and Seattle recovered to end it. There were plenty of penalties for both teams It wasn't just the Seahawks that got hit with penalties, the Chargers had 16 penalties for 130 yards. Darnold said he expects those mistakes to diminish with time. “Obviously you don't want the penalties, but as we continue to play these games and continue to get this season going, I feel like our guys on both sides of the ball, special teams, too, we'll continue to get better,\" he said. Injuries Chargers: CB Donte Jackson left in the first quarter with a hamstring injury. ... T Joe Alt left in the second quarter with a neck injury and didn't return. ... WR Ladd McConkey left at halftime after aggravating a foot injury. Seahawks: DT Leonard Williams limped to the medical tent in the third quarter with an ankle injury, but returned on the Chargers' final series. Up next Chargers: Return home to face Denver next Sunday. Seahawks: Host San Francisco next Sunday. ------ See AP’s full NFL coverage here",
+  "scoring_plays": [
+   "Cameron Dicker 40 Yd Field Goal",
+   "Emanuel Wilson 23 Yd pass from Sam Darnold (Jason Myers Kick)",
+   "Rashid Shaheed 28 Yd Rush (Jason Myers PAT Failed)",
+   "Emanuel Wilson 8 Yd Rush (Jason Myers Kick)",
+   "Cameron Dicker 39 Yd Field Goal",
+   "Tory Horton 6 Yd pass from Sam Darnold (Jason Myers Kick)",
+   "Kimani Vidal 9 Yd pass from Justin Herbert (Cameron Dicker Kick)",
+   "Jason Myers 35 Yd Field Goal",
+   "Omarion Hampton 2 Yd Rush (Cameron Dicker Kick)",
+   "Cameron Dicker 36 Yd Field Goal"
+  ],
+  "injury_report": [
+   {
+    "team": "SEA",
+    "player": "George Holani",
+    "status": "Questionable",
+    "injury": "Ribs"
+   },
+   {
+    "team": "SEA",
+    "player": "Beau Stephens",
+    "status": "Questionable",
+    "injury": "Knee"
+   },
+   {
+    "team": "SEA",
+    "player": "Nehemiah Pritchett",
+    "status": "Questionable",
+    "injury": "Ankle"
+   },
+   {
+    "team": "SEA",
+    "player": "Tyrice Knight",
+    "status": "Questionable",
+    "injury": "Ankle"
+   },
+   {
+    "team": "SEA",
+    "player": "Irv Charles",
+    "status": "Injured Reserve",
+    "injury": "Undisclosed"
+   },
+   {
+    "team": "LAC",
+    "player": "Joe Alt",
+    "status": "Questionable",
+    "injury": "Neck"
+   },
+   {
+    "team": "LAC",
+    "player": "Trevor Penning",
+    "status": "Questionable",
+    "injury": "Concussion"
+   },
+   {
+    "team": "LAC",
+    "player": "Brenen Thompson",
+    "status": "Questionable",
+    "injury": "Quadriceps"
+   },
+   {
+    "team": "LAC",
+    "player": "Charlie Kolar",
+    "status": "Questionable",
+    "injury": "Forearm"
+   },
+   {
+    "team": "LAC",
+    "player": "Trey Lance",
+    "status": "Questionable",
+    "injury": "Groin"
+   }
+  ],
+  "final": "SEA 30, LAC 23"
+ },
+ {
+  "espn_id": "401872978",
+  "date_utc": "2026-10-05T00:20Z",
+  "away": "DET",
+  "away_score": 26,
+  "home": "CAR",
+  "home_score": 32,
+  "status": "Final",
+  "venue": "Bank of America Stadium",
+  "notes": [],
+  "recap_headline": "Young, McMillan connect for 2 TDs to lead Panthers past Lions 32-26",
+  "recap_text": "CHARLOTTE, N.C. -- — Carolina Panthers coach Dave Canales was a little worried after Bryce Young and Tetairoa McMillan had some issues connecting on passes in practice. You'd never know it by the way they played Sunday night. Young completed 29 of 41 passes for 329 yards and two touchdowns to McMillan, who had 14 catches for a career-high 192 yards, and the Panthers overcame an injury-filled week to beat the Detroit Lions 32-26. “Everything just clicked tonight,” McMillan said. “There were some plays throughout the week that we may not have hit on, but (offensive coordinator) Brad Idzik called the plays and Bryce trusted it. He made good throws and we converted. I can't tell you what happened tonight. Maybe it was just the Charlotte air.” Young, who was serenaded with “M-V-P! M-V-P!” chants by fans in the fourth quarter, said he never second-guessed throwing McMillan's way because he has so much confidence in him. “I know what kind of player he is. He's special,” Young said. “I always trust him. I have confidence in him and I know one (bad) practice isn't going to change that.\" Also, Young didn't have a lot of other experienced options. With two of Carolina's top three wide receivers in Jalen Coker and Xavier Legette out with injuries, Young was forced to heavily on McMillan, and the 2025 Offensive Rookie of the Year. And he responded in a big way early on for the Panthers (2-2). McMillan had nine catches for 147 yards in the first half, including a 32-yard touchdown . He joined Steve Smith Sr. and Patrick Jeffers as the only Carolina players with at least 10 receptions, 150 yards receiving and two touchdowns in a game. And he came close to breaking the franchise records for receptions (15) set by Christian McCaffrey and yards receiving (201) held by Smith. Young entered Week 4 leading the league in yards passing and the No. 1 overall pick in 2023 opened the game by completing his first 11 passes. Chuba Hubbard gave the running game a needed spark carrying 20 times for a season-high 122 yards and two touchdowns as Carolina scored on six straight possessions after punting on its opening drive. Jared Goff threw for 412 yards and a touchdown to Sam LaPorta for Detroit (2-2) and Jahmyr Gibbs added 77 yards from scrimmage and scored his seventh touchdown of the year, but the Lions didn't look as explosive as they had been the first three games of the season. Detroit was able to overcome McMillan's big first half and tie the game before the break. Jameson Williams hauled in a 49-yard reception down the middle against an injury-depleted Carolina secondary that lost starting cornerback Jaycee Horn and Mike Jackson to eight-week-long injuries last week. That set up Jake Bates ' field goal to make it 16-all. But Detroit's defense couldn't get off the field in the second half as Young repeatedly found an open McMillan. Even after the Lions cut the lead to 32-26 with 3:38 left in the game on LaPorta's TD catch, McMillan responded with a toe-tapping reception along the right sideline for a first down that kept the clock moving. Still, drive ended in a sack and the Panthers were forced to punt. The Lions had a chance to win the game on their final drive, which started at their own 13 with 2:12 remaining. But Goff couldn't pick up a first down and Young knelt down twice to end it. “We got ourselves in a hole there, which is frustrating,” Lions coach Dan Campbell said. “At the end of the day, we had our opportunities. Our defense came up with a stop and we had the ball with about with two minutes left to go win the game. And we just couldn’t get it done.” Injuries Lions: Cornerback Rock Ya-Sin left in the second half with a hamstring injury. Panthers: Rookie right tackle Monroe Freeling , the team's first-round draft pick, injured a knee in the third quarter and did not return. Coker was inactive with a quadriceps injury. Linebacker Jaelan Phillips left in the fourth quarter with a hamstring injury. Canales had no update on either player after the game. Up next Lions: At Arizona next Sunday. Panthers: Will have a chance to heal up with a bye next week before visiting Philadelphia on Oct. 18. ------ See AP’s full NFL coverage here",
+  "scoring_plays": [
+   "Jake Bates 54 Yd Field Goal",
+   "Chuba Hubbard 15 Yd Rush (Ryan Fitzgerald Kick)",
+   "Jake Bates 43 Yd Field Goal ",
+   "Tetairoa McMillan 32 Yd pass from Bryce Young (Ryan Fitzgerald PAT Failed)",
+   "Jahmyr Gibbs 1 Yd Rush (Jake Bates Kick)",
+   "Ryan Fitzgerald 47 Yd Field Goal",
+   "Jake Bates 41 Yd Field Goal ",
+   "Tetairoa McMillan 10 Yd pass from Bryce Young (Ryan Fitzgerald PAT Failed)",
+   "Jake Bates 26 Yd Field Goal",
+   "Chuba Hubbard 2 Yd Rush (Ryan Fitzgerald Kick)",
+   "Ryan Fitzgerald 33 Yd Field Goal",
+   "Sam LaPorta 8 Yd pass from Jared Goff (Jake Bates Kick)"
+  ],
+  "injury_report": [
+   {
+    "team": "CAR",
+    "player": "Jalen Coker",
+    "status": "Questionable",
+    "injury": "Quadriceps"
+   },
+   {
+    "team": "CAR",
+    "player": "Cam Jackson",
+    "status": "Questionable",
+    "injury": "Knee"
+   },
+   {
+    "team": "CAR",
+    "player": "Damien Lewis",
+    "status": "Questionable",
+    "injury": "Elbow"
+   },
+   {
+    "team": "CAR",
+    "player": "Ikem Ekwonu",
+    "status": "Out",
+    "injury": "Knee"
+   },
+   {
+    "team": "CAR",
+    "player": "Monroe Freeling",
+    "status": "Questionable",
+    "injury": "Knee"
+   },
+   {
+    "team": "DET",
+    "player": "Cade Mays",
+    "status": "Injured Reserve",
+    "injury": "Wrist"
+   },
+   {
+    "team": "DET",
+    "player": "Brian Branch",
+    "status": "Out",
+    "injury": "Achilles"
+   },
+   {
+    "team": "DET",
+    "player": "Tyleik Williams",
+    "status": "Questionable",
+    "injury": "Foot"
+   },
+   {
+    "team": "DET",
+    "player": "DJ Wonnum",
+    "status": "Questionable",
+    "injury": "Back"
+   },
+   {
+    "team": "DET",
+    "player": "Ben Bartch",
+    "status": "Questionable",
+    "injury": "Foot"
+   }
+  ],
+  "final": "CAR 32, DET 26"
+ },
+ {
+  "espn_id": "401872979",
+  "date_utc": "2026-10-06T00:15Z",
+  "away": "ATL",
+  "away_score": 45,
+  "home": "NO",
+  "home_score": 24,
+  "status": "Final",
+  "venue": "Caesars Superdome",
+  "notes": [],
+  "recap_headline": "Bijan Robinson powers Falcons past Saints 45-24 on the 20th anniversary of the Superdome's reopening",
+  "recap_text": "NEW ORLEANS -- — Bijan Robinson ensured there would be no punt to block this time — and the Atlanta Falcons were off and running. Robinson rushed for 145 yards and two touchdowns — starting with a 59-yard scoring run on Atlanta's third play — and the Falcons routed the New Orleans Saints 45-24 on Monday night, dampening celebrations commemorating the 20th anniversary of the Superdome's reopening after Hurricane Katrina. Robinson said the Falcons wanting to silence the crowd early “and make sure that pin drop happens in the first quarter.” “For it to come after that third play was pretty special,” Robinson said. “We just went back to the sideline and said, ‘That’s what we talked about — make sure that we put it on them early so the crowd doesn’t become an issue.'” Brian Robinson Jr . ran for three short touchdowns for the Falcons (2-2), who never trailed and controlled the line of scrimmage while outgaining the Saints (1-3) on the ground, 205 yards to 50. Atlanta quarterback Michael Penix Jr ., who returned from a major 2025 knee injury last week for a 35-14 victory at Green Bay , was an efficient 15 of 20 for 223 yards and a touchdown. His 31-yard scoring strike to Jahan Dotson in fourth quarter sent Saints fans toward the exits. “Mike played well; he took care of the football and made some really good throws,” Falcons coach Kevin Stefanski said. “I really like his demeanor and how he is operating.” New Orleans fans booed at times and Saints QB Tyler Shough didn't blame them, calling his team's performance “embarrassing.” “Fans understandably are upset,\" said Shough, who passed for 286 yards and a late touchdown to Devaughn Vele . ”You’re playing the Falcons and you lose like that? I’d boo, too.” Saints running back Alvin Kamara scored his first two touchdowns of the season, the second cutting Atlanta's lead to 31-17 early in the fourth quarter. “We're all frustrated, all disappointed with where we’re at,” Saints second-year coach Kellen Moore said. “This was a special night,\" said Moore, who had gathered the team to watch videos about Hurricane Katrina in 2005 and the Superdome's reopening on a Monday night against the Falcons in Week 3 of the 2006 season. “We understood the opportunity and I thought there was great energy,” but the Falcons \"were able to get things going early and we weren’t able to catch up,” Moore said. Ignited by Steve Gleason’s punt block for a touchdown on the 2006 game’s opening possession, the Saints beat the Falcons 23-3. Like that meeting two decades ago, the Falcons, wearing red, received the opening kickoff. The similarities ended soon after. For a fourth time in four games, the Saints were playing from behind early — a challenge made more difficult by Daniel Carlson’s missed 52-yard field goal attempt and running back Kendre Miller’s lost fumble on the New Orleans 22-yard line one possession later. Atlanta cashed in on the turnover when Bijan Robinson made it 14-0 on a 4-yard power run, set up in part by cornerback Kool-Aid McKinstry’s third-down defensive holding penalty. Brian Robinson Jr. summed up the Falcons' past two games, during which they've scored 80 points, as “the most fun I’ve had in my career.” “We can be as good as we want to be,” he said. Pregame ceremonies feature 2006 Saints players Wearing white jerseys, retired players Drew Brees, Scott Fujita, Scott Shanle, Deuce McAllister, Devery Henderson and Curtis Deloatch joined Gleason on the field before kickoff to lead fans in the club’s familiar “Who dat!” chant. Gleason, using a wheelchair because of ALS, was joined by his son, Rivers, who raised his father's arm and then pulled it down to signal the start of the chant. NFL Commissioner Roger Goodell attended, spending pregame warmups on the home sideline conversing with Saints owner Gayle Benson and other dignitaries. Injuries Falcons: Defensive end Za’Darius Smith received several minutes of attention on the field, but was able walk to the sideline after a stretcher had been brought out for him. He was placed in the concussion protocol. Left tackle Jake Matthews (groin) left the game in the first quarter. Saints: The Saints began without two key defensive starters: Ed Carl Granderson (ankle) and linebacker Kaden Ellis (calf), who were ruled out on Saturday. Tight end Noah Fant (abdomen) was a game-night scratch. Up next Falcons: Host Baltimore on Sunday night. Saints: Host Minnesota on Sunday. ------ See AP’s full NFL coverage here",
+  "scoring_plays": [
+   "Bijan Robinson 59 Yd Rush (Nick Folk Kick)",
+   "Bijan Robinson 4 Yd Rush (Nick Folk Kick)",
+   "Alvin Kamara 3 Yd Rush (Daniel Carlson Kick)",
+   "Brian Robinson Jr. 4 Yd Rush (Nick Folk Kick)",
+   "Nick Folk 29 Yd Field Goal",
+   "Daniel Carlson 27 Yd Field Goal",
+   "Brian Robinson Jr. 8 Yd Rush (Nick Folk Kick)",
+   "Alvin Kamara 5 Yd Rush (Daniel Carlson Kick)",
+   "Jahan Dotson 31 Yd pass from Michael Penix Jr. (Nick Folk Kick)",
+   "Brian Robinson Jr. 11 Yd Rush (Nick Folk Kick)",
+   "Devaughn Vele 3 Yd pass from Tyler Shough (Daniel Carlson Kick)"
+  ],
+  "injury_report": [
+   {
+    "team": "NO",
+    "player": "Julian Blackmon",
+    "status": "Questionable",
+    "injury": "Shoulder"
+   },
+   {
+    "team": "NO",
+    "player": "Jaylan Ford",
+    "status": "Injured Reserve",
+    "injury": "Ankle"
+   },
+   {
+    "team": "NO",
+    "player": "Lorenzo Styles Jr.",
+    "status": "Injured Reserve",
+    "injury": "Calf"
+   },
+   {
+    "team": "NO",
+    "player": "Kaden Elliss",
+    "status": "Questionable",
+    "injury": "Calf"
+   },
+   {
+    "team": "NO",
+    "player": "Mike Reid",
+    "status": "Questionable",
+    "injury": "Ankle"
+   },
+   {
+    "team": "ATL",
+    "player": "Cameron Thomas",
+    "status": "Questionable",
+    "injury": "Shoulder"
+   },
+   {
+    "team": "ATL",
+    "player": "Michael Jerrell",
+    "status": "Questionable",
+    "injury": "Ankle"
+   },
+   {
+    "team": "ATL",
+    "player": "Yasir Abdullah",
+    "status": "Questionable",
+    "injury": "Hamstring"
+   },
+   {
+    "team": "ATL",
+    "player": "Jake Matthews",
+    "status": "Questionable",
+    "injury": "Groin"
+   },
+   {
+    "team": "ATL",
+    "player": "Za'Darius Smith",
+    "status": "Questionable",
+    "injury": "Concussion"
+   }
+  ],
+  "final": "ATL 45, NO 24"
+ }
+]
