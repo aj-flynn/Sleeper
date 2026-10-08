@@ -167,6 +167,23 @@ def num(value):
     return float(str(value).replace("$", "").replace(",", ""))
 
 
+def place_labels(rankings, gap=6.4, floor=4.5, ceil=95.5):
+    """Spread chart labels on each side so they don't overlap; the dots stay at pf_pct."""
+    for side in ("left", "right"):
+        items = sorted((r for r in rankings if r["side"] == side), key=lambda r: r["pf_pct"])
+        pos = [min(max(r["pf_pct"], floor), ceil) for r in items]
+        for i in range(1, len(pos)):
+            pos[i] = max(pos[i], pos[i - 1] + gap)
+        if pos and pos[-1] > ceil:
+            pos[-1] = ceil
+            for i in range(len(pos) - 2, -1, -1):
+                pos[i] = min(pos[i], pos[i + 1] - gap)
+        for r, p in zip(items, pos):
+            r["label_pct"] = round(p, 2)
+            r["link_lo"] = round(min(p, r["pf_pct"]), 2)
+            r["link_h"] = round(abs(p - r["pf_pct"]), 2)
+
+
 def derive(data):
     """Add layout-only numbers (bar lengths, field positions) computed from the issue's own data."""
     data = json.loads(json.dumps(data))
@@ -185,6 +202,15 @@ def derive(data):
             # 0 is the team with the fewest points for, 100 the most.
             r["pf_pct"] = round((num(r["pf"]) - lo) / ((hi - lo) or 1) * 100, 2)
             r["pf_rank"] = sorted(pfs, reverse=True).index(num(r["pf"])) + 1
+            r["side"] = "left" if r["pf_rank"] % 2 else "right"
+        place_labels(rankings)
+        step = 20 if hi - lo > 100 else 10
+        first = int(lo // step + 1) * step
+        data["pf_scale"] = {
+            "lo": f"{lo:.2f}", "hi": f"{hi:.2f}",
+            "lines": [{"label": v, "pct": round((v - lo) / ((hi - lo) or 1) * 100, 2)}
+                      for v in range(first, int(hi) + 1, step)],
+        }
     return data
 
 

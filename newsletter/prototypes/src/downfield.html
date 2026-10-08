@@ -1,0 +1,241 @@
+<!doctype html>
+<!-- fonts: saira-stencil-one-400-normal atkinson-hyperlegible-400-normal atkinson-hyperlegible-400-italic atkinson-hyperlegible-700-normal -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{meta.title}}</title>
+<style>
+/*@font-faces*/
+/* Downfield. Tokens:
+   turf #2F6E3B, mow stripe #2A6435, end zone #1F4D29, chalk #F5F7F2, pylon #FF7A1A, ink #1D2B21.
+   Saira Stencil One is paint on grass, used only for numbers; Atkinson Hyperlegible does all the reading. */
+:root{
+  --turf:#2F6E3B; --stripe:#2A6435; --ez:#1F4D29; --chalk:#F5F7F2; --pylon:#FF7A1A; --ink:#1D2B21; --muted:#4F5F53; --rule:#CFD8CF;
+  --paint:'Saira Stencil One',Impact,sans-serif; --text:'Atkinson Hyperlegible',system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{background:var(--chalk);-webkit-text-size-adjust:100%}
+body{margin:0;color:var(--ink);font:400 1.0625rem/1.6 var(--text)}
+a{color:var(--turf);text-underline-offset:3px}
+a:focus-visible{outline:3px solid var(--pylon);outline-offset:3px}
+p{margin:0 0 1em;max-width:38rem}
+.band{background:var(--turf);color:var(--chalk);border-bottom:6px solid var(--chalk);box-shadow:0 6px 0 var(--ez)}
+.band .in{max-width:72rem;margin:0 auto;padding:1.25rem 1rem 2rem}
+@media (min-width:56rem){.band .in{padding:2rem 2rem 3rem}}
+.mast{display:flex;flex-wrap:wrap;justify-content:space-between;gap:.25rem 1rem;align-items:baseline;border-bottom:2px solid rgba(245,247,242,.6);padding-bottom:.6rem;margin-bottom:1.75rem}
+.mast .name{font-weight:700;font-size:1.25rem;margin:0}
+.mast .meta{margin:0;font-size:.9375rem;opacity:.9}
+.band .kicker{margin:0 0 .5rem;font-style:italic}
+.band h1{font-weight:700;font-size:clamp(2rem,7vw,3.75rem);line-height:1.05;margin:0 0 .9rem;max-width:22ch}
+.band .dek{font-size:1.1875rem;max-width:36rem}
+.score3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.75rem;margin:1.5rem 0 0;padding:0;list-style:none;max-width:44rem}
+.score3 b{display:block;font-family:var(--paint);font-weight:400;font-size:clamp(1.75rem,7vw,3rem);line-height:1}
+.score3 span{display:block;font-size:.8125rem;line-height:1.35;margin-top:.35rem}
+main{max-width:72rem;margin:0 auto;padding:1rem 1rem 3rem}
+@media (min-width:56rem){main{padding:2rem 2rem 4rem}}
+.fine{font-size:.875rem;color:var(--muted);max-width:44rem;margin-top:1.75rem}
+.fine code{font-family:inherit}
+h2{font-weight:700;font-size:1.625rem;line-height:1.15;margin:3.5rem 0 1rem;display:flex;align-items:center;gap:.6rem}
+h2::before{content:"";width:1.1rem;height:1.1rem;background:var(--pylon);flex:none}
+h3{font-weight:700;font-size:1.1875rem;line-height:1.3;margin:0 0 .5rem}
+.aside{border-left:4px solid var(--pylon);padding-left:.8rem;font-weight:700;max-width:36rem}
+.aside b{font-family:var(--paint);font-weight:400;font-size:1.375rem;margin-right:.35rem;color:var(--turf)}
+.by{color:var(--muted);font-size:.9375rem}
+/* the field */
+.rankgrid{display:grid;gap:2rem}
+@media (min-width:56rem){.rankgrid{grid-template-columns:26rem minmax(0,1fr);gap:3rem;align-items:start}.field{position:sticky;top:1rem}}
+.field{margin:0;background:var(--ez);border:3px solid var(--chalk);outline:2px solid var(--ez);color:var(--chalk)}
+.field .ez{font-family:var(--paint);text-align:center;padding:.6rem .5rem;font-size:1.0625rem;line-height:1.2;background:var(--ez)}
+.turf{position:relative;height:46rem;margin:0 .1rem;
+  background:repeating-linear-gradient(to top,var(--turf) 0 5%,var(--stripe) 5% 10%);
+  border-top:3px solid var(--chalk);border-bottom:3px solid var(--chalk)}
+.turf::before,.turf::after{content:"";position:absolute;top:0;bottom:0;width:6px;
+  background:repeating-linear-gradient(to top,transparent 0 9px,rgba(245,247,242,.55) 9px 11px)}
+.turf::before{left:33%}
+.turf::after{right:33%}
+.yl{position:absolute;left:0;right:0;bottom:var(--y);border-top:2px solid rgba(245,247,242,.75)}
+.yl span{position:absolute;top:.15rem;font-family:var(--paint);font-size:.9375rem;line-height:1;opacity:.85}
+.yl .l{left:.4rem}
+.yl .r{right:.4rem}
+.mk{position:absolute;inset:0;pointer-events:none}
+.mk i{position:absolute;left:50%;bottom:calc(var(--y) - .45rem);width:.9rem;height:.9rem;margin-left:-.45rem;background:var(--pylon);border:2px solid var(--chalk);border-radius:50%;z-index:2}
+.mk i::after{content:"";position:absolute;top:50%;width:.6rem;border-top:1px solid var(--chalk)}
+.mk s{position:absolute;bottom:var(--lo);height:var(--lh);border-left:1px solid var(--chalk)}
+.mk span{position:absolute;bottom:calc(var(--ly) - 1.3rem);width:calc(50% - 1.6rem);min-height:2.6rem;font-size:.75rem;line-height:1.15;background:rgba(31,77,41,.94);padding:.15rem .35rem;z-index:1;display:flex;flex-direction:column;justify-content:center}
+.mk span::after{content:"";position:absolute;top:50%;width:.55rem;border-top:1px solid var(--chalk)}
+.mk span b{font-weight:700}
+.mk.left i::after{right:100%;margin-right:-2px}
+.mk.left s{left:calc(50% - 1.05rem)}
+.mk.left span{right:calc(50% + 1.6rem);text-align:right;align-items:flex-end}
+.mk.left span::after{left:100%}
+.mk.right i::after{left:100%;margin-left:-2px}
+.mk.right s{left:calc(50% + 1.05rem)}
+.mk.right span{left:calc(50% + 1.6rem)}
+.mk.right span::after{right:100%}
+.field figcaption{background:var(--chalk);color:var(--ink);font-size:.875rem;padding:.6rem .7rem;line-height:1.45}
+.order{list-style:none;margin:0;padding:0}
+.order li{border-top:2px solid var(--rule);padding:.85rem 0;display:grid;grid-template-columns:2.4rem minmax(0,1fr) auto;gap:0 .6rem}
+.order .rk{font-family:var(--paint);font-size:1.75rem;line-height:1;color:var(--turf)}
+.order .nm{font-weight:700}
+.order .nm small{display:block;font-weight:400;color:var(--muted);font-size:.8125rem}
+.order .fig{text-align:right;font-weight:700;max-width:8.5rem}
+.order .fig small{display:block;font-weight:400;color:var(--muted);font-size:.8125rem}
+@media (min-width:56rem){.order .fig{max-width:none;white-space:nowrap}}
+.order p{grid-column:2 / -1;margin:.35rem 0 0;font-size:.9688rem}
+/* recaps */
+.games{display:grid;gap:2.5rem}
+@media (min-width:56rem){.games{grid-template-columns:1fr 1fr;gap:3rem}}
+.final{display:flex;align-items:baseline;gap:.75rem;flex-wrap:wrap;border-bottom:3px solid var(--turf);padding-bottom:.4rem;margin-bottom:.75rem}
+.final b{font-family:var(--paint);font-weight:400;font-size:2.25rem;line-height:1;color:var(--turf)}
+.final span{font-size:.9375rem}
+.final .m{margin-left:auto;font-weight:700;color:var(--muted)}
+.teams{font-size:.9375rem;margin:0 0 .75rem;font-weight:700}
+.teams span{font-weight:400;color:var(--muted)}
+.keys{list-style:none;margin:.5rem 0 0;padding:0;font-size:.9375rem}
+.keys li{display:grid;grid-template-columns:3.6rem minmax(0,1fr);gap:.6rem;padding:.4rem 0;border-top:1px solid var(--rule)}
+.keys .p{font-family:var(--paint);font-size:1.125rem;line-height:1.3;color:var(--turf)}
+.keys .s{color:var(--muted)}
+.keys .t{font-size:.8125rem;color:var(--muted);font-style:italic}
+.awards{display:grid;gap:1.5rem}
+@media (min-width:56rem){.awards{grid-template-columns:repeat(3,1fr)}}
+.award{border-top:6px solid var(--turf);padding-top:.6rem}
+.award .st{font-family:var(--paint);font-size:2rem;line-height:1;color:var(--turf);margin:.25rem 0 .4rem}
+.award .w{font-weight:700;margin:0 0 .35rem}
+.award p{font-size:.9688rem}
+.list{list-style:none;margin:0;padding:0}
+.list li{border-top:1px solid var(--rule);padding:.6rem 0;font-size:.9688rem}
+.list b{font-weight:700}
+.list .m{color:var(--muted)}
+.cols{display:grid;gap:2rem}
+@media (min-width:56rem){.cols{grid-template-columns:1fr 1fr;gap:3rem}}
+.std .list b.p{font-family:var(--paint);font-weight:400;color:var(--turf);font-size:1.125rem;margin-right:.3rem}
+.grade{font-family:var(--paint);color:var(--turf);font-size:1.25rem;float:right;margin-left:.75rem}
+.foot{margin-top:3.5rem;border-top:3px solid var(--turf);padding-top:.75rem;font-size:.875rem;color:var(--muted)}
+.foot a{word-break:break-all}
+</style>
+</head>
+<body>
+<header class="band">
+  <div class="in">
+    <div class="mast">
+      <p class="name">{{meta.league}}</p>
+      <p class="meta">{{meta.dateline}}. Presented by {{meta.presented_by}}. {{meta.format_line}}.</p>
+    </div>
+    <p class="kicker">{{lead.kicker}}</p>
+    <h1>{{lead.headline}}</h1>
+    <p class="dek">{{lead.dek}}</p>
+    <ul class="score3">{{#lead.stats}}<li><b>{{value}}</b><span>{{label}}</span></li>{{/lead.stats}}</ul>
+  </div>
+</header>
+<main>
+  <p class="fine">{{meta.data_note}}</p>
+
+  <section aria-labelledby="s-lead">
+    <h2 id="s-lead">Lead story</h2>
+    <p class="by">By {{lead.byline}}</p>
+    {{#lead.body}}<p>{{.}}</p>{{/lead.body}}
+    {{#asides.lead}}<p class="aside"><b>{{figure}}</b>{{text}}</p>{{/asides.lead}}
+  </section>
+
+  <section aria-labelledby="s-rank">
+    <h2 id="s-rank">Power rankings</h2>
+    <div class="rankgrid">
+      <figure class="field" aria-labelledby="field-cap">
+        <div class="ez">Most points for, {{pf_scale.hi}}</div>
+        <div class="turf" role="img" aria-label="Teams placed on a football field by season points for">
+          {{#pf_scale.lines}}<div class="yl" style="--y:{{pct}}%"><span class="l">{{label}}</span><span class="r">{{label}}</span></div>{{/pf_scale.lines}}
+          {{#rankings}}<div class="mk {{side}}" style="--y:{{pf_pct}}%;--ly:{{label_pct}}%;--lo:{{link_lo}}%;--lh:{{link_h}}%"><i></i><s></s><span><b>{{team}}</b>{{pf}}</span></div>{{/rankings}}
+        </div>
+        <div class="ez">Fewest points for, {{pf_scale.lo}}</div>
+        <figcaption id="field-cap">Every team sits at its season points for. The goal lines are the league’s best and worst totals, and each painted line is a round number of points.</figcaption>
+      </figure>
+      <div>
+        <p>{{rankings_intro}}</p>
+        {{#asides.rankings}}<p class="aside"><b>{{figure}}</b>{{text}}</p>{{/asides.rankings}}
+        <ol class="order">
+        {{#rankings}}<li><span class="rk">{{rank}}</span><span class="nm">{{team}}<small>{{manager}}</small></span><span class="fig">{{record}}<small>{{pf}} for, {{pts}} this week</small></span><p>{{take}}</p></li>{{/rankings}}
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="s-recaps">
+    <h2 id="s-recaps">Matchup recaps</h2>
+    {{#asides.recaps}}<p class="aside"><b>{{figure}}</b>{{text}}</p>{{/asides.recaps}}
+    <div class="games">
+    {{#recaps}}
+      <article>
+        <div class="final"><b>{{w_score}}</b><span>to {{l_score}}</span><span class="m">by {{margin}}</span></div>
+        <p class="teams">{{winner}} <span>over</span> {{loser}}</p>
+        <h3>{{headline}}</h3>
+        <p>{{body}}</p>
+        <ul class="keys">
+          {{#w_keys}}<li><span class="p">{{pts}}</span><span>{{player}}, {{nfl_team}}. <span class="s">{{line}}</span> <span class="t">{{winner}}</span></span></li>{{/w_keys}}
+          {{#l_keys}}<li><span class="p">{{pts}}</span><span>{{player}}, {{nfl_team}}. <span class="s">{{line}}</span> <span class="t">{{loser}}</span></span></li>{{/l_keys}}
+        </ul>
+      </article>
+    {{/recaps}}
+    </div>
+  </section>
+
+  <section aria-labelledby="s-awards">
+    <h2 id="s-awards">Awards and standouts</h2>
+    {{#asides.awards}}<p class="aside"><b>{{figure}}</b>{{text}}</p>{{/asides.awards}}
+    <div class="awards">
+    {{#awards}}<div class="award"><h3>{{name}}</h3><p class="st">{{stat}}</p><p class="w">{{winner}}</p><p>{{body}}</p></div>{{/awards}}
+    </div>
+    <div class="cols std" style="margin-top:2.5rem">
+      <div>
+        <h3>Standouts</h3>
+        <p>{{standouts_intro}}</p>
+        <ul class="list">{{#standouts}}<li><b class="p">{{pts}}</b><b>{{pos}}, {{player}}</b> ({{nfl_team}}) for {{team}}.<br><span class="m">{{line}}</span></li>{{/standouts}}</ul>
+        <p style="margin-top:1rem">{{bench_note}}</p>
+      </div>
+      <div>
+        <h3>Injuries</h3>
+        <p>{{nfl.injuries_intro}}</p>
+        <ul class="list">{{#nfl.injuries}}<li><b>{{player}}</b> <span class="m">{{nfl_team}}, {{team}}.</span> {{note}}</li>{{/nfl.injuries}}</ul>
+      </div>
+    </div>
+    <h3 style="margin-top:2.5rem">The NFL week</h3>
+    <p>{{nfl.intro}}</p>
+    <ul class="list cols" style="gap:0 3rem">{{#nfl.games}}<li><b>{{final}}</b> <span class="m">{{when}}.</span> {{note}}</li>{{/nfl.games}}</ul>
+  </section>
+
+  <section aria-labelledby="s-moves">
+    <h2 id="s-moves">Transactions</h2>
+    <p>{{transactions.summary}}</p>
+    {{#asides.transactions}}<p class="aside"><b>{{figure}}</b>{{text}}</p>{{/asides.transactions}}
+    <ul class="score3" style="color:var(--turf)">{{#transactions.stats}}<li><b>{{value}}</b><span style="color:var(--ink)">{{label}}</span></li>{{/transactions.stats}}</ul>
+    <div class="cols" style="margin-top:2rem">
+      <div>
+        <h3>Waiver claims</h3>
+        <ul class="list">{{#transactions.waivers}}<li><span class="grade">{{grade}}</span><b>{{team}}</b>: {{add}} ({{pos}}{{#nfl_team}}, {{nfl_team}}{{/nfl_team}}) for {{faab}}{{#drop}}, dropping {{drop}}{{/drop}}.<br><span class="m">{{note}}</span></li>{{/transactions.waivers}}</ul>
+      </div>
+      <div>
+        <h3>Trades</h3>
+        <ul class="list">{{#transactions.trades}}<li><span class="grade" style="font-size:1rem">{{grade}}</span><b>{{teams}}</b>, {{date}}.<br>{{summary}} <span class="m">{{note}}</span></li>{{/transactions.trades}}</ul>
+        {{^transactions.trades}}<p>{{transactions.no_trades}}</p>{{/transactions.trades}}
+        <h3 style="margin-top:1.75rem">{{transactions.free_agents_label}}</h3>
+        <ul class="list">{{#transactions.free_agents}}<li><b>{{team}}</b> added {{add}} ({{pos}}, {{nfl_team}}){{#drop}}, dropped {{drop}}{{/drop}}. <span class="m">{{note}}</span></li>{{/transactions.free_agents}}</ul>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="s-next">
+    <h2 id="s-next">Next week</h2>
+    {{#preview.is_sample}}<p><strong>Sample data.</strong></p>{{/preview.is_sample}}
+    <p>{{preview.label}}. {{preview.note}}</p>
+    {{#asides.preview}}<p class="aside"><b>{{figure}}</b>{{text}}</p>{{/asides.preview}}
+    <ul class="list cols" style="gap:0 3rem">{{#preview.games}}<li><b>{{a}}</b> <span class="m">vs.</span> <b>{{b}}</b><br>{{line}}</li>{{/preview.games}}</ul>
+  </section>
+
+  <footer class="foot">
+    <p>{{footer.methods}}</p>
+    <ul>{{#footer.sources}}<li><a href="{{url}}">{{name}}</a></li>{{/footer.sources}}</ul>
+    <p>{{footer.credit}}</p>
+  </footer>
+</main>
+</body>
+</html>
