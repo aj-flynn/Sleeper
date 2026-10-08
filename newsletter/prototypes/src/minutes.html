@@ -1,0 +1,193 @@
+<!doctype html>
+<!-- fonts: courier-prime-400-normal courier-prime-400-italic courier-prime-700-normal kalam-700-normal -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{meta.title}}</title>
+<style>
+/*@font-faces*/
+/* Meeting Minutes. Tokens:
+   paper #EEEDF4 on desk #D8D5E2, ditto ink #46368C, faded ink #625698, felt-tip red #C22F2A.
+   Courier Prime carries everything typed; Kalam is the one hand that writes in the margin. */
+:root{
+  --desk:#D8D5E2; --paper:#EEEDF4; --ink:#46368C; --faded:#625698; --red:#C22F2A; --rule:#C9C4DC;
+  --type:'Courier Prime',ui-monospace,monospace; --hand:'Kalam','Comic Sans MS',cursive;
+}
+*{box-sizing:border-box}
+html{background:var(--desk);-webkit-text-size-adjust:100%}
+body{margin:0;color:var(--ink);font:400 1rem/1.6 var(--type);
+  text-shadow:.35px .2px 0 rgba(70,54,140,.35)}
+a{color:inherit;text-decoration-thickness:1px;text-underline-offset:3px}
+a:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+.sheet{max-width:44rem;margin:0 auto;background:var(--paper);padding:1.5rem 1.15rem 3rem;
+  box-shadow:0 0 0 1px var(--rule)}
+@media (min-width:62rem){
+  .sheet{max-width:64rem;margin:2rem auto;padding:3rem 3.5rem 4rem}
+  .item,.head{display:grid;grid-template-columns:minmax(0,40rem) 1fr;column-gap:3rem}
+  .item>*{grid-column:1}
+  .item>.note{grid-column:2;grid-row:1 / span 3;align-self:start;margin-top:2.6rem}
+}
+p{margin:0 0 1em;max-width:40rem}
+strong{font-weight:700}
+.head{border-bottom:2px solid var(--ink);padding-bottom:1rem;margin-bottom:1.5rem}
+.head h1{font-size:clamp(1.75rem,5vw,2.5rem);line-height:1.15;margin:0 0 .5rem;font-weight:700}
+.head .typed{margin:0;line-height:1.5}
+.head .data{font-size:.875rem;color:var(--faded);margin:.75rem 0 0}
+.head .data code{font-family:inherit}
+h2{font-size:1rem;font-weight:700;margin:2.75rem 0 1rem;text-decoration:underline;text-underline-offset:4px}
+h3{font-size:1.0625rem;font-weight:700;margin:0 0 .35rem;line-height:1.35}
+.note{font-family:var(--hand);font-weight:700;color:var(--red);font-size:clamp(1.25rem,2vw,1.5rem);line-height:1.25;
+  text-shadow:none;transform:rotate(-2deg);margin:.25rem 0 1.25rem;max-width:18rem}
+.note .ring{display:inline-block;border:2.5px solid var(--red);border-radius:50% 46% 52% 44%;
+  padding:.05em .45em;margin-right:.15em}
+.lead h3{font-size:1.5rem;line-height:1.2;margin:0 0 .75rem}
+@media (min-width:40rem){.lead h3{font-size:2.25rem}}
+.lead .dek{font-style:italic}
+.lead .by{font-size:.875rem;color:var(--faded)}
+.figures{list-style:none;margin:1.25rem 0;padding:0;border-top:1px dashed var(--faded)}
+.figures li{display:grid;grid-template-columns:6.5rem 1fr;gap:.75rem;padding:.6rem 0;border-bottom:1px dashed var(--faded)}
+.figures b{font-size:1.25rem}
+.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.signhead,.signin li{display:grid;grid-template-columns:1.75rem minmax(0,1fr) 3rem 4.75rem;column-gap:.5rem;max-width:40rem}
+.signhead{font-weight:700;font-size:.875rem;border-bottom:2px solid var(--ink);padding-bottom:.35rem}
+.signhead span:nth-child(n+3){text-align:right}
+.signin{list-style:none;margin:0;padding:0}
+.signin li{border-bottom:1px solid var(--rule);padding:.7rem 0 .2rem}
+.signin .team{font-weight:700}
+.signin .who{display:block;font-weight:400;color:var(--faded);font-size:.8125rem}
+.signin .take{grid-column:2 / -1;font-size:.875rem;line-height:1.5;margin:.4rem 0 .5rem}
+.share{border-top:1px dashed var(--faded);padding-top:1.25rem;margin-top:1.25rem}
+.share .score{margin:0 0 .75rem}
+.share ul{list-style:none;margin:0 0 .6rem;padding:0 0 0 1rem;font-size:.875rem}
+.keys-for{font-size:.875rem;font-style:italic;margin:.4rem 0 .1rem}
+.share li{padding:.2rem 0}
+.share li b{font-weight:700}
+.chips{list-style:none;margin:0;padding:0}
+.chips li{margin:0 0 1.25rem;max-width:40rem}
+.chips .stat{font-family:var(--hand);color:var(--red);font-size:1.25rem;text-shadow:none;margin-left:.35rem}
+.slate{list-style:none;margin:0;padding:0;max-width:40rem}
+.slate li{padding:.6rem 0;border-bottom:1px solid var(--rule);font-size:.9375rem}
+.slate b{display:inline-block;min-width:9.5rem}
+.slate .when{color:var(--faded)}
+.small{font-size:.875rem}
+.moves li{margin-bottom:.9rem}
+.moves .grade{font-family:var(--hand);color:var(--red);font-size:1.25rem;text-shadow:none;margin-left:.25rem}
+.foot{margin-top:3rem;border-top:2px solid var(--ink);padding-top:1rem;font-size:.875rem}
+.foot ul{padding-left:1.1rem}
+.foot a{word-break:break-all}
+</style>
+</head>
+<body>
+<main class="sheet">
+  <header class="head">
+    <div>
+      <h1>{{meta.league}}</h1>
+      <p class="typed">Weekly meeting, {{meta.dateline}}. Presented by {{meta.presented_by}}.</p>
+      <p class="typed">House rules: {{meta.format_line}}.</p>
+      <p class="data">{{meta.data_note}}</p>
+    </div>
+  </header>
+
+  <section class="item lead" aria-labelledby="s-lead">
+    <h2 id="s-lead">Item 1. Lead story</h2>
+    <p class="note">{{#asides.lead}}<span class="ring">{{figure}}</span> {{text}}{{/asides.lead}}</p>
+    <div>
+      <p class="small">{{lead.kicker}}</p>
+      <h3>{{lead.headline}}</h3>
+      <p class="dek">{{lead.dek}}</p>
+      <p class="by">Taken down by {{lead.byline}}.</p>
+      {{#lead.body}}<p>{{.}}</p>{{/lead.body}}
+      <ul class="figures">{{#lead.stats}}<li><b>{{value}}</b><span>{{label}}</span></li>{{/lead.stats}}</ul>
+    </div>
+  </section>
+
+  <section class="item" aria-labelledby="s-rank">
+    <h2 id="s-rank">Item 2. Power rankings</h2>
+    <p class="note">{{#asides.rankings}}<span class="ring">{{figure}}</span> {{text}}{{/asides.rankings}}</p>
+    <div>
+      <p>{{rankings_intro}}</p>
+      <div class="signhead" aria-hidden="true"><span>#</span><span>Member</span><span>Record</span><span>Points</span></div>
+      <ol class="signin">
+      {{#rankings}}
+        <li><span class="rk">{{rank}}</span><span class="team">{{team}}<span class="who">{{manager}}, {{pts}} this week</span></span><span class="num">{{record}}</span><span class="num">{{pf}}</span><p class="take">{{take}}</p></li>
+      {{/rankings}}
+      </ol>
+    </div>
+  </section>
+
+  <section class="item" aria-labelledby="s-recaps">
+    <h2 id="s-recaps">Item 3. Matchup recaps</h2>
+    <p class="note">{{#asides.recaps}}<span class="ring">{{figure}}</span> {{text}}{{/asides.recaps}}</p>
+    <div>
+    {{#recaps}}
+      <article class="share">
+        <h3>{{headline}}</h3>
+        <p class="score"><strong>{{winner}} {{w_score}}</strong>, {{loser}} {{l_score}}. Margin {{margin}}.</p>
+        <p>{{body}}</p>
+        <p class="keys-for">For {{winner}}:</p>
+        <ul>{{#w_keys}}<li><b>{{player}}</b> ({{nfl_team}}) {{pts}}. {{line}}</li>{{/w_keys}}</ul>
+        <p class="keys-for">For {{loser}}:</p>
+        <ul>{{#l_keys}}<li><b>{{player}}</b> ({{nfl_team}}) {{pts}}. {{line}}</li>{{/l_keys}}</ul>
+      </article>
+    {{/recaps}}
+    </div>
+  </section>
+
+  <section class="item" aria-labelledby="s-awards">
+    <h2 id="s-awards">Item 4. Awards and standouts</h2>
+    <p class="note">{{#asides.awards}}<span class="ring">{{figure}}</span> {{text}}{{/asides.awards}}</p>
+    <div>
+      <ul class="chips">
+      {{#awards}}<li><strong>{{name}}:</strong> {{winner}}<span class="stat">{{stat}}</span><br>{{body}}</li>{{/awards}}
+      </ul>
+      <p>{{standouts_intro}}</p>
+      <ul class="slate">{{#standouts}}<li><b>{{pos}}: {{player}}</b> ({{nfl_team}}) {{pts}} for {{team}}. {{line}}.</li>{{/standouts}}</ul>
+      <p style="margin-top:1rem">{{bench_note}}</p>
+      <h3 style="margin-top:2rem">The NFL week</h3>
+      <p>{{nfl.intro}}</p>
+      <ul class="slate">{{#nfl.games}}<li><b>{{final}}</b> <span class="when">{{when}}.</span> {{note}}</li>{{/nfl.games}}</ul>
+      <h3 style="margin-top:2rem">Injuries to watch</h3>
+      <p class="small">{{nfl.injuries_intro}}</p>
+      <ul class="slate">{{#nfl.injuries}}<li><b>{{player}}</b> ({{nfl_team}}, {{team}}). {{note}}</li>{{/nfl.injuries}}</ul>
+    </div>
+  </section>
+
+  <section class="item" aria-labelledby="s-moves">
+    <h2 id="s-moves">Item 5. Transactions</h2>
+    <p class="note">{{#asides.transactions}}<span class="ring">{{figure}}</span> {{text}}{{/asides.transactions}}</p>
+    <div>
+      <p>{{transactions.summary}}</p>
+      <ul class="figures">{{#transactions.stats}}<li><b>{{value}}</b><span>{{label}}</span></li>{{/transactions.stats}}</ul>
+      <h3>Waiver claims</h3>
+      <ul class="moves">
+      {{#transactions.waivers}}<li><strong>{{team}}</strong> claimed {{add}} ({{pos}}{{#nfl_team}}, {{nfl_team}}{{/nfl_team}}) for {{faab}}{{#drop}}, dropped {{drop}}{{/drop}}.<span class="grade">{{grade}}</span><br><span class="small">{{note}}</span></li>{{/transactions.waivers}}
+      </ul>
+      <h3>Trades</h3>
+      {{#transactions.trades}}<p><strong>{{teams}}, {{date}}.</strong> {{summary}} <span class="small">{{note}}</span> <span class="moves"><span class="grade">{{grade}}</span></span></p>{{/transactions.trades}}
+      {{^transactions.trades}}<p>{{transactions.no_trades}}</p>{{/transactions.trades}}
+      <h3>{{transactions.free_agents_label}}</h3>
+      <ul class="moves small">
+      {{#transactions.free_agents}}<li><strong>{{team}}</strong> added {{add}} ({{pos}}, {{nfl_team}}){{#drop}}, dropped {{drop}}{{/drop}}. {{note}}</li>{{/transactions.free_agents}}
+      </ul>
+    </div>
+  </section>
+
+  <section class="item" aria-labelledby="s-next">
+    <h2 id="s-next">Item 6. Next week</h2>
+    <p class="note">{{#asides.preview}}<span class="ring">{{figure}}</span> {{text}}{{/asides.preview}}</p>
+    <div>
+      {{#preview.is_sample}}<p><strong>Sample data.</strong></p>{{/preview.is_sample}}
+      <p>{{preview.note}}</p>
+      <ul class="slate">{{#preview.games}}<li><strong>{{a}}</strong> and <strong>{{b}}</strong>. {{line}}</li>{{/preview.games}}</ul>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <p>{{footer.methods}}</p>
+    <ul>{{#footer.sources}}<li><a href="{{url}}">{{name}}</a></li>{{/footer.sources}}</ul>
+    <p>{{footer.credit}}</p>
+  </footer>
+</main>
+</body>
+</html>
