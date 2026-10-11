@@ -5,7 +5,7 @@ description: Fetch the week's data, then write and build the weekly Rebuilders A
 
 # Rebuilders Anonymous newsletter
 
-The weekly newsletter for **Rebuilders Anonymous**, a 12-team dynasty league on Sleeper. Each week you pull a data brief with `newsletter/fetch_week.py`, write the issue as JSON, and build one self-contained HTML file. Every issue tells the fantasy story through the real football: a score is explained by the stat line and the game that produced it. The owner's two complaints about past issues were that the design was poor and the writing was poor. The design is solved by the templates. The writing is on you, every week. This file is the bar.
+The weekly newsletter for **Rebuilders Anonymous**, a 12-team dynasty league on Sleeper. Each week you pull a data brief with `newsletter/fetch_week.py`, write the issue as JSON, and build one self-contained HTML file. Every issue tells the fantasy story through the real football: a score is explained by the stat line and the game that produced it. The owner's two complaints about past issues were that the design was poor and the writing was poor. The design is solved by the Card Back template. The writing is on you, every week. This file is the bar.
 
 ## Chosen template
 
