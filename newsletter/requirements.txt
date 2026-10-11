@@ -1,0 +1,12 @@
+# The pipeline itself (fetch, brief, checks, render) is standard-library Python 3.12.
+# These are for the HTML gate (headless Chromium) and the test suite. After installing:
+#   python3 -m playwright install chromium
+playwright==1.63.0
+greenlet==3.5.6
+pyee==13.0.1
+typing_extensions==4.15.0
+pytest==9.1.1
+iniconfig==2.3.1
+packaging==24.0
+pluggy==1.6.0
+Pygments==2.21.0

@@ -1,257 +1,203 @@
 ---
 name: newsletter
-description: Fetch the week's data, then write and build the weekly Rebuilders Anonymous fantasy football newsletter, weaving real NFL box-score lines into the fantasy numbers. Use for any request to draft, write, edit, fact-check, or render a Rebuilders Anonymous issue, recap, power rankings, or awards.
+description: Produce the weekly Rebuilders Anonymous fantasy football newsletter end to end - fetch the week, build the data brief, hand off to the writer (Opus) and editor (Sonnet) subagents, verify, render, and open the draft PR - or teach someone how the process works. Use for any request to draft, write, edit, fact-check, render, or explain a Rebuilders Anonymous issue, recap, power rankings, or awards.
 ---
 
-# Rebuilders Anonymous newsletter
+# The Rebuilders Anonymous newsletter: a short course
 
-The weekly newsletter for **Rebuilders Anonymous**, a 12-team dynasty league on Sleeper. Each week you pull a data brief with `newsletter/fetch_week.py`, write the issue as JSON, and build one self-contained HTML file. Every issue tells the fantasy story through the real football: a score is explained by the stat line and the game that produced it. The owner's two complaints about past issues were that the design was poor and the writing was poor. The design is solved by the Card Back template. The writing is on you, every week. This file is the bar.
+This skill is both the runbook and the textbook. Read the overview, then each step in order. Reference material lives next to this file in `reference/` and is linked where you need it.
 
-## Chosen template
+## 1. Overview
 
+**What it is.** A weekly newsletter for Rebuilders Anonymous, a 12-team dynasty fantasy football league on Sleeper ([league details](reference/league.md)). Each issue is one self-contained HTML page with a lead story, power rankings, six matchup recaps, awards, transactions, and next week's games. Its signature: the fantasy story is told through the real football. A fantasy score is explained by the box-score line and the NFL game that produced it. It's written in one voice, **Boston Connor**: a loud, overconfident, wildly biased Boston sports fan. The owner's guide, [`voice/boston-connor.md`](voice/boston-connor.md), is the single source of truth for tone. The takes are absurd on purpose; the facts never are.
+
+**How it's made.** Scripts do everything with one right answer. Models do only the two jobs that need judgment: writing and editing. A human approves before anything publishes.
+
+```mermaid
+flowchart TD
+    A["1 fetch<br/>script"] -->|"raw/"| B["2 brief<br/>script"]
+    B -->|"brief.md, brief.json"| C["3 check-brief<br/>script"]
+    C --> D["4 write<br/>writer subagent, Opus"]
+    D -->|"issue.json, writer.json"| E["check-issue<br/>schema, lint, facts"]
+    E -->|fail| D
+    E -->|pass| F["5 review<br/>editor subagent, Sonnet"]
+    F -->|"verdict, saved as review.json"| G{"blocking notes?"}
+    G -->|"yes: 6 revise"| D
+    G -->|no, or all fixed| H["7 render<br/>script"]
+    H -->|"issue.html"| I["8 verify<br/>headless phone and desktop"]
+    I -->|"screenshots/"| J["9 checklist<br/>script"]
+    J --> K["10 owner approves<br/>the draft PR"]
+    K --> L(["publish"])
 ```
-CHOSEN_TEMPLATE: card-back
-```
 
-The owner picked **Card Back**, the only template: `newsletter/templates/card-back.html`, with its two fonts (Alfa Slab One, Archivo Narrow) in `newsletter/fonts/` and their licenses in `newsletter/fonts/licenses/`. The rendered Week 4 sample is `newsletter/issues/2026-week4/issue.html`. Render every issue with it and don't restyle it per issue. Design changes follow `.cursor/skills/frontend-design/SKILL.md` and need the owner's sign-off. The owner's standing design notes:
+**The quality bar.** An issue is done when all of these are true:
 
-- Recap cards must let a manager find their own team fast while scrolling on a phone. Team names are the biggest type on each card, the winner always sits on top, and the section opens with the "Find your team" list that links to every card (`build.py` builds that list from `recaps`).
-- No provenance paragraph, format line, or byline on the page, no intro lines under section headings, and no standalone NFL results section. The football goes inside the recaps, lead, awards, and standouts.
+- Every number traces to the brief, or to arithmetic on the brief that the fact check has recomputed.
+- Every recap, the lead, and every award explain the fantasy result through real box-score numbers.
+- The writing is Boston Connor, per [the guide](voice/boston-connor.md): the lead and every recap follow its five-step delivery, sentences are short and blunt, ALL CAPS is rare, not every sentence is a joke, no catchphrase repeats, and every absurd take reads as opinion about a real fact. The editor grades every item of the guide ([checklist](reference/voice-fidelity.md)).
+- The page reads well on a phone: no sideways scroll, every manager can find their team in one tap, fonts embedded, nothing loaded from the network.
+- The editor has no open blocking notes, and the owner has approved the pull request.
 
-## The league
+**Who does what.** Every step ends in a named gate: a command that prints pass or fail and records the result in `newsletter/issues/<season>-week<N>/verification.json`.
 
-- Sleeper league ID `1319718857249665024` (2026 season). `fetch_week.py` uses it by default.
-- 12 teams, dynasty, Superflex, full PPR. Scoring: 1 per catch, 0.1 per rushing or receiving yard, 6 per rushing or receiving TD, 0.04 per passing yard, 4 per passing TD, minus 2 per interception or lost fumble.
-- Starting lineup: QB, 2 RB, 2 WR, TE, 2 FLEX, Superflex, K, DEF, plus 8 bench spots. Playoffs start in Week 15.
-- $200 FAAB per season, blind bids. Startup was a $1,000 auction (the draft review is `rebuilders-anonymous-draft-review.html`).
-- The newsletter is "Presented by Unsportsmanlike Conduct" (UC), the house brand. UC gets roasted like everyone else, a little harder if anything.
-- Team names change. Use exactly the names in the brief, with their casing and punctuation (`hammball` is lowercase, `Micah parsons fan club` has one capital, `J’Allen Waffle Stompers` and `Skat’s BruteForce Theorem` use curly apostrophes, `WELL! It's The Big Shough` keeps its exclamation mark). The brief uses the Sleeper team name and falls back to the manager's display name when a team has none.
-- Week 4 teams and managers: Split Safety Syndicate (kylejones10), Micah parsons fan club (Packersfan1992), Dak Side of the Sun (SweetRavenge84), Mendozareamazingpicks (DarknessMonster), J’Allen Waffle Stompers (BigJohnDeBo008, called J’Alle in Week 2), Unsportsmanlike Conduct (JeffyWaterton), Kingslayers (maierz3948), hammball (hammball), ThePeopleBeaters (ThePeopleBeaters), WELL! It's The Big Shough (KaranLuvSport), Rams of Steel (iemerson969), Skat’s BruteForce Theorem (LittleTimmyFlynn). The draft review uses older names; never use those unless the brief does.
-- Past issues: `2026-week2.html` (published, repo root) and the Week 4 sample in `newsletter/issues/2026-week4/`. Read Week 2 for data shape only; it predates the voice and the NFL-stat rules.
+| # | Step | Owner | Gate (in `verification.json`) | Gate command |
+| --- | --- | --- | --- | --- |
+| 1 | Fetch the week | script | `fetch.week_final` | `run.py fetch --week N` |
+| 2 | Build the brief | script | `brief.reproducible` | `run.py brief --week N` |
+| 3 | Check the brief | script | `brief.valid` | `run.py check-brief --week N` |
+| 4 | Write the issue | writer subagent, Opus (`claude-opus-5-5[effort=high]`) | `issue.present`, `issue.schema`, `issue.lint`, `issue.facts` | `run.py check-issue --week N` |
+| 5 | Review the draft | editor subagent, Sonnet (`claude-sonnet-5-5[effort=high]`) | `review.verdict` | `run.py check-review --week N` |
+| 6 | Address blocking notes | writer subagent, Opus | `review.addressed` | `run.py check-review --week N` |
+| 7 | Render | script | `render.reproducible` | `run.py render --week N` |
+| 8 | Verify the page | script | `html.phone`, `html.desktop`, `html.screenshots` | `run.py verify --week N` |
+| 9 | Final checklist | script | `checklist.final` | `run.py checklist --week N` |
+| 10 | Approve and publish | human (the owner) | `owner.approved` | `run.py approval --week N` |
 
-## Voice
+`run.py` is short for `python3 newsletter/run.py`. Run with no stage, `python3 newsletter/run.py --week N` runs steps 1 to 9 in order and stops at the first gate that doesn't pass. Exit code 0 means every automated gate passed, 1 means a gate failed, and 3 means the pipeline is waiting on a subagent's output.
 
-Write like the best columnist in a group chat of people who have known each other for years: smart, funny, specific, and sure of yourself. You are roasting friends, so the jokes are about their decisions, built on their own numbers, and the reader should laugh because it is true.
+**Words used here.** *Brief*: the week's data, joined and written to `brief.md` and `brief.json`; the only source of facts. *Gate*: a check with a pass or fail result and a command that reproduces it. *Subagent*: a separate Cursor agent with its own instructions and pinned model, defined in `.cursor/agents/`. *Main agent*: the agent running this skill; it runs the scripts and hands off to subagents. *Schema 3*: the current shape of `issue.json`. *Derived number*: a number in the copy that is arithmetic on brief numbers, such as a margin or a sum. *Elo*: the rating that orders the power rankings ([formula](reference/league.md#elo)). *FAAB*: free agent acquisition budget, the $200 each team bids on waivers with. *Superflex*: a lineup slot that can hold a quarterback. *PPR*: a point per reception.
 
-1. **Lead with the take.** The first sentence of every item says what you think. The numbers come in as evidence.
-2. **Every joke rides on a fact.** If you can't point to the number that makes it funny, cut it.
-3. **Specific beats clever.** "Started Nacua and got 0.0" is better than any metaphor about Nacua.
-4. **Roast decisions, not people.** Benched the wrong guy, overpaid on waivers, left the kicker slot empty: fair game. Jobs, families, looks, and real-life stuff: never.
-5. **Be confident.** Declarative sentences. No "arguably," "kind of," "it seems," "might be." If you aren't sure, check the brief; if the brief doesn't say, don't write it.
-6. **Short sentences do the punching.** Set up with a normal sentence, land with a short one. Don't explain the joke after it lands.
-7. **One idea per item.** A ranking blurb is two or three sentences with one point. Not a list of everything that happened.
-8. **Vary the shape.** Twelve ranking blurbs should not all start with the team's score. Some start with a player, some with the decision, some with the punchline.
-9. **Plain words.** No sportscaster clichés, no corporate words, no accounting metaphors. Write the way a sharp person talks.
-10. **Football first, then fantasy.** A fantasy score is the result; the stat line and the game are the story. "Kyren Williams scored 36.7" is a number. "Kyren Williams ran for two touchdowns in the last four minutes of the Rams’ comeback and caught 10 passes" is why the number happened. Every recap and the lead must cite real box-score numbers (yards, catches, carries, touchdowns, snaps, field goals), and the build fails if they don't.
+## 2. Before you start
 
-### Examples that hit the bar
+- **Setup, once per machine.** Python 3.12. `pip install -r newsletter/requirements.txt` then `python3 -m playwright install chromium` (add `--with-deps` on a bare Linux box). Fetching, the brief, the checks, and rendering use only the standard library; Playwright is for step 8 and pytest for the tests.
+- **When to run.** After Monday night's game is final and the Wednesday waiver run has processed (about 07:00 UTC Wednesday). The fetch gate enforces both, so running early is harmless: it stops and says what it's waiting for.
+- **Branch.** Work on a new branch. GitHub Pages serves `main`, so merging publishes. Never edit an already-published week unless the owner asks.
+- **Tests.** `python3 -m pytest newsletter/tests -q` checks the deterministic parts against the Week 4 data.
 
-The first two use real Week 4 facts and show the NFL weaving every issue needs. The rest are real Week 2 facts, written before the NFL rule; they still show the voice.
+## 3. The steps
 
-> Rams of Steel had a running back on each side of Monday night’s Falcons-Saints game and started the one on the losing side. Kendre Miller ran 6 times for 9 yards and lost a fumble for New Orleans (1.9). Brian Robinson ran for three touchdowns in Atlanta’s 45-24 win, from the Rams’ bench (25.7). That one swap is worth 23.8 in a 16.2-point loss.
+Each step has the same parts: what it does, why it exists, its inputs and outputs, who runs it, its gate, and what failure looks like.
 
-> Micah parsons fan club played Week 4 with ten working starters and won by 29.58. The eleventh was Case Keenum at Superflex. According to ESPN, Keenum lined up under center for Chicago’s first play, pitched to D’Andre Swift for 2 yards, and Tyson Bagent played quarterback for the rest of the game. Keenum’s line for the week is 1 snap and 0.0 points.
+### Step 1: Fetch the week
 
-> Split Safety Syndicate scored 166.06 this week, the most in the league, with Travis Kelce, Stefon Diggs, and Denzel Boston on the bench. Those three scored 67.3 points while sitting. That is most of what ThePeopleBeaters scored as an entire team, left in a drawer, and it didn’t matter, because Mahomes, Chase, Young, Walker, and Gibbs all cleared 23.
+- **What.** Downloads the league, rosters, matchups for weeks 1 to N+1, transactions, Sleeper's NFL box scores, ESPN's scoreboard and game recaps, and player records.
+- **Why.** Everything downstream must come from data saved in the repo, so anyone can rerun the pipeline and get the same issue.
+- **In → out.** Week number → `raw/*.json` plus `raw/fetch_meta.json` (fetch time).
+- **Run by.** Script: `python3 newsletter/run.py fetch --week N`. If `raw/` already holds the finished week, it's reused; `--refresh` pulls again.
+- **Gate `fetch.week_final`.** Passes only when every NFL game of week N is final, every fantasy matchup has a score, and the waiver run after the week has processed. Nothing is written until then.
+- **Failure and fix.** "week 5 is not ready: PHI VS JAX (In Progress) ..." means it's too early; rerun later. "network: ..." means a source didn't answer; rerun. If a source stays down, stop and tell the owner. Don't write around the gap.
 
-> Four teams are undefeated, and one of them should not feel great about it. Micah parsons fan club is 2-0 after scoring 95.58, tenth-best of twelve, against a hammball lineup with no kicker and three starters who scored zero. Undefeated is undefeated. In this case it also came with a gift receipt.
+### Step 2: Build the brief
 
-> Unsportsmanlike Conduct, which presents this newsletter and therefore deserves extra scrutiny, spent $16 on D. Wicks to beat a $0 bid from Micah parsons fan club. Then it spent another $16 on A. Mitchell, a claim nobody else made. That is $32 to outbid one person who bid nothing and a room with nobody in it.
+- **What.** Joins `raw/` into one readable brief: standings, the Elo table, every matchup with each player's fantasy points next to their real stat line, NFL games with ESPN's recap text, transactions, FAAB, next week, injuries. [Full contents](reference/facts.md#what-the-brief-contains).
+- **Why.** The writer and editor get one complete, trustworthy source and never touch an API. Elo is computed here, by code, so the rankings order is never a judgment call.
+- **In → out.** `raw/` → `brief.md`, `brief.json`.
+- **Run by.** Script: `python3 newsletter/run.py brief --week N`. No network.
+- **Gate `brief.reproducible`.** The brief is built twice from the same `raw/` and both builds must be byte-identical.
+- **Failure and fix.** A failure means the builder has become non-deterministic (for example, iterating a set). Fix `fetch_week.build_brief`; never edit the brief by hand.
 
-> Smith-Njigba scored 42.5, the best individual number of the week, and Mendoza still lost. White (14.3) and Worthy (13.5) sat while Stevenson (3.6) and Wilson (3.8) started. That swap was worth 20.4 points in an 11.44-point loss.
+### Step 3: Check the brief
 
-> Davante Adams scored 39.5, second-best in the league, and lost to a team whose second-best scorer was a defense. After Adams, the Rams’ next starter scored 17.5. In Superflex, one star and a shrug gets you to 0-2.
+- **What.** Sanity-checks the brief: 12 teams and 6 matchups, each margin equals the score difference, each team's starters add up to its score, wins balance losses, points for balance points against, Elo recomputed from `raw/` matches, this week's Elo changes sum to zero, the table is in Elo order, every NFL game is final, and `brief.md` matches `brief.json`.
+- **Why.** A bad brief makes every downstream check pass on wrong data. This is the one place to catch it.
+- **Run by.** Script: `python3 newsletter/run.py check-brief --week N`.
+- **Gate `brief.valid`.** Every check above passes. The details also count starters with no stat record, worth a look if it's more than a handful.
+- **Failure and fix.** Each failure names the broken invariant. Fix the fetcher and rerun steps 1 to 3.
 
-### What it should not sound like
+### Step 4: Write the issue (writer subagent, Opus)
 
-| Instead of this | Write this |
-| --- | --- |
-| Split Safety Syndicate had a dominant performance, putting up an impressive 166.06 points. Patrick Mahomes led the way with 28.98. | Five Split Safety starters cleared 23 points. Skat’s third-best scorer was the kicker. |
-| Sixty-five points is not a bad matchup. It is a solvency event. | ThePeopleBeaters started Dart (0.8), Goedert (1.4), and the Chiefs defense (1.0). |
-| Undefeated on 95.58 is a warning label, not a coronation. | Their top scorer had 18.1 and they won because the other team didn’t start a kicker. |
-| White alone clears the margin. (It doesn’t: swapping White’s 14.3 for either benched starter gains at most 10.7, under 11.44.) | That swap was worth 20.4 points in an 11.44-point loss. |
+- **What.** The writer reads the brief, picks the week's three most surprising facts, and writes every section of `issue.json` in the [fixed section order](reference/issue-schema.md), following the [Boston Connor guide](voice/boston-connor.md) exactly (with [worked examples](reference/voice.md)) and the [fact rules](reference/facts.md). It also writes `writer.json` with its story picks.
+- **Why a model.** Finding the story and landing it in a very specific comic voice without bending a single fact is judgment. This is the reason the newsletter exists, so it gets the strongest writing model: **Opus**, pinned as `claude-opus-5-5[effort=high]` in `.cursor/agents/writer.md`.
+- **In → out.** The voice guide, `brief.md`, `brief.json`, the reference files, and the previous week's issue if one exists (for structure only, never an older draft of this week) → `issue.json` (with its `derived` list) and `writer.json`.
+- **Run by.** The main agent hands off to the `writer` subagent (see [Handoffs](#4-handoffs)).
+- **Gates `issue.present`, `issue.schema`, `issue.lint`, `issue.facts`.** `python3 newsletter/run.py check-issue --week N`, which the writer runs itself until it exits 0:
+  - *schema*: schema 3 holds and the template renders, the lead, recaps, and awards cite box-score stats, and there are 12 rankings, 6 recaps with two key performers a side, 4 or 5 awards, and 6 preview games.
+  - *lint*: no banned filler, clichés, or vague praise (the guide's words, like fraud, bum, and pathetic, are allowed); the Boston Connor counts: at most 3 ALL-CAPS words per section and 6 per issue, an average sentence of 11 words or fewer and none over 32, no short sentence or four-word phrase repeated as a catchphrase, at most 4 exclamation marks and 4 swear words; plus at most three em dashes (none in headlines), no emoji, no internal labels like "W2", and no two ranking takes starting with the same word. [Thresholds and why](reference/voice.md#the-voice-checks).
+  - *facts*: every number traces to the brief or to a recomputed `derived` entry, and rankings, recaps, key performers, standouts, preview pairings, and waiver bids match the brief field by field ([what it checks](reference/facts.md#what-the-fact-check-verifies)).
+- **Failure and fix.** Each problem is one line, such as `not in brief: 17.64 in "Maye for Hurts ..."` or `recaps[2]: margin is '39.2', the brief says '39.16'`. The writer fixes the copy, or adds the arithmetic to `derived`, and reruns. It never edits the brief, the banned list, or the checks.
 
-## Banned phrases
+### Step 5: Review the draft (editor subagent, Sonnet)
 
-The build linter (`python3 newsletter/build.py --lint`) reads this list. Keep one phrase per line in the format shown. Matching is case-insensitive and whole-word.
+- **What.** The editor checks what scripts can't: that each claim is attached to the right player and game, that reasons come from ESPN's text, that superlatives are true, that each `derived` number means what its sentence says, and that every absurd take reads as commentary rather than news. Then it grades the draft against **every item of the Boston Connor guide** in a `voice_fidelity` section ([the checklist](reference/voice-fidelity.md)), including the five-step delivery for the lead and each recap, quoted step by step. It returns a verdict with numbered notes, each **blocking** (facts, invented news or context, any voice miss that breaks the guide, banned phrasing the lint missed, real-life roasting, a section that misses its job) or **non-blocking** (taste within the voice).
+- **Why a model, and why a different one.** Critique is judgment too, but it's reading against a checklist rather than creating, so **Sonnet** (`claude-sonnet-5-5[effort=high]`, pinned in `.cursor/agents/editor.md`) is enough. A second model also doesn't share the writer's blind spots. The editor is read-only (`readonly: true`): it can never edit the issue.
+- **In → out.** The voice guide, the voice-fidelity checklist, `brief.md`, `brief.json`, `issue.json`, `verification.json`, and the reference files → a JSON verdict in its reply, which the main agent saves with `python3 newsletter/run.py record-review --week N --from <file>`. That command validates the shape, stamps the verdict with the reviewed issue's SHA-256 hash and the editor's pinned model, and writes `review.json` (keeping earlier rounds as `review.r1.json` and so on).
+- **Gate `review.verdict`.** `python3 newsletter/run.py check-review --week N`: `review.json` has a valid shape, `verdict` is `approve` exactly when there are no blocking notes, `voice_fidelity` has a pass or miss with evidence for every guide item and every delivery unit, every miss cites a blocking note, and its model matches the editor's agent file.
+- **Failure and fix.** A malformed verdict fails `record-review` with the reason; ask the editor again.
 
-<!-- banned:start -->
-- `dominant performance`
-- `statement win`
-- `make a statement`
-- `on notice`
-- `let that sink in`
-- `make no mistake`
-- `at the end of the day`
-- `it is what it is`
-- `a win is a win`
-- `showed up and showed out`
-- `came to play`
-- `brought their A game`
-- `firing on all cylinders`
-- `led the way`
-- `put up`
-- `impressive`
-- `incredible`
-- `insane`
-- `massive`
-- `huge`
-- `elite`
-- `solid performance`
-- `masterclass`
-- `clinic`
-- `game-changer`
-- `league winner`
-- `went off`
-- `exploded for`
-- `feast`
-- `smash`
-- `cooked`
-- `chef's kiss`
-- `beast mode`
-- `levels to this`
-- `buckle up`
-- `strap in`
-- `without further ado`
-- `in the books`
-- `another week in the books`
-- `when the dust settled`
-- `a tale of two halves`
-- `the rest is history`
-- `only time will tell`
-- `time will tell`
-- `remains to be seen`
-- `looking to`
-- `bounce back`
-- `silence the critics`
-- `doubters`
-- `arguably`
-- `on paper`
-- `receipts`
-- `the receipt`
-- `audit`
-- `solvency`
-- `insolvent`
-- `filing`
-- `process failure`
-- `autopsy`
-<!-- banned:end -->
+### Step 6: Address blocking notes (writer subagent, Opus)
 
-## Anti-patterns
+- **What.** If the verdict has blocking notes, the writer fixes each one, reruns `check-issue`, and records a response per note in `writer.json`: `{"note_id": "E1", "status": "fixed", "change": "..."}`.
+- **Why.** A note nobody answers is a note nobody fixed. This turns review into a contract that a script can check.
+- **Gate `review.addressed`** (also from `check-review`). Passes when the editor approved the current `issue.json` exactly, or when every blocking note has a `fixed` response, `writer.json` answers the latest review round, and `issue.json` has changed since the review. It fails if the issue changed after an approval, so a late edit has to go back to the editor.
+- **Failure and fix.** "blocking note E3 has no 'fixed' response" means hand back to the writer. If the fixes were large, run the editor again (round 2) for a fresh verdict.
 
-These are the habits that made past issues read badly. The linter catches some; you catch the rest on the edit pass.
+### Step 7: Render
 
-- **Filler.** Openers like "What a week it was" or "Week 3 is in the books." Start with the story.
-- **Restating stats without a take.** "Allen scored 40.82. McCaffrey scored 22.6." is a box score, not writing. Every number needs a reason to be in the sentence.
-- **Vague praise or hype.** "Impressive," "huge," "dominant," "elite." Say what happened instead.
-- **Em dashes.** No more than three in the whole issue, none in headlines. Use a period or a comma.
-- **Exclamation marks and emoji.** None, except inside team names.
-- **The "It's not X. It's Y." move.** Once per issue at most. Past issues leaned on it until it stopped meaning anything.
-- **Extended metaphors.** No running bits about ledgers, audits, filings, solvency, receipts, or autopsies. One image, once, then move on.
-- **Number soup.** More than three numbers in one sentence. Pick the one that makes the point.
-- **Invented context.** Only say why something happened (injury, bye, a benching, a career high) if the brief says so, from the ESPN recap or the Sleeper injury status. If the brief has a stat line but no reason, give the line and stop. "Rice played 6 snaps" is a fact; "Rice got hurt" needs the recap that says it.
-- **Fantasy points with no football.** A recap that only trades fantasy scores ("won 162.88 to 133.30 behind 31.3 from Williams") is half the job. Say what Williams did on the field.
-- **Rhetorical questions.** Answer them instead.
-- **Clones.** Twelve blurbs of the same length, built the same way, starting with the same word.
-- **Mean for no reason.** If a line would sting without being funny, cut it.
-- **Labels instead of English.** No "W2," "PF/PA," "EP," or internal jargon in prose. "Points against" is fine; "PA" belongs in a table header.
+- **What.** Fills the Card Back template with `issue.json`, embeds the fonts as data URLs, and writes one self-contained `issue.html` in the issue folder.
+- **Why.** The design is final ([Card Back notes](reference/design.md)); rendering is mechanical and must never drift.
+- **Run by.** Script: `python3 newsletter/run.py render --week N`. It refuses if the issue no longer passes schema, lint, and facts.
+- **Gate `render.reproducible`.** Two renders of the same issue are byte-identical, and the file's hash is recorded.
+- **Failure and fix.** A check failure here means `issue.json` changed after step 4; rerun from `check-issue`. Never render to the repo root: a root-level page publishes once merged.
 
-## Section order (fixed)
+### Step 8: Verify the page
 
-Every issue has these sections in this order. Never reorder, rename, or drop one.
+- **What.** Opens `issue.html` in headless Chromium at phone (390px) and desktop (1280px) widths and checks: no horizontal scroll, no network requests, every font loaded, no console errors, no `{{` left over, and all twelve "Find your team" links landing on their cards. Saves four screenshots.
+- **Why.** Most readers open the issue on a phone. These are the failures that made past issues look broken.
+- **Run by.** Script: `python3 newsletter/run.py verify --week N` (or `python3 newsletter/verify_html.py <html>` for the raw JSON report).
+- **Gates `html.phone`, `html.desktop`, `html.screenshots`.** Every check passes at each width, and all four screenshots exist.
+- **Failure and fix.** A long unbroken string can cause sideways scroll: shorten it in the copy. A network request or font failure means the template or fonts changed; restore them from `main`. Template problems go to the owner, not into a restyle.
 
-1. **Masthead**: league name, then one line with the week, month, and "presented by Unsportsmanlike Conduct." Nothing else: no format line, no note about data sources.
-2. **Lead story**: one headline, one dek, three or four paragraphs, and up to three big stats. No byline. Pick the single most surprising specific fact of the week and build around it.
-3. **Power rankings**: all 12 teams **in Elo order** (see "Elo" below), each with manager, record, Elo rating, this week's Elo change, and a two-to-three-sentence take. No intro line. The order is not opinion; the takes are. Takes can still talk about points.
-4. **Matchup recaps**: the "Find your team" list (built automatically), then all six games, each with both team names and managers, final score, margin, a headline, one paragraph that explains the result through real stat lines and game context, and two key performers per side, each with NFL team, fantasy points, and box-score line.
-5. **Awards and standouts**: four or five awards, each citing at least one real box-score stat, then the top starter at each position with its stat line, then one bench note, then the injuries to rostered players that the brief reports. No intro lines, and no standalone list of NFL results.
-6. **Transactions**: the callout (`asides.transactions`), then waiver claims with FAAB and a letter grade, then trades, then free-agent adds. No summary paragraph. If there were no trades, say so in one line; don't drop the block.
-7. **Next week**: all six upcoming matchups with one line each.
+### Step 9: Final checklist
 
-## Elo
+- **What.** Re-checks everything in one place: every earlier gate passed; the issue still passes schema, lint, and facts; `issue.html` is the render of the current `issue.json`; the HTML gates checked this exact file; the editor gate still holds; nothing is marked as sample data; `2026-week2.html`, `rebuilders-anonymous-draft-review.html`, `README.md`, the template, and the fonts are unchanged from `main`; no new page sits at the repo root; and no live page links to `newsletter/issues/`.
+- **Why.** Single stages can be rerun out of order. This gate makes sure the files going into the PR are the files that were checked.
+- **Run by.** Script: `python3 newsletter/run.py checklist --week N`.
+- **Gate `checklist.final`.** Every item passes.
+- **Failure and fix.** Each item names what to rerun or restore.
 
-The power rankings are ordered by Elo, computed by `fetch_week.py` (`elo_ratings`) from the league's real head-to-head results for weeks 1 through N and written into the brief's **Elo** table. Never compute it by hand and never reorder the rankings for taste. `build.py` stops the build if the rankings don't match the brief's Elo order and values.
+### Step 10: Approve and publish (the owner)
 
-- **Starting rating:** every team starts the season at 1000.
-- **Expected score:** for team A against team B, \(E_A = 1 / (1 + 10^{(R_B - R_A)/400})\).
-- **Result:** 1 for a win, 0.5 for a tie, 0 for a loss, from the two teams' fantasy scores that week.
-- **Update:** \(\Delta = K \times (S_A - E_A)\) with **K = 32**, rounded to two decimals. The loser's change is exactly the negative of the winner's. All of a week's games update at once from the ratings going into that week, and each week's new rating is stored to two decimals.
-- **Margin of victory doesn't count.** Winning by 0.5 or by 60 moves the rating the same. That's why a team can rank high on few points; say so in the take when it matters.
-- **Ties in the order** are broken by wins, then season points for.
-- This is the method behind the published Week 2 issue (`2026-week2.html`): it reproduces that issue's post-Week 2 Elo for all 12 teams.
+- **What.** The main agent commits the issue folder (`raw/`, `brief.*`, `issue.json`, `writer.json`, `review*.json`, `issue.html`, `screenshots/`, `verification.json`) on a branch and opens a **draft** pull request with the phone screenshot and the gate table from `verification.json`. The owner reads the preview and approves the PR, or asks for changes, which go back through the writer.
+- **Why.** The newsletter roasts real people by name. A person who knows them signs off. Nothing publishes without that.
+- **Gate `owner.approved`.** A full run records it as `pending`. `python3 newsletter/run.py approval --week N` reads the PR's review decision from GitHub and passes only when it's `APPROVED`.
+- **Publishing** is a separate step taken only on the owner's instruction: render the approved issue to the repo root (`python3 newsletter/build.py --data <issue.json> --out <season>-week<N>.html`), link it from `README.md`, and merge. GitHub Pages serves `main`.
 
-In the issue, `elo` is the rating with two decimals ("1029.33") and `elo_change` is this week's change with a sign ("+14.80", or "−18.91" with a real minus sign). Copy both from the brief.
+## 4. Handoffs
 
-## Facts: the brief is the only source
+The main agent runs every script and is the only one that hands work to a subagent. Each handoff names the files the subagent reads and writes, and ends at a gate the main agent runs itself. `python3 newsletter/run.py handoff --agent writer --week N` (or `--agent editor`) prints this contract as JSON.
 
-- **Every number must come from the week's data brief** (`brief.md` / `brief.json` next to the issue) or be simple arithmetic on brief numbers (sums, differences, ranks). Check every derived number twice; the Week 2 issue shipped a wrong one. `python3 newsletter/build.py --check-facts <issue.json>` lists every number in the copy that isn't in the brief verbatim. Each one it prints is either derived (recompute it by hand) or wrong.
-- **Which source wins.** Each kind of fact has one source of truth:
-  - Fantasy points, lineups, bench, standings, records, transactions, and FAAB: the league on Sleeper. Fantasy points always come from the league matchups (`players_points`), never from Sleeper's generic PPR totals, because this league's scoring differs (Burrow scored 23.72 here and 25.72 under Sleeper's default).
-  - Box-score lines (yards, catches, targets, carries, touchdowns, interceptions, snaps, kicks, sacks): Sleeper's NFL weekly stats. When ESPN prints a different number, use Sleeper's. In Week 4 ESPN's recap gave Tee Higgins 151 receiving yards; Sleeper has 157, which is what his 26.7 fantasy points add up to.
-  - Game results, venues, game context, quotes, injuries during the game, career highs, and records: ESPN's scoreboard and game recaps. Attribute anything you'd only know from a recap ("according to ESPN", "per ESPN").
-  - Injury status for next week: Sleeper's status at fetch time (Questionable, Out, IR), as listed in the brief.
-- **Don't use outside knowledge.** No NFL news, depth charts, projections, trade values, or reasons that the brief doesn't contain. If it isn't in the stat lines or the ESPN text in the brief, it isn't in the issue.
-- **Match players by ID, not name.** Sleeper has duplicate names (two Kenneth Walkers, several Johnsons). The fetcher joins on `player_id`; if you look something up by hand, do the same. ESPN and Sleeper also disagree on some team codes (ESPN `WSH` is Sleeper `WAS`); the fetcher maps them.
-- **Superlatives need the full list.** Before writing "highest," "lowest," "only," or "career high," sort the full data and confirm, or quote the recap that says it.
-- **Copy numbers as given.** Team scores in tables use two decimals (`147.60`). Prose can use the brief's own precision (`147.6`).
-- **Keep transaction windows straight.** Label which waiver run each move belongs to (the brief gives the processed time in UTC), and don't add free-agent moves into FAAB totals.
-- **Missing data is marked, never invented.** If something can't be fetched (an API is down, a game hasn't finished), leave it out or fill it with placeholder content and set that section's `is_sample` flag, which prints a visible "Sample data" label, plus a note that says what is placeholder. Say so in the PR. Never present an invented number as real.
-- **Opinions are labeled as opinions.** Ranking takes and grades are opinion; the rankings order (Elo), scores, records, stat lines, and FAAB are facts.
-- **The NFL games block in the brief is context, not a section.** Use it for finals, game situations, and ESPN quotes inside the recaps, lead, and awards. The issue no longer lists every NFL result.
+| Subagent | Agent file | Model | Reads | Writes | Gate the main agent runs after |
+| --- | --- | --- | --- | --- | --- |
+| writer | `.cursor/agents/writer.md` | `claude-opus-5-5[effort=high]` | `voice/boston-connor.md` (follow exactly), `reference/voice.md`, `reference/voice-fidelity.md`, `reference/facts.md`, `reference/issue-schema.md`, `brief.md`, `brief.json`, the previous week's `issue.json` if any (structure), `review.json` (revisions) | `issue.json`, `writer.json` | `check-issue`, then `check-review` on revisions |
+| editor | `.cursor/agents/editor.md` | `claude-sonnet-5-5[effort=high]` | `voice/boston-connor.md` (review against it), `reference/voice-fidelity.md`, `reference/voice.md`, `reference/facts.md`, `brief.md`, `brief.json`, `issue.json`, `verification.json` | nothing: returns the verdict JSON with `voice_fidelity` and notes | `record-review`, then `check-review` |
 
-### What the brief must contain
+The main agent's loop for week N:
 
-Run `python3 newsletter/fetch_week.py --week <N>` (defaults: season 2026, the league above, output `newsletter/issues/<season>-week<N>/`). It writes `brief.md` (read this), `brief.json` (the same data, structured), and `raw/` (every API response it used, trimmed to rostered players). Commit all three with the issue. The brief must contain:
+0. **Redoing a week that already has an issue?** The run only stops for the writer when there is no `issue.json`, so move the old copy out first: `cd newsletter/issues/<season>-week<N> && rm -rf issue.json writer.json review*.json issue.html screenshots verification.json`. Keep `raw/` only if you don't want fresh data.
+1. `python3 newsletter/run.py --week N` (add `--refresh` to download fresh data even if `raw/` holds a finished week). It runs steps 1 to 3 and stops with exit 3 at `issue.present`.
+2. Invoke the `writer` subagent with the issue folder and week: `/writer` in the Cursor chat, or the Task tool with the writer's agent type. If the custom agent isn't registered in your session (agent files load when a session starts), launch a general-purpose subagent on the same model (`claude-opus-5-5-high`) and give it the body of `.cursor/agents/writer.md` as its instructions; never fall back to a different model. When it returns, run `python3 newsletter/run.py check-issue --week N`. If it fails, resume the writer with the output.
+3. Invoke the `editor` subagent with the issue folder (same fallback: a general-purpose subagent on `claude-sonnet-5-5-high` with the body of `.cursor/agents/editor.md`, told it is read-only). Save its JSON reply to a file outside the issue folder and run `python3 newsletter/run.py record-review --week N --from <file>`.
+4. If the verdict has blocking notes, resume the writer with `review.json` (step 6), then run `check-issue` and `check-review`. Repeat the editor if the fixes were substantial.
+5. `python3 newsletter/run.py --week N` again. It reuses the fetch, re-checks everything, renders, verifies, runs the checklist, and exits 0 with `owner.approved` pending.
+6. Commit, push, and open the draft PR (step 10).
 
-| Part | What it holds | Source |
-| --- | --- | --- |
-| Sources and fetch time | Every URL used and when it was pulled | the fetcher |
-| Standings | W-L, points for and against, and week-by-week results for all 12 teams | Sleeper `/league/<id>/matchups/1..N` and `/rosters`, `/users` for names |
-| Elo | Every team's rating, this week's change, and its rating after each week, in power-rankings order, with the formula | Computed by `fetch_week.py` from Sleeper `/league/<id>/matchups/1..N` (see "Elo") |
-| Fantasy matchups | All six games: final, margin, every starter and bench player with league fantasy points | Sleeper `/league/<id>/matchups/<N>` |
-| NFL stat line per player | For each of those players: NFL team, a plain-words box-score line (passing, rushing, receiving, fumbles, snaps, kicks, defense), and their NFL game's final | Sleeper `api.sleeper.com/stats/nfl/<season>/<N>`, joined on `player_id`; players from `/v1/players/nfl` |
-| NFL games | Every final, date, venue, ESPN's recap headline and text, scoring plays, and the pregame injury report (context for the copy, not printed as a list) | ESPN `site.api.espn.com/.../nfl/scoreboard` and `/summary?event=<id>` |
-| Transactions | Waivers (with bids, failed competing bids and their reasons), free agents, and trades (players and picks), with UTC times, for this week's leg and the waiver run after it | Sleeper `/league/<id>/transactions/<N>` and `/<N+1>` |
-| FAAB used | Per team, at fetch time | Sleeper rosters |
-| Next week | The six fantasy pairings, the NFL schedule, and byes | Sleeper `/matchups/<N+1>`, ESPN scoreboard for week N+1 |
-| Injury status | Every rostered player with a Sleeper injury status at fetch time | Sleeper `/v1/players/nfl` |
+No other model steps exist. Everything else has one right answer and is a script. Add a model step only for a job that needs judgment, pin it to Opus or Sonnet in its own agent file, and add it to the table above with the reason.
 
-A brief fetched before Elo was added can get its Elo table offline from its saved matchups: `python3 newsletter/fetch_week.py --week <N> --elo-from-raw`.
+## 5. Reading `verification.json`
 
-If the fetcher fails on a source, fix and rerun it rather than writing around the gap. If a source really is unavailable, note the gap at the top of `brief.md`, mark the affected sections as sample data, and say so in the PR.
+One file per issue. The top level has `result` (`pass`, `fail`, or `waiting`), `stopped_at` (the stage that stopped the run), `next_action` (what to do next, in words), the pinned `models`, and SHA-256 hashes of the brief, issue, review, and HTML. `gates` lists every gate in step order, each with `gate`, `step`, `owner`, `status` (`pass`, `fail`, `waiting`, or `pending`), `checked_at` (UTC), the `command` that reproduces it, and `details` (the problems on failure, the evidence on a pass). A full run starts the file fresh; a single stage updates only its own gates.
 
-## Producing an issue from a brief
+## 6. Adapting the process to another league
 
-1. **Fetch.** `python3 newsletter/fetch_week.py --week <N>` after the Wednesday waiver run has processed (in Week 4 it ran at 07:04 UTC Wednesday), so the brief has the final scores and the claims. Check the brief's standings against Sleeper's app if anything looks off.
-2. **Read the brief end to end.** Then write a private fact sheet: every team's score, record, top and bottom starters with their stat lines, notable bench points, every transaction, and the injuries the recaps mention. You will check copy against this sheet.
-3. **Find the story.** List the three most surprising facts of the week, fantasy or football. The best one is the lead; the others become awards or ranking blurbs. The best stories usually sit where the two meet: a fantasy decision that the box score made look terrible, or a real game that swung a fantasy one.
-4. **Start from the last issue.** Copy `newsletter/issues/2026-week4/issue.json` to `newsletter/issues/<season>-week<N>/issue.json` and replace every field. Keep the structure; the template fails the build on missing keys.
-5. **Write in section order.** Lead first, then rankings (copy the order, `elo`, and `elo_change` from the brief's Elo table, then write the takes), recaps, awards and standouts, injuries, transactions, next week. For every recap, open the brief's matchup block and pull the stat lines of the players who decided it before you write a word.
-6. **Edit pass.** Read every item against the voice rules, the anti-patterns list, and the fact sheet. Cut the weakest sentence in each blurb. Make sure no two ranking blurbs start the same way.
-7. **Lint.** `python3 newsletter/build.py --lint newsletter/issues/<season>-week<N>/issue.json` must print nothing. It checks the banned list and punctuation, and that the issue meets schema 3: the lead, every recap, and every award cite box-score stats; every key performer and standout has an NFL team and stat line; recaps name both managers; and the rankings are in Elo order with the same ratings and changes as `brief.json`. Fix the copy, don't edit the banned list to get it to pass.
-8. **Check the numbers.** `python3 newsletter/build.py --check-facts newsletter/issues/<season>-week<N>/issue.json` and recompute every number it lists.
-9. **Render.** `python3 newsletter/build.py --data newsletter/issues/<season>-week<N>/issue.json --out <season>-week<N>.html` (repo root, same as `2026-week2.html`). Without `--out` it writes `issue.html` next to the issue JSON, which is how to preview a draft without touching the repo root. The build refuses to render an issue that fails schema 3 or whose Elo doesn't match the brief.
-10. **Check it on a phone width.** Open the output headless at 390px wide; confirm no horizontal scroll, no `{{` left in the page, no requests other than `data:` URLs, and that every name in "Find your team" jumps to that team's card. Take full-page and first-screen screenshots at phone and desktop widths for the PR.
-11. **Fact-check last.** Go through the rendered page top to bottom and tick every number against the fact sheet.
-12. **Ship as a draft PR.** New branch, commit the brief, `raw/`, the JSON, and the HTML, and open a draft PR with the screenshot. Do not merge: GitHub Pages serves `main`, so merging publishes. Never edit an already-published week unless the owner asks.
+The pipeline separates what's specific to this league from what isn't. To run it for another Sleeper league:
 
-### Field guide (schema 3)
+1. **League ID and season.** Change `LEAGUE_ID` in `newsletter/fetch_week.py` (or pass `--league`) and pass `--season`. Everything Sleeper-side, including scoring, lineup slots, and team names, is read from the league itself.
+2. **League size.** The checks assume 12 teams and 6 games: `validate()` in `newsletter/build.py`, `brief_problems()` in `newsletter/run.py`, and the Find-your-team count in `newsletter/verify_html.py`. Make those numbers come from the brief's team count.
+3. **Rankings.** Elo with K = 32 suits a 14-week season. If the league wants another order, change `elo_table()` and keep it in code, so the order stays a fact and not a taste.
+4. **Voice.** Get a voice guide from the new league's owner and commit it verbatim under `voice/`. Point the writer and editor agent files and `VOICE_GUIDE` in `run.py` at it, rewrite the item table in `reference/voice-fidelity.md` to match the new guide's items, rewrite the examples and banned list in `reference/voice.md`, and retune the `VOICE` thresholds in `build.py` on a real issue.
+5. **League facts.** Replace `reference/league.md` (scoring, teams, history).
+6. **Design.** Pick a template with the owner using `.cursor/skills/frontend-design/SKILL.md`, and set `TEMPLATE` in `build.py`. The HTML gate works for any template that keeps the `#teams` jump list.
+7. **Another platform** (ESPN or Yahoo fantasy). Rewrite only `fetch_raw()` so it saves the same `raw/` shapes, or adapt `build_brief()`. Every step after the brief is platform-neutral.
+8. **Run the tests** with a finished week of the new league as the fixture, and pin its Elo values the way `test_elo_reproduces_week4` does.
 
-Copy is inserted as raw HTML, so you can use `<em>` or `<strong>`, and you must write `&amp;` for a literal ampersand.
+## Reference
 
-| Field | What goes in it |
-| --- | --- |
-| `schema` | `3`. The build refuses to render anything else. |
-| `meta` | `title`, `league`, `issue` ("Week 5"), `issue_number`, `season`, `week`, `dateline`, and `presented_by`. |
-| `lead` | `kicker`, `headline` (under 60 characters, a fact plus a turn), `dek` (one sentence), `stats` (exactly three `{value, label}`; the first is the hero number), `body` (three or four paragraphs, at least one real stat line). |
-| `asides` | One short note per section: `lead`, `rankings`, `recaps`, `awards`, `transactions`, `preview`, each `{figure, text}`. `figure` is a number from the brief ("23.8", "$5"); `text` finishes the sentence. Card Back prints these as callouts; the transactions one is the section's opener. |
-| `rankings` | Twelve `{rank, team, manager, record, elo, elo_change, take}` in the brief's Elo order. `elo` and `elo_change` are copied from the brief's Elo table; `take` is two or three sentences of opinion and may cite points. |
-| `recaps` | Six `{headline, winner, w_manager, w_score, loser, l_manager, l_score, margin, body, w_keys, l_keys}`. Managers are display names from the brief. `body` explains the result through real stat lines. Keys are two per side, `{player, nfl_team, pts, line}`, where `line` is the box-score line in short form ("13 rec on 13 targets, 119 yds"). |
-| `awards` | Four or five `{name, winner, stat, body}`; every `body` cites a real box-score stat. Keep award names consistent week to week where they fit (Manager of the Week, Lineup Crime, Floor of the Week, Best Performance in a Loss). |
-| `standouts`, `bench_note` | Top starter at QB, RB, WR, TE, K, DEF as `{pos, player, nfl_team, team, pts, line}`, plus one bench sentence. |
-| `injuries` | `{player, nfl_team, team, note}` for rostered players the recaps or Sleeper report hurt; `[]` if none. |
-| `transactions` | `stats` (three `{value, label}`), `waivers` (`{team, add, pos, nfl_team, drop, faab, grade, note}`; `drop` and `nfl_team` may be `null`), `free_agents_label`, `free_agents` (`{team, add, pos, nfl_team, drop, note}`), `trades` (`{teams, date, summary, grade, note}`, or `[]`), and `no_trades` (the line shown when `trades` is empty). Notes should cite the player's real line where it matters. |
-| `preview` | `is_sample` (true if anything is placeholder), `label`, `note` (byes and anything unusual, like a London game), and six `{a, b, line}`. |
-| `footer` | `methods` (how the sources were used), `sources` (`{name, url}` list), and `credit`. |
-
-`build.py` adds layout-only fields before rendering: `recap_index` (the "Find your team" list, every team alphabetically with its result and card) and `elo_up` on rankings. Don't write those by hand.
+- [voice/boston-connor.md](voice/boston-connor.md): the owner's voice guide, verbatim. The single source of truth for tone.
+- [reference/voice.md](reference/voice.md): the guide applied to real Week 4 facts, the banned phrases, and the voice checks with their thresholds.
+- [reference/voice-fidelity.md](reference/voice-fidelity.md): the editor's item-by-item checklist against the guide.
+- [reference/facts.md](reference/facts.md): sources of truth, the fact check, the `derived` list, what the brief contains.
+- [reference/issue-schema.md](reference/issue-schema.md): section order and every field of schema 3.
+- [reference/league.md](reference/league.md): the league, teams, and the Elo formula.
+- [reference/design.md](reference/design.md): Card Back, the owner's design notes, and the HTML checks.
+- `.cursor/agents/writer.md`, `.cursor/agents/editor.md`: the two subagents.
+- `newsletter/run.py`, `fetch_week.py`, `build.py`, `verify_html.py`: the scripts. `newsletter/tests/`: the tests.

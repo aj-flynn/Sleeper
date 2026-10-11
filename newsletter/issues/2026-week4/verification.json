@@ -1,0 +1,296 @@
+{
+ "issue": "2026-week4",
+ "season": "2026",
+ "week": 4,
+ "updated_at": "2026-10-11T14:52:19Z",
+ "result": "pass",
+ "stopped_at": null,
+ "next_action": "Open or update the draft PR with the screenshots; the owner approves it. Nothing publishes before that.",
+ "models": {
+  "writer": "claude-opus-5-5[effort=high]",
+  "editor": "claude-sonnet-5-5[effort=high]"
+ },
+ "artifacts": {
+  "brief.json": "7dba53b7aec272401b6fc434f920b47f001631b3a79538f88e949eb3f81421e7",
+  "brief.md": "3dd78d038f41a256c201a51321cde9c420f64591ee41cd67be87467f7d8ac74e",
+  "issue.json": "f9164a7e80072d1f58d1aa33707c43e5bdc513e7eb3d5bb9fa06e94da52733c1",
+  "review.json": "d0620c0942e368a4e0095ea3c09c9f5287549489aecd5ca202b9e52fb0f475f7",
+  "writer.json": "a2f61227947a6e6984234d1ecb0c8346289dec460f828ce4b790a838b3e85d3b",
+  "issue.html": "61aedfb3aa7d71099c9ed6545ae3be3adaad5e1a664f8a6b4af42e43684b43e8"
+ },
+ "gates": [
+  {
+   "gate": "fetch.week_final",
+   "step": "fetch",
+   "owner": "script",
+   "status": "pass",
+   "checked_at": "2026-10-11T14:52:17Z",
+   "command": "python3 newsletter/run.py fetch --week 4",
+   "details": {
+    "raw": "cached",
+    "fetched_at": "2026-10-11T14:30Z"
+   }
+  },
+  {
+   "gate": "brief.reproducible",
+   "step": "brief",
+   "owner": "script",
+   "status": "pass",
+   "checked_at": "2026-10-11T14:52:17Z",
+   "command": "python3 newsletter/run.py brief --week 4",
+   "details": {
+    "brief.json": "7dba53b7aec272401b6fc434f920b47f001631b3a79538f88e949eb3f81421e7",
+    "brief.md": "3dd78d038f41a256c201a51321cde9c420f64591ee41cd67be87467f7d8ac74e"
+   }
+  },
+  {
+   "gate": "brief.valid",
+   "step": "check-brief",
+   "owner": "script",
+   "status": "pass",
+   "checked_at": "2026-10-11T14:52:17Z",
+   "command": "python3 newsletter/run.py check-brief --week 4",
+   "details": {
+    "teams": 12,
+    "matchups": 6,
+    "nfl_games": 16,
+    "transactions": 34,
+    "starters_without_stat_record": 1
+   }
+  },
+  {
+   "gate": "issue.present",
+   "step": "write",
+   "owner": "writer (claude-opus-5-5)",
+   "status": "pass",
+   "checked_at": "2026-10-11T14:52:17Z",
+   "command": "python3 newsletter/run.py check-issue --week 4",
+   "details": {
+    "issue.json": "f9164a7e80072d1f58d1aa33707c43e5bdc513e7eb3d5bb9fa06e94da52733c1"
+   }
+  },
+  {
+   "gate": "issue.schema",
+   "step": "write",
+   "owner": "writer (claude-opus-5-5)",
+   "status": "pass",
+   "checked_at": "2026-10-11T14:52:17Z",
+   "command": "python3 newsletter/run.py check-issue --week 4",
+   "details": {
+    "problems": 0
+   }
+  },
+  {
+   "gate": "issue.lint",
+   "step": "write",
+   "owner": "writer (claude-opus-5-5)",
+   "status": "pass",
+   "checked_at": "2026-10-11T14:52:17Z",
+   "command": "python3 newsletter/run.py check-issue --week 4",
+   "details": {
+    "problems": 0
+   }
+  },
+  {
+   "gate": "issue.facts",
+   "step": "write",
+   "owner": "writer (claude-opus-5-5)",
+   "status": "pass",
+   "checked_at": "2026-10-11T14:52:17Z",
+   "command": "python3 newsletter/run.py check-issue --week 4",
+   "details": {
+    "problems": 0
+   }
+  },
+  {
+   "gate": "review.verdict",
+   "step": "review",
+   "owner": "editor (claude-sonnet-5-5)",
+   "status": "pass",
+   "checked_at": "2026-10-11T14:52:17Z",
+   "command": "python3 newsletter/run.py check-review --week 4",
+   "details": {
+    "round": 1,
+    "verdict": "approve",
+    "blocking": [],
+    "non_blocking": [
+     "E1",
+     "E2",
+     "E3",
+     "E4",
+     "E5",
+     "E6"
+    ],
+    "voice_fidelity": {
+     "voice.conviction": "pass",
+     "voice.boston_bias": "pass",
+     "voice.unimpressed_elsewhere": "pass",
+     "voice.knowledge_plus_absurdity": "pass",
+     "voice.sarcastic_stubborn": "pass",
+     "voice.never_concedes": "pass",
+     "rhythm.short_blunt": "pass",
+     "rhythm.outrageous_interruption": "pass",
+     "rhythm.rhetorical_questions": "pass",
+     "rhythm.wild_as_fact": "pass",
+     "rhythm.sparing_caps": "pass",
+     "rhythm.dry_then_chaos": "pass",
+     "rhythm.one_liners": "pass",
+     "vocab.working_class": "pass",
+     "vocab.insults_slang_profanity": "pass",
+     "vocab.favored_words": "pass",
+     "vocab.exaggerated_comparisons": "pass",
+     "vocab.boston_unforced": "pass",
+     "vocab.no_polish": "pass",
+     "comedy.unreasonable_certainty": "pass",
+     "comedy.flawed_logic": "pass",
+     "comedy.deadpan_absurdity": "pass",
+     "comedy.sudden_escalation": "pass",
+     "comedy.dismissive_punchlines": "pass",
+     "comedy.contradictory_confidence": "pass",
+     "delivery": "pass",
+     "constraints.facts_accurate": "pass",
+     "constraints.commentary_not_news": "pass",
+     "constraints.not_every_sentence_a_joke": "pass",
+     "constraints.no_yelling_or_catchphrases": "pass",
+     "constraints.boston_connor": "pass"
+    }
+   }
+  },
+  {
+   "gate": "review.addressed",
+   "step": "revise",
+   "owner": "writer (claude-opus-5-5)",
+   "status": "pass",
+   "checked_at": "2026-10-11T14:52:17Z",
+   "command": "python3 newsletter/run.py check-review --week 4",
+   "details": {
+    "editor_approved_sha256": "f9164a7e80072d1f58d1aa33707c43e5bdc513e7eb3d5bb9fa06e94da52733c1"
+   }
+  },
+  {
+   "gate": "render.reproducible",
+   "step": "render",
+   "owner": "script",
+   "status": "pass",
+   "checked_at": "2026-10-11T14:52:17Z",
+   "command": "python3 newsletter/run.py render --week 4",
+   "details": {
+    "issue.html": "61aedfb3aa7d71099c9ed6545ae3be3adaad5e1a664f8a6b4af42e43684b43e8",
+    "bytes": 140457
+   }
+  },
+  {
+   "gate": "html.phone",
+   "step": "verify",
+   "owner": "script",
+   "status": "pass",
+   "checked_at": "2026-10-11T14:52:19Z",
+   "command": "python3 newsletter/run.py verify --week 4",
+   "details": {
+    "html_sha256": "61aedfb3aa7d71099c9ed6545ae3be3adaad5e1a664f8a6b4af42e43684b43e8",
+    "checks": {
+     "phone.no_horizontal_scroll": "scrollWidth 390 vs viewport 390",
+     "phone.no_network_requests": "only data: URLs",
+     "phone.fonts_loaded": {
+      "faces": 5,
+      "not_loaded": [],
+      "families": {
+       "Alfa Slab One": true,
+       "Archivo Narrow": true
+      }
+     },
+     "phone.no_console_errors": "none",
+     "phone.no_template_leftovers": "0 unrendered '{{' in the page",
+     "phone.find_your_team_links": "12 links, 0 broken"
+    }
+   }
+  },
+  {
+   "gate": "html.desktop",
+   "step": "verify",
+   "owner": "script",
+   "status": "pass",
+   "checked_at": "2026-10-11T14:52:19Z",
+   "command": "python3 newsletter/run.py verify --week 4",
+   "details": {
+    "html_sha256": "61aedfb3aa7d71099c9ed6545ae3be3adaad5e1a664f8a6b4af42e43684b43e8",
+    "checks": {
+     "desktop.no_horizontal_scroll": "scrollWidth 1280 vs viewport 1280",
+     "desktop.no_network_requests": "only data: URLs",
+     "desktop.fonts_loaded": {
+      "faces": 5,
+      "not_loaded": [],
+      "families": {
+       "Alfa Slab One": true,
+       "Archivo Narrow": true
+      }
+     },
+     "desktop.no_console_errors": "none",
+     "desktop.no_template_leftovers": "0 unrendered '{{' in the page",
+     "desktop.find_your_team_links": "12 links, 0 broken"
+    }
+   }
+  },
+  {
+   "gate": "html.screenshots",
+   "step": "verify",
+   "owner": "script",
+   "status": "pass",
+   "checked_at": "2026-10-11T14:52:19Z",
+   "command": "python3 newsletter/run.py verify --week 4",
+   "details": {
+    "html_sha256": "61aedfb3aa7d71099c9ed6545ae3be3adaad5e1a664f8a6b4af42e43684b43e8",
+    "files": {
+     "phone-first-screen.png": "e52871372e07ec54519dfd6e15ddd8b30ab60ee6d2a3fbbf1eeea53c02f67a9f",
+     "phone-full.png": "d75f69a72867f5f22b0aa9c83482e25f795b3f1c1dd69b10572ef05af957f829",
+     "desktop-first-screen.png": "27fdc2a1cd4a34d34bd53a289996241b625e015b8652e2cb3985182457f1705a",
+     "desktop-full.png": "bc8743b1d25aed8468e12622cb8e36ece298e77656dfb0ba9823d816d663f8bd"
+    }
+   }
+  },
+  {
+   "gate": "checklist.final",
+   "step": "checklist",
+   "owner": "script",
+   "status": "pass",
+   "checked_at": "2026-10-11T14:52:19Z",
+   "command": "python3 newsletter/run.py checklist --week 4",
+   "details": {
+    "gates": {
+     "fetch.week_final": "pass",
+     "brief.reproducible": "pass",
+     "brief.valid": "pass",
+     "issue.present": "pass",
+     "issue.schema": "pass",
+     "issue.lint": "pass",
+     "issue.facts": "pass",
+     "review.verdict": "pass",
+     "review.addressed": "pass",
+     "render.reproducible": "pass",
+     "html.phone": "pass",
+     "html.desktop": "pass",
+     "html.screenshots": "pass"
+    },
+    "protected_unchanged": [
+     "2026-week2.html",
+     "rebuilders-anonymous-draft-review.html",
+     "README.md",
+     "newsletter/templates/card-back.html",
+     "newsletter/fonts"
+    ],
+    "published": false
+   }
+  },
+  {
+   "gate": "owner.approved",
+   "step": "approve",
+   "owner": "human (owner)",
+   "status": "pending",
+   "checked_at": "2026-10-11T14:52:19Z",
+   "command": "python3 newsletter/run.py approval --week 4",
+   "details": [
+    "waiting for the owner to approve the draft PR and its preview"
+   ]
+  }
+ ]
+}

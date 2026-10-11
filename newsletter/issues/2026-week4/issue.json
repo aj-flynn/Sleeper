@@ -1,7 +1,7 @@
 {
   "schema": 3,
   "meta": {
-    "title": "Rebuilders Anonymous, Week 4",
+    "title": "Rebuilders Anonymous, Week 4, 2026",
     "league": "Rebuilders Anonymous",
     "issue": "Week 4",
     "issue_number": "4",
@@ -11,784 +11,269 @@
     "presented_by": "Unsportsmanlike Conduct"
   },
   "lead": {
-    "kicker": "Superflex, technically",
-    "headline": "Micah won with a quarterback who took one snap",
-    "dek": "Case Keenum handed off once for the Bears and sat down. Micah parsons fan club won by 29.58 anyway, because the other ten starters had a week.",
+    "kicker": "The house brand",
+    "headline": "UC benched Drake Maye the week he won in Buffalo",
+    "dek": "Unsportsmanlike Conduct sat a Patriots quarterback with three touchdown passes, started Jalen Hurts and a receiver with no stats, and lost by 13.72.",
     "stats": [
-      {
-        "value": "1",
-        "label": "Snap played by Micah’s Superflex, Case Keenum, out of Chicago’s 93"
-      },
-      {
-        "value": "29.58",
-        "label": "Micah’s winning margin over Skat’s BruteForce Theorem anyway"
-      },
-      {
-        "value": "13 of 13",
-        "label": "Targets T.J. Hockenson caught, for 119 yards"
-      }
+      {"value": "26.16", "label": "Drake Maye’s points on UC’s bench"},
+      {"value": "13.72", "label": "UC’s losing margin"},
+      {"value": "93", "label": "passing yards from Jalen Hurts, UC’s starter"}
     ],
     "body": [
-      "Micah parsons fan club played Week 4 with ten working starters and won by 29.58. The eleventh was Case Keenum at Superflex. According to ESPN, Keenum lined up under center for Chicago’s first play against the Jets, pitched to D’Andre Swift for 2 yards, and then Tyson Bagent took over at quarterback for the rest of the game. Keenum’s line for the week is 1 snap and 0.0 points.",
-      "Keenum was a reasonable pickup. Micah added him on September 30, after he started Chicago’s Monday night win over Philadelphia and threw for 247 yards and two touchdowns, and started him in Week 4 with Baker Mayfield out with a dislocated thumb. To make room, Micah dropped Keon Coleman. Coleman caught 6 passes for 116 yards and a touchdown for Buffalo on Sunday, including a 34-yard score from Josh Allen.",
-      "The rest of the lineup made it a non-event. Javonte Williams ran for three touchdowns in Dallas’s 34-30 win in Houston, all in the second half and a career high, for 31.3. Hockenson caught every ball thrown to him in Minnesota’s 15-10 win over Miami (24.9). Zay Flowers had 8 catches for 118 yards and a touchdown (25.8), and Jake Bates made all four of his field goals for 18.0.",
-      "Even the other quarterback got hurt. Lamar Jackson left Baltimore’s win over Tennessee with an ankle injury after 33 of 64 snaps and still scored 18.88 on 15-of-20 passing for 222 yards and two touchdowns. Micah has since claimed Bagent for $0, dropped Keenum, and added Tyler Huntley, who went 8 of 9 in relief of Jackson. Micah is 3-1 with the sixth-most points in the league and $10 of FAAB left."
+      "Worst thing to happen in this league all year. Unsportsmanlike Conduct, the brand on top of this newsletter, benched Drake Maye. That’s JeffyWaterton’s lineup. He set it himself. Nobody hacked his phone.",
+      "Here’s what sat. Maye went 22 of 37 for 269 yards and three touchdowns in New England’s 29-26 win at Buffalo. He ran 8 times for 54 more. He hit Efton Chism for the go-ahead score with 1:50 left, per ESPN. That’s 26.16 points, watching from the couch. The starter was Jalen Hurts, 12 of 27 for 93 yards in a loss to the Rams (13.52). UC also started DeVonta Smith, who didn’t record a single stat. Final margin: 13.72.",
+      "Now somebody’s going to do the math. Maye for Hurts is 12.64 points, and UC still loses by 1.08. I don’t care. Put Quentin Johnston’s 5.00 in for Smith’s zero and UC wins by 3.92. Forget the math anyway. The house brand watched a Patriots quarterback win in Orchard Park and went with a guy from Philadelphia. Who does that? In this state, that’s treason.",
+      "The sponsor of this newsletter is a fraud. PRINT IT."
     ]
   },
   "asides": {
-    "lead": {
-      "figure": "1 snap",
-      "text": "from the Superflex, and Micah still won by 29.58."
-    },
-    "rankings": {
-      "figure": "+18.91",
-      "text": "Elo for Dak Side, the biggest gain of the week, for beating the team that started it in first."
-    },
-    "recaps": {
-      "figure": "23.8",
-      "text": "points the Rams left on the bench with one swap in a 16.2-point loss."
-    },
-    "awards": {
-      "figure": "78.22",
-      "text": "points on the Kingslayers bench, the most in the league. They won."
-    },
-    "transactions": {
-      "figure": "$5",
-      "text": "for Keon Coleman, four days after his 116-yard game."
-    },
-    "preview": {
-      "figure": "95.26",
-      "text": "of Split Safety’s Week 4 points are on bye."
-    }
+    "lead": {"figure": "3.92", "text": "points: UC’s winning margin with Maye and Quentin Johnston in the lineup. Both were sitting right there."},
+    "rankings": {"figure": "718.00", "text": "points for Split Safety Syndicate, most in the league, and they’re second. Elo counts wins, not points."},
+    "recaps": {"figure": "199.52", "text": "for Dak Side of the Sun, the high score of the week. Rams of Steel had the low at 105.32."},
+    "awards": {"figure": "0.00", "text": "from Case Keenum, who started at Superflex for a first-place team."},
+    "transactions": {"figure": "$0", "text": "is what Micah paid for Tyson Bagent, the guy who took over for their own quarterback in Chicago. Bagent threw for a career-high 268 yards against the Jets, per ESPN."},
+    "preview": {"figure": "29", "text": "points for New England in Buffalo. The Raiders visit Gillette this week. Start your Patriots."}
   },
   "rankings": [
-    {
-      "rank": 1,
-      "team": "Micah parsons fan club",
-      "manager": "Packersfan1992",
-      "record": "3-1",
-      "elo": "1029.33",
-      "elo_change": "+14.80",
-      "take": "First in Elo with the sixth-most points, because Elo only counts wins and Micah has three. This one came with a Superflex who took one snap. Has spent $190 of $200, so the next quarterback emergency gets solved for $10 or less."
-    },
-    {
-      "rank": 2,
-      "team": "Split Safety Syndicate",
-      "manager": "kylejones10",
-      "record": "3-1",
-      "elo": "1027.62",
-      "elo_change": "−18.91",
-      "take": "Lost by 39.16 and lost first place with it. Still has 89.56 more points than anyone else this season. The problem is next week, when Mahomes, Walker, Young, and Hubbard are all on bye."
-    },
-    {
-      "rank": 3,
-      "team": "hammball",
-      "manager": "hammball",
-      "record": "2-2",
-      "elo": "1004.08",
-      "elo_change": "+17.21",
-      "take": "Two straight wins after an 0-2 start. CeeDee Lamb and Nico Collins played against each other in Houston and combined for 72.1 points for the same fantasy team."
-    },
-    {
-      "rank": 4,
-      "team": "Kingslayers",
-      "manager": "maierz3948",
-      "record": "2-2",
-      "elo": "1002.84",
-      "elo_change": "+15.93",
-      "take": "Fourth in Elo after the second-lowest score of the week, which tells you what Elo thinks of style points. Matthew Stafford threw for 317 yards and no touchdowns, Marcus Mariota lasted 10 snaps, and 78.22 points sat on the bench."
-    },
-    {
-      "rank": 5,
-      "team": "Dak Side of the Sun",
-      "manager": "SweetRavenge84",
-      "record": "2-2",
-      "elo": "1001.51",
-      "elo_change": "+18.91",
-      "take": "Beat the team that started the week first in Elo, with the week high, and gained 18.91, the biggest jump in the league. Dak Side has also given up 614.90, the most in the league, which is how the second-highest scorer is 2-2."
-    },
-    {
-      "rank": 6,
-      "team": "WELL! It's The Big Shough",
-      "manager": "KaranLuvSport",
-      "record": "2-2",
-      "elo": "1001.34",
-      "elo_change": "+17.34",
-      "take": "Alvin Kamara, a free pickup on September 30, scored his first two touchdowns of the season. Big Shough has the fewest points of any 2-2 team and the best free-agent add of the month."
-    },
-    {
-      "rank": 7,
-      "team": "ThePeopleBeaters",
-      "manager": "ThePeopleBeaters",
-      "record": "2-2",
-      "elo": "1000.07",
-      "elo_change": "+17.54",
-      "take": "Tetairoa McMillan scored 45.2, more than the 39.84-point margin by himself. The bench had another 74.0, including Emanuel Wilson’s two touchdowns for Seattle. Then PB paid $5 for Keon Coleman, the best claim of the week."
-    },
-    {
-      "rank": 8,
-      "team": "Mendozareamazingpicks",
-      "manager": "DarknessMonster",
-      "record": "2-2",
-      "elo": "998.46",
-      "elo_change": "−17.54",
-      "take": "Third in points for the season, held back by the quarterbacks. Jacoby Brissett threw three interceptions against the Giants and Daniel Jones scored 7.92. The two of them combined for 18.36."
-    },
-    {
-      "rank": 9,
-      "team": "J’Allen Waffle Stompers",
-      "manager": "BigJohnDeBo008",
-      "record": "2-2",
-      "elo": "995.88",
-      "elo_change": "−17.21",
-      "take": "Fourth in points and suddenly hurt. Tee Higgins left with a groin injury after 157 yards and Saquon Barkley lasted 4 snaps. The answer was $70 on Will Shipley, the Eagles back who ran 6 times for 23 yards."
-    },
-    {
-      "rank": 10,
-      "team": "Unsportsmanlike Conduct",
-      "manager": "JeffyWaterton",
-      "record": "2-2",
-      "elo": "995.81",
-      "elo_change": "−17.34",
-      "take": "Benched the best quarterback score in the league and lost by 13.72. Traded for Ladd McConkey and Rico Dowdle on Tuesday. New players help more when the right ones start."
-    },
-    {
-      "rank": 11,
-      "team": "Skat’s BruteForce Theorem",
-      "manager": "LittleTimmyFlynn",
-      "record": "1-3",
-      "elo": "973.52",
-      "elo_change": "−14.80",
-      "take": "Fewest points in the league, and now officially rebuilding. On Sunday morning Skat’s traded Emeka Egbuka for two 2027 second-round picks, then dropped Tyreek Hill for George Holani 24 minutes later."
-    },
-    {
-      "rank": 12,
-      "team": "Rams of Steel",
-      "manager": "iemerson969",
-      "record": "1-3",
-      "elo": "969.54",
-      "elo_change": "−15.93",
-      "take": "The week low, on a lineup that had two different ways to win on the bench. Brian Robinson scored three touchdowns while sitting. Caleb Williams has now missed two straight games."
-    }
+    {"rank": 1, "team": "Micah parsons fan club", "manager": "Packersfan1992", "record": "3-1", "elo": "1029.33", "elo_change": "+14.80",
+     "take": "Number one with a quarterback who played one snap. Case Keenum took 1 of 93 snaps for Chicago and scored zero, and Elo crowned them anyway. The system is broken and I’m the only one saying it."},
+    {"rank": 2, "team": "Split Safety Syndicate", "manager": "kylejones10", "record": "3-1", "elo": "1027.62", "elo_change": "−18.91",
+     "take": "Most points in the league at 718.00, and they just got passed by a team starting Case Keenum. Elo doesn’t care about points, so neither do I. Second place, fraud watch."},
+    {"rank": 3, "team": "hammball", "manager": "hammball", "record": "2-2", "elo": "1004.08", "elo_change": "+17.21",
+     "take": "Owned both ends of Cowboys-Texans and cashed 72.1 points from CeeDee Lamb and Nico Collins. Third at 2-2. I’ve seen dumber plans, mostly from UC."},
+    {"rank": 4, "team": "Kingslayers", "manager": "maierz3948", "record": "2-2", "elo": "1002.84", "elo_change": "+15.93",
+     "take": "Benched Romeo Doubs and his two Patriots touchdowns and climbed to fourth anyway. That’s 78.22 points on the bench, most in the league. Somebody check this team for a conscience."},
+    {"rank": 5, "team": "Dak Side of the Sun", "manager": "SweetRavenge84", "record": "2-2", "elo": "1001.51", "elo_change": "+18.91",
+     "take": "Scored 199.52, the best in the league, and got the biggest Elo bump of the week. Still fifth. Call me when they start a Patriot."},
+    {"rank": 6, "team": "WELL! It's The Big Shough", "manager": "KaranLuvSport", "record": "2-2", "elo": "1001.34", "elo_change": "+17.34",
+     "take": "Beat the house brand with Jared Goff throwing 52 times for one touchdown. Fifty-two passes, one score. Sixth is generous."},
+    {"rank": 7, "team": "ThePeopleBeaters", "manager": "ThePeopleBeaters", "record": "2-2", "elo": "1000.07", "elo_change": "+17.54",
+     "take": "Tetairoa McMillan scored 45.2, best of any player, and Carolina is on bye this week. Enjoy the sugar high. The crash is coming."},
+    {"rank": 8, "team": "Mendozareamazingpicks", "manager": "DarknessMonster", "record": "2-2", "elo": "998.46", "elo_change": "−17.54",
+     "take": "Started Jacoby Brissett and watched him throw three picks for Arizona. The team name is false advertising."},
+    {"rank": 9, "team": "J’Allen Waffle Stompers", "manager": "BigJohnDeBo008", "record": "2-2", "elo": "995.88", "elo_change": "−17.21",
+     "take": "Lost Saquon Barkley after 4 snaps and answered with $70 for Will Shipley, the biggest bid of the run. Panic is expensive."},
+    {"rank": 10, "team": "Unsportsmanlike Conduct", "manager": "JeffyWaterton", "record": "2-2", "elo": "995.81", "elo_change": "−17.34",
+     "take": "Tenth, and they earned every inch of it. They benched Maye, then traded Quentin Johnston, the other half of the fix. Consistent, I guess."},
+    {"rank": 11, "team": "Skat’s BruteForce Theorem", "manager": "LittleTimmyFlynn", "record": "1-3", "elo": "973.52", "elo_change": "−14.80",
+     "take": "Traded for Jadarian Price the day after Seattle put him on injured reserve, per ESPN. Kyle Monangai ran 30 times for 146 yards and Sleeper has him out now. Brute force, zero theorem."},
+    {"rank": 12, "team": "Rams of Steel", "manager": "iemerson969", "record": "1-3", "elo": "969.54", "elo_change": "−15.93",
+     "take": "Dead last, and earned. Started Kendre Miller over Brian Robinson’s three touchdowns, a bum call, and scored 105.32, lowest in the league. Steel? Tinfoil."}
   ],
   "recaps": [
     {
-      "headline": "One snap from Keenum, and it still wasn’t close",
-      "winner": "Micah parsons fan club",
-      "w_manager": "Packersfan1992",
-      "w_score": "162.88",
-      "loser": "Skat’s BruteForce Theorem",
-      "l_manager": "LittleTimmyFlynn",
-      "l_score": "133.30",
+      "headline": "Micah starts a one-snap quarterback and wins big",
+      "winner": "Micah parsons fan club", "w_manager": "Packersfan1992", "w_score": "162.88",
+      "loser": "Skat’s BruteForce Theorem", "l_manager": "LittleTimmyFlynn", "l_score": "133.30",
       "margin": "29.58",
-      "body": "Skat’s got a real game from Kyle Monangai, who carried 30 times for 146 yards and two touchdowns as Chicago wore down the Jets, and Carnell Tate caught 9 passes for 145 yards for Tennessee. It wasn’t enough against a team playing a man short. Skat’s bench scored 3.0 in total, the lowest in the league, so there was no better lineup sitting there. Skat’s lost to Javonte Williams’s three touchdowns and a tight end who caught 13 of 13.",
+      "body": "Somebody explain this to me. Micah parsons fan club started Case Keenum at Superflex and beat Skat’s BruteForce Theorem by 29.58. Keenum took Chicago’s first snap, pitched to D’Andre Swift for 2 yards, and handed the job to Tyson Bagent, per ESPN. Zero points. Javonte Williams did the real work with three touchdowns in Houston (31.30). Bears coach Ben Johnson called the Keenum thing a ceremonial first pitch. At Fenway the first-pitch guy doesn’t get a start. Skat lost to him anyway, with Kyle Monangai running 30 times for 146 yards in that same Bears game. Lost to a ceremony. Pathetic.",
       "w_keys": [
-        {
-          "player": "Javonte Williams",
-          "nfl_team": "DAL",
-          "pts": "31.30",
-          "line": "19 car, 62 rush yds, 3 TD; 5 rec, 21 yds"
-        },
-        {
-          "player": "T.J. Hockenson",
-          "nfl_team": "MIN",
-          "pts": "24.90",
-          "line": "13 rec on 13 targets, 119 yds"
-        }
+        {"player": "Javonte Williams", "nfl_team": "DAL", "pts": "31.30", "line": "19 car, 62 yds, 3 TD; 5 rec, 21 yds"},
+        {"player": "T.J. Hockenson", "nfl_team": "MIN", "pts": "24.90", "line": "13 rec on 13 targets, 119 yds"}
       ],
       "l_keys": [
-        {
-          "player": "Kyle Monangai",
-          "nfl_team": "CHI",
-          "pts": "28.00",
-          "line": "30 car, 146 rush yds, 2 TD"
-        },
-        {
-          "player": "Carnell Tate",
-          "nfl_team": "TEN",
-          "pts": "21.50",
-          "line": "9 rec, 145 yds, 1 fumble lost"
-        }
+        {"player": "Kyle Monangai", "nfl_team": "CHI", "pts": "28.00", "line": "30 car, 146 yds, 2 TD"},
+        {"player": "Carnell Tate", "nfl_team": "TEN", "pts": "21.50", "line": "9 rec on 12 targets, 145 yds, 1 fumble lost"}
       ]
     },
     {
-      "headline": "UC benched the best quarterback day in the league",
-      "winner": "WELL! It's The Big Shough",
-      "w_manager": "KaranLuvSport",
-      "w_score": "138.22",
-      "loser": "Unsportsmanlike Conduct",
-      "l_manager": "JeffyWaterton",
-      "l_score": "124.50",
+      "headline": "A free-agent Saint knocks off the house brand",
+      "winner": "WELL! It's The Big Shough", "w_manager": "KaranLuvSport", "w_score": "138.22",
+      "loser": "Unsportsmanlike Conduct", "l_manager": "JeffyWaterton", "l_score": "124.50",
       "margin": "13.72",
-      "body": "Drake Maye threw three touchdown passes in New England’s 29-26 win at Buffalo, the last one with 1:50 left, and ran for 54 yards. That was 26.16 points, the best quarterback score of the week, from Unsportsmanlike Conduct’s bench. Jalen Hurts started instead and went 12 of 27 for 93 yards in a loss to the Rams (13.52). DeVonta Smith started at receiver and has no stats for the week. Maye for Hurts and Quentin Johnston’s 5.0 for Smith adds 17.64 to a team that lost by 13.72. Big Shough won on Alvin Kamara’s first two touchdowns of the season.",
+      "body": "Free agency works. Who knew? WELL! It's The Big Shough grabbed Alvin Kamara off the free-agent pile on Sept. 30 and started him against Unsportsmanlike Conduct. Kamara scored twice in the Saints’ 45-24 home loss to Atlanta, his first two touchdowns of the season per ESPN, and caught 5 balls (22.80). Jared Goff threw 52 times for 412 yards (20.48). UC got 347 passing yards and two scores from C.J. Stroud (23.08) and two Jonathan Taylor touchdowns in London (22.70). Didn’t matter. A Saint from a team that got blown out at home beat the sponsor of this newsletter. The house brand lost to the clearance rack. Embarrassing.",
       "w_keys": [
-        {
-          "player": "Alvin Kamara",
-          "nfl_team": "NO",
-          "pts": "22.80",
-          "line": "7 car, 23 rush yds, 2 TD; 5 rec, 35 yds"
-        },
-        {
-          "player": "Quinshon Judkins",
-          "nfl_team": "CLE",
-          "pts": "21.60",
-          "line": "17 car, 53 rush yds, 1 TD; 6 rec, 43 yds"
-        }
+        {"player": "Alvin Kamara", "nfl_team": "NO", "pts": "22.80", "line": "7 car, 23 yds, 2 TD; 5 rec, 35 yds"},
+        {"player": "Quinshon Judkins", "nfl_team": "CLE", "pts": "21.60", "line": "17 car, 53 yds, 1 TD; 6 rec, 43 yds"}
       ],
       "l_keys": [
-        {
-          "player": "C.J. Stroud",
-          "nfl_team": "HOU",
-          "pts": "23.08",
-          "line": "21 of 31, 347 pass yds, 2 TD"
-        },
-        {
-          "player": "Jonathan Taylor",
-          "nfl_team": "IND",
-          "pts": "22.70",
-          "line": "20 car, 95 rush yds, 2 TD, in London"
-        }
+        {"player": "C.J. Stroud", "nfl_team": "HOU", "pts": "23.08", "line": "21/31, 347 yds, 2 TD"},
+        {"player": "Jonathan Taylor", "nfl_team": "IND", "pts": "22.70", "line": "20 car, 95 yds, 2 TD"}
       ]
     },
     {
-      "headline": "Kyren Williams takes the last four minutes and the week high",
-      "winner": "Dak Side of the Sun",
-      "w_manager": "SweetRavenge84",
-      "w_score": "199.52",
-      "loser": "Split Safety Syndicate",
-      "l_manager": "kylejones10",
-      "l_score": "160.36",
+      "headline": "Split scores 160.36 and still gets buried",
+      "winner": "Dak Side of the Sun", "w_manager": "SweetRavenge84", "w_score": "199.52",
+      "loser": "Split Safety Syndicate", "l_manager": "kylejones10", "l_score": "160.36",
       "margin": "39.16",
-      "body": "Split Safety scored 160.36, the fifth-best total of the week, and lost by 39. Kyren Williams ran for two touchdowns in the final four minutes of the Rams’ comeback in Philadelphia and caught 10 passes on top of that. Joe Burrow threw for 428 yards in a loss to Jacksonville, and Chase Brown caught 11 of his passes. Split Safety lost Ja’Marr Chase to a concussion in the second quarter of that same game after 15 snaps. It also started a kicker who attempted no field goals (2.0) with Cameron Dicker’s 12.0 on the bench.",
+      "body": "Wrong week to be good. Split Safety Syndicate scored 160.36, fifth-most in the league, and drew Dak Side of the Sun the week they hung 199.52. Kyren Williams scored from 1 yard out with 3:59 left in Philadelphia, then from 7 with 1:10 left, per ESPN. He also caught 10 of 13 targets (36.70). Joe Burrow threw for 428 yards (23.72). Split had Kenneth Walker run for 177 and two scores, and Chuba Hubbard for 122 and two more. Four rushing touchdowns and a 39.16 loss. Run the ball, they said. Wins games, they said. Liars.",
       "w_keys": [
-        {
-          "player": "Kyren Williams",
-          "nfl_team": "LAR",
-          "pts": "36.70",
-          "line": "16 car, 80 rush yds, 2 TD; 10 rec, 67 yds"
-        },
-        {
-          "player": "Joe Burrow",
-          "nfl_team": "CIN",
-          "pts": "23.72",
-          "line": "39 of 54, 428 pass yds, 1 TD, 2 INT; 1 rush TD"
-        }
+        {"player": "Kyren Williams", "nfl_team": "LAR", "pts": "36.70", "line": "16 car, 80 yds, 2 TD; 10 rec, 67 yds"},
+        {"player": "Joe Burrow", "nfl_team": "CIN", "pts": "23.72", "line": "39/54, 428 yds, 1 TD, 2 INT; 1 rush TD"}
       ],
       "l_keys": [
-        {
-          "player": "Kenneth Walker",
-          "nfl_team": "KC",
-          "pts": "30.90",
-          "line": "22 car, 177 rush yds, 2 TD"
-        },
-        {
-          "player": "Chuba Hubbard",
-          "nfl_team": "CAR",
-          "pts": "25.90",
-          "line": "20 car, 122 rush yds, 2 TD"
-        }
+        {"player": "Kenneth Walker", "nfl_team": "KC", "pts": "30.90", "line": "22 car, 177 yds, 2 TD"},
+        {"player": "Chuba Hubbard", "nfl_team": "CAR", "pts": "25.90", "line": "20 car, 122 yds, 2 TD"}
       ]
     },
     {
-      "headline": "McMillan catches 14 and the whole margin",
-      "winner": "ThePeopleBeaters",
-      "w_manager": "ThePeopleBeaters",
-      "w_score": "170.80",
-      "loser": "Mendozareamazingpicks",
-      "l_manager": "DarknessMonster",
-      "l_score": "130.96",
+      "headline": "McMillan scores 45.2 and drags the rest along",
+      "winner": "ThePeopleBeaters", "w_manager": "ThePeopleBeaters", "w_score": "170.80",
+      "loser": "Mendozareamazingpicks", "l_manager": "DarknessMonster", "l_score": "130.96",
       "margin": "39.84",
-      "body": "Tetairoa McMillan caught 14 of 16 targets for a career-high 192 yards and both of Bryce Young’s touchdown passes in Carolina’s 32-26 win over Detroit. ESPN noted he finished one catch and nine yards short of the franchise records. Take his 45.2 away and ThePeopleBeaters lose. Mendoza’s quarterback problem showed up in New York, where Jacoby Brissett threw three interceptions in Arizona’s 36-24 loss. The Giants quarterback who beat him, Jameis Winston, threw three touchdowns from ThePeopleBeaters’ bench.",
+      "body": "One guy. That’s the whole team. ThePeopleBeaters beat Mendozareamazingpicks behind Tetairoa McMillan, who caught 14 of 16 targets for a career-high 192 yards and two touchdowns in Carolina’s win over Detroit, per ESPN (45.20). No player scored more. Mendoza started Jacoby Brissett, and Brissett threw three interceptions in a 36-24 loss to the Giants (10.44). Their best starter was Rhamondre Stevenson, the lone Patriot in the lineup, who scored from a yard out in Buffalo (18.40). See the pattern? ThePeopleBeaters started a Patriot too, Hunter Henry, and won. More Patriots, more points. Mendoza had one. Should’ve started eleven.",
       "w_keys": [
-        {
-          "player": "Tetairoa McMillan",
-          "nfl_team": "CAR",
-          "pts": "45.20",
-          "line": "14 rec on 16 targets, 192 yds, 2 TD"
-        },
-        {
-          "player": "Brock Bowers",
-          "nfl_team": "LV",
-          "pts": "20.60",
-          "line": "6 rec, 86 yds, 1 TD"
-        }
+        {"player": "Tetairoa McMillan", "nfl_team": "CAR", "pts": "45.20", "line": "14 rec on 16 targets, 192 yds, 2 TD"},
+        {"player": "Brock Bowers", "nfl_team": "LV", "pts": "20.60", "line": "6 rec on 11 targets, 86 yds, 1 TD"}
       ],
       "l_keys": [
-        {
-          "player": "Rhamondre Stevenson",
-          "nfl_team": "NE",
-          "pts": "18.40",
-          "line": "13 car, 47 rush yds, 1 TD; 3 rec, 27 yds"
-        },
-        {
-          "player": "Michael Wilson",
-          "nfl_team": "ARI",
-          "pts": "16.50",
-          "line": "7 rec on 13 targets, 95 yds"
-        }
+        {"player": "Rhamondre Stevenson", "nfl_team": "NE", "pts": "18.40", "line": "13 car, 47 yds, 1 TD; 3 rec, 27 yds"},
+        {"player": "Michael Wilson", "nfl_team": "ARI", "pts": "16.50", "line": "7 rec on 13 targets, 95 yds"}
       ]
     },
     {
-      "headline": "CeeDee Lamb catches 17 and the last word",
-      "winner": "hammball",
-      "w_manager": "hammball",
-      "w_score": "188.90",
-      "loser": "J’Allen Waffle Stompers",
-      "l_manager": "BigJohnDeBo008",
-      "l_score": "152.52",
+      "headline": "hammball owns both sides of a Houston shootout",
+      "winner": "hammball", "w_manager": "hammball", "w_score": "188.90",
+      "loser": "J’Allen Waffle Stompers", "l_manager": "BigJohnDeBo008", "l_score": "152.52",
       "margin": "36.38",
-      "body": "CeeDee Lamb caught a career-high 17 passes for 189 yards and scored the winning touchdown with 40 seconds left in Houston. On the other side of that game, Nico Collins came back from two missed games with a hamstring injury and caught 7 for 118 yards and two scores. hammball started both and got 72.1 points out of one box score. J’Allen got 26.7 from Tee Higgins, who had 157 receiving yards before a groin injury in the fourth quarter, and 19.0 from Will Reichard’s five field goals. Saquon Barkley hurt his hamstring after 4 snaps and scored 2.0.",
+      "body": "Greedy as hell. I respect it. hammball started CeeDee Lamb and Nico Collins, who played against each other in Houston. Lamb caught a career-high 17 passes for 189 yards and the winning 12-yard touchdown with 40 seconds left, per ESPN (41.30). Collins caught 7 for 118 and two scores for the Texans (30.80). J’Allen Waffle Stompers lost Saquon Barkley to a hamstring after 4 snaps (2.00), and Tee Higgins catching 11 for 157 barely dented the 36.38 margin. That’s 72.1 points out of one building. Every catch on either sideline, hammball got paid. The league should investigate. Wish I’d thought of it.",
       "w_keys": [
-        {
-          "player": "CeeDee Lamb",
-          "nfl_team": "DAL",
-          "pts": "41.30",
-          "line": "17 rec on 21 targets, 189 yds, 1 TD"
-        },
-        {
-          "player": "Nico Collins",
-          "nfl_team": "HOU",
-          "pts": "30.80",
-          "line": "7 rec, 118 yds, 2 TD"
-        }
+        {"player": "CeeDee Lamb", "nfl_team": "DAL", "pts": "41.30", "line": "17 rec on 21 targets, 189 yds, 1 TD"},
+        {"player": "Nico Collins", "nfl_team": "HOU", "pts": "30.80", "line": "7 rec on 8 targets, 118 yds, 2 TD"}
       ],
       "l_keys": [
-        {
-          "player": "Tee Higgins",
-          "nfl_team": "CIN",
-          "pts": "26.70",
-          "line": "11 rec on 16 targets, 157 yds"
-        },
-        {
-          "player": "Kirk Cousins",
-          "nfl_team": "LV",
-          "pts": "22.60",
-          "line": "31 of 52, 365 pass yds, 2 TD, 1 INT"
-        }
+        {"player": "Tee Higgins", "nfl_team": "CIN", "pts": "26.70", "line": "11 rec on 16 targets, 157 yds"},
+        {"player": "Kirk Cousins", "nfl_team": "LV", "pts": "22.60", "line": "31/52, 365 yds, 2 TD, 1 INT"}
       ]
     },
     {
-      "headline": "Same game, wrong running back",
-      "winner": "Kingslayers",
-      "w_manager": "maierz3948",
-      "w_score": "121.52",
-      "loser": "Rams of Steel",
-      "l_manager": "iemerson969",
-      "l_score": "105.32",
+      "headline": "Kingslayers bench a Patriot and win anyway",
+      "winner": "Kingslayers", "w_manager": "maierz3948", "w_score": "121.52",
+      "loser": "Rams of Steel", "l_manager": "iemerson969", "l_score": "105.32",
       "margin": "16.20",
-      "body": "Rams of Steel had a running back on each side of Monday night’s Falcons-Saints game and started the one on the losing side. Kendre Miller, picked up on October 1, ran 6 times for 9 yards and lost a fumble for New Orleans (1.9). Brian Robinson ran for three touchdowns in Atlanta’s 45-24 win, from the Rams’ bench (25.7). That one swap is worth 23.8 in a 16.2-point loss. Kingslayers won with the second-lowest score of the week, thanks to Puka Nacua’s 125 receiving yards and a rushing touchdown in his first game back after missing two.",
+      "body": "I want this game thrown out. THROWN OUT. Kingslayers beat Rams of Steel with Romeo Doubs on the bench. Doubs caught touchdowns of 2 and 14 yards in New England’s win at Buffalo, per ESPN, and scored 23.80 for nobody. Kingslayers started Marcus Mariota instead, who played 10 of 64 snaps before a knee injury (5.34). Rams of Steel were somehow dumber. They started free-agent pickup Kendre Miller, who ran 6 times for 9 yards and lost a fumble (1.90), and benched Brian Robinson’s three touchdowns (25.70). The only thing worse than benching a Patriot is losing to the guy who did it. Two lineups, zero brains.",
       "w_keys": [
-        {
-          "player": "Puka Nacua",
-          "nfl_team": "LAR",
-          "pts": "27.70",
-          "line": "9 rec, 125 yds; 1 car, 2 yds, 1 TD"
-        },
-        {
-          "player": "Derrick Henry",
-          "nfl_team": "BAL",
-          "pts": "15.90",
-          "line": "23 car, 73 rush yds, 1 TD against his old team"
-        }
+        {"player": "Puka Nacua", "nfl_team": "LAR", "pts": "27.70", "line": "9 rec on 12 targets, 125 yds; 1 rush TD"},
+        {"player": "Derrick Henry", "nfl_team": "BAL", "pts": "15.90", "line": "23 car, 73 yds, 1 TD"}
       ],
       "l_keys": [
-        {
-          "player": "Aaron Rodgers",
-          "nfl_team": "PIT",
-          "pts": "21.96",
-          "line": "22 of 40, 299 pass yds, 3 TD, 2 INT"
-        },
-        {
-          "player": "Omarion Hampton",
-          "nfl_team": "LAC",
-          "pts": "13.30",
-          "line": "9 car, 45 rush yds, 1 TD"
-        }
+        {"player": "Aaron Rodgers", "nfl_team": "PIT", "pts": "21.96", "line": "22/40, 299 yds, 3 TD, 2 INT"},
+        {"player": "Kendre Miller", "nfl_team": "NO", "pts": "1.90", "line": "6 car, 9 yds; 2 rec, 10 yds; 1 fumble lost"}
       ]
     }
   ],
   "awards": [
-    {
-      "name": "Manager of the Week",
-      "winner": "Dak Side of the Sun",
-      "stat": "199.52",
-      "body": "Week high by 10.62. Seven starters scored at least 18, and the lowest of them was Dak Prescott, who threw for 335 yards in Houston."
-    },
-    {
-      "name": "Lineup Crime",
-      "winner": "Rams of Steel",
-      "stat": "23.8",
-      "body": "Started Kendre Miller (6 carries, 9 yards, a lost fumble) over Brian Robinson (three touchdowns) in the same game. Deebo Samuel’s 18.0 on the bench would also have flipped it. Two separate ways to win, both sitting."
-    },
-    {
-      "name": "Best Performance in a Loss",
-      "winner": "Kenneth Walker, Split Safety Syndicate",
-      "stat": "30.9",
-      "body": "177 rushing yards and two touchdowns in Kansas City’s 30-27 win at Las Vegas, including the go-ahead run with 3:21 left. Next Gen Stats had him at 21.21 mph on a 76-yard run. He still got caught from behind."
-    },
-    {
-      "name": "Shortest Shift",
-      "winner": "Case Keenum, Micah parsons fan club",
-      "stat": "1 snap",
-      "body": "One handoff, then the bench. Runner-up is Marcus Mariota of the Kingslayers, who started for Washington in place of an injured Jayden Daniels, left after the second drive with a knee injury, and scored 5.34 on 10 snaps. Both of their fantasy teams won."
-    },
-    {
-      "name": "Bench of the Week",
-      "winner": "Kingslayers",
-      "stat": "78.22",
-      "body": "The most points left on any bench. Romeo Doubs caught 6 passes for 58 yards and two touchdowns for Green Bay from there, and Jalon Daniels, the undrafted rookie who started for Tampa Bay, added 11.42. Kingslayers won anyway, so nobody has to talk about it."
-    }
+    {"name": "Manager of the Week", "winner": "Dak Side of the Sun (SweetRavenge84)", "stat": "199.52",
+     "body": "SweetRavenge84 posted the high score of the week. Malik Nabers caught 6 balls for 112 yards and a touchdown for the Giants (23.20). Sam LaPorta caught 8 for 84 and a score (22.40). Good work. Not a Patriot in the bunch, so B-plus."},
+    {"name": "Lineup Crime", "winner": "Rams of Steel (iemerson969)", "stat": "23.80",
+     "body": "Brian Robinson ran for three touchdowns on Monday night, from the bench (25.70). Kendre Miller started and ran 6 times for 9 yards with a lost fumble (1.90). That one swap wins the game by 7.60. Somebody take the phone away from this man."},
+    {"name": "Floor of the Week", "winner": "Case Keenum, Micah parsons fan club", "stat": "0.00",
+     "body": "One of 93 snaps. No pass, no carry, one pitch to D’Andre Swift. Micah won by 29.58 and climbed to first anyway. This award is usually an insult. Here it’s a coronation."},
+    {"name": "Best Performance in a Loss", "winner": "Kenneth Walker, Split Safety Syndicate", "stat": "30.90",
+     "body": "Walker ran 22 times for 177 yards and two touchdowns in Kansas City’s 30-27 win at Las Vegas. He hit 21.21 mph on a 76-yard run, per ESPN, and still got caught at the 8. Split lost by 39.16. Fast guy, slow team."},
+    {"name": "Patriot of the Week", "winner": "Hunter Henry, ThePeopleBeaters", "stat": "11.20",
+     "body": "Henry caught all 5 targets for 62 yards. Maye’s 12-yarder to him after the Allen interception let New England run out the clock, per ESPN. Five for five is the same percentage as Hockenson’s 13 for 13, and Henry did it in a win at Buffalo. So Henry’s better. Case closed."}
   ],
   "standouts": [
-    {
-      "pos": "QB",
-      "player": "Joe Burrow",
-      "nfl_team": "CIN",
-      "team": "Dak Side of the Sun",
-      "pts": "23.72",
-      "line": "39 of 54, 428 yds, 1 TD, 2 INT, 1 rush TD"
-    },
-    {
-      "pos": "RB",
-      "player": "Kyren Williams",
-      "nfl_team": "LAR",
-      "team": "Dak Side of the Sun",
-      "pts": "36.70",
-      "line": "147 yards from scrimmage, 2 TD, 10 catches"
-    },
-    {
-      "pos": "WR",
-      "player": "Tetairoa McMillan",
-      "nfl_team": "CAR",
-      "team": "ThePeopleBeaters",
-      "pts": "45.20",
-      "line": "14 rec, 192 yds, 2 TD"
-    },
-    {
-      "pos": "TE",
-      "player": "T.J. Hockenson",
-      "nfl_team": "MIN",
-      "team": "Micah parsons fan club",
-      "pts": "24.90",
-      "line": "13 rec on 13 targets, 119 yds"
-    },
-    {
-      "pos": "K",
-      "player": "Will Reichard",
-      "nfl_team": "MIN",
-      "team": "J’Allen Waffle Stompers",
-      "pts": "19.00",
-      "line": "5 of 5 field goals, long of 50"
-    },
-    {
-      "pos": "DEF",
-      "player": "Seattle",
-      "nfl_team": "SEA",
-      "team": "Split Safety Syndicate",
-      "pts": "12.00",
-      "line": "4 sacks, 2 INT, 1 fumble recovery"
-    }
+    {"pos": "QB", "player": "Joe Burrow", "nfl_team": "CIN", "team": "Dak Side of the Sun", "pts": "23.72", "line": "39/54, 428 pass yds, 1 TD, 2 INT; 3 car, 6 rush yds, 1 TD"},
+    {"pos": "RB", "player": "Kyren Williams", "nfl_team": "LAR", "team": "Dak Side of the Sun", "pts": "36.70", "line": "16 car, 80 rush yds, 2 TD; 10 rec (13 tgt), 67 rec yds"},
+    {"pos": "WR", "player": "Tetairoa McMillan", "nfl_team": "CAR", "team": "ThePeopleBeaters", "pts": "45.20", "line": "14 rec (16 tgt), 192 rec yds, 2 TD"},
+    {"pos": "TE", "player": "T.J. Hockenson", "nfl_team": "MIN", "team": "Micah parsons fan club", "pts": "24.90", "line": "13 rec (13 tgt), 119 rec yds"},
+    {"pos": "K", "player": "Will Reichard", "nfl_team": "MIN", "team": "J’Allen Waffle Stompers", "pts": "19.00", "line": "FG 5/5 (long 50)"},
+    {"pos": "DEF", "player": "SEA DEF", "nfl_team": "SEA", "team": "Split Safety Syndicate", "pts": "12.00", "line": "23 pts allowed, 301 yds allowed, 4 sacks, 2 INT, 1 fumble rec"}
   ],
-  "bench_note": "Kingslayers left 78.22 on the bench and won. Skat’s left 3.0 and lost. The best bench score in the league was Drake Maye’s 26.16 for Unsportsmanlike Conduct, which also lost.",
+  "bench_note": "Kingslayers left 78.22 on the bench, most in the league. ThePeopleBeaters were next at 74.00, with Emanuel Wilson’s 27.00 the best bench score of the week (21 car, 81 yds, two total touchdowns). Both won anyway.",
   "injuries": [
-    {
-      "player": "Lamar Jackson",
-      "nfl_team": "BAL",
-      "team": "Micah parsons fan club",
-      "note": "Left with an ankle injury. Questionable."
-    },
-    {
-      "player": "Ja’Marr Chase",
-      "nfl_team": "CIN",
-      "team": "Split Safety Syndicate",
-      "note": "Concussion in the second quarter. Questionable."
-    },
-    {
-      "player": "Tee Higgins",
-      "nfl_team": "CIN",
-      "team": "J’Allen Waffle Stompers",
-      "note": "Groin injury in the fourth quarter. Questionable."
-    },
-    {
-      "player": "Saquon Barkley",
-      "nfl_team": "PHI",
-      "team": "J’Allen Waffle Stompers",
-      "note": "Right hamstring. Questionable."
-    },
-    {
-      "player": "Rashee Rice",
-      "nfl_team": "KC",
-      "team": "Rams of Steel",
-      "note": "Hamstring in the first quarter. Questionable, and Kansas City is on bye."
-    },
-    {
-      "player": "Marcus Mariota",
-      "nfl_team": "WAS",
-      "team": "Kingslayers",
-      "note": "Knee injury after two drives. Doubtful."
-    },
-    {
-      "player": "Kyle Monangai",
-      "nfl_team": "CHI",
-      "team": "Skat’s BruteForce Theorem",
-      "note": "Thumb injury at the end of the game. Questionable."
-    },
-    {
-      "player": "Baker Mayfield",
-      "nfl_team": "TB",
-      "team": "Micah parsons fan club",
-      "note": "Missed Week 4 with a dislocated thumb. Out."
-    },
-    {
-      "player": "Caleb Williams",
-      "nfl_team": "CHI",
-      "team": "Rams of Steel",
-      "note": "Missed a second straight game with a right hamstring injury. Out."
-    }
+    {"player": "Lamar Jackson", "nfl_team": "BAL", "team": "Micah parsons fan club", "note": "His ankle appeared to roll under a defender at the end of the first half, per ESPN, and he didn’t return. Sleeper: out (ankle)."},
+    {"player": "Zay Flowers", "nfl_team": "BAL", "team": "Micah parsons fan club", "note": "Sleeper: questionable (hamstring)."},
+    {"player": "Saquon Barkley", "nfl_team": "PHI", "team": "J’Allen Waffle Stompers", "note": "Hurt his right hamstring against the Rams, per ESPN. Sleeper: out (hamstring)."},
+    {"player": "Tee Higgins", "nfl_team": "CIN", "team": "J’Allen Waffle Stompers", "note": "Went down with a groin injury in the fourth quarter, per ESPN. Sleeper: questionable (groin)."},
+    {"player": "Justin Jefferson", "nfl_team": "MIN", "team": "J’Allen Waffle Stompers", "note": "Missed the Vikings’ win over Miami, per ESPN. Sleeper: questionable (ankle)."},
+    {"player": "Ja'Marr Chase", "nfl_team": "CIN", "team": "Split Safety Syndicate", "note": "Concussion in the second quarter, per ESPN, after 15 snaps. Sleeper: questionable (concussion)."},
+    {"player": "DJ Moore", "nfl_team": "BUF", "team": "Split Safety Syndicate", "note": "Left late in the first half with a shoulder injury, per ESPN. Sleeper: questionable (undisclosed)."},
+    {"player": "Marcus Mariota", "nfl_team": "WAS", "team": "Kingslayers", "note": "Hurt his knee on a sack during Washington’s second drive, per ESPN. Sleeper: out (knee)."},
+    {"player": "Rashee Rice", "nfl_team": "KC", "team": "Rams of Steel", "note": "Pulled up limping in the first quarter, per ESPN, after 6 snaps. Sleeper: questionable (hamstring)."},
+    {"player": "Kyle Monangai", "nfl_team": "CHI", "team": "Skat’s BruteForce Theorem", "note": "Finished the game dealing with a thumb injury, per ESPN. Sleeper: out (toe)."},
+    {"player": "Jadarian Price", "nfl_team": "SEA", "team": "Skat’s BruteForce Theorem", "note": "Seattle placed him on injured reserve the day before Skat traded for him, per ESPN. Sleeper: injured reserve (chest)."},
+    {"player": "Ladd McConkey", "nfl_team": "LAC", "team": "Unsportsmanlike Conduct", "note": "Aggravated a foot injury and sat the second half against Seattle, per ESPN. Sleeper: questionable (foot)."},
+    {"player": "DeVonta Smith", "nfl_team": "PHI", "team": "Unsportsmanlike Conduct", "note": "No stat record at all for the week. Sleeper: out (hamstring)."},
+    {"player": "CeeDee Lamb", "nfl_team": "DAL", "team": "hammball", "note": "Sleeper: questionable (quadriceps)."},
+    {"player": "Rhamondre Stevenson", "nfl_team": "NE", "team": "Mendozareamazingpicks", "note": "Sleeper: questionable (undisclosed)."},
+    {"player": "Alvin Kamara", "nfl_team": "NO", "team": "WELL! It's The Big Shough", "note": "Sleeper: questionable (back)."},
+    {"player": "Ashton Jeanty", "nfl_team": "LV", "team": "ThePeopleBeaters", "note": "Sleeper: questionable (ankle)."}
   ],
   "transactions": {
     "stats": [
-      {
-        "value": "$101",
-        "label": "Spent on 7 claims in the Wednesday waiver run"
-      },
-      {
-        "value": "2",
-        "label": "Trades, both completed before Wednesday"
-      },
-      {
-        "value": "$10",
-        "label": "FAAB Micah has left, the least in the league"
-      }
+      {"value": "$115", "label": "spent on eight completed claims"},
+      {"value": "$70", "label": "J’Allen’s bid on Will Shipley, the top bid"},
+      {"value": "$190", "label": "of Micah’s $200 already gone"}
     ],
     "waivers": [
-      {
-        "team": "J’Allen Waffle Stompers",
-        "add": "Will Shipley",
-        "pos": "RB",
-        "nfl_team": "PHI",
-        "drop": "Tank Bigsby",
-        "faab": "$70",
-        "grade": "C-",
-        "note": "Barkley hurt his hamstring and Bigsby, who replaced him, needed help off the field, per ESPN. Shipley ran 6 times for 23 yards in Week 4. The next-best bid was Split Safety’s $20."
-      },
-      {
-        "team": "Split Safety Syndicate",
-        "add": "Keaton Mitchell",
-        "pos": "RB",
-        "nfl_team": "LAC",
-        "drop": null,
-        "faab": "$25",
-        "grade": "B",
-        "note": "10 carries for 39 yards and 5 catches for 24 in Week 4. Beat bids of $1 and $0, and Split Safety needs running backs with Walker and Hubbard on bye."
-      },
-      {
-        "team": "ThePeopleBeaters",
-        "add": "Keon Coleman",
-        "pos": "WR",
-        "nfl_team": "BUF",
-        "drop": "Jauan Jennings",
-        "faab": "$5",
-        "grade": "A",
-        "note": "6 catches, 116 yards, and a touchdown on Sunday. Big Shough and the Rams bid $0."
-      },
-      {
-        "team": "Micah parsons fan club",
-        "add": "Tyson Bagent",
-        "pos": "QB",
-        "nfl_team": "CHI",
-        "drop": "Case Keenum",
-        "faab": "$0",
-        "grade": "B+",
-        "note": "Swapped the Bears quarterback who played 1 snap for the one who played the rest: 25 of 34 for 268 yards and an interception."
-      },
-      {
-        "team": "Rams of Steel",
-        "add": "Harrison Mevis",
-        "pos": "K",
-        "nfl_team": "LAR",
-        "drop": "Harrison Butker",
-        "faab": "$0",
-        "grade": "C",
-        "note": "Both kickers scored 6.0 in Week 4. Kansas City is on bye in Week 5, so this one makes sense."
-      },
-      {
-        "team": "WELL! It's The Big Shough",
-        "add": "Cincinnati defense",
-        "pos": "DEF",
-        "nfl_team": "CIN",
-        "drop": "Buffalo defense",
-        "faab": "$0",
-        "grade": "C",
-        "note": "Buffalo’s defense gave up 29 points and scored 5.0. Big Shough also bid $0 on Coleman and Mitchell and got neither."
-      },
-      {
-        "team": "Skat’s BruteForce Theorem",
-        "add": "Malachi Fields",
-        "pos": "WR",
-        "nfl_team": null,
-        "drop": "George Holani",
-        "faab": "$1",
-        "grade": "D",
-        "note": "Held him for one day, then dropped him in Thursday’s run for Emmett Johnson."
-      },
-      {
-        "team": "Skat’s BruteForce Theorem",
-        "add": "Emmett Johnson",
-        "pos": "RB",
-        "nfl_team": "KC",
-        "drop": "Malachi Fields",
-        "faab": "$14",
-        "grade": "D",
-        "note": "Thursday’s run. Johnson caught 1 pass for 10 yards in Week 4, and Kansas City is on bye this week. Big Shough bid $0."
-      }
+      {"team": "Micah parsons fan club", "add": "Tyson Bagent", "pos": "QB", "nfl_team": "CHI", "drop": "Case Keenum", "faab": "$0", "grade": "A",
+       "note": "Wednesday’s run. Dropped the one-snap guy for the guy who actually played. Bagent went 25 for 34, per ESPN. Free, too."},
+      {"team": "ThePeopleBeaters", "add": "Keon Coleman", "pos": "WR", "nfl_team": "BUF", "drop": "Jauan Jennings", "faab": "$5", "grade": "B",
+       "note": "Beat $0 bids from Shough and Rams of Steel. Coleman caught a 34-yard touchdown from Josh Allen against the Patriots, per ESPN, so I hate it. Jennings caught 1 ball for 8 yards on 74 snaps. Still an upgrade."},
+      {"team": "J’Allen Waffle Stompers", "add": "Will Shipley", "pos": "RB", "nfl_team": null, "drop": "Tank Bigsby", "faab": "$70", "grade": "C",
+       "note": "Beat Split’s $20 by a mile. Seventy bucks for a guy with no stat line this week. Bigsby ran 14 times for 55 yards from the bench and is on IR now."},
+      {"team": "Split Safety Syndicate", "add": "Keaton Mitchell", "pos": "RB", "nfl_team": null, "drop": null, "faab": "$25", "grade": "C+",
+       "note": "Beat ThePeopleBeaters at $1 and Shough at $0. Two more $25 bids, on Dohnte and Jakobi Meyers, bounced because the roster was full."},
+      {"team": "Skat’s BruteForce Theorem", "add": "Malachi Fields", "pos": "WR", "nfl_team": "NYG", "drop": "George Holani", "faab": "$1", "grade": "D",
+       "note": "Fields caught a 12-yard touchdown from Jameis Winston, per ESPN. Skat dropped him the next morning. A one-dollar rental."},
+      {"team": "Skat’s BruteForce Theorem", "add": "Emmett Johnson", "pos": "RB", "nfl_team": "KC", "drop": "Malachi Fields", "faab": "$14", "grade": "D",
+       "note": "Thursday’s run. Micah cut him for Tyler Huntley, and Skat paid $14 for him a day later. He caught 1 ball for 10 yards in Week 4, and Kansas City is on bye."},
+      {"team": "WELL! It's The Big Shough", "add": "CIN DEF", "pos": "DEF", "nfl_team": "CIN", "drop": "BUF DEF", "faab": "$0", "grade": "B",
+       "note": "Dumped the Bills defense after New England hung 29 on it. Correct. Cincinnati plays at Miami."},
+      {"team": "Rams of Steel", "add": "Harrison Mevis", "pos": "K", "nfl_team": null, "drop": "Harrison Butker", "faab": "$0", "grade": "C",
+       "note": "Swapped Harrisons. Butker made his only field goal and three extra points (6.00), and Kansas City is off this week."}
     ],
-    "free_agents_label": "Free-agent adds, September 30 to October 8",
+    "free_agents_label": "Free-agent adds",
     "free_agents": [
-      {
-        "team": "WELL! It's The Big Shough",
-        "add": "Alvin Kamara",
-        "pos": "RB",
-        "nfl_team": "NO",
-        "drop": "Kenny Gainwell",
-        "note": "Two touchdowns five days later."
-      },
-      {
-        "team": "Micah parsons fan club",
-        "add": "Case Keenum",
-        "pos": "QB",
-        "nfl_team": "CHI",
-        "drop": "Keon Coleman",
-        "note": "One snap. Dropped a week later."
-      },
-      {
-        "team": "Rams of Steel",
-        "add": "Kendre Miller",
-        "pos": "RB",
-        "nfl_team": "NO",
-        "drop": null,
-        "note": "Started in Week 4 for 1.9."
-      },
-      {
-        "team": "Skat’s BruteForce Theorem",
-        "add": "George Holani",
-        "pos": "RB",
-        "nfl_team": "SEA",
-        "drop": "Tyreek Hill",
-        "note": "Hill has no NFL team listed in Sleeper. Holani scored 3.0 on the bench."
-      },
-      {
-        "team": "Split Safety Syndicate",
-        "add": "Dohnte Meyers",
-        "pos": "WR",
-        "nfl_team": "CIN",
-        "drop": "AJ Barner",
-        "note": "A $25 waiver bid on him failed because the roster was full. Two hours later Split Safety cleared a spot and took him for free."
-      },
-      {
-        "team": "Split Safety Syndicate",
-        "add": "Michael Mayer",
-        "pos": "TE",
-        "nfl_team": "LV",
-        "drop": "Rams defense",
-        "note": "8 catches for 82 yards in Week 4."
-      },
-      {
-        "team": "Micah parsons fan club",
-        "add": "Tyler Huntley",
-        "pos": "QB",
-        "nfl_team": "BAL",
-        "drop": "Emmett Johnson",
-        "note": "Went 8 of 9 for 63 yards after Jackson got hurt."
-      },
-      {
-        "team": "ThePeopleBeaters",
-        "add": "Patriots defense",
-        "pos": "DEF",
-        "nfl_team": "NE",
-        "drop": "Chiefs defense",
-        "note": "Kansas City is on bye."
-      },
-      {
-        "team": "WELL! It's The Big Shough",
-        "add": "Roman Wilson",
-        "pos": "WR",
-        "nfl_team": "PIT",
-        "drop": "Chris Bell",
-        "note": "3 catches for 74 yards and a touchdown in Week 4."
-      }
+      {"team": "Micah parsons fan club", "add": "Case Keenum", "pos": "QB", "nfl_team": "CHI", "drop": "Keon Coleman", "note": "Started at Superflex that week for exactly one snap. Cut a week later for Tyson Bagent."},
+      {"team": "WELL! It's The Big Shough", "add": "Alvin Kamara", "pos": "RB", "nfl_team": "NO", "drop": null, "note": "Started and scored twice against Atlanta (22.80). Kenny Gainwell got cut the same minute."},
+      {"team": "WELL! It's The Big Shough", "add": "BUF DEF", "pos": "DEF", "nfl_team": "BUF", "drop": "CAR DEF", "note": "Started against New England and gave up 29 (5.00). Should’ve known better."},
+      {"team": "WELL! It's The Big Shough", "add": "Darren Waller", "pos": "TE", "nfl_team": "CAR", "drop": "Tank Dell", "note": "Started at flex: 3 catches, 36 yards (6.60)."},
+      {"team": "Rams of Steel", "add": "Kendre Miller", "pos": "RB", "nfl_team": "NO", "drop": null, "note": "Started over Brian Robinson. Lost a fumble at the New Orleans 22, per ESPN."},
+      {"team": "Kingslayers", "add": "Jalon Daniels", "pos": "QB", "nfl_team": "TB", "drop": "Chris Brooks", "note": "Undrafted rookie, first career start, two picks, per ESPN (11.42 from the bench). Added Kalif Raymond for Drew Lock a minute later."},
+      {"team": "Micah parsons fan club", "add": "Jaylen Wright", "pos": "RB", "nfl_team": "MIA", "drop": "Travis Hunter", "note": "Ran 5 times for 7 yards on the bench (0.70)."},
+      {"team": "J’Allen Waffle Stompers", "add": "CHI DEF", "pos": "DEF", "nfl_team": "CHI", "drop": "PHI DEF", "note": "Held the Jets to 12 points and 157 yards with 3 sacks (7.00). Good pickup. I’m annoyed about it."},
+      {"team": "Skat’s BruteForce Theorem", "add": "George Holani", "pos": "RB", "nfl_team": "SEA", "drop": "Tyreek Hill", "note": "Cut Tyreek Hill for him. Holani ran 7 times for 18 yards on the bench (3.00) and got dropped for Malachi Fields."},
+      {"team": "Split Safety Syndicate", "add": "Dohnte Meyers", "pos": "WR", "nfl_team": "CIN", "drop": "AJ Barner", "note": "Got him free a couple hours after the $25 claim bounced. Also added Michael Mayer for the Rams defense."},
+      {"team": "Micah parsons fan club", "add": "Tyler Huntley", "pos": "QB", "nfl_team": "BAL", "drop": "Emmett Johnson", "note": "Huntley went 8 of 9 for 63 yards replacing Lamar Jackson, per ESPN. Micah has $10 of FAAB left, so free agency it is."},
+      {"team": "ThePeopleBeaters", "add": "NE DEF", "pos": "DEF", "nfl_team": "NE", "drop": "KC DEF", "note": "Patriots defense in, Chiefs defense out. The Chiefs gave up 27 points and 437 yards for them (4.00). Obvious move."},
+      {"team": "WELL! It's The Big Shough", "add": "Roman Wilson", "pos": "WR", "nfl_team": "PIT", "drop": "Chris Bell", "note": "Wilson scored Pittsburgh’s first touchdown on a 12-yard shovel pass in Cleveland, per ESPN."}
     ],
     "trades": [
-      {
-        "teams": "Skat’s BruteForce Theorem and WELL! It's The Big Shough",
-        "date": "Sunday, October 4",
-        "summary": "Big Shough got Emeka Egbuka, Kaelon Black, and Skat’s 2027 third-round pick. Skat’s got Jadarian Price, Antonio Williams, and two 2027 second-round picks, Dak Side’s and Big Shough’s own.",
-        "grade": "Skat’s B+, Big Shough B-",
-        "note": "The trade went through at 12:22 p.m. Eastern. Big Shough started Egbuka 38 minutes later and got 2 catches for 13 yards. Price is on injured reserve. For a 1-3 team, two second-round picks is the right direction."
-      },
-      {
-        "teams": "Rams of Steel and Unsportsmanlike Conduct",
-        "date": "Tuesday, October 6",
-        "summary": "UC got Ladd McConkey and Rico Dowdle. The Rams got David Montgomery and Quentin Johnston.",
-        "grade": "Even",
-        "note": "Montgomery scored 4.3 for UC in Week 4 on 10 carries for 24 yards. McConkey had no catches on 2 targets for the Chargers. Both teams traded a quiet week for a different quiet week."
-      }
+      {"teams": "Skat’s BruteForce Theorem and WELL! It's The Big Shough", "date": "Oct. 4", "grade": "Skat C, Shough B",
+       "summary": "Skat got Jadarian Price, Antonio Williams and two 2027 second-round picks (Dak Side’s and Shough’s). Shough got Emeka Egbuka, Kaelon Black and Skat’s 2027 third.",
+       "note": "Price was already on injured reserve, per ESPN. Egbuka caught 2 of 4 targets for 13 yards in his Shough debut that afternoon (3.30). Skat took an injured rookie and two seconds for him. That’s a rebuild. Right league for it."},
+      {"teams": "Rams of Steel and Unsportsmanlike Conduct", "date": "Oct. 6", "grade": "UC C−, Rams C",
+       "summary": "UC got Ladd McConkey and Rico Dowdle. Rams of Steel got David Montgomery and Quentin Johnston.",
+       "note": "Montgomery ran 10 times for 24 yards for UC in Week 4 (4.30). Johnston sat on UC’s bench with the 5.00 that would’ve helped. Sleeper has both new UC guys questionable. Of course it does."}
     ],
     "no_trades": "No trades this week."
   },
   "preview": {
     "is_sample": false,
     "label": "Week 5",
-    "note": "Carolina and Kansas City are on bye. Philadelphia plays Jacksonville in London.",
+    "note": "Carolina and Kansas City are on bye. Tampa Bay at Dallas went Thursday night, Philadelphia and Jacksonville play in London, and Buffalo visits the Rams on Monday night.",
     "games": [
-      {
-        "a": "Skat’s BruteForce Theorem",
-        "b": "WELL! It's The Big Shough",
-        "line": "The two sides of the Egbuka trade. Skat’s newest running back is a Chief, and the Chiefs are off."
-      },
-      {
-        "a": "Dak Side of the Sun",
-        "b": "Micah parsons fan club",
-        "line": "The week high against the team that won with ten starters. Micah’s quarterbacks are Jackson (questionable), Bagent, Huntley, and Mayfield (out)."
-      },
-      {
-        "a": "ThePeopleBeaters",
-        "b": "Unsportsmanlike Conduct",
-        "line": "McMillan is on bye. UC gets McConkey and Dowdle for the first time, and another chance to start Maye."
-      },
-      {
-        "a": "Split Safety Syndicate",
-        "b": "J’Allen Waffle Stompers",
-        "line": "Split Safety loses Mahomes, Walker, Young, and Hubbard to byes, 95.26 of last week’s points. J’Allen has Higgins and Barkley questionable."
-      },
-      {
-        "a": "Kingslayers",
-        "b": "Mendozareamazingpicks",
-        "line": "Mariota is doubtful, and Mendoza’s Xavier Worthy is on bye. Whoever finds a quarterback first has the edge."
-      },
-      {
-        "a": "Rams of Steel",
-        "b": "hammball",
-        "line": "Rice is on bye and Caleb Williams is out. hammball has won two straight and scored 188.90 last week."
-      }
+      {"a": "Skat’s BruteForce Theorem", "b": "WELL! It's The Big Shough", "line": "The trade partners meet. Monangai is out, Price is on injured reserve, and Egbuka plays for the other side now. Shough."},
+      {"a": "Dak Side of the Sun", "b": "Micah parsons fan club", "line": "The week’s best score against first place. Lamar Jackson is out, so it’s Huntley or Bagent. Dak Side."},
+      {"a": "ThePeopleBeaters", "b": "Unsportsmanlike Conduct", "line": "McMillan is on bye. UC has no excuses left. Start Maye. I’m begging."},
+      {"a": "Split Safety Syndicate", "b": "J’Allen Waffle Stompers", "line": "Split loses Mahomes, Walker, Hubbard and Bryce Young to byes, 95.26 points of last week’s lineup. J’Allen has Barkley out and Higgins questionable. Coin flip."},
+      {"a": "Kingslayers", "b": "Mendozareamazingpicks", "line": "Mariota’s out. Doubs gets the Raiders at home. If he sits again I’m calling the authorities."},
+      {"a": "Rams of Steel", "b": "hammball", "line": "Lamb is questionable with a quad. Rams of Steel need him to sit and their own lineup to wake up. Only one of those happens. hammball."}
     ]
   },
   "footer": {
-    "methods": "Fantasy points, lineups, standings, and transactions come from the league on Sleeper. Box-score lines come from Sleeper’s Week 4 NFL stats. Game context, quotes, and injuries come from ESPN’s game recaps. Where ESPN and Sleeper disagree on a stat, this issue uses Sleeper. Power rankings are ordered by Elo: every team started the season at 1000, K is 32, and only wins and losses count. The blurbs and grades are opinion. The pulled data is saved in <code>newsletter/issues/2026-week4/</code>.",
+    "methods": "Fantasy points, lineups, standings, transactions and FAAB come from the league on Sleeper. Box-score lines come from Sleeper’s weekly NFL stats. Game results, quotes and in-game injuries come from ESPN’s scoreboard and recaps. Injury status is Sleeper’s at fetch time, 2026-10-11 14:30 UTC. Power rankings follow the Elo ratings in the data brief.",
     "sources": [
-      {
-        "name": "Sleeper league API",
-        "url": "https://api.sleeper.app/v1/league/1319718857249665024"
-      },
-      {
-        "name": "Sleeper NFL stats, Week 4",
-        "url": "https://api.sleeper.com/stats/nfl/2026/4?season_type=regular"
-      },
-      {
-        "name": "ESPN NFL scoreboard, Week 4",
-        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&amp;seasontype=2&amp;week=4"
-      }
+      {"name": "Sleeper league, rosters, matchups and transactions", "url": "https://api.sleeper.app/v1/league/1319718857249665024"},
+      {"name": "Sleeper players", "url": "https://api.sleeper.app/v1/players/nfl"},
+      {"name": "Sleeper NFL weekly stats", "url": "https://api.sleeper.com/stats/nfl/2026/4?season_type=regular&position[]=QB&position[]=RB&position[]=WR&position[]=TE&position[]=K&position[]=DEF"},
+      {"name": "ESPN NFL scoreboard", "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=4"},
+      {"name": "ESPN game summaries", "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary"}
     ],
-    "credit": "Rebuilders Anonymous, Week 4. Presented by Unsportsmanlike Conduct."
-  }
+    "credit": "Rebuilders Anonymous, presented by Unsportsmanlike Conduct."
+  },
+  "derived": [
+    {"value": "12.64", "expr": "26.16 - 13.52", "why": "Maye's bench points minus Hurts's starting points"},
+    {"value": "1.08", "expr": "13.72 - (26.16 - 13.52)", "why": "UC's margin minus the Maye-for-Hurts gain: how far short that swap alone falls"},
+    {"value": "3.92", "expr": "(26.16 - 13.52) + (5.00 - 0.00) - 13.72", "why": "Maye-for-Hurts plus Johnston-for-Smith, minus UC's 13.72 margin"},
+    {"value": "72.1", "expr": "41.30 + 30.80", "why": "Lamb plus Collins for hammball"},
+    {"value": "7.60", "expr": "25.70 - 1.90 - 16.20", "why": "Robinson-for-Miller gain minus Rams of Steel's 16.20 margin"},
+    {"value": "$115", "expr": "0 + 25 + 70 + 0 + 5 + 0 + 1 + 14", "why": "the eight completed waiver claims (seven Wednesday, one Thursday)"},
+    {"value": "$10", "expr": "200 - 190", "why": "Micah's FAAB budget minus FAAB used"},
+    {"value": "95.26", "expr": "17.00 + 30.90 + 25.90 + 21.46", "why": "Week 4 points of Split's Mahomes, Walker, Hubbard and Bryce Young, all on bye in Week 5"}
+  ]
 }
