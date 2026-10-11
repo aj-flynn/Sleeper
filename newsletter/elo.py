@@ -290,29 +290,10 @@ def path_anchors(d):
 
 # ---------------------------------------------------------------- chart
 
-def _dodge(ys, min_gap, lo, hi):
-    """Spread stacked y positions so end labels don't sit on top of each other."""
-    order = sorted(range(len(ys)), key=lambda i: ys[i])
-    placed = [ys[i] for i in order]
-    for i in range(1, len(placed)):
-        if placed[i] < placed[i - 1] + min_gap:
-            placed[i] = placed[i - 1] + min_gap
-    if placed and placed[-1] > hi:
-        shift = placed[-1] - hi
-        placed = [y - shift for y in placed]
-    if placed and placed[0] < lo:
-        shift = lo - placed[0]
-        placed = [y + shift for y in placed]
-    out = [0.0] * len(ys)
-    for i, idx in enumerate(order):
-        out[idx] = placed[i]
-    return out
-
-
 def _ticks(lo, hi):
     pad = max(8.0, (hi - lo) * 0.14 if hi > lo else 12.0)
     lo, hi = lo - pad, hi + pad
-    step = 10 if (hi - lo) <= 90 else 20
+    step = 10 if (hi - lo) <= 140 else 20
     start = int(math.floor(lo / step) * step)
     end = int(math.ceil(hi / step) * step)
     return list(range(start, end + 1, step)), start, end
@@ -327,8 +308,8 @@ def chart_svg(doc, through):
     values = [e for r in rows for e in r["elos"]]
     yticks, y0, y1 = _ticks(min(values), max(values))
     # Wide viewBox, scales to the column. Room on the right for end labels on desktop.
-    W, H = 760, 300
-    left, right, top, bottom = 46, 158, 18, 36
+    W, H = 680, 360
+    left, right, top, bottom = 44, 14, 16, 38
     pw, ph = W - left - right, H - top - bottom
     x_at = lambda w: left + (0 if len(weeks) == 1 else (w - weeks[0]) / (weeks[-1] - weeks[0]) * pw)
     y_at = lambda e: top + (1 - (e - y0) / (y1 - y0)) * ph
@@ -357,21 +338,17 @@ def chart_svg(doc, through):
                  f'fill="none" stroke="#262321" stroke-width="1.75"/>')
 
     # Draw lower-rated teams first so the current leader sits on top.
+    # Names live in the HTML legend (Find-your-team order); 12 end labels will not fit.
     draw = sorted(rows, key=lambda r: r["elos"][-1])
-    ends = [y_at(r["elos"][-1]) for r in draw]
-    label_y = _dodge(ends, min_gap=11, lo=top + 8, hi=top + ph - 2)
-    for r, ly in zip(draw, label_y):
+    for r in draw:
         pts = [(x_at(w), y_at(e)) for w, e in zip(r["weeks"], r["elos"])]
         d = monotone_cubic_path(pts)
         team = xml(r["team"])
         parts.append(f'<path class="elo-line" data-team="{team}" fill="none" stroke="{r["color"]}" '
-                     f'stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" d="{d}"/>')
+                     f'stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" d="{d}"/>')
         for (x, y), e, w in zip(pts, r["elos"], r["weeks"]):
             parts.append(f'<circle class="elo-point" data-team="{team}" data-week="{w}" cx="{x:.2f}" '
-                         f'cy="{y:.2f}" r="3.1" fill="{r["color"]}" stroke="#F1E2DF" stroke-width="1"/>')
-        lx = pts[-1][0]
-        parts.append(f'<text class="elo-end" data-team="{team}" x="{lx + 7:.2f}" y="{ly + 3.5:.2f}" '
-                     f'fill="{r["color"]}">{team}</text>')
+                         f'cy="{y:.2f}" r="3.4" fill="{r["color"]}" stroke="#F1E2DF" stroke-width="1"/>')
 
     parts.append("</svg>")
     return "\n".join(parts)
