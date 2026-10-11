@@ -196,6 +196,49 @@ def backfill(season, through, matchups, roster_ids, team_name, path=None, league
     return doc
 
 
+# Series that never separate by more than this (Elo) share a pixel on the plot.
+TRACK_TOL = 1.0
+# Visual lane gap for those twins, in SVG units. ~2 Elo at the usual vertical scale.
+TRACK_GAP_PX = 6.0
+
+
+def tracking_offsets(rows, tol=TRACK_TOL, gap_px=TRACK_GAP_PX):
+    """Pixel y-offsets for series that stay stacked, so every color stays visible.
+
+    UC and J'Allen differ by 0.07 Elo across weeks 0–4. At chart scale that is a
+    fifth of a pixel, and the later-drawn line eats the other. Teams that actually
+    diverge (max week-by-week gap > tol) stay on their true y.
+    """
+    n = len(rows)
+    parent = list(range(n))
+
+    def find(i):
+        while parent[i] != i:
+            parent[i] = parent[parent[i]]
+            i = parent[i]
+        return i
+
+    for i in range(n):
+        for j in range(i + 1, n):
+            gap = max(abs(a - b) for a, b in zip(rows[i]["elos"], rows[j]["elos"]))
+            if gap <= tol:
+                a, b = find(i), find(j)
+                if a != b:
+                    parent[b] = a
+    groups = defaultdict(list)
+    for i in range(n):
+        groups[find(i)].append(i)
+    off = {r["roster_id"]: 0.0 for r in rows}
+    for members in groups.values():
+        if len(members) < 2:
+            continue
+        members.sort(key=lambda i: name_key(rows[i]["team"]))
+        mid = (len(members) - 1) / 2
+        for k, i in enumerate(members):
+            off[rows[i]["roster_id"]] = (k - mid) * gap_px
+    return off
+
+
 def series(doc, through=None):
     """[{roster_id, team, color, elos: [week0..weekN]}, ...] in Find-your-team name order."""
     weeks = sorted((int(w) for w in doc["weeks"]), key=int)
@@ -345,9 +388,12 @@ def chart_svg(doc, through):
 
     # Draw lower-rated teams first so the current leader sits on top.
     # Names live in the HTML legend (Find-your-team order); 12 end labels will not fit.
+    # Twins that never separate (UC / J'Allen at 0.07 Elo) get a lane so both inks show.
+    lanes = tracking_offsets(rows)
     draw = sorted(rows, key=lambda r: r["elos"][-1])
     for r in draw:
-        pts = [(x_at(w), y_at(e)) for w, e in zip(r["weeks"], r["elos"])]
+        dy = lanes[r["roster_id"]]
+        pts = [(x_at(w), y_at(e) + dy) for w, e in zip(r["weeks"], r["elos"])]
         d = monotone_cubic_path(pts)
         team = xml(r["team"])
         parts.append(f'<path class="elo-line" data-team="{team}" fill="none" stroke="{r["color"]}" '
