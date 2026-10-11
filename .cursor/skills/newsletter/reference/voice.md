@@ -1,54 +1,53 @@
-# Voice, banned phrases, and anti-patterns
+# Boston Connor in practice: examples, banned phrases, and the voice checks
 
-Read by the writer before every draft and by the editor before every review. `newsletter/build.py` reads the banned list from this file (between the `banned:start` and `banned:end` markers), so this is the one place to change it.
+**The voice is Boston Connor, and the guide is [`../voice/boston-connor.md`](../voice/boston-connor.md).** That file is the single source of truth for tone, committed verbatim from the owner. Never edit it to fit a draft. This page doesn't add tone rules. It shows the guide applied to real league facts, lists the phrases the lint blocks, and documents the scripted checks that support the guide.
 
-The owner's two complaints about past issues were that the design was poor and the writing was poor. The Card Back template solved the design. The writing has to be solved again every week, and this file is the bar.
+Two things sit outside tone and don't bend for the voice:
 
-## The voice
+- **Facts are sacred.** The guide itself requires accurate scores, stats, injuries, and transactions, and says the irrational reasoning must read as commentary, not news. Absurd takes are opinions about real numbers, never new "facts." See [facts.md](facts.md). The schema and fact-check gates are as strict as ever.
+- **Real life is off limits.** Roast lineups, bids, and trades. Leave people's jobs, families, looks, and health out of it. These are friends.
 
-Write like the best columnist in a group chat of people who have known each other for years: smart, funny, specific, and sure of yourself. You are roasting friends, so the jokes are about their decisions, built on their own numbers, and the reader should laugh because it is true.
+## The delivery structure, applied
 
-1. **Lead with the take.** The first sentence of every item says what you think. The numbers come in as evidence.
-2. **Every joke rides on a fact.** If you can't point to the number that makes it funny, cut it.
-3. **Specific beats clever.** "Started Nacua and got 0.0" is better than any metaphor about Nacua.
-4. **Roast decisions, not people.** Benched the wrong guy, overpaid on waivers, left the kicker slot empty: fair game. Jobs, families, looks, and real-life stuff: never.
-5. **Be confident.** Declarative sentences. No "arguably," "kind of," "it seems," "might be." If you aren't sure, check the brief; if the brief doesn't say, don't write it.
-6. **Short sentences do the punching.** Set up with a normal sentence, land with a short one. Don't explain the joke after it lands.
-7. **One idea per item.** A ranking blurb is two or three sentences with one point. Not a list of everything that happened.
-8. **Vary the shape.** Twelve ranking blurbs should not all start with the team's score. Some start with a player, some with the decision, some with the punchline.
-9. **Plain words.** No sportscaster clichés, no corporate words, no accounting metaphors. Write the way a sharp person talks.
-10. **Football first, then fantasy.** A fantasy score is the result; the stat line and the game are the story. "Kyren Williams scored 36.7" is a number. "Kyren Williams ran for two touchdowns in the last four minutes of the Rams’ comeback and caught 10 passes" is why the number happened. Every recap and the lead must cite real box-score numbers (yards, catches, carries, touchdowns, snaps, field goals), and the schema gate fails if they don't.
+Every recap body and the lead story follow the guide's five steps. Ranking takes and award blurbs are shorter and can compress them, but they still open blunt and close short.
 
-### Examples that hit the bar
+1. Open with a blunt opinion or incredulous reaction.
+2. Name who's responsible: the fantasy team (and through it, the manager's decision).
+3. One legitimate observation: the real box-score line or result from the brief.
+4. The exaggerated, irrational, or sarcastic reading of it, clearly opinion.
+5. A short punchline.
 
-The first two use real Week 4 facts and show the NFL weaving every issue needs. The rest are real Week 2 facts, written before the NFL rule; they still show the voice.
+## Examples that hit the bar
 
-> Rams of Steel had a running back on each side of Monday night’s Falcons-Saints game and started the one on the losing side. Kendre Miller ran 6 times for 9 yards and lost a fumble for New Orleans (1.9). Brian Robinson ran for three touchdowns in Atlanta’s 45-24 win, from the Rams’ bench (25.7). That one swap is worth 23.8 in a 16.2-point loss.
+All five use real Week 4 facts from the brief.
 
-> Micah parsons fan club played Week 4 with ten working starters and won by 29.58. The eleventh was Case Keenum at Superflex. According to ESPN, Keenum lined up under center for Chicago’s first play, pitched to D’Andre Swift for 2 yards, and Tyson Bagent played quarterback for the rest of the game. Keenum’s line for the week is 1 snap and 0.0 points.
+> Unbelievable. Unsportsmanlike Conduct, the brand that pays for this newsletter, benched Drake Maye. Maye threw three touchdowns in New England’s 29-26 win at Buffalo, the last one with 1:50 left, and ran for 54 yards. That’s 26.16 points sitting on a bench in a 13.72-point loss. Jalen Hurts started instead and went 12 of 27 for 93 yards. Benching a Patriots quarterback the week he wins in Buffalo should be a crime in this state. Lock ’em up.
 
-> Split Safety Syndicate scored 166.06 this week, the most in the league, with Travis Kelce, Stefon Diggs, and Denzel Boston on the bench. Those three scored 67.3 points while sitting. That is most of what ThePeopleBeaters scored as an entire team, left in a drawer, and it didn’t matter, because Mahomes, Chase, Young, Walker, and Gibbs all cleared 23.
+The five steps in order: "Unbelievable." (1), UC benched Maye (2), Maye's line and the margin (3), a crime in this state (4), "Lock ’em up." (5). Every number is in the brief; "should be a crime" is plainly opinion.
 
-> Four teams are undefeated, and one of them should not feel great about it. Micah parsons fan club is 2-0 after scoring 95.58, tenth-best of twelve, against a hammball lineup with no kicker and three starters who scored zero. Undefeated is undefeated. In this case it also came with a gift receipt.
+> Micah parsons fan club won with a quarterback who took one snap. One. Case Keenum pitched to D’Andre Swift for 2 yards on Chicago’s first play, per ESPN, and Tyson Bagent played the rest of the game. Micah won by 29.58 anyway. So the Superflex spot is optional now. Good to know. Bum strategy, great result.
 
-> Unsportsmanlike Conduct, which presents this newsletter and therefore deserves extra scrutiny, spent $16 on D. Wicks to beat a $0 bid from Micah parsons fan club. Then it spent another $16 on A. Mitchell, a claim nobody else made. That is $32 to outbid one person who bid nothing and a room with nobody in it.
+> Rams of Steel had the answer on the bench and picked the wrong guy. Same game, Monday night. Kendre Miller ran 6 times for 9 yards and lost a fumble for New Orleans (1.9). Brian Robinson ran for three touchdowns in Atlanta’s 45-24 win, from the bench (25.7). That swap is 23.8 points in a 16.2-point loss. Start the guy scoring touchdowns. That’s the whole job.
 
-> Smith-Njigba scored 42.5, the best individual number of the week, and Mendoza still lost. White (14.3) and Worthy (13.5) sat while Stevenson (3.6) and Wilson (3.8) started. That swap was worth 20.4 points in an 11.44-point loss.
+> Tetairoa McMillan caught 14 of 16 targets for 192 yards and two touchdowns. Fine. It was Carolina. Nobody in New England felt a thing. His 45.2 covered the whole 39.84-point margin for ThePeopleBeaters by himself, so the rest of the lineup was along for the ride. One real player and a bunch of passengers.
 
-> Davante Adams scored 39.5, second-best in the league, and lost to a team whose second-best scorer was a defense. After Adams, the Rams’ next starter scored 17.5. In Superflex, one star and a shrug gets you to 0-2.
+> Kingslayers left 78.22 points on the bench, the most in the league, and won. How? Rams of Steel scored 105.32, that’s how. Two disasters played each other and one of them had to win. Pathetic. Both of them.
 
-### What it should not sound like
+### Before and after
 
 | Instead of this | Write this |
 | --- | --- |
-| Split Safety Syndicate had a dominant performance, putting up an impressive 166.06 points. Patrick Mahomes led the way with 28.98. | Five Split Safety starters cleared 23 points. Skat’s third-best scorer was the kicker. |
-| Sixty-five points is not a bad matchup. It is a solvency event. | ThePeopleBeaters started Dart (0.8), Goedert (1.4), and the Chiefs defense (1.0). |
-| Undefeated on 95.58 is a warning label, not a coronation. | Their top scorer had 18.1 and they won because the other team didn’t start a kicker. |
-| White alone clears the margin. (It doesn’t: swapping White’s 14.3 for either benched starter gains at most 10.7, under 11.44.) | That swap was worth 20.4 points in an 11.44-point loss. |
+| Dak Side of the Sun had an impressive week, putting up a league-high 199.52 points. | Dak Side scored 199.52, most in the league. Seven starters cleared 18 points and the worst of them was Dak Prescott, who threw for 335 yards. Nice week. Wake me up when one of them is a Patriot. |
+| Kyren Williams had a huge game with 36.7 points as Dak Side cruised. | Kyren Williams ran for two touchdowns in the last four minutes of the Rams’ comeback in Philadelphia and caught 10 passes. Split Safety scored 160.36, fifth-best in the league, and lost by 39. Fifth-best and a loss. Explain that. You can’t. |
+| FRAUD. TOTAL FRAUD. HOCKENSON CAUGHT 13 OF 13 AND IT MEANT NOTHING. UNBELIEVABLE. | T.J. Hockenson caught all 13 passes thrown his way for 119 yards. Thirteen for thirteen. Gronk would’ve caught fourteen. (Caps are for one outburst, not a whole paragraph; this one fails the ALL-CAPS cap.) |
+| Gronk never caught 13 of 13 in a game, so Hockenson already has him beat. | Gronk would’ve caught fourteen. (The first is a factual claim the brief can’t support, dressed up as a take. The second is obviously commentary.) |
+| Unbelievable. Unbelievable. Kingslayers won. Unbelievable. | Pick the one spot where the outburst lands and say it once. The catchphrase check fails a short sentence used twice in the issue. |
 
 ## Banned phrases
 
-`python3 newsletter/build.py --lint` (and the `issue.lint` gate) fails the issue if any of these appear. Keep one phrase per line in the format shown. Matching is case-insensitive and whole-word, and team names are ignored. Fix the copy; never edit this list to get a draft through.
+`python3 newsletter/build.py --lint` (and the `issue.lint` gate) fails the issue if any of these appear. Matching is case-insensitive and whole-word, and team names are ignored. Fix the copy; never edit this list to get a draft through.
+
+The list blocks three kinds of phrase: **filler** ("in the books," "without further ado"), **sportscaster and AI-sounding clichés** ("statement win," "testament to," "delve"), and **vague praise** ("impressive," "huge," "elite"), plus the running accounting metaphors that sank past issues. It does **not** block the words the guide asks for: *fraud, bum, disaster, embarrassing, unbelievable, pathetic*, occasional profanity, and sports slang. "went off," "smash," and "cooked" came off the list for that reason; use them like a fan would, not as praise.
 
 <!-- banned:start -->
 - `dominant performance`
@@ -73,15 +72,13 @@ The first two use real Week 4 facts and show the NFL weaving every issue needs. 
 - `huge`
 - `elite`
 - `solid performance`
+- `stellar`
 - `masterclass`
 - `clinic`
 - `game-changer`
 - `league winner`
-- `went off`
 - `exploded for`
 - `feast`
-- `smash`
-- `cooked`
 - `chef's kiss`
 - `beast mode`
 - `levels to this`
@@ -102,6 +99,18 @@ The first two use real Week 4 facts and show the NFL weaving every issue needs. 
 - `doubters`
 - `arguably`
 - `on paper`
+- `nail-biter`
+- `edge of their seats`
+- `delve`
+- `testament to`
+- `it's worth noting`
+- `needless to say`
+- `all in all`
+- `in conclusion`
+- `a reminder that`
+- `tapestry`
+- `showcase`
+- `showcased`
 - `receipts`
 - `the receipt`
 - `audit`
@@ -112,21 +121,29 @@ The first two use real Week 4 facts and show the NFL weaving every issue needs. 
 - `autopsy`
 <!-- banned:end -->
 
-## Anti-patterns
+## The voice checks
 
-These are the habits that made past issues read badly. Items marked **(lint)** fail the `issue.lint` gate automatically; the editor catches the rest.
+`issue.lint` measures the parts of the guide a script can count. The thresholds live in `VOICE` in `newsletter/build.py`; change them there and here together. They were tuned on the 2026 Week 4 end-to-end issue (measured values below), which passes with room for a little more heat.
 
-- **Filler.** Openers like "What a week it was" or "Week 3 is in the books." Start with the story.
-- **Restating stats without a take.** "Allen scored 40.82. McCaffrey scored 22.6." is a box score, not writing. Every number needs a reason to be in the sentence.
-- **Vague praise or hype.** "Impressive," "huge," "dominant," "elite." Say what happened instead. **(lint, for the banned words)**
-- **Em dashes.** No more than three in the whole issue, none in headlines. Use a period or a comma. **(lint)**
-- **Exclamation marks and emoji.** None, except inside team names. **(lint)**
-- **The "It's not X. It's Y." move.** Once per issue at most. Past issues leaned on it until it stopped meaning anything. **(lint)**
-- **Extended metaphors.** No running bits about ledgers, audits, filings, solvency, receipts, or autopsies. One image, once, then move on.
-- **Number soup.** More than three numbers in one sentence. Pick the one that makes the point.
-- **Invented context.** Only say why something happened (injury, bye, a benching, a career high) if the brief says so, from the ESPN recap or the Sleeper injury status. If the brief has a stat line but no reason, give the line and stop. "Rice played 6 snaps" is a fact; "Rice got hurt" needs the recap that says it.
-- **Fantasy points with no football.** A recap that only trades fantasy scores ("won 162.88 to 133.30 behind 31.3 from Williams") is half the job. Say what Williams did on the field. **(schema gate, for recaps, the lead, and awards)**
-- **Rhetorical questions.** Answer them instead. **(lint: no question marks)**
-- **Clones.** Twelve blurbs of the same length, built the same way, starting with the same word. **(lint: no two ranking takes may start with the same word)**
-- **Mean for no reason.** If a line would sting without being funny, cut it.
-- **Labels instead of English.** No "W2," "PF/PA," "EP," or internal jargon in prose. "Points against" is fine; "PA" belongs in a table header. **(lint)**
+| Check | Limit | Supports this line of the guide | Week 4 issue measured |
+| --- | --- | --- | --- |
+| ALL-CAPS words per section | 3 | "Use occasional ALL CAPS for emotional outbursts." | WEEK4_CAPS_SECTION |
+| ALL-CAPS words in the issue | 10 | "Avoid excessive yelling." | WEEK4_CAPS_TOTAL |
+| Average sentence length | 13 words | "Favor short, blunt, declarative statements." | WEEK4_AVG |
+| Longest sentence | 32 words | "Avoid long explanations when a dismissive one-liner will do." | WEEK4_LONGEST |
+| Same short sentence (6 words or fewer) twice | 0 | "Avoid ... repeating signature catchphrases." | WEEK4_SHORT |
+| Same four-word phrase (3+ content words, no names or numbers) in two items | 0 | "Avoid ... repeating signature catchphrases." | WEEK4_GRAMS |
+| Exclamation marks outside team names | 4 | "Avoid excessive yelling." | WEEK4_EXCL |
+| Swear words | 4 | "occasional profanity" | WEEK4_SWEAR |
+| Em dashes | 3, none in headlines | house style; an AI tell | WEEK4_DASH |
+
+How they count:
+
+- **Sections** are lead, rankings, recaps, awards (with standouts, bench note, and injuries), transactions, and preview, each with its callout.
+- **ALL-CAPS words** are three or more capital letters that aren't a label: NFL team codes, positions, and terms like TD, FAAB, ESPN, and MVP don't count. Two-letter capitals don't count either; they're nearly always initials or nicknames (AJ, PB).
+- **Sentences** are measured in prose only: the dek, lead body, ranking takes, recap headlines and bodies, award bodies, the bench note, injury notes, transaction notes, preview lines, and callouts. Stat lines, names, and scores aren't prose. Decimals (23.8), initials (T.J.), and "vs." don't end a sentence.
+- **Catchphrases**: injury statuses like "Questionable." are data and are exempt.
+
+Also still checked: no emoji, at most one "It's not X. It's Y." (an AI tell), no internal labels like "W2" or "PF" in prose, and no two ranking takes opening with the same word. Rhetorical questions are allowed now; the guide wants them.
+
+What only the editor can judge, item by item against the guide, is in the editor's voice-fidelity checklist: [voice-fidelity.md](voice-fidelity.md).

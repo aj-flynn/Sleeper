@@ -4,6 +4,10 @@ Read by the writer and the editor. The `issue.facts` gate (`python3 newsletter/b
 
 ## The rules
 
+The voice ([Boston Connor](../voice/boston-connor.md)) is loud, biased, and absurd on purpose. None of that touches the facts. The guide's own constraints say scores, statistics, injuries, and transactions stay accurate and the irrational reasoning must be recognizable as commentary, not fabricated news. "Drake Maye is the best quarterback alive" is a take about a real stat line; "Maye was named Player of the Week" is a claim, and it needs the brief.
+
+- **Football first.** A fantasy score is the result; the stat line and the game are the story. The lead, every recap, and every award cite real box-score numbers (yards, catches, carries, touchdowns, snaps, field goals), and the schema gate fails if they don't.
+- **Real life is off limits.** Roast lineups, bids, and trades. Leave jobs, families, looks, and health out of it.
 - **Every number must come from the week's data brief** (`brief.md` / `brief.json` next to the issue) or be simple arithmetic on brief numbers (sums, differences, ranks). The Week 2 issue shipped a wrong derived number, which is why derived numbers now have to show their work: every number in the copy that isn't printed in the brief goes in the issue's `derived` list with the arithmetic (see "The derived list" below). The fact check recomputes each one.
 - **Which source wins.** Each kind of fact has one source of truth:
   - Fantasy points, lineups, bench, standings, records, transactions, and FAAB: the league on Sleeper. Fantasy points always come from the league matchups (`players_points`), never from Sleeper's generic PPR totals, because this league's scoring differs (Burrow scored 23.72 here and 25.72 under Sleeper's default).

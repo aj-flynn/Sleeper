@@ -275,13 +275,149 @@ EMOJI = re.compile("[\U0001F300-\U0001FAFF\u2600-\u27BF\uFE0F]")
 LABELS = re.compile(r"\b(?:W\d{1,2}|PF|PA|EP|PF/PA)\b")
 NOT_X_ITS_Y = re.compile(r"\b(?:it|this|that)(?:'|’)?s not [^.]{1,80}\.\s+(?:it|this|that)(?:'|’)?s\b", re.I)
 
+# Thresholds for the Boston Connor checks (.cursor/skills/newsletter/voice/boston-connor.md). Tuned on the
+# 2026 Week 4 issue; reference/voice.md documents what each one supports and the values it measured.
+VOICE = {
+    "caps_per_section": 3,       # "occasional ALL CAPS for emotional outbursts"
+    "caps_per_issue": 10,
+    "avg_sentence_words": 13.0,  # "short, blunt, declarative statements"
+    "max_sentence_words": 32,
+    "exclamations": 4,           # "avoid excessive yelling"
+    "profanity": 4,              # "occasional profanity"
+    "em_dashes": 3,
+}
+# Words in capitals that are labels, not yelling.
+ACRONYMS = set(
+    "QB RB WR TE K DEF FLEX SF TD TDS INT INTS FG FGS XP PAT FAAB ESPN NFL PPR UC MVP PR UTC OT IR PUP "
+    "AFC NFC MNF TNF SNF ET EDT EST PT AM PM II III IV JR SR NGS YAC DST HC OC DC "
+    "ARI ATL BAL BUF CAR CHI CIN CLE DAL DEN DET GB HOU IND JAX JAC KC LA LAC LAR LV MIA MIN NE NO NYG NYJ "
+    "PHI PIT SEA SF TB TEN WAS WSH".split()
+)
+PROFANITY = re.compile(r"\b(?:damn|dammit|goddamn|hell|shit\w*|crap\w*|ass|asses|bastards?|piss\w*|freaking|friggin\w*)\b", re.I)
+STOPWORDS = set(
+    "a an the and or but of to in on at for with from by as is was were are be been it its it's that this "
+    "they them their he his him she her we you i not no so than then just all one two three up out off".split()
+)
+# Prose the voice checks measure, by section. Data fields (lines, points, names, records) aren't prose.
+PROSE = {
+    "lead": [("lead", "dek"), ("lead", "body"), ("asides", "lead", "text")],
+    "rankings": [("rankings", "*", "take"), ("asides", "rankings", "text")],
+    "recaps": [("recaps", "*", "headline"), ("recaps", "*", "body"), ("asides", "recaps", "text")],
+    "awards": [("awards", "*", "body"), ("bench_note",), ("injuries", "*", "note"), ("asides", "awards", "text")],
+    "transactions": [("transactions", "waivers", "*", "note"), ("transactions", "free_agents", "*", "note"),
+                     ("transactions", "trades", "*", "summary"), ("transactions", "trades", "*", "note"),
+                     ("asides", "transactions", "text")],
+    "preview": [("preview", "note"), ("preview", "games", "*", "line"), ("asides", "preview", "text")],
+}
+# Every field shown on the page, by section, for the ALL-CAPS count.
+SECTIONS = {
+    "lead": ["lead", ("asides", "lead")], "rankings": ["rankings", ("asides", "rankings")],
+    "recaps": ["recaps", ("asides", "recaps")],
+    "awards": ["awards", "standouts", "bench_note", "injuries", ("asides", "awards")],
+    "transactions": ["transactions", ("asides", "transactions")], "preview": ["preview", ("asides", "preview")],
+}
+
 
 def team_names(data):
     return {r.get("team", "") for r in data.get("rankings", [])}
 
 
+def pick(data, path):
+    """Every string at a path like ('recaps', '*', 'body'), as (location, text)."""
+    found = [("", data)]
+    for key in path:
+        nxt = []
+        for where, v in found:
+            if key == "*" and isinstance(v, list):
+                nxt += [(f"{where}[{i + 1}]", x) for i, x in enumerate(v)]
+            elif isinstance(v, dict) and key in v:
+                nxt.append((f"{where}.{key}".lstrip("."), v[key]))
+        found = nxt
+    out = []
+    for where, v in found:
+        if isinstance(v, str):
+            out.append((where, v))
+        elif isinstance(v, list):
+            out += [(f"{where}[{i + 1}]", x) for i, x in enumerate(v) if isinstance(x, str)]
+    return out
+
+
+def clean(text, names):
+    text = re.sub(r"<[^>]+>", "", text).replace("&amp;", "&")
+    for t in names:
+        if t:
+            text = text.replace(t, "Team")
+    return text
+
+
+ABBREV = re.compile(r"\b(?:vs|Jr|Sr|St|Mr|No|Dr)\.|\b[A-Z]\.(?=[A-Z]?\.?\s)")
+
+
+def sentences(text):
+    """Split prose into sentences without breaking on 23.8, T.J., or vs."""
+    guarded = ABBREV.sub(lambda m: m.group(0).replace(".", "\u2024"), text)
+    parts = re.split(r"(?<=[.?!])[\"”’)]*\s+", guarded)
+    return [p.replace("\u2024", ".").strip() for p in parts if re.search(r"[A-Za-z0-9]", p)]
+
+
+def words(sentence):
+    return re.findall(r"[A-Za-z0-9’'$.\-]+", sentence)
+
+
+def caps_words(text):
+    """Words in capitals that read as yelling: three or more capital letters and not an acronym.
+    Two-letter capitals are almost always initials or nicknames (AJ, PB), so they don't count."""
+    hits = []
+    for m in re.finditer(r"(?<![\w’'])[A-Z]{3,}(?:[’'][A-Z]+)?(?![\w’'])", text):
+        w = m.group(0).replace("’", "'")
+        if w in ACRONYMS or (w.endswith("S") and w[:-1] in ACRONYMS) or w.split("'")[0] in ACRONYMS:
+            continue
+        hits.append(m.group(0))
+    return hits
+
+
+STATUS = {"questionable", "doubtful", "out", "probable", "injured reserve", "on ir", "out for the season"}
+
+
+def voice_metrics(data):
+    """What the Boston Connor checks measure: capitals by section, sentence length, repeated phrasing."""
+    names = sorted(team_names(data), key=len, reverse=True)
+    caps = {}
+    for sec, parts in SECTIONS.items():
+        found = []
+        for part in parts:
+            node = data.get(part) if isinstance(part, str) else (data.get(part[0]) or {}).get(part[1])
+            for s in strings(node or ""):
+                found += caps_words(clean(s, names))
+        caps[sec] = found
+    items = [(where, clean(text, names)) for paths in PROSE.values() for path in paths for where, text in pick(data, path)]
+    sents = [(where, s) for where, text in items for s in sentences(text)]
+    lengths = [len(words(s)) for _, s in sents]
+    short = {}
+    for where, s in sents:
+        key = re.sub(r"[^a-z' ]", "", s.lower().replace("’", "'")).strip()
+        if 0 < len(key.split()) <= 6 and key not in STATUS:
+            short.setdefault(key, []).append(where)
+    grams = {}
+    for where, text in items:
+        toks = re.findall(r"[A-Za-z’']+|\S", text)
+        for i in range(len(toks) - 3):
+            g = toks[i:i + 4]
+            if all(re.fullmatch(r"[a-z’']+", t) for t in g) and sum(t not in STOPWORDS for t in g) >= 3:
+                grams.setdefault(" ".join(g), set()).add(where)
+    return {
+        "caps_by_section": caps,
+        "sentences": len(lengths),
+        "avg_sentence_words": round(sum(lengths) / len(lengths), 2) if lengths else 0.0,
+        "longest": max(sents, key=lambda x: len(words(x[1])), default=("", "")),
+        "repeated_short_sentences": {k: v for k, v in short.items() if len(v) > 1},
+        "repeated_phrases": {k: sorted(v) for k, v in grams.items() if len(v) > 1},
+    }
+
+
 def lint(data):
-    """The voice rules a script can check for certain. The editor checks the rest."""
+    """The mechanical rules a script can check for certain: banned filler, punctuation, and the measurable
+    parts of the Boston Connor voice. The editor checks the rest against the guide itself."""
     prose = re.sub(r"<[^>]+>", "", "\n".join(strings(data)))
     names = sorted(team_names(data), key=len, reverse=True)
     unnamed = prose
@@ -294,17 +430,18 @@ def lint(data):
         if hits:
             problems.append(f"banned phrase x{hits}: {phrase!r}")
     dashes = prose.count("\u2014")
-    if dashes > 3:
-        problems.append(f"{dashes} em dashes in the issue (limit 3)")
+    if dashes > VOICE["em_dashes"]:
+        problems.append(f"{dashes} em dashes in the issue (limit {VOICE['em_dashes']})")
     heads = [data.get("lead", {}).get("headline", "")] + [r.get("headline", "") for r in data.get("recaps", [])]
     if any("\u2014" in h for h in heads):
         problems.append("em dash in a headline (none allowed)")
-    if "!" in unnamed:
-        problems.append(f"{unnamed.count('!')} exclamation marks (none outside team names)")
+    if unnamed.count("!") > VOICE["exclamations"]:
+        problems.append(f"{unnamed.count('!')} exclamation marks outside team names (limit {VOICE['exclamations']}; that's excessive yelling)")
     if EMOJI.search(unnamed):
         problems.append("emoji in the copy (none allowed)")
-    if "?" in unnamed:
-        problems.append(f"{unnamed.count('?')} question marks (answer the question instead)")
+    swears = PROFANITY.findall(unnamed)
+    if len(swears) > VOICE["profanity"]:
+        problems.append(f"{len(swears)} swear words (limit {VOICE['profanity']}; profanity is occasional): {', '.join(swears)}")
     if len(NOT_X_ITS_Y.findall(unnamed)) > 1:
         problems.append("the \"It's not X. It's Y.\" move appears more than once")
     labels = sorted(set(LABELS.findall(unnamed)))
@@ -317,6 +454,24 @@ def lint(data):
     for word, teams in firsts.items():
         if len(teams) > 1:
             problems.append(f"ranking takes for {', '.join(teams)} all start with {word!r}; vary the openings")
+
+    v = voice_metrics(data)
+    total = 0
+    for sec, hits in v["caps_by_section"].items():
+        total += len(hits)
+        if len(hits) > VOICE["caps_per_section"]:
+            problems.append(f"{len(hits)} ALL-CAPS words in {sec} (limit {VOICE['caps_per_section']} per section): {', '.join(hits)}")
+    if total > VOICE["caps_per_issue"]:
+        problems.append(f"{total} ALL-CAPS words in the issue (limit {VOICE['caps_per_issue']}); caps are for the occasional outburst")
+    if v["avg_sentence_words"] > VOICE["avg_sentence_words"]:
+        problems.append(f"average sentence is {v['avg_sentence_words']} words (limit {VOICE['avg_sentence_words']}); go shorter and blunter")
+    where, longest = v["longest"]
+    if len(words(longest)) > VOICE["max_sentence_words"]:
+        problems.append(f"{where}: a {len(words(longest))}-word sentence (limit {VOICE['max_sentence_words']}): “{longest[:80]}…”")
+    for s, spots in v["repeated_short_sentences"].items():
+        problems.append(f"catchphrase repeated: “{s}” in {', '.join(spots)}")
+    for g, spots in v["repeated_phrases"].items():
+        problems.append(f"phrase repeated across items: “{g}” in {', '.join(spots)}")
     return problems
 
 

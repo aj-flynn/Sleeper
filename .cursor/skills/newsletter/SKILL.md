@@ -9,7 +9,7 @@ This skill is both the runbook and the textbook. Read the overview, then each st
 
 ## 1. Overview
 
-**What it is.** A weekly newsletter for Rebuilders Anonymous, a 12-team dynasty fantasy football league on Sleeper ([league details](reference/league.md)). Each issue is one self-contained HTML page with a lead story, power rankings, six matchup recaps, awards, transactions, and next week's games. Its signature: the fantasy story is told through the real football. A fantasy score is explained by the box-score line and the NFL game that produced it.
+**What it is.** A weekly newsletter for Rebuilders Anonymous, a 12-team dynasty fantasy football league on Sleeper ([league details](reference/league.md)). Each issue is one self-contained HTML page with a lead story, power rankings, six matchup recaps, awards, transactions, and next week's games. Its signature: the fantasy story is told through the real football. A fantasy score is explained by the box-score line and the NFL game that produced it. It's written in one voice, **Boston Connor**: a loud, overconfident, wildly biased Boston sports fan. The owner's guide, [`voice/boston-connor.md`](voice/boston-connor.md), is the single source of truth for tone. The takes are absurd on purpose; the facts never are.
 
 **How it's made.** Scripts do everything with one right answer. Models do only the two jobs that need judgment: writing and editing. A human approves before anything publishes.
 
@@ -34,7 +34,7 @@ flowchart TD
 
 - Every number traces to the brief, or to arithmetic on the brief that the fact check has recomputed.
 - Every recap, the lead, and every award explain the fantasy result through real box-score numbers.
-- The writing meets the [voice rules](reference/voice.md): it leads with a take, every joke rides on a fact, it roasts decisions and not people, and it uses none of the banned phrases.
+- The writing is Boston Connor, per [the guide](voice/boston-connor.md): the lead and every recap follow its five-step delivery, sentences are short and blunt, ALL CAPS is rare, not every sentence is a joke, no catchphrase repeats, and every absurd take reads as opinion about a real fact. The editor grades every item of the guide ([checklist](reference/voice-fidelity.md)).
 - The page reads well on a phone: no sideways scroll, every manager can find their team in one tap, fonts embedded, nothing loaded from the network.
 - The editor has no open blocking notes, and the owner has approved the pull request.
 
@@ -96,22 +96,22 @@ Each step has the same parts: what it does, why it exists, its inputs and output
 
 ### Step 4: Write the issue (writer subagent, Opus)
 
-- **What.** The writer reads the brief, picks the week's three most surprising facts, and writes every section of `issue.json` in the [fixed section order](reference/issue-schema.md), following the [voice rules](reference/voice.md) and [fact rules](reference/facts.md). It also writes `writer.json` with its story picks.
-- **Why a model.** Finding the story and writing it so friends laugh because it's true is judgment. This is the reason the newsletter exists, so it gets the strongest writing model: **Opus**, pinned as `claude-opus-5-5[effort=high]` in `.cursor/agents/writer.md`.
-- **In → out.** `brief.md`, `brief.json`, the reference files, and the previous issue (for structure only) → `issue.json` (with its `derived` list) and `writer.json`.
+- **What.** The writer reads the brief, picks the week's three most surprising facts, and writes every section of `issue.json` in the [fixed section order](reference/issue-schema.md), following the [Boston Connor guide](voice/boston-connor.md) exactly (with [worked examples](reference/voice.md)) and the [fact rules](reference/facts.md). It also writes `writer.json` with its story picks.
+- **Why a model.** Finding the story and landing it in a very specific comic voice without bending a single fact is judgment. This is the reason the newsletter exists, so it gets the strongest writing model: **Opus**, pinned as `claude-opus-5-5[effort=high]` in `.cursor/agents/writer.md`.
+- **In → out.** The voice guide, `brief.md`, `brief.json`, the reference files, and the previous issue (for structure only) → `issue.json` (with its `derived` list) and `writer.json`.
 - **Run by.** The main agent hands off to the `writer` subagent (see [Handoffs](#4-handoffs)).
 - **Gates `issue.present`, `issue.schema`, `issue.lint`, `issue.facts`.** `python3 newsletter/run.py check-issue --week N`, which the writer runs itself until it exits 0:
   - *schema*: schema 3 holds and the template renders, the lead, recaps, and awards cite box-score stats, and there are 12 rankings, 6 recaps with two key performers a side, 4 or 5 awards, and 6 preview games.
-  - *lint*: no banned phrases, at most three em dashes and none in headlines, no exclamation marks, emoji, or question marks outside team names, at most one "It's not X. It's Y.", no internal labels like "W2" or "PF", and no two ranking takes starting with the same word.
+  - *lint*: no banned filler, clichés, or vague praise (the guide's words, like fraud, bum, and pathetic, are allowed); the Boston Connor counts: at most 3 ALL-CAPS words per section and 10 per issue, an average sentence of 13 words or fewer and none over 32, no short sentence or four-word phrase repeated as a catchphrase, at most 4 exclamation marks and 4 swear words; plus at most three em dashes (none in headlines), no emoji, no internal labels like "W2", and no two ranking takes starting with the same word. [Thresholds and why](reference/voice.md#the-voice-checks).
   - *facts*: every number traces to the brief or to a recomputed `derived` entry, and rankings, recaps, key performers, standouts, preview pairings, and waiver bids match the brief field by field ([what it checks](reference/facts.md#what-the-fact-check-verifies)).
 - **Failure and fix.** Each problem is one line, such as `not in brief: 17.64 in "Maye for Hurts ..."` or `recaps[2]: margin is '39.2', the brief says '39.16'`. The writer fixes the copy, or adds the arithmetic to `derived`, and reruns. It never edits the brief, the banned list, or the checks.
 
 ### Step 5: Review the draft (editor subagent, Sonnet)
 
-- **What.** The editor checks what scripts can't: that each claim is attached to the right player and game, that reasons come from ESPN's text, that superlatives are true, that each `derived` number means what its sentence says, and that the writing meets the voice rules and quality bar. It returns a verdict with numbered notes, each **blocking** (facts, invented context, banned phrasing the lint missed, roasting a person, a section that misses its job) or **non-blocking** (taste).
+- **What.** The editor checks what scripts can't: that each claim is attached to the right player and game, that reasons come from ESPN's text, that superlatives are true, that each `derived` number means what its sentence says, and that every absurd take reads as commentary rather than news. Then it grades the draft against **every item of the Boston Connor guide** in a `voice_fidelity` section ([the checklist](reference/voice-fidelity.md)), including the five-step delivery for the lead and each recap, quoted step by step. It returns a verdict with numbered notes, each **blocking** (facts, invented news or context, any voice miss that breaks the guide, banned phrasing the lint missed, real-life roasting, a section that misses its job) or **non-blocking** (taste within the voice).
 - **Why a model, and why a different one.** Critique is judgment too, but it's reading against a checklist rather than creating, so **Sonnet** (`claude-sonnet-5-5[effort=high]`, pinned in `.cursor/agents/editor.md`) is enough. A second model also doesn't share the writer's blind spots. The editor is read-only (`readonly: true`): it can never edit the issue.
-- **In → out.** `brief.md`, `brief.json`, `issue.json`, `verification.json`, and the reference files → a JSON verdict in its reply, which the main agent saves with `python3 newsletter/run.py record-review --week N --from <file>`. That command validates the shape, stamps the verdict with the reviewed issue's SHA-256 hash and the editor's pinned model, and writes `review.json` (keeping earlier rounds as `review.r1.json` and so on).
-- **Gate `review.verdict`.** `python3 newsletter/run.py check-review --week N`: `review.json` has a valid shape, `verdict` is `approve` exactly when there are no blocking notes, and its model matches the editor's agent file.
+- **In → out.** The voice guide, the voice-fidelity checklist, `brief.md`, `brief.json`, `issue.json`, `verification.json`, and the reference files → a JSON verdict in its reply, which the main agent saves with `python3 newsletter/run.py record-review --week N --from <file>`. That command validates the shape, stamps the verdict with the reviewed issue's SHA-256 hash and the editor's pinned model, and writes `review.json` (keeping earlier rounds as `review.r1.json` and so on).
+- **Gate `review.verdict`.** `python3 newsletter/run.py check-review --week N`: `review.json` has a valid shape, `verdict` is `approve` exactly when there are no blocking notes, `voice_fidelity` has a pass or miss with evidence for every guide item and every delivery unit, every miss cites a blocking note, and its model matches the editor's agent file.
 - **Failure and fix.** A malformed verdict fails `record-review` with the reason; ask the editor again.
 
 ### Step 6: Address blocking notes (writer subagent, Opus)
@@ -158,8 +158,8 @@ The main agent runs every script and is the only one that hands work to a subage
 
 | Subagent | Agent file | Model | Reads | Writes | Gate the main agent runs after |
 | --- | --- | --- | --- | --- | --- |
-| writer | `.cursor/agents/writer.md` | `claude-opus-5-5[effort=high]` | `brief.md`, `brief.json`, `reference/voice.md`, `reference/facts.md`, `reference/issue-schema.md`, the previous `issue.json` (structure), `review.json` (revisions) | `issue.json`, `writer.json` | `check-issue`, then `check-review` on revisions |
-| editor | `.cursor/agents/editor.md` | `claude-sonnet-5-5[effort=high]` | `brief.md`, `brief.json`, `issue.json`, `verification.json`, `reference/voice.md`, `reference/facts.md` | nothing: returns the verdict JSON | `record-review`, then `check-review` |
+| writer | `.cursor/agents/writer.md` | `claude-opus-5-5[effort=high]` | `voice/boston-connor.md` (follow exactly), `reference/voice.md`, `reference/voice-fidelity.md`, `reference/facts.md`, `reference/issue-schema.md`, `brief.md`, `brief.json`, the previous `issue.json` (structure), `review.json` (revisions) | `issue.json`, `writer.json` | `check-issue`, then `check-review` on revisions |
+| editor | `.cursor/agents/editor.md` | `claude-sonnet-5-5[effort=high]` | `voice/boston-connor.md` (review against it), `reference/voice-fidelity.md`, `reference/voice.md`, `reference/facts.md`, `brief.md`, `brief.json`, `issue.json`, `verification.json` | nothing: returns the verdict JSON with `voice_fidelity` and notes | `record-review`, then `check-review` |
 
 The main agent's loop for week N:
 
@@ -183,7 +183,7 @@ The pipeline separates what's specific to this league from what isn't. To run it
 1. **League ID and season.** Change `LEAGUE_ID` in `newsletter/fetch_week.py` (or pass `--league`) and pass `--season`. Everything Sleeper-side, including scoring, lineup slots, and team names, is read from the league itself.
 2. **League size.** The checks assume 12 teams and 6 games: `validate()` in `newsletter/build.py`, `brief_problems()` in `newsletter/run.py`, and the Find-your-team count in `newsletter/verify_html.py`. Make those numbers come from the brief's team count.
 3. **Rankings.** Elo with K = 32 suits a 14-week season. If the league wants another order, change `elo_table()` and keep it in code, so the order stays a fact and not a taste.
-4. **Voice.** Rewrite `reference/voice.md` for the new group: its in-jokes, house brand, and banned phrases. Keep the ten rules; they aren't specific to this league.
+4. **Voice.** Get a voice guide from the new league's owner and commit it verbatim under `voice/`. Point the writer and editor agent files and `VOICE_GUIDE` in `run.py` at it, rewrite the item table in `reference/voice-fidelity.md` to match the new guide's items, rewrite the examples and banned list in `reference/voice.md`, and retune the `VOICE` thresholds in `build.py` on a real issue.
 5. **League facts.** Replace `reference/league.md` (scoring, teams, history).
 6. **Design.** Pick a template with the owner using `.cursor/skills/frontend-design/SKILL.md`, and set `TEMPLATE` in `build.py`. The HTML gate works for any template that keeps the `#teams` jump list.
 7. **Another platform** (ESPN or Yahoo fantasy). Rewrite only `fetch_raw()` so it saves the same `raw/` shapes, or adapt `build_brief()`. Every step after the brief is platform-neutral.
@@ -191,7 +191,9 @@ The pipeline separates what's specific to this league from what isn't. To run it
 
 ## Reference
 
-- [reference/voice.md](reference/voice.md): voice rules, examples, banned phrases, anti-patterns.
+- [voice/boston-connor.md](voice/boston-connor.md): the owner's voice guide, verbatim. The single source of truth for tone.
+- [reference/voice.md](reference/voice.md): the guide applied to real Week 4 facts, the banned phrases, and the voice checks with their thresholds.
+- [reference/voice-fidelity.md](reference/voice-fidelity.md): the editor's item-by-item checklist against the guide.
 - [reference/facts.md](reference/facts.md): sources of truth, the fact check, the `derived` list, what the brief contains.
 - [reference/issue-schema.md](reference/issue-schema.md): section order and every field of schema 3.
 - [reference/league.md](reference/league.md): the league, teams, and the Elo formula.

@@ -251,6 +251,53 @@ def review_shape(review):
     blocking = [n for n in notes if n.get("severity") == "blocking"]
     if (review.get("verdict") == "approve") != (not blocking):
         p.append("verdict must be 'approve' exactly when there are no blocking notes")
+    return p + voice_fidelity_shape(review.get("voice_fidelity"), {n.get("id") for n in blocking})
+
+
+VOICE_GUIDE = ".cursor/skills/newsletter/voice/boston-connor.md"
+FIDELITY = REPO / ".cursor" / "skills" / "newsletter" / "reference" / "voice-fidelity.md"
+UNITS = ["lead"] + [f"recaps[{i}]" for i in range(1, 7)]
+
+
+def voice_items():
+    """The guide items the editor must check, read from the table in reference/voice-fidelity.md."""
+    text = FIDELITY.read_text(encoding="utf-8")
+    block = re.search(r"<!-- voice-items:start -->(.*?)<!-- voice-items:end -->", text, re.S).group(1)
+    return re.findall(r"^\| `([\w.]+)` \|", block, re.M)
+
+
+def voice_fidelity_shape(vf, blocking_ids):
+    """Every guide item has a pass or miss with evidence; every miss points at a blocking note."""
+    if not isinstance(vf, dict):
+        return ["voice_fidelity section is missing (see reference/voice-fidelity.md)"]
+    p = []
+    if vf.get("guide") != VOICE_GUIDE:
+        p.append(f"voice_fidelity.guide must be {VOICE_GUIDE}")
+    items = {i.get("id"): i for i in vf.get("items") or [] if isinstance(i, dict)}
+    for item_id in voice_items():
+        it = items.get(item_id)
+        if not it:
+            p.append(f"voice_fidelity: no result for {item_id}")
+            continue
+        if it.get("result") not in ("pass", "miss") or not it.get("evidence"):
+            p.append(f"voice_fidelity {item_id}: needs result 'pass' or 'miss' and evidence")
+        if it.get("result") == "miss" and not set(it.get("note_ids") or []) & blocking_ids:
+            p.append(f"voice_fidelity {item_id}: a miss must cite at least one blocking note")
+    units = {u.get("unit"): u for u in (items.get("delivery") or {}).get("units") or [] if isinstance(u, dict)}
+    for unit in UNITS:
+        u = units.get(unit)
+        if not u:
+            p.append(f"voice_fidelity delivery: no check for {unit}")
+            continue
+        steps = u.get("steps") or {}
+        if u.get("result") == "pass" and not all(steps.get(str(s)) for s in range(1, 6)):
+            p.append(f"voice_fidelity delivery {unit}: a pass needs a quote for each of steps 1-5")
+        if u.get("result") == "miss" and not set(u.get("note_ids") or []) & blocking_ids:
+            p.append(f"voice_fidelity delivery {unit}: a miss must cite at least one blocking note")
+        if u.get("result") not in ("pass", "miss"):
+            p.append(f"voice_fidelity delivery {unit}: result must be 'pass' or 'miss'")
+    if any(u.get("result") == "miss" for u in units.values()) and (items.get("delivery") or {}).get("result") != "miss":
+        p.append("voice_fidelity delivery: a unit missed, so the item is a miss")
     return p
 
 
@@ -289,7 +336,8 @@ def stage_check_review(run):
     if run.record("review.verdict", "fail" if p else "pass", "check-review",
                   p or {"round": review.get("round"), "verdict": review["verdict"],
                         "blocking": [n["id"] for n in review["notes"] if n["severity"] == "blocking"],
-                        "non_blocking": [n["id"] for n in review["notes"] if n["severity"] == "non-blocking"]},
+                        "non_blocking": [n["id"] for n in review["notes"] if n["severity"] == "non-blocking"],
+                        "voice_fidelity": {i["id"]: i["result"] for i in review["voice_fidelity"]["items"]}},
                   "Rerun the editor and record its verdict with record-review.") != "pass":
         return "fail"
 
@@ -435,7 +483,8 @@ def stage_approval(run, pr=None, record_pending=False):
 HANDOFF = {
     "writer": {
         "model": "writer",
-        "reads": ["brief.md", "brief.json", ".cursor/skills/newsletter/reference/voice.md",
+        "reads": [VOICE_GUIDE + " (follow exactly)", "brief.md", "brief.json", ".cursor/skills/newsletter/reference/voice.md",
+                  ".cursor/skills/newsletter/reference/voice-fidelity.md",
                   ".cursor/skills/newsletter/reference/issue-schema.md", ".cursor/skills/newsletter/reference/facts.md",
                   "the previous issue.json (structure only)", "review.json (revision rounds only)"],
         "writes": ["issue.json", "writer.json"],
@@ -443,7 +492,8 @@ HANDOFF = {
     },
     "editor": {
         "model": "editor",
-        "reads": ["brief.md", "brief.json", "issue.json", ".cursor/skills/newsletter/reference/voice.md",
+        "reads": [VOICE_GUIDE + " (review against it)", ".cursor/skills/newsletter/reference/voice-fidelity.md",
+                  "brief.md", "brief.json", "issue.json", ".cursor/skills/newsletter/reference/voice.md",
                   ".cursor/skills/newsletter/reference/facts.md", "verification.json (script gate results)"],
         "writes": ["nothing; returns the verdict JSON, which the main agent saves with record-review"],
         "gate": "check-review",
