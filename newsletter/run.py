@@ -486,7 +486,7 @@ HANDOFF = {
         "reads": [VOICE_GUIDE + " (follow exactly)", "brief.md", "brief.json", ".cursor/skills/newsletter/reference/voice.md",
                   ".cursor/skills/newsletter/reference/voice-fidelity.md",
                   ".cursor/skills/newsletter/reference/issue-schema.md", ".cursor/skills/newsletter/reference/facts.md",
-                  "the previous issue.json (structure only)", "review.json (revision rounds only)"],
+                  "the previous week's issue.json, if any (structure only)", "review.json (revision rounds only)"],
         "writes": ["issue.json", "writer.json"],
         "gate": "check-issue (first draft), check-review (revisions)",
     },

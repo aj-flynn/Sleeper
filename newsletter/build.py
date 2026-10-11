@@ -376,7 +376,8 @@ def caps_words(text):
     return hits
 
 
-STATUS = {"questionable", "doubtful", "out", "probable", "injured reserve", "on ir", "out for the season"}
+# Injury status lines ("Sleeper: questionable (hamstring).") are data and may repeat across players.
+STATUS = re.compile(r"^(?:(?:sleeper|espn)(?: status)? )?(?:questionable|doubtful|out|probable|injured reserve|on ir|out for the season)\b(?: [a-z']+)?$")
 
 
 def voice_metrics(data):
@@ -396,7 +397,8 @@ def voice_metrics(data):
     short = {}
     for where, s in sents:
         key = re.sub(r"[^a-z' ]", "", s.lower().replace("’", "'")).strip()
-        if 0 < len(key.split()) <= 6 and key not in STATUS:
+        key = re.sub(r"\s+", " ", key)
+        if 0 < len(key.split()) <= 6 and not STATUS.match(key):
             short.setdefault(key, []).append(where)
     grams = {}
     for where, text in items:

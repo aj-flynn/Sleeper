@@ -142,7 +142,7 @@ How they count:
 - **Sections** are lead, rankings, recaps, awards (with standouts, bench note, and injuries), transactions, and preview, each with its callout.
 - **ALL-CAPS words** are three or more capital letters that aren't a label: NFL team codes, positions, and terms like TD, FAAB, ESPN, and MVP don't count. Two-letter capitals don't count either; they're nearly always initials or nicknames (AJ, PB).
 - **Sentences** are measured in prose only: the dek, lead body, ranking takes, recap headlines and bodies, award bodies, the bench note, injury notes, transaction notes, preview lines, and callouts. Stat lines, names, and scores aren't prose. Decimals (23.8), initials (T.J.), and "vs." don't end a sentence.
-- **Catchphrases**: injury statuses like "Questionable." are data and are exempt.
+- **Catchphrases**: injury status lines like "Questionable." or "Sleeper: questionable (hamstring)." are data, so they may repeat across players. Everything else counts, including transaction notes: "Wednesday run." on six waiver claims is a catchphrase.
 
 Also still checked: no emoji, at most one "It's not X. It's Y." (an AI tell), no internal labels like "W2" or "PF" in prose, and no two ranking takes opening with the same word. Rhetorical questions are allowed now; the guide wants them.
 

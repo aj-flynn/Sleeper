@@ -207,6 +207,13 @@ def test_lint_fails_repeated_catchphrase(issue):
     assert any("catchphrase repeated" in p for p in build.lint(bad))
 
 
+def test_injury_status_lines_may_repeat(issue):
+    ok = copy.deepcopy(issue)
+    for inj in ok["injuries"][:3]:
+        inj["note"] = inj["note"].rstrip() + " Sleeper: questionable (hamstring)."
+    assert not any("catchphrase" in p for p in build.lint(ok))
+
+
 def test_lint_fails_long_sentence_and_long_average(issue):
     bad = copy.deepcopy(issue)
     bad["lead"]["body"][0] += " " + " ".join(["and then the team kept on playing"] * 6) + "."

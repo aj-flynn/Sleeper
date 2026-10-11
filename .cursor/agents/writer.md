@@ -22,7 +22,7 @@ The guide's constraints are also yours: scores, stats, injuries, and transaction
 4. `.cursor/skills/newsletter/reference/facts.md`: what counts as a fact and which source wins.
 5. `.cursor/skills/newsletter/reference/issue-schema.md`: section order and every field of `issue.json`.
 6. `<dir>/brief.md` end to end, with `<dir>/brief.json` for exact values. This is your only source.
-7. The previous issue's `issue.json`, for structure only. Never reuse its sentences.
+7. The previous week's `issue.json` under `newsletter/issues/`, for structure only, if one exists (otherwise the schema file is enough). Never reuse its sentences, and never start from an older draft of the week you are writing.
 8. On a revision round: `<dir>/review.json`, the editor's verdict, including its `voice_fidelity` section.
 
 ## Write

@@ -98,7 +98,7 @@ Each step has the same parts: what it does, why it exists, its inputs and output
 
 - **What.** The writer reads the brief, picks the week's three most surprising facts, and writes every section of `issue.json` in the [fixed section order](reference/issue-schema.md), following the [Boston Connor guide](voice/boston-connor.md) exactly (with [worked examples](reference/voice.md)) and the [fact rules](reference/facts.md). It also writes `writer.json` with its story picks.
 - **Why a model.** Finding the story and landing it in a very specific comic voice without bending a single fact is judgment. This is the reason the newsletter exists, so it gets the strongest writing model: **Opus**, pinned as `claude-opus-5-5[effort=high]` in `.cursor/agents/writer.md`.
-- **In → out.** The voice guide, `brief.md`, `brief.json`, the reference files, and the previous issue (for structure only) → `issue.json` (with its `derived` list) and `writer.json`.
+- **In → out.** The voice guide, `brief.md`, `brief.json`, the reference files, and the previous week's issue if one exists (for structure only, never an older draft of this week) → `issue.json` (with its `derived` list) and `writer.json`.
 - **Run by.** The main agent hands off to the `writer` subagent (see [Handoffs](#4-handoffs)).
 - **Gates `issue.present`, `issue.schema`, `issue.lint`, `issue.facts`.** `python3 newsletter/run.py check-issue --week N`, which the writer runs itself until it exits 0:
   - *schema*: schema 3 holds and the template renders, the lead, recaps, and awards cite box-score stats, and there are 12 rankings, 6 recaps with two key performers a side, 4 or 5 awards, and 6 preview games.
@@ -158,14 +158,15 @@ The main agent runs every script and is the only one that hands work to a subage
 
 | Subagent | Agent file | Model | Reads | Writes | Gate the main agent runs after |
 | --- | --- | --- | --- | --- | --- |
-| writer | `.cursor/agents/writer.md` | `claude-opus-5-5[effort=high]` | `voice/boston-connor.md` (follow exactly), `reference/voice.md`, `reference/voice-fidelity.md`, `reference/facts.md`, `reference/issue-schema.md`, `brief.md`, `brief.json`, the previous `issue.json` (structure), `review.json` (revisions) | `issue.json`, `writer.json` | `check-issue`, then `check-review` on revisions |
+| writer | `.cursor/agents/writer.md` | `claude-opus-5-5[effort=high]` | `voice/boston-connor.md` (follow exactly), `reference/voice.md`, `reference/voice-fidelity.md`, `reference/facts.md`, `reference/issue-schema.md`, `brief.md`, `brief.json`, the previous week's `issue.json` if any (structure), `review.json` (revisions) | `issue.json`, `writer.json` | `check-issue`, then `check-review` on revisions |
 | editor | `.cursor/agents/editor.md` | `claude-sonnet-5-5[effort=high]` | `voice/boston-connor.md` (review against it), `reference/voice-fidelity.md`, `reference/voice.md`, `reference/facts.md`, `brief.md`, `brief.json`, `issue.json`, `verification.json` | nothing: returns the verdict JSON with `voice_fidelity` and notes | `record-review`, then `check-review` |
 
 The main agent's loop for week N:
 
-1. `python3 newsletter/run.py --week N`. It runs steps 1 to 3 and stops with exit 3 at `issue.present`.
-2. Invoke the `writer` subagent (`/writer`, or the Task tool with the writer's agent file) with the issue folder and week. When it returns, run `python3 newsletter/run.py check-issue --week N`. If it fails, resume the writer with the output.
-3. Invoke the `editor` subagent with the issue folder. Save its JSON reply to a file and run `python3 newsletter/run.py record-review --week N --from <file>`.
+0. **Redoing a week that already has an issue?** The run only stops for the writer when there is no `issue.json`, so move the old copy out first: `cd newsletter/issues/<season>-week<N> && rm -rf issue.json writer.json review*.json issue.html screenshots verification.json`. Keep `raw/` only if you don't want fresh data.
+1. `python3 newsletter/run.py --week N` (add `--refresh` to download fresh data even if `raw/` holds a finished week). It runs steps 1 to 3 and stops with exit 3 at `issue.present`.
+2. Invoke the `writer` subagent with the issue folder and week: `/writer` in the Cursor chat, or the Task tool with the writer's agent type. If the custom agent isn't registered in your session (agent files load when a session starts), launch a general-purpose subagent on the same model (`claude-opus-5-5-high`) and give it the body of `.cursor/agents/writer.md` as its instructions; never fall back to a different model. When it returns, run `python3 newsletter/run.py check-issue --week N`. If it fails, resume the writer with the output.
+3. Invoke the `editor` subagent with the issue folder (same fallback: a general-purpose subagent on `claude-sonnet-5-5-high` with the body of `.cursor/agents/editor.md`, told it is read-only). Save its JSON reply to a file outside the issue folder and run `python3 newsletter/run.py record-review --week N --from <file>`.
 4. If the verdict has blocking notes, resume the writer with `review.json` (step 6), then run `check-issue` and `check-review`. Repeat the editor if the fixes were substantial.
 5. `python3 newsletter/run.py --week N` again. It reuses the fetch, re-checks everything, renders, verifies, runs the checklist, and exits 0 with `owner.approved` pending.
 6. Commit, push, and open the draft PR (step 10).
