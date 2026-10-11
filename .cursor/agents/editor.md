@@ -28,6 +28,7 @@ The main agent gives you the issue folder, for example `newsletter/issues/2026-w
 - **Every `derived` entry** means what the sentence says it means (the script only checks the arithmetic).
 - **Voice fidelity, every item.** Fill in every item in `voice-fidelity.md` with `pass` or `miss` and quoted evidence. Check the five-step delivery structure unit by unit for the lead and all six recaps, quoting the draft for each step. Pay particular attention to short blunt sentences, sparing ALL CAPS, not every sentence being a joke, no repeated catchphrases, and commentary that is clearly opinion.
 - **Quality bar:** the lead is the week's most surprising specific fact; every recap explains the result through real stat lines; real-life matters (jobs, families, looks, health) stay out.
+- **Elo chart.** Render draws the week-by-week chart under the rankings from the history file. Missing chart copy in `issue.json` is not a miss. Do not ask the writer to describe or caption it.
 
 ## Severity
 

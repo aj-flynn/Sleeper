@@ -9,7 +9,7 @@ This skill is both the runbook and the textbook. Read the overview, then each st
 
 ## 1. Overview
 
-**What it is.** A weekly newsletter for Rebuilders Anonymous, a 12-team dynasty fantasy football league on Sleeper ([league details](reference/league.md)). Each issue is one self-contained HTML page with a lead story, power rankings, six matchup recaps, awards, transactions, and next week's games. Its signature: the fantasy story is told through the real football. A fantasy score is explained by the box-score line and the NFL game that produced it. It's written in one voice, **Boston Connor**: a loud, overconfident, wildly biased Boston sports fan. The owner's guide, [`voice/boston-connor.md`](voice/boston-connor.md), is the single source of truth for tone. The takes are absurd on purpose; the facts never are.
+**What it is.** A weekly newsletter for Rebuilders Anonymous, a 12-team dynasty fantasy football league on Sleeper ([league details](reference/league.md)). Each issue is one self-contained HTML page with a lead story, power rankings and the Elo progression chart, six matchup recaps, awards, transactions, and next week's games. Its signature: the fantasy story is told through the real football. A fantasy score is explained by the box-score line and the NFL game that produced it. It's written in one voice, **Boston Connor**: a loud, overconfident, wildly biased Boston sports fan. The owner's guide, [`voice/boston-connor.md`](voice/boston-connor.md), is the single source of truth for tone. The takes are absurd on purpose; the facts never are.
 
 **How it's made.** Scripts do everything with one right answer. Models do only the two jobs that need judgment: writing and editing. A human approves before anything publishes.
 
@@ -96,7 +96,7 @@ Each step has the same parts: what it does, why it exists, its inputs and output
 
 ### Step 4: Write the issue (writer subagent, Opus)
 
-- **What.** The writer reads the brief, picks the week's three most surprising facts, and writes every section of `issue.json` in the [fixed section order](reference/issue-schema.md), following the [Boston Connor guide](voice/boston-connor.md) exactly (with [worked examples](reference/voice.md)) and the [fact rules](reference/facts.md). It also writes `writer.json` with its story picks.
+- **What.** The writer reads the brief, picks the week's three most surprising facts, and writes every section of `issue.json` in the [fixed section order](reference/issue-schema.md), following the [Boston Connor guide](voice/boston-connor.md) exactly (with [worked examples](reference/voice.md)) and the [fact rules](reference/facts.md). It also writes `writer.json` with its story picks. It does not write the Elo chart: render draws that from the history file.
 - **Why a model.** Finding the story and landing it in a very specific comic voice without bending a single fact is judgment. This is the reason the newsletter exists, so it gets the strongest writing model: **Opus**, pinned as `claude-opus-5-5[effort=high]` in `.cursor/agents/writer.md`.
 - **In → out.** The voice guide, `brief.md`, `brief.json`, the reference files, and the previous week's issue if one exists (for structure only, never an older draft of this week) → `issue.json` (with its `derived` list) and `writer.json`.
 - **Run by.** The main agent hands off to the `writer` subagent (see [Handoffs](#4-handoffs)).
@@ -189,6 +189,17 @@ The pipeline separates what's specific to this league from what isn't. To run it
 6. **Design.** Pick a template with the owner using `.cursor/skills/frontend-design/SKILL.md`, and set `TEMPLATE` in `build.py`. The HTML gate works for any template that keeps the `#teams` jump list.
 7. **Another platform** (ESPN or Yahoo fantasy). Rewrite only `fetch_raw()` so it saves the same `raw/` shapes, or adapt `build_brief()`. Every step after the brief is platform-neutral.
 8. **Run the tests** with a finished week of the new league as the fixture, and pin its Elo values the way `test_elo_reproduces_week4` does.
+
+## 7. The Elo progression chart
+
+The chart is a section of the issue, directly under the power rankings. It is not writer copy and not an editor note. Scripts own it end to end. Writing and review still use the pinned Anthropic models: Opus for the writer (`claude-opus-5-5[effort=high]`), Sonnet for the editor (`claude-sonnet-5-5[effort=high]`).
+
+- **History.** `newsletter/elo/<season>.json` is the season ledger, keyed by week and then Sleeper `roster_id`. Week 0 is 1000 for every team. The brief step reads weeks 0 through N−1, applies this week's games to the recorded week N−1 ratings, and writes only week N. Rerunning a week is idempotent. A recompute that disagrees with a past week fails the brief instead of rewriting history. Never edit the file by hand. A new season starts with `python3 newsletter/elo.py --backfill --season <Y> --through 1` after week 1.
+- **Render.** `elo.chart_html` reads that file and inserts inline SVG into the Card Back template (`{{elo_chart}}`). One monotone-cubic line per team, a point on each recorded week, a week axis, an Elo axis, twelve Card Back inks keyed by roster id, and a Find-your-team legend (team names first). Each legend key is the same stroke and dot as that team's line. The 1000 line is a dashed ink baseline, not a team color. No JavaScript, no extra fonts, no CDNs.
+- **Overlapping lines.** Teams that share a rating sit on the same path. That is correct. Do not offset them. They will split when the ratings do.
+- **Gates.** `brief.valid` checks weeks 0 through N and that week N matches the brief. `render.reproducible` requires `#elo-chart`. `html.phone` and `html.desktop` require 12 lines, a point per recorded week, a 12-name legend, and each legend stroke equal to that team's line. `checklist.final` re-checks the history file and that the HTML includes the chart.
+
+Details: [league.md](reference/league.md#elo), [design.md](reference/design.md#the-elo-progression-chart), [issue-schema.md](reference/issue-schema.md).
 
 ## Reference
 

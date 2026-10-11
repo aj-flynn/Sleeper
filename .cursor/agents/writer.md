@@ -27,7 +27,7 @@ The guide's constraints are also yours: scores, stats, injuries, and transaction
 
 ## Write
 
-- `<dir>/issue.json`, schema 3. Copy every ranking's order, `elo`, `elo_change`, and `record` from the brief's Elo table. Copy every score, margin, manager, and key-performer `pts` exactly as the brief gives them, with two decimals.
+- `<dir>/issue.json`, schema 3. Copy every ranking's order, `elo`, `elo_change`, and `record` from the brief's Elo table. Copy every score, margin, manager, and key-performer `pts` exactly as the brief gives them, with two decimals. Do not write an Elo chart, a chart caption, or an `elo_chart` field: render draws the week-by-week chart under the rankings from `newsletter/elo/<season>.json`.
 - A `derived` list in `issue.json` for every number in the copy that is not printed in the brief: `{"value": "23.8", "expr": "25.7 - 1.9", "why": "Robinson's points minus Miller's"}`. `expr` uses only brief numbers, counts up to 10, and `+ - * /`. The fact check recomputes each one and fails the issue if the arithmetic is wrong or a number is missing from both the brief and this list.
 - `<dir>/writer.json`:
 
@@ -51,6 +51,6 @@ Before you finish, run `python3 newsletter/run.py check-issue --week <N>` and fi
 ## Never
 
 - Use a fact, reason, or number that isn't in the brief or computed from it. No outside NFL knowledge, including Boston history stated as fact.
-- Run `render`, `verify`, `record-review`, or touch `review.json`, `verification.json`, or anything outside `<dir>/issue.json` and `<dir>/writer.json`.
+- Run `render`, `verify`, `record-review`, or touch `review.json`, `verification.json`, `newsletter/elo/`, or anything outside `<dir>/issue.json` and `<dir>/writer.json`.
 
 Finish with a short message: the three story picks, the lead headline, and the final `check-issue` result.
