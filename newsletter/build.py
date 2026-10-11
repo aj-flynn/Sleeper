@@ -2,7 +2,7 @@
 """Render a Rebuilders Anonymous newsletter issue into one self-contained HTML file.
 
     python3 newsletter/build.py --template docket --data newsletter/issues/2026-week5/issue.json --out 2026-week5.html
-    python3 newsletter/build.py --samples      # rebuild newsletter/prototypes/*.html from the Week 4 issue
+    python3 newsletter/build.py --samples      # rebuild Card Back from the Week 4 issue (and the four frozen prototypes)
     python3 newsletter/build.py --archive      # rebuild the three archived Week 2 designs
     python3 newsletter/build.py --lint newsletter/issues/2026-week5/issue.json
     python3 newsletter/build.py --check-facts newsletter/issues/2026-week5/issue.json
@@ -15,8 +15,9 @@ Templates live in newsletter/prototypes/src/. They use a small Mustache subset:
 Every key a template references must exist in the data (null/[]/false are fine), so a
 missing field fails the build instead of shipping a blank.
 
-Every issue must weave real NFL box-score lines into the fantasy numbers. validate()
-enforces that (schema 2) before anything renders; see the newsletter skill for the rules.
+Every issue must weave real NFL box-score lines into the fantasy numbers, and order the
+power rankings by Elo. validate() enforces that (schema 3) before anything renders, and
+check_elo() matches the Elo figures against the brief; see the newsletter skill.
 
 A template's fonts are declared in a comment such as
   <!-- fonts: courier-prime-400-normal kalam-700-normal -->
@@ -38,7 +39,10 @@ FONTS = ROOT / "fonts"
 SKILL = ROOT.parent / ".cursor" / "skills" / "newsletter" / "SKILL.md"
 
 SAMPLE_DATA = ROOT / "issues" / "2026-week4" / "issue.json"
-SAMPLE_TEMPLATES = ["minutes", "blueprint", "docket", "card-back", "downfield"]
+CHOSEN_TEMPLATE = "card-back"
+# The four prototypes the owner didn't pick stay as reviewed, rendered from the schema 2 data they were built on.
+FROZEN_DATA = SRC / "sample-issue-week4-v1.json"
+FROZEN_TEMPLATES = ["minutes", "blueprint", "docket", "downfield"]
 ARCHIVE_DATA = ARCHIVE / "sample-issue-week2.json"
 ARCHIVE_TEMPLATES = ["broadsheet", "ledger", "night-edition"]
 
@@ -188,6 +192,13 @@ def derive(data):
     """Add layout-only numbers (bar lengths, field positions) computed from the issue's own data."""
     data = json.loads(json.dumps(data))
     recaps = data.get("recaps", [])
+    if recaps and "w_manager" in recaps[0]:
+        # The jump list: every team, alphabetically, pointing at its own recap card.
+        teams = []
+        for i, r in enumerate(recaps, 1):
+            teams.append({"team": r["winner"], "manager": r["w_manager"], "score": r["w_score"], "won": True, "game": i})
+            teams.append({"team": r["loser"], "manager": r["l_manager"], "score": r["l_score"], "won": False, "game": i})
+        data["recap_index"] = sorted(teams, key=lambda t: re.sub(r"[^a-z0-9]", "", t["team"].lower()))
     if recaps:
         top = max(num(r["w_score"]) for r in recaps)
         for r in recaps:
@@ -195,6 +206,9 @@ def derive(data):
             r["l_pct"] = round(num(r["l_score"]) / top * 100, 2)
             r["margin_pct"] = round(r["w_pct"] - r["l_pct"], 2)
     rankings = data.get("rankings", [])
+    for r in rankings:
+        if "elo_change" in r:
+            r["elo_up"] = num(r["elo_change"].replace("\u2212", "-")) >= 0
     if rankings and all("pf" in r for r in rankings):
         pfs = [num(r["pf"]) for r in rankings]
         lo, hi = min(pfs), max(pfs)
@@ -214,24 +228,41 @@ def derive(data):
     return data
 
 
+def signed(value):
+    return num(str(value).replace("\u2212", "-"))
+
+
 def validate(data):
-    """Schema 2: fantasy numbers must travel with the real NFL lines behind them."""
+    """Schema 3: fantasy numbers travel with the real NFL lines behind them; rankings follow Elo."""
     problems = []
 
     def need(cond, msg):
         if not cond:
             problems.append(msg)
 
-    need(data.get("schema") == 2, "schema must be 2 (fantasy points plus NFL box-score lines)")
-    need(bool((data.get("meta") or {}).get("data_note")), "meta.data_note must say where the numbers come from")
+    need(data.get("schema") == 3, "schema must be 3 (NFL box-score lines woven in, rankings ordered by Elo)")
     lead = " ".join((data.get("lead") or {}).get("body", []))
     need(BOX_SCORE.search(lead), "lead.body never cites a box-score stat (yards, catches, carries, TDs, snaps...)")
+
+    rankings = data.get("rankings", [])
+    need(len(rankings) == 12, f"rankings: expected 12 teams, found {len(rankings)}")
+    elos = []
+    for i, r in enumerate(rankings, 1):
+        where = f"rankings[{i}] {r.get('team', '?')}"
+        need(r.get("rank") == i, f"{where}: rank should be {i}")
+        try:
+            elos.append(num(r["elo"]))
+            signed(r["elo_change"])
+        except (KeyError, ValueError):
+            problems.append(f"{where}: needs elo and elo_change as numbers from the brief")
+    need(elos == sorted(elos, reverse=True), "rankings must be in Elo order, highest first")
 
     recaps = data.get("recaps", [])
     need(len(recaps) == 6, f"recaps: expected 6 matchups, found {len(recaps)}")
     for i, r in enumerate(recaps, 1):
         where = f"recaps[{i}] {r.get('winner', '?')} v. {r.get('loser', '?')}"
         need(BOX_SCORE.search(r.get("body", "")), f"{where}: body explains the score with fantasy points only; cite the real stat line")
+        need(bool(r.get("w_manager")) and bool(r.get("l_manager")), f"{where}: needs w_manager and l_manager")
         for side in ("w_keys", "l_keys"):
             keys = r.get(side) or []
             need(len(keys) >= 2, f"{where}: {side} needs two key performers")
@@ -239,17 +270,39 @@ def validate(data):
                 need(bool(k.get("line")), f"{where}: {side} {k.get('player', '?')} has no NFL stat line")
                 need(bool(k.get("nfl_team")), f"{where}: {side} {k.get('player', '?')} has no NFL team")
 
-    for s in data.get("standouts", []):
+    for a in data.get("awards", []):
+        need(BOX_SCORE.search(a.get("body", "")), f"awards: {a.get('name', '?')} body never cites a box-score stat")
+
+    standouts = data.get("standouts", [])
+    need(bool(standouts), "standouts: list the top starter at each position")
+    for s in standouts:
         need(bool(s.get("line")), f"standouts: {s.get('player', '?')} has no NFL stat line")
 
-    nfl = data.get("nfl") or {}
-    need(bool(nfl.get("games")), "nfl.games must list the week's NFL results")
-    for g in nfl.get("games", []):
-        need(bool(g.get("final")) and bool(g.get("note")), f"nfl.games: {g.get('final', '?')} needs a final and a note")
-    need("injuries" in nfl, "nfl.injuries must exist (use [] if no rostered player was hurt)")
+    need(isinstance(data.get("injuries"), list), "injuries must be a list (use [] if no rostered player was hurt)")
 
     preview = data.get("preview") or {}
     need(len(preview.get("games", [])) == 6, "preview.games: expected the six next-week matchups")
+    return problems
+
+
+def check_elo(data, brief_json):
+    """Every ranking's Elo, change, and position must match the Elo block in the brief."""
+    if not brief_json.exists():
+        return [f"no brief at {brief_json} to check Elo against"]
+    elo = json.loads(brief_json.read_text(encoding="utf-8")).get("elo")
+    if not elo:
+        return [f"{brief_json} has no Elo block; rerun fetch_week.py (or --elo-from-raw)"]
+    problems = []
+    for r, b in zip(data.get("rankings", []), elo["table"]):
+        if r.get("team") != b["team"]:
+            problems.append(f"rankings[{r.get('rank')}] is {r.get('team')}, but the brief's Elo order has {b['team']}")
+            continue
+        try:
+            same = abs(num(r["elo"]) - b["elo"]) < 0.005 and abs(signed(r["elo_change"]) - b["change"]) < 0.005
+        except (KeyError, ValueError):
+            continue
+        if not same:
+            problems.append(f"rankings: {b['team']} Elo should be {b['elo']:.2f} ({b['change']:+.2f}), per the brief")
     return problems
 
 
@@ -274,7 +327,7 @@ def strings(value, skip=("url",)):
             yield from strings(v, skip)
 
 
-def lint(data):
+def lint(data, issue_path=None):
     copy = "\n".join(strings(data))
     plain = re.sub(r"<[^>]+>", "", copy)
     problems = []
@@ -288,8 +341,9 @@ def lint(data):
     exclaims = len(re.findall(r"!(?!\w)", plain.replace("WELL!", "")))
     if exclaims:
         problems.append(f"{exclaims} exclamation marks (limit 0 outside team names)")
-    if data.get("schema") == 2:
-        problems += validate(data)
+    problems += validate(data)
+    if issue_path:
+        problems += check_elo(data, issue_path.with_name("brief.json"))
     return problems
 
 
@@ -334,13 +388,13 @@ def main():
     ap.add_argument("--out", type=Path)
     ap.add_argument("--samples", action="store_true", help="rebuild the prototypes and their index from the sample issue")
     ap.add_argument("--archive", action="store_true", help="rebuild the archived Week 2 designs")
-    ap.add_argument("--lint", type=Path, metavar="ISSUE_JSON", help="check copy against the skill's rules and schema 2")
+    ap.add_argument("--lint", type=Path, metavar="ISSUE_JSON", help="check copy against the skill's rules, schema 3, and the brief's Elo")
     ap.add_argument("--check-facts", type=Path, metavar="ISSUE_JSON", help="list numbers not found in the brief")
     ap.add_argument("--brief", type=Path, help="brief.md to check against (default: next to the issue)")
     args = ap.parse_args()
 
     if args.lint:
-        problems = lint(json.loads(args.lint.read_text(encoding="utf-8")))
+        problems = lint(json.loads(args.lint.read_text(encoding="utf-8")), args.lint)
         for p in problems:
             print(f"lint: {p}")
         sys.exit(1 if problems else 0)
@@ -360,23 +414,26 @@ def main():
 
     if args.samples:
         data = json.loads(SAMPLE_DATA.read_text(encoding="utf-8"))
-        problems = lint(data)
+        problems = lint(data, SAMPLE_DATA)
         for p in problems:
             print(f"lint: {p}")
         if problems:
             sys.exit(1)
-        for name in SAMPLE_TEMPLATES:
-            write(PROTOTYPES / f"{name}.html", render(name, derive(data)))
+        write(PROTOTYPES / f"{CHOSEN_TEMPLATE}.html", render(CHOSEN_TEMPLATE, derive(data)))
+        frozen = derive(json.loads(FROZEN_DATA.read_text(encoding="utf-8")))
+        for name in FROZEN_TEMPLATES:
+            write(PROTOTYPES / f"{name}.html", render(name, frozen))
         write(PROTOTYPES / "index.html", render("index", {}))
         return
 
     if not (args.template and args.data and args.out):
         ap.error("--template, --data, and --out are required (or use --samples / --archive / --lint / --check-facts)")
     data = json.loads(args.data.read_text(encoding="utf-8"))
-    for p in lint(data):
+    problems = lint(data, args.data)
+    for p in problems:
         print(f"lint: {p}")
-    if validate(data):
-        sys.exit("build stopped: the issue does not meet schema 2 (see lint output)")
+    if validate(data) or check_elo(data, args.data.with_name("brief.json")):
+        sys.exit("build stopped: the issue does not meet schema 3 (see lint output)")
     write(args.out, render(args.template, derive(data)))
 
 
