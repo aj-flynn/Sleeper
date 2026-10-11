@@ -17,7 +17,10 @@ Sources (all public, no keys):
 Writes <out>/raw/*.json (trimmed copies of what was pulled), <out>/brief.json (everything joined:
 fantasy points next to the real stat line for every rostered player), and <out>/brief.md (the same
 brief, readable). Fantasy points always come from the league's matchup data, because league scoring
-(e.g. -2 per interception) differs from Sleeper's defaults.
+(e.g. -2 per interception) differs from Sleeper's defaults. The brief also carries each team's Elo
+(see elo_ratings), which orders the power rankings.
+
+    python3 newsletter/fetch_week.py --week 4 --elo-from-raw   # add Elo to an existing brief, offline
 """
 
 import argparse
@@ -108,15 +111,86 @@ def plain(text):
     return re.sub(r"\s+", " ", text).strip()
 
 
+ELO_START, ELO_K = 1000.0, 32
+
+
+def elo_ratings(matchups, roster_ids, through):
+    """Standard Elo over the season's head-to-head results, weeks 1..through.
+
+    Every team starts the season at 1000. For each game, expected = 1 / (1 + 10^((opp - own) / 400)),
+    actual is 1 for a win, 0.5 for a tie, 0 for a loss, and the change is K * (actual - expected) with
+    K = 32, rounded to two decimals. Margin of victory doesn't count. All of a week's changes apply at
+    once, from the ratings both teams had going into that week.
+    """
+    rating = {rid: ELO_START for rid in roster_ids}
+    history = {rid: [] for rid in roster_ids}
+    change = {rid: 0.0 for rid in roster_ids}
+    for w in range(1, through + 1):
+        games = defaultdict(list)
+        for m in matchups[w]:
+            games[m["matchup_id"]].append(m)
+        change = {rid: 0.0 for rid in roster_ids}
+        for a, b in (g for g in games.values() if len(g) == 2):
+            ra, rb = rating[a["roster_id"]], rating[b["roster_id"]]
+            expected = 1 / (1 + 10 ** ((rb - ra) / 400))
+            actual = 1.0 if a["points"] > b["points"] else 0.0 if a["points"] < b["points"] else 0.5
+            d = round(ELO_K * (actual - expected), 2)
+            change[a["roster_id"]], change[b["roster_id"]] = d, -d
+        for rid in roster_ids:
+            rating[rid] = round(rating[rid] + change[rid], 2)
+            history[rid].append(rating[rid])
+    return rating, change, history
+
+
+def elo_table(matchups, rosters, standings, team_name, week):
+    """The brief's Elo block, ordered the way the power rankings must be: Elo, then wins, then points for."""
+    rating, change, history = elo_ratings(matchups, [r["roster_id"] for r in rosters], week)
+    by_team = {t["team"]: t for t in standings}
+    rows = []
+    for r in rosters:
+        rid = r["roster_id"]
+        t = by_team[team_name(rid)]
+        rows.append({"team": t["team"], "elo": rating[rid], "change": change[rid], "history": history[rid],
+                     "record": t["record"], "w": t["w"], "pf": t["pf"]})
+    rows.sort(key=lambda x: (-x["elo"], -x["w"], -x["pf"]))
+    for i, row in enumerate(rows, 1):
+        row["rank"] = i
+    return {"start": ELO_START, "k": ELO_K, "margin_of_victory": False, "through_week": week, "table": rows}
+
+
+def elo_from_raw(out, week):
+    """Recompute the Elo block of an existing brief from its saved raw/ matchups (no network)."""
+    raw = out / "raw"
+    load = lambda name: json.loads((raw / name).read_text(encoding="utf-8"))
+    users, rosters = load("sleeper_users.json"), load("sleeper_rosters.json")
+    matchups = {w: load(f"sleeper_matchups_w{w}.json") for w in range(1, week + 1)}
+    user_by_id = {u["user_id"]: u for u in users}
+    roster_by_id = {r["roster_id"]: r for r in rosters}
+
+    def team_name(rid):
+        u = user_by_id.get(roster_by_id[rid]["owner_id"], {})
+        return ((u.get("metadata") or {}).get("team_name") or u.get("display_name") or f"Roster {rid}").strip()
+
+    brief = json.loads((out / "brief.json").read_text(encoding="utf-8"))
+    brief["elo"] = elo_table(matchups, rosters, brief["standings"], team_name, week)
+    save(out / "brief.json", brief)
+    (out / "brief.md").write_text(render_md(brief), encoding="utf-8")
+    print(f"wrote Elo through week {week} into {out}/brief.json and brief.md")
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--week", type=int, required=True)
     ap.add_argument("--season", default="2026")
     ap.add_argument("--league", default=LEAGUE_ID)
     ap.add_argument("--out", type=Path)
+    ap.add_argument("--elo-from-raw", action="store_true",
+                    help="only recompute the Elo block of an existing brief from its raw/ matchups")
     a = ap.parse_args()
     week, season = a.week, a.season
     out = a.out or ROOT / "issues" / f"{season}-week{week}"
+    if a.elo_from_raw:
+        return elo_from_raw(out, week)
     raw = out / "raw"
     fetched_at = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
     L = f"{SLEEPER}/league/{a.league}"
@@ -283,6 +357,7 @@ def main():
         "teams": [{"team": team_name(r["roster_id"]), "manager": manager(r["roster_id"]), "roster_id": r["roster_id"],
                    "faab_used_at_fetch": r["settings"].get("waiver_budget_used")} for r in rosters],
         "standings": standings,
+        "elo": elo_table(matchups, rosters, standings, team_name, week),
         "fantasy_matchups": fantasy,
         "nfl_games": games,
         "transactions": tx,
@@ -315,6 +390,17 @@ def render_md(b):
          "## Sources", ""] + [f"- {k}: {v}" for k, v in b["sources"].items()]
     o += ["", "## Standings after this week", "", "| # | Team | W-L | PF | PA | Results |", "|---|---|---|---|---|---|"]
     o += [f"| {t['rank']} | {t['team']} | {t['record']} | {t['pf']:.2f} | {t['pa']:.2f} | {''.join(t['results'])} |" for t in b["standings"]]
+    if "elo" in b:
+        e = b["elo"]
+        weeks = range(1, e["through_week"] + 1)
+        o += ["", "## Elo after this week (power rankings order)", "",
+              f"Every team starts the season at {e['start']:.0f}. K = {e['k']}, wins and losses only (margin of victory "
+              "doesn't count). Change = K x (result - expected), expected = 1 / (1 + 10^((opponent - own) / 400)). "
+              "Order: Elo, then wins, then points for.", "",
+              "| # | Team | Elo | Change this week | Record | " + " | ".join(f"After W{w}" for w in weeks) + " |",
+              "|---|---|---|---|---|" + "---|" * len(weeks)]
+        o += [f"| {t['rank']} | {t['team']} | {t['elo']:.2f} | {t['change']:+.2f} | {t['record']} | "
+              + " | ".join(f"{h:.2f}" for h in t["history"]) + " |" for t in e["table"]]
     o += ["", "## Fantasy matchups, with real stat lines", ""]
     for m in b["fantasy_matchups"]:
         w, l = m["winner"], m["loser"]

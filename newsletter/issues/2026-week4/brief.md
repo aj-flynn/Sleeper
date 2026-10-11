@@ -27,6 +27,25 @@ Fetched 2026-10-08T16:20Z. Every number in the issue must trace to this file or 
 | 11 | Rams of Steel | 1-3 | 510.88 | 542.12 | LLWL |
 | 12 | Skat’s BruteForce Theorem | 1-3 | 510.42 | 586.04 | LLWL |
 
+## Elo after this week (power rankings order)
+
+Every team starts the season at 1000. K = 32, wins and losses only (margin of victory doesn't count). Change = K x (result - expected), expected = 1 / (1 + 10^((opponent - own) / 400)). Order: Elo, then wins, then points for.
+
+| # | Team | Elo | Change this week | Record | After W1 | After W2 | After W3 | After W4 |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Micah parsons fan club | 1029.33 | +14.80 | 3-1 | 1016.00 | 1030.53 | 1014.53 | 1029.33 |
+| 2 | Split Safety Syndicate | 1027.62 | -18.91 | 3-1 | 1016.00 | 1030.53 | 1046.53 | 1027.62 |
+| 3 | hammball | 1004.08 | +17.21 | 2-2 | 984.00 | 969.47 | 986.87 | 1004.08 |
+| 4 | Kingslayers | 1002.84 | +15.93 | 2-2 | 984.00 | 968.00 | 986.91 | 1002.84 |
+| 5 | Dak Side of the Sun | 1001.51 | +18.91 | 2-2 | 984.00 | 1000.00 | 982.60 | 1001.51 |
+| 6 | WELL! It's The Big Shough | 1001.34 | +17.34 | 2-2 | 984.00 | 1000.00 | 984.00 | 1001.34 |
+| 7 | ThePeopleBeaters | 1000.07 | +17.54 | 2-2 | 1016.00 | 1000.00 | 982.53 | 1000.07 |
+| 8 | Mendozareamazingpicks | 998.46 | -17.54 | 2-2 | 1016.00 | 1000.00 | 1016.00 | 998.46 |
+| 9 | J’Allen Waffle Stompers | 995.88 | -17.21 | 2-2 | 1016.00 | 1032.00 | 1013.09 | 995.88 |
+| 10 | Unsportsmanlike Conduct | 995.81 | -17.34 | 2-2 | 1016.00 | 1032.00 | 1013.15 | 995.81 |
+| 11 | Skat’s BruteForce Theorem | 973.52 | -14.80 | 1-3 | 984.00 | 969.47 | 988.32 | 973.52 |
+| 12 | Rams of Steel | 969.54 | -15.93 | 1-3 | 984.00 | 968.00 | 985.47 | 969.54 |
+
 ## Fantasy matchups, with real stat lines
 
 ### Micah parsons fan club 162.88 def. Skat’s BruteForce Theorem 133.30 (margin 29.58)
