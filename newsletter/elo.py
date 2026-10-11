@@ -31,7 +31,7 @@ TEAM_COLORS = (
     "#1D4E9B",  # 3 blue
     "#7A2E9B",  # 4 violet
     "#8A1C2B",  # 5 maroon (the template ink)
-    "#4A7A14",  # 6 leaf
+    "#5C7A8A",  # 6 steel
     "#D4B01A",  # 7 gold
     "#D6452F",  # 8 vermilion
     "#148F3D",  # 9 emerald
