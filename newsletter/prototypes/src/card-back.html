@@ -27,8 +27,6 @@ p{margin:0 0 .9em;max-width:38rem}
 .mast h1{font-family:var(--slab);font-weight:400;color:var(--maroon);font-size:clamp(1.75rem,6.5vw,3.25rem);line-height:1;margin:0}
 .mast p{margin:0;font-weight:600}
 .mast .series{font-size:.9375rem}
-.fine{font-size:.875rem;max-width:44rem;margin-top:.75rem}
-.fine code{font-family:inherit}
 h2{font-family:var(--slab);font-weight:400;font-size:1.625rem;line-height:1.1;color:var(--maroon);margin:3rem 0 1rem}
 h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;margin:0}
 .card{background:var(--rose);border:5px solid var(--maroon);border-radius:7px;box-shadow:3px 3px 0 var(--shade);overflow:hidden}
@@ -59,7 +57,6 @@ h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;ma
 .lead .trio b{display:block;font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.1;color:var(--maroon)}
 .lead .trio span{font-size:.75rem;line-height:1.25;display:block}
 .lead .copy p{font-size:1.125rem;line-height:1.6;max-width:36rem}
-.by{font-weight:600;font-size:.9375rem}
 .aside{font-weight:600;border-left:5px solid var(--maroon);padding:.15rem 0 .15rem .75rem;max-width:36rem}
 .aside b{font-family:var(--slab);font-weight:400;color:var(--maroon);margin-right:.25rem}
 /* checklist */
@@ -69,12 +66,53 @@ h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;ma
 .check .rk{font-family:var(--slab);color:var(--maroon);font-size:1.25rem;line-height:1.2}
 .check .nm{font-weight:700;font-size:1.0625rem}
 .check .nm small{font-weight:400;font-size:.8125rem;display:block}
-.check .fig{text-align:right;font-variant-numeric:tabular-nums;font-weight:600;white-space:nowrap}
-.check .fig small{display:block;font-weight:400;font-size:.8125rem}
+.check .fig{text-align:right;font-family:var(--slab);font-size:1.125rem;line-height:1.2;color:var(--maroon);font-variant-numeric:tabular-nums;white-space:nowrap}
+.check .fig small{display:block;font-family:var(--nar);font-weight:700;font-size:.875rem;color:var(--ink)}
+.check .arw{display:inline-block;width:0;height:0;margin-right:.3rem;border:.33rem solid transparent;vertical-align:.05em}
+.check .up .arw{border-bottom:.5rem solid var(--maroon);border-top-width:0}
+.check .down .arw{border-top:.5rem solid var(--ink);border-bottom-width:0}
 .check p{grid-column:2 / -1;margin:.3rem 0 0;font-size:.9375rem}
-/* recaps */
+.colhead{display:grid;grid-template-columns:1fr auto;gap:1rem;max-width:46rem;margin:1.25rem 0 0;padding:0 0 .35rem 2.6rem;border-bottom:3px solid var(--ink);font-size:.8125rem;font-weight:700}
+.colhead span:nth-child(n+3){display:none}
+@media (min-width:64rem){
+  .colhead{max-width:none;grid-template-columns:1fr auto 1fr auto;column-gap:0;padding-left:0}
+  .colhead span:nth-child(n+3){display:block}
+  .colhead span:nth-child(odd){padding-left:2.6rem}
+  .colhead span:nth-child(2){margin-right:3rem}
+}
+/* recaps: find your team */
+.finder{margin:0 0 1.5rem;background:#F1E2DF;border:3px solid var(--ink);border-radius:5px;padding:.7rem .7rem .55rem}
+.finder h3{color:var(--maroon);margin:0 0 .45rem}
+.finder ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:0 .6rem}
+@media (min-width:52rem){.finder ul{grid-template-columns:repeat(3,1fr)}}
+@media (min-width:64rem){.finder ul{grid-template-columns:repeat(4,1fr)}}
+.finder a{display:grid;grid-template-columns:1rem minmax(0,1fr);gap:0 .4rem;align-items:start;min-height:2.9rem;padding:.4rem 0;border-top:1px solid rgba(138,28,43,.3);color:var(--ink);text-decoration:none}
+.finder a:hover .nm{text-decoration:underline}
+.finder .box{width:1rem;height:1rem;margin-top:.15rem;border:2px solid var(--ink);border-radius:2px;background:#F6EDEB}
+.finder .won .box{border-color:var(--maroon);background:var(--maroon) center/100% no-repeat url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3.2 8.4l3.1 3.1 6.5-7' fill='none' stroke='%23F6E9E6' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")}
+.finder .nm{font-weight:700;font-size:.875rem;line-height:1.2;overflow-wrap:break-word}
+@media (min-width:52rem){.finder .nm{font-size:.9375rem}}
+.finder .res{grid-column:2;font-size:.8125rem;line-height:1.3;font-variant-numeric:tabular-nums}
+.finder .won .res{color:var(--maroon);font-weight:700}
+/* recaps: cards */
 .deck{display:grid;gap:1.5rem}
 @media (min-width:52rem){.deck{grid-template-columns:1fr 1fr;gap:2rem}}
+.game{scroll-margin-top:.75rem}
+.game:target{animation:pulled .9s ease-out 1}
+@keyframes pulled{0%{box-shadow:0 0 0 6px var(--ink),3px 3px 0 var(--shade)}100%{box-shadow:0 0 0 0 var(--ink),3px 3px 0 var(--shade)}}
+@media (prefers-reduced-motion:reduce){.game:target{animation:none;outline:4px solid var(--ink);outline-offset:2px}}
+.plate .row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.75rem;align-items:center;padding:.6rem .75rem}
+.plate .team,.plate .score{margin:0;font-family:var(--slab);line-height:1.1}
+.plate .team{font-size:1.375rem;overflow-wrap:anywhere}
+.plate .score{font-size:1.375rem;text-align:right;font-variant-numeric:tabular-nums}
+.plate small{display:block;font-family:var(--nar);font-weight:600;font-size:.875rem;line-height:1.3;margin-top:.15rem}
+.plate .won{background:var(--maroon);color:#F6E9E6}
+.plate .won small{color:var(--rose)}
+.plate .lost{background:#D9B3AD;color:var(--ink);border-top:3px solid var(--ink)}
+.plate .lost .score{color:#5A4F4B}
+.game .hed{font-size:1.0625rem;color:var(--maroon);margin:0 0 .2rem}
+.game .margin{margin:0 0 .6rem;font-weight:700;font-size:.9375rem;border-bottom:2px solid var(--maroon);padding-bottom:.45rem;max-width:none}
+.back{margin:.7rem 0 0;font-size:.875rem;font-weight:600}
 .awards{display:grid;gap:1rem}
 @media (min-width:52rem){.awards{grid-template-columns:repeat(3,1fr)}}
 .award .band h3{font-size:1.0625rem}
@@ -99,12 +137,8 @@ h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;ma
 <div class="wrap">
   <header class="mast">
     <h1>{{meta.league}}</h1>
-    <div>
-      <p class="series">{{meta.dateline}}, presented by {{meta.presented_by}}</p>
-      <p class="series">{{meta.format_line}}</p>
-    </div>
+    <p class="series">{{meta.dateline}}, presented by {{meta.presented_by}}</p>
   </header>
-  <p class="fine">{{meta.data_note}}</p>
 
   <section aria-labelledby="s-lead">
     <h2 id="s-lead">Lead story</h2>
@@ -118,7 +152,6 @@ h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;ma
         </div>
       </article>
       <div class="copy">
-        <p class="by">By {{lead.byline}}</p>
         {{#lead.body}}<p>{{.}}</p>{{/lead.body}}
         {{#asides.lead}}<p class="aside"><b>{{figure}}</b>{{text}}</p>{{/asides.lead}}
       </div>
@@ -127,22 +160,30 @@ h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;ma
 
   <section aria-labelledby="s-rank">
     <h2 id="s-rank">Power rankings</h2>
-    <p>{{rankings_intro}}</p>
     {{#asides.rankings}}<p class="aside"><b>{{figure}}</b>{{text}}</p>{{/asides.rankings}}
+    <p class="colhead"><span>Team, manager, record</span><span>Elo, change this week</span><span aria-hidden="true">Team, manager, record</span><span aria-hidden="true">Elo, change this week</span></p>
     <ol class="check">
-    {{#rankings}}<li><span class="rk">{{rank}}</span><span class="nm">{{team}}<small>{{manager}}</small></span><span class="fig">{{record}}<small>{{pf}} season, {{pts}} week</small></span><p>{{take}}</p></li>{{/rankings}}
+    {{#rankings}}<li><span class="rk">{{rank}}</span><span class="nm">{{team}}<small>{{manager}}, {{record}}</small></span><span class="fig">{{elo}}<small class="{{#elo_up}}up{{/elo_up}}{{^elo_up}}down{{/elo_up}}"><span class="arw" aria-hidden="true"></span>{{elo_change}}</small></span><p>{{take}}</p></li>{{/rankings}}
     </ol>
   </section>
 
   <section aria-labelledby="s-recaps">
     <h2 id="s-recaps">Matchup recaps</h2>
+    <nav class="finder" id="teams" aria-labelledby="s-find">
+      <h3 id="s-find">Find your team</h3>
+      <ul>{{#recap_index}}<li><a href="#game-{{game}}" class="{{#won}}won{{/won}}{{^won}}lost{{/won}}"><span class="box" aria-hidden="true"></span><span class="nm">{{team}}</span><span class="res">{{#won}}Won{{/won}}{{^won}}Lost{{/won}}, {{score}}</span></a></li>{{/recap_index}}</ul>
+    </nav>
     {{#asides.recaps}}<p class="aside"><b>{{figure}}</b>{{text}}</p>{{/asides.recaps}}
     <div class="deck">
     {{#recaps}}
-      <article class="card">
-        <div class="band"><span class="no" aria-hidden="true">{{@index}}</span><h3>{{headline}}</h3></div>
+      <article class="card game" id="game-{{@index}}" aria-labelledby="game-{{@index}}-w game-{{@index}}-l">
+        <div class="plate">
+          <div class="row won"><p class="team" id="game-{{@index}}-w">{{winner}}<small>{{w_manager}}</small></p><p class="score">{{w_score}}<small>Won</small></p></div>
+          <div class="row lost"><p class="team" id="game-{{@index}}-l">{{loser}}<small>{{l_manager}}</small></p><p class="score">{{l_score}}<small>Lost</small></p></div>
+        </div>
         <div class="body">
-          <p class="vitals"><span><b>{{w_score}}</b> {{winner}}</span><span>{{l_score}} {{loser}}</span><span>Margin {{margin}}</span></p>
+          <h3 class="hed">{{headline}}</h3>
+          <p class="margin">Won by {{margin}}</p>
           <div class="tablewrap"><table class="stats">
             <thead><tr><th scope="col">Player</th><th scope="col">Tm</th><th scope="col">{{meta.issue}} line</th><th scope="col" class="pts">Pts</th></tr></thead>
             <tbody>
@@ -153,6 +194,7 @@ h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;ma
             </tbody>
           </table></div>
           <div class="blurb"><p>{{body}}</p></div>
+          <p class="back"><a href="#teams">Back to the team list</a></p>
         </div>
       </article>
     {{/recaps}}
@@ -170,24 +212,18 @@ h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;ma
       </article>
     {{/awards}}
     </div>
-    <h3 style="margin:2rem 0 .5rem">Standouts</h3>
-    <p>{{standouts_intro}}</p>
+    <h3 style="margin:2rem 0 .75rem">Standouts</h3>
     <div class="tablewrap"><table class="stats" style="max-width:52rem">
       <thead><tr><th scope="col">Pos</th><th scope="col">Player</th><th scope="col">NFL line</th><th scope="col" class="pts">Pts</th></tr></thead>
       <tbody>{{#standouts}}<tr><td>{{pos}}</td><td>{{player}}, {{nfl_team}}<small>{{team}}</small></td><td>{{line}}</td><td class="pts">{{pts}}</td></tr>{{/standouts}}</tbody>
     </table></div>
     <p>{{bench_note}}</p>
-    <h3 style="margin:2rem 0 .5rem">The NFL week</h3>
-    <p>{{nfl.intro}}</p>
-    <ul class="slate">{{#nfl.games}}<li><b>{{final}}</b><span class="w">{{when}}.</span> {{note}}</li>{{/nfl.games}}</ul>
     <h3 style="margin:2rem 0 .5rem">Injuries</h3>
-    <p>{{nfl.injuries_intro}}</p>
-    <ul class="slate">{{#nfl.injuries}}<li><b>{{player}}</b><span class="w">{{nfl_team}}, {{team}}.</span> {{note}}</li>{{/nfl.injuries}}</ul>
+    <ul class="slate">{{#injuries}}<li><b>{{player}}</b><span class="w">{{nfl_team}}, {{team}}.</span> {{note}}</li>{{/injuries}}</ul>
   </section>
 
   <section aria-labelledby="s-moves" class="moves">
     <h2 id="s-moves">Transactions</h2>
-    <p>{{transactions.summary}}</p>
     {{#asides.transactions}}<p class="aside"><b>{{figure}}</b>{{text}}</p>{{/asides.transactions}}
     <h3 style="margin:1.5rem 0 .5rem">Waiver claims</h3>
     <div class="tablewrap"><table class="stats" style="max-width:60rem">

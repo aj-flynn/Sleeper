@@ -30,8 +30,6 @@ p{margin:0 0 .9em;max-width:38rem}
 .mast h1{font-family:var(--slab);font-weight:400;color:var(--maroon);font-size:clamp(1.75rem,6.5vw,3.25rem);line-height:1;margin:0}
 .mast p{margin:0;font-weight:600}
 .mast .series{font-size:.9375rem}
-.fine{font-size:.875rem;max-width:44rem;margin-top:.75rem}
-.fine code{font-family:inherit}
 h2{font-family:var(--slab);font-weight:400;font-size:1.625rem;line-height:1.1;color:var(--maroon);margin:3rem 0 1rem}
 h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;margin:0}
 .card{background:var(--rose);border:5px solid var(--maroon);border-radius:7px;box-shadow:3px 3px 0 var(--shade);overflow:hidden}
@@ -62,7 +60,6 @@ h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;ma
 .lead .trio b{display:block;font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.1;color:var(--maroon)}
 .lead .trio span{font-size:.75rem;line-height:1.25;display:block}
 .lead .copy p{font-size:1.125rem;line-height:1.6;max-width:36rem}
-.by{font-weight:600;font-size:.9375rem}
 .aside{font-weight:600;border-left:5px solid var(--maroon);padding:.15rem 0 .15rem .75rem;max-width:36rem}
 .aside b{font-family:var(--slab);font-weight:400;color:var(--maroon);margin-right:.25rem}
 /* checklist */
@@ -72,12 +69,53 @@ h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;ma
 .check .rk{font-family:var(--slab);color:var(--maroon);font-size:1.25rem;line-height:1.2}
 .check .nm{font-weight:700;font-size:1.0625rem}
 .check .nm small{font-weight:400;font-size:.8125rem;display:block}
-.check .fig{text-align:right;font-variant-numeric:tabular-nums;font-weight:600;white-space:nowrap}
-.check .fig small{display:block;font-weight:400;font-size:.8125rem}
+.check .fig{text-align:right;font-family:var(--slab);font-size:1.125rem;line-height:1.2;color:var(--maroon);font-variant-numeric:tabular-nums;white-space:nowrap}
+.check .fig small{display:block;font-family:var(--nar);font-weight:700;font-size:.875rem;color:var(--ink)}
+.check .arw{display:inline-block;width:0;height:0;margin-right:.3rem;border:.33rem solid transparent;vertical-align:.05em}
+.check .up .arw{border-bottom:.5rem solid var(--maroon);border-top-width:0}
+.check .down .arw{border-top:.5rem solid var(--ink);border-bottom-width:0}
 .check p{grid-column:2 / -1;margin:.3rem 0 0;font-size:.9375rem}
-/* recaps */
+.colhead{display:grid;grid-template-columns:1fr auto;gap:1rem;max-width:46rem;margin:1.25rem 0 0;padding:0 0 .35rem 2.6rem;border-bottom:3px solid var(--ink);font-size:.8125rem;font-weight:700}
+.colhead span:nth-child(n+3){display:none}
+@media (min-width:64rem){
+  .colhead{max-width:none;grid-template-columns:1fr auto 1fr auto;column-gap:0;padding-left:0}
+  .colhead span:nth-child(n+3){display:block}
+  .colhead span:nth-child(odd){padding-left:2.6rem}
+  .colhead span:nth-child(2){margin-right:3rem}
+}
+/* recaps: find your team */
+.finder{margin:0 0 1.5rem;background:#F1E2DF;border:3px solid var(--ink);border-radius:5px;padding:.7rem .7rem .55rem}
+.finder h3{color:var(--maroon);margin:0 0 .45rem}
+.finder ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:0 .6rem}
+@media (min-width:52rem){.finder ul{grid-template-columns:repeat(3,1fr)}}
+@media (min-width:64rem){.finder ul{grid-template-columns:repeat(4,1fr)}}
+.finder a{display:grid;grid-template-columns:1rem minmax(0,1fr);gap:0 .4rem;align-items:start;min-height:2.9rem;padding:.4rem 0;border-top:1px solid rgba(138,28,43,.3);color:var(--ink);text-decoration:none}
+.finder a:hover .nm{text-decoration:underline}
+.finder .box{width:1rem;height:1rem;margin-top:.15rem;border:2px solid var(--ink);border-radius:2px;background:#F6EDEB}
+.finder .won .box{border-color:var(--maroon);background:var(--maroon) center/100% no-repeat url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3.2 8.4l3.1 3.1 6.5-7' fill='none' stroke='%23F6E9E6' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")}
+.finder .nm{font-weight:700;font-size:.875rem;line-height:1.2;overflow-wrap:break-word}
+@media (min-width:52rem){.finder .nm{font-size:.9375rem}}
+.finder .res{grid-column:2;font-size:.8125rem;line-height:1.3;font-variant-numeric:tabular-nums}
+.finder .won .res{color:var(--maroon);font-weight:700}
+/* recaps: cards */
 .deck{display:grid;gap:1.5rem}
 @media (min-width:52rem){.deck{grid-template-columns:1fr 1fr;gap:2rem}}
+.game{scroll-margin-top:.75rem}
+.game:target{animation:pulled .9s ease-out 1}
+@keyframes pulled{0%{box-shadow:0 0 0 6px var(--ink),3px 3px 0 var(--shade)}100%{box-shadow:0 0 0 0 var(--ink),3px 3px 0 var(--shade)}}
+@media (prefers-reduced-motion:reduce){.game:target{animation:none;outline:4px solid var(--ink);outline-offset:2px}}
+.plate .row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.75rem;align-items:center;padding:.6rem .75rem}
+.plate .team,.plate .score{margin:0;font-family:var(--slab);line-height:1.1}
+.plate .team{font-size:1.375rem;overflow-wrap:anywhere}
+.plate .score{font-size:1.375rem;text-align:right;font-variant-numeric:tabular-nums}
+.plate small{display:block;font-family:var(--nar);font-weight:600;font-size:.875rem;line-height:1.3;margin-top:.15rem}
+.plate .won{background:var(--maroon);color:#F6E9E6}
+.plate .won small{color:var(--rose)}
+.plate .lost{background:#D9B3AD;color:var(--ink);border-top:3px solid var(--ink)}
+.plate .lost .score{color:#5A4F4B}
+.game .hed{font-size:1.0625rem;color:var(--maroon);margin:0 0 .2rem}
+.game .margin{margin:0 0 .6rem;font-weight:700;font-size:.9375rem;border-bottom:2px solid var(--maroon);padding-bottom:.45rem;max-width:none}
+.back{margin:.7rem 0 0;font-size:.875rem;font-weight:600}
 .awards{display:grid;gap:1rem}
 @media (min-width:52rem){.awards{grid-template-columns:repeat(3,1fr)}}
 .award .band h3{font-size:1.0625rem}
@@ -102,12 +140,8 @@ h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;ma
 <div class="wrap">
   <header class="mast">
     <h1>Rebuilders Anonymous</h1>
-    <div>
-      <p class="series">Week 4, October 2026, presented by Unsportsmanlike Conduct</p>
-      <p class="series">12 teams, Superflex, full PPR, dynasty</p>
-    </div>
+    <p class="series">Week 4, October 2026, presented by Unsportsmanlike Conduct</p>
   </header>
-  <p class="fine">Every number in this issue is real. Fantasy points come from the league on Sleeper, box-score lines from Sleeper’s Week 4 NFL stats, and game context from ESPN’s recaps, all pulled on October 8. The pulled data is saved next to this issue in <code>newsletter/issues/2026-week4/</code>.</p>
 
   <section aria-labelledby="s-lead">
     <h2 id="s-lead">Lead story</h2>
@@ -121,7 +155,6 @@ h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;ma
         </div>
       </article>
       <div class="copy">
-        <p class="by">By The Rebuilders Anonymous desk</p>
         <p>Micah parsons fan club played Week 4 with ten working starters and won by 29.58. The eleventh was Case Keenum at Superflex. According to ESPN, Keenum lined up under center for Chicago’s first play against the Jets, pitched to D’Andre Swift for 2 yards, and then Tyson Bagent took over at quarterback for the rest of the game. Keenum’s line for the week is 1 snap and 0.0 points.</p><p>Keenum was a reasonable pickup. Micah added him on September 30, after he started Chicago’s Monday night win over Philadelphia and threw for 247 yards and two touchdowns, and started him in Week 4 with Baker Mayfield out with a dislocated thumb. To make room, Micah dropped Keon Coleman. Coleman caught 6 passes for 116 yards and a touchdown for Buffalo on Sunday, including a 34-yard score from Josh Allen.</p><p>The rest of the lineup made it a non-event. Javonte Williams ran for three touchdowns in Dallas’s 34-30 win in Houston, all in the second half and a career high, for 31.3. Hockenson caught every ball thrown to him in Minnesota’s 15-10 win over Miami (24.9). Zay Flowers had 8 catches for 118 yards and a touchdown (25.8), and Jake Bates made all four of his field goals for 18.0.</p><p>Even the other quarterback got hurt. Lamar Jackson left Baltimore’s win over Tennessee with an ankle injury after 33 of 64 snaps and still scored 18.88 on 15-of-20 passing for 222 yards and two touchdowns. Micah has since claimed Bagent for $0, dropped Keenum, and added Tyler Huntley, who went 8 of 9 in relief of Jackson. Micah is 3-1 with the sixth-most points in the league and $10 of FAAB left.</p>
         <p class="aside"><b>1 snap</b>from the Superflex, and Micah still won by 29.58.</p>
       </div>
@@ -130,22 +163,30 @@ h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;ma
 
   <section aria-labelledby="s-rank">
     <h2 id="s-rank">Power rankings</h2>
-    <p>The order is our opinion. Records, scores, and points for are facts.</p>
-    <p class="aside"><b>718.00</b>points for Split Safety, 89.56 more than anyone. Lost this week anyway.</p>
+    <p class="aside"><b>+18.91</b>Elo for Dak Side, the biggest gain of the week, for beating the team that started it in first.</p>
+    <p class="colhead"><span>Team, manager, record</span><span>Elo, change this week</span><span aria-hidden="true">Team, manager, record</span><span aria-hidden="true">Elo, change this week</span></p>
     <ol class="check">
-    <li><span class="rk">1</span><span class="nm">Split Safety Syndicate<small>kylejones10</small></span><span class="fig">3-1<small>718.00 season, 160.36 week</small></span><p>Lost by 39.16 and still has 89.56 more points than anyone else this season. Kenneth Walker ran for 177 yards at Las Vegas. The problem is next week, when Mahomes, Walker, Young, and Hubbard are all on bye.</p></li><li><span class="rk">2</span><span class="nm">Dak Side of the Sun<small>SweetRavenge84</small></span><span class="fig">2-2<small>628.44 season, 199.52 week</small></span><p>The week high and the second-most points of the season. Dak Side has also given up 614.90, the most in the league, which is how the second-best team is 2-2.</p></li><li><span class="rk">3</span><span class="nm">Micah parsons fan club<small>Packersfan1992</small></span><span class="fig">3-1<small>572.78 season, 162.88 week</small></span><p>Tied for the best record with the sixth-most points. Won this week with a Superflex who took one snap. Has spent $190 of $200, so the next quarterback emergency gets solved for $10 or less.</p></li><li><span class="rk">4</span><span class="nm">hammball<small>hammball</small></span><span class="fig">2-2<small>559.04 season, 188.90 week</small></span><p>Two straight wins after an 0-2 start. CeeDee Lamb and Nico Collins played against each other in Houston and combined for 72.1 points for the same fantasy team.</p></li><li><span class="rk">5</span><span class="nm">ThePeopleBeaters<small>ThePeopleBeaters</small></span><span class="fig">2-2<small>554.66 season, 170.80 week</small></span><p>Tetairoa McMillan scored 45.2, more than the 39.84-point margin by himself. The bench had another 74.0, including Emanuel Wilson’s two touchdowns for Seattle. Then PB paid $5 for Keon Coleman, the best claim of the week.</p></li><li><span class="rk">6</span><span class="nm">J’Allen Waffle Stompers<small>BigJohnDeBo008</small></span><span class="fig">2-2<small>582.44 season, 152.52 week</small></span><p>Fourth in points and suddenly hurt. Tee Higgins left with a groin injury after 157 yards and Saquon Barkley lasted 4 snaps. The answer was $70 on Will Shipley, the Eagles back who ran 6 times for 23 yards.</p></li><li><span class="rk">7</span><span class="nm">Mendozareamazingpicks<small>DarknessMonster</small></span><span class="fig">2-2<small>592.86 season, 130.96 week</small></span><p>Third in points for the season, held back by the quarterbacks. Jacoby Brissett threw three interceptions against the Giants and Daniel Jones scored 7.92. The two of them combined for 18.36.</p></li><li><span class="rk">8</span><span class="nm">Unsportsmanlike Conduct<small>JeffyWaterton</small></span><span class="fig">2-2<small>578.32 season, 124.50 week</small></span><p>Benched the best quarterback score in the league and lost by 13.72. Traded for Ladd McConkey and Rico Dowdle on Tuesday. New players help more when the right ones start.</p></li><li><span class="rk">9</span><span class="nm">Kingslayers<small>maierz3948</small></span><span class="fig">2-2<small>565.82 season, 121.52 week</small></span><p>Won with the second-lowest score of the week. Matthew Stafford threw for 317 yards and no touchdowns, Marcus Mariota lasted 10 snaps, and 78.22 points sat on the bench.</p></li><li><span class="rk">10</span><span class="nm">WELL! It's The Big Shough<small>KaranLuvSport</small></span><span class="fig">2-2<small>517.28 season, 138.22 week</small></span><p>Alvin Kamara, a free pickup on September 30, scored his first two touchdowns of the season. Big Shough has the fewest points of any 2-2 team and the best free-agent add of the month.</p></li><li><span class="rk">11</span><span class="nm">Skat’s BruteForce Theorem<small>LittleTimmyFlynn</small></span><span class="fig">1-3<small>510.42 season, 133.30 week</small></span><p>Fewest points in the league, and now officially rebuilding. On Sunday morning Skat’s traded Emeka Egbuka for two 2027 second-round picks, then dropped Tyreek Hill for George Holani 24 minutes later.</p></li><li><span class="rk">12</span><span class="nm">Rams of Steel<small>iemerson969</small></span><span class="fig">1-3<small>510.88 season, 105.32 week</small></span><p>The week low, on a lineup that had two different ways to win on the bench. Brian Robinson scored three touchdowns while sitting. Caleb Williams has now missed two straight games.</p></li>
+    <li><span class="rk">1</span><span class="nm">Micah parsons fan club<small>Packersfan1992, 3-1</small></span><span class="fig">1029.33<small class="up"><span class="arw" aria-hidden="true"></span>+14.80</small></span><p>First in Elo with the sixth-most points, because Elo only counts wins and Micah has three. This one came with a Superflex who took one snap. Has spent $190 of $200, so the next quarterback emergency gets solved for $10 or less.</p></li><li><span class="rk">2</span><span class="nm">Split Safety Syndicate<small>kylejones10, 3-1</small></span><span class="fig">1027.62<small class="down"><span class="arw" aria-hidden="true"></span>−18.91</small></span><p>Lost by 39.16 and lost first place with it. Still has 89.56 more points than anyone else this season. The problem is next week, when Mahomes, Walker, Young, and Hubbard are all on bye.</p></li><li><span class="rk">3</span><span class="nm">hammball<small>hammball, 2-2</small></span><span class="fig">1004.08<small class="up"><span class="arw" aria-hidden="true"></span>+17.21</small></span><p>Two straight wins after an 0-2 start. CeeDee Lamb and Nico Collins played against each other in Houston and combined for 72.1 points for the same fantasy team.</p></li><li><span class="rk">4</span><span class="nm">Kingslayers<small>maierz3948, 2-2</small></span><span class="fig">1002.84<small class="up"><span class="arw" aria-hidden="true"></span>+15.93</small></span><p>Fourth in Elo after the second-lowest score of the week, which tells you what Elo thinks of style points. Matthew Stafford threw for 317 yards and no touchdowns, Marcus Mariota lasted 10 snaps, and 78.22 points sat on the bench.</p></li><li><span class="rk">5</span><span class="nm">Dak Side of the Sun<small>SweetRavenge84, 2-2</small></span><span class="fig">1001.51<small class="up"><span class="arw" aria-hidden="true"></span>+18.91</small></span><p>Beat the team that started the week first in Elo, with the week high, and gained 18.91, the biggest jump in the league. Dak Side has also given up 614.90, the most in the league, which is how the second-highest scorer is 2-2.</p></li><li><span class="rk">6</span><span class="nm">WELL! It's The Big Shough<small>KaranLuvSport, 2-2</small></span><span class="fig">1001.34<small class="up"><span class="arw" aria-hidden="true"></span>+17.34</small></span><p>Alvin Kamara, a free pickup on September 30, scored his first two touchdowns of the season. Big Shough has the fewest points of any 2-2 team and the best free-agent add of the month.</p></li><li><span class="rk">7</span><span class="nm">ThePeopleBeaters<small>ThePeopleBeaters, 2-2</small></span><span class="fig">1000.07<small class="up"><span class="arw" aria-hidden="true"></span>+17.54</small></span><p>Tetairoa McMillan scored 45.2, more than the 39.84-point margin by himself. The bench had another 74.0, including Emanuel Wilson’s two touchdowns for Seattle. Then PB paid $5 for Keon Coleman, the best claim of the week.</p></li><li><span class="rk">8</span><span class="nm">Mendozareamazingpicks<small>DarknessMonster, 2-2</small></span><span class="fig">998.46<small class="down"><span class="arw" aria-hidden="true"></span>−17.54</small></span><p>Third in points for the season, held back by the quarterbacks. Jacoby Brissett threw three interceptions against the Giants and Daniel Jones scored 7.92. The two of them combined for 18.36.</p></li><li><span class="rk">9</span><span class="nm">J’Allen Waffle Stompers<small>BigJohnDeBo008, 2-2</small></span><span class="fig">995.88<small class="down"><span class="arw" aria-hidden="true"></span>−17.21</small></span><p>Fourth in points and suddenly hurt. Tee Higgins left with a groin injury after 157 yards and Saquon Barkley lasted 4 snaps. The answer was $70 on Will Shipley, the Eagles back who ran 6 times for 23 yards.</p></li><li><span class="rk">10</span><span class="nm">Unsportsmanlike Conduct<small>JeffyWaterton, 2-2</small></span><span class="fig">995.81<small class="down"><span class="arw" aria-hidden="true"></span>−17.34</small></span><p>Benched the best quarterback score in the league and lost by 13.72. Traded for Ladd McConkey and Rico Dowdle on Tuesday. New players help more when the right ones start.</p></li><li><span class="rk">11</span><span class="nm">Skat’s BruteForce Theorem<small>LittleTimmyFlynn, 1-3</small></span><span class="fig">973.52<small class="down"><span class="arw" aria-hidden="true"></span>−14.80</small></span><p>Fewest points in the league, and now officially rebuilding. On Sunday morning Skat’s traded Emeka Egbuka for two 2027 second-round picks, then dropped Tyreek Hill for George Holani 24 minutes later.</p></li><li><span class="rk">12</span><span class="nm">Rams of Steel<small>iemerson969, 1-3</small></span><span class="fig">969.54<small class="down"><span class="arw" aria-hidden="true"></span>−15.93</small></span><p>The week low, on a lineup that had two different ways to win on the bench. Brian Robinson scored three touchdowns while sitting. Caleb Williams has now missed two straight games.</p></li>
     </ol>
   </section>
 
   <section aria-labelledby="s-recaps">
     <h2 id="s-recaps">Matchup recaps</h2>
+    <nav class="finder" id="teams" aria-labelledby="s-find">
+      <h3 id="s-find">Find your team</h3>
+      <ul><li><a href="#game-3" class="won"><span class="box" aria-hidden="true"></span><span class="nm">Dak Side of the Sun</span><span class="res">Won, 199.52</span></a></li><li><a href="#game-5" class="won"><span class="box" aria-hidden="true"></span><span class="nm">hammball</span><span class="res">Won, 188.90</span></a></li><li><a href="#game-5" class="lost"><span class="box" aria-hidden="true"></span><span class="nm">J’Allen Waffle Stompers</span><span class="res">Lost, 152.52</span></a></li><li><a href="#game-6" class="won"><span class="box" aria-hidden="true"></span><span class="nm">Kingslayers</span><span class="res">Won, 121.52</span></a></li><li><a href="#game-4" class="lost"><span class="box" aria-hidden="true"></span><span class="nm">Mendozareamazingpicks</span><span class="res">Lost, 130.96</span></a></li><li><a href="#game-1" class="won"><span class="box" aria-hidden="true"></span><span class="nm">Micah parsons fan club</span><span class="res">Won, 162.88</span></a></li><li><a href="#game-6" class="lost"><span class="box" aria-hidden="true"></span><span class="nm">Rams of Steel</span><span class="res">Lost, 105.32</span></a></li><li><a href="#game-1" class="lost"><span class="box" aria-hidden="true"></span><span class="nm">Skat’s BruteForce Theorem</span><span class="res">Lost, 133.30</span></a></li><li><a href="#game-3" class="lost"><span class="box" aria-hidden="true"></span><span class="nm">Split Safety Syndicate</span><span class="res">Lost, 160.36</span></a></li><li><a href="#game-4" class="won"><span class="box" aria-hidden="true"></span><span class="nm">ThePeopleBeaters</span><span class="res">Won, 170.80</span></a></li><li><a href="#game-2" class="lost"><span class="box" aria-hidden="true"></span><span class="nm">Unsportsmanlike Conduct</span><span class="res">Lost, 124.50</span></a></li><li><a href="#game-2" class="won"><span class="box" aria-hidden="true"></span><span class="nm">WELL! It's The Big Shough</span><span class="res">Won, 138.22</span></a></li></ul>
+    </nav>
     <p class="aside"><b>23.8</b>points the Rams left on the bench with one swap in a 16.2-point loss.</p>
     <div class="deck">
     
-      <article class="card">
-        <div class="band"><span class="no" aria-hidden="true">1</span><h3>One snap from Keenum, and it still wasn’t close</h3></div>
+      <article class="card game" id="game-1" aria-labelledby="game-1-w game-1-l">
+        <div class="plate">
+          <div class="row won"><p class="team" id="game-1-w">Micah parsons fan club<small>Packersfan1992</small></p><p class="score">162.88<small>Won</small></p></div>
+          <div class="row lost"><p class="team" id="game-1-l">Skat’s BruteForce Theorem<small>LittleTimmyFlynn</small></p><p class="score">133.30<small>Lost</small></p></div>
+        </div>
         <div class="body">
-          <p class="vitals"><span><b>162.88</b> Micah parsons fan club</span><span>133.30 Skat’s BruteForce Theorem</span><span>Margin 29.58</span></p>
+          <h3 class="hed">One snap from Keenum, and it still wasn’t close</h3>
+          <p class="margin">Won by 29.58</p>
           <div class="tablewrap"><table class="stats">
             <thead><tr><th scope="col">Player</th><th scope="col">Tm</th><th scope="col">Week 4 line</th><th scope="col" class="pts">Pts</th></tr></thead>
             <tbody>
@@ -156,13 +197,18 @@ h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;ma
             </tbody>
           </table></div>
           <div class="blurb"><p>Skat’s got a real game from Kyle Monangai, who carried 30 times for 146 yards and two touchdowns as Chicago wore down the Jets, and Carnell Tate caught 9 passes for 145 yards for Tennessee. It wasn’t enough against a team playing a man short. Skat’s bench scored 3.0 in total, the lowest in the league, so there was no better lineup sitting there. Skat’s lost to Javonte Williams’s three touchdowns and a tight end who caught 13 of 13.</p></div>
+          <p class="back"><a href="#teams">Back to the team list</a></p>
         </div>
       </article>
     
-      <article class="card">
-        <div class="band"><span class="no" aria-hidden="true">2</span><h3>UC benched the best quarterback day in the league</h3></div>
+      <article class="card game" id="game-2" aria-labelledby="game-2-w game-2-l">
+        <div class="plate">
+          <div class="row won"><p class="team" id="game-2-w">WELL! It's The Big Shough<small>KaranLuvSport</small></p><p class="score">138.22<small>Won</small></p></div>
+          <div class="row lost"><p class="team" id="game-2-l">Unsportsmanlike Conduct<small>JeffyWaterton</small></p><p class="score">124.50<small>Lost</small></p></div>
+        </div>
         <div class="body">
-          <p class="vitals"><span><b>138.22</b> WELL! It's The Big Shough</span><span>124.50 Unsportsmanlike Conduct</span><span>Margin 13.72</span></p>
+          <h3 class="hed">UC benched the best quarterback day in the league</h3>
+          <p class="margin">Won by 13.72</p>
           <div class="tablewrap"><table class="stats">
             <thead><tr><th scope="col">Player</th><th scope="col">Tm</th><th scope="col">Week 4 line</th><th scope="col" class="pts">Pts</th></tr></thead>
             <tbody>
@@ -173,13 +219,18 @@ h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;ma
             </tbody>
           </table></div>
           <div class="blurb"><p>Drake Maye threw three touchdown passes in New England’s 29-26 win at Buffalo, the last one with 1:50 left, and ran for 54 yards. That was 26.16 points, the best quarterback score of the week, from Unsportsmanlike Conduct’s bench. Jalen Hurts started instead and went 12 of 27 for 93 yards in a loss to the Rams (13.52). DeVonta Smith started at receiver and has no stats for the week. Maye for Hurts and Quentin Johnston’s 5.0 for Smith adds 17.64 to a team that lost by 13.72. Big Shough won on Alvin Kamara’s first two touchdowns of the season.</p></div>
+          <p class="back"><a href="#teams">Back to the team list</a></p>
         </div>
       </article>
     
-      <article class="card">
-        <div class="band"><span class="no" aria-hidden="true">3</span><h3>Kyren Williams takes the last four minutes and the week high</h3></div>
+      <article class="card game" id="game-3" aria-labelledby="game-3-w game-3-l">
+        <div class="plate">
+          <div class="row won"><p class="team" id="game-3-w">Dak Side of the Sun<small>SweetRavenge84</small></p><p class="score">199.52<small>Won</small></p></div>
+          <div class="row lost"><p class="team" id="game-3-l">Split Safety Syndicate<small>kylejones10</small></p><p class="score">160.36<small>Lost</small></p></div>
+        </div>
         <div class="body">
-          <p class="vitals"><span><b>199.52</b> Dak Side of the Sun</span><span>160.36 Split Safety Syndicate</span><span>Margin 39.16</span></p>
+          <h3 class="hed">Kyren Williams takes the last four minutes and the week high</h3>
+          <p class="margin">Won by 39.16</p>
           <div class="tablewrap"><table class="stats">
             <thead><tr><th scope="col">Player</th><th scope="col">Tm</th><th scope="col">Week 4 line</th><th scope="col" class="pts">Pts</th></tr></thead>
             <tbody>
@@ -190,13 +241,18 @@ h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;ma
             </tbody>
           </table></div>
           <div class="blurb"><p>Split Safety scored 160.36, the fifth-best total of the week, and lost by 39. Kyren Williams ran for two touchdowns in the final four minutes of the Rams’ comeback in Philadelphia and caught 10 passes on top of that. Joe Burrow threw for 428 yards in a loss to Jacksonville, and Chase Brown caught 11 of his passes. Split Safety lost Ja’Marr Chase to a concussion in the second quarter of that same game after 15 snaps. It also started a kicker who attempted no field goals (2.0) with Cameron Dicker’s 12.0 on the bench.</p></div>
+          <p class="back"><a href="#teams">Back to the team list</a></p>
         </div>
       </article>
     
-      <article class="card">
-        <div class="band"><span class="no" aria-hidden="true">4</span><h3>McMillan catches 14 and the whole margin</h3></div>
+      <article class="card game" id="game-4" aria-labelledby="game-4-w game-4-l">
+        <div class="plate">
+          <div class="row won"><p class="team" id="game-4-w">ThePeopleBeaters<small>ThePeopleBeaters</small></p><p class="score">170.80<small>Won</small></p></div>
+          <div class="row lost"><p class="team" id="game-4-l">Mendozareamazingpicks<small>DarknessMonster</small></p><p class="score">130.96<small>Lost</small></p></div>
+        </div>
         <div class="body">
-          <p class="vitals"><span><b>170.80</b> ThePeopleBeaters</span><span>130.96 Mendozareamazingpicks</span><span>Margin 39.84</span></p>
+          <h3 class="hed">McMillan catches 14 and the whole margin</h3>
+          <p class="margin">Won by 39.84</p>
           <div class="tablewrap"><table class="stats">
             <thead><tr><th scope="col">Player</th><th scope="col">Tm</th><th scope="col">Week 4 line</th><th scope="col" class="pts">Pts</th></tr></thead>
             <tbody>
@@ -207,13 +263,18 @@ h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;ma
             </tbody>
           </table></div>
           <div class="blurb"><p>Tetairoa McMillan caught 14 of 16 targets for a career-high 192 yards and both of Bryce Young’s touchdown passes in Carolina’s 32-26 win over Detroit. ESPN noted he finished one catch and nine yards short of the franchise records. Take his 45.2 away and ThePeopleBeaters lose. Mendoza’s quarterback problem showed up in New York, where Jacoby Brissett threw three interceptions in Arizona’s 36-24 loss. The Giants quarterback who beat him, Jameis Winston, threw three touchdowns from ThePeopleBeaters’ bench.</p></div>
+          <p class="back"><a href="#teams">Back to the team list</a></p>
         </div>
       </article>
     
-      <article class="card">
-        <div class="band"><span class="no" aria-hidden="true">5</span><h3>CeeDee Lamb catches 17 and the last word</h3></div>
+      <article class="card game" id="game-5" aria-labelledby="game-5-w game-5-l">
+        <div class="plate">
+          <div class="row won"><p class="team" id="game-5-w">hammball<small>hammball</small></p><p class="score">188.90<small>Won</small></p></div>
+          <div class="row lost"><p class="team" id="game-5-l">J’Allen Waffle Stompers<small>BigJohnDeBo008</small></p><p class="score">152.52<small>Lost</small></p></div>
+        </div>
         <div class="body">
-          <p class="vitals"><span><b>188.90</b> hammball</span><span>152.52 J’Allen Waffle Stompers</span><span>Margin 36.38</span></p>
+          <h3 class="hed">CeeDee Lamb catches 17 and the last word</h3>
+          <p class="margin">Won by 36.38</p>
           <div class="tablewrap"><table class="stats">
             <thead><tr><th scope="col">Player</th><th scope="col">Tm</th><th scope="col">Week 4 line</th><th scope="col" class="pts">Pts</th></tr></thead>
             <tbody>
@@ -224,13 +285,18 @@ h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;ma
             </tbody>
           </table></div>
           <div class="blurb"><p>CeeDee Lamb caught a career-high 17 passes for 189 yards and scored the winning touchdown with 40 seconds left in Houston. On the other side of that game, Nico Collins came back from two missed games with a hamstring injury and caught 7 for 118 yards and two scores. hammball started both and got 72.1 points out of one box score. J’Allen got 26.7 from Tee Higgins, who had 157 receiving yards before a groin injury in the fourth quarter, and 19.0 from Will Reichard’s five field goals. Saquon Barkley hurt his hamstring after 4 snaps and scored 2.0.</p></div>
+          <p class="back"><a href="#teams">Back to the team list</a></p>
         </div>
       </article>
     
-      <article class="card">
-        <div class="band"><span class="no" aria-hidden="true">6</span><h3>Same game, wrong running back</h3></div>
+      <article class="card game" id="game-6" aria-labelledby="game-6-w game-6-l">
+        <div class="plate">
+          <div class="row won"><p class="team" id="game-6-w">Kingslayers<small>maierz3948</small></p><p class="score">121.52<small>Won</small></p></div>
+          <div class="row lost"><p class="team" id="game-6-l">Rams of Steel<small>iemerson969</small></p><p class="score">105.32<small>Lost</small></p></div>
+        </div>
         <div class="body">
-          <p class="vitals"><span><b>121.52</b> Kingslayers</span><span>105.32 Rams of Steel</span><span>Margin 16.20</span></p>
+          <h3 class="hed">Same game, wrong running back</h3>
+          <p class="margin">Won by 16.20</p>
           <div class="tablewrap"><table class="stats">
             <thead><tr><th scope="col">Player</th><th scope="col">Tm</th><th scope="col">Week 4 line</th><th scope="col" class="pts">Pts</th></tr></thead>
             <tbody>
@@ -241,6 +307,7 @@ h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;ma
             </tbody>
           </table></div>
           <div class="blurb"><p>Rams of Steel had a running back on each side of Monday night’s Falcons-Saints game and started the one on the losing side. Kendre Miller, picked up on October 1, ran 6 times for 9 yards and lost a fumble for New Orleans (1.9). Brian Robinson ran for three touchdowns in Atlanta’s 45-24 win, from the Rams’ bench (25.7). That one swap is worth 23.8 in a 16.2-point loss. Kingslayers won with the second-lowest score of the week, thanks to Puka Nacua’s 125 receiving yards and a rushing touchdown in his first game back after missing two.</p></div>
+          <p class="back"><a href="#teams">Back to the team list</a></p>
         </div>
       </article>
     
@@ -274,28 +341,22 @@ h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;ma
     
       <article class="card award">
         <div class="band"><h3>Bench of the Week</h3></div>
-        <div class="body"><p class="stat">78.22</p><p class="who">Kingslayers</p><p>The most points left on any bench, including Romeo Doubs’s two touchdowns for Green Bay and 11.42 from Jalon Daniels, the undrafted rookie who started for Tampa Bay. Kingslayers won anyway, so nobody has to talk about it.</p></div>
+        <div class="body"><p class="stat">78.22</p><p class="who">Kingslayers</p><p>The most points left on any bench. Romeo Doubs caught 6 passes for 58 yards and two touchdowns for Green Bay from there, and Jalon Daniels, the undrafted rookie who started for Tampa Bay, added 11.42. Kingslayers won anyway, so nobody has to talk about it.</p></div>
       </article>
     
     </div>
-    <h3 style="margin:2rem 0 .5rem">Standouts</h3>
-    <p>The best starter at each position, with the line behind it.</p>
+    <h3 style="margin:2rem 0 .75rem">Standouts</h3>
     <div class="tablewrap"><table class="stats" style="max-width:52rem">
       <thead><tr><th scope="col">Pos</th><th scope="col">Player</th><th scope="col">NFL line</th><th scope="col" class="pts">Pts</th></tr></thead>
       <tbody><tr><td>QB</td><td>Joe Burrow, CIN<small>Dak Side of the Sun</small></td><td>39 of 54, 428 yds, 1 TD, 2 INT, 1 rush TD</td><td class="pts">23.72</td></tr><tr><td>RB</td><td>Kyren Williams, LAR<small>Dak Side of the Sun</small></td><td>147 yards from scrimmage, 2 TD, 10 catches</td><td class="pts">36.70</td></tr><tr><td>WR</td><td>Tetairoa McMillan, CAR<small>ThePeopleBeaters</small></td><td>14 rec, 192 yds, 2 TD</td><td class="pts">45.20</td></tr><tr><td>TE</td><td>T.J. Hockenson, MIN<small>Micah parsons fan club</small></td><td>13 rec on 13 targets, 119 yds</td><td class="pts">24.90</td></tr><tr><td>K</td><td>Will Reichard, MIN<small>J’Allen Waffle Stompers</small></td><td>5 of 5 field goals, long of 50</td><td class="pts">19.00</td></tr><tr><td>DEF</td><td>Seattle, SEA<small>Split Safety Syndicate</small></td><td>4 sacks, 2 INT, 1 fumble recovery</td><td class="pts">12.00</td></tr></tbody>
     </table></div>
     <p>Kingslayers left 78.22 on the bench and won. Skat’s left 3.0 and lost. The best bench score in the league was Drake Maye’s 26.16 for Unsportsmanlike Conduct, which also lost.</p>
-    <h3 style="margin:2rem 0 .5rem">The NFL week</h3>
-    <p>Every NFL result from Week 4 and what it meant here. Box-score numbers are Sleeper’s; game context is from ESPN’s recaps.</p>
-    <ul class="slate"><li><b>CLE 27, PIT 24</b><span class="w">Thursday.</span> Andre Szmyt’s 56-yard field goal won it with 10 seconds left. Aaron Rodgers threw three touchdowns in the loss for the Rams of Steel.</li><li><b>IND 30, WAS 13</b><span class="w">Sunday, London.</span> Jonathan Taylor ran for two touchdowns for UC. Marcus Mariota left after Washington’s second drive with a knee injury.</li><li><b>NE 29, BUF 26</b><span class="w">Sunday.</span> Maye’s three touchdown passes, from UC’s bench. Keon Coleman scored from 34 yards out four days after Micah dropped him.</li><li><b>CHI 23, NYJ 12</b><span class="w">Sunday.</span> Monangai’s 30 carries for Skat’s. Keenum took the first snap and Bagent threw for a career-high 268 yards after it.</li><li><b>JAX 22, CIN 17</b><span class="w">Sunday.</span> Burrow threw for 428 yards and lost. Chase left with a concussion and Higgins with a groin injury.</li><li><b>NYG 36, ARI 24</b><span class="w">Sunday.</span> Winston threw three touchdowns from ThePeopleBeaters’ bench; Brissett threw three interceptions for Mendoza.</li><li><b>LAR 24, PHI 20</b><span class="w">Sunday.</span> The Rams came back from 10 down in the fourth. Kyren Williams scored twice late, Nacua returned, and Barkley hurt his hamstring.</li><li><b>GB 17, TB 14</b><span class="w">Sunday.</span> Jalon Daniels started for Baker Mayfield (dislocated thumb) and threw two interceptions. Romeo Doubs scored twice from the Kingslayers’ bench.</li><li><b>BAL 24, TEN 18</b><span class="w">Sunday.</span> Lamar Jackson hurt his ankle at the end of the first half. Tyler Loop made a career-long 64-yarder on the same half’s last play.</li><li><b>DAL 34, HOU 30</b><span class="w">Sunday.</span> Lamb’s 17 catches, Javonte Williams’s three touchdowns, and Collins’s two for the Texans. hammball had both receivers.</li><li><b>MIN 15, MIA 10</b><span class="w">Sunday.</span> Hockenson’s 13 catches and Reichard’s five field goals. Kyler Murray went 27 of 37 from Big Shough’s bench.</li><li><b>KC 30, LV 27</b><span class="w">Sunday.</span> Walker ran for 177 yards. Rashee Rice pulled up with a hamstring injury in the first quarter and didn’t return.</li><li><b>SF 24, DEN 14</b><span class="w">Sunday.</span> Brock Purdy threw two touchdowns for Skat’s. Courtland Sutton caught 1 of 6 targets for Micah.</li><li><b>SEA 30, LAC 23</b><span class="w">Sunday.</span> Emanuel Wilson scored twice from ThePeopleBeaters’ bench. Seattle’s defense had 4 sacks and 2 interceptions for Split Safety.</li><li><b>CAR 32, DET 26</b><span class="w">Sunday night.</span> Young to McMillan for 192 yards and two scores, plus Hubbard’s two rushing touchdowns. Jake Bates made all four kicks for Micah.</li><li><b>ATL 45, NO 24</b><span class="w">Monday night.</span> Bijan Robinson ran for 145 and two scores, Brian Robinson for three from the Rams’ bench, and Kamara scored his first two of the year.</li></ul>
     <h3 style="margin:2rem 0 .5rem">Injuries</h3>
-    <p>Injuries to rostered players, as ESPN reported them in the game recaps, with Sleeper’s status as of Thursday morning.</p>
     <ul class="slate"><li><b>Lamar Jackson</b><span class="w">BAL, Micah parsons fan club.</span> Left with an ankle injury. Questionable.</li><li><b>Ja’Marr Chase</b><span class="w">CIN, Split Safety Syndicate.</span> Concussion in the second quarter. Questionable.</li><li><b>Tee Higgins</b><span class="w">CIN, J’Allen Waffle Stompers.</span> Groin injury in the fourth quarter. Questionable.</li><li><b>Saquon Barkley</b><span class="w">PHI, J’Allen Waffle Stompers.</span> Right hamstring. Questionable.</li><li><b>Rashee Rice</b><span class="w">KC, Rams of Steel.</span> Hamstring in the first quarter. Questionable, and Kansas City is on bye.</li><li><b>Marcus Mariota</b><span class="w">WAS, Kingslayers.</span> Knee injury after two drives. Doubtful.</li><li><b>Kyle Monangai</b><span class="w">CHI, Skat’s BruteForce Theorem.</span> Thumb injury at the end of the game. Questionable.</li><li><b>Baker Mayfield</b><span class="w">TB, Micah parsons fan club.</span> Missed Week 4 with a dislocated thumb. Out.</li><li><b>Caleb Williams</b><span class="w">CHI, Rams of Steel.</span> Missed a second straight game with a right hamstring injury. Out.</li></ul>
   </section>
 
   <section aria-labelledby="s-moves" class="moves">
     <h2 id="s-moves">Transactions</h2>
-    <p>The Wednesday waiver run processed 7 claims for $101, and $70 of it was J’Allen buying the next Eagles running back. The best claim cost $5: ThePeopleBeaters got Keon Coleman, the receiver Micah dropped for Keenum, a few days after his 116-yard game. Two trades went through, both involving teams under .500, and Skat’s added a third rebuilding move by spending $14 on Thursday for a Chiefs running back in the Chiefs’ bye week.</p>
     <p class="aside"><b>$5</b>for Keon Coleman, four days after his 116-yard game.</p>
     <h3 style="margin:1.5rem 0 .5rem">Waiver claims</h3>
     <div class="tablewrap"><table class="stats" style="max-width:60rem">
@@ -320,7 +381,7 @@ h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;ma
   </section>
 
   <footer class="foot">
-    <p>Fantasy points, lineups, standings, and transactions come from the league on Sleeper. Box-score lines come from Sleeper’s Week 4 NFL stats. Game context, quotes, and injuries come from ESPN’s game recaps. Where ESPN and Sleeper disagree on a stat, this issue uses Sleeper. Rankings and grades are opinion.</p>
+    <p>Fantasy points, lineups, standings, and transactions come from the league on Sleeper. Box-score lines come from Sleeper’s Week 4 NFL stats. Game context, quotes, and injuries come from ESPN’s game recaps. Where ESPN and Sleeper disagree on a stat, this issue uses Sleeper. Power rankings are ordered by Elo: every team started the season at 1000, K is 32, and only wins and losses count. The blurbs and grades are opinion. The pulled data is saved in <code>newsletter/issues/2026-week4/</code>.</p>
     <ul><li><a href="https://api.sleeper.app/v1/league/1319718857249665024">Sleeper league API</a></li><li><a href="https://api.sleeper.com/stats/nfl/2026/4?season_type=regular">Sleeper NFL stats, Week 4</a></li><li><a href="https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&amp;seasontype=2&amp;week=4">ESPN NFL scoreboard, Week 4</a></li></ul>
     <p>Rebuilders Anonymous, Week 4. Presented by Unsportsmanlike Conduct.</p>
   </footer>
