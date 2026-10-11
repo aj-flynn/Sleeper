@@ -37,6 +37,7 @@ REPO = HERE.parent
 sys.path.insert(0, str(HERE))
 
 import build  # noqa: E402
+import elo  # noqa: E402
 import fetch_week  # noqa: E402
 
 AGENTS = REPO / ".cursor" / "agents"
@@ -145,13 +146,19 @@ def stage_fetch(run, refresh=False):
 def stage_brief(run):
     if not (run.dir / "raw").exists():
         return run.record("brief.reproducible", "fail", "brief", ["no raw/ folder"], "Run the fetch first.")
-    fetch_week.build_brief(run.dir, run.week, run.season)
-    first = (sha(run.dir / "brief.json"), sha(run.dir / "brief.md"))
-    fetch_week.build_brief(run.dir, run.week, run.season)
-    second = (sha(run.dir / "brief.json"), sha(run.dir / "brief.md"))
+    hist = elo.history_path(run.season)
+    try:
+        fetch_week.build_brief(run.dir, run.week, run.season)
+        first = (sha(run.dir / "brief.json"), sha(run.dir / "brief.md"), sha(hist))
+        fetch_week.build_brief(run.dir, run.week, run.season)
+        second = (sha(run.dir / "brief.json"), sha(run.dir / "brief.md"), sha(hist))
+    except elo.EloHistoryError as e:
+        return run.record("brief.reproducible", "fail", "brief", [str(e)],
+                          "A past week in the Elo history file disagrees with a recompute. Do not edit the file by hand.")
     ok = first == second
     return run.record("brief.reproducible", "pass" if ok else "fail", "brief",
-                      {"brief.json": second[0], "brief.md": second[1]} if ok else ["two builds from the same raw/ differ"],
+                      {"brief.json": second[0], "brief.md": second[1], "elo": second[2]} if ok else
+                      ["two builds from the same raw/ differ (brief or Elo history)"],
                       "The brief builder is not deterministic; fix fetch_week.build_brief.")
 
 
@@ -197,6 +204,34 @@ def brief_problems(run):
         p.append("next week: expected 6 fantasy pairings")
     if (run.dir / "brief.md").read_text(encoding="utf-8") != fetch_week.render_md(b):
         p.append("brief.md doesn't match brief.json; rebuild the brief instead of editing it")
+    p += elo_history_problems(run, b)
+    return p
+
+
+def elo_history_problems(run, brief):
+    """The season history file has weeks 0..N and this week matches the brief."""
+    path = elo.history_path(run.season)
+    if not path.exists():
+        return [f"elo history: {path} is missing; the brief step writes it"]
+    try:
+        doc = elo.read_doc(path)
+    except json.JSONDecodeError as e:
+        return [f"elo history: {path} is not valid JSON: {e}"]
+    p = []
+    for w in range(0, run.week + 1):
+        if elo._week_map(doc, w) is None:
+            p.append(f"elo history: missing week {w}")
+    week = elo._week_map(doc, run.week)
+    if week is None:
+        return p
+    by_team = {t["team"]: t["elo"] for t in brief["elo"]["table"]}
+    if len(week) != 12:
+        p.append(f"elo history: week {run.week} has {len(week)} teams, expected 12")
+    for row in week.values():
+        if row["team"] not in by_team:
+            p.append(f"elo history: {row['team']} is not in the brief's Elo table")
+        elif abs(row["elo"] - by_team[row["team"]]) >= 0.005:
+            p.append(f"elo history: {row['team']} is {row['elo']:.2f}, the brief has {by_team[row['team']]:.2f}")
     return p
 
 
@@ -370,12 +405,20 @@ def stage_render(run):
     problems = build.schema_problems(data) + build.lint(data) + build.check_facts(run.issue)
     if problems:
         return run.record("render.reproducible", "fail", "render", problems, "The issue no longer passes its checks; rerun check-issue.")
-    html = build.render(build.derive(data))
+    try:
+        html = build.render(build.derive(data))
+    except elo.EloHistoryError as e:
+        return run.record("render.reproducible", "fail", "render", [str(e)],
+                          "The Elo history file is missing this week; rerun the brief step.")
     if html != build.render(build.derive(data)):
         return run.record("render.reproducible", "fail", "render", ["two renders differ"], "Fix build.render.")
+    if 'id="elo-chart"' not in html or html.count('class="elo-line"') != 12:
+        return run.record("render.reproducible", "fail", "render", ["rendered HTML is missing the 12-team Elo chart"],
+                          "Fix build.derive / elo.chart_html; the chart is generated at render time.")
     out = run.dir / "issue.html"
     out.write_text(html, encoding="utf-8")
-    return run.record("render.reproducible", "pass", "render", {"issue.html": sha(out), "bytes": len(html.encode())})
+    return run.record("render.reproducible", "pass", "render", {"issue.html": sha(out), "bytes": len(html.encode()),
+                                                               "elo_chart": True})
 
 
 def stage_verify(run):
@@ -429,8 +472,17 @@ def stage_checklist(run):
             p.append("issue.html is not the render of the current issue.json")
         if data.get("preview", {}).get("is_sample"):
             p.append("preview is marked as sample data; say so in the PR")
+        if html.exists() and ('id="elo-chart"' not in html.read_text(encoding="utf-8")
+                              or html.read_text(encoding="utf-8").count('class="elo-line"') != 12):
+            p.append("issue.html is missing the Elo chart; rerun render")
     if (run.dir / "brief.json").exists() and brief_problems(run):
         p.append("brief.json no longer passes check-brief")
+    hist = elo.history_path(run.season)
+    if not hist.exists():
+        p.append(f"Elo history file missing: {hist.relative_to(REPO)}")
+    elif (run.dir / "brief.json").exists():
+        hp = elo_history_problems(run, load(run.dir / "brief.json"))
+        p += hp
     for g in ("html.phone", "html.desktop", "html.screenshots"):
         if (run.gates.get(g, {}).get("details") or {}).get("html_sha256") not in (None, sha(html)):
             p.append(f"{g} checked an older issue.html; rerun verify")

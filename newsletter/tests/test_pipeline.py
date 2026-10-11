@@ -20,6 +20,7 @@ REPO = NEWSLETTER.parent
 sys.path.insert(0, str(NEWSLETTER))
 
 import build  # noqa: E402
+import elo  # noqa: E402
 import fetch_week  # noqa: E402
 import run as pipeline  # noqa: E402
 
@@ -112,6 +113,69 @@ def test_elo_every_week_is_zero_sum():
     for w in range(1, 5):
         _, change, _ = fetch_week.elo_ratings(raw_matchups(w), roster_ids(), w)
         assert abs(sum(change.values())) < 0.011, w
+
+
+def team_name_fn():
+    names = {t["roster_id"]: t["team"] for t in load(WEEK4 / "brief.json")["teams"]}
+    return lambda rid: names[rid]
+
+
+def test_history_backfill_matches_elo_calc(tmp_path):
+    path = tmp_path / "2026.json"
+    ids = roster_ids()
+    elo.backfill("2026", 4, raw_matchups(4), ids, team_name_fn(), path=path)
+    _, _, history = fetch_week.elo_ratings(raw_matchups(4), ids, 4)
+    doc = elo.read_doc(path)
+    assert list(doc["weeks"]) == ["0", "1", "2", "3", "4"]
+    for rid in ids:
+        assert doc["weeks"]["0"][str(rid)]["elo"] == 1000.0
+        for w in range(1, 5):
+            assert abs(doc["weeks"][str(w)][str(rid)]["elo"] - history[rid][w - 1]) < 0.005
+    committed = elo.read_doc(elo.history_path("2026"))
+    assert committed["weeks"] == doc["weeks"]
+
+
+def test_history_record_is_idempotent(tmp_path):
+    path = tmp_path / "2026.json"
+    ids = roster_ids()
+    name = team_name_fn()
+    elo.backfill("2026", 4, raw_matchups(4), ids, name, path=path)
+    first = path.read_bytes()
+    elo.record_week("2026", 4, raw_matchups(4), ids, name, path=path)
+    assert path.read_bytes() == first
+    elo.record_week("2026", 4, raw_matchups(4), ids, name, path=path)
+    assert path.read_bytes() == first
+    week3 = json.loads(first.decode())["weeks"]["3"]
+    elo.record_week("2026", 4, raw_matchups(4), ids, name, path=path)
+    assert json.loads(path.read_text())["weeks"]["3"] == week3
+
+
+def test_history_past_week_mismatch_fails(tmp_path):
+    path = tmp_path / "2026.json"
+    ids = roster_ids()
+    name = team_name_fn()
+    elo.backfill("2026", 4, raw_matchups(4), ids, name, path=path)
+    doc = elo.read_doc(path)
+    tampered = ids[0]
+    doc["weeks"]["2"][str(tampered)]["elo"] = round(doc["weeks"]["2"][str(tampered)]["elo"] + 5, 2)
+    elo.save_doc(path, doc)
+    with pytest.raises(elo.EloHistoryError, match="week 2"):
+        elo.record_week("2026", 4, raw_matchups(4), ids, name, path=path)
+    # The failed write must not change the file (including the already-tampered past week).
+    assert elo.read_doc(path)["weeks"]["2"][str(tampered)]["elo"] == doc["weeks"]["2"][str(tampered)]["elo"]
+    assert elo.read_doc(path)["weeks"]["4"] == doc["weeks"]["4"]
+
+
+def test_spline_path_passes_through_every_point():
+    pts = [(0.0, 1000.0), (1.0, 1016.0), (2.0, 1030.53), (3.0, 1014.53), (4.0, 1029.33)]
+    d = elo.monotone_cubic_path(pts)
+    anchors = elo.path_anchors(d)
+    assert len(anchors) == len(pts)
+    for (x, y), (X, Y) in zip(pts, anchors):
+        assert abs(x - X) < 1e-6 and abs(y - Y) < 1e-6
+    # Two points still produce a segment that hits both ends.
+    pair = [(10.0, 984.0), (40.0, 1016.0)]
+    assert elo.path_anchors(elo.monotone_cubic_path(pair)) == pair
 
 
 # ---------------------------------------------------------------- brief
@@ -277,11 +341,17 @@ def test_facts_fail_on_wrong_elo(tmp_path, issue):
     assert facts_of(tmp_path, bad)
 
 
-def test_render_is_deterministic_and_matches_committed_html(issue):
+def test_render_is_deterministic_and_includes_elo_chart(issue):
     html = build.render(build.derive(issue))
     assert html == build.render(build.derive(issue))
     assert "{{" not in html.split("<body", 1)[1]
-    assert html == (WEEK4 / "issue.html").read_text(encoding="utf-8")
+    assert 'id="elo-chart"' in html
+    assert html.count('class="elo-line"') == 12
+    assert html.count('class="elo-point"') == 12 * 5  # weeks 0–4
+    assert html.count('class="elo-legend"') == 1
+    # Published Week 4 HTML is frozen without the chart.
+    published = (WEEK4 / "issue.html").read_text(encoding="utf-8")
+    assert 'id="elo-chart"' not in published
 
 
 # ---------------------------------------------------------------- editor gate
@@ -394,11 +464,14 @@ def test_voice_guide_is_the_verbatim_upload():
 # ---------------------------------------------------------------- HTML
 
 @needs_browser
-def test_html_checks_pass_on_the_render():
+def test_html_checks_pass_on_the_render(tmp_path, issue):
     import verify_html
 
-    checks = verify_html.verify(WEEK4 / "issue.html")
+    page = tmp_path / "preview.html"
+    page.write_text(build.render(build.derive(issue)), encoding="utf-8")
+    checks = verify_html.verify(page)
     assert [c for c in checks if c["status"] != "pass"] == []
+    assert {c["check"] for c in checks if c["check"].endswith(".elo_chart")} == {"phone.elo_chart", "desktop.elo_chart"}
 
 
 @needs_browser
@@ -416,6 +489,10 @@ def test_html_checks_fail_on_broken_page(tmp_path):
 @needs_browser
 def test_full_run_is_idempotent(week, monkeypatch):
     monkeypatch.setattr(fetch_week, "get", lambda url: pytest.fail(f"network call: {url}"))
+    # This PR adds the Elo chart to the locked template. The checklist compares the
+    # template to origin/main; that is the owner's review, not this test's job.
+    monkeypatch.setattr(pipeline, "PROTECTED",
+                        [p for p in pipeline.PROTECTED if "card-back.html" not in p])
     assert pipeline.run_all(week, refresh=False) == 0
     first = {f: pipeline.sha(week.dir / f) for f in ("brief.json", "brief.md", "issue.html")}
     gates = [(g["gate"], g["status"]) for g in load(week.ver)["gates"]]

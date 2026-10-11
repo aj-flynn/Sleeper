@@ -62,7 +62,7 @@ Every number in the copy that the brief doesn't print goes in `issue.json` under
 | --- | --- | --- |
 | Sources and fetch time | Every URL used and when it was pulled | the fetcher |
 | Standings | W-L, points for and against, and week-by-week results for all 12 teams | Sleeper `/league/<id>/matchups/1..N` and `/rosters`, `/users` for names |
-| Elo | Every team's rating, this week's change, and its rating after each week, in power-rankings order, with the formula | Computed from Sleeper `/league/<id>/matchups/1..N` (see [league.md](league.md#elo)) |
+| Elo | Every team's rating, this week's change, and its rating after each week, in power-rankings order, with the formula | Computed from Sleeper `/league/<id>/matchups/1..N` (see [league.md](league.md#elo)). The brief step also appends week N to `newsletter/elo/<season>.json` |
 | Fantasy matchups | All six games: final, margin, every starter and bench player with league fantasy points | Sleeper `/league/<id>/matchups/<N>` |
 | NFL stat line per player | For each of those players: NFL team, a plain-words box-score line, and their NFL game's final | Sleeper `api.sleeper.com/stats/nfl/<season>/<N>`, joined on `player_id`; players from `/v1/players/nfl` |
 | NFL games | Every final, date, venue, ESPN's recap headline and text, scoring plays, and the pregame injury report | ESPN `site.api.espn.com/.../nfl/scoreboard` and `/summary?event=<id>` |
