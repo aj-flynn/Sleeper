@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
 """Render a Rebuilders Anonymous newsletter issue into one self-contained HTML file.
 
-    python3 newsletter/build.py --template docket --data newsletter/issues/2026-week5/issue.json --out 2026-week5.html
-    python3 newsletter/build.py --samples      # rebuild Card Back from the Week 4 issue (and the four frozen prototypes)
-    python3 newsletter/build.py --archive      # rebuild the three archived Week 2 designs
+    python3 newsletter/build.py --data newsletter/issues/2026-week5/issue.json --out 2026-week5.html
+    python3 newsletter/build.py --data newsletter/issues/2026-week4/issue.json   # writes issue.html next to it
     python3 newsletter/build.py --lint newsletter/issues/2026-week5/issue.json
     python3 newsletter/build.py --check-facts newsletter/issues/2026-week5/issue.json
 
-Templates live in newsletter/prototypes/src/. They use a small Mustache subset:
+The template is newsletter/templates/card-back.html. It uses a small Mustache subset:
   {{key}} / {{a.b}}      insert a value (raw HTML, so copy may use <em>, &amp;)
   {{#key}}...{{/key}}    repeat for each list item, or render once if truthy
   {{^key}}...{{/key}}    render only if the value is missing-but-declared, empty, or false
@@ -20,7 +19,7 @@ power rankings by Elo. validate() enforces that (schema 3) before anything rende
 check_elo() matches the Elo figures against the brief; see the newsletter skill.
 
 A template's fonts are declared in a comment such as
-  <!-- fonts: courier-prime-400-normal kalam-700-normal -->
+  <!-- fonts: alfa-slab-one-400-normal archivo-narrow-700-normal -->
 and inlined as base64 @font-face rules wherever the template says /*@font-faces*/.
 """
 
@@ -32,37 +31,14 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-PROTOTYPES = ROOT / "prototypes"
-SRC = PROTOTYPES / "src"
-ARCHIVE = PROTOTYPES / "archive"
+TEMPLATES = ROOT / "templates"
+TEMPLATE = "card-back"
 FONTS = ROOT / "fonts"
 SKILL = ROOT.parent / ".cursor" / "skills" / "newsletter" / "SKILL.md"
 
-SAMPLE_DATA = ROOT / "issues" / "2026-week4" / "issue.json"
-CHOSEN_TEMPLATE = "card-back"
-# The four prototypes the owner didn't pick stay as reviewed, rendered from the schema 2 data they were built on.
-FROZEN_DATA = SRC / "sample-issue-week4-v1.json"
-FROZEN_TEMPLATES = ["minutes", "blueprint", "docket", "downfield"]
-ARCHIVE_DATA = ARCHIVE / "sample-issue-week2.json"
-ARCHIVE_TEMPLATES = ["broadsheet", "ledger", "night-edition"]
-
 FAMILY_NAMES = {
-    "newsreader": "Newsreader",
-    "libre-franklin": "Libre Franklin",
-    "ibm-plex-sans": "IBM Plex Sans",
-    "ibm-plex-mono": "IBM Plex Mono",
-    "big-shoulders-display": "Big Shoulders Display",
-    "source-serif-4": "Source Serif 4",
-    "courier-prime": "Courier Prime",
-    "kalam": "Kalam",
-    "architects-daughter": "Architects Daughter",
-    "barlow": "Barlow",
-    "barlow-condensed": "Barlow Condensed",
-    "libre-caslon-text": "Libre Caslon Text",
     "alfa-slab-one": "Alfa Slab One",
     "archivo-narrow": "Archivo Narrow",
-    "saira-stencil-one": "Saira Stencil One",
-    "atkinson-hyperlegible": "Atkinson Hyperlegible",
 }
 
 TAG = re.compile(r"{{\s*([#^/]?)\s*([\w.@]+)\s*}}")
@@ -160,71 +136,28 @@ def font_faces(template):
     return "\n".join(rules)
 
 
-def render(template_name, data, src=SRC):
-    template = (src / f"{template_name}.html").read_text(encoding="utf-8")
-    html = render_nodes(parse(template), [data])
+def render(data, template=TEMPLATE):
+    source = (TEMPLATES / f"{template}.html").read_text(encoding="utf-8")
+    html = render_nodes(parse(source), [data])
     html = re.sub(r"\s*<!--\s*fonts:[^>]*-->", "", html, count=1)
-    return html.replace("/*@font-faces*/", font_faces(template))
+    return html.replace("/*@font-faces*/", font_faces(source))
 
 
 def num(value):
     return float(str(value).replace("$", "").replace(",", ""))
 
 
-def place_labels(rankings, gap=6.4, floor=4.5, ceil=95.5):
-    """Spread chart labels on each side so they don't overlap; the dots stay at pf_pct."""
-    for side in ("left", "right"):
-        items = sorted((r for r in rankings if r["side"] == side), key=lambda r: r["pf_pct"])
-        pos = [min(max(r["pf_pct"], floor), ceil) for r in items]
-        for i in range(1, len(pos)):
-            pos[i] = max(pos[i], pos[i - 1] + gap)
-        if pos and pos[-1] > ceil:
-            pos[-1] = ceil
-            for i in range(len(pos) - 2, -1, -1):
-                pos[i] = min(pos[i], pos[i + 1] - gap)
-        for r, p in zip(items, pos):
-            r["label_pct"] = round(p, 2)
-            r["link_lo"] = round(min(p, r["pf_pct"]), 2)
-            r["link_h"] = round(abs(p - r["pf_pct"]), 2)
-
-
 def derive(data):
-    """Add layout-only numbers (bar lengths, field positions) computed from the issue's own data."""
+    """Add layout-only fields computed from the issue's own data."""
     data = json.loads(json.dumps(data))
-    recaps = data.get("recaps", [])
-    if recaps and "w_manager" in recaps[0]:
-        # The jump list: every team, alphabetically, pointing at its own recap card.
-        teams = []
-        for i, r in enumerate(recaps, 1):
-            teams.append({"team": r["winner"], "manager": r["w_manager"], "score": r["w_score"], "won": True, "game": i})
-            teams.append({"team": r["loser"], "manager": r["l_manager"], "score": r["l_score"], "won": False, "game": i})
-        data["recap_index"] = sorted(teams, key=lambda t: re.sub(r"[^a-z0-9]", "", t["team"].lower()))
-    if recaps:
-        top = max(num(r["w_score"]) for r in recaps)
-        for r in recaps:
-            r["w_pct"] = round(num(r["w_score"]) / top * 100, 2)
-            r["l_pct"] = round(num(r["l_score"]) / top * 100, 2)
-            r["margin_pct"] = round(r["w_pct"] - r["l_pct"], 2)
-    rankings = data.get("rankings", [])
-    for r in rankings:
-        if "elo_change" in r:
-            r["elo_up"] = num(r["elo_change"].replace("\u2212", "-")) >= 0
-    if rankings and all("pf" in r for r in rankings):
-        pfs = [num(r["pf"]) for r in rankings]
-        lo, hi = min(pfs), max(pfs)
-        for r in rankings:
-            # 0 is the team with the fewest points for, 100 the most.
-            r["pf_pct"] = round((num(r["pf"]) - lo) / ((hi - lo) or 1) * 100, 2)
-            r["pf_rank"] = sorted(pfs, reverse=True).index(num(r["pf"])) + 1
-            r["side"] = "left" if r["pf_rank"] % 2 else "right"
-        place_labels(rankings)
-        step = 20 if hi - lo > 100 else 10
-        first = int(lo // step + 1) * step
-        data["pf_scale"] = {
-            "lo": f"{lo:.2f}", "hi": f"{hi:.2f}",
-            "lines": [{"label": v, "pct": round((v - lo) / ((hi - lo) or 1) * 100, 2)}
-                      for v in range(first, int(hi) + 1, step)],
-        }
+    # The jump list: every team, alphabetically, pointing at its own recap card.
+    teams = []
+    for i, r in enumerate(data.get("recaps", []), 1):
+        teams.append({"team": r["winner"], "manager": r["w_manager"], "score": r["w_score"], "won": True, "game": i})
+        teams.append({"team": r["loser"], "manager": r["l_manager"], "score": r["l_score"], "won": False, "game": i})
+    data["recap_index"] = sorted(teams, key=lambda t: re.sub(r"[^a-z0-9]", "", t["team"].lower()))
+    for r in data.get("rankings", []):
+        r["elo_up"] = signed(r["elo_change"]) >= 0
     return data
 
 
@@ -383,11 +316,8 @@ def write(out, html):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--template", choices=sorted(p.stem for p in SRC.glob("*.html") if p.stem != "index"))
-    ap.add_argument("--data", type=Path)
-    ap.add_argument("--out", type=Path)
-    ap.add_argument("--samples", action="store_true", help="rebuild the prototypes and their index from the sample issue")
-    ap.add_argument("--archive", action="store_true", help="rebuild the archived Week 2 designs")
+    ap.add_argument("--data", type=Path, metavar="ISSUE_JSON", help="the issue to render")
+    ap.add_argument("--out", type=Path, help="output HTML (default: issue.html next to the issue)")
     ap.add_argument("--lint", type=Path, metavar="ISSUE_JSON", help="check copy against the skill's rules, schema 3, and the brief's Elo")
     ap.add_argument("--check-facts", type=Path, metavar="ISSUE_JSON", help="list numbers not found in the brief")
     ap.add_argument("--brief", type=Path, help="brief.md to check against (default: next to the issue)")
@@ -406,35 +336,15 @@ def main():
         print(f"{len(unknown)} numbers to verify by hand (derived or outside the brief)")
         return
 
-    if args.archive:
-        data = json.loads(ARCHIVE_DATA.read_text(encoding="utf-8"))
-        for name in ARCHIVE_TEMPLATES:
-            write(ARCHIVE / f"{name}.html", render(name, data, ARCHIVE / "src"))
-        return
-
-    if args.samples:
-        data = json.loads(SAMPLE_DATA.read_text(encoding="utf-8"))
-        problems = lint(data, SAMPLE_DATA)
-        for p in problems:
-            print(f"lint: {p}")
-        if problems:
-            sys.exit(1)
-        write(PROTOTYPES / f"{CHOSEN_TEMPLATE}.html", render(CHOSEN_TEMPLATE, derive(data)))
-        frozen = derive(json.loads(FROZEN_DATA.read_text(encoding="utf-8")))
-        for name in FROZEN_TEMPLATES:
-            write(PROTOTYPES / f"{name}.html", render(name, frozen))
-        write(PROTOTYPES / "index.html", render("index", {}))
-        return
-
-    if not (args.template and args.data and args.out):
-        ap.error("--template, --data, and --out are required (or use --samples / --archive / --lint / --check-facts)")
+    if not args.data:
+        ap.error("--data is required (or use --lint / --check-facts)")
     data = json.loads(args.data.read_text(encoding="utf-8"))
     problems = lint(data, args.data)
     for p in problems:
         print(f"lint: {p}")
     if validate(data) or check_elo(data, args.data.with_name("brief.json")):
         sys.exit("build stopped: the issue does not meet schema 3 (see lint output)")
-    write(args.out, render(args.template, derive(data)))
+    write(args.out or args.data.with_name("issue.html"), render(derive(data)))
 
 
 if __name__ == "__main__":

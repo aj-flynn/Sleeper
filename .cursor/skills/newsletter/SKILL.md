@@ -13,14 +13,10 @@ The weekly newsletter for **Rebuilders Anonymous**, a 12-team dynasty league on 
 CHOSEN_TEMPLATE: card-back
 ```
 
-The owner picked **Card Back**: source `newsletter/prototypes/src/card-back.html`, Week 4 sample `newsletter/prototypes/card-back.html`. Render every issue with it and don't restyle it per issue. Design changes follow `.cursor/skills/frontend-design/SKILL.md` and need the owner's sign-off. The owner's standing design notes:
+The owner picked **Card Back**, the only template: `newsletter/templates/card-back.html`, with its two fonts (Alfa Slab One, Archivo Narrow) in `newsletter/fonts/` and their licenses in `newsletter/fonts/licenses/`. The rendered Week 4 sample is `newsletter/issues/2026-week4/issue.html`. Render every issue with it and don't restyle it per issue. Design changes follow `.cursor/skills/frontend-design/SKILL.md` and need the owner's sign-off. The owner's standing design notes:
 
 - Recap cards must let a manager find their own team fast while scrolling on a phone. Team names are the biggest type on each card, the winner always sits on top, and the section opens with the "Find your team" list that links to every card (`build.py` builds that list from `recaps`).
 - No provenance paragraph, format line, or byline on the page, no intro lines under section headings, and no standalone NFL results section. The football goes inside the recaps, lead, awards, and standouts.
-
-The other four prototypes (Meeting Minutes, Blueprint, The Docket, Downfield) stay in `newsletter/prototypes/` as they were reviewed. They render from a frozen schema 2 copy of the Week 4 data (`newsletter/prototypes/src/sample-issue-week4-v1.json`) and are not part of the weekly build. `newsletter/prototypes/index.html` links all five.
-
-The first-round designs (Broadsheet, Ledger, Night Edition) are frozen in `newsletter/prototypes/archive/` with their Week 2 sample. They use the old schema and are not part of the weekly build; `python3 newsletter/build.py --archive` only rebuilds them as they were.
 
 ## The league
 
@@ -229,12 +225,12 @@ If the fetcher fails on a source, fix and rerun it rather than writing around th
 1. **Fetch.** `python3 newsletter/fetch_week.py --week <N>` after the Wednesday waiver run has processed (in Week 4 it ran at 07:04 UTC Wednesday), so the brief has the final scores and the claims. Check the brief's standings against Sleeper's app if anything looks off.
 2. **Read the brief end to end.** Then write a private fact sheet: every team's score, record, top and bottom starters with their stat lines, notable bench points, every transaction, and the injuries the recaps mention. You will check copy against this sheet.
 3. **Find the story.** List the three most surprising facts of the week, fantasy or football. The best one is the lead; the others become awards or ranking blurbs. The best stories usually sit where the two meet: a fantasy decision that the box score made look terrible, or a real game that swung a fantasy one.
-4. **Start from the last issue.** Copy `newsletter/issues/2026-week4/issue.json` to `newsletter/issues/<season>-week<N>/issue.json` and replace every field. Keep the structure; the templates fail the build on missing keys.
+4. **Start from the last issue.** Copy `newsletter/issues/2026-week4/issue.json` to `newsletter/issues/<season>-week<N>/issue.json` and replace every field. Keep the structure; the template fails the build on missing keys.
 5. **Write in section order.** Lead first, then rankings (copy the order, `elo`, and `elo_change` from the brief's Elo table, then write the takes), recaps, awards and standouts, injuries, transactions, next week. For every recap, open the brief's matchup block and pull the stat lines of the players who decided it before you write a word.
 6. **Edit pass.** Read every item against the voice rules, the anti-patterns list, and the fact sheet. Cut the weakest sentence in each blurb. Make sure no two ranking blurbs start the same way.
 7. **Lint.** `python3 newsletter/build.py --lint newsletter/issues/<season>-week<N>/issue.json` must print nothing. It checks the banned list and punctuation, and that the issue meets schema 3: the lead, every recap, and every award cite box-score stats; every key performer and standout has an NFL team and stat line; recaps name both managers; and the rankings are in Elo order with the same ratings and changes as `brief.json`. Fix the copy, don't edit the banned list to get it to pass.
 8. **Check the numbers.** `python3 newsletter/build.py --check-facts newsletter/issues/<season>-week<N>/issue.json` and recompute every number it lists.
-9. **Render.** `python3 newsletter/build.py --template card-back --data newsletter/issues/<season>-week<N>/issue.json --out <season>-week<N>.html` (repo root, same as `2026-week2.html`). The build refuses to render an issue that fails schema 3 or whose Elo doesn't match the brief.
+9. **Render.** `python3 newsletter/build.py --data newsletter/issues/<season>-week<N>/issue.json --out <season>-week<N>.html` (repo root, same as `2026-week2.html`). Without `--out` it writes `issue.html` next to the issue JSON, which is how to preview a draft without touching the repo root. The build refuses to render an issue that fails schema 3 or whose Elo doesn't match the brief.
 10. **Check it on a phone width.** Open the output headless at 390px wide; confirm no horizontal scroll, no `{{` left in the page, no requests other than `data:` URLs, and that every name in "Find your team" jumps to that team's card. Take full-page and first-screen screenshots at phone and desktop widths for the PR.
 11. **Fact-check last.** Go through the rendered page top to bottom and tick every number against the fact sheet.
 12. **Ship as a draft PR.** New branch, commit the brief, `raw/`, the JSON, and the HTML, and open a draft PR with the screenshot. Do not merge: GitHub Pages serves `main`, so merging publishes. Never edit an already-published week unless the owner asks.
@@ -258,4 +254,4 @@ Copy is inserted as raw HTML, so you can use `<em>` or `<strong>`, and you must 
 | `preview` | `is_sample` (true if anything is placeholder), `label`, `note` (byes and anything unusual, like a London game), and six `{a, b, line}`. |
 | `footer` | `methods` (how the sources were used), `sources` (`{name, url}` list), and `credit`. |
 
-`build.py` adds layout-only fields before rendering: `recap_index` (the "Find your team" list, every team alphabetically with its result and card), `elo_up` on rankings, and bar lengths on recaps. Don't write those by hand.
+`build.py` adds layout-only fields before rendering: `recap_index` (the "Find your team" list, every team alphabetically with its result and card) and `elo_up` on rankings. Don't write those by hand.
