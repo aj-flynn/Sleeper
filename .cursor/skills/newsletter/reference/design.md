@@ -10,7 +10,7 @@ The owner picked **Card Back**, the only template: `newsletter/templates/card-ba
 
 - Recap cards must let a manager find their own team fast while scrolling on a phone. Team names are the biggest type on each card, the winner always sits on top, and the section opens with the "Find your team" list that links to every card (`build.py` builds that list from `recaps`).
 - No provenance paragraph, format line, or byline on the page, no intro lines under section headings, and no standalone NFL results section. The football goes inside the recaps, lead, awards, and standouts.
-- Under the power rankings, an Elo-by-week line chart (`#elo-chart`) is generated in Python at render time as inline SVG: monotone-cubic curves, a point on each recorded week, twelve Card Back colors, a week axis and an Elo axis, and a legend in Find-your-team order (team names first). It must stay self-contained: no JS, no extra fonts, no CDNs.
+- Under the power rankings, an Elo-by-week line chart (`#elo-chart`) is generated in Python at render time as inline SVG: monotone-cubic curves, a point on each recorded week, twelve distinct Card Back inks, a week axis and an Elo axis, and a legend in Find-your-team order (team names first). Each legend key is a short stroke and dot in the same color as that team's line. The 1000 Elo line is a dashed ink baseline, not a team color. It must stay self-contained: no JS, no extra fonts, no CDNs.
 
 ## What the HTML gate checks
 

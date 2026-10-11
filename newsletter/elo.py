@@ -22,21 +22,24 @@ sys.path.insert(0, str(ROOT))
 
 from fetch_week import ELO_K, ELO_START, LEAGUE_ID, elo_ratings, load  # noqa: E402
 
-# Card Back ink, plus eleven more dark card-stock colors. Indexed by roster_id - 1.
+# Twelve card-ink hues, indexed by roster_id - 1. Spread around the wheel so a
+# small swatch and a thin stroke still read as the same team. The 1000 baseline
+# is dashed ink, not maroon — maroon is Split's color (roster 5).
 TEAM_COLORS = (
-    "#6B3E26",  # 1 saddle
-    "#1F6B6B",  # 2 teal
-    "#3D5A80",  # 3 slate blue
-    "#6B3A6E",  # 4 plum
+    "#6B4510",  # 1 walnut
+    "#0B7A78",  # 2 teal
+    "#1D4E9B",  # 3 blue
+    "#7A2E9B",  # 4 violet
     "#8A1C2B",  # 5 maroon (the template ink)
-    "#4A5C1F",  # 6 olive
-    "#8B6914",  # 7 antique gold
-    "#A33B2B",  # 8 brick
-    "#1E5C3A",  # 9 forest
+    "#4A7A14",  # 6 leaf
+    "#D4B01A",  # 7 gold
+    "#D6452F",  # 8 vermilion
+    "#148F3D",  # 9 emerald
     "#262321",  # 10 near-black ink
-    "#C45C26",  # 11 burnt orange
-    "#1B4F72",  # 12 navy
+    "#E05A00",  # 11 orange
+    "#0A2F5C",  # 12 midnight
 )
+BASELINE_COLOR = "#262321"
 
 
 class EloHistoryError(Exception):
@@ -322,10 +325,13 @@ def chart_svg(doc, through):
     ]
     for t in yticks:
         y = y_at(t)
-        stroke = "#8A1C2B" if t == 1000 else "rgba(38,35,33,.22)"
-        width = "1.25" if t == 1000 else "1"
-        parts.append(f'<line x1="{left:.1f}" y1="{y:.2f}" x2="{left + pw:.1f}" y2="{y:.2f}" '
-                     f'stroke="{stroke}" stroke-width="{width}"/>')
+        if t == 1000:
+            parts.append(f'<line class="elo-base" x1="{left:.1f}" y1="{y:.2f}" x2="{left + pw:.1f}" '
+                         f'y2="{y:.2f}" stroke="{BASELINE_COLOR}" stroke-width="1" '
+                         f'stroke-dasharray="4 3" stroke-opacity=".4"/>')
+        else:
+            parts.append(f'<line x1="{left:.1f}" y1="{y:.2f}" x2="{left + pw:.1f}" y2="{y:.2f}" '
+                         f'stroke="rgba(38,35,33,.22)" stroke-width="1"/>')
         parts.append(f'<text class="elo-tick" x="{left - 7:.1f}" y="{y + 3.5:.2f}" '
                      f'text-anchor="end">{t}</text>')
     for w in weeks:
@@ -345,7 +351,7 @@ def chart_svg(doc, through):
         d = monotone_cubic_path(pts)
         team = xml(r["team"])
         parts.append(f'<path class="elo-line" data-team="{team}" fill="none" stroke="{r["color"]}" '
-                     f'stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" d="{d}"/>')
+                     f'stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" d="{d}"/>')
         for (x, y), e, w in zip(pts, r["elos"], r["weeks"]):
             parts.append(f'<circle class="elo-point" data-team="{team}" data-week="{w}" cx="{x:.2f}" '
                          f'cy="{y:.2f}" r="3.4" fill="{r["color"]}" stroke="#F1E2DF" stroke-width="1"/>')
@@ -366,8 +372,15 @@ def chart_html(season, week, path=None):
     svg = chart_svg(doc, week)
     items = []
     for r in rows:
+        # Same stroke + dot as the plot, so the key is the line, not a square of a
+        # neighboring hue.
         items.append(
-            f'<li><i style="background:{r["color"]}" aria-hidden="true"></i>'
+            f'<li data-team="{xml(r["team"])}">'
+            f'<svg class="elo-key" viewBox="0 0 32 12" aria-hidden="true">'
+            f'<path fill="none" stroke="{r["color"]}" stroke-width="2.5" '
+            f'stroke-linecap="round" d="M1 6 H22"/>'
+            f'<circle cx="22" cy="6" r="3.4" fill="{r["color"]}" stroke="#F1E2DF" stroke-width="1"/>'
+            f'</svg>'
             f'<span class="nm">{xml(r["team"])}</span></li>'
         )
     return (

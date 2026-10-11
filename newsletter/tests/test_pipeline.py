@@ -8,6 +8,7 @@ import copy
 import datetime as dt
 import hashlib
 import json
+import re
 import shutil
 import sys
 from pathlib import Path
@@ -176,6 +177,34 @@ def test_spline_path_passes_through_every_point():
     # Two points still produce a segment that hits both ends.
     pair = [(10.0, 984.0), (40.0, 1016.0)]
     assert elo.path_anchors(elo.monotone_cubic_path(pair)) == pair
+
+
+def _rgb(hex_color):
+    h = hex_color.lstrip("#")
+    return tuple(int(h[i:i + 2], 16) for i in (0, 2, 4))
+
+
+def test_team_palette_is_spread():
+    cols = elo.TEAM_COLORS
+    assert len(cols) == 12 == len(set(cols))
+    for i, a in enumerate(cols):
+        for b in cols[i + 1:]:
+            dist = sum((x - y) ** 2 for x, y in zip(_rgb(a), _rgb(b))) ** 0.5
+            assert dist > 50, f"{a} too close to {b} ({dist:.1f})"
+
+
+def test_legend_colors_match_chart_lines(issue):
+    html = build.render(build.derive(issue))
+    lines = dict(re.findall(
+        r'<path class="elo-line" data-team="([^"]+)" fill="none" stroke="(#[0-9A-Fa-f]{6})"', html))
+    keys = dict(re.findall(
+        r'<li data-team="([^"]+)">\s*<svg class="elo-key"[^>]*>\s*<path[^>]*stroke="(#[0-9A-Fa-f]{6})"',
+        html))
+    assert set(lines) == set(keys) == set(ELO_WEEK4)
+    assert lines == keys
+    base = re.search(r'class="elo-base"[^>]*stroke="(#[0-9A-Fa-f]{6})"[^>]*stroke-dasharray="', html)
+    assert base, "1000 Elo line should be a dashed baseline, not a team stroke"
+    assert base.group(1) == elo.BASELINE_COLOR
 
 
 # ---------------------------------------------------------------- brief

@@ -67,6 +67,18 @@ def check_page(browser, url, name, viewport, shots=None):
               lines: document.querySelectorAll('#elo-chart path.elo-line').length,
               points: document.querySelectorAll('#elo-chart circle.elo-point').length,
               legend: document.querySelectorAll('.elo-legend li').length,
+              colorMatch: (() => {
+                const line = {};
+                document.querySelectorAll('#elo-chart path.elo-line').forEach(p => {
+                  line[p.dataset.team] = p.getAttribute('stroke');
+                });
+                const rows = [...document.querySelectorAll('.elo-legend li')].map(li => {
+                  const team = li.dataset.team || li.querySelector('.nm')?.textContent;
+                  const stroke = li.querySelector('.elo-key path')?.getAttribute('stroke');
+                  return {team, stroke, ok: !!(team && stroke && line[team] === stroke)};
+                });
+                return {ok: rows.length === 12 && rows.every(r => r.ok), rows};
+              })(),
             },
         })"""
     )
@@ -87,8 +99,10 @@ def check_page(browser, url, name, viewport, shots=None):
     gate("find_your_team_links", len(layout["finder"]) == 12 and not lost,
          f"{len(layout['finder'])} links, {len(lost)} broken" + (f": {lost}" if lost else ""))
     elo = layout["elo"]
-    gate("elo_chart", elo["svg"] and elo["lines"] == 12 and elo["legend"] == 12 and elo["points"] >= 24,
-         f"svg={elo['svg']} lines={elo['lines']} points={elo['points']} legend={elo['legend']}")
+    gate("elo_chart", elo["svg"] and elo["lines"] == 12 and elo["legend"] == 12 and elo["points"] >= 24
+         and elo.get("colorMatch", {}).get("ok"),
+         f"svg={elo['svg']} lines={elo['lines']} points={elo['points']} legend={elo['legend']} "
+         f"colors={elo.get('colorMatch', {}).get('ok')}")
     if shots:
         shots.mkdir(parents=True, exist_ok=True)
         page.screenshot(path=str(shots / f"{name}-first-screen.png"))
