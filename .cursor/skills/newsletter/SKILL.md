@@ -9,21 +9,16 @@ The weekly newsletter for **Rebuilders Anonymous**, a 12-team dynasty league on 
 
 ## Chosen template
 
-<!-- The owner has not picked yet. When they do, replace TBD with one of: minutes, blueprint, docket, card-back, downfield. -->
-
 ```
-CHOSEN_TEMPLATE: TBD
+CHOSEN_TEMPLATE: card-back
 ```
 
-| Template | Source | Week 4 sample |
-| --- | --- | --- |
-| Meeting Minutes | `newsletter/prototypes/src/minutes.html` | `newsletter/prototypes/minutes.html` |
-| Blueprint | `newsletter/prototypes/src/blueprint.html` | `newsletter/prototypes/blueprint.html` |
-| The Docket | `newsletter/prototypes/src/docket.html` | `newsletter/prototypes/docket.html` |
-| Card Back | `newsletter/prototypes/src/card-back.html` | `newsletter/prototypes/card-back.html` |
-| Downfield | `newsletter/prototypes/src/downfield.html` | `newsletter/prototypes/downfield.html` |
+The owner picked **Card Back**: source `newsletter/prototypes/src/card-back.html`, Week 4 sample `newsletter/prototypes/card-back.html`. Render every issue with it and don't restyle it per issue. Design changes follow `.cursor/skills/frontend-design/SKILL.md` and need the owner's sign-off. The owner's standing design notes:
 
-`newsletter/prototypes/index.html` links all five with their rationale. While `CHOSEN_TEMPLATE` is `TBD`, render the issue in all five (step 9) and say in the PR that the owner still needs to pick. Once it is set, render only the chosen one and do not restyle it per issue. Design changes to a template follow `.cursor/skills/frontend-design/SKILL.md`.
+- Recap cards must let a manager find their own team fast while scrolling on a phone. Team names are the biggest type on each card, the winner always sits on top, and the section opens with the "Find your team" list that links to every card (`build.py` builds that list from `recaps`).
+- No provenance paragraph, format line, or byline on the page, no intro lines under section headings, and no standalone NFL results section. The football goes inside the recaps, lead, awards, and standouts.
+
+The other four prototypes (Meeting Minutes, Blueprint, The Docket, Downfield) stay in `newsletter/prototypes/` as they were reviewed. They render from a frozen schema 2 copy of the Week 4 data (`newsletter/prototypes/src/sample-issue-week4-v1.json`) and are not part of the weekly build. `newsletter/prototypes/index.html` links all five.
 
 The first-round designs (Broadsheet, Ledger, Night Edition) are frozen in `newsletter/prototypes/archive/` with their Week 2 sample. They use the old schema and are not part of the weekly build; `python3 newsletter/build.py --archive` only rebuilds them as they were.
 
@@ -169,13 +164,27 @@ These are the habits that made past issues read badly. The linter catches some; 
 
 Every issue has these sections in this order. Never reorder, rename, or drop one.
 
-1. **Masthead**: league name, week, season, "Presented by Unsportsmanlike Conduct."
-2. **Lead story**: one headline, one dek, three or four paragraphs, and up to three big stats. Pick the single most surprising specific fact of the week and build around it.
-3. **Power rankings**: all 12 teams, each with record, week score, season points for, and a two-to-three-sentence take. The order is opinion; say so in the intro line.
-4. **Matchup recaps**: all six games, each with a headline, final score, margin, one paragraph that explains the result through real stat lines and game context, and two key performers per side, each with NFL team, fantasy points, and box-score line.
-5. **Awards and standouts**: four or five awards, then the top starter at each position with its stat line, then one bench note, then **The NFL week** (every NFL final with one line on what it meant for the league) and the injuries to rostered players that the brief reports.
-6. **Transactions**: a one-paragraph summary, then waiver claims with FAAB and a letter grade, then trades, then free-agent adds. If there were no trades, say so in one line; don't drop the block.
+1. **Masthead**: league name, then one line with the week, month, and "presented by Unsportsmanlike Conduct." Nothing else: no format line, no note about data sources.
+2. **Lead story**: one headline, one dek, three or four paragraphs, and up to three big stats. No byline. Pick the single most surprising specific fact of the week and build around it.
+3. **Power rankings**: all 12 teams **in Elo order** (see "Elo" below), each with manager, record, Elo rating, this week's Elo change, and a two-to-three-sentence take. No intro line. The order is not opinion; the takes are. Takes can still talk about points.
+4. **Matchup recaps**: the "Find your team" list (built automatically), then all six games, each with both team names and managers, final score, margin, a headline, one paragraph that explains the result through real stat lines and game context, and two key performers per side, each with NFL team, fantasy points, and box-score line.
+5. **Awards and standouts**: four or five awards, each citing at least one real box-score stat, then the top starter at each position with its stat line, then one bench note, then the injuries to rostered players that the brief reports. No intro lines, and no standalone list of NFL results.
+6. **Transactions**: the callout (`asides.transactions`), then waiver claims with FAAB and a letter grade, then trades, then free-agent adds. No summary paragraph. If there were no trades, say so in one line; don't drop the block.
 7. **Next week**: all six upcoming matchups with one line each.
+
+## Elo
+
+The power rankings are ordered by Elo, computed by `fetch_week.py` (`elo_ratings`) from the league's real head-to-head results for weeks 1 through N and written into the brief's **Elo** table. Never compute it by hand and never reorder the rankings for taste. `build.py` stops the build if the rankings don't match the brief's Elo order and values.
+
+- **Starting rating:** every team starts the season at 1000.
+- **Expected score:** for team A against team B, \(E_A = 1 / (1 + 10^{(R_B - R_A)/400})\).
+- **Result:** 1 for a win, 0.5 for a tie, 0 for a loss, from the two teams' fantasy scores that week.
+- **Update:** \(\Delta = K \times (S_A - E_A)\) with **K = 32**, rounded to two decimals. The loser's change is exactly the negative of the winner's. All of a week's games update at once from the ratings going into that week, and each week's new rating is stored to two decimals.
+- **Margin of victory doesn't count.** Winning by 0.5 or by 60 moves the rating the same. That's why a team can rank high on few points; say so in the take when it matters.
+- **Ties in the order** are broken by wins, then season points for.
+- This is the method behind the published Week 2 issue (`2026-week2.html`): it reproduces that issue's post-Week 2 Elo for all 12 teams.
+
+In the issue, `elo` is the rating with two decimals ("1029.33") and `elo_change` is this week's change with a sign ("+14.80", or "−18.91" with a real minus sign). Copy both from the brief.
 
 ## Facts: the brief is the only source
 
@@ -191,7 +200,8 @@ Every issue has these sections in this order. Never reorder, rename, or drop one
 - **Copy numbers as given.** Team scores in tables use two decimals (`147.60`). Prose can use the brief's own precision (`147.6`).
 - **Keep transaction windows straight.** Label which waiver run each move belongs to (the brief gives the processed time in UTC), and don't add free-agent moves into FAAB totals.
 - **Missing data is marked, never invented.** If something can't be fetched (an API is down, a game hasn't finished), leave it out or fill it with placeholder content and set that section's `is_sample` flag, which prints a visible "Sample data" label, plus a note that says what is placeholder. Say so in the PR. Never present an invented number as real.
-- **Opinions are labeled as opinions.** Rankings order and grades are takes; scores, records, stat lines, and FAAB are facts.
+- **Opinions are labeled as opinions.** Ranking takes and grades are opinion; the rankings order (Elo), scores, records, stat lines, and FAAB are facts.
+- **The NFL games block in the brief is context, not a section.** Use it for finals, game situations, and ESPN quotes inside the recaps, lead, and awards. The issue no longer lists every NFL result.
 
 ### What the brief must contain
 
@@ -201,13 +211,16 @@ Run `python3 newsletter/fetch_week.py --week <N>` (defaults: season 2026, the le
 | --- | --- | --- |
 | Sources and fetch time | Every URL used and when it was pulled | the fetcher |
 | Standings | W-L, points for and against, and week-by-week results for all 12 teams | Sleeper `/league/<id>/matchups/1..N` and `/rosters`, `/users` for names |
+| Elo | Every team's rating, this week's change, and its rating after each week, in power-rankings order, with the formula | Computed by `fetch_week.py` from Sleeper `/league/<id>/matchups/1..N` (see "Elo") |
 | Fantasy matchups | All six games: final, margin, every starter and bench player with league fantasy points | Sleeper `/league/<id>/matchups/<N>` |
 | NFL stat line per player | For each of those players: NFL team, a plain-words box-score line (passing, rushing, receiving, fumbles, snaps, kicks, defense), and their NFL game's final | Sleeper `api.sleeper.com/stats/nfl/<season>/<N>`, joined on `player_id`; players from `/v1/players/nfl` |
-| NFL games | Every final, date, venue, ESPN's recap headline and text, scoring plays, and the pregame injury report | ESPN `site.api.espn.com/.../nfl/scoreboard` and `/summary?event=<id>` |
+| NFL games | Every final, date, venue, ESPN's recap headline and text, scoring plays, and the pregame injury report (context for the copy, not printed as a list) | ESPN `site.api.espn.com/.../nfl/scoreboard` and `/summary?event=<id>` |
 | Transactions | Waivers (with bids, failed competing bids and their reasons), free agents, and trades (players and picks), with UTC times, for this week's leg and the waiver run after it | Sleeper `/league/<id>/transactions/<N>` and `/<N+1>` |
 | FAAB used | Per team, at fetch time | Sleeper rosters |
 | Next week | The six fantasy pairings, the NFL schedule, and byes | Sleeper `/matchups/<N+1>`, ESPN scoreboard for week N+1 |
 | Injury status | Every rostered player with a Sleeper injury status at fetch time | Sleeper `/v1/players/nfl` |
+
+A brief fetched before Elo was added can get its Elo table offline from its saved matchups: `python3 newsletter/fetch_week.py --week <N> --elo-from-raw`.
 
 If the fetcher fails on a source, fix and rerun it rather than writing around the gap. If a source really is unavailable, note the gap at the top of `brief.md`, mark the affected sections as sample data, and say so in the PR.
 
@@ -217,36 +230,32 @@ If the fetcher fails on a source, fix and rerun it rather than writing around th
 2. **Read the brief end to end.** Then write a private fact sheet: every team's score, record, top and bottom starters with their stat lines, notable bench points, every transaction, and the injuries the recaps mention. You will check copy against this sheet.
 3. **Find the story.** List the three most surprising facts of the week, fantasy or football. The best one is the lead; the others become awards or ranking blurbs. The best stories usually sit where the two meet: a fantasy decision that the box score made look terrible, or a real game that swung a fantasy one.
 4. **Start from the last issue.** Copy `newsletter/issues/2026-week4/issue.json` to `newsletter/issues/<season>-week<N>/issue.json` and replace every field. Keep the structure; the templates fail the build on missing keys.
-5. **Write in section order.** Lead first, then rankings, recaps, awards and the NFL week, transactions, next week. For every recap, open the brief's matchup block and pull the stat lines of the players who decided it before you write a word.
+5. **Write in section order.** Lead first, then rankings (copy the order, `elo`, and `elo_change` from the brief's Elo table, then write the takes), recaps, awards and standouts, injuries, transactions, next week. For every recap, open the brief's matchup block and pull the stat lines of the players who decided it before you write a word.
 6. **Edit pass.** Read every item against the voice rules, the anti-patterns list, and the fact sheet. Cut the weakest sentence in each blurb. Make sure no two ranking blurbs start the same way.
-7. **Lint.** `python3 newsletter/build.py --lint newsletter/issues/<season>-week<N>/issue.json` must print nothing. It checks the banned list and punctuation, and that the issue meets schema 2: every recap and the lead cite box-score stats, every key performer and standout has an NFL team and stat line, and `nfl.games` lists the week. Fix the copy, don't edit the banned list to get it to pass.
+7. **Lint.** `python3 newsletter/build.py --lint newsletter/issues/<season>-week<N>/issue.json` must print nothing. It checks the banned list and punctuation, and that the issue meets schema 3: the lead, every recap, and every award cite box-score stats; every key performer and standout has an NFL team and stat line; recaps name both managers; and the rankings are in Elo order with the same ratings and changes as `brief.json`. Fix the copy, don't edit the banned list to get it to pass.
 8. **Check the numbers.** `python3 newsletter/build.py --check-facts newsletter/issues/<season>-week<N>/issue.json` and recompute every number it lists.
-9. **Render.**
-   - If `CHOSEN_TEMPLATE` is set: `python3 newsletter/build.py --template <CHOSEN_TEMPLATE> --data newsletter/issues/<season>-week<N>/issue.json --out <season>-week<N>.html` (repo root, same as `2026-week2.html`).
-   - If it is `TBD`: render each of `minutes`, `blueprint`, `docket`, `card-back`, and `downfield` to `newsletter/issues/<season>-week<N>/<template>.html`.
-   - The build refuses to render an issue that fails schema 2.
-10. **Check it on a phone width.** Open the output headless at 390px wide; confirm no horizontal scroll, no `{{` left in the page, and no requests other than `data:` URLs. Take a full-page screenshot for the PR.
+9. **Render.** `python3 newsletter/build.py --template card-back --data newsletter/issues/<season>-week<N>/issue.json --out <season>-week<N>.html` (repo root, same as `2026-week2.html`). The build refuses to render an issue that fails schema 3 or whose Elo doesn't match the brief.
+10. **Check it on a phone width.** Open the output headless at 390px wide; confirm no horizontal scroll, no `{{` left in the page, no requests other than `data:` URLs, and that every name in "Find your team" jumps to that team's card. Take full-page and first-screen screenshots at phone and desktop widths for the PR.
 11. **Fact-check last.** Go through the rendered page top to bottom and tick every number against the fact sheet.
 12. **Ship as a draft PR.** New branch, commit the brief, `raw/`, the JSON, and the HTML, and open a draft PR with the screenshot. Do not merge: GitHub Pages serves `main`, so merging publishes. Never edit an already-published week unless the owner asks.
 
-### Field guide (schema 2)
+### Field guide (schema 3)
 
 Copy is inserted as raw HTML, so you can use `<em>` or `<strong>`, and you must write `&amp;` for a literal ampersand.
 
 | Field | What goes in it |
 | --- | --- |
-| `schema` | `2`. The build checks the NFL rules only for schema 2, and refuses to render anything else. |
-| `meta` | `title`, `league`, `issue` ("Week 5"), `issue_number`, `season`, `week`, `dateline`, `format_line`, `presented_by`, and `data_note` (one or two sentences on where the numbers come from and where the brief is saved; it prints under the masthead). |
-| `lead` | `kicker`, `headline` (under 60 characters, a fact plus a turn), `dek` (one sentence), `byline`, `stats` (exactly three `{value, label}`; the first is the hero number), `body` (three or four paragraphs, at least one real stat line). |
-| `asides` | One short margin note per section: `lead`, `rankings`, `recaps`, `awards`, `transactions`, `preview`, each `{figure, text}`. `figure` is a number from the brief ("23.8", "$5"); `text` finishes the sentence. Templates print these as margin notes, callouts, or pull quotes. |
-| `rankings_intro` | One sentence saying the order is opinion. |
-| `rankings` | Twelve `{rank, team, manager, record, pts, pf, take}`. `pts` is the week score, `pf` season points for, `take` two or three sentences. |
-| `recaps` | Six `{headline, winner, w_score, loser, l_score, margin, body, w_keys, l_keys}`. `body` explains the result through real stat lines. Keys are two per side, `{player, nfl_team, pts, line}`, where `line` is the box-score line in short form ("13 rec on 13 targets, 119 yds"). |
-| `awards` | Four or five `{name, winner, stat, body}`. Keep award names consistent week to week where they fit (Manager of the Week, Lineup Crime, Floor of the Week, Best Performance in a Loss). |
-| `standouts_intro`, `standouts`, `bench_note` | Top starter at QB, RB, WR, TE, K, DEF as `{pos, player, nfl_team, team, pts, line}`, plus one bench sentence. |
-| `nfl` | `intro`, `games` (every final as `{final, when, note}`; `note` says what the game meant for the league, in one or two sentences), `injuries_intro`, and `injuries` (`{player, nfl_team, team, note}` for rostered players the recaps or Sleeper report hurt; `[]` if none). |
-| `transactions` | `summary`, `stats` (three `{value, label}`), `waivers` (`{team, add, pos, nfl_team, drop, faab, grade, note}`; `drop` and `nfl_team` may be `null`), `free_agents_label`, `free_agents` (`{team, add, pos, nfl_team, drop, note}`), `trades` (`{teams, date, summary, grade, note}`, or `[]`), and `no_trades` (the line shown when `trades` is empty). Notes should cite the player's real line where it matters. |
+| `schema` | `3`. The build refuses to render anything else. |
+| `meta` | `title`, `league`, `issue` ("Week 5"), `issue_number`, `season`, `week`, `dateline`, and `presented_by`. |
+| `lead` | `kicker`, `headline` (under 60 characters, a fact plus a turn), `dek` (one sentence), `stats` (exactly three `{value, label}`; the first is the hero number), `body` (three or four paragraphs, at least one real stat line). |
+| `asides` | One short note per section: `lead`, `rankings`, `recaps`, `awards`, `transactions`, `preview`, each `{figure, text}`. `figure` is a number from the brief ("23.8", "$5"); `text` finishes the sentence. Card Back prints these as callouts; the transactions one is the section's opener. |
+| `rankings` | Twelve `{rank, team, manager, record, elo, elo_change, take}` in the brief's Elo order. `elo` and `elo_change` are copied from the brief's Elo table; `take` is two or three sentences of opinion and may cite points. |
+| `recaps` | Six `{headline, winner, w_manager, w_score, loser, l_manager, l_score, margin, body, w_keys, l_keys}`. Managers are display names from the brief. `body` explains the result through real stat lines. Keys are two per side, `{player, nfl_team, pts, line}`, where `line` is the box-score line in short form ("13 rec on 13 targets, 119 yds"). |
+| `awards` | Four or five `{name, winner, stat, body}`; every `body` cites a real box-score stat. Keep award names consistent week to week where they fit (Manager of the Week, Lineup Crime, Floor of the Week, Best Performance in a Loss). |
+| `standouts`, `bench_note` | Top starter at QB, RB, WR, TE, K, DEF as `{pos, player, nfl_team, team, pts, line}`, plus one bench sentence. |
+| `injuries` | `{player, nfl_team, team, note}` for rostered players the recaps or Sleeper report hurt; `[]` if none. |
+| `transactions` | `stats` (three `{value, label}`), `waivers` (`{team, add, pos, nfl_team, drop, faab, grade, note}`; `drop` and `nfl_team` may be `null`), `free_agents_label`, `free_agents` (`{team, add, pos, nfl_team, drop, note}`), `trades` (`{teams, date, summary, grade, note}`, or `[]`), and `no_trades` (the line shown when `trades` is empty). Notes should cite the player's real line where it matters. |
 | `preview` | `is_sample` (true if anything is placeholder), `label`, `note` (byes and anything unusual, like a London game), and six `{a, b, line}`. |
 | `footer` | `methods` (how the sources were used), `sources` (`{name, url}` list), and `credit`. |
 
-`build.py` adds layout-only fields before rendering (`w_pct`, `l_pct`, `margin_pct` on recaps; `pf_pct`, `pf_rank`, `side`, and label positions on rankings; `pf_scale`). Don't write those by hand.
+`build.py` adds layout-only fields before rendering: `recap_index` (the "Find your team" list, every team alphabetically with its result and card), `elo_up` on rankings, and bar lengths on recaps. Don't write those by hand.
