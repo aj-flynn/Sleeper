@@ -59,7 +59,7 @@
     "rookie_year": "2026",
     "source_id": "c50267b0-8e80-11ec-8d02-85ead82574a9"
    },
-   "news_updated": 1790949924408,
+   "news_updated": 1791645904278,
    "position": "WR",
    "team": "CLE",
    "team_abbr": null,
@@ -69,8 +69,8 @@
   "team": "CLE",
   "player_id": "13346",
   "opponent": "PIT",
-  "updated_at": 1791245325525,
   "game_id": "202610408",
+  "updated_at": 1791245325525,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -150,8 +150,8 @@
   "team": "PIT",
   "player_id": "PIT",
   "opponent": "CLE",
-  "updated_at": 1790912636472,
   "game_id": "202610408",
+  "updated_at": 1790912636472,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -217,7 +217,7 @@
     "genius_id": "1463902",
     "rookie_year": "2024"
    },
-   "news_updated": 1791251739529,
+   "news_updated": 1791587756819,
    "position": "WR",
    "team": "PIT",
    "team_abbr": null,
@@ -227,8 +227,8 @@
   "team": "PIT",
   "player_id": "11630",
   "opponent": "CLE",
-  "updated_at": 1791245325711,
   "game_id": "202610408",
+  "updated_at": 1791245325711,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -301,7 +301,7 @@
     "genius_id": "1358027",
     "rookie_year": "2022"
    },
-   "news_updated": 1790954123967,
+   "news_updated": 1791585056505,
    "position": "RB",
    "team": "PIT",
    "team_abbr": null,
@@ -311,8 +311,8 @@
   "team": "PIT",
   "player_id": "8228",
   "opponent": "CLE",
-  "updated_at": 1791245325694,
   "game_id": "202610408",
+  "updated_at": 1791245325694,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -347,7 +347,7 @@
     "rookie_year": "2025",
     "source_id": "85e2aed0-863f-11ec-8b4f-bfdcdbacd7ed"
    },
-   "news_updated": 1789502152498,
+   "news_updated": 1791556857455,
    "position": "RB",
    "team": "CLE",
    "team_abbr": null,
@@ -357,8 +357,8 @@
   "team": "CLE",
   "player_id": "12469",
   "opponent": "PIT",
-  "updated_at": 1790900148082,
   "game_id": "202610408",
+  "updated_at": 1790900148082,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -421,7 +421,7 @@
     "rookie_year": "2025",
     "source_id": "ff1d2af0-fc69-11ec-b4dc-4165c73b7166"
    },
-   "news_updated": 1790950823163,
+   "news_updated": 1791645904280,
    "position": "TE",
    "team": "CLE",
    "team_abbr": null,
@@ -431,8 +431,8 @@
   "team": "CLE",
   "player_id": "12506",
   "opponent": "PIT",
-  "updated_at": 1791245325538,
   "game_id": "202610408",
+  "updated_at": 1791245325538,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -510,7 +510,7 @@
     "rookie_year": "2025",
     "source_id": "b0c3a640-863a-11ec-ac3f-2f01cb0af5e4"
    },
-   "news_updated": 1790947523167,
+   "news_updated": 1791645604194,
    "position": "RB",
    "team": "CLE",
    "team_abbr": null,
@@ -520,8 +520,8 @@
   "team": "CLE",
   "player_id": "12512",
   "opponent": "PIT",
-  "updated_at": 1791245325539,
   "game_id": "202610408",
+  "updated_at": 1791245325539,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -599,7 +599,7 @@
     "injury_override_pre_2025_0": "IR",
     "rookie_year": "2017"
    },
-   "news_updated": 1791337801908,
+   "news_updated": 1791645304017,
    "position": "QB",
    "team": "CLE",
    "team_abbr": null,
@@ -609,8 +609,8 @@
   "team": "CLE",
   "player_id": "4017",
   "opponent": "PIT",
-  "updated_at": 1791245325618,
   "game_id": "202610408",
+  "updated_at": 1791245325618,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -675,7 +675,7 @@
     "genius_id": "1014088",
     "rookie_year": "2019"
    },
-   "news_updated": 1790953223673,
+   "news_updated": 1791586556783,
    "position": "WR",
    "team": "PIT",
    "team_abbr": null,
@@ -685,8 +685,8 @@
   "team": "PIT",
   "player_id": "5846",
   "opponent": "CLE",
-  "updated_at": 1791245325727,
   "game_id": "202610408",
+  "updated_at": 1791245325727,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -742,7 +742,7 @@
     "genius_id": "1014925",
     "rookie_year": "2020"
    },
-   "news_updated": 1791224127439,
+   "news_updated": 1791648304385,
    "position": "WR",
    "team": "CLE",
    "team_abbr": null,
@@ -752,8 +752,8 @@
   "team": "CLE",
   "player_id": "6783",
   "opponent": "PIT",
-  "updated_at": 1790953706973,
   "game_id": "202610408",
+  "updated_at": 1790953706973,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -819,7 +819,7 @@
     "genius_id": "165525",
     "rookie_year": "2005"
    },
-   "news_updated": 1791336601910,
+   "news_updated": 1791584156421,
    "position": "QB",
    "team": "PIT",
    "team_abbr": null,
@@ -829,8 +829,8 @@
   "team": "PIT",
   "player_id": "96",
   "opponent": "CLE",
-  "updated_at": 1791245325724,
   "game_id": "202610408",
+  "updated_at": 1791245325724,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -878,8 +878,8 @@
   "team": "CLE",
   "player_id": "12524",
   "opponent": "PIT",
-  "updated_at": 1790953706946,
   "game_id": "202610408",
+  "updated_at": 1790953706946,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -931,9 +931,9 @@
    ],
    "first_name": "Michael",
    "injury_body_part": "Foot",
-   "injury_notes": null,
+   "injury_notes": "Plantar Fasciitis",
    "injury_start_date": null,
-   "injury_status": "Out",
+   "injury_status": "IR",
    "last_name": "Pittman",
    "metadata": {
     "channel_id": "1113708775547629568",
@@ -941,7 +941,7 @@
     "injury_override_regular_2024_6": "Active",
     "rookie_year": "2020"
    },
-   "news_updated": 1791475842694,
+   "news_updated": 1791681909934,
    "position": "WR",
    "team": "PIT",
    "team_abbr": null,
@@ -951,8 +951,8 @@
   "team": "PIT",
   "player_id": "6819",
   "opponent": "CLE",
-  "updated_at": 1791245325692,
   "game_id": "202610408",
+  "updated_at": 1791245325692,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -1013,7 +1013,7 @@
     "genius_id": "1077902",
     "rookie_year": "2021"
    },
-   "news_updated": 1791317146663,
+   "news_updated": 1791589256866,
    "position": "TE",
    "team": "PIT",
    "team_abbr": null,
@@ -1023,8 +1023,8 @@
   "team": "PIT",
   "player_id": "7600",
   "opponent": "CLE",
-  "updated_at": 1791245325720,
   "game_id": "202610408",
+  "updated_at": 1791245325720,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -1079,7 +1079,7 @@
     "rookie_year": "2026",
     "source_id": "e14eaaf0-8e80-11ec-8d02-85ead82574a9"
    },
-   "news_updated": 1790984141059,
+   "news_updated": 1791688809131,
    "position": "WR",
    "team": "PIT",
    "team_abbr": null,
@@ -1089,8 +1089,8 @@
   "team": "PIT",
   "player_id": "13274",
   "opponent": "CLE",
-  "updated_at": 1790953707174,
   "game_id": "202610408",
+  "updated_at": 1790953707174,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -1158,7 +1158,7 @@
     "rookie_year": "2026",
     "source_id": "4620b030-9dcc-11ed-9ec1-d7898d8b70ab"
    },
-   "news_updated": 1791472242293,
+   "news_updated": 1791646504582,
    "position": "WR",
    "team": "CLE",
    "team_abbr": null,
@@ -1168,8 +1168,8 @@
   "team": "CLE",
   "player_id": "13298",
   "opponent": "PIT",
-  "updated_at": 1791245325595,
   "game_id": "202610408",
+  "updated_at": 1791245325595,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -1227,7 +1227,7 @@
     "genius_id": "1077995",
     "rookie_year": "2023"
    },
-   "news_updated": 1791261640541,
+   "news_updated": 1791642903940,
    "position": "RB",
    "team": "JAX",
    "team_abbr": null,
@@ -1237,8 +1237,8 @@
   "team": "JAX",
   "player_id": "10219",
   "opponent": "CIN",
-  "updated_at": 1791245325919,
   "game_id": "202610407",
+  "updated_at": 1791245325919,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -1301,14 +1301,14 @@
    "injury_body_part": "Ankle",
    "injury_notes": null,
    "injury_start_date": null,
-   "injury_status": "Questionable",
+   "injury_status": "IR",
    "last_name": "Brooks",
    "metadata": {
     "channel_id": "1113708736662237185",
     "genius_id": "1401597",
     "rookie_year": "2023"
    },
-   "news_updated": 1791396909422,
+   "news_updated": 1791681909948,
    "position": "RB",
    "team": "GB",
    "team_abbr": null,
@@ -1318,8 +1318,8 @@
   "team": "GB",
   "player_id": "11370",
   "opponent": "TB",
-  "updated_at": 1791245337374,
   "game_id": "202610433",
+  "updated_at": 1791245337374,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -1378,7 +1378,7 @@
     "genius_id": "1463977",
     "rookie_year": "2024"
    },
-   "news_updated": 1791250239446,
+   "news_updated": 1791724814300,
    "position": "RB",
    "team": "PHI",
    "team_abbr": null,
@@ -1388,8 +1388,8 @@
   "team": "PHI",
   "player_id": "11577",
   "opponent": "LAR",
-  "updated_at": 1791245333448,
   "game_id": "202610426",
+  "updated_at": 1791245333448,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -1446,7 +1446,7 @@
     "injury_override_regular_2025_9": "Out",
     "rookie_year": "2024"
    },
-   "news_updated": 1791418501397,
+   "news_updated": 1791519048063,
    "position": "RB",
    "team": "TB",
    "team_abbr": null,
@@ -1456,8 +1456,8 @@
   "team": "TB",
   "player_id": "11584",
   "opponent": "GB",
-  "updated_at": 1791245337240,
   "game_id": "202610433",
+  "updated_at": 1791245337240,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -1515,7 +1515,7 @@
     "genius_id": "1463972",
     "rookie_year": "2024"
    },
-   "news_updated": 1791246939465,
+   "news_updated": 1791587456863,
    "position": "TE",
    "team": "SEA",
    "team_abbr": null,
@@ -1525,8 +1525,8 @@
   "team": "SEA",
   "player_id": "11603",
   "opponent": "LAC",
-  "updated_at": 1791302941763,
   "game_id": "202610430",
+  "updated_at": 1791302941763,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -1580,7 +1580,7 @@
     "genius_id": "1464132",
     "rookie_year": "2024"
    },
-   "news_updated": 1791207320330,
+   "news_updated": 1791579955973,
    "position": "K",
    "team": "MIN",
    "team_abbr": null,
@@ -1590,8 +1590,8 @@
   "team": "MIN",
   "player_id": "11792",
   "opponent": "MIA",
-  "updated_at": 1791212910622,
   "game_id": "202610420",
+  "updated_at": 1791212910622,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -1653,7 +1653,7 @@
     "rookie_year": "2025",
     "source_id": "52279091-3ccb-4637-8ae8-cbad321bb08c"
    },
-   "news_updated": 1791248139862,
+   "news_updated": 1791632402425,
    "position": "RB",
    "team": "HOU",
    "team_abbr": null,
@@ -1663,8 +1663,8 @@
   "team": "HOU",
   "player_id": "12474",
   "opponent": "DAL",
-  "updated_at": 1791245329475,
   "game_id": "202610413",
+  "updated_at": 1791245329475,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -1734,7 +1734,7 @@
     "rookie_year": "2025",
     "source_id": "b25ba780-89c0-11ec-9eae-b94e7e2a33e8"
    },
-   "news_updated": 1791208820656,
+   "news_updated": 1791639903654,
    "position": "RB",
    "team": "MIA",
    "team_abbr": null,
@@ -1744,8 +1744,8 @@
   "team": "MIA",
   "player_id": "12495",
   "opponent": "MIN",
-  "updated_at": 1791245329789,
   "game_id": "202610420",
+  "updated_at": 1791245329789,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -1814,7 +1814,7 @@
     "rookie_year": "2025",
     "source_id": "86a2c680-902f-11ec-8556-6fa97bcffaf0"
    },
-   "news_updated": 1791474342525,
+   "news_updated": 1791586556777,
    "position": "WR",
    "team": "GB",
    "team_abbr": null,
@@ -1824,8 +1824,8 @@
   "team": "GB",
   "player_id": "12501",
   "opponent": "TB",
-  "updated_at": 1791245337389,
   "game_id": "202610433",
+  "updated_at": 1791245337389,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -1883,7 +1883,7 @@
     "rookie_year": "2025",
     "source_id": "d7f54546-46ed-45c6-9ecc-b23c65ee6679"
    },
-   "news_updated": 1791419402207,
+   "news_updated": 1791519648135,
    "position": "WR",
    "team": "TB",
    "team_abbr": null,
@@ -1893,8 +1893,8 @@
   "team": "TB",
   "player_id": "12514",
   "opponent": "GB",
-  "updated_at": 1791212918353,
   "game_id": "202610433",
+  "updated_at": 1791212918353,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -1961,7 +1961,7 @@
     "rookie_year": "2025",
     "source_id": "1d31d310-9428-11ec-a0a0-bfb4bc95dfd2"
    },
-   "news_updated": 1791416701420,
+   "news_updated": 1791612659762,
    "position": "WR",
    "team": "CHI",
    "team_abbr": null,
@@ -1971,8 +1971,8 @@
   "team": "CHI",
   "player_id": "12519",
   "opponent": "NYJ",
-  "updated_at": 1791245325864,
   "game_id": "202610406",
+  "updated_at": 1791245325864,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -2041,8 +2041,8 @@
   "team": "BAL",
   "player_id": "13268",
   "opponent": "TEN",
-  "updated_at": 1791245322141,
   "game_id": "202610403",
+  "updated_at": 1791245322141,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -2087,8 +2087,8 @@
   "team": "SF",
   "player_id": "13417",
   "opponent": "DEN",
-  "updated_at": 1791145555186,
   "game_id": "202610431",
+  "updated_at": 1791145555186,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -2157,8 +2157,8 @@
   "team": "KC",
   "player_id": "1466",
   "opponent": "LV",
-  "updated_at": 1791245333610,
   "game_id": "202610425",
+  "updated_at": 1791245333610,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -2205,8 +2205,8 @@
   "team": "MIN",
   "player_id": "3161",
   "opponent": "MIA",
-  "updated_at": 1791212910633,
   "game_id": "202610420",
+  "updated_at": 1791212910633,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -2273,7 +2273,7 @@
     "genius_id": "941508",
     "rookie_year": "2016"
    },
-   "news_updated": 1791211220845,
+   "news_updated": 1791592257421,
    "position": "QB",
    "team": "DET",
    "team_abbr": null,
@@ -2283,8 +2283,8 @@
   "team": "DET",
   "player_id": "3163",
   "opponent": "CAR",
-  "updated_at": 1791425286136,
   "game_id": "202610405",
+  "updated_at": 1791425286136,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -2354,7 +2354,7 @@
     "genius_id": "180838",
     "rookie_year": "2009"
    },
-   "news_updated": 1791214520842,
+   "news_updated": 1791670207321,
    "position": "QB",
    "team": "LAR",
    "team_abbr": null,
@@ -2364,8 +2364,8 @@
   "team": "LAR",
   "player_id": "421",
   "opponent": "PHI",
-  "updated_at": 1791245333607,
   "game_id": "202610426",
+  "updated_at": 1791245333607,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -2427,8 +2427,8 @@
   "team": "KC",
   "player_id": "4227",
   "opponent": "LV",
-  "updated_at": 1791212915065,
   "game_id": "202610425",
+  "updated_at": 1791212915065,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -2493,7 +2493,7 @@
     "genius_id": "1013950",
     "rookie_year": "2018"
    },
-   "news_updated": 1791155114150,
+   "news_updated": 1791638703111,
    "position": "TE",
    "team": "BAL",
    "team_abbr": null,
@@ -2503,8 +2503,8 @@
   "team": "BAL",
   "player_id": "5012",
   "opponent": "TEN",
-  "updated_at": 1791245322100,
   "game_id": "202610403",
+  "updated_at": 1791245322100,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -2567,7 +2567,7 @@
     "genius_id": "1006960",
     "rookie_year": "2019"
    },
-   "news_updated": 1791298244556,
+   "news_updated": 1791580255895,
    "position": "TE",
    "team": "MIN",
    "team_abbr": null,
@@ -2577,8 +2577,8 @@
   "team": "MIN",
   "player_id": "5844",
   "opponent": "MIA",
-  "updated_at": 1791245329639,
   "game_id": "202610420",
+  "updated_at": 1791245329639,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -2627,8 +2627,8 @@
   "team": "GB",
   "player_id": "5850",
   "opponent": "TB",
-  "updated_at": 1791212918590,
   "game_id": "202610433",
+  "updated_at": 1791212918590,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -2706,8 +2706,8 @@
   "team": "JAX",
   "player_id": "7523",
   "opponent": "CIN",
-  "updated_at": 1791245325874,
   "game_id": "202610407",
+  "updated_at": 1791245325874,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -2776,7 +2776,7 @@
     "injury_override_regular_2024_10": "Out",
     "rookie_year": "2021"
    },
-   "news_updated": 1791410702272,
+   "news_updated": 1791633002383,
    "position": "WR",
    "team": "HOU",
    "team_abbr": null,
@@ -2786,8 +2786,8 @@
   "team": "HOU",
   "player_id": "7569",
   "opponent": "DAL",
-  "updated_at": 1791245329447,
   "game_id": "202610413",
+  "updated_at": 1791245329447,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -2876,8 +2876,8 @@
   "team": "CAR",
   "player_id": "7594",
   "opponent": "DET",
-  "updated_at": 1791245322116,
   "game_id": "202610405",
+  "updated_at": 1791245322116,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -2950,7 +2950,7 @@
     "injury_override_regular_2024_6": "Out",
     "rookie_year": "2021"
    },
-   "news_updated": 1791470742079,
+   "news_updated": 1791722113904,
    "position": "RB",
    "team": "NE",
    "team_abbr": null,
@@ -2960,8 +2960,8 @@
   "team": "NE",
   "player_id": "7611",
   "opponent": "BUF",
-  "updated_at": 1791245322291,
   "game_id": "202610404",
+  "updated_at": 1791245322291,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -3025,7 +3025,7 @@
     "genius_id": "1085245",
     "rookie_year": "2022"
    },
-   "news_updated": 1791294644192,
+   "news_updated": 1791663006172,
    "position": "WR",
    "team": "NE",
    "team_abbr": null,
@@ -3035,8 +3035,8 @@
   "team": "NE",
   "player_id": "8121",
   "opponent": "BUF",
-  "updated_at": 1791320904134,
   "game_id": "202610404",
+  "updated_at": 1791320904134,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -3093,7 +3093,7 @@
     "genius_id": "1343382",
     "rookie_year": "2022"
    },
-   "news_updated": 1791408900636,
+   "news_updated": 1791567955821,
    "position": "WR",
    "team": "DAL",
    "team_abbr": null,
@@ -3103,8 +3103,8 @@
   "team": "DAL",
   "player_id": "8137",
   "opponent": "HOU",
-  "updated_at": 1791212910849,
   "game_id": "202610413",
+  "updated_at": 1791212910849,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -3165,7 +3165,7 @@
     "injury_override_pre_2025_0": "IR",
     "rookie_year": "2022"
    },
-   "news_updated": 1791192918570,
+   "news_updated": 1791585656514,
    "position": "WR",
    "team": "GB",
    "team_abbr": null,
@@ -3175,8 +3175,8 @@
   "team": "GB",
   "player_id": "8167",
   "opponent": "TB",
-  "updated_at": 1791245337400,
   "game_id": "202610433",
+  "updated_at": 1791245337400,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -3254,7 +3254,7 @@
     "genius_id": "1399007",
     "rookie_year": "2023"
    },
-   "news_updated": 1791193218835,
+   "news_updated": 1791585956954,
    "position": "TE",
    "team": "GB",
    "team_abbr": null,
@@ -3264,8 +3264,8 @@
   "team": "GB",
   "player_id": "9484",
   "opponent": "TB",
-  "updated_at": 1791245337376,
   "game_id": "202610433",
+  "updated_at": 1791245337376,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -3341,8 +3341,8 @@
   "team": "TEN",
   "player_id": "9508",
   "opponent": "BAL",
-  "updated_at": 1791245322267,
   "game_id": "202610403",
+  "updated_at": 1791245322267,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -3411,7 +3411,7 @@
     "genius_id": "1398596",
     "rookie_year": "2023"
    },
-   "news_updated": 1791424201947,
+   "news_updated": 1791728714862,
    "position": "WR",
    "team": "MIN",
    "team_abbr": null,
@@ -3421,8 +3421,8 @@
   "team": "MIN",
   "player_id": "9756",
   "opponent": "MIA",
-  "updated_at": 1791425293814,
   "game_id": "202610420",
+  "updated_at": 1791425293814,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -3502,8 +3502,8 @@
   "team": "NE",
   "player_id": "NE",
   "opponent": "BUF",
-  "updated_at": 1791145078339,
   "game_id": "202610404",
+  "updated_at": 1791145078339,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -3562,7 +3562,7 @@
     "genius_id": "1399255",
     "rookie_year": "2023"
    },
-   "news_updated": 1791253540239,
+   "news_updated": 1791633902864,
    "position": "WR",
    "team": "HOU",
    "team_abbr": null,
@@ -3572,8 +3572,8 @@
   "team": "HOU",
   "player_id": "10218",
   "opponent": "DAL",
-  "updated_at": 1791245329464,
   "game_id": "202610413",
+  "updated_at": 1791245329464,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -3644,8 +3644,8 @@
   "team": "KC",
   "player_id": "11624",
   "opponent": "LV",
-  "updated_at": 1791245333618,
   "game_id": "202610425",
+  "updated_at": 1791245333618,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -3704,7 +3704,7 @@
     "rookie_year": "2025",
     "source_id": "1e9c9776-39f1-4f9f-bef6-b86cbbe274a0"
    },
-   "news_updated": 1791146713672,
+   "news_updated": 1791652805919,
    "position": "TE",
    "team": "IND",
    "team_abbr": null,
@@ -3714,8 +3714,8 @@
   "team": "IND",
   "player_id": "12518",
   "opponent": "WAS",
-  "updated_at": 1791245341183,
   "game_id": "202610435",
+  "updated_at": 1791245341183,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -3770,7 +3770,7 @@
     "genius_id": "1485284",
     "rookie_year": "2025"
    },
-   "news_updated": 1791166815488,
+   "news_updated": 1791629401951,
    "position": "K",
    "team": "BAL",
    "team_abbr": null,
@@ -3780,8 +3780,86 @@
   "team": "BAL",
   "player_id": "12711",
   "opponent": "TEN",
-  "updated_at": 1791212902652,
   "game_id": "202610403",
+  "updated_at": 1791212902652,
+  "week_shard": "4_4",
+  "company": "sportradar"
+ },
+ {
+  "status": null,
+  "date": "2026-10-04",
+  "stats": {
+   "h1_rec_yd": 12.0,
+   "pos_rank_std": 21.0,
+   "gp": 1.0,
+   "tm_def_snp": 66.0,
+   "gms_active": 1.0,
+   "penalty": 1.0,
+   "rec_td": 1.0,
+   "rec_ypt": 17.33,
+   "pos_rank_half_ppr": 23.0,
+   "bonus_fd_wr": 1.0,
+   "idp_tkl": 1.0,
+   "pts_std": 11.2,
+   "rec_lng": 40.0,
+   "tm_st_snp": 29.0,
+   "idp_tkl_solo": 1.0,
+   "rec": 2.0,
+   "rec_yar": 4.0,
+   "rec_fd": 1.0,
+   "bonus_rec_wr": 2.0,
+   "tm_off_snp": 67.0,
+   "pos_rank_ppr": 28.0,
+   "rec_rz_tgt": 1.0,
+   "penalty_yd": 5.0,
+   "rec_40p": 1.0,
+   "off_snp": 44.0,
+   "pts_half_ppr": 12.2,
+   "rec_air_yd": 48.0,
+   "rec_ypr": 26.0,
+   "pts_idp": 2.0,
+   "rec_10_19": 1.0,
+   "rec_td_lng": 12.0,
+   "rush_rec_yd": 52.0,
+   "anytime_tds": 1.0,
+   "rec_tgt": 3.0,
+   "pts_ppr": 13.2,
+   "rec_yd": 52.0
+  },
+  "category": "stat",
+  "last_modified": 1791245330241,
+  "week": 4,
+  "season": "2026",
+  "season_type": "regular",
+  "sport": "nfl",
+  "player": {
+   "fantasy_positions": [
+    "WR"
+   ],
+   "first_name": "Malachi",
+   "injury_body_part": null,
+   "injury_notes": null,
+   "injury_start_date": null,
+   "injury_status": null,
+   "last_name": "Fields",
+   "metadata": {
+    "channel_id": "1353609366179180545",
+    "genius_id": "1506574",
+    "rookie_year": "2026",
+    "source_id": "cb10f601-710f-425c-810a-e86b1e8a8bea"
+   },
+   "news_updated": 1791649804580,
+   "position": "WR",
+   "team": "NYG",
+   "team_abbr": null,
+   "team_changed_at": null,
+   "years_exp": 0
+  },
+  "team": "NYG",
+  "player_id": "13285",
+  "opponent": "ARI",
+  "game_id": "202610423",
+  "updated_at": 1791245330241,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -3840,7 +3918,7 @@
     "rookie_year": "2026",
     "source_id": "79f43bd0-5454-11ef-814f-e33f9194084a"
    },
-   "news_updated": 1791420601643,
+   "news_updated": 1791653406955,
    "position": "WR",
    "team": "TB",
    "team_abbr": null,
@@ -3850,8 +3928,8 @@
   "team": "TB",
   "player_id": "13317",
   "opponent": "GB",
-  "updated_at": 1791245337257,
   "game_id": "202610433",
+  "updated_at": 1791245337257,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -3906,9 +3984,9 @@
     "rookie_year": "2026",
     "source_id": "7a008ea0-851f-11ec-b344-83aa305ae234"
    },
-   "news_updated": 1791249639755,
+   "news_updated": 1791581456008,
    "position": "RB",
-   "team": "WAS",
+   "team": "MIA",
    "team_abbr": null,
    "team_changed_at": null,
    "years_exp": 0
@@ -3916,8 +3994,8 @@
   "team": "WAS",
   "player_id": "13405",
   "opponent": "IND",
-  "updated_at": 1791245341036,
   "game_id": "202610435",
+  "updated_at": 1791245341036,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -3968,17 +4046,17 @@
     "WR"
    ],
    "first_name": "Stefon",
-   "injury_body_part": "Undisclosed",
+   "injury_body_part": "Hamstring",
    "injury_notes": null,
    "injury_start_date": null,
-   "injury_status": "Questionable",
+   "injury_status": "Out",
    "last_name": "Diggs",
    "metadata": {
     "channel_id": "1113708787232960512",
     "genius_id": "835860",
     "rookie_year": "2015"
    },
-   "news_updated": 1791428402890,
+   "news_updated": 1791567054490,
    "position": "WR",
    "team": "WAS",
    "team_abbr": null,
@@ -3988,8 +4066,8 @@
   "team": "WAS",
   "player_id": "2449",
   "opponent": "IND",
-  "updated_at": 1791320924525,
   "game_id": "202610435",
+  "updated_at": 1791320924525,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -4056,8 +4134,8 @@
   "team": "CAR",
   "player_id": "2505",
   "opponent": "DET",
-  "updated_at": 1791212902847,
   "game_id": "202610405",
+  "updated_at": 1791212902847,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -4116,7 +4194,7 @@
     "genius_id": "962292",
     "rookie_year": "2016"
    },
-   "news_updated": 1791308145805,
+   "news_updated": 1791612959714,
    "position": "WR",
    "team": "CHI",
    "team_abbr": null,
@@ -4126,8 +4204,8 @@
   "team": "CHI",
   "player_id": "3634",
   "opponent": "NYJ",
-  "updated_at": 1791245325873,
   "game_id": "202610406",
+  "updated_at": 1791245325873,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -4200,7 +4278,7 @@
     "injury_override_regular_2024_14": "IR",
     "rookie_year": "2017"
    },
-   "news_updated": 1791228329648,
+   "news_updated": 1791625801499,
    "position": "RB",
    "team": "SF",
    "team_abbr": null,
@@ -4210,8 +4288,8 @@
   "team": "SF",
   "player_id": "4034",
   "opponent": "DEN",
-  "updated_at": 1791317347104,
   "game_id": "202610431",
+  "updated_at": 1791317347104,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -4289,7 +4367,7 @@
     "injury_override_regular_2025_3": "IR",
     "rookie_year": "2017"
    },
-   "news_updated": 1791470442037,
+   "news_updated": 1791580856034,
    "position": "RB",
    "team": "MIN",
    "team_abbr": null,
@@ -4299,8 +4377,8 @@
   "team": "MIN",
   "player_id": "4199",
   "opponent": "MIA",
-  "updated_at": 1791324490605,
   "game_id": "202610420",
+  "updated_at": 1791324490605,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -4358,14 +4436,14 @@
    "injury_body_part": "Hamstring",
    "injury_notes": null,
    "injury_start_date": null,
-   "injury_status": "Questionable",
+   "injury_status": "Out",
    "last_name": "Barkley",
    "metadata": {
     "channel_id": "1113708717460713472",
     "genius_id": "1007964",
     "rookie_year": "2018"
    },
-   "news_updated": 1791412500867,
+   "news_updated": 1791724514214,
    "position": "RB",
    "team": "PHI",
    "team_abbr": null,
@@ -4375,8 +4453,8 @@
   "team": "PHI",
   "player_id": "4866",
   "opponent": "LAR",
-  "updated_at": 1791245333487,
   "game_id": "202610426",
+  "updated_at": 1791245333487,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -4454,7 +4532,7 @@
     "genius_id": "1013413",
     "rookie_year": "2019"
    },
-   "news_updated": 1791228930058,
+   "news_updated": 1791628202063,
    "position": "WR",
    "team": "SF",
    "team_abbr": null,
@@ -4464,8 +4542,8 @@
   "team": "SF",
   "player_id": "5872",
   "opponent": "DEN",
-  "updated_at": 1791317347111,
   "game_id": "202610431",
+  "updated_at": 1791317347111,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -4521,7 +4599,7 @@
     "genius_id": "1016052",
     "rookie_year": "2019"
    },
-   "news_updated": 1791416101141,
+   "news_updated": 1791631802657,
    "position": "RB",
    "team": "HOU",
    "team_abbr": null,
@@ -4531,8 +4609,8 @@
   "team": "HOU",
   "player_id": "5892",
   "opponent": "DAL",
-  "updated_at": 1791245329467,
   "game_id": "202610413",
+  "updated_at": 1791245329467,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -4598,10 +4676,10 @@
     "WR"
    ],
    "first_name": "CeeDee",
-   "injury_body_part": null,
+   "injury_body_part": "Quadriceps",
    "injury_notes": null,
    "injury_start_date": null,
-   "injury_status": null,
+   "injury_status": "Questionable",
    "last_name": "Lamb",
    "metadata": {
     "channel_id": "1113708855537201152",
@@ -4610,7 +4688,7 @@
     "injury_override_regular_2025_6": "Out",
     "rookie_year": "2020"
    },
-   "news_updated": 1791407760418,
+   "news_updated": 1791552958592,
    "position": "WR",
    "team": "DAL",
    "team_abbr": null,
@@ -4620,8 +4698,8 @@
   "team": "DAL",
   "player_id": "6786",
   "opponent": "HOU",
-  "updated_at": 1791324491013,
   "game_id": "202610413",
+  "updated_at": 1791324491013,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -4687,7 +4765,7 @@
     "genius_id": "1085741",
     "rookie_year": "2021"
    },
-   "news_updated": 1791418801421,
+   "news_updated": 1791522349042,
    "position": "RB",
    "team": "TB",
    "team_abbr": null,
@@ -4697,8 +4775,8 @@
   "team": "TB",
   "player_id": "7567",
   "opponent": "GB",
-  "updated_at": 1791245337228,
   "game_id": "202610433",
+  "updated_at": 1791245337228,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -4746,17 +4824,17 @@
     "WR"
    ],
    "first_name": "Rashod",
-   "injury_body_part": "Shoulder",
+   "injury_body_part": null,
    "injury_notes": null,
    "injury_start_date": null,
-   "injury_status": "Questionable",
+   "injury_status": null,
    "last_name": "Bateman",
    "metadata": {
     "channel_id": "1113708872729653248",
     "genius_id": "1073946",
     "rookie_year": "2021"
    },
-   "news_updated": 1791408901216,
+   "news_updated": 1791642604230,
    "position": "WR",
    "team": "BAL",
    "team_abbr": null,
@@ -4766,8 +4844,8 @@
   "team": "BAL",
   "player_id": "7571",
   "opponent": "TEN",
-  "updated_at": 1791245322148,
   "game_id": "202610403",
+  "updated_at": 1791245322148,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -4831,7 +4909,7 @@
     "genius_id": "1343228",
     "rookie_year": "2022"
    },
-   "news_updated": 1791212720400,
+   "news_updated": 1791603358624,
    "position": "WR",
    "team": "DET",
    "team_abbr": null,
@@ -4841,8 +4919,8 @@
   "team": "DET",
   "player_id": "8148",
   "opponent": "CAR",
-  "updated_at": 1791245322261,
   "game_id": "202610405",
+  "updated_at": 1791245322261,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -4924,7 +5002,7 @@
     "genius_id": "1344062",
     "rookie_year": "2022"
    },
-   "news_updated": 1791214520824,
+   "news_updated": 1791704411225,
    "position": "RB",
    "team": "LAR",
    "team_abbr": null,
@@ -4934,8 +5012,8 @@
   "team": "LAR",
   "player_id": "8150",
   "opponent": "PHI",
-  "updated_at": 1791245333621,
   "game_id": "202610426",
+  "updated_at": 1791245333621,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -5014,7 +5092,7 @@
     "injury_override_regular_2024_7": "IR",
     "rookie_year": "2022"
    },
-   "news_updated": 1791473142408,
+   "news_updated": 1791587156735,
    "position": "WR",
    "team": "SEA",
    "team_abbr": null,
@@ -5024,8 +5102,8 @@
   "team": "SEA",
   "player_id": "8676",
   "opponent": "LAC",
-  "updated_at": 1791317346867,
   "game_id": "202610430",
+  "updated_at": 1791317346867,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -5096,7 +5174,7 @@
     "genius_id": "1014223",
     "rookie_year": "2023"
    },
-   "news_updated": 1791474942698,
+   "news_updated": 1791580556037,
    "position": "RB",
    "team": "CIN",
    "team_abbr": null,
@@ -5106,8 +5184,8 @@
   "team": "CIN",
   "player_id": "9224",
   "opponent": "JAX",
-  "updated_at": 1791245325719,
   "game_id": "202610407",
+  "updated_at": 1791245325719,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -5190,8 +5268,8 @@
   "team": "CAR",
   "player_id": "9228",
   "opponent": "DET",
-  "updated_at": 1791245322119,
   "game_id": "202610405",
+  "updated_at": 1791245322119,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -5254,7 +5332,7 @@
     "injury_override_regular_2025_5": "Out",
     "rookie_year": "2023"
    },
-   "news_updated": 1791337202295,
+   "news_updated": 1791583856401,
    "position": "TE",
    "team": "LV",
    "team_abbr": null,
@@ -5264,8 +5342,8 @@
   "team": "LV",
   "player_id": "9482",
   "opponent": "KC",
-  "updated_at": 1791245333461,
   "game_id": "202610425",
+  "updated_at": 1791245333461,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -5341,8 +5419,8 @@
   "team": "JAX",
   "player_id": "9487",
   "opponent": "CIN",
-  "updated_at": 1791245325922,
   "game_id": "202610407",
+  "updated_at": 1791245325922,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -5399,7 +5477,7 @@
     "genius_id": "1399247",
     "rookie_year": "2023"
    },
-   "news_updated": 1791250239833,
+   "news_updated": 1791633602538,
    "position": "WR",
    "team": "HOU",
    "team_abbr": null,
@@ -5409,8 +5487,8 @@
   "team": "HOU",
   "player_id": "9504",
   "opponent": "DAL",
-  "updated_at": 1791245329507,
   "game_id": "202610413",
+  "updated_at": 1791245329507,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -5444,7 +5522,7 @@
     "genius_id": "1398978",
     "rookie_year": "2023"
    },
-   "news_updated": 1791435637568,
+   "news_updated": 1791608460828,
    "position": "RB",
    "team": "SEA",
    "team_abbr": null,
@@ -5454,8 +5532,8 @@
   "team": "SEA",
   "player_id": "9753",
   "opponent": "LAC",
-  "updated_at": 1791145522755,
   "game_id": "202610430",
+  "updated_at": 1791145522755,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -5525,7 +5603,7 @@
     "genius_id": "1398595",
     "rookie_year": "2023"
    },
-   "news_updated": 1791408362181,
+   "news_updated": 1791721513662,
    "position": "WR",
    "team": "BAL",
    "team_abbr": null,
@@ -5535,8 +5613,8 @@
   "team": "BAL",
   "player_id": "9997",
   "opponent": "TEN",
-  "updated_at": 1791320903933,
   "game_id": "202610403",
+  "updated_at": 1791320903933,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -5616,8 +5694,8 @@
   "team": "GB",
   "player_id": "GB",
   "opponent": "TB",
-  "updated_at": 1791425302239,
   "game_id": "202610433",
+  "updated_at": 1791425302239,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -5695,8 +5773,87 @@
   "team": "KC",
   "player_id": "KC",
   "opponent": "LV",
-  "updated_at": 1791158910558,
   "game_id": "202610425",
+  "updated_at": 1791158910558,
+  "week_shard": "4_4",
+  "company": "sportradar"
+ },
+ {
+  "status": null,
+  "date": "2026-10-04",
+  "stats": {
+   "sack": 2.0,
+   "qb_hit": 8.0,
+   "def_forced_punts": 6.0,
+   "pos_rank_std": 999.0,
+   "gp": 1.0,
+   "def_pr_yd": 4.0,
+   "penalty": 6.0,
+   "sack_yd": 15.0,
+   "tkl_ast": 25.0,
+   "pos_rank_half_ppr": 999.0,
+   "def_kr_yd": 148.0,
+   "pts_allow": 30.0,
+   "def_4_and_stop": 1.0,
+   "def_pr": 1.0,
+   "fan_pts_allow_k": 6.0,
+   "def_st_tkl_solo": 4.0,
+   "yds_allow_350_399": 1.0,
+   "def_pr_ypa": 4.0,
+   "pts_std": 1.0,
+   "def_kr_ypa": 29.6,
+   "def_pr_lng": 4.0,
+   "tkl_solo_misc": 1.0,
+   "yds_allow": 399.0,
+   "fan_pts_allow_def": 4.0,
+   "def_kr": 5.0,
+   "pos_rank_ppr": 999.0,
+   "def_kr_lng": 53.0,
+   "penalty_yd": 30.0,
+   "def_3_and_out": 3.0,
+   "fan_pts_allow_qb": 17.0,
+   "fan_pts_allow_wr": 39.1,
+   "tkl_loss": 2.0,
+   "pts_half_ppr": 1.0,
+   "def_pass_def": 5.0,
+   "fan_pts_allow_te": 7.2,
+   "tkl": 51.0,
+   "tkl_solo": 26.0,
+   "fan_pts_allow": 102.2,
+   "td": 2.0,
+   "pts_allow_28_34": 1.0,
+   "pts_ppr": 1.0,
+   "fan_pts_allow_rb": 32.9
+  },
+  "category": "stat",
+  "last_modified": 1791158910536,
+  "week": 4,
+  "season": "2026",
+  "season_type": "regular",
+  "sport": "nfl",
+  "player": {
+   "fantasy_positions": [
+    "DEF"
+   ],
+   "first_name": "Las Vegas",
+   "injury_body_part": null,
+   "injury_notes": null,
+   "injury_start_date": null,
+   "injury_status": null,
+   "last_name": "Raiders",
+   "metadata": null,
+   "news_updated": null,
+   "position": "DEF",
+   "team": "LV",
+   "team_abbr": null,
+   "team_changed_at": null,
+   "years_exp": null
+  },
+  "team": "LV",
+  "player_id": "LV",
+  "opponent": "KC",
+  "game_id": "202610425",
+  "updated_at": 1791158910536,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -5755,7 +5912,7 @@
     "genius_id": "1399027",
     "rookie_year": "2023"
    },
-   "news_updated": 1791248439712,
+   "news_updated": 1791584756458,
    "position": "WR",
    "team": "LV",
    "team_abbr": null,
@@ -5765,8 +5922,8 @@
   "team": "LV",
   "player_id": "10213",
   "opponent": "KC",
-  "updated_at": 1791245333437,
   "game_id": "202610425",
+  "updated_at": 1791245333437,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -5830,7 +5987,7 @@
     "genius_id": "1398964",
     "rookie_year": "2023"
    },
-   "news_updated": 1791213920590,
+   "news_updated": 1791604258937,
    "position": "TE",
    "team": "DET",
    "team_abbr": null,
@@ -5840,8 +5997,8 @@
   "team": "DET",
   "player_id": "10859",
   "opponent": "CAR",
-  "updated_at": 1791245322277,
   "game_id": "202610405",
+  "updated_at": 1791245322277,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -5911,7 +6068,7 @@
     "genius_id": "1407983",
     "rookie_year": "2023"
    },
-   "news_updated": 1791383106292,
+   "news_updated": 1791611159556,
    "position": "QB",
    "team": "CHI",
    "team_abbr": null,
@@ -5921,8 +6078,8 @@
   "team": "CHI",
   "player_id": "11256",
   "opponent": "NYJ",
-  "updated_at": 1791245325865,
   "game_id": "202610406",
+  "updated_at": 1791245325865,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -5980,7 +6137,7 @@
     "genius_id": "1412504",
     "rookie_year": "2023"
    },
-   "news_updated": 1791409800565,
+   "news_updated": 1791597659578,
    "position": "K",
    "team": "DAL",
    "team_abbr": null,
@@ -5990,8 +6147,8 @@
   "team": "DAL",
   "player_id": "11533",
   "opponent": "HOU",
-  "updated_at": 1791212910923,
   "game_id": "202610413",
+  "updated_at": 1791212910923,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -6063,7 +6220,7 @@
     "injury_override_regular_2025_5": "IR",
     "rookie_year": "2024"
    },
-   "news_updated": 1791163815758,
+   "news_updated": 1791645304051,
    "position": "RB",
    "team": "NYJ",
    "team_abbr": null,
@@ -6073,8 +6230,8 @@
   "team": "NYJ",
   "player_id": "11576",
   "opponent": "CHI",
-  "updated_at": 1791245326038,
   "game_id": "202610406",
+  "updated_at": 1791245326038,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -6119,8 +6276,8 @@
   "team": "CAR",
   "player_id": "11583",
   "opponent": "DET",
-  "updated_at": 1791159822332,
   "game_id": "202610405",
+  "updated_at": 1791159822332,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -6183,7 +6340,7 @@
     "genius_id": "1463727",
     "rookie_year": "2024"
    },
-   "news_updated": 1791215120558,
+   "news_updated": 1791704411225,
    "position": "RB",
    "team": "LAR",
    "team_abbr": null,
@@ -6193,8 +6350,8 @@
   "team": "LAR",
   "player_id": "11586",
   "opponent": "PHI",
-  "updated_at": 1791245333602,
   "game_id": "202610426",
+  "updated_at": 1791245333602,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -6261,7 +6418,7 @@
     "genius_id": "1492143",
     "rookie_year": "2024"
    },
-   "news_updated": 1791345302549,
+   "news_updated": 1791645604219,
    "position": "WR",
    "team": "NYJ",
    "team_abbr": null,
@@ -6271,8 +6428,8 @@
   "team": "NYJ",
   "player_id": "11608",
   "opponent": "CHI",
-  "updated_at": 1791212906811,
   "game_id": "202610406",
+  "updated_at": 1791212906811,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -6325,17 +6482,17 @@
     "WR"
    ],
    "first_name": "Marvin",
-   "injury_body_part": null,
+   "injury_body_part": "Coach's Decision",
    "injury_notes": null,
    "injury_start_date": null,
-   "injury_status": null,
+   "injury_status": "Out",
    "last_name": "Harrison",
    "metadata": {
     "channel_id": "1113708849954582528",
     "genius_id": "1463674",
     "rookie_year": "2024"
    },
-   "news_updated": 1791403259952,
+   "news_updated": 1791685208855,
    "position": "WR",
    "team": "ARI",
    "team_abbr": null,
@@ -6345,8 +6502,8 @@
   "team": "ARI",
   "player_id": "11628",
   "opponent": "NYG",
-  "updated_at": 1791245330363,
   "game_id": "202610423",
+  "updated_at": 1791245330363,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -6411,7 +6568,7 @@
     "genius_id": "719231",
     "rookie_year": "2012"
    },
-   "news_updated": 1791302445052,
+   "news_updated": 1791583256253,
    "position": "QB",
    "team": "LV",
    "team_abbr": null,
@@ -6421,8 +6578,8 @@
   "team": "LV",
   "player_id": "1166",
   "opponent": "KC",
-  "updated_at": 1791245333470,
   "game_id": "202610425",
+  "updated_at": 1791245333470,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -6487,8 +6644,8 @@
   "team": "LAR",
   "player_id": "12015",
   "opponent": "PHI",
-  "updated_at": 1791212914904,
   "game_id": "202610426",
+  "updated_at": 1791212914904,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -6533,8 +6690,8 @@
   "team": "LAR",
   "player_id": "12487",
   "opponent": "PHI",
-  "updated_at": 1791133360492,
   "game_id": "202610426",
+  "updated_at": 1791133360492,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -6596,7 +6753,7 @@
     "rookie_year": "2025",
     "source_id": "1b06fda0-8a81-11ec-9b75-81689e0737c4"
    },
-   "news_updated": 1791167116030,
+   "news_updated": 1791613559854,
    "position": "TE",
    "team": "CHI",
    "team_abbr": null,
@@ -6606,8 +6763,8 @@
   "team": "CHI",
   "player_id": "12517",
   "opponent": "NYJ",
-  "updated_at": 1791245325921,
   "game_id": "202610406",
+  "updated_at": 1791245325921,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -6671,10 +6828,10 @@
     "RB"
    ],
    "first_name": "Ashton",
-   "injury_body_part": null,
+   "injury_body_part": "Ankle",
    "injury_notes": null,
    "injury_start_date": null,
-   "injury_status": null,
+   "injury_status": "Questionable",
    "last_name": "Jeanty",
    "metadata": {
     "channel_id": "1221352964547944448",
@@ -6682,7 +6839,7 @@
     "rookie_year": "2025",
     "source_id": "792d3cd0-8f56-11ec-9f33-1965c9c46e44"
    },
-   "news_updated": 1791169215937,
+   "news_updated": 1791721213749,
    "position": "RB",
    "team": "LV",
    "team_abbr": null,
@@ -6692,8 +6849,8 @@
   "team": "LV",
   "player_id": "12527",
   "opponent": "KC",
-  "updated_at": 1791245333451,
   "game_id": "202610425",
+  "updated_at": 1791245333451,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -6751,7 +6908,7 @@
     "rookie_year": "2025",
     "source_id": "2fcac8b2-522e-4da1-8f8a-e2d14333f7ab"
    },
-   "news_updated": 1791154213990,
+   "news_updated": 1791659706302,
    "position": "RB",
    "team": "NE",
    "team_abbr": null,
@@ -6761,8 +6918,8 @@
   "team": "NE",
   "player_id": "12529",
   "opponent": "BUF",
-  "updated_at": 1791245322226,
   "game_id": "202610404",
+  "updated_at": 1791245322226,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -6826,7 +6983,7 @@
     "genius_id": "1504226",
     "rookie_year": "2025"
    },
-   "news_updated": 1791314146440,
+   "news_updated": 1791582056181,
    "position": "WR",
    "team": "PHI",
    "team_abbr": null,
@@ -6836,8 +6993,8 @@
   "team": "PHI",
   "player_id": "13150",
   "opponent": "LAR",
-  "updated_at": 1791245333461,
   "game_id": "202610426",
+  "updated_at": 1791245333461,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -6882,8 +7039,8 @@
   "team": "SEA",
   "player_id": "13286",
   "opponent": "LAC",
-  "updated_at": 1791145522845,
   "game_id": "202610430",
+  "updated_at": 1791145522845,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -6949,7 +7106,7 @@
     "rookie_year": "2026",
     "source_id": "6a695fd0-4b04-4185-8bb8-06d4f54a5739"
    },
-   "news_updated": 1791231328161,
+   "news_updated": 1791583556286,
    "position": "RB",
    "team": "LV",
    "team_abbr": null,
@@ -6959,8 +7116,8 @@
   "team": "LV",
   "player_id": "13305",
   "opponent": "KC",
-  "updated_at": 1791245333515,
   "game_id": "202610425",
+  "updated_at": 1791245333515,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -7012,8 +7169,8 @@
   "team": "KC",
   "player_id": "13413",
   "opponent": "LV",
-  "updated_at": 1791212915004,
   "game_id": "202610425",
+  "updated_at": 1791212915004,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -7067,7 +7224,7 @@
     "genius_id": "835715",
     "rookie_year": "2015"
    },
-   "news_updated": 1791181817664,
+   "news_updated": 1791587456865,
    "position": "K",
    "team": "SEA",
    "team_abbr": null,
@@ -7077,8 +7234,8 @@
   "team": "SEA",
   "player_id": "2747",
   "opponent": "LAC",
-  "updated_at": 1791212915676,
   "game_id": "202610430",
+  "updated_at": 1791212915676,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -7152,7 +7309,7 @@
     "genius_id": "940750",
     "rookie_year": "2016"
    },
-   "news_updated": 1791153613826,
+   "news_updated": 1791626701728,
    "position": "RB",
    "team": "BAL",
    "team_abbr": null,
@@ -7162,8 +7319,8 @@
   "team": "BAL",
   "player_id": "3198",
   "opponent": "TEN",
-  "updated_at": 1791245322084,
   "game_id": "202610403",
+  "updated_at": 1791245322084,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -7238,7 +7395,7 @@
     "genius_id": "941271",
     "rookie_year": "2016"
    },
-   "news_updated": 1791300944943,
+   "news_updated": 1791630902153,
    "position": "QB",
    "team": "ARI",
    "team_abbr": null,
@@ -7248,8 +7405,8 @@
   "team": "ARI",
   "player_id": "3257",
   "opponent": "NYG",
-  "updated_at": 1791245330338,
   "game_id": "202610423",
+  "updated_at": 1791245330338,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -7305,7 +7462,7 @@
     "injury_override_regular_2025_9": "Out",
     "rookie_year": "2016"
    },
-   "news_updated": 1791179417130,
+   "news_updated": 1791635403350,
    "position": "K",
    "team": "HOU",
    "team_abbr": null,
@@ -7315,8 +7472,8 @@
   "team": "HOU",
   "player_id": "3451",
   "opponent": "DAL",
-  "updated_at": 1791212910739,
   "game_id": "202610413",
+  "updated_at": 1791212910739,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -7396,8 +7553,8 @@
   "team": "KC",
   "player_id": "4046",
   "opponent": "LV",
-  "updated_at": 1791245333597,
   "game_id": "202610425",
+  "updated_at": 1791245333597,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -7460,7 +7617,7 @@
     "genius_id": "999472",
     "rookie_year": "2017"
    },
-   "news_updated": 1791414901083,
+   "news_updated": 1791629701970,
    "position": "TE",
    "team": "SF",
    "team_abbr": null,
@@ -7470,8 +7627,8 @@
   "team": "SF",
   "player_id": "4217",
   "opponent": "DEN",
-  "updated_at": 1791245337516,
   "game_id": "202610431",
+  "updated_at": 1791245337516,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -7531,7 +7688,7 @@
     "genius_id": "1008019",
     "rookie_year": "2018"
    },
-   "news_updated": 1791309345919,
+   "news_updated": 1791580856061,
    "position": "TE",
    "team": "CIN",
    "team_abbr": null,
@@ -7541,8 +7698,8 @@
   "team": "CIN",
   "player_id": "4993",
   "opponent": "JAX",
-  "updated_at": 1791212906824,
   "game_id": "202610407",
+  "updated_at": 1791212906824,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -7597,7 +7754,7 @@
     "genius_id": "1009133",
     "rookie_year": "2018"
    },
-   "news_updated": 1791386706548,
+   "news_updated": 1791652805916,
    "position": "WR",
    "team": "DEN",
    "team_abbr": null,
@@ -7607,8 +7764,8 @@
   "team": "DEN",
   "player_id": "5045",
   "opponent": "SF",
-  "updated_at": 1791245337681,
   "game_id": "202610431",
+  "updated_at": 1791245337681,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -7643,7 +7800,7 @@
     "injury_override_regular_2024_3": "Out",
     "rookie_year": "2019"
    },
-   "news_updated": 1791422401776,
+   "news_updated": 1791483943944,
    "position": "WR",
    "team": "NE",
    "team_abbr": null,
@@ -7653,8 +7810,8 @@
   "team": "NE",
   "player_id": "5859",
   "opponent": "BUF",
-  "updated_at": 1791133352602,
   "game_id": "202610404",
+  "updated_at": 1791133352602,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -7730,7 +7887,7 @@
     "genius_id": "1013987",
     "rookie_year": "2019"
    },
-   "news_updated": 1791346202735,
+   "news_updated": 1791648004465,
    "position": "QB",
    "team": "IND",
    "team_abbr": null,
@@ -7740,8 +7897,8 @@
   "team": "IND",
   "player_id": "5870",
   "opponent": "WAS",
-  "updated_at": 1791245341222,
   "game_id": "202610435",
+  "updated_at": 1791245341222,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -7801,17 +7958,17 @@
     "RB"
    ],
    "first_name": "D'Andre",
-   "injury_body_part": "Hip",
+   "injury_body_part": null,
    "injury_notes": null,
    "injury_start_date": null,
-   "injury_status": "Questionable",
+   "injury_status": null,
    "last_name": "Swift",
    "metadata": {
     "channel_id": "1113708765938479104",
     "genius_id": "1014522",
     "rookie_year": "2020"
    },
-   "news_updated": 1791404760113,
+   "news_updated": 1791627601722,
    "position": "RB",
    "team": "CHI",
    "team_abbr": null,
@@ -7821,8 +7978,8 @@
   "team": "CHI",
   "player_id": "6790",
   "opponent": "NYJ",
-  "updated_at": 1791245325879,
   "game_id": "202610406",
+  "updated_at": 1791245325879,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -7886,7 +8043,7 @@
     "genius_id": "1006660",
     "rookie_year": "2020"
    },
-   "news_updated": 1791412800918,
+   "news_updated": 1791666306557,
    "position": "WR",
    "team": "CIN",
    "team_abbr": null,
@@ -7896,8 +8053,8 @@
   "team": "CIN",
   "player_id": "6801",
   "opponent": "JAX",
-  "updated_at": 1791245325699,
   "game_id": "202610407",
+  "updated_at": 1791245325699,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -7968,7 +8125,7 @@
     "genius_id": "1005917",
     "rookie_year": "2020"
    },
-   "news_updated": 1791192018482,
+   "news_updated": 1791583856420,
    "position": "QB",
    "team": "GB",
    "team_abbr": null,
@@ -7978,8 +8135,8 @@
   "team": "GB",
   "player_id": "6804",
   "opponent": "TB",
-  "updated_at": 1791245337400,
   "game_id": "202610433",
+  "updated_at": 1791245337400,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -8052,7 +8209,7 @@
     "genius_id": "1017450",
     "rookie_year": "2020"
    },
-   "news_updated": 1791176415243,
+   "news_updated": 1791652206454,
    "position": "RB",
    "team": "IND",
    "team_abbr": null,
@@ -8062,8 +8219,8 @@
   "team": "IND",
   "player_id": "6813",
   "opponent": "WAS",
-  "updated_at": 1791245341199,
   "game_id": "202610435",
+  "updated_at": 1791245341199,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -8115,7 +8272,7 @@
     "genius_id": "1079612",
     "rookie_year": "2021"
    },
-   "news_updated": 1791205219688,
+   "news_updated": 1791580856033,
    "position": "K",
    "team": "CIN",
    "team_abbr": null,
@@ -8125,8 +8282,8 @@
   "team": "CIN",
   "player_id": "7839",
   "opponent": "JAX",
-  "updated_at": 1791212906756,
   "game_id": "202610407",
+  "updated_at": 1791212906756,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -8184,7 +8341,7 @@
     "genius_id": "1075468",
     "rookie_year": "2022"
    },
-   "news_updated": 1791202219663,
+   "news_updated": 1791632402425,
    "position": "TE",
    "team": "ARI",
    "team_abbr": null,
@@ -8194,8 +8351,8 @@
   "team": "ARI",
   "player_id": "8130",
   "opponent": "NYG",
-  "updated_at": 1791245330415,
   "game_id": "202610423",
+  "updated_at": 1791245330415,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -8248,17 +8405,17 @@
     "TE"
    ],
    "first_name": "Isaiah",
-   "injury_body_part": "Knee",
+   "injury_body_part": null,
    "injury_notes": null,
    "injury_start_date": null,
-   "injury_status": "Questionable",
+   "injury_status": null,
    "last_name": "Likely",
    "metadata": {
     "channel_id": "1113708873170055168",
     "genius_id": "1076713",
     "rookie_year": "2022"
    },
-   "news_updated": 1791406561982,
+   "news_updated": 1791649204472,
    "position": "TE",
    "team": "NYG",
    "team_abbr": null,
@@ -8268,8 +8425,8 @@
   "team": "NYG",
   "player_id": "8131",
   "opponent": "ARI",
-  "updated_at": 1791245330236,
   "game_id": "202610423",
+  "updated_at": 1791245330236,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -8340,7 +8497,7 @@
     "genius_id": "1080504",
     "rookie_year": "2022"
    },
-   "news_updated": 1791252339386,
+   "news_updated": 1791632102316,
    "position": "RB",
    "team": "ARI",
    "team_abbr": null,
@@ -8350,8 +8507,8 @@
   "team": "ARI",
   "player_id": "8132",
   "opponent": "NYG",
-  "updated_at": 1791245330318,
   "game_id": "202610423",
+  "updated_at": 1791245330318,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -8427,8 +8584,8 @@
   "team": "KC",
   "player_id": "8188",
   "opponent": "LV",
-  "updated_at": 1791245333619,
   "game_id": "202610425",
+  "updated_at": 1791245333619,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -8485,7 +8642,7 @@
     "genius_id": "1399228",
     "rookie_year": "2023"
    },
-   "news_updated": 1791297044535,
+   "news_updated": 1791579655847,
    "position": "WR",
    "team": "PHI",
    "team_abbr": null,
@@ -8495,8 +8652,8 @@
   "team": "PHI",
   "player_id": "9486",
   "opponent": "LAR",
-  "updated_at": 1791245333445,
   "game_id": "202610426",
+  "updated_at": 1791245333445,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -8577,8 +8734,8 @@
   "team": "BAL",
   "player_id": "BAL",
   "opponent": "TEN",
-  "updated_at": 1791144867611,
   "game_id": "202610403",
+  "updated_at": 1791144867611,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -8651,8 +8808,8 @@
   "team": "CAR",
   "player_id": "CAR",
   "opponent": "DET",
-  "updated_at": 1791171640374,
   "game_id": "202610405",
+  "updated_at": 1791171640374,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -8728,8 +8885,8 @@
   "team": "DEN",
   "player_id": "DEN",
   "opponent": "SF",
-  "updated_at": 1791156969597,
   "game_id": "202610431",
+  "updated_at": 1791156969597,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -8806,8 +8963,8 @@
   "team": "MIN",
   "player_id": "MIN",
   "opponent": "MIA",
-  "updated_at": 1791154279615,
   "game_id": "202610420",
+  "updated_at": 1791154279615,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -8889,8 +9046,8 @@
   "team": "SEA",
   "player_id": "SEA",
   "opponent": "LAC",
-  "updated_at": 1791157792601,
   "game_id": "202610430",
+  "updated_at": 1791157792601,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -8951,7 +9108,7 @@
     "genius_id": "1075269",
     "rookie_year": "2023"
    },
-   "news_updated": 1791414301133,
+   "news_updated": 1791632402444,
    "position": "WR",
    "team": "ARI",
    "team_abbr": null,
@@ -8961,8 +9118,8 @@
   "team": "ARI",
   "player_id": "10232",
   "opponent": "NYG",
-  "updated_at": 1791245330388,
   "game_id": "202610423",
+  "updated_at": 1791245330388,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -9047,7 +9204,7 @@
     "genius_id": "1401671",
     "rookie_year": "2023"
    },
-   "news_updated": 1791417601486,
+   "news_updated": 1791587456893,
    "position": "RB",
    "team": "SEA",
    "team_abbr": null,
@@ -9057,8 +9214,8 @@
   "team": "SEA",
   "player_id": "11435",
   "opponent": "LAC",
-  "updated_at": 1791317346902,
   "game_id": "202610430",
+  "updated_at": 1791317346902,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -9137,7 +9294,7 @@
     "genius_id": "1463678",
     "rookie_year": "2024"
    },
-   "news_updated": 1791152414407,
+   "news_updated": 1791648605232,
    "position": "QB",
    "team": "NE",
    "team_abbr": null,
@@ -9147,8 +9304,8 @@
   "team": "NE",
   "player_id": "11564",
   "opponent": "BUF",
-  "updated_at": 1791245322290,
   "game_id": "202610404",
+  "updated_at": 1791245322290,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -9217,7 +9374,7 @@
     "genius_id": "1464111",
     "rookie_year": "2024"
    },
-   "news_updated": 1791304245375,
+   "news_updated": 1791639003196,
    "position": "WR",
    "team": "MIA",
    "team_abbr": null,
@@ -9227,8 +9384,8 @@
   "team": "MIA",
   "player_id": "11610",
   "opponent": "MIN",
-  "updated_at": 1791245329753,
   "game_id": "202610420",
+  "updated_at": 1791245329753,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -9298,8 +9455,8 @@
   "team": "JAX",
   "player_id": "11631",
   "opponent": "CIN",
-  "updated_at": 1791245325871,
   "game_id": "202610407",
+  "updated_at": 1791245325871,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -9340,7 +9497,7 @@
     "genius_id": "1463651",
     "rookie_year": "2024"
    },
-   "news_updated": 1791416702998,
+   "news_updated": 1791721813959,
    "position": "WR",
    "team": "LAC",
    "team_abbr": null,
@@ -9350,8 +9507,8 @@
   "team": "LAC",
   "player_id": "11635",
   "opponent": "SEA",
-  "updated_at": 1791302941877,
   "game_id": "202610430",
+  "updated_at": 1791302941877,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -9401,17 +9558,17 @@
     "RB"
    ],
    "first_name": "Jaylen",
-   "injury_body_part": null,
+   "injury_body_part": "Foot",
    "injury_notes": null,
    "injury_start_date": null,
-   "injury_status": null,
+   "injury_status": "Questionable",
    "last_name": "Wright",
    "metadata": {
     "channel_id": "1113708739791187968",
     "genius_id": "1463971",
     "rookie_year": "2024"
    },
-   "news_updated": 1791397859471,
+   "news_updated": 1791640503344,
    "position": "RB",
    "team": "MIA",
    "team_abbr": null,
@@ -9421,8 +9578,8 @@
   "team": "MIA",
   "player_id": "11643",
   "opponent": "MIN",
-  "updated_at": 1791245329783,
   "game_id": "202610420",
+  "updated_at": 1791245329783,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -9476,7 +9633,7 @@
     "genius_id": "1464142",
     "rookie_year": "2024"
    },
-   "news_updated": 1791204019782,
+   "news_updated": 1791654905418,
    "position": "K",
    "team": "JAX",
    "team_abbr": null,
@@ -9486,8 +9643,8 @@
   "team": "JAX",
   "player_id": "11786",
   "opponent": "CIN",
-  "updated_at": 1791212906994,
   "game_id": "202610407",
+  "updated_at": 1791212906994,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -9550,7 +9707,7 @@
     "genius_id": "1484031",
     "rookie_year": "2024"
    },
-   "news_updated": 1791417301916,
+   "news_updated": 1791641403650,
    "position": "RB",
    "team": "SEA",
    "team_abbr": null,
@@ -9560,8 +9717,8 @@
   "team": "SEA",
   "player_id": "12048",
   "opponent": "LAC",
-  "updated_at": 1791317346939,
   "game_id": "202610430",
+  "updated_at": 1791317346939,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -9615,7 +9772,7 @@
     "genius_id": "1484098",
     "rookie_year": "2024"
    },
-   "news_updated": 1791153013656,
+   "news_updated": 1791653404969,
    "position": "K",
    "team": "IND",
    "team_abbr": null,
@@ -9625,8 +9782,8 @@
   "team": "IND",
   "player_id": "12185",
   "opponent": "WAS",
-  "updated_at": 1791212922887,
   "game_id": "202610435",
+  "updated_at": 1791212922887,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -9663,7 +9820,7 @@
     "rookie_year": "2025",
     "source_id": "7139f9a8-332b-42bc-a555-93deaf7f4cd7"
    },
-   "news_updated": 1787339422095,
+   "news_updated": 1791661505794,
    "position": "WR",
    "team": "HOU",
    "team_abbr": null,
@@ -9673,8 +9830,8 @@
   "team": "HOU",
   "player_id": "12484",
   "opponent": "DAL",
-  "updated_at": 1791133374843,
   "game_id": "202610413",
+  "updated_at": 1791133374843,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -9727,7 +9884,7 @@
    "injury_body_part": "Ankle",
    "injury_notes": "Sprain",
    "injury_start_date": null,
-   "injury_status": "Doubtful",
+   "injury_status": "IR",
    "last_name": "Bryant",
    "metadata": {
     "channel_id": "1221700204718202880",
@@ -9735,7 +9892,7 @@
     "rookie_year": "2025",
     "source_id": "e7af373f-e0f6-4e57-99f4-c7981087250e"
    },
-   "news_updated": 1791429303943,
+   "news_updated": 1791644405063,
    "position": "WR",
    "team": "DEN",
    "team_abbr": null,
@@ -9745,8 +9902,8 @@
   "team": "DEN",
   "player_id": "12492",
   "opponent": "SF",
-  "updated_at": 1791245337727,
   "game_id": "202610431",
+  "updated_at": 1791245337727,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -9826,8 +9983,8 @@
   "team": "CAR",
   "player_id": "12526",
   "opponent": "DET",
-  "updated_at": 1791245322186,
   "game_id": "202610405",
+  "updated_at": 1791245322186,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -9886,8 +10043,8 @@
   "team": "JAX",
   "player_id": "12530",
   "opponent": "CIN",
-  "updated_at": 1791212906984,
   "game_id": "202610407",
+  "updated_at": 1791212906984,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -9951,10 +10108,10 @@
     "RB"
    ],
    "first_name": "Kyle",
-   "injury_body_part": "Thumb",
-   "injury_notes": null,
+   "injury_body_part": "Toe",
+   "injury_notes": "Sprain",
    "injury_start_date": null,
-   "injury_status": "Questionable",
+   "injury_status": "Out",
    "last_name": "Monangai",
    "metadata": {
     "channel_id": "1222002212348100608",
@@ -9962,7 +10119,7 @@
     "rookie_year": "2025",
     "source_id": "e43e0e4c-c870-4b7e-879a-bebdac64de54"
    },
-   "news_updated": 1791405060057,
+   "news_updated": 1791565858973,
    "position": "RB",
    "team": "CHI",
    "team_abbr": null,
@@ -9972,8 +10129,8 @@
   "team": "CHI",
   "player_id": "12534",
   "opponent": "NYJ",
-  "updated_at": 1791245325879,
   "game_id": "202610406",
+  "updated_at": 1791245325879,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -10044,7 +10201,7 @@
     "rookie_year": "2023",
     "years_exp_shift": "-3"
    },
-   "news_updated": 1791249339096,
+   "news_updated": 1791583556286,
    "position": "WR",
    "team": "CIN",
    "team_abbr": null,
@@ -10054,8 +10211,54 @@
   "team": "CIN",
   "player_id": "13264",
   "opponent": "JAX",
-  "updated_at": 1791245325738,
   "game_id": "202610407",
+  "updated_at": 1791245325738,
+  "week_shard": "4_2",
+  "company": "sportradar"
+ },
+ {
+  "status": null,
+  "date": "2026-10-04",
+  "stats": {
+   "gms_active": 1.0,
+   "pos_rank_half_ppr": 999.0,
+   "pos_rank_ppr": 999.0,
+   "pos_rank_std": 999.0
+  },
+  "category": "stat",
+  "last_modified": 1791133259404,
+  "week": 4,
+  "season": "2026",
+  "season_type": "regular",
+  "sport": "nfl",
+  "player": {
+   "fantasy_positions": [
+    "WR"
+   ],
+   "first_name": "Omar",
+   "injury_body_part": "Ankle",
+   "injury_notes": "Sprain",
+   "injury_start_date": null,
+   "injury_status": "IR",
+   "last_name": "Cooper",
+   "metadata": {
+    "channel_id": "1353246913855512576",
+    "genius_id": "1492949",
+    "rookie_year": "2026",
+    "source_id": "6975fac0-86cd-11ec-91b7-bfe197069085"
+   },
+   "news_updated": 1791558057440,
+   "position": "WR",
+   "team": "NYJ",
+   "team_abbr": null,
+   "team_changed_at": null,
+   "years_exp": 0
+  },
+  "team": "NYJ",
+  "player_id": "13276",
+  "opponent": "CHI",
+  "game_id": "202610406",
+  "updated_at": 1791133259404,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -10120,8 +10323,8 @@
   "team": "WAS",
   "player_id": "13301",
   "opponent": "IND",
-  "updated_at": 1791245341048,
   "game_id": "202610435",
+  "updated_at": 1791245341048,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -10163,7 +10366,7 @@
     "rookie_year": "2026",
     "source_id": "2c31c750-9cef-11ed-92f5-b5837be9eb74"
    },
-   "news_updated": 1791296144430,
+   "news_updated": 1791645604220,
    "position": "TE",
    "team": "NYJ",
    "team_abbr": null,
@@ -10173,8 +10376,8 @@
   "team": "NYJ",
   "player_id": "13330",
   "opponent": "CHI",
-  "updated_at": 1791212906757,
   "game_id": "202610406",
+  "updated_at": 1791212906757,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -10219,8 +10422,8 @@
   "team": "PHI",
   "player_id": "13349",
   "opponent": "LAR",
-  "updated_at": 1791133360067,
   "game_id": "202610426",
+  "updated_at": 1791133360067,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -10264,10 +10467,10 @@
     "RB"
    ],
    "first_name": "Kaelon",
-   "injury_body_part": "Illness",
+   "injury_body_part": null,
    "injury_notes": null,
    "injury_start_date": null,
-   "injury_status": "Questionable",
+   "injury_status": null,
    "last_name": "Black",
    "metadata": {
     "channel_id": "1353609384155967488",
@@ -10275,7 +10478,7 @@
     "rookie_year": "2026",
     "source_id": "5006311b-02c5-4c70-8126-fe099ed5d977"
    },
-   "news_updated": 1791412501669,
+   "news_updated": 1791626701731,
    "position": "RB",
    "team": "SF",
    "team_abbr": null,
@@ -10285,8 +10488,8 @@
   "team": "SF",
   "player_id": "13414",
   "opponent": "DEN",
-  "updated_at": 1791317347100,
   "game_id": "202610431",
+  "updated_at": 1791317347100,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -10363,7 +10566,7 @@
     "rookie_year": "2026",
     "source_id": "55a1a71b-0fa3-428b-880d-17dd4ffe7700"
    },
-   "news_updated": 1791417901576,
+   "news_updated": 1791577555637,
    "position": "QB",
    "team": "TB",
    "team_abbr": null,
@@ -10373,8 +10576,8 @@
   "team": "TB",
   "player_id": "13425",
   "opponent": "GB",
-  "updated_at": 1791245337255,
   "game_id": "202610433",
+  "updated_at": 1791245337255,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -10424,8 +10627,8 @@
   "team": "CHI",
   "player_id": "1737",
   "opponent": "NYJ",
-  "updated_at": 1791212906614,
   "game_id": "202610406",
+  "updated_at": 1791212906614,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -10485,7 +10688,7 @@
     "genius_id": "941690",
     "rookie_year": "2016"
    },
-   "news_updated": 1791315346575,
+   "news_updated": 1791665706394,
    "position": "TE",
    "team": "NE",
    "team_abbr": null,
@@ -10495,8 +10698,8 @@
   "team": "NE",
   "player_id": "3214",
   "opponent": "BUF",
-  "updated_at": 1791245322215,
   "game_id": "202610404",
+  "updated_at": 1791245322215,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -10556,7 +10759,7 @@
     "injury_override_regular_2025_9": "Out",
     "rookie_year": "2017"
    },
-   "news_updated": 1791466841601,
+   "news_updated": 1791519048809,
    "position": "WR",
    "team": "TB",
    "team_abbr": null,
@@ -10566,8 +10769,8 @@
   "team": "TB",
   "player_id": "4037",
   "opponent": "GB",
-  "updated_at": 1791245337278,
   "game_id": "202610433",
+  "updated_at": 1791245337278,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -10630,9 +10833,9 @@
    ],
    "first_name": "Lamar",
    "injury_body_part": "Ankle",
-   "injury_notes": null,
+   "injury_notes": "Sprain",
    "injury_start_date": null,
-   "injury_status": "Questionable",
+   "injury_status": "Out",
    "last_name": "Jackson",
    "metadata": {
     "channel_id": "1113708872868065281",
@@ -10641,7 +10844,7 @@
     "injury_override_regular_2025_6": "Out",
     "rookie_year": "2018"
    },
-   "news_updated": 1791467741808,
+   "news_updated": 1791728114808,
    "position": "QB",
    "team": "BAL",
    "team_abbr": null,
@@ -10651,8 +10854,8 @@
   "team": "BAL",
   "player_id": "4881",
   "opponent": "TEN",
-  "updated_at": 1791245322106,
   "game_id": "202610403",
+  "updated_at": 1791245322106,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -10725,7 +10928,7 @@
     "genius_id": "1010757",
     "rookie_year": "2018"
    },
-   "news_updated": 1791320420263,
+   "news_updated": 1791587156731,
    "position": "QB",
    "team": "SEA",
    "team_abbr": null,
@@ -10735,8 +10938,8 @@
   "team": "SEA",
   "player_id": "4943",
   "opponent": "LAC",
-  "updated_at": 1791245333855,
   "game_id": "202610430",
+  "updated_at": 1791245333855,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -10802,7 +11005,7 @@
     "genius_id": "1008102",
     "rookie_year": "2018"
    },
-   "news_updated": 1791161413745,
+   "news_updated": 1791681909977,
    "position": "WR",
    "team": "BUF",
    "team_abbr": null,
@@ -10812,8 +11015,8 @@
   "team": "BUF",
   "player_id": "4983",
   "opponent": "NE",
-  "updated_at": 1791245322071,
   "game_id": "202610404",
+  "updated_at": 1791245322071,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -10884,7 +11087,7 @@
     "genius_id": "1013859",
     "rookie_year": "2019"
    },
-   "news_updated": 1791318347091,
+   "news_updated": 1791581156107,
    "position": "QB",
    "team": "MIN",
    "team_abbr": null,
@@ -10894,8 +11097,8 @@
   "team": "MIN",
   "player_id": "5849",
   "opponent": "MIA",
-  "updated_at": 1791425293888,
   "game_id": "202610420",
+  "updated_at": 1791425293888,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -10968,8 +11171,8 @@
   "team": "JAX",
   "player_id": "5947",
   "opponent": "CIN",
-  "updated_at": 1791245325882,
   "game_id": "202610407",
+  "updated_at": 1791245325882,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -11032,8 +11235,8 @@
   "team": "LV",
   "player_id": "6083",
   "opponent": "KC",
-  "updated_at": 1791212914829,
   "game_id": "202610425",
+  "updated_at": 1791212914829,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -11108,7 +11311,7 @@
     "genius_id": "1073610",
     "rookie_year": "2021"
    },
-   "news_updated": 1791408360392,
+   "news_updated": 1791567356141,
    "position": "RB",
    "team": "DAL",
    "team_abbr": null,
@@ -11118,8 +11321,8 @@
   "team": "DAL",
   "player_id": "7588",
   "opponent": "HOU",
-  "updated_at": 1791245329636,
   "game_id": "202610413",
+  "updated_at": 1791245329636,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -11178,7 +11381,7 @@
     "genius_id": "1017521",
     "rookie_year": "2022"
    },
-   "news_updated": 1791409200536,
+   "news_updated": 1791597659591,
    "position": "TE",
    "team": "DAL",
    "team_abbr": null,
@@ -11188,8 +11391,8 @@
   "team": "DAL",
   "player_id": "8110",
   "opponent": "HOU",
-  "updated_at": 1791245329578,
   "game_id": "202610413",
+  "updated_at": 1791245329578,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -11233,8 +11436,8 @@
   "team": "IND",
   "player_id": "8142",
   "opponent": "WAS",
-  "updated_at": 1791120702781,
   "game_id": "202610435",
+  "updated_at": 1791120702781,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -11320,8 +11523,8 @@
   "team": "KC",
   "player_id": "8151",
   "opponent": "LV",
-  "updated_at": 1791245333641,
   "game_id": "202610425",
+  "updated_at": 1791245333641,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -11353,14 +11556,14 @@
    "injury_body_part": "Concussion",
    "injury_notes": null,
    "injury_start_date": null,
-   "injury_status": "Questionable",
+   "injury_status": "Out",
    "last_name": "Nailor",
    "metadata": {
     "channel_id": "1113708708027723776",
     "genius_id": "1074884",
     "rookie_year": "2022"
    },
-   "news_updated": 1791435337663,
+   "news_updated": 1791581157310,
    "position": "WR",
    "team": "LV",
    "team_abbr": null,
@@ -11370,8 +11573,8 @@
   "team": "LV",
   "player_id": "8180",
   "opponent": "KC",
-  "updated_at": 1791212914867,
   "game_id": "202610425",
+  "updated_at": 1791212914867,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -11447,7 +11650,7 @@
     "injury_override_regular_2025_9": "Out",
     "rookie_year": "2022"
    },
-   "news_updated": 1791228329668,
+   "news_updated": 1791624301268,
    "position": "QB",
    "team": "SF",
    "team_abbr": null,
@@ -11457,8 +11660,8 @@
   "team": "SF",
   "player_id": "8183",
   "opponent": "DEN",
-  "updated_at": 1791317347138,
   "game_id": "202610431",
+  "updated_at": 1791317347138,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -11503,8 +11706,8 @@
   "team": "DET",
   "player_id": "8205",
   "opponent": "CAR",
-  "updated_at": 1791159822533,
   "game_id": "202610405",
+  "updated_at": 1791159822533,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -11539,7 +11742,7 @@
     "injury_override_regular_2024_14": "IR",
     "rookie_year": "2022"
    },
-   "news_updated": 1791078338623,
+   "news_updated": 1791588656893,
    "position": "RB",
    "team": "MIN",
    "team_abbr": null,
@@ -11549,8 +11752,8 @@
   "team": "MIN",
   "player_id": "8408",
   "opponent": "MIA",
-  "updated_at": 1791144356570,
   "game_id": "202610420",
+  "updated_at": 1791144356570,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -11624,7 +11827,7 @@
     "genius_id": "1398586",
     "rookie_year": "2023"
    },
-   "news_updated": 1791212720414,
+   "news_updated": 1791592557377,
    "position": "RB",
    "team": "DET",
    "team_abbr": null,
@@ -11634,8 +11837,8 @@
   "team": "DET",
   "player_id": "9221",
   "opponent": "CAR",
-  "updated_at": 1791245322247,
   "game_id": "202610405",
+  "updated_at": 1791245322247,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -11679,8 +11882,8 @@
   "team": "MIA",
   "player_id": "9226",
   "opponent": "MIN",
-  "updated_at": 1791144356746,
   "game_id": "202610420",
+  "updated_at": 1791144356746,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -11755,7 +11958,7 @@
     "genius_id": "1399238",
     "rookie_year": "2023"
    },
-   "news_updated": 1791215119230,
+   "news_updated": 1791704711224,
    "position": "WR",
    "team": "LAR",
    "team_abbr": null,
@@ -11765,8 +11968,8 @@
   "team": "LAR",
   "player_id": "9493",
   "opponent": "PHI",
-  "updated_at": 1791245333610,
   "game_id": "202610426",
+  "updated_at": 1791245333610,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -11841,7 +12044,7 @@
     "genius_id": "1400569",
     "rookie_year": "2023"
    },
-   "news_updated": 1791221727258,
+   "news_updated": 1791649804544,
    "position": "RB",
    "team": "LAC",
    "team_abbr": null,
@@ -11851,8 +12054,8 @@
   "team": "LAC",
   "player_id": "9511",
   "opponent": "SEA",
-  "updated_at": 1791317347040,
   "game_id": "202610430",
+  "updated_at": 1791317347040,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -11909,14 +12112,14 @@
    "injury_body_part": "Chest",
    "injury_notes": null,
    "injury_start_date": null,
-   "injury_status": "Questionable",
+   "injury_status": "Out",
    "last_name": "Johnston",
    "metadata": {
     "channel_id": "1113708694329126912",
     "genius_id": "1398594",
     "rookie_year": "2023"
    },
-   "news_updated": 1791436237674,
+   "news_updated": 1791582356152,
    "position": "WR",
    "team": "LAC",
    "team_abbr": null,
@@ -11926,8 +12129,8 @@
   "team": "LAC",
   "player_id": "9754",
   "opponent": "SEA",
-  "updated_at": 1791302941890,
   "game_id": "202610430",
+  "updated_at": 1791302941890,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -12000,7 +12203,7 @@
     "genius_id": "1398557",
     "rookie_year": "2023"
    },
-   "news_updated": 1791335102344,
+   "news_updated": 1791630602657,
    "position": "QB",
    "team": "HOU",
    "team_abbr": null,
@@ -12010,8 +12213,8 @@
   "team": "HOU",
   "player_id": "9758",
   "opponent": "DAL",
-  "updated_at": 1791245329453,
   "game_id": "202610413",
+  "updated_at": 1791245329453,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -12092,8 +12295,8 @@
   "team": "BUF",
   "player_id": "BUF",
   "opponent": "NE",
-  "updated_at": 1791145078321,
   "game_id": "202610404",
+  "updated_at": 1791145078321,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -12171,8 +12374,8 @@
   "team": "CIN",
   "player_id": "CIN",
   "opponent": "JAX",
-  "updated_at": 1791145036413,
   "game_id": "202610407",
+  "updated_at": 1791145036413,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -12251,8 +12454,8 @@
   "team": "JAX",
   "player_id": "JAX",
   "opponent": "CIN",
-  "updated_at": 1791425289972,
   "game_id": "202610407",
+  "updated_at": 1791425289972,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -12331,8 +12534,8 @@
   "team": "LAR",
   "player_id": "LAR",
   "opponent": "PHI",
-  "updated_at": 1791148105564,
   "game_id": "202610426",
+  "updated_at": 1791148105564,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -12366,7 +12569,7 @@
     "genius_id": "1074928",
     "rookie_year": "2023"
    },
-   "news_updated": 1790803520460,
+   "news_updated": 1791672607496,
    "position": "WR",
    "team": "GB",
    "team_abbr": null,
@@ -12376,8 +12579,8 @@
   "team": "GB",
   "player_id": "10222",
   "opponent": "TB",
-  "updated_at": 1791133361031,
   "game_id": "202610433",
+  "updated_at": 1791133361031,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -12430,7 +12633,7 @@
     "genius_id": "1398598",
     "rookie_year": "2023"
    },
-   "news_updated": 1791158714084,
+   "news_updated": 1791662405983,
    "position": "TE",
    "team": "BUF",
    "team_abbr": null,
@@ -12440,8 +12643,8 @@
   "team": "BUF",
   "player_id": "10236",
   "opponent": "NE",
-  "updated_at": 1791212902668,
   "game_id": "202610404",
+  "updated_at": 1791212902668,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -12496,7 +12699,7 @@
     "genius_id": "1420041",
     "rookie_year": "2023"
    },
-   "news_updated": 1791214819840,
+   "news_updated": 1791604558811,
    "position": "K",
    "team": "DET",
    "team_abbr": null,
@@ -12506,8 +12709,8 @@
   "team": "DET",
   "player_id": "11539",
   "opponent": "CAR",
-  "updated_at": 1791212903024,
   "game_id": "202610405",
+  "updated_at": 1791212903024,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -12542,7 +12745,7 @@
     "injury_override_regular_2025_1": "IR",
     "rookie_year": "2024"
    },
-   "news_updated": 1790786117490,
+   "news_updated": 1791683408549,
    "position": "WR",
    "team": "TB",
    "team_abbr": null,
@@ -12552,8 +12755,8 @@
   "team": "TB",
   "player_id": "11618",
   "opponent": "GB",
-  "updated_at": 1791133360477,
   "game_id": "202610433",
+  "updated_at": 1791133360477,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -12608,17 +12811,17 @@
     "WR"
    ],
    "first_name": "Malik",
-   "injury_body_part": "Undisclosed",
-   "injury_notes": "Soreness",
+   "injury_body_part": null,
+   "injury_notes": null,
    "injury_start_date": null,
-   "injury_status": "Questionable",
+   "injury_status": null,
    "last_name": "Nabers",
    "metadata": {
     "channel_id": "1113708675647696896",
     "genius_id": "1463675",
     "rookie_year": "2024"
    },
-   "news_updated": 1791465641497,
+   "news_updated": 1791648004493,
    "position": "WR",
    "team": "NYG",
    "team_abbr": null,
@@ -12628,8 +12831,8 @@
   "team": "NYG",
   "player_id": "11632",
   "opponent": "ARI",
-  "updated_at": 1791245330200,
   "game_id": "202610423",
+  "updated_at": 1791245330200,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -12708,7 +12911,7 @@
     "genius_id": "1464108",
     "rookie_year": "2024"
    },
-   "news_updated": 1791180017409,
+   "news_updated": 1791650104791,
    "position": "RB",
    "team": "LAC",
    "team_abbr": null,
@@ -12718,8 +12921,8 @@
   "team": "LAC",
   "player_id": "11647",
   "opponent": "SEA",
-  "updated_at": 1791317347091,
   "game_id": "202610430",
+  "updated_at": 1791317347091,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -12778,10 +12981,10 @@
     "RB"
    ],
    "first_name": "Cam",
-   "injury_body_part": "Shoulder",
+   "injury_body_part": null,
    "injury_notes": null,
    "injury_start_date": null,
-   "injury_status": "Questionable",
+   "injury_status": null,
    "last_name": "Skattebo",
    "metadata": {
     "channel_id": "1221926664527687680",
@@ -12789,7 +12992,7 @@
     "rookie_year": "2025",
     "source_id": "9c5acd8c-414c-4cfa-8edd-a0e6553bea8c"
    },
-   "news_updated": 1791406562019,
+   "news_updated": 1791727514719,
    "position": "RB",
    "team": "NYG",
    "team_abbr": null,
@@ -12799,8 +13002,8 @@
   "team": "NYG",
   "player_id": "12481",
   "opponent": "ARI",
-  "updated_at": 1791245330203,
   "game_id": "202610423",
+  "updated_at": 1791245330203,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -12856,7 +13059,7 @@
     "rookie_year": "2025",
     "source_id": "231e3d24-a5eb-42d3-9cae-b1a2f92a86c9"
    },
-   "news_updated": 1791246939443,
+   "news_updated": 1791579956644,
    "position": "TE",
    "team": "TEN",
    "team_abbr": null,
@@ -12866,8 +13069,8 @@
   "team": "TEN",
   "player_id": "12502",
   "opponent": "BAL",
-  "updated_at": 1791212902860,
   "game_id": "202610403",
+  "updated_at": 1791212902860,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -12926,7 +13129,7 @@
     "rookie_year": "2025",
     "source_id": "3992e590-8f40-11ec-9f33-1965c9c46e44"
    },
-   "news_updated": 1791336001848,
+   "news_updated": 1791589256866,
    "position": "RB",
    "team": "GB",
    "team_abbr": null,
@@ -12936,8 +13139,8 @@
   "team": "GB",
   "player_id": "12504",
   "opponent": "TB",
-  "updated_at": 1791245337389,
   "game_id": "202610433",
+  "updated_at": 1791245337389,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -13013,7 +13216,7 @@
     "rookie_year": "2025",
     "source_id": "655f27c0-91f6-11ec-9587-0f8fa2cff168"
    },
-   "news_updated": 1791180017439,
+   "news_updated": 1791649804546,
    "position": "RB",
    "team": "LAC",
    "team_abbr": null,
@@ -13023,8 +13226,8 @@
   "team": "LAC",
   "player_id": "12507",
   "opponent": "SEA",
-  "updated_at": 1791317347064,
   "game_id": "202610430",
+  "updated_at": 1791317347064,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -13061,7 +13264,7 @@
     "rookie_year": "2025",
     "source_id": "092d193d-8f4c-41c5-9e14-1475427dd64b"
    },
-   "news_updated": 1790813730055,
+   "news_updated": 1791673507513,
    "position": "QB",
    "team": "NYG",
    "team_abbr": null,
@@ -13071,8 +13274,8 @@
   "team": "NYG",
   "player_id": "12508",
   "opponent": "ARI",
-  "updated_at": 1791133369702,
   "game_id": "202610423",
+  "updated_at": 1791133369702,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -13110,7 +13313,7 @@
     "rookie_year": "2026",
     "source_id": "e41043f0-8946-11ec-b2b8-adecafc94fa4"
    },
-   "news_updated": 1791248739877,
+   "news_updated": 1791659105642,
    "position": "QB",
    "team": "LV",
    "team_abbr": null,
@@ -13120,8 +13323,8 @@
   "team": "LV",
   "player_id": "13269",
   "opponent": "KC",
-  "updated_at": 1791212914907,
   "game_id": "202610425",
+  "updated_at": 1791212914907,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -13172,7 +13375,7 @@
     "rookie_year": "2026",
     "source_id": "303e7840-8524-11ec-a04c-517659d186b2"
    },
-   "news_updated": 1791247539493,
+   "news_updated": 1791669306789,
    "position": "RB",
    "team": "TEN",
    "team_abbr": null,
@@ -13182,8 +13385,8 @@
   "team": "TEN",
   "player_id": "13288",
   "opponent": "BAL",
-  "updated_at": 1791223710808,
   "game_id": "202610403",
+  "updated_at": 1791223710808,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -13216,10 +13419,10 @@
     "WR"
    ],
    "first_name": "Chris",
-   "injury_body_part": "Knee",
+   "injury_body_part": null,
    "injury_notes": null,
    "injury_start_date": null,
-   "injury_status": "Questionable",
+   "injury_status": null,
    "last_name": "Bell",
    "metadata": {
     "channel_id": "1353609375104659456",
@@ -13227,7 +13430,7 @@
     "rookie_year": "2026",
     "source_id": "e540d3a0-8a15-11ec-afc6-9b22751babf7"
    },
-   "news_updated": 1791407762203,
+   "news_updated": 1791639303361,
    "position": "WR",
    "team": "MIA",
    "team_abbr": null,
@@ -13237,8 +13440,8 @@
   "team": "MIA",
   "player_id": "13311",
   "opponent": "MIN",
-  "updated_at": 1791212910812,
   "game_id": "202610420",
+  "updated_at": 1791212910812,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -13309,8 +13512,8 @@
   "team": "KC",
   "player_id": "13337",
   "opponent": "LV",
-  "updated_at": 1791212915059,
   "game_id": "202610425",
+  "updated_at": 1791212915059,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -13355,8 +13558,8 @@
   "team": "DEN",
   "player_id": "13345",
   "opponent": "SF",
-  "updated_at": 1791145555515,
   "game_id": "202610431",
+  "updated_at": 1791145555515,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -13424,7 +13627,7 @@
     "genius_id": "758015",
     "rookie_year": "2013"
    },
-   "news_updated": 1791322260413,
+   "news_updated": 1791645005458,
    "position": "QB",
    "team": "NYJ",
    "team_abbr": null,
@@ -13434,8 +13637,8 @@
   "team": "NYJ",
   "player_id": "1373",
   "opponent": "CHI",
-  "updated_at": 1791245326079,
   "game_id": "202610406",
+  "updated_at": 1791245326079,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -13497,14 +13700,14 @@
    "injury_body_part": "Knee - MCL",
    "injury_notes": "Sprain",
    "injury_start_date": null,
-   "injury_status": "Doubtful",
+   "injury_status": "Out",
    "last_name": "Mariota",
    "metadata": {
     "channel_id": "1113708698234023936",
     "genius_id": "835718",
     "rookie_year": "2015"
    },
-   "news_updated": 1791393607945,
+   "news_updated": 1791582056880,
    "position": "QB",
    "team": "WAS",
    "team_abbr": null,
@@ -13514,8 +13717,8 @@
   "team": "WAS",
   "player_id": "2307",
   "opponent": "IND",
-  "updated_at": 1791245341025,
   "game_id": "202610435",
+  "updated_at": 1791245341025,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -13591,7 +13794,7 @@
     "genius_id": "941060",
     "rookie_year": "2016"
    },
-   "news_updated": 1791408060351,
+   "news_updated": 1791567356179,
    "position": "QB",
    "team": "DAL",
    "team_abbr": null,
@@ -13601,8 +13804,8 @@
   "team": "DAL",
   "player_id": "3294",
   "opponent": "HOU",
-  "updated_at": 1791245329618,
   "game_id": "202610413",
+  "updated_at": 1791245329618,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -13636,7 +13839,7 @@
     "genius_id": "998368",
     "rookie_year": "2017"
    },
-   "news_updated": 1790971839335,
+   "news_updated": 1791686408947,
    "position": "RB",
    "team": "ARI",
    "team_abbr": null,
@@ -13646,8 +13849,8 @@
   "team": "ARI",
   "player_id": "4137",
   "opponent": "NYG",
-  "updated_at": 1791133369851,
   "game_id": "202610423",
+  "updated_at": 1791133369851,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -13728,7 +13931,7 @@
     "genius_id": "1007075",
     "rookie_year": "2018"
    },
-   "news_updated": 1791153614390,
+   "news_updated": 1791662105910,
    "position": "QB",
    "team": "BUF",
    "team_abbr": null,
@@ -13738,8 +13941,8 @@
   "team": "BUF",
   "player_id": "4984",
   "opponent": "NE",
-  "updated_at": 1791245322048,
   "game_id": "202610404",
+  "updated_at": 1791245322048,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -13821,7 +14024,7 @@
     "injury_override_regular_2025_3": "IR",
     "rookie_year": "2020"
    },
-   "news_updated": 1791204619445,
+   "news_updated": 1791579355901,
    "position": "QB",
    "team": "CIN",
    "team_abbr": null,
@@ -13831,8 +14034,8 @@
   "team": "CIN",
   "player_id": "6770",
   "opponent": "JAX",
-  "updated_at": 1791245325762,
   "game_id": "202610407",
+  "updated_at": 1791245325762,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -13868,7 +14071,7 @@
     "genius_id": "1080267",
     "rookie_year": "2020"
    },
-   "news_updated": 1791412501668,
+   "news_updated": 1791728714864,
    "position": "WR",
    "team": "MIN",
    "team_abbr": null,
@@ -13878,8 +14081,8 @@
   "team": "MIN",
   "player_id": "6794",
   "opponent": "MIA",
-  "updated_at": 1791238122191,
   "game_id": "202610420",
+  "updated_at": 1791238122191,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -13963,7 +14166,7 @@
     "genius_id": "1012460",
     "rookie_year": "2020"
    },
-   "news_updated": 1791180017451,
+   "news_updated": 1791649504689,
    "position": "QB",
    "team": "LAC",
    "team_abbr": null,
@@ -13973,8 +14176,8 @@
   "team": "LAC",
   "player_id": "6797",
   "opponent": "SEA",
-  "updated_at": 1791317347035,
   "game_id": "202610430",
+  "updated_at": 1791317347035,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -14013,7 +14216,7 @@
     "injury_override_regular_2025_16": "IR",
     "rookie_year": "2020"
    },
-   "news_updated": 1790007904486,
+   "news_updated": 1791647104450,
    "position": "WR",
    "team": "SF",
    "team_abbr": null,
@@ -14023,8 +14226,8 @@
   "team": "SF",
   "player_id": "6803",
   "opponent": "DEN",
-  "updated_at": 1791212918577,
   "game_id": "202610431",
+  "updated_at": 1791212918577,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -14090,7 +14293,7 @@
     "injury_override_regular_2024_13": "IR",
     "rookie_year": "2020"
    },
-   "news_updated": 1791226529796,
+   "news_updated": 1791639903672,
    "position": "RB",
    "team": "DEN",
    "team_abbr": null,
@@ -14100,8 +14303,8 @@
   "team": "DEN",
   "player_id": "6806",
   "opponent": "SF",
-  "updated_at": 1791317347278,
   "game_id": "202610431",
+  "updated_at": 1791317347278,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -14176,7 +14379,7 @@
     "genius_id": "1014921",
     "rookie_year": "2020"
    },
-   "news_updated": 1791310246036,
+   "news_updated": 1791579355902,
    "position": "QB",
    "team": "PHI",
    "team_abbr": null,
@@ -14186,8 +14389,8 @@
   "team": "PHI",
   "player_id": "6904",
   "opponent": "LAR",
-  "updated_at": 1791245333495,
   "game_id": "202610426",
+  "updated_at": 1791245333495,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -14248,7 +14451,7 @@
     "genius_id": "1078519",
     "rookie_year": "2021"
    },
-   "news_updated": 1791213320582,
+   "news_updated": 1791603358631,
    "position": "WR",
    "team": "DET",
    "team_abbr": null,
@@ -14258,8 +14461,8 @@
   "team": "DET",
   "player_id": "7547",
   "opponent": "CAR",
-  "updated_at": 1791245322278,
   "game_id": "202610405",
+  "updated_at": 1791245322278,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -14319,7 +14522,7 @@
     "genius_id": "1080256",
     "rookie_year": "2021"
    },
-   "news_updated": 1791406562377,
+   "news_updated": 1791580255915,
    "position": "WR",
    "team": "CIN",
    "team_abbr": null,
@@ -14329,8 +14532,8 @@
   "team": "CIN",
   "player_id": "7564",
   "opponent": "JAX",
-  "updated_at": 1791245325725,
   "game_id": "202610407",
+  "updated_at": 1791245325725,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -14408,8 +14611,79 @@
   "team": "TEN",
   "player_id": "8126",
   "opponent": "BAL",
-  "updated_at": 1791245322267,
   "game_id": "202610403",
+  "updated_at": 1791245322267,
+  "week_shard": "4_1",
+  "company": "sportradar"
+ },
+ {
+  "status": null,
+  "date": "2026-10-04",
+  "stats": {
+   "anytime_tds": 1.0,
+   "bonus_rec_wr": 1.0,
+   "gms_active": 1.0,
+   "gp": 1.0,
+   "off_snp": 38.0,
+   "penalty": 1.0,
+   "penalty_yd": 5.0,
+   "pos_rank_half_ppr": 31.0,
+   "pos_rank_ppr": 38.0,
+   "pos_rank_std": 22.0,
+   "pts_half_ppr": 11.2,
+   "pts_ppr": 11.7,
+   "pts_std": 10.7,
+   "rec": 1.0,
+   "rec_40p": 1.0,
+   "rec_air_yd": 42.0,
+   "rec_lng": 47.0,
+   "rec_td": 1.0,
+   "rec_td_40p": 1.0,
+   "rec_td_lng": 47.0,
+   "rec_tgt": 3.0,
+   "rec_yar": 5.0,
+   "rec_yd": 47.0,
+   "rec_ypr": 47.0,
+   "rec_ypt": 15.67,
+   "rush_rec_yd": 47.0,
+   "st_snp": 8.0,
+   "tm_def_snp": 66.0,
+   "tm_off_snp": 64.0,
+   "tm_st_snp": 28.0
+  },
+  "category": "stat",
+  "last_modified": 1791212922769,
+  "week": 4,
+  "season": "2026",
+  "season_type": "regular",
+  "sport": "nfl",
+  "player": {
+   "fantasy_positions": [
+    "WR"
+   ],
+   "first_name": "Treylon",
+   "injury_body_part": null,
+   "injury_notes": null,
+   "injury_start_date": null,
+   "injury_status": null,
+   "last_name": "Burks",
+   "metadata": {
+    "channel_id": "1113708831159906304",
+    "genius_id": "1343244",
+    "rookie_year": "2022"
+   },
+   "news_updated": 1791493246421,
+   "position": "WR",
+   "team": "WAS",
+   "team_abbr": null,
+   "team_changed_at": null,
+   "years_exp": 4
+  },
+  "team": "WAS",
+  "player_id": "8135",
+  "opponent": "IND",
+  "game_id": "202610435",
+  "updated_at": 1791212922769,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -14484,7 +14758,7 @@
     "injury_override_regular_2024_6": "Out",
     "rookie_year": "2022"
    },
-   "news_updated": 1791153614381,
+   "news_updated": 1791662406009,
    "position": "RB",
    "team": "BUF",
    "team_abbr": null,
@@ -14494,8 +14768,8 @@
   "team": "BUF",
   "player_id": "8138",
   "opponent": "NE",
-  "updated_at": 1791245322108,
   "game_id": "202610404",
+  "updated_at": 1791245322108,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -14554,7 +14828,7 @@
     "genius_id": "1007295",
     "rookie_year": "2022"
    },
-   "news_updated": 1791164115220,
+   "news_updated": 1791645304015,
    "position": "WR",
    "team": "NYJ",
    "team_abbr": null,
@@ -14564,8 +14838,8 @@
   "team": "NYJ",
   "player_id": "8146",
   "opponent": "CHI",
-  "updated_at": 1791245326022,
   "game_id": "202610406",
+  "updated_at": 1791245326022,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -14628,8 +14902,8 @@
   "team": "LAC",
   "player_id": "8259",
   "opponent": "SEA",
-  "updated_at": 1791212915872,
   "game_id": "202610430",
+  "updated_at": 1791212915872,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -14690,7 +14964,7 @@
     "genius_id": "1398593",
     "rookie_year": "2023"
    },
-   "news_updated": 1791415203085,
+   "news_updated": 1791587456896,
    "position": "WR",
    "team": "SEA",
    "team_abbr": null,
@@ -14700,8 +14974,8 @@
   "team": "SEA",
   "player_id": "9488",
   "opponent": "LAC",
-  "updated_at": 1791245333900,
   "game_id": "202610430",
+  "updated_at": 1791245333900,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -14778,8 +15052,8 @@
   "team": "CHI",
   "player_id": "CHI",
   "opponent": "NYJ",
-  "updated_at": 1791144087053,
   "game_id": "202610406",
+  "updated_at": 1791144087053,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -14856,8 +15130,8 @@
   "team": "HOU",
   "player_id": "HOU",
   "opponent": "DAL",
-  "updated_at": 1791145087324,
   "game_id": "202610413",
+  "updated_at": 1791145087324,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -14907,8 +15181,8 @@
   "team": "KC",
   "player_id": "10229",
   "opponent": "LV",
-  "updated_at": 1791212914996,
   "game_id": "202610425",
+  "updated_at": 1791212914996,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -14977,7 +15251,7 @@
     "genius_id": "1463652",
     "rookie_year": "2024"
    },
-   "news_updated": 1791225329308,
+   "news_updated": 1791640503314,
    "position": "QB",
    "team": "DEN",
    "team_abbr": null,
@@ -14987,8 +15261,8 @@
   "team": "DEN",
   "player_id": "11563",
   "opponent": "SF",
-  "updated_at": 1791245337676,
   "game_id": "202610431",
+  "updated_at": 1791245337676,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -15061,7 +15335,7 @@
     "genius_id": "1463731",
     "rookie_year": "2024"
    },
-   "news_updated": 1791262240429,
+   "news_updated": 1791588656897,
    "position": "RB",
    "team": "GB",
    "team_abbr": null,
@@ -15071,8 +15345,8 @@
   "team": "GB",
   "player_id": "11581",
   "opponent": "TB",
-  "updated_at": 1791245337394,
   "game_id": "202610433",
+  "updated_at": 1791245337394,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -15125,10 +15399,10 @@
     "TE"
    ],
    "first_name": "Brock",
-   "injury_body_part": "Knee",
+   "injury_body_part": null,
    "injury_notes": null,
    "injury_start_date": null,
-   "injury_status": "Questionable",
+   "injury_status": null,
    "last_name": "Bowers",
    "metadata": {
     "channel_id": "1113708771814699008",
@@ -15137,7 +15411,7 @@
     "injury_override_regular_2025_7": "Out",
     "rookie_year": "2024"
    },
-   "news_updated": 1791434437701,
+   "news_updated": 1791583856399,
    "position": "TE",
    "team": "LV",
    "team_abbr": null,
@@ -15147,8 +15421,8 @@
   "team": "LV",
   "player_id": "11604",
   "opponent": "KC",
-  "updated_at": 1791245333515,
   "game_id": "202610425",
+  "updated_at": 1791245333515,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -15209,7 +15483,7 @@
     "genius_id": "1463680",
     "rookie_year": "2024"
    },
-   "news_updated": 1791166815966,
+   "news_updated": 1791612359657,
    "position": "WR",
    "team": "CHI",
    "team_abbr": null,
@@ -15219,8 +15493,8 @@
   "team": "CHI",
   "player_id": "11620",
   "opponent": "NYJ",
-  "updated_at": 1791245325857,
   "game_id": "202610406",
+  "updated_at": 1791245325857,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -15287,7 +15561,7 @@
     "genius_id": "1463657",
     "rookie_year": "2024"
    },
-   "news_updated": 1791223527452,
+   "news_updated": 1791662406000,
    "position": "WR",
    "team": "BUF",
    "team_abbr": null,
@@ -15297,8 +15571,8 @@
   "team": "BUF",
   "player_id": "11637",
   "opponent": "NE",
-  "updated_at": 1791245322050,
   "game_id": "202610404",
+  "updated_at": 1791245322050,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -15364,8 +15638,8 @@
   "team": "NYG",
   "player_id": "11655",
   "opponent": "ARI",
-  "updated_at": 1791212911442,
   "game_id": "202610423",
+  "updated_at": 1791212911442,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -15440,7 +15714,7 @@
     "rookie_year": "2025",
     "source_id": "94c3c50f-def5-4f33-9fca-807558d19c6e"
    },
-   "news_updated": 1791225929339,
+   "news_updated": 1791639603299,
    "position": "RB",
    "team": "DEN",
    "team_abbr": null,
@@ -15450,8 +15724,8 @@
   "team": "DEN",
   "player_id": "12489",
   "opponent": "SF",
-  "updated_at": 1791317347312,
   "game_id": "202610431",
+  "updated_at": 1791317347312,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -15520,7 +15794,7 @@
     "rookie_year": "2025",
     "source_id": "614b6215-3c79-48d9-ab8b-35a944703edc"
    },
-   "news_updated": 1791203419342,
+   "news_updated": 1791508846863,
    "position": "RB",
    "team": "JAX",
    "team_abbr": null,
@@ -15530,8 +15804,8 @@
   "team": "JAX",
   "player_id": "12490",
   "opponent": "CIN",
-  "updated_at": 1791245325858,
   "game_id": "202610407",
+  "updated_at": 1791245325858,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -15601,7 +15875,7 @@
     "rookie_year": "2025",
     "source_id": "53043fac-4bd3-4c20-8b72-b33f9da5ba60"
    },
-   "news_updated": 1791180617407,
+   "news_updated": 1791650704657,
    "position": "TE",
    "team": "LAC",
    "team_abbr": null,
@@ -15611,8 +15885,8 @@
   "team": "LAC",
   "player_id": "12493",
   "opponent": "SEA",
-  "updated_at": 1791317347078,
   "game_id": "202610430",
+  "updated_at": 1791317347078,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -15678,7 +15952,7 @@
     "rookie_year": "2025",
     "source_id": "7a751562-a506-4844-813c-c399196e02d9"
    },
-   "news_updated": 1791300944964,
+   "news_updated": 1791650404450,
    "position": "WR",
    "team": "LAC",
    "team_abbr": null,
@@ -15688,8 +15962,8 @@
   "team": "LAC",
   "player_id": "12509",
   "opponent": "SEA",
-  "updated_at": 1791245334057,
   "game_id": "202610430",
+  "updated_at": 1791245334057,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -15775,8 +16049,8 @@
   "team": "TEN",
   "player_id": "12522",
   "opponent": "BAL",
-  "updated_at": 1791245322307,
   "game_id": "202610403",
+  "updated_at": 1791245322307,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -15838,10 +16112,10 @@
     "RB"
    ],
    "first_name": "Jacory",
-   "injury_body_part": "Groin",
+   "injury_body_part": null,
    "injury_notes": null,
    "injury_start_date": null,
-   "injury_status": "Questionable",
+   "injury_status": null,
    "last_name": "Croskey-Merritt",
    "metadata": {
     "channel_id": "1222002208606781440",
@@ -15849,7 +16123,7 @@
     "rookie_year": "2025",
     "source_id": "b4848e19-5a52-49a3-8c6f-179fe308ff03"
    },
-   "news_updated": 1791429302411,
+   "news_updated": 1791578756766,
    "position": "RB",
    "team": "WAS",
    "team_abbr": null,
@@ -15859,8 +16133,8 @@
   "team": "WAS",
   "player_id": "12533",
   "opponent": "IND",
-  "updated_at": 1791245341042,
   "game_id": "202610435",
+  "updated_at": 1791245341042,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -15916,10 +16190,10 @@
     "WR"
    ],
    "first_name": "Carnell",
-   "injury_body_part": null,
+   "injury_body_part": "Back",
    "injury_notes": null,
    "injury_start_date": null,
-   "injury_status": null,
+   "injury_status": "Questionable",
    "last_name": "Tate",
    "metadata": {
     "channel_id": "1353246943203057664",
@@ -15927,7 +16201,7 @@
     "rookie_year": "2026",
     "source_id": "9f49c9b0-9d24-11ed-83ea-ab152886418a"
    },
-   "news_updated": 1791470442035,
+   "news_updated": 1791720915190,
    "position": "WR",
    "team": "TEN",
    "team_abbr": null,
@@ -15937,8 +16211,8 @@
   "team": "TEN",
   "player_id": "13279",
   "opponent": "BAL",
-  "updated_at": 1791245322262,
   "game_id": "202610403",
+  "updated_at": 1791245322262,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -15995,10 +16269,10 @@
     "RB"
    ],
    "first_name": "Jeremiyah",
-   "injury_body_part": "Ankle",
+   "injury_body_part": null,
    "injury_notes": null,
    "injury_start_date": null,
-   "injury_status": "Questionable",
+   "injury_status": null,
    "last_name": "Love",
    "metadata": {
     "channel_id": "1353246949020557312",
@@ -16006,7 +16280,7 @@
     "rookie_year": "2026",
     "source_id": "34ee4830-92c4-11ed-8165-1b7b8311cdae"
    },
-   "news_updated": 1791428703817,
+   "news_updated": 1791631202285,
    "position": "RB",
    "team": "ARI",
    "team_abbr": null,
@@ -16016,8 +16290,8 @@
   "team": "ARI",
   "player_id": "13287",
   "opponent": "NYG",
-  "updated_at": 1791245330334,
   "game_id": "202610423",
+  "updated_at": 1791245330334,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -16052,7 +16326,7 @@
     "rookie_year": "2026",
     "source_id": "6567cbc0-9eaf-11ed-b23c-b1b7c283bdf7"
    },
-   "news_updated": 1791080438949,
+   "news_updated": 1791589557005,
    "position": "WR",
    "team": "BAL",
    "team_abbr": null,
@@ -16062,8 +16336,8 @@
   "team": "BAL",
   "player_id": "13293",
   "opponent": "TEN",
-  "updated_at": 1791133393884,
   "game_id": "202610403",
+  "updated_at": 1791133393884,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -16122,7 +16396,7 @@
     "rookie_year": "2026",
     "source_id": "9c697f40-9ea7-11ed-b23c-b1b7c283bdf7"
    },
-   "news_updated": 1791318347067,
+   "news_updated": 1791579955973,
    "position": "WR",
    "team": "PHI",
    "team_abbr": null,
@@ -16132,8 +16406,8 @@
   "team": "PHI",
   "player_id": "13294",
   "opponent": "LAR",
-  "updated_at": 1791245333517,
   "game_id": "202610426",
+  "updated_at": 1791245333517,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -16194,7 +16468,7 @@
     "genius_id": "796224",
     "rookie_year": "2014"
    },
-   "news_updated": 1791214520782,
+   "news_updated": 1791705011295,
    "position": "WR",
    "team": "LAR",
    "team_abbr": null,
@@ -16204,8 +16478,8 @@
   "team": "LAR",
   "player_id": "2133",
   "opponent": "PHI",
-  "updated_at": 1791245333597,
   "game_id": "202610426",
+  "updated_at": 1791245333597,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -16255,10 +16529,10 @@
     "WR"
    ],
    "first_name": "Mike",
-   "injury_body_part": "Ribs",
+   "injury_body_part": null,
    "injury_notes": null,
    "injury_start_date": null,
-   "injury_status": "Questionable",
+   "injury_status": null,
    "last_name": "Evans",
    "metadata": {
     "channel_id": "1113708732782505984",
@@ -16266,7 +16540,7 @@
     "injury_override_regular_2025_4": "Out",
     "rookie_year": "2014"
    },
-   "news_updated": 1791419402208,
+   "news_updated": 1791627301620,
    "position": "WR",
    "team": "SF",
    "team_abbr": null,
@@ -16276,8 +16550,8 @@
   "team": "SF",
   "player_id": "2216",
   "opponent": "DEN",
-  "updated_at": 1791245337512,
   "game_id": "202610431",
+  "updated_at": 1791245337512,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -16345,7 +16619,7 @@
     "genius_id": "832666",
     "rookie_year": "2015"
    },
-   "news_updated": 1791320420263,
+   "news_updated": 1791645304052,
    "position": "QB",
    "team": "NYG",
    "team_abbr": null,
@@ -16355,8 +16629,8 @@
   "team": "NYG",
   "player_id": "2306",
   "opponent": "ARI",
-  "updated_at": 1791245330210,
   "game_id": "202610423",
+  "updated_at": 1791245330210,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -16416,7 +16690,7 @@
     "genius_id": "1002936",
     "rookie_year": "2018"
    },
-   "news_updated": 1791247239410,
+   "news_updated": 1791634202776,
    "position": "TE",
    "team": "HOU",
    "team_abbr": null,
@@ -16426,8 +16700,8 @@
   "team": "HOU",
   "player_id": "5001",
   "opponent": "DAL",
-  "updated_at": 1791245329439,
   "game_id": "202610413",
+  "updated_at": 1791245329439,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -16474,8 +16748,8 @@
   "team": "SEA",
   "player_id": "5854",
   "opponent": "LAC",
-  "updated_at": 1791212915745,
   "game_id": "202610430",
+  "updated_at": 1791212915745,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -16534,17 +16808,17 @@
     "RB"
    ],
    "first_name": "Tony",
-   "injury_body_part": "Foot",
+   "injury_body_part": null,
    "injury_notes": null,
    "injury_start_date": null,
-   "injury_status": "Questionable",
+   "injury_status": null,
    "last_name": "Pollard",
    "metadata": {
     "channel_id": "1113708830862110720",
     "genius_id": "1005525",
     "rookie_year": "2019"
    },
-   "news_updated": 1791426902306,
+   "news_updated": 1791577257212,
    "position": "RB",
    "team": "TEN",
    "team_abbr": null,
@@ -16554,8 +16828,8 @@
   "team": "TEN",
   "player_id": "5967",
   "opponent": "BAL",
-  "updated_at": 1791245322253,
   "game_id": "202610403",
+  "updated_at": 1791245322253,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -16600,7 +16874,7 @@
     "genius_id": "1007848",
     "rookie_year": "2019"
    },
-   "news_updated": 1791401761519,
+   "news_updated": 1791598259329,
    "position": "K",
    "team": "TB",
    "team_abbr": null,
@@ -16610,8 +16884,8 @@
   "team": "TB",
   "player_id": "6650",
   "opponent": "GB",
-  "updated_at": 1791212918381,
   "game_id": "202610433",
+  "updated_at": 1791212918381,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -16670,7 +16944,7 @@
     "injury_override_regular_2025_3": "Out",
     "rookie_year": "2020"
    },
-   "news_updated": 1791315946619,
+   "news_updated": 1791639903637,
    "position": "WR",
    "team": "MIN",
    "team_abbr": null,
@@ -16680,8 +16954,8 @@
   "team": "MIN",
   "player_id": "7049",
   "opponent": "MIA",
-  "updated_at": 1791245329639,
   "game_id": "202610420",
+  "updated_at": 1791245329639,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -16741,7 +17015,7 @@
     "genius_id": "1017093",
     "rookie_year": "2020"
    },
-   "news_updated": 1791397860220,
+   "news_updated": 1791623101263,
    "position": "QB",
    "team": "BAL",
    "team_abbr": null,
@@ -16751,8 +17025,8 @@
   "team": "BAL",
   "player_id": "7083",
   "opponent": "TEN",
-  "updated_at": 1791212902645,
   "game_id": "202610403",
+  "updated_at": 1791212902645,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -16814,7 +17088,7 @@
     "genius_id": "1081537",
     "rookie_year": "2021"
    },
-   "news_updated": 1791227129545,
+   "news_updated": 1791640203527,
    "position": "WR",
    "team": "DEN",
    "team_abbr": null,
@@ -16824,8 +17098,8 @@
   "team": "DEN",
   "player_id": "7526",
   "opponent": "SF",
-  "updated_at": 1791245337673,
   "game_id": "202610431",
+  "updated_at": 1791245337673,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -16872,8 +17146,8 @@
   "team": "SF",
   "player_id": "7527",
   "opponent": "DEN",
-  "updated_at": 1791212918469,
   "game_id": "202610431",
+  "updated_at": 1791212918469,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -16936,7 +17210,7 @@
     "genius_id": "1084036",
     "rookie_year": "2022"
    },
-   "news_updated": 1791298544647,
+   "news_updated": 1791662706019,
    "position": "WR",
    "team": "BUF",
    "team_abbr": null,
@@ -16946,8 +17220,8 @@
   "team": "BUF",
   "player_id": "8134",
   "opponent": "NE",
-  "updated_at": 1791245322066,
   "game_id": "202610404",
+  "updated_at": 1791245322066,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -17019,7 +17293,7 @@
     "genius_id": "1015283",
     "rookie_year": "2022"
    },
-   "news_updated": 1791321960546,
+   "news_updated": 1791640804022,
    "position": "QB",
    "team": "MIA",
    "team_abbr": null,
@@ -17029,8 +17303,8 @@
   "team": "MIA",
   "player_id": "8161",
   "opponent": "MIN",
-  "updated_at": 1791245329730,
   "game_id": "202610420",
+  "updated_at": 1791245329730,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -17098,8 +17372,8 @@
   "team": "PHI",
   "player_id": "9225",
   "opponent": "LAR",
-  "updated_at": 1791245333445,
   "game_id": "202610426",
+  "updated_at": 1791245333445,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -17170,8 +17444,8 @@
   "team": "JAX",
   "player_id": "9480",
   "opponent": "CIN",
-  "updated_at": 1791245325878,
   "game_id": "202610407",
+  "updated_at": 1791245325878,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -17228,7 +17502,7 @@
     "genius_id": "1399008",
     "rookie_year": "2023"
    },
-   "news_updated": 1791178815438,
+   "news_updated": 1791646504549,
    "position": "WR",
    "team": "IND",
    "team_abbr": null,
@@ -17238,8 +17512,8 @@
   "team": "IND",
   "player_id": "9500",
   "opponent": "WAS",
-  "updated_at": 1791245341180,
   "game_id": "202610435",
+  "updated_at": 1791245341180,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -17274,7 +17548,7 @@
     "injury_override_pre_2025_0": "IR",
     "rookie_year": "2023"
    },
-   "news_updated": 1791410702258,
+   "news_updated": 1791587156759,
    "position": "WR",
    "team": "HOU",
    "team_abbr": null,
@@ -17284,8 +17558,8 @@
   "team": "HOU",
   "player_id": "9502",
   "opponent": "DAL",
-  "updated_at": 1791133374953,
   "game_id": "202610413",
+  "updated_at": 1791133374953,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -17364,8 +17638,8 @@
   "team": "PHI",
   "player_id": "PHI",
   "opponent": "LAR",
-  "updated_at": 1791148105537,
   "game_id": "202610426",
+  "updated_at": 1791148105537,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -17438,8 +17712,8 @@
   "team": "SF",
   "player_id": "SF",
   "opponent": "DEN",
-  "updated_at": 1791156883798,
   "game_id": "202610431",
+  "updated_at": 1791156883798,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -17483,8 +17757,8 @@
   "team": "NO",
   "player_id": "7543",
   "opponent": "ATL",
-  "updated_at": 1791245852047,
   "game_id": "202610422",
+  "updated_at": 1791245852047,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -17545,7 +17819,7 @@
     "genius_id": "1343211",
     "rookie_year": "2022"
    },
-   "news_updated": 1791260742010,
+   "news_updated": 1791645005463,
    "position": "WR",
    "team": "ATL",
    "team_abbr": null,
@@ -17555,8 +17829,8 @@
   "team": "ATL",
   "player_id": "8112",
   "opponent": "NO",
-  "updated_at": 1791295734735,
   "game_id": "202610422",
+  "updated_at": 1791295734735,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -17626,7 +17900,7 @@
     "injury_override_regular_2025_8": "IR",
     "rookie_year": "2023"
    },
-   "news_updated": 1791379505927,
+   "news_updated": 1791643203777,
    "position": "RB",
    "team": "NO",
    "team_abbr": null,
@@ -17636,8 +17910,8 @@
   "team": "NO",
   "player_id": "9757",
   "opponent": "ATL",
-  "updated_at": 1791317339043,
   "game_id": "202610422",
+  "updated_at": 1791317339043,
   "week_shard": "4_5",
   "company": "sportradar"
  },
@@ -17700,7 +17974,7 @@
     "genius_id": "1464191",
     "rookie_year": "2024"
    },
-   "news_updated": 1791417301343,
+   "news_updated": 1791644103838,
    "position": "WR",
    "team": "NO",
    "team_abbr": null,
@@ -17710,8 +17984,8 @@
   "team": "NO",
   "player_id": "11834",
   "opponent": "ATL",
-  "updated_at": 1791292133259,
   "game_id": "202610422",
+  "updated_at": 1791292133259,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -17756,8 +18030,8 @@
   "team": "NO",
   "player_id": "13281",
   "opponent": "ATL",
-  "updated_at": 1791245851878,
   "game_id": "202610422",
+  "updated_at": 1791245851878,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -17828,7 +18102,7 @@
     "genius_id": "1014956",
     "rookie_year": "2022"
    },
-   "news_updated": 1791337502000,
+   "news_updated": 1791648004467,
    "position": "RB",
    "team": "ATL",
    "team_abbr": null,
@@ -17838,8 +18112,8 @@
   "team": "ATL",
   "player_id": "8154",
   "opponent": "NO",
-  "updated_at": 1791317339157,
   "game_id": "202610422",
+  "updated_at": 1791317339157,
   "week_shard": "4_4",
   "company": "sportradar"
  },
@@ -17909,7 +18183,7 @@
     "genius_id": "1463663",
     "rookie_year": "2024"
    },
-   "news_updated": 1791337801903,
+   "news_updated": 1791647405492,
    "position": "QB",
    "team": "ATL",
    "team_abbr": null,
@@ -17919,8 +18193,8 @@
   "team": "ATL",
   "player_id": "11559",
   "opponent": "NO",
-  "updated_at": 1791295734805,
   "game_id": "202610422",
+  "updated_at": 1791295734805,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -17996,8 +18270,8 @@
   "team": "ATL",
   "player_id": "13320",
   "opponent": "NO",
-  "updated_at": 1791295734847,
   "game_id": "202610422",
+  "updated_at": 1791295734847,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -18070,7 +18344,7 @@
     "genius_id": "998864",
     "rookie_year": "2017"
    },
-   "news_updated": 1791407161701,
+   "news_updated": 1791723914165,
    "position": "RB",
    "team": "NO",
    "team_abbr": null,
@@ -18080,8 +18354,8 @@
   "team": "NO",
   "player_id": "4035",
   "opponent": "ATL",
-  "updated_at": 1791317339009,
   "game_id": "202610422",
+  "updated_at": 1791317339009,
   "week_shard": "4_3",
   "company": "sportradar"
  },
@@ -18145,10 +18419,10 @@
     "QB"
    ],
    "first_name": "Tyler",
-   "injury_body_part": "Hand",
+   "injury_body_part": null,
    "injury_notes": null,
    "injury_start_date": null,
-   "injury_status": "Questionable",
+   "injury_status": null,
    "last_name": "Shough",
    "metadata": {
     "channel_id": "1221669996707467264",
@@ -18156,7 +18430,7 @@
     "rookie_year": "2025",
     "source_id": "955838b0-0ec5-46ce-a31a-d532fabd6264"
    },
-   "news_updated": 1791427802950,
+   "news_updated": 1791642604263,
    "position": "QB",
    "team": "NO",
    "team_abbr": null,
@@ -18166,8 +18440,8 @@
   "team": "NO",
   "player_id": "12545",
   "opponent": "ATL",
-  "updated_at": 1791317338973,
   "game_id": "202610422",
+  "updated_at": 1791317338973,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -18205,7 +18479,7 @@
     "injury_override_regular_2024_3": "IR",
     "rookie_year": "2020"
    },
-   "news_updated": 1790181315551,
+   "news_updated": 1791680708203,
    "position": "QB",
    "team": "ATL",
    "team_abbr": null,
@@ -18215,8 +18489,8 @@
   "team": "ATL",
   "player_id": "6768",
   "opponent": "NO",
-  "updated_at": 1791295734779,
   "game_id": "202610422",
+  "updated_at": 1791295734779,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -18280,7 +18554,7 @@
     "genius_id": "1008015",
     "rookie_year": "2020"
    },
-   "news_updated": 1791289845659,
+   "news_updated": 1791644405085,
    "position": "TE",
    "team": "NO",
    "team_abbr": null,
@@ -18290,8 +18564,8 @@
   "team": "NO",
   "player_id": "7002",
   "opponent": "ATL",
-  "updated_at": 1791292133258,
   "game_id": "202610422",
+  "updated_at": 1791292133258,
   "week_shard": "4_2",
   "company": "sportradar"
  },
@@ -18349,7 +18623,7 @@
     "genius_id": "1079616",
     "rookie_year": "2021"
    },
-   "news_updated": 1791404460197,
+   "news_updated": 1791646204451,
    "position": "TE",
    "team": "ATL",
    "team_abbr": null,
@@ -18359,8 +18633,8 @@
   "team": "ATL",
   "player_id": "7553",
   "opponent": "NO",
-  "updated_at": 1791295734735,
   "game_id": "202610422",
+  "updated_at": 1791295734735,
   "week_shard": "4_1",
   "company": "sportradar"
  },
@@ -18424,7 +18698,7 @@
     "genius_id": "1075390",
     "rookie_year": "2022"
    },
-   "news_updated": 1791411300682,
+   "news_updated": 1791643503895,
    "position": "WR",
    "team": "NO",
    "team_abbr": null,
@@ -18434,8 +18708,8 @@
   "team": "NO",
   "player_id": "8144",
   "opponent": "ATL",
-  "updated_at": 1791292133196,
   "game_id": "202610422",
+  "updated_at": 1791292133196,
   "week_shard": "4_0",
   "company": "sportradar"
  },
@@ -18510,7 +18784,7 @@
     "genius_id": "1398582",
     "rookie_year": "2023"
    },
-   "news_updated": 1791260142060,
+   "news_updated": 1791644103842,
    "position": "RB",
    "team": "ATL",
    "team_abbr": null,
@@ -18520,8 +18794,8 @@
   "team": "ATL",
   "player_id": "9509",
   "opponent": "NO",
-  "updated_at": 1791317339168,
   "game_id": "202610422",
+  "updated_at": 1791317339168,
   "week_shard": "4_0",
   "company": "sportradar"
  }

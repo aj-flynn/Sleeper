@@ -25,9 +25,15 @@
   "injury_report": [
    {
     "team": "CLE",
-    "player": "Tylan Wallace",
-    "status": "Questionable",
-    "injury": "Knee"
+    "player": "Kalia Davis",
+    "status": "Injured Reserve",
+    "injury": "Quadriceps"
+   },
+   {
+    "team": "CLE",
+    "player": "Teven Jenkins",
+    "status": "Out",
+    "injury": "Back"
    },
    {
     "team": "CLE",
@@ -37,21 +43,15 @@
    },
    {
     "team": "CLE",
-    "player": "Mike Hall Jr.",
-    "status": "Questionable",
-    "injury": "Ankle"
+    "player": "Tylan Wallace",
+    "status": "Out",
+    "injury": "Knee"
    },
    {
     "team": "CLE",
-    "player": "Grant Delpit",
-    "status": "Questionable",
-    "injury": "Shoulder"
-   },
-   {
-    "team": "CLE",
-    "player": "Derek Barnett",
-    "status": "Questionable",
-    "injury": "Ankle"
+    "player": "Carsen Ryan",
+    "status": "Out",
+    "injury": "Calf"
    },
    {
     "team": "PIT",
@@ -62,26 +62,26 @@
    {
     "team": "PIT",
     "player": "Michael Pittman Jr.",
-    "status": "Out",
-    "injury": "Foot"
-   },
-   {
-    "team": "PIT",
-    "player": "Jalen Ramsey",
-    "status": "Questionable",
-    "injury": "Wrist"
-   },
-   {
-    "team": "PIT",
-    "player": "Derrick Harmon",
     "status": "Injured Reserve",
     "injury": "Foot"
    },
    {
     "team": "PIT",
     "player": "Jamel Dean",
-    "status": "Doubtful",
+    "status": "Out",
     "injury": "Ankle"
+   },
+   {
+    "team": "PIT",
+    "player": "DeShon Elliott",
+    "status": "Injured Reserve",
+    "injury": "Knee"
+   },
+   {
+    "team": "PIT",
+    "player": "Jalen Ramsey",
+    "status": "Questionable",
+    "injury": "Wrist"
    }
   ],
   "final": "CLE 27, PIT 24"
@@ -114,15 +114,9 @@
   "injury_report": [
    {
     "team": "WAS",
-    "player": "Sonny Styles",
-    "status": "Questionable",
-    "injury": "Groin"
-   },
-   {
-    "team": "WAS",
-    "player": "Frankie Luvu",
-    "status": "Questionable",
-    "injury": "Groin"
+    "player": "Trey Amos",
+    "status": "Injured Reserve",
+    "injury": "Ankle"
    },
    {
     "team": "WAS",
@@ -132,27 +126,21 @@
    },
    {
     "team": "WAS",
-    "player": "Deatrich Wise Jr.",
-    "status": "Out",
-    "injury": "Quadriceps"
+    "player": "Terry McLaurin",
+    "status": "Questionable",
+    "injury": "Hamstring"
    },
    {
     "team": "WAS",
-    "player": "Trey Amos",
-    "status": "Injured Reserve",
-    "injury": "Ankle"
-   },
-   {
-    "team": "IND",
-    "player": "Akeem Davis-Gaither",
-    "status": "Questionable",
-    "injury": "Knee"
-   },
-   {
-    "team": "IND",
-    "player": "Ashton Dulin",
-    "status": "Questionable",
+    "player": "Tyler Owens",
+    "status": "Out",
     "injury": "Hamstring"
+   },
+   {
+    "team": "WAS",
+    "player": "Charles Omenihu",
+    "status": "Out",
+    "injury": "Groin"
    },
    {
     "team": "IND",
@@ -162,15 +150,27 @@
    },
    {
     "team": "IND",
-    "player": "Tanor Bortolini",
-    "status": "Questionable",
-    "injury": "Ankle"
+    "player": "Arden Key",
+    "status": "Injured Reserve",
+    "injury": "Hamstring"
    },
    {
     "team": "IND",
-    "player": "Will Mallory",
-    "status": "Injured Reserve",
-    "injury": "Thumb"
+    "player": "Darius Slayton",
+    "status": "Out",
+    "injury": "Knee"
+   },
+   {
+    "team": "IND",
+    "player": "Jaylon Carlies",
+    "status": "Out",
+    "injury": "Ribs"
+   },
+   {
+    "team": "IND",
+    "player": "Charvarius Ward",
+    "status": "Questionable",
+    "injury": "Groin"
    }
   ],
   "final": "IND 30, WAS 13"
@@ -201,21 +201,9 @@
   "injury_report": [
    {
     "team": "BUF",
-    "player": "T.J. Sanders",
+    "player": "Landon Jackson",
     "status": "Questionable",
-    "injury": null
-   },
-   {
-    "team": "BUF",
-    "player": "Christian Benford",
-    "status": "Questionable",
-    "injury": "Toe"
-   },
-   {
-    "team": "BUF",
-    "player": "DJ Moore",
-    "status": "Questionable",
-    "injury": "Shoulder"
+    "injury": "Knee"
    },
    {
     "team": "BUF",
@@ -226,38 +214,50 @@
    {
     "team": "BUF",
     "player": "Ed Oliver",
+    "status": "Out",
+    "injury": "Knee"
+   },
+   {
+    "team": "BUF",
+    "player": "DJ Moore",
+    "status": "Questionable",
+    "injury": "Shoulder - AC Joint"
+   },
+   {
+    "team": "BUF",
+    "player": "Joshua Palmer",
+    "status": "Out",
+    "injury": "Shoulder"
+   },
+   {
+    "team": "NE",
+    "player": "Rhamondre Stevenson",
     "status": "Questionable",
     "injury": "Knee"
    },
    {
     "team": "NE",
-    "player": "Craig Woodson",
-    "status": "Questionable",
-    "injury": "Shoulder"
-   },
-   {
-    "team": "NE",
-    "player": "Morgan Moses",
-    "status": "Questionable",
-    "injury": "Foot"
-   },
-   {
-    "team": "NE",
-    "player": "Dre'Mont Jones",
-    "status": "Questionable",
-    "injury": "Shoulder"
-   },
-   {
-    "team": "NE",
-    "player": "Christian Elliss",
-    "status": "Questionable",
-    "injury": "Chest"
-   },
-   {
-    "team": "NE",
     "player": "Reggie Gilliam",
-    "status": "Questionable",
+    "status": "Injured Reserve",
     "injury": "Ankle"
+   },
+   {
+    "team": "NE",
+    "player": "Mack Hollins",
+    "status": "Injured Reserve",
+    "injury": "Calf"
+   },
+   {
+    "team": "NE",
+    "player": "Charles Woods",
+    "status": "Questionable",
+    "injury": "Shoulder"
+   },
+   {
+    "team": "NE",
+    "player": "Karon Prunty",
+    "status": "Out",
+    "injury": "Hamstring"
    }
   ],
   "final": "NE 29, BUF 26"
@@ -294,8 +294,14 @@
    {
     "team": "CHI",
     "player": "Caleb Williams",
-    "status": "Out",
+    "status": "Questionable",
     "injury": "Hamstring"
+   },
+   {
+    "team": "CHI",
+    "player": "Shemar Turner",
+    "status": "Out",
+    "injury": "Knee - ACL"
    },
    {
     "team": "CHI",
@@ -305,21 +311,21 @@
    },
    {
     "team": "CHI",
-    "player": "Joe Thuney",
+    "player": "Noah Sewell",
     "status": "Questionable",
-    "injury": "Pectoral"
-   },
-   {
-    "team": "CHI",
-    "player": "Darnell Wright",
-    "status": "Questionable",
-    "injury": "Ankle"
+    "injury": "Achilles"
    },
    {
     "team": "NYJ",
     "player": "Dylan Parham",
-    "status": "Doubtful",
+    "status": "Out",
     "injury": "Knee"
+   },
+   {
+    "team": "NYJ",
+    "player": "Will McDonald IV",
+    "status": "Questionable",
+    "injury": "Calf"
    },
    {
     "team": "NYJ",
@@ -329,21 +335,15 @@
    },
    {
     "team": "NYJ",
-    "player": "Braiden McGregor",
-    "status": "Injured Reserve",
-    "injury": "Pectoral"
-   },
-   {
-    "team": "NYJ",
-    "player": "Breece Hall",
-    "status": "Doubtful",
-    "injury": "Quadriceps"
-   },
-   {
-    "team": "NYJ",
     "player": "Kiko Mauigoa",
-    "status": "Doubtful",
+    "status": "Out",
     "injury": "Quadriceps"
+   },
+   {
+    "team": "NYJ",
+    "player": "Adonai Mitchell",
+    "status": "Out",
+    "injury": "Finger"
    }
   ],
   "final": "CHI 23, NYJ 12"
@@ -373,6 +373,18 @@
   "injury_report": [
    {
     "team": "CIN",
+    "player": "Kyle Dugger",
+    "status": "Out",
+    "injury": "Quadriceps"
+   },
+   {
+    "team": "CIN",
+    "player": "Bryan Cook",
+    "status": "Questionable",
+    "injury": "Ankle"
+   },
+   {
+    "team": "CIN",
     "player": "Colbie Young",
     "status": "Questionable",
     "injury": "Knee"
@@ -385,51 +397,39 @@
    },
    {
     "team": "CIN",
-    "player": "Dalton Risner",
+    "player": "Ja'Marr Chase",
     "status": "Questionable",
-    "injury": "Knee"
-   },
-   {
-    "team": "CIN",
-    "player": "Dexter Lawrence II",
-    "status": "Questionable",
-    "injury": "Wrist"
-   },
-   {
-    "team": "CIN",
-    "player": "Jordan Battle",
-    "status": "Questionable",
-    "injury": "Hamstring"
+    "injury": "Concussion"
    },
    {
     "team": "JAX",
-    "player": "Christian Braswell",
-    "status": "Injured Reserve",
-    "injury": "Knee"
+    "player": "Ross Matiscik",
+    "status": "Questionable",
+    "injury": "Shoulder"
    },
    {
     "team": "JAX",
-    "player": "Cole Van Lanen",
-    "status": "Questionable",
-    "injury": "Knee"
+    "player": "Eric Murray",
+    "status": "Out",
+    "injury": "Concussion"
    },
    {
     "team": "JAX",
-    "player": "Jarrian Jones",
-    "status": "Questionable",
-    "injury": "Foot"
+    "player": "CJ Williams",
+    "status": "Out",
+    "injury": "Coach's Decision"
    },
    {
     "team": "JAX",
-    "player": "Josh Hines-Allen",
-    "status": "Questionable",
-    "injury": "Groin"
+    "player": "Wesley Williams",
+    "status": "Out",
+    "injury": "Coach's Decision"
    },
    {
     "team": "JAX",
-    "player": "DaVon Hamilton",
-    "status": "Questionable",
-    "injury": "Foot"
+    "player": "Albert Regis",
+    "status": "Out",
+    "injury": "Coach's Decision"
    }
   ],
   "final": "JAX 22, CIN 17"
@@ -463,8 +463,14 @@
    {
     "team": "NYG",
     "player": "Chauncey Golston",
-    "status": "Out",
+    "status": "Injured Reserve",
     "injury": "Neck"
+   },
+   {
+    "team": "NYG",
+    "player": "Jason Pinnock",
+    "status": "Out",
+    "injury": "Concussion"
    },
    {
     "team": "NYG",
@@ -474,51 +480,45 @@
    },
    {
     "team": "NYG",
-    "player": "Andrew Thomas",
-    "status": "Questionable",
-    "injury": "Groin"
+    "player": "Jaxson Dart",
+    "status": "Injured Reserve",
+    "injury": "Knee - Meniscus"
    },
    {
     "team": "NYG",
-    "player": "Chris Manhertz",
-    "status": "Questionable",
-    "injury": "Shoulder"
-   },
-   {
-    "team": "NYG",
-    "player": "Isaiah Likely",
-    "status": "Questionable",
-    "injury": "Knee"
-   },
-   {
-    "team": "ARI",
-    "player": "Dadrion Taylor-Demerson",
-    "status": "Questionable",
-    "injury": "Back"
-   },
-   {
-    "team": "ARI",
-    "player": "Andrew Wingard",
-    "status": "Questionable",
-    "injury": "Knee"
+    "player": "Brian Burns",
+    "status": "Injured Reserve",
+    "injury": "Knee - ACL"
    },
    {
     "team": "ARI",
     "player": "Isaiah Adams",
-    "status": "Out",
-    "injury": "Ankle"
-   },
-   {
-    "team": "ARI",
-    "player": "Jeremiyah Love",
-    "status": "Questionable",
-    "injury": "Ankle"
-   },
-   {
-    "team": "ARI",
-    "player": "Paris Johnson Jr.",
     "status": "Injured Reserve",
-    "injury": "Biceps"
+    "injury": "Ankle"
+   },
+   {
+    "team": "ARI",
+    "player": "Marvin Harrison Jr.",
+    "status": "Out",
+    "injury": "Coach's Decision"
+   },
+   {
+    "team": "ARI",
+    "player": "Walter Nolen III",
+    "status": "Questionable",
+    "injury": "Calf"
+   },
+   {
+    "team": "ARI",
+    "player": "Andrew Wingard",
+    "status": "Out",
+    "injury": "Knee"
+   },
+   {
+    "team": "ARI",
+    "player": "Karson Sharar",
+    "status": "Questionable",
+    "injury": "Hamstring"
    }
   ],
   "final": "NYG 36, ARI 24"
@@ -548,33 +548,45 @@
   "injury_report": [
    {
     "team": "PHI",
-    "player": "Quinyon Mitchell",
-    "status": "Questionable",
+    "player": "Jonathan Greenard",
+    "status": "Out",
+    "injury": "Ankle"
+   },
+   {
+    "team": "PHI",
+    "player": "DeVonta Smith",
+    "status": "Out",
+    "injury": "Hamstring"
+   },
+   {
+    "team": "PHI",
+    "player": "Drew Kendall",
+    "status": "Out",
     "injury": "Knee"
    },
    {
     "team": "PHI",
     "player": "Marcus Epps",
-    "status": "Questionable",
+    "status": "Out",
     "injury": "Groin"
    },
    {
     "team": "PHI",
-    "player": "Jonathan Greenard",
-    "status": "Questionable",
-    "injury": "Ankle"
+    "player": "Saquon Barkley",
+    "status": "Out",
+    "injury": "Hamstring"
    },
    {
-    "team": "PHI",
-    "player": "Jihaad Campbell",
+    "team": "LAR",
+    "player": "Quentin Lake",
     "status": "Questionable",
+    "injury": "Hip"
+   },
+   {
+    "team": "LAR",
+    "player": "Myles Garrett",
+    "status": "Injured Reserve",
     "injury": "Knee"
-   },
-   {
-    "team": "PHI",
-    "player": "Zack Baun",
-    "status": "Questionable",
-    "injury": "Concussion"
    },
    {
     "team": "LAR",
@@ -584,27 +596,15 @@
    },
    {
     "team": "LAR",
-    "player": "Jaylen Watson",
-    "status": "Questionable",
-    "injury": "Shoulder"
+    "player": "Ronnie Rivers",
+    "status": "Injured Reserve",
+    "injury": "Calf"
    },
    {
     "team": "LAR",
-    "player": "Colby Parkinson",
-    "status": "Questionable",
-    "injury": "Shoulder - AC Joint"
-   },
-   {
-    "team": "LAR",
-    "player": "Aaron Donald",
-    "status": "Questionable",
-    "injury": "Back"
-   },
-   {
-    "team": "LAR",
-    "player": "Konata Mumpfield",
-    "status": "Questionable",
-    "injury": "Shoulder"
+    "player": "Keir Thomas II",
+    "status": "Injured Reserve",
+    "injury": "Groin"
    }
   ],
   "final": "LAR 24, PHI 20"
@@ -631,15 +631,21 @@
   "injury_report": [
    {
     "team": "TB",
+    "player": "Baker Mayfield",
+    "status": "Out",
+    "injury": "Thumb"
+   },
+   {
+    "team": "TB",
     "player": "Antoine Winfield Jr.",
     "status": "Out",
     "injury": "Ribs"
    },
    {
     "team": "TB",
-    "player": "SirVocea Dennis",
+    "player": "Billy Schrauth",
     "status": "Out",
-    "injury": "Ankle"
+    "injury": "Coach's Decision"
    },
    {
     "team": "TB",
@@ -649,45 +655,39 @@
    },
    {
     "team": "TB",
-    "player": "Baker Mayfield",
+    "player": "SirVocea Dennis",
     "status": "Out",
-    "injury": "Thumb"
-   },
-   {
-    "team": "TB",
-    "player": "Jalen McMillan",
-    "status": "Injured Reserve",
-    "injury": "Knee - PCL"
+    "injury": "Ankle"
    },
    {
     "team": "GB",
-    "player": "Lukas Van Ness",
-    "status": "Questionable",
-    "injury": "Shoulder"
-   },
-   {
-    "team": "GB",
-    "player": "Savion Williams",
+    "player": "Chris Brooks",
     "status": "Injured Reserve",
     "injury": "Ankle"
    },
    {
     "team": "GB",
-    "player": "Devonte Wyatt",
-    "status": "Questionable",
-    "injury": "Ankle"
-   },
-   {
-    "team": "GB",
-    "player": "Anthony Belton",
-    "status": "Questionable",
-    "injury": "Knee"
+    "player": "Jacob Monk",
+    "status": "Doubtful",
+    "injury": "Quadriceps"
    },
    {
     "team": "GB",
     "player": "Jager Burton",
     "status": "Questionable",
     "injury": "Back"
+   },
+   {
+    "team": "GB",
+    "player": "Aaron Banks",
+    "status": "Doubtful",
+    "injury": "Toe"
+   },
+   {
+    "team": "GB",
+    "player": "Javon Hargrave",
+    "status": "Questionable",
+    "injury": "Toe"
    }
   ],
   "final": "GB 17, TB 14"
@@ -716,33 +716,39 @@
   "injury_report": [
    {
     "team": "BAL",
-    "player": "Chris Moore",
-    "status": "Questionable",
+    "player": "Lamar Jackson",
+    "status": "Out",
     "injury": "Ankle"
    },
    {
     "team": "BAL",
-    "player": "Durham Smythe",
-    "status": "Injured Reserve",
-    "injury": "Achilles"
+    "player": "Zay Flowers",
+    "status": "Questionable",
+    "injury": "Foot"
+   },
+   {
+    "team": "BAL",
+    "player": "Cam Jurgens",
+    "status": "Out",
+    "injury": "Concussion"
+   },
+   {
+    "team": "BAL",
+    "player": "Marlon Humphrey",
+    "status": "Questionable",
+    "injury": "Calf"
    },
    {
     "team": "BAL",
     "player": "Trey Hendrickson",
-    "status": "Questionable",
+    "status": "Out",
     "injury": "Finger"
    },
    {
-    "team": "BAL",
-    "player": "Rashod Bateman",
+    "team": "TEN",
+    "player": "Carnell Tate",
     "status": "Questionable",
-    "injury": "Shoulder"
-   },
-   {
-    "team": "BAL",
-    "player": "John Simpson",
-    "status": "Questionable",
-    "injury": "Groin"
+    "injury": "Back"
    },
    {
     "team": "TEN",
@@ -752,27 +758,21 @@
    },
    {
     "team": "TEN",
-    "player": "Amani Hooker",
+    "player": "David Martin-Robinson",
     "status": "Questionable",
+    "injury": "Hamstring"
+   },
+   {
+    "team": "TEN",
+    "player": "Amani Hooker",
+    "status": "Out",
     "injury": "Concussion"
    },
    {
     "team": "TEN",
-    "player": "Jeffery Simmons",
-    "status": "Questionable",
-    "injury": "Back"
-   },
-   {
-    "team": "TEN",
-    "player": "Marcus Harris",
-    "status": "Questionable",
-    "injury": "Knee"
-   },
-   {
-    "team": "TEN",
-    "player": "Kevin Winston Jr.",
-    "status": "Questionable",
-    "injury": "Shoulder"
+    "player": "Jackson Slater",
+    "status": "Injured Reserve",
+    "injury": "Foot"
    }
   ],
   "final": "BAL 24, TEN 18"
@@ -806,50 +806,50 @@
   "injury_report": [
    {
     "team": "HOU",
-    "player": "Will Anderson Jr.",
-    "status": "Questionable",
-    "injury": "Ankle"
-   },
-   {
-    "team": "HOU",
     "player": "Braden Smith",
     "status": "Injured Reserve",
     "injury": "Foot"
    },
    {
     "team": "HOU",
-    "player": "Azeez Al-Shaair",
-    "status": "Questionable",
-    "injury": "Groin"
-   },
-   {
-    "team": "HOU",
-    "player": "Kayden McDonald",
-    "status": "Injured Reserve",
-    "injury": "Ankle"
-   },
-   {
-    "team": "HOU",
-    "player": "Jadeveon Clowney",
+    "player": "M.J. Stewart",
     "status": "Questionable",
     "injury": "Knee"
    },
    {
-    "team": "DAL",
-    "player": "Drew Shelton",
-    "status": "Out",
-    "injury": "Hamstring"
+    "team": "HOU",
+    "player": "Kayden McDonald",
+    "status": "Questionable",
+    "injury": "Ankle"
    },
    {
-    "team": "DAL",
-    "player": "Tyler Smith",
+    "team": "HOU",
+    "player": "Tank Dell",
     "status": "Injured Reserve",
-    "injury": "Thumb"
+    "injury": "Knee - ACL + MCL"
+   },
+   {
+    "team": "HOU",
+    "player": "Aireontae Ersery",
+    "status": "Questionable",
+    "injury": "Illness"
    },
    {
     "team": "DAL",
-    "player": "Cobie Durant",
-    "status": "Out",
+    "player": "Tyler Guyton",
+    "status": "Questionable",
+    "injury": "Back"
+   },
+   {
+    "team": "DAL",
+    "player": "CeeDee Lamb",
+    "status": "Questionable",
+    "injury": "Quadriceps"
+   },
+   {
+    "team": "DAL",
+    "player": "Alijah Clark",
+    "status": "Questionable",
     "injury": "Hamstring"
    },
    {
@@ -860,9 +860,9 @@
    },
    {
     "team": "DAL",
-    "player": "Jonathan Mingo",
-    "status": "Questionable",
-    "injury": "Illness"
+    "player": "Cobie Durant",
+    "status": "Out",
+    "injury": "Hamstring"
    }
   ],
   "final": "DAL 34, HOU 30"
@@ -891,9 +891,9 @@
   "injury_report": [
    {
     "team": "MIN",
-    "player": "Michael Jurgens",
-    "status": "Injured Reserve",
-    "injury": "Elbow"
+    "player": "Jordan Addison",
+    "status": "Questionable",
+    "injury": "Hamstring"
    },
    {
     "team": "MIN",
@@ -903,51 +903,51 @@
    },
    {
     "team": "MIN",
-    "player": "Brian O'Neill",
+    "player": "Michael Jurgens",
     "status": "Questionable",
-    "injury": "Knee"
+    "injury": "Elbow"
    },
    {
     "team": "MIN",
     "player": "Ben Yurosek",
-    "status": "Injured Reserve",
+    "status": "Questionable",
     "injury": "Ankle"
    },
    {
     "team": "MIN",
-    "player": "Jordan Addison",
-    "status": "Questionable",
+    "player": "Charles Demmings",
+    "status": "Out",
     "injury": "Hamstring"
    },
    {
     "team": "MIA",
-    "player": "Kenneth Grant",
-    "status": "Injured Reserve",
-    "injury": "Toe"
-   },
-   {
-    "team": "MIA",
-    "player": "Chris Bell",
-    "status": "Questionable",
+    "player": "Storm Duck",
+    "status": "Out",
     "injury": "Knee"
    },
    {
     "team": "MIA",
-    "player": "Austin Jackson",
-    "status": "Questionable",
-    "injury": "Knee"
+    "player": "Robert Beal Jr.",
+    "status": "Out",
+    "injury": "Hamstring"
    },
    {
     "team": "MIA",
-    "player": "JuJu Brents",
-    "status": "Questionable",
-    "injury": "Heel"
+    "player": "Justin Joly",
+    "status": "Out",
+    "injury": "Concussion"
    },
    {
     "team": "MIA",
-    "player": "Tucker Addington",
+    "player": "Jaylen Wright",
     "status": "Questionable",
-    "injury": "Shoulder"
+    "injury": "Foot"
+   },
+   {
+    "team": "MIA",
+    "player": "Caleb Douglas",
+    "status": "Out",
+    "injury": "Ankle"
    }
   ],
   "final": "MIN 15, MIA 10"
@@ -980,9 +980,15 @@
   "injury_report": [
    {
     "team": "LV",
-    "player": "Cody White",
+    "player": "Ashton Jeanty",
     "status": "Questionable",
     "injury": "Ankle"
+   },
+   {
+    "team": "LV",
+    "player": "Trey Zuhn III",
+    "status": "Out",
+    "injury": "Knee"
    },
    {
     "team": "LV",
@@ -992,21 +998,15 @@
    },
    {
     "team": "LV",
-    "player": "Folorunso Fatukasi",
-    "status": "Questionable",
-    "injury": "Shoulder"
+    "player": "Jalen Nailor",
+    "status": "Out",
+    "injury": "Concussion"
    },
    {
     "team": "LV",
-    "player": "Spencer Burford",
-    "status": "Questionable",
-    "injury": "Knee"
-   },
-   {
-    "team": "LV",
-    "player": "Brock Bowers",
-    "status": "Questionable",
-    "injury": "Knee"
+    "player": "Jack Bech",
+    "status": "Injured Reserve",
+    "injury": "Forearm"
    },
    {
     "team": "KC",
@@ -1065,19 +1065,7 @@
   "injury_report": [
    {
     "team": "SF",
-    "player": "Kaelon Black",
-    "status": "Questionable",
-    "injury": "Illness"
-   },
-   {
-    "team": "SF",
-    "player": "Mike Evans",
-    "status": "Questionable",
-    "injury": "Ribs"
-   },
-   {
-    "team": "SF",
-    "player": "Marques Sigle",
+    "player": "James Thompson Jr.",
     "status": "Out",
     "injury": "Ankle"
    },
@@ -1089,39 +1077,51 @@
    },
    {
     "team": "SF",
+    "player": "Nick Bosa",
+    "status": "Out",
+    "injury": "Calf"
+   },
+   {
+    "team": "SF",
+    "player": "Marques Sigle",
+    "status": "Out",
+    "injury": "Ankle"
+   },
+   {
+    "team": "SF",
     "player": "Kyle Juszczyk",
     "status": "Out",
     "injury": "Knee"
    },
    {
     "team": "DEN",
-    "player": "Pat Surtain II",
-    "status": "Doubtful",
-    "injury": "Ankle"
+    "player": "Riley Moss",
+    "status": "Out",
+    "injury": "Ribs"
    },
    {
     "team": "DEN",
-    "player": "Adam Trautman",
-    "status": "Questionable",
-    "injury": "Shoulder"
+    "player": "Pat Surtain II",
+    "status": "Out",
+    "injury": "Ankle"
    },
    {
     "team": "DEN",
     "player": "Pat Bryant",
-    "status": "Doubtful",
+    "status": "Injured Reserve",
     "injury": "Ankle"
    },
    {
     "team": "DEN",
-    "player": "Dondrea Tillman",
-    "status": "Questionable",
-    "injury": "Hamstring"
+    "player": "Jonah Coleman",
+    "status": "Injured Reserve",
+    "injury": "Ankle"
    },
    {
     "team": "DEN",
-    "player": "Riley Moss",
-    "status": "Questionable",
-    "injury": "Ribs"
+    "player": "Jonathon Cooper",
+    "status": "Out",
+    "injury": "Personal"
    }
   ],
   "final": "SF 24, DEN 14"
@@ -1153,62 +1153,62 @@
   "injury_report": [
    {
     "team": "SEA",
+    "player": "Julian Neal",
+    "status": "Injured Reserve",
+    "injury": "Hamstring"
+   },
+   {
+    "team": "SEA",
+    "player": "Irv Charles",
+    "status": "Injured Reserve",
+    "injury": "Knee"
+   },
+   {
+    "team": "SEA",
+    "player": "Chazz Surratt",
+    "status": "Out",
+    "injury": "Calf"
+   },
+   {
+    "team": "SEA",
     "player": "George Holani",
     "status": "Questionable",
     "injury": "Ribs"
    },
    {
     "team": "SEA",
-    "player": "Beau Stephens",
-    "status": "Questionable",
-    "injury": "Knee"
-   },
-   {
-    "team": "SEA",
-    "player": "Nehemiah Pritchett",
-    "status": "Questionable",
-    "injury": "Ankle"
-   },
-   {
-    "team": "SEA",
-    "player": "Tyrice Knight",
-    "status": "Questionable",
-    "injury": "Ankle"
-   },
-   {
-    "team": "SEA",
-    "player": "Irv Charles",
-    "status": "Injured Reserve",
-    "injury": "Undisclosed"
+    "player": "Zach Charbonnet",
+    "status": "Out",
+    "injury": "Knee - ACL"
    },
    {
     "team": "LAC",
-    "player": "Joe Alt",
+    "player": "Ladd McConkey",
+    "status": "Questionable",
+    "injury": "Foot"
+   },
+   {
+    "team": "LAC",
+    "player": "Trevor Penning",
+    "status": "Injured Reserve",
+    "injury": "Concussion"
+   },
+   {
+    "team": "LAC",
+    "player": "Branson Taylor",
     "status": "Questionable",
     "injury": "Neck"
    },
    {
     "team": "LAC",
-    "player": "Trevor Penning",
+    "player": "Scott Matlock",
     "status": "Questionable",
-    "injury": "Concussion"
-   },
-   {
-    "team": "LAC",
-    "player": "Brenen Thompson",
-    "status": "Questionable",
-    "injury": "Quadriceps"
-   },
-   {
-    "team": "LAC",
-    "player": "Charlie Kolar",
-    "status": "Questionable",
-    "injury": "Forearm"
+    "injury": "Foot"
    },
    {
     "team": "LAC",
     "player": "Trey Lance",
-    "status": "Questionable",
+    "status": "Injured Reserve",
     "injury": "Groin"
    }
   ],
@@ -1279,6 +1279,18 @@
    },
    {
     "team": "DET",
+    "player": "Ben Bartch",
+    "status": "Out",
+    "injury": "Foot"
+   },
+   {
+    "team": "DET",
+    "player": "Rock Ya-Sin",
+    "status": "Out",
+    "injury": "Hamstring"
+   },
+   {
+    "team": "DET",
     "player": "Brian Branch",
     "status": "Out",
     "injury": "Achilles"
@@ -1286,18 +1298,6 @@
    {
     "team": "DET",
     "player": "Tyleik Williams",
-    "status": "Questionable",
-    "injury": "Foot"
-   },
-   {
-    "team": "DET",
-    "player": "DJ Wonnum",
-    "status": "Questionable",
-    "injury": "Back"
-   },
-   {
-    "team": "DET",
-    "player": "Ben Bartch",
     "status": "Questionable",
     "injury": "Foot"
    }
@@ -1332,51 +1332,45 @@
   "injury_report": [
    {
     "team": "NO",
-    "player": "Julian Blackmon",
+    "player": "Alvin Kamara",
     "status": "Questionable",
-    "injury": "Shoulder"
-   },
-   {
-    "team": "NO",
-    "player": "Jaylan Ford",
-    "status": "Injured Reserve",
-    "injury": "Ankle"
+    "injury": "Back"
    },
    {
     "team": "NO",
     "player": "Lorenzo Styles Jr.",
-    "status": "Injured Reserve",
-    "injury": "Calf"
-   },
-   {
-    "team": "NO",
-    "player": "Kaden Elliss",
     "status": "Questionable",
     "injury": "Calf"
    },
    {
     "team": "NO",
-    "player": "Mike Reid",
+    "player": "Jaylan Ford",
     "status": "Questionable",
     "injury": "Ankle"
    },
    {
-    "team": "ATL",
-    "player": "Cameron Thomas",
+    "team": "NO",
+    "player": "Nathan Shepherd",
     "status": "Questionable",
-    "injury": "Shoulder"
+    "injury": "Illness"
    },
    {
-    "team": "ATL",
-    "player": "Michael Jerrell",
+    "team": "NO",
+    "player": "Vernon Broughton",
     "status": "Questionable",
-    "injury": "Ankle"
+    "injury": "Illness"
    },
    {
     "team": "ATL",
     "player": "Yasir Abdullah",
-    "status": "Questionable",
+    "status": "Injured Reserve",
     "injury": "Hamstring"
+   },
+   {
+    "team": "ATL",
+    "player": "Za'Darius Smith",
+    "status": "Out",
+    "injury": "Concussion"
    },
    {
     "team": "ATL",
@@ -1386,9 +1380,15 @@
    },
    {
     "team": "ATL",
-    "player": "Za'Darius Smith",
+    "player": "Divine Deablo",
     "status": "Questionable",
-    "injury": "Concussion"
+    "injury": "Hamstring"
+   },
+   {
+    "team": "ATL",
+    "player": "Samson Ebukam",
+    "status": "Questionable",
+    "injury": "Hamstring"
    }
   ],
   "final": "ATL 45, NO 24"
