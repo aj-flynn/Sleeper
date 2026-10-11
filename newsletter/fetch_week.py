@@ -414,6 +414,7 @@ def build_brief(out, week, season="2026", league=LEAGUE_ID):
         away = abbr(next(t for t in c["competitors"] if t["homeAway"] == "away")["team"])
         next_nfl.append({"away": away, "home": home, "date_utc": e["date"], "venue": (c.get("venue") or {}).get("fullName"),
                          "notes": [x.get("headline") for x in c.get("notes", []) if x.get("headline")]})
+    next_nfl.sort(key=lambda g: (g["date_utc"], g["away"]))
     playing = {t for g in next_nfl for t in (g["home"], g["away"])}
     all_teams = {g["home"] for g in games} | {g["away"] for g in games}
 
