@@ -172,7 +172,8 @@ def test_unfinished_waits_for_waivers_with_grace():
 
 def test_committed_issue_passes_schema_lint_and_facts(issue):
     assert build.schema_problems(issue) == []
-    assert build.lint(issue) == []
+    # Week 4 shipped before "house brand" was banned (Oct 11, 2026); it stays as published.
+    assert [p for p in build.lint(issue) if "'house brand'" not in p] == []
     assert build.check_facts(WEEK4 / "issue.json") == []
 
 
@@ -184,7 +185,7 @@ def test_guide_words_are_not_banned():
 
 def test_filler_and_cliches_stay_banned():
     banned = {p.lower() for p in build.banned_phrases()}
-    for phrase in ("delve", "testament to", "nail-biter", "stellar"):
+    for phrase in ("delve", "testament to", "nail-biter", "stellar", "house brand"):
         assert phrase in banned
 
 
