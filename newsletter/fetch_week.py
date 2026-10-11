@@ -1,26 +1,28 @@
 #!/usr/bin/env python3
 """Pull one week of Rebuilders Anonymous data and write the data brief for that issue.
 
-    python3 newsletter/fetch_week.py --week 4
-    python3 newsletter/fetch_week.py --week 5 --season 2026 --out newsletter/issues/2026-week5
+Two stages, so the network part is the only part that can change between runs:
+
+    python3 newsletter/fetch_week.py --week 4            # fetch raw/ (skipped if already there), then build the brief
+    python3 newsletter/fetch_week.py --week 4 --refresh  # fetch raw/ again even if it exists
+    python3 newsletter/fetch_week.py --week 4 --brief-only   # rebuild brief.json/brief.md from raw/, no network
 
 Sources (all public, no keys):
   Sleeper league API   https://api.sleeper.app/v1/league/<id>/...   league, users, rosters,
                        matchups (weeks 1..N and N+1), transactions (legs N and N+1)
   Sleeper players      https://api.sleeper.app/v1/players/nfl       names, positions, NFL teams,
-                       injury status at fetch time (trimmed to rostered players)
+                       injury status at fetch time (trimmed to the players the brief mentions)
   Sleeper stats        https://api.sleeper.com/stats/nfl/<season>/<week>   real box-score lines
   ESPN scoreboard      site.api.espn.com/.../nfl/scoreboard          NFL finals for week N, schedule N+1
   ESPN game summary    site.api.espn.com/.../nfl/summary?event=<id>  recap article, injury report,
                        scoring plays
 
-Writes <out>/raw/*.json (trimmed copies of what was pulled), <out>/brief.json (everything joined:
-fantasy points next to the real stat line for every rostered player), and <out>/brief.md (the same
-brief, readable). Fantasy points always come from the league's matchup data, because league scoring
-(e.g. -2 per interception) differs from Sleeper's defaults. The brief also carries each team's Elo
-(see elo_ratings), which orders the power rankings.
-
-    python3 newsletter/fetch_week.py --week 4 --elo-from-raw   # add Elo to an existing brief, offline
+fetch_raw() refuses to write anything until every NFL game of week N is final and every fantasy
+matchup has a score, so a half-finished week can't produce a brief. build_brief() reads only raw/ and
+is deterministic: the same raw/ always produces byte-identical brief.json and brief.md. Fantasy points
+always come from the league's matchup data, because league scoring (e.g. -2 per interception) differs
+from Sleeper's defaults. The brief also carries each team's Elo (see elo_ratings), which orders the
+power rankings.
 """
 
 import argparse
@@ -28,6 +30,8 @@ import datetime as dt
 import html
 import json
 import re
+import shutil
+import tempfile
 import urllib.request
 from collections import defaultdict
 from pathlib import Path
@@ -40,6 +44,11 @@ SLEEPER_STATS = "https://api.sleeper.com/stats/nfl/{season}/{week}?season_type=r
 ESPN = "https://site.api.espn.com/apis/site/v2/sports/football/nfl"
 ROOT = Path(__file__).resolve().parent
 ESPN_TO_SLEEPER = {"WSH": "WAS"}
+META = "fetch_meta.json"
+
+
+class WeekNotComplete(Exception):
+    """The week still has games or fantasy matchups without a final score."""
 
 
 def abbr(team):
@@ -55,6 +64,10 @@ def get(url):
 def save(path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
+def load(path):
+    return json.loads(Path(path).read_text(encoding="utf-8"))
 
 
 def n(x):
@@ -158,56 +171,147 @@ def elo_table(matchups, rosters, standings, team_name, week):
     return {"start": ELO_START, "k": ELO_K, "margin_of_victory": False, "through_week": week, "table": rows}
 
 
-def elo_from_raw(out, week):
-    """Recompute the Elo block of an existing brief from its saved raw/ matchups (no network)."""
+def espn_game(event, summary):
+    """One NFL game as the brief stores it: final, venue, ESPN recap, scoring plays, injury report."""
+    c = event["competitions"][0]
+    home = next(t for t in c["competitors"] if t["homeAway"] == "home")
+    away = next(t for t in c["competitors"] if t["homeAway"] == "away")
+    art = summary.get("article") or {}
+    g = {
+        "espn_id": event["id"], "date_utc": event["date"],
+        "away": abbr(away["team"]), "away_score": int(away["score"]),
+        "home": abbr(home["team"]), "home_score": int(home["score"]),
+        "status": c["status"]["type"]["description"],
+        "venue": (c.get("venue") or {}).get("fullName"),
+        "notes": [x.get("headline") for x in c.get("notes", []) if x.get("headline")],
+        "recap_headline": art.get("headline"),
+        "recap_text": plain(art.get("story")),
+        "scoring_plays": [p.get("text") for p in summary.get("scoringPlays", [])],
+        "injury_report": [
+            {"team": abbr(t["team"]), "player": i["athlete"]["displayName"], "status": i.get("status"),
+             "injury": (i.get("details") or {}).get("type")}
+            for t in summary.get("injuries", []) for i in t.get("injuries", [])
+        ],
+    }
+    w, l = (g["home"], g["away"]) if g["home_score"] > g["away_score"] else (g["away"], g["home"])
+    g["final"] = f"{w} {max(g['home_score'], g['away_score'])}, {l} {min(g['home_score'], g['away_score'])}"
+    return g
+
+
+WAIVER_GRACE = dt.timedelta(hours=36)
+
+
+def unfinished(scoreboard, week_matchups, next_leg=None, now=None):
+    """Everything the issue still waits on: NFL games not final, fantasy matchups at zero, and the
+    waiver run after the week (it shows up as waiver moves in leg N+1; a week with no claims at all
+    counts as run 36 hours after the last kickoff)."""
+    events = scoreboard.get("events", [])
+    left = [f"{e.get('shortName', e['id'])} ({e['competitions'][0]['status']['type']['description']})"
+            for e in events if not e["competitions"][0]["status"]["type"].get("completed")]
+    if not events:
+        left.append("ESPN lists no games for this week")
+    if not week_matchups or any(not m.get("points") for m in week_matchups):
+        left.append("Sleeper matchups without points")
+    if not left and next_leg is not None and not any(t.get("type") == "waiver" for t in next_leg):
+        last = max(dt.datetime.strptime(e["date"], "%Y-%m-%dT%H:%MZ").replace(tzinfo=dt.timezone.utc) for e in events)
+        if (now or dt.datetime.now(dt.timezone.utc)) < last + WAIVER_GRACE:
+            left.append(f"the waiver run after the week hasn't processed (no waiver moves yet; "
+                        f"fetch after {(last + WAIVER_GRACE):%Y-%m-%d %H:%M} UTC if nobody bid)")
+    return left
+
+
+def raw_complete(raw, week, season, league):
+    """True when raw/ already holds a finished fetch of this exact week, so a rerun can skip the network."""
+    meta = raw / META
+    if not meta.exists():
+        return False
+    m = load(meta)
+    need = ["sleeper_league.json", "sleeper_users.json", "sleeper_rosters.json", "sleeper_players_rostered.json",
+            f"sleeper_stats_w{week}.json", f"espn_games_w{week}.json", f"espn_scoreboard_w{week + 1}.json",
+            f"sleeper_transactions_leg{week}.json", f"sleeper_transactions_leg{week + 1}.json"]
+    need += [f"sleeper_matchups_w{w}.json" for w in range(1, week + 2)]
+    return (m.get("week"), str(m.get("season")), m.get("league")) == (week, str(season), league) and all((raw / f).exists() for f in need)
+
+
+def fetch_raw(week, season="2026", league=LEAGUE_ID, out=None, refresh=False):
+    """Download week N into <out>/raw/. Returns 'cached' or 'fetched'. Raises WeekNotComplete before writing."""
+    out = Path(out or ROOT / "issues" / f"{season}-week{week}")
     raw = out / "raw"
-    load = lambda name: json.loads((raw / name).read_text(encoding="utf-8"))
-    users, rosters = load("sleeper_users.json"), load("sleeper_rosters.json")
-    matchups = {w: load(f"sleeper_matchups_w{w}.json") for w in range(1, week + 1)}
-    user_by_id = {u["user_id"]: u for u in users}
-    roster_by_id = {r["roster_id"]: r for r in rosters}
-
-    def team_name(rid):
-        u = user_by_id.get(roster_by_id[rid]["owner_id"], {})
-        return ((u.get("metadata") or {}).get("team_name") or u.get("display_name") or f"Roster {rid}").strip()
-
-    brief = json.loads((out / "brief.json").read_text(encoding="utf-8"))
-    brief["elo"] = elo_table(matchups, rosters, brief["standings"], team_name, week)
-    save(out / "brief.json", brief)
-    (out / "brief.md").write_text(render_md(brief), encoding="utf-8")
-    print(f"wrote Elo through week {week} into {out}/brief.json and brief.md")
-
-
-def main():
-    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--week", type=int, required=True)
-    ap.add_argument("--season", default="2026")
-    ap.add_argument("--league", default=LEAGUE_ID)
-    ap.add_argument("--out", type=Path)
-    ap.add_argument("--elo-from-raw", action="store_true",
-                    help="only recompute the Elo block of an existing brief from its raw/ matchups")
-    a = ap.parse_args()
-    week, season = a.week, a.season
-    out = a.out or ROOT / "issues" / f"{season}-week{week}"
-    if a.elo_from_raw:
-        return elo_from_raw(out, week)
-    raw = out / "raw"
-    fetched_at = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
-    L = f"{SLEEPER}/league/{a.league}"
-
-    league = get(L)
-    users = get(f"{L}/users")
-    rosters = get(f"{L}/rosters")
+    if not refresh and raw_complete(raw, week, season, league):
+        return "cached"
+    L = f"{SLEEPER}/league/{league}"
+    scoreboard = get(f"{ESPN}/scoreboard?dates={season}&seasontype=2&week={week}")
     matchups = {w: get(f"{L}/matchups/{w}") for w in range(1, week + 2)}
     transactions = {leg: get(f"{L}/transactions/{leg}") for leg in (week, week + 1)}
+    left = unfinished(scoreboard, matchups[week], transactions[week + 1])
+    if left:
+        raise WeekNotComplete(f"week {week} is not ready: " + "; ".join(left))
+
+    fetched_at = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
+    league_data = get(L)
+    users = get(f"{L}/users")
+    rosters = get(f"{L}/rosters")
     stats = get(SLEEPER_STATS.format(season=season, week=week))
     players_all = get(f"{SLEEPER}/players/nfl")
-    scoreboard = get(f"{ESPN}/scoreboard?dates={season}&seasontype=2&week={week}")
     next_board = get(f"{ESPN}/scoreboard?dates={season}&seasontype=2&week={week + 1}")
-    summaries = {e["id"]: get(f"{ESPN}/summary?event={e['id']}") for e in scoreboard["events"]}
+    games = [espn_game(e, get(f"{ESPN}/summary?event={e['id']}")) for e in scoreboard["events"]]
+
+    rostered = {p for r in rosters for p in (r.get("players") or [])}
+    for w in matchups.values():
+        for m in w:
+            rostered.update(m.get("players") or [])
+    mentioned = rostered | {p for leg in transactions.values() for t in leg
+                            for d in (t.get("adds") or {}, t.get("drops") or {}) for p in d}
+    players = {pid: players_all[pid] for pid in sorted(mentioned) if pid in players_all}
+
+    tmp = Path(tempfile.mkdtemp(prefix="raw-", dir=out.parent if out.parent.exists() else None))
+    try:
+        save(tmp / "sleeper_league.json", league_data)
+        save(tmp / "sleeper_users.json", users)
+        save(tmp / "sleeper_rosters.json", rosters)
+        for w, m in matchups.items():
+            save(tmp / f"sleeper_matchups_w{w}.json", m)
+        for leg, t in transactions.items():
+            save(tmp / f"sleeper_transactions_leg{leg}.json", t)
+        save(tmp / f"sleeper_stats_w{week}.json",
+             [s for s in stats if s["player_id"] in rostered or (s.get("stats") or {}).get("pts_ppr", 0) >= 15])
+        save(tmp / "sleeper_players_rostered.json", players)
+        save(tmp / f"espn_scoreboard_w{week}.json", scoreboard)
+        save(tmp / f"espn_scoreboard_w{week + 1}.json", next_board)
+        save(tmp / f"espn_games_w{week}.json", games)
+        save(tmp / META, {"fetched_at": fetched_at, "season": str(season), "week": week, "league": league})
+        out.mkdir(parents=True, exist_ok=True)
+        if raw.exists():
+            shutil.rmtree(raw)
+        shutil.move(str(tmp), str(raw))
+    finally:
+        if tmp.exists():
+            shutil.rmtree(tmp)
+    return "fetched"
+
+
+def build_brief(out, week, season="2026", league=LEAGUE_ID):
+    """Join raw/ into the brief. Reads no network and writes brief.json and brief.md deterministically."""
+    out = Path(out)
+    raw = out / "raw"
+    r = lambda name: load(raw / name)
+    league_data, users, rosters = r("sleeper_league.json"), r("sleeper_users.json"), r("sleeper_rosters.json")
+    matchups = {w: r(f"sleeper_matchups_w{w}.json") for w in range(1, week + 2)}
+    transactions = {leg: r(f"sleeper_transactions_leg{leg}.json") for leg in (week, week + 1)}
+    stats = r(f"sleeper_stats_w{week}.json")
+    players = r("sleeper_players_rostered.json")
+    games = r(f"espn_games_w{week}.json")
+    next_board = r(f"espn_scoreboard_w{week + 1}.json")
+    if (raw / META).exists():
+        fetched_at = r(META)["fetched_at"]
+    elif (out / "brief.json").exists():
+        fetched_at = load(out / "brief.json")["fetched_at"]
+    else:
+        fetched_at = "unknown"
+    L = f"{SLEEPER}/league/{league}"
 
     user_by_id = {u["user_id"]: u for u in users}
-    roster_by_id = {r["roster_id"]: r for r in rosters}
+    roster_by_id = {x["roster_id"]: x for x in rosters}
 
     def team_name(rid):
         u = user_by_id.get(roster_by_id[rid]["owner_id"], {})
@@ -216,47 +320,21 @@ def main():
     def manager(rid):
         return user_by_id.get(roster_by_id[rid]["owner_id"], {}).get("display_name")
 
-    rostered = {p for r in rosters for p in (r.get("players") or [])}
+    rostered = {p for x in rosters for p in (x.get("players") or [])}
     for w in matchups.values():
         for m in w:
             rostered.update(m.get("players") or [])
-    players = {pid: players_all[pid] for pid in rostered if pid in players_all}
     stats_by_id = {s["player_id"]: s for s in stats}
 
     def pinfo(pid):
-        p = players.get(pid) or players_all.get(pid) or {}
+        p = players.get(pid) or {}
         if p.get("position") == "DEF" or pid.isalpha():
             return {"name": f"{pid} DEF", "pos": "DEF", "nfl_team": pid}
         return {"name": f"{p.get('first_name', '')} {p.get('last_name', '')}".strip() or pid,
                 "pos": p.get("position"), "nfl_team": p.get("team"), "eligible": p.get("fantasy_positions")}
 
-    # NFL games for the week
-    games, game_by_team = [], {}
-    for e in scoreboard["events"]:
-        c = e["competitions"][0]
-        home = next(t for t in c["competitors"] if t["homeAway"] == "home")
-        away = next(t for t in c["competitors"] if t["homeAway"] == "away")
-        sm = summaries[e["id"]]
-        art = sm.get("article") or {}
-        g = {
-            "espn_id": e["id"], "date_utc": e["date"],
-            "away": abbr(away["team"]), "away_score": int(away["score"]),
-            "home": abbr(home["team"]), "home_score": int(home["score"]),
-            "status": c["status"]["type"]["description"],
-            "venue": (c.get("venue") or {}).get("fullName"),
-            "notes": [x.get("headline") for x in c.get("notes", []) if x.get("headline")],
-            "recap_headline": art.get("headline"),
-            "recap_text": plain(art.get("story")),
-            "scoring_plays": [p.get("text") for p in sm.get("scoringPlays", [])],
-            "injury_report": [
-                {"team": abbr(t["team"]), "player": i["athlete"]["displayName"], "status": i.get("status"),
-                 "injury": (i.get("details") or {}).get("type")}
-                for t in sm.get("injuries", []) for i in t.get("injuries", [])
-            ],
-        }
-        w, l = (g["home"], g["away"]) if g["home_score"] > g["away_score"] else (g["away"], g["home"])
-        g["final"] = f"{w} {max(g['home_score'], g['away_score'])}, {l} {min(g['home_score'], g['away_score'])}"
-        games.append(g)
+    game_by_team = {}
+    for g in games:
         game_by_team[g["home"]] = game_by_team[g["away"]] = g
 
     def nfl_entry(pid, fpts):
@@ -268,8 +346,7 @@ def main():
         return {**info, "player_id": pid, "fantasy_pts": round(fpts, 2), "line": line,
                 "opponent": (s or {}).get("opponent"), "nfl_game": game["final"] if game else None}
 
-    # Fantasy matchups for the week
-    slots = [p for p in league["roster_positions"] if p != "BN"]
+    slots = [p for p in league_data["roster_positions"] if p != "BN"]
     by_mid = defaultdict(list)
     for m in matchups[week]:
         by_mid[m["matchup_id"]].append(m)
@@ -290,7 +367,7 @@ def main():
                         "margin": round(sides[0]["points"] - sides[1]["points"], 2)})
 
     # Standings computed from matchups so a late fetch can't leak later weeks
-    table = {r["roster_id"]: {"team": team_name(r["roster_id"]), "w": 0, "l": 0, "t": 0, "pf": 0.0, "pa": 0.0, "results": []} for r in rosters}
+    table = {x["roster_id"]: {"team": team_name(x["roster_id"]), "w": 0, "l": 0, "t": 0, "pf": 0.0, "pa": 0.0, "results": []} for x in rosters}
     for w in range(1, week + 1):
         g = defaultdict(list)
         for m in matchups[w]:
@@ -299,19 +376,24 @@ def main():
             for me, them in ((a_, b_), (b_, a_)):
                 t = table[me["roster_id"]]
                 t["pf"] += me["points"]; t["pa"] += them["points"]
-                r = "W" if me["points"] > them["points"] else "L" if me["points"] < them["points"] else "T"
-                t[r.lower()] += 1; t["results"].append(r)
+                res = "W" if me["points"] > them["points"] else "L" if me["points"] < them["points"] else "T"
+                t[res.lower()] += 1; t["results"].append(res)
     standings = sorted(table.values(), key=lambda t: (-t["w"], -t["pf"]))
     for i, t in enumerate(standings, 1):
         t.update(rank=i, record=f"{t['w']}-{t['l']}" + (f"-{t['t']}" if t["t"] else ""), pf=round(t["pf"], 2), pa=round(t["pa"], 2))
 
-    # Transactions: leg N is the week's moves; waivers that run after week N land in leg N+1
+    # Transactions: leg N is the week's moves; waivers that run after week N land in leg N+1. Leg N+1 is
+    # cut off at week N+1's first kickoff so a late fetch doesn't pull next week's moves into this issue.
+    next_kickoff = min((e["date"] for e in next_board["events"]), default="9999")
+    cutoff_ms = dt.datetime.strptime(next_kickoff, "%Y-%m-%dT%H:%MZ").replace(tzinfo=dt.timezone.utc).timestamp() * 1000 \
+        if next_kickoff != "9999" else float("inf")
+
     def decode(t):
-        names = lambda d: [{"player": pinfo(p)["name"], "pos": pinfo(p)["pos"], "team": team_name(r)} for p, r in (d or {}).items()]
+        names = lambda d: [{"player": pinfo(p)["name"], "pos": pinfo(p)["pos"], "team": team_name(rid)} for p, rid in (d or {}).items()]
         return {
             "type": t["type"], "status": t["status"], "leg": t.get("leg"),
             "processed_utc": dt.datetime.fromtimestamp(t["status_updated"] / 1000, dt.timezone.utc).strftime("%Y-%m-%d %H:%M"),
-            "teams": [team_name(r) for r in t["roster_ids"]],
+            "teams": [team_name(rid) for rid in t["roster_ids"]],
             "adds": names(t.get("adds")), "drops": names(t.get("drops")),
             "faab_bid": (t.get("settings") or {}).get("waiver_bid"),
             "draft_picks": [{"season": p["season"], "round": p["round"], "original_team": team_name(p["roster_id"]),
@@ -319,9 +401,9 @@ def main():
             "faab_moved": t.get("waiver_budget") or [],
             "note": (t.get("metadata") or {}).get("notes"),
         }
-    tx = sorted((decode(t) for leg in transactions.values() for t in leg), key=lambda t: t["processed_utc"])
+    kept = [t for leg, ts in transactions.items() for t in ts if leg == week or t["status_updated"] < cutoff_ms]
+    tx = sorted((decode(t) for t in kept), key=lambda t: t["processed_utc"])
 
-    # Next week
     nb = defaultdict(list)
     for m in matchups[week + 1]:
         nb[m["matchup_id"]].append(team_name(m["roster_id"]))
@@ -337,15 +419,15 @@ def main():
 
     injuries_now = sorted(
         ({"player": pinfo(pid)["name"], "pos": pinfo(pid)["pos"], "nfl_team": p.get("team"), "status": p.get("injury_status"),
-          "body_part": p.get("injury_body_part"), "fantasy_team": next((team_name(r["roster_id"]) for r in rosters if pid in (r.get("players") or [])), None)}
-         for pid, p in players.items() if p.get("injury_status")),
+          "body_part": p.get("injury_body_part"), "fantasy_team": next((team_name(x["roster_id"]) for x in rosters if pid in (x.get("players") or [])), None)}
+         for pid, p in players.items() if pid in rostered and p.get("injury_status")),
         key=lambda x: (x["fantasy_team"] or "", x["player"]))
 
     brief = {
-        "league": {"name": league["name"], "league_id": a.league, "season": season, "week": week,
-                   "roster_positions": league["roster_positions"],
-                   "scoring": {k: league["scoring_settings"].get(k) for k in ("rec", "pass_td", "pass_yd", "pass_int", "rush_yd", "rec_yd", "fum_lost", "bonus_rec_te")},
-                   "waiver_budget": league["settings"].get("waiver_budget")},
+        "league": {"name": league_data["name"], "league_id": league, "season": str(season), "week": week,
+                   "roster_positions": league_data["roster_positions"],
+                   "scoring": {k: league_data["scoring_settings"].get(k) for k in ("rec", "pass_td", "pass_yd", "pass_int", "rush_yd", "rec_yd", "fum_lost", "bonus_rec_te")},
+                   "waiver_budget": league_data["settings"].get("waiver_budget")},
         "fetched_at": fetched_at,
         "sources": {
             "sleeper_league": f"{L} (+ /users, /rosters, /matchups/1..{week + 1}, /transactions/{week}, /transactions/{week + 1})",
@@ -354,8 +436,8 @@ def main():
             "espn_scoreboard": f"{ESPN}/scoreboard?dates={season}&seasontype=2&week={week} (and week {week + 1})",
             "espn_summaries": f"{ESPN}/summary?event=<id> for each week {week} game",
         },
-        "teams": [{"team": team_name(r["roster_id"]), "manager": manager(r["roster_id"]), "roster_id": r["roster_id"],
-                   "faab_used_at_fetch": r["settings"].get("waiver_budget_used")} for r in rosters],
+        "teams": [{"team": team_name(x["roster_id"]), "manager": manager(x["roster_id"]), "roster_id": x["roster_id"],
+                   "faab_used_at_fetch": x["settings"].get("waiver_budget_used")} for x in rosters],
         "standings": standings,
         "elo": elo_table(matchups, rosters, standings, team_name, week),
         "fantasy_matchups": fantasy,
@@ -365,22 +447,9 @@ def main():
                       "nfl_byes": sorted(all_teams - playing)},
         "injury_status_at_fetch": injuries_now,
     }
-
-    save(raw / "sleeper_league.json", league)
-    save(raw / "sleeper_users.json", users)
-    save(raw / "sleeper_rosters.json", rosters)
-    for w, m in matchups.items():
-        save(raw / f"sleeper_matchups_w{w}.json", m)
-    for leg, t in transactions.items():
-        save(raw / f"sleeper_transactions_leg{leg}.json", t)
-    save(raw / f"sleeper_stats_w{week}.json", [s for s in stats if s["player_id"] in rostered or (s.get("stats") or {}).get("pts_ppr", 0) >= 15])
-    save(raw / "sleeper_players_rostered.json", players)
-    save(raw / f"espn_scoreboard_w{week}.json", scoreboard)
-    save(raw / f"espn_scoreboard_w{week + 1}.json", next_board)
-    save(raw / f"espn_games_w{week}.json", [{k: g[k] for k in g} for g in games])
     save(out / "brief.json", brief)
     (out / "brief.md").write_text(render_md(brief), encoding="utf-8")
-    print(f"wrote {out}/brief.json, brief.md, and raw/ ({len(fantasy)} matchups, {len(games)} NFL games, {len(tx)} transactions)")
+    return brief
 
 
 def render_md(b):
@@ -435,6 +504,27 @@ def render_md(b):
     o += [f"- Byes: {', '.join(nw['nfl_byes']) or 'none'}", "", "## Injury status of rostered players at fetch time", ""]
     o += [f"- {i['player']} ({i['pos']}, {i['nfl_team']}), {i['fantasy_team'] or 'free agent'}: {i['status']}{', ' + i['body_part'] if i['body_part'] else ''}" for i in b["injury_status_at_fetch"]]
     return "\n".join(o) + "\n"
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--week", type=int, required=True)
+    ap.add_argument("--season", default="2026")
+    ap.add_argument("--league", default=LEAGUE_ID)
+    ap.add_argument("--out", type=Path)
+    ap.add_argument("--refresh", action="store_true", help="fetch raw/ again even if a complete fetch is already there")
+    ap.add_argument("--brief-only", action="store_true", help="rebuild brief.json and brief.md from raw/ without the network")
+    a = ap.parse_args()
+    out = a.out or ROOT / "issues" / f"{a.season}-week{a.week}"
+    if not a.brief_only:
+        try:
+            status = fetch_raw(a.week, a.season, a.league, out, a.refresh)
+        except WeekNotComplete as e:
+            raise SystemExit(f"fetch stopped: {e}")
+        print(f"raw/: {status}")
+    b = build_brief(out, a.week, a.season, a.league)
+    print(f"wrote {out}/brief.json and brief.md ({len(b['fantasy_matchups'])} matchups, "
+          f"{len(b['nfl_games'])} NFL games, {len(b['transactions'])} transactions)")
 
 
 if __name__ == "__main__":

@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
-"""Render a Rebuilders Anonymous newsletter issue into one self-contained HTML file.
+"""Check and render a Rebuilders Anonymous newsletter issue into one self-contained HTML file.
 
-    python3 newsletter/build.py --data newsletter/issues/2026-week5/issue.json --out 2026-week5.html
-    python3 newsletter/build.py --data newsletter/issues/2026-week4/issue.json   # writes issue.html next to it
+    python3 newsletter/build.py --schema newsletter/issues/2026-week5/issue.json
     python3 newsletter/build.py --lint newsletter/issues/2026-week5/issue.json
     python3 newsletter/build.py --check-facts newsletter/issues/2026-week5/issue.json
+    python3 newsletter/build.py --data newsletter/issues/2026-week5/issue.json   # writes issue.html next to it
+
+Each check prints one problem per line and exits 1 if there are any, 0 if there are none.
+run.py calls the same functions and records the results in verification.json.
 
 The template is newsletter/templates/card-back.html. It uses a small Mustache subset:
   {{key}} / {{a.b}}      insert a value (raw HTML, so copy may use <em>, &amp;)
@@ -14,18 +17,16 @@ The template is newsletter/templates/card-back.html. It uses a small Mustache su
 Every key a template references must exist in the data (null/[]/false are fine), so a
 missing field fails the build instead of shipping a blank.
 
-Every issue must weave real NFL box-score lines into the fantasy numbers, and order the
-power rankings by Elo. validate() enforces that (schema 3) before anything renders, and
-check_elo() matches the Elo figures against the brief; see the newsletter skill.
-
 A template's fonts are declared in a comment such as
   <!-- fonts: alfa-slab-one-400-normal archivo-narrow-700-normal -->
 and inlined as base64 @font-face rules wherever the template says /*@font-faces*/.
 """
 
 import argparse
+import ast
 import base64
 import json
+import operator
 import re
 import sys
 from pathlib import Path
@@ -34,7 +35,7 @@ ROOT = Path(__file__).resolve().parent
 TEMPLATES = ROOT / "templates"
 TEMPLATE = "card-back"
 FONTS = ROOT / "fonts"
-SKILL = ROOT.parent / ".cursor" / "skills" / "newsletter" / "SKILL.md"
+VOICE = ROOT.parent / ".cursor" / "skills" / "newsletter" / "reference" / "voice.md"
 
 FAMILY_NAMES = {
     "alfa-slab-one": "Alfa Slab One",
@@ -52,6 +53,12 @@ BOX_SCORE_WORDS = (
 )
 BOX_SCORE = re.compile(rf"\b\d[\d,.]*\s+(?:\w+\s+){{0,3}}?(?:{BOX_SCORE_WORDS})\b", re.I)
 
+# Fields that hold no copy: skipped by the linter and the number trace.
+NOT_COPY = ("url", "derived")
+NOT_FACTS = NOT_COPY + ("rank", "issue_number", "week", "schema", "season")
+
+
+# ---------------------------------------------------------------- template
 
 def parse(template):
     root = []
@@ -136,6 +143,13 @@ def font_faces(template):
     return "\n".join(rules)
 
 
+def template_fonts(template=TEMPLATE):
+    """The font families a template declares, e.g. {'Alfa Slab One', 'Archivo Narrow'}."""
+    source = (TEMPLATES / f"{template}.html").read_text(encoding="utf-8")
+    m = re.search(r"<!--\s*fonts:([^>]*)-->", source)
+    return sorted({FAMILY_NAMES[f.rsplit("-", 2)[0]] for f in m.group(1).split()}) if m else []
+
+
 def render(data, template=TEMPLATE):
     source = (TEMPLATES / f"{template}.html").read_text(encoding="utf-8")
     html = render_nodes(parse(source), [data])
@@ -145,6 +159,10 @@ def render(data, template=TEMPLATE):
 
 def num(value):
     return float(str(value).replace("$", "").replace(",", ""))
+
+
+def signed(value):
+    return num(str(value).replace("\u2212", "-"))
 
 
 def derive(data):
@@ -161,9 +179,7 @@ def derive(data):
     return data
 
 
-def signed(value):
-    return num(str(value).replace("\u2212", "-"))
-
+# ---------------------------------------------------------------- gate: schema
 
 def validate(data):
     """Schema 3: fantasy numbers travel with the real NFL lines behind them; rankings follow Elo."""
@@ -174,8 +190,11 @@ def validate(data):
             problems.append(msg)
 
     need(data.get("schema") == 3, "schema must be 3 (NFL box-score lines woven in, rankings ordered by Elo)")
-    lead = " ".join((data.get("lead") or {}).get("body", []))
-    need(BOX_SCORE.search(lead), "lead.body never cites a box-score stat (yards, catches, carries, TDs, snaps...)")
+    lead = data.get("lead") or {}
+    need(BOX_SCORE.search(" ".join(lead.get("body", []))), "lead.body never cites a box-score stat (yards, catches, carries, TDs, snaps...)")
+    need(3 <= len(lead.get("body", [])) <= 4, "lead.body needs three or four paragraphs")
+    need(len(lead.get("stats", [])) == 3, "lead.stats needs exactly three {value, label}")
+    need(len(re.sub(r"<[^>]+>", "", lead.get("headline", ""))) < 60, "lead.headline must be under 60 characters")
 
     rankings = data.get("rankings", [])
     need(len(rankings) == 12, f"rankings: expected 12 teams, found {len(rankings)}")
@@ -203,7 +222,9 @@ def validate(data):
                 need(bool(k.get("line")), f"{where}: {side} {k.get('player', '?')} has no NFL stat line")
                 need(bool(k.get("nfl_team")), f"{where}: {side} {k.get('player', '?')} has no NFL team")
 
-    for a in data.get("awards", []):
+    awards = data.get("awards", [])
+    need(4 <= len(awards) <= 5, f"awards: expected four or five, found {len(awards)}")
+    for a in awards:
         need(BOX_SCORE.search(a.get("body", "")), f"awards: {a.get('name', '?')} body never cites a box-score stat")
 
     standouts = data.get("standouts", [])
@@ -218,37 +239,27 @@ def validate(data):
     return problems
 
 
-def check_elo(data, brief_json):
-    """Every ranking's Elo, change, and position must match the Elo block in the brief."""
-    if not brief_json.exists():
-        return [f"no brief at {brief_json} to check Elo against"]
-    elo = json.loads(brief_json.read_text(encoding="utf-8")).get("elo")
-    if not elo:
-        return [f"{brief_json} has no Elo block; rerun fetch_week.py (or --elo-from-raw)"]
-    problems = []
-    for r, b in zip(data.get("rankings", []), elo["table"]):
-        if r.get("team") != b["team"]:
-            problems.append(f"rankings[{r.get('rank')}] is {r.get('team')}, but the brief's Elo order has {b['team']}")
-            continue
-        try:
-            same = abs(num(r["elo"]) - b["elo"]) < 0.005 and abs(signed(r["elo_change"]) - b["change"]) < 0.005
-        except (KeyError, ValueError):
-            continue
-        if not same:
-            problems.append(f"rankings: {b['team']} Elo should be {b['elo']:.2f} ({b['change']:+.2f}), per the brief")
+def schema_problems(data):
+    """Schema 3 rules plus a dry-run render, so a missing template key fails here, not at render time."""
+    problems = validate(data)
+    try:
+        render(derive(data))
+    except (KeyError, TypeError, AttributeError) as e:
+        problems.append(f"template: {e}")
     return problems
 
 
-def banned_phrases():
-    """Banned phrases are maintained in the newsletter skill, between banned:start/end markers."""
-    if not SKILL.exists():
+# ---------------------------------------------------------------- gate: lint
+
+def banned_phrases(path=VOICE):
+    """Banned phrases live in the skill's voice reference, between banned:start/end markers."""
+    if not path.exists():
         return []
-    text = SKILL.read_text(encoding="utf-8")
-    m = re.search(r"<!-- banned:start -->(.*?)<!-- banned:end -->", text, re.S)
+    m = re.search(r"<!-- banned:start -->(.*?)<!-- banned:end -->", path.read_text(encoding="utf-8"), re.S)
     return re.findall(r"^- `([^`]+)`", m.group(1), re.M) if m else []
 
 
-def strings(value, skip=("url",)):
+def strings(value, skip=NOT_COPY):
     if isinstance(value, str):
         yield value
     elif isinstance(value, dict):
@@ -260,90 +271,285 @@ def strings(value, skip=("url",)):
             yield from strings(v, skip)
 
 
-def lint(data, issue_path=None):
-    copy = "\n".join(strings(data))
-    plain = re.sub(r"<[^>]+>", "", copy)
+EMOJI = re.compile("[\U0001F300-\U0001FAFF\u2600-\u27BF\uFE0F]")
+LABELS = re.compile(r"\b(?:W\d{1,2}|PF|PA|EP|PF/PA)\b")
+NOT_X_ITS_Y = re.compile(r"\b(?:it|this|that)(?:'|’)?s not [^.]{1,80}\.\s+(?:it|this|that)(?:'|’)?s\b", re.I)
+
+
+def team_names(data):
+    return {r.get("team", "") for r in data.get("rankings", [])}
+
+
+def lint(data):
+    """The voice rules a script can check for certain. The editor checks the rest."""
+    prose = re.sub(r"<[^>]+>", "", "\n".join(strings(data)))
+    names = sorted(team_names(data), key=len, reverse=True)
+    unnamed = prose
+    for t in names:
+        if t:
+            unnamed = unnamed.replace(t, "")
     problems = []
     for phrase in banned_phrases():
-        hits = len(re.findall(r"\b" + re.escape(phrase) + r"\b", plain, re.I))
+        hits = len(re.findall(r"\b" + re.escape(phrase) + r"\b", unnamed, re.I))
         if hits:
             problems.append(f"banned phrase x{hits}: {phrase!r}")
-    dashes = plain.count("\u2014")
+    dashes = prose.count("\u2014")
     if dashes > 3:
         problems.append(f"{dashes} em dashes in the issue (limit 3)")
-    exclaims = len(re.findall(r"!(?!\w)", plain.replace("WELL!", "")))
-    if exclaims:
-        problems.append(f"{exclaims} exclamation marks (limit 0 outside team names)")
-    problems += validate(data)
-    if issue_path:
-        problems += check_elo(data, issue_path.with_name("brief.json"))
+    heads = [data.get("lead", {}).get("headline", "")] + [r.get("headline", "") for r in data.get("recaps", [])]
+    if any("\u2014" in h for h in heads):
+        problems.append("em dash in a headline (none allowed)")
+    if "!" in unnamed:
+        problems.append(f"{unnamed.count('!')} exclamation marks (none outside team names)")
+    if EMOJI.search(unnamed):
+        problems.append("emoji in the copy (none allowed)")
+    if "?" in unnamed:
+        problems.append(f"{unnamed.count('?')} question marks (answer the question instead)")
+    if len(NOT_X_ITS_Y.findall(unnamed)) > 1:
+        problems.append("the \"It's not X. It's Y.\" move appears more than once")
+    labels = sorted(set(LABELS.findall(unnamed)))
+    if labels:
+        problems.append(f"internal labels in prose: {', '.join(labels)} (write them out)")
+    firsts = {}
+    for r in data.get("rankings", []):
+        word = re.sub(r"<[^>]+>", "", r.get("take", "")).split(" ", 1)[0].strip("“\"'’,.").lower()
+        firsts.setdefault(word, []).append(r.get("team", "?"))
+    for word, teams in firsts.items():
+        if len(teams) > 1:
+            problems.append(f"ranking takes for {', '.join(teams)} all start with {word!r}; vary the openings")
     return problems
 
 
+# ---------------------------------------------------------------- gate: facts
+
 NUMBER = re.compile(r"(?<![\w.])\$?\d[\d,]*(?:\.\d+)?")
+SMALL = {str(i) for i in range(0, 11)}
 
 
-def check_facts(issue_path, brief_path=None):
-    """List every number in the copy that doesn't appear verbatim in the data brief.
+def canon(token):
+    t = str(token).lstrip("$").replace(",", "")
+    if "." in t:
+        t = t.rstrip("0").rstrip(".")
+    return t or "0"
 
-    Derived numbers (margins, sums, swaps) will show up here too. That's the point:
-    each one listed is a number to recompute by hand before shipping.
-    """
-    data = json.loads(issue_path.read_text(encoding="utf-8"))
-    brief_path = brief_path or issue_path.with_name("brief.md")
-    brief = brief_path.read_text(encoding="utf-8")
+
+def brief_numbers(brief_json, brief_md=None):
+    """Every number the brief states, in canonical form (31.30 and 31.3 are the same number)."""
     known = set()
-    for tok in NUMBER.findall(brief):
-        t = tok.lstrip("$").replace(",", "")
-        known.add(t)
-        if "." in t:
-            known.add(t.rstrip("0").rstrip("."))
-    ignore = {str(i) for i in range(0, 11)} | {"2026", "2027"}
+
+    def walk(v):
+        if isinstance(v, bool) or v is None:
+            return
+        if isinstance(v, (int, float)):
+            known.add(canon(f"{v:.2f}") if isinstance(v, float) else str(v))
+            if isinstance(v, float):
+                known.add(canon(repr(v)))
+        elif isinstance(v, str):
+            known.update(canon(t) for t in NUMBER.findall(v))
+        elif isinstance(v, dict):
+            for x in v.values():
+                walk(x)
+        elif isinstance(v, list):
+            for x in v:
+                walk(x)
+    walk(brief_json)
+    if brief_md:
+        known.update(canon(t) for t in NUMBER.findall(brief_md))
+    return known
+
+
+OPS = {ast.Add: operator.add, ast.Sub: operator.sub, ast.Mult: operator.mul, ast.Div: operator.truediv}
+
+
+def evaluate(expr, known):
+    """Evaluate a +-*/ expression whose every operand is a brief number (or a count up to 10)."""
+    def ev(node):
+        if isinstance(node, ast.Expression):
+            return ev(node.body)
+        if isinstance(node, ast.BinOp) and type(node.op) in OPS:
+            return OPS[type(node.op)](ev(node.left), ev(node.right))
+        if isinstance(node, ast.UnaryOp) and isinstance(node.op, ast.USub):
+            return -ev(node.operand)
+        if isinstance(node, ast.Constant) and isinstance(node.value, (int, float)):
+            literal = ast.get_source_segment(expr, node) or str(node.value)
+            if canon(literal) not in known and canon(literal) not in SMALL:
+                raise ValueError(f"operand {literal} is not in the brief")
+            return node.value
+        raise ValueError("only numbers, + - * / and parentheses are allowed")
+    return ev(ast.parse(expr.replace("$", "").replace(",", ""), mode="eval"))
+
+
+def check_derived(data, known):
+    """Each ledger entry recomputes from brief numbers to the value printed in the copy."""
+    problems, ok = [], set()
+    for i, d in enumerate(data.get("derived") or [], 1):
+        value, expr = str(d.get("value", "")), str(d.get("expr", ""))
+        try:
+            got = evaluate(expr, known)
+        except (ValueError, SyntaxError, ZeroDivisionError) as e:
+            problems.append(f"derived[{i}] {value} = {expr}: {e}")
+            continue
+        places = len(canon(value).split(".")[1]) if "." in canon(value) else 0
+        want = num(value)
+        if abs(round(got, places) - want) > 1e-9 and abs(round(abs(got), places) - want) > 1e-9:
+            problems.append(f"derived[{i}] {value} = {expr}: the expression comes to {got:.4f}, not {value}")
+        else:
+            ok.add(canon(value))
+    return problems, ok
+
+
+def norm_name(name):
+    name = re.sub(r"<[^>]+>", "", str(name)).replace("’", "'").lower()
+    name = re.sub(r"\b(jr|sr|ii|iii|iv)\b\.?", "", name)
+    return re.sub(r"[^a-z0-9]", "", name)
+
+
+def two(x):
+    return f"{float(x):.2f}"
+
+
+def check_structured(data, brief):
+    """Facts with one right answer, matched field by field against brief.json."""
+    problems = []
+    elo = brief.get("elo")
+    if not elo:
+        problems.append("brief.json has no Elo block; rebuild the brief")
+    else:
+        for r, b in zip(data.get("rankings", []), elo["table"]):
+            if r.get("team") != b["team"]:
+                problems.append(f"rankings[{r.get('rank')}] is {r.get('team')}, but the brief's Elo order has {b['team']}")
+                continue
+            try:
+                same = abs(num(r["elo"]) - b["elo"]) < 0.005 and abs(signed(r["elo_change"]) - b["change"]) < 0.005
+            except (KeyError, ValueError):
+                same = False
+            if not same:
+                problems.append(f"rankings: {b['team']} Elo should be {b['elo']:.2f} ({b['change']:+.2f}), per the brief")
+            if r.get("record") != b["record"]:
+                problems.append(f"rankings: {b['team']} record should be {b['record']}")
+    managers = {t["team"]: t["manager"] for t in brief.get("teams", [])}
+    for r in data.get("rankings", []):
+        if r.get("team") in managers and r.get("manager") != managers[r["team"]]:
+            problems.append(f"rankings: {r['team']} manager should be {managers[r['team']]}")
+
+    by_winner = {m["winner"]["team"]: m for m in brief.get("fantasy_matchups", [])}
+    for i, r in enumerate(data.get("recaps", []), 1):
+        where = f"recaps[{i}] {r.get('winner')}"
+        m = by_winner.get(r.get("winner"))
+        if not m or m["loser"]["team"] != r.get("loser"):
+            problems.append(f"{where}: no matchup in the brief where {r.get('winner')} beat {r.get('loser')}")
+            continue
+        for field, want in (("w_score", two(m["winner"]["points"])), ("l_score", two(m["loser"]["points"])),
+                            ("margin", two(m["margin"])), ("w_manager", m["winner"]["manager"]), ("l_manager", m["loser"]["manager"])):
+            if str(r.get(field)) != want:
+                problems.append(f"{where}: {field} is {r.get(field)!r}, the brief says {want!r}")
+        for side_key, side in (("w_keys", m["winner"]), ("l_keys", m["loser"])):
+            pool = side["starters"] + side["bench"]
+            for k in r.get(side_key) or []:
+                p = next((x for x in pool if norm_name(x["name"]) == norm_name(k.get("player"))), None)
+                if p is None:
+                    p = next((x for x in pool if x["pos"] == "DEF" and x["nfl_team"] == k.get("nfl_team")), None)
+                if p is None:
+                    problems.append(f"{where}: {k.get('player')} is not on {side['team']}'s roster in the brief")
+                    continue
+                if abs(num(k.get("pts", "nan")) - p["fantasy_pts"]) > 0.005:
+                    problems.append(f"{where}: {k.get('player')} scored {two(p['fantasy_pts'])}, not {k.get('pts')}")
+                if p["nfl_team"] and k.get("nfl_team") != p["nfl_team"]:
+                    problems.append(f"{where}: {k.get('player')} plays for {p['nfl_team']}, not {k.get('nfl_team')}")
+
+    starters = [(s, side["team"]) for m in brief.get("fantasy_matchups", []) for side in (m["winner"], m["loser"]) for s in side["starters"]]
+    for s in data.get("standouts", []):
+        pos = s.get("pos")
+        best = max((p["fantasy_pts"] for p, _ in starters if p["pos"] == pos), default=None)
+        match = next(((p, t) for p, t in starters if p["pos"] == pos and abs(p["fantasy_pts"] - num(s.get("pts", "nan"))) < 0.005
+                      and (norm_name(p["name"]) == norm_name(s.get("player")) or (pos == "DEF" and p["nfl_team"] == s.get("nfl_team")))), None)
+        if match is None:
+            problems.append(f"standouts: {pos} {s.get('player')} with {s.get('pts')} is not a {pos} starter in the brief")
+            continue
+        if best is not None and abs(match[0]["fantasy_pts"] - best) > 0.005:
+            problems.append(f"standouts: the top {pos} starter scored {two(best)}, not {s.get('pts')}")
+        if s.get("team") != match[1]:
+            problems.append(f"standouts: {s.get('player')} started for {match[1]}, not {s.get('team')}")
+
+    want_pairs = {frozenset(p) for p in brief.get("next_week", {}).get("fantasy_matchups", [])}
+    got_pairs = {frozenset((g.get("a"), g.get("b"))) for g in (data.get("preview") or {}).get("games", [])}
+    if want_pairs and got_pairs != want_pairs:
+        problems.append("preview.games: the six pairings don't match the brief's next-week matchups")
+
+    claims = [t for t in brief.get("transactions", []) if t["type"] == "waiver" and t["status"] == "complete"]
+    for w in (data.get("transactions") or {}).get("waivers", []):
+        hit = [t for t in claims if w.get("team") in t["teams"] and any(norm_name(a["player"]) == norm_name(w.get("add")) for a in t["adds"])]
+        if not hit and w.get("pos") != "DEF":
+            problems.append(f"waivers: no completed claim of {w.get('add')} by {w.get('team')} in the brief")
+        elif hit and not any(t["faab_bid"] is not None and abs(t["faab_bid"] - num(w.get("faab", "nan"))) < 0.005 for t in hit):
+            problems.append(f"waivers: {w.get('team')} bid ${hit[0]['faab_bid']} on {w.get('add')}, not {w.get('faab')}")
+    return problems
+
+
+def trace_numbers(data, known, derived_ok):
+    """Numbers in the copy that are neither in the brief nor recomputed in the derived ledger."""
     unknown = {}
-    for s in strings(data, skip=("url", "rank", "issue_number", "week", "schema")):
+    for s in strings(data, skip=NOT_FACTS):
         for tok in NUMBER.findall(re.sub(r"<[^>]+>", "", s)):
-            t = tok.lstrip("$").replace(",", "")
-            if t in ignore or t in known or t.rstrip("0").rstrip(".") in known:
+            t = canon(tok)
+            if t in SMALL or t in known or t in derived_ok or tok.startswith(("2026", "2027")) and len(tok) == 4:
                 continue
             unknown.setdefault(t, s.strip()[:90])
     return unknown
 
+
+def check_facts(issue_path, brief_json_path=None, brief_md_path=None):
+    """Every number traces to the brief, every derived number recomputes, every structured fact matches."""
+    issue_path = Path(issue_path)
+    data = json.loads(issue_path.read_text(encoding="utf-8"))
+    bj = Path(brief_json_path or issue_path.with_name("brief.json"))
+    bm = Path(brief_md_path or issue_path.with_name("brief.md"))
+    if not bj.exists():
+        return [f"no brief at {bj}"]
+    brief = json.loads(bj.read_text(encoding="utf-8"))
+    known = brief_numbers(brief, bm.read_text(encoding="utf-8") if bm.exists() else None)
+    problems, derived_ok = check_derived(data, known)
+    problems += check_structured(data, brief)
+    for tok, ctx in sorted(trace_numbers(data, known, derived_ok).items()):
+        problems.append(f"not in brief: {tok} in “{ctx}” (add it to derived with the arithmetic, or fix it)")
+    return problems
+
+
+# ---------------------------------------------------------------- CLI
 
 def write(out, html):
     out.write_text(html, encoding="utf-8")
     print(f"wrote {out}")
 
 
+def report(problems, label):
+    for p in problems:
+        print(f"{label}: {p}")
+    return 1 if problems else 0
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--data", type=Path, metavar="ISSUE_JSON", help="the issue to render")
+    ap.add_argument("--data", type=Path, metavar="ISSUE_JSON", help="render this issue (after schema, lint and facts pass)")
     ap.add_argument("--out", type=Path, help="output HTML (default: issue.html next to the issue)")
-    ap.add_argument("--lint", type=Path, metavar="ISSUE_JSON", help="check copy against the skill's rules, schema 3, and the brief's Elo")
-    ap.add_argument("--check-facts", type=Path, metavar="ISSUE_JSON", help="list numbers not found in the brief")
-    ap.add_argument("--brief", type=Path, help="brief.md to check against (default: next to the issue)")
+    ap.add_argument("--schema", type=Path, metavar="ISSUE_JSON", help="check schema 3 and that the template renders")
+    ap.add_argument("--lint", type=Path, metavar="ISSUE_JSON", help="check copy against the voice rules a script can verify")
+    ap.add_argument("--check-facts", type=Path, metavar="ISSUE_JSON", help="trace every number and fact to the brief")
     args = ap.parse_args()
 
+    load = lambda p: json.loads(p.read_text(encoding="utf-8"))
+    if args.schema:
+        sys.exit(report(schema_problems(load(args.schema)), "schema"))
     if args.lint:
-        problems = lint(json.loads(args.lint.read_text(encoding="utf-8")), args.lint)
-        for p in problems:
-            print(f"lint: {p}")
-        sys.exit(1 if problems else 0)
-
+        sys.exit(report(lint(load(args.lint)), "lint"))
     if args.check_facts:
-        unknown = check_facts(args.check_facts, args.brief)
-        for tok, ctx in sorted(unknown.items(), key=lambda kv: kv[0]):
-            print(f"not in brief: {tok:>8}  {ctx}")
-        print(f"{len(unknown)} numbers to verify by hand (derived or outside the brief)")
-        return
-
+        sys.exit(report(check_facts(args.check_facts), "facts"))
     if not args.data:
-        ap.error("--data is required (or use --lint / --check-facts)")
-    data = json.loads(args.data.read_text(encoding="utf-8"))
-    problems = lint(data, args.data)
-    for p in problems:
-        print(f"lint: {p}")
-    if validate(data) or check_elo(data, args.data.with_name("brief.json")):
-        sys.exit("build stopped: the issue does not meet schema 3 (see lint output)")
+        ap.error("pass --data, --schema, --lint or --check-facts")
+    data = load(args.data)
+    problems = schema_problems(data) + lint(data) + check_facts(args.data)
+    if report(problems, "build"):
+        sys.exit("build stopped: fix the problems above first")
     write(args.out or args.data.with_name("issue.html"), render(derive(data)))
 
 
