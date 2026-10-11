@@ -218,8 +218,12 @@ def test_lint_fails_long_sentence_and_long_average(issue):
     bad = copy.deepcopy(issue)
     bad["lead"]["body"][0] += " " + " ".join(["and then the team kept on playing"] * 6) + "."
     assert any("-word sentence" in p for p in build.lint(bad))
-    for r in bad["recaps"]:
-        r["body"] = " ".join(["The team scored a lot of points in a game this week against a good opponent"] * 3) + "."
+    wordy = "The team scored a lot of points in a game this week against a good opponent"
+    for i, r in enumerate(bad["recaps"]):
+        r["body"] = " ".join(f"{wordy} number {i}{j}." for j in range(8))
+    for i, r in enumerate(bad["rankings"]):
+        r["take"] = " ".join(f"{wordy} ranked {i}{j}." for j in range(4))
+    bad["lead"]["body"] = [" ".join(f"{wordy} lead {i}{j}." for j in range(5)) for i in range(4)]
     assert any("average sentence" in p for p in build.lint(bad))
 
 

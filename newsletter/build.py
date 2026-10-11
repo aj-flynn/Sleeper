@@ -279,8 +279,8 @@ NOT_X_ITS_Y = re.compile(r"\b(?:it|this|that)(?:'|’)?s not [^.]{1,80}\.\s+(?:i
 # 2026 Week 4 issue; reference/voice.md documents what each one supports and the values it measured.
 VOICE = {
     "caps_per_section": 3,       # "occasional ALL CAPS for emotional outbursts"
-    "caps_per_issue": 10,
-    "avg_sentence_words": 13.0,  # "short, blunt, declarative statements"
+    "caps_per_issue": 6,
+    "avg_sentence_words": 11.0,  # "short, blunt, declarative statements"
     "max_sentence_words": 32,
     "exclamations": 4,           # "avoid excessive yelling"
     "profanity": 4,              # "occasional profanity"

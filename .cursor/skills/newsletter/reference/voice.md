@@ -123,19 +123,19 @@ The list blocks three kinds of phrase: **filler** ("in the books," "without furt
 
 ## The voice checks
 
-`issue.lint` measures the parts of the guide a script can count. The thresholds live in `VOICE` in `newsletter/build.py`; change them there and here together. They were tuned on the 2026 Week 4 end-to-end issue (measured values below), which passes with room for a little more heat.
+`issue.lint` measures the parts of the guide a script can count. The thresholds live in `VOICE` in `newsletter/build.py`; change them there and here together. They were tuned on the 2026 Week 4 end-to-end issue (measured values below), which passes with room for a little more heat. The issue-wide caps limit (6) and the average-sentence limit (11 words) sit between that issue and the Week 4 issue from PR #6, written before Boston Connor, which averaged 12.18 words a sentence, so drifting back to the old explanatory voice fails the lint.
 
 | Check | Limit | Supports this line of the guide | Week 4 issue measured |
 | --- | --- | --- | --- |
-| ALL-CAPS words per section | 3 | "Use occasional ALL CAPS for emotional outbursts." | WEEK4_CAPS_SECTION |
-| ALL-CAPS words in the issue | 10 | "Avoid excessive yelling." | WEEK4_CAPS_TOTAL |
-| Average sentence length | 13 words | "Favor short, blunt, declarative statements." | WEEK4_AVG |
-| Longest sentence | 32 words | "Avoid long explanations when a dismissive one-liner will do." | WEEK4_LONGEST |
-| Same short sentence (6 words or fewer) twice | 0 | "Avoid ... repeating signature catchphrases." | WEEK4_SHORT |
-| Same four-word phrase (3+ content words, no names or numbers) in two items | 0 | "Avoid ... repeating signature catchphrases." | WEEK4_GRAMS |
-| Exclamation marks outside team names | 4 | "Avoid excessive yelling." | WEEK4_EXCL |
-| Swear words | 4 | "occasional profanity" | WEEK4_SWEAR |
-| Em dashes | 3, none in headlines | house style; an AI tell | WEEK4_DASH |
+| ALL-CAPS words per section | 3 | "Use occasional ALL CAPS for emotional outbursts." | 2 (lead 1, recaps 2: "PRINT IT", "THROWN OUT") |
+| ALL-CAPS words in the issue | 6 | "Avoid excessive yelling." | 3 |
+| Average sentence length | 11 words | "Favor short, blunt, declarative statements." | 8.78 words over 276 sentences (the PR #6 Week 4 issue: 12.18) |
+| Longest sentence | 32 words | "Avoid long explanations when a dismissive one-liner will do." | 29 |
+| Same short sentence (6 words or fewer) twice | 0 | "Avoid ... repeating signature catchphrases." | 0 |
+| Same four-word phrase (3+ content words, no names or numbers) in two items | 0 | "Avoid ... repeating signature catchphrases." | 0 |
+| Exclamation marks outside team names | 4 | "Avoid excessive yelling." | 0 |
+| Swear words | 4 | "occasional profanity" | 1 ("hell") |
+| Em dashes | 3, none in headlines | house style; an AI tell | 0 |
 
 How they count:
 
