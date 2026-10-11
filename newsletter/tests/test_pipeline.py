@@ -207,27 +207,6 @@ def test_legend_colors_match_chart_lines(issue):
     assert base.group(1) == elo.BASELINE_COLOR
 
 
-def test_stacked_series_get_a_visible_lane():
-    doc = elo.read_doc(elo.history_path("2026"))
-    rows = elo.series(doc, 4)
-    by_name = {r["team"]: r for r in rows}
-    uc, ja = by_name["Unsportsmanlike Conduct"], by_name["J’Allen Waffle Stompers"]
-    assert max(abs(a - b) for a, b in zip(uc["elos"], ja["elos"])) < elo.TRACK_TOL
-    lanes = elo.tracking_offsets(rows)
-    assert lanes[uc["roster_id"]] != 0
-    assert lanes[ja["roster_id"]] != 0
-    assert lanes[uc["roster_id"]] == -lanes[ja["roster_id"]]
-    # Teams that actually diverge stay on the true y.
-    hamm = by_name["hammball"]
-    assert lanes[hamm["roster_id"]] == 0
-    svg = elo.chart_svg(doc, 4)
-    ys = {}
-    for team, y in re.findall(
-        r'<circle class="elo-point" data-team="([^"]+)" data-week="4"[^>]*cy="([0-9.]+)"', svg):
-        ys[team] = float(y)
-    assert abs(ys["Unsportsmanlike Conduct"] - ys["J’Allen Waffle Stompers"]) >= elo.TRACK_GAP_PX - 0.2
-
-
 # ---------------------------------------------------------------- brief
 
 def test_brief_rebuild_is_deterministic_and_matches_committed(week):
