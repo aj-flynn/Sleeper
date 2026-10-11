@@ -119,6 +119,7 @@ The list blocks three kinds of phrase: **filler** ("in the books," "without furt
 - `filing`
 - `process failure`
 - `autopsy`
+- `house brand`
 <!-- banned:end -->
 
 ## The voice checks
