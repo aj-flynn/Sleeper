@@ -1,0 +1,259 @@
+{
+ "season": "2026",
+ "league_id": "1319718857249665024",
+ "start": 1000.0,
+ "k": 32,
+ "margin_of_victory": false,
+ "weeks": {
+  "0": {
+   "1": {
+    "team": "Skat’s BruteForce Theorem",
+    "elo": 1000.0
+   },
+   "2": {
+    "team": "ThePeopleBeaters",
+    "elo": 1000.0
+   },
+   "3": {
+    "team": "Dak Side of the Sun",
+    "elo": 1000.0
+   },
+   "4": {
+    "team": "WELL! It's The Big Shough",
+    "elo": 1000.0
+   },
+   "5": {
+    "team": "Split Safety Syndicate",
+    "elo": 1000.0
+   },
+   "6": {
+    "team": "Rams of Steel",
+    "elo": 1000.0
+   },
+   "7": {
+    "team": "Kingslayers",
+    "elo": 1000.0
+   },
+   "8": {
+    "team": "Mendozareamazingpicks",
+    "elo": 1000.0
+   },
+   "9": {
+    "team": "hammball",
+    "elo": 1000.0
+   },
+   "10": {
+    "team": "Micah parsons fan club",
+    "elo": 1000.0
+   },
+   "11": {
+    "team": "Unsportsmanlike Conduct",
+    "elo": 1000.0
+   },
+   "12": {
+    "team": "J’Allen Waffle Stompers",
+    "elo": 1000.0
+   }
+  },
+  "1": {
+   "1": {
+    "team": "Skat’s BruteForce Theorem",
+    "elo": 984.0
+   },
+   "2": {
+    "team": "ThePeopleBeaters",
+    "elo": 1016.0
+   },
+   "3": {
+    "team": "Dak Side of the Sun",
+    "elo": 984.0
+   },
+   "4": {
+    "team": "WELL! It's The Big Shough",
+    "elo": 984.0
+   },
+   "5": {
+    "team": "Split Safety Syndicate",
+    "elo": 1016.0
+   },
+   "6": {
+    "team": "Rams of Steel",
+    "elo": 984.0
+   },
+   "7": {
+    "team": "Kingslayers",
+    "elo": 984.0
+   },
+   "8": {
+    "team": "Mendozareamazingpicks",
+    "elo": 1016.0
+   },
+   "9": {
+    "team": "hammball",
+    "elo": 984.0
+   },
+   "10": {
+    "team": "Micah parsons fan club",
+    "elo": 1016.0
+   },
+   "11": {
+    "team": "Unsportsmanlike Conduct",
+    "elo": 1016.0
+   },
+   "12": {
+    "team": "J’Allen Waffle Stompers",
+    "elo": 1016.0
+   }
+  },
+  "2": {
+   "1": {
+    "team": "Skat’s BruteForce Theorem",
+    "elo": 969.47
+   },
+   "2": {
+    "team": "ThePeopleBeaters",
+    "elo": 1000.0
+   },
+   "3": {
+    "team": "Dak Side of the Sun",
+    "elo": 1000.0
+   },
+   "4": {
+    "team": "WELL! It's The Big Shough",
+    "elo": 1000.0
+   },
+   "5": {
+    "team": "Split Safety Syndicate",
+    "elo": 1030.53
+   },
+   "6": {
+    "team": "Rams of Steel",
+    "elo": 968.0
+   },
+   "7": {
+    "team": "Kingslayers",
+    "elo": 968.0
+   },
+   "8": {
+    "team": "Mendozareamazingpicks",
+    "elo": 1000.0
+   },
+   "9": {
+    "team": "hammball",
+    "elo": 969.47
+   },
+   "10": {
+    "team": "Micah parsons fan club",
+    "elo": 1030.53
+   },
+   "11": {
+    "team": "Unsportsmanlike Conduct",
+    "elo": 1032.0
+   },
+   "12": {
+    "team": "J’Allen Waffle Stompers",
+    "elo": 1032.0
+   }
+  },
+  "3": {
+   "1": {
+    "team": "Skat’s BruteForce Theorem",
+    "elo": 988.32
+   },
+   "2": {
+    "team": "ThePeopleBeaters",
+    "elo": 982.53
+   },
+   "3": {
+    "team": "Dak Side of the Sun",
+    "elo": 982.6
+   },
+   "4": {
+    "team": "WELL! It's The Big Shough",
+    "elo": 984.0
+   },
+   "5": {
+    "team": "Split Safety Syndicate",
+    "elo": 1046.53
+   },
+   "6": {
+    "team": "Rams of Steel",
+    "elo": 985.47
+   },
+   "7": {
+    "team": "Kingslayers",
+    "elo": 986.91
+   },
+   "8": {
+    "team": "Mendozareamazingpicks",
+    "elo": 1016.0
+   },
+   "9": {
+    "team": "hammball",
+    "elo": 986.87
+   },
+   "10": {
+    "team": "Micah parsons fan club",
+    "elo": 1014.53
+   },
+   "11": {
+    "team": "Unsportsmanlike Conduct",
+    "elo": 1013.15
+   },
+   "12": {
+    "team": "J’Allen Waffle Stompers",
+    "elo": 1013.09
+   }
+  },
+  "4": {
+   "1": {
+    "team": "Skat’s BruteForce Theorem",
+    "elo": 973.52
+   },
+   "2": {
+    "team": "ThePeopleBeaters",
+    "elo": 1000.07
+   },
+   "3": {
+    "team": "Dak Side of the Sun",
+    "elo": 1001.51
+   },
+   "4": {
+    "team": "WELL! It's The Big Shough",
+    "elo": 1001.34
+   },
+   "5": {
+    "team": "Split Safety Syndicate",
+    "elo": 1027.62
+   },
+   "6": {
+    "team": "Rams of Steel",
+    "elo": 969.54
+   },
+   "7": {
+    "team": "Kingslayers",
+    "elo": 1002.84
+   },
+   "8": {
+    "team": "Mendozareamazingpicks",
+    "elo": 998.46
+   },
+   "9": {
+    "team": "hammball",
+    "elo": 1004.08
+   },
+   "10": {
+    "team": "Micah parsons fan club",
+    "elo": 1029.33
+   },
+   "11": {
+    "team": "Unsportsmanlike Conduct",
+    "elo": 995.81
+   },
+   "12": {
+    "team": "J’Allen Waffle Stompers",
+    "elo": 995.88
+   }
+  }
+ }
+}

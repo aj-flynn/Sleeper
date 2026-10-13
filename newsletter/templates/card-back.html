@@ -72,6 +72,20 @@ h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;ma
 .check .up .arw{border-bottom:.5rem solid var(--maroon);border-top-width:0}
 .check .down .arw{border-top:.5rem solid var(--ink);border-bottom-width:0}
 .check p{grid-column:2 / -1;margin:.3rem 0 0;font-size:.9375rem}
+/* Elo chart: under the rankings. Plot and legend share the rose card so a color
+   reads the same on the line and on its key. */
+.elo-chart{margin:1.75rem 0 0;max-width:46rem;background:#F1E2DF;border:3px solid var(--ink);border-radius:5px;padding:.45rem .45rem .55rem}
+@media (min-width:64rem){.elo-chart{max-width:none}}
+.elo-chart > svg{display:block;width:100%;height:auto;background:#F1E2DF}
+.elo-chart .elo-tick{font:700 11px var(--nar);fill:var(--ink)}
+.elo-chart .elo-axis{font:700 12px var(--nar);fill:var(--maroon)}
+.elo-legend{list-style:none;margin:.35rem .2rem 0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:.15rem .55rem}
+@media (min-width:52rem){.elo-legend{grid-template-columns:repeat(3,1fr)}}
+@media (min-width:64rem){.elo-legend{grid-template-columns:repeat(4,1fr)}}
+.elo-legend li{display:grid;grid-template-columns:2rem minmax(0,1fr);gap:.35rem;align-items:center;min-height:1.35rem}
+.elo-legend .elo-key{width:2rem;height:.75rem;display:block}
+.elo-legend .nm{font-weight:700;font-size:.875rem;line-height:1.25;overflow-wrap:anywhere}
+@media (min-width:52rem){.elo-legend .nm{font-size:.9375rem}}
 .colhead{display:grid;grid-template-columns:1fr auto;gap:1rem;max-width:46rem;margin:1.25rem 0 0;padding:0 0 .35rem 2.6rem;border-bottom:3px solid var(--ink);font-size:.8125rem;font-weight:700}
 .colhead span:nth-child(n+3){display:none}
 @media (min-width:64rem){
@@ -165,6 +179,7 @@ h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;ma
     <ol class="check">
     {{#rankings}}<li><span class="rk">{{rank}}</span><span class="nm">{{team}}<small>{{manager}}, {{record}}</small></span><span class="fig">{{elo}}<small class="{{#elo_up}}up{{/elo_up}}{{^elo_up}}down{{/elo_up}}"><span class="arw" aria-hidden="true"></span>{{elo_change}}</small></span><p>{{take}}</p></li>{{/rankings}}
     </ol>
+    {{elo_chart}}
   </section>
 
   <section aria-labelledby="s-recaps">

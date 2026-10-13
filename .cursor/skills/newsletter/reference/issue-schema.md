@@ -8,7 +8,7 @@ Every issue has these sections in this order. Never reorder, rename, or drop one
 
 1. **Masthead**: league name, then one line with the week, month, and "presented by Unsportsmanlike Conduct." Nothing else: no format line, no note about data sources.
 2. **Lead story**: one headline, one dek, three or four paragraphs, and exactly three big stats. No byline. Pick the single most surprising specific fact of the week and build around it.
-3. **Power rankings**: all 12 teams **in Elo order** (see [league.md](league.md#elo)), each with manager, record, Elo rating, this week's Elo change, and a two-to-three-sentence take. No intro line. The order is not opinion; the takes are. Takes can still talk about points.
+3. **Power rankings**: all 12 teams **in Elo order** (see [league.md](league.md#elo)), each with manager, record, Elo rating, this week's Elo change, and a two-to-three-sentence take. No intro line. The order is not opinion; the takes are. Takes can still talk about points. Directly under the list is the **Elo progression chart**: render draws it from `newsletter/elo/<season>.json` as inline SVG. Not a writer field. Do not put chart copy, a caption, or an `elo_chart` key in `issue.json`.
 4. **Matchup recaps**: the "Find your team" list (built automatically), then all six games, each with both team names and managers, final score, margin, a headline, one paragraph that explains the result through real stat lines and game context, and two key performers per side, each with NFL team, fantasy points, and box-score line.
 5. **Awards and standouts**: four or five awards, each citing at least one real box-score stat, then the top starter at each position with its stat line, then one bench note, then the injuries to rostered players that the brief reports. No intro lines, and no standalone list of NFL results.
 6. **Transactions**: the callout (`asides.transactions`), then waiver claims with FAAB and a letter grade, then trades, then free-agent adds. No summary paragraph. If there were no trades, say so in one line; don't drop the block.
@@ -34,4 +34,4 @@ Copy is inserted as raw HTML, so you can use `<em>` or `<strong>`, and you must 
 | `footer` | `methods` (how the sources were used), `sources` (`{name, url}` list), and `credit`. |
 | `derived` | The arithmetic behind every number the brief doesn't print. Not rendered. See [facts.md](facts.md#the-derived-list). |
 
-`build.py` adds layout-only fields before rendering: `recap_index` (the "Find your team" list, every team alphabetically with its result and card) and `elo_up` on rankings. Don't write those by hand.
+`build.py` adds layout-only fields before rendering: `recap_index` (the "Find your team" list, every team alphabetically with its result and card), `elo_up` on rankings, and `elo_chart` (the inline SVG and legend). Don't write those by hand.

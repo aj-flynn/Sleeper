@@ -22,7 +22,7 @@ matchup has a score, so a half-finished week can't produce a brief. build_brief(
 is deterministic: the same raw/ always produces byte-identical brief.json and brief.md. Fantasy points
 always come from the league's matchup data, because league scoring (e.g. -2 per interception) differs
 from Sleeper's defaults. The brief also carries each team's Elo (see elo_ratings), which orders the
-power rankings.
+power rankings, and appends this week to newsletter/elo/<season>.json (see elo.record_week).
 """
 
 import argparse
@@ -423,6 +423,11 @@ def build_brief(out, week, season="2026", league=LEAGUE_ID):
           "body_part": p.get("injury_body_part"), "fantasy_team": next((team_name(x["roster_id"]) for x in rosters if pid in (x.get("players") or [])), None)}
          for pid, p in players.items() if pid in rostered and p.get("injury_status")),
         key=lambda x: (x["fantasy_team"] or "", x["player"]))
+
+    # Record this week's Elo in the season history file. Reads weeks 0..N-1 from the
+    # file and writes only week N. A past-week mismatch raises EloHistoryError.
+    import elo
+    elo.record_week(str(season), week, matchups, [x["roster_id"] for x in rosters], team_name)
 
     brief = {
         "league": {"name": league_data["name"], "league_id": league, "season": str(season), "week": week,

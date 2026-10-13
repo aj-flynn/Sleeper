@@ -7,7 +7,8 @@
 Checks, at 390px (phone) and 1280px (desktop) wide:
   no horizontal scroll, no network requests (only data: URLs and the file itself), every
   template font loaded from the embedded data, no console errors or page errors, no {{ left
-  over, and every "Find your team" link lands on a recap card.
+  over, every "Find your team" link lands on a recap card, and the Elo chart is present
+  (12 lines, weekly points, 12-name legend).
 Prints one JSON object (the checks and their results) and exits 1 if any check failed.
 Needs Playwright with Chromium: pip install -r newsletter/requirements.txt && python3 -m playwright install chromium
 """
@@ -61,6 +62,24 @@ def check_page(browser, url, name, viewport, shots=None):
               text: a.querySelector('.nm')?.textContent, href: a.getAttribute('href'),
               lands: !!document.querySelector(a.getAttribute('href')),
             })),
+            elo: {
+              svg: !!document.querySelector('#elo-chart'),
+              lines: document.querySelectorAll('#elo-chart path.elo-line').length,
+              points: document.querySelectorAll('#elo-chart circle.elo-point').length,
+              legend: document.querySelectorAll('.elo-legend li').length,
+              colorMatch: (() => {
+                const line = {};
+                document.querySelectorAll('#elo-chart path.elo-line').forEach(p => {
+                  line[p.dataset.team] = p.getAttribute('stroke');
+                });
+                const rows = [...document.querySelectorAll('.elo-legend li')].map(li => {
+                  const team = li.dataset.team || li.querySelector('.nm')?.textContent;
+                  const stroke = li.querySelector('.elo-key path')?.getAttribute('stroke');
+                  return {team, stroke, ok: !!(team && stroke && line[team] === stroke)};
+                });
+                return {ok: rows.length === 12 && rows.every(r => r.ok), rows};
+              })(),
+            },
         })"""
     )
     results = []
@@ -79,6 +98,11 @@ def check_page(browser, url, name, viewport, shots=None):
     lost = [f for f in layout["finder"] if not f["lands"]]
     gate("find_your_team_links", len(layout["finder"]) == 12 and not lost,
          f"{len(layout['finder'])} links, {len(lost)} broken" + (f": {lost}" if lost else ""))
+    elo = layout["elo"]
+    gate("elo_chart", elo["svg"] and elo["lines"] == 12 and elo["legend"] == 12 and elo["points"] >= 24
+         and elo.get("colorMatch", {}).get("ok"),
+         f"svg={elo['svg']} lines={elo['lines']} points={elo['points']} legend={elo['legend']} "
+         f"colors={elo.get('colorMatch', {}).get('ok')}")
     if shots:
         shots.mkdir(parents=True, exist_ok=True)
         page.screenshot(path=str(shots / f"{name}-first-screen.png"))

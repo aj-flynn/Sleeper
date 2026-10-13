@@ -9,7 +9,7 @@ This skill is both the runbook and the textbook. Read the overview, then each st
 
 ## 1. Overview
 
-**What it is.** A weekly newsletter for Rebuilders Anonymous, a 12-team dynasty fantasy football league on Sleeper ([league details](reference/league.md)). Each issue is one self-contained HTML page with a lead story, power rankings, six matchup recaps, awards, transactions, and next week's games. Its signature: the fantasy story is told through the real football. A fantasy score is explained by the box-score line and the NFL game that produced it. It's written in one voice, **Boston Connor**: a loud, overconfident, wildly biased Boston sports fan. The owner's guide, [`voice/boston-connor.md`](voice/boston-connor.md), is the single source of truth for tone. The takes are absurd on purpose; the facts never are.
+**What it is.** A weekly newsletter for Rebuilders Anonymous, a 12-team dynasty fantasy football league on Sleeper ([league details](reference/league.md)). Each issue is one self-contained HTML page with a lead story, power rankings and the Elo progression chart, six matchup recaps, awards, transactions, and next week's games. Its signature: the fantasy story is told through the real football. A fantasy score is explained by the box-score line and the NFL game that produced it. It's written in one voice, **Boston Connor**: a loud, overconfident, wildly biased Boston sports fan. The owner's guide, [`voice/boston-connor.md`](voice/boston-connor.md), is the single source of truth for tone. The takes are absurd on purpose; the facts never are.
 
 **How it's made.** Scripts do everything with one right answer. Models do only the two jobs that need judgment: writing and editing. A human approves before anything publishes.
 
@@ -35,7 +35,7 @@ flowchart TD
 - Every number traces to the brief, or to arithmetic on the brief that the fact check has recomputed.
 - Every recap, the lead, and every award explain the fantasy result through real box-score numbers.
 - The writing is Boston Connor, per [the guide](voice/boston-connor.md): the lead and every recap follow its five-step delivery, sentences are short and blunt, ALL CAPS is rare, not every sentence is a joke, no catchphrase repeats, and every absurd take reads as opinion about a real fact. The editor grades every item of the guide ([checklist](reference/voice-fidelity.md)).
-- The page reads well on a phone: no sideways scroll, every manager can find their team in one tap, fonts embedded, nothing loaded from the network.
+- The page reads well on a phone: no sideways scroll, every manager can find their team in one tap, fonts embedded, nothing loaded from the network, and the Elo chart under the power rankings is readable at 390px.
 - The editor has no open blocking notes, and the owner has approved the pull request.
 
 **Who does what.** Every step ends in a named gate: a command that prints pass or fail and records the result in `newsletter/issues/<season>-week<N>/verification.json`.
@@ -55,7 +55,7 @@ flowchart TD
 
 `run.py` is short for `python3 newsletter/run.py`. Run with no stage, `python3 newsletter/run.py --week N` runs steps 1 to 9 in order and stops at the first gate that doesn't pass. Exit code 0 means every automated gate passed, 1 means a gate failed, and 3 means the pipeline is waiting on a subagent's output.
 
-**Words used here.** *Brief*: the week's data, joined and written to `brief.md` and `brief.json`; the only source of facts. *Gate*: a check with a pass or fail result and a command that reproduces it. *Subagent*: a separate Cursor agent with its own instructions and pinned model, defined in `.cursor/agents/`. *Main agent*: the agent running this skill; it runs the scripts and hands off to subagents. *Schema 3*: the current shape of `issue.json`. *Derived number*: a number in the copy that is arithmetic on brief numbers, such as a margin or a sum. *Elo*: the rating that orders the power rankings ([formula](reference/league.md#elo)). *FAAB*: free agent acquisition budget, the $200 each team bids on waivers with. *Superflex*: a lineup slot that can hold a quarterback. *PPR*: a point per reception.
+**Words used here.** *Brief*: the week's data, joined and written to `brief.md` and `brief.json`; the only source of facts. *Gate*: a check with a pass or fail result and a command that reproduces it. *Subagent*: a separate Cursor agent with its own instructions and pinned model, defined in `.cursor/agents/`. *Main agent*: the agent running this skill; it runs the scripts and hands off to subagents. *Schema 3*: the current shape of `issue.json`. *Derived number*: a number in the copy that is arithmetic on brief numbers, such as a margin or a sum. *Elo*: the rating that orders the power rankings ([formula](reference/league.md#elo)). *Elo history*: the committed file `newsletter/elo/<season>.json`, one snapshot per week (including week 0 at 1000) that is never silently recalculated. *FAAB*: free agent acquisition budget, the $200 each team bids on waivers with. *Superflex*: a lineup slot that can hold a quarterback. *PPR*: a point per reception.
 
 ## 2. Before you start
 
@@ -79,16 +79,16 @@ Each step has the same parts: what it does, why it exists, its inputs and output
 
 ### Step 2: Build the brief
 
-- **What.** Joins `raw/` into one readable brief: standings, the Elo table, every matchup with each player's fantasy points next to their real stat line, NFL games with ESPN's recap text, transactions, FAAB, next week, injuries. [Full contents](reference/facts.md#what-the-brief-contains).
-- **Why.** The writer and editor get one complete, trustworthy source and never touch an API. Elo is computed here, by code, so the rankings order is never a judgment call.
-- **In → out.** `raw/` → `brief.md`, `brief.json`.
-- **Run by.** Script: `python3 newsletter/run.py brief --week N`. No network.
-- **Gate `brief.reproducible`.** The brief is built twice from the same `raw/` and both builds must be byte-identical.
-- **Failure and fix.** A failure means the builder has become non-deterministic (for example, iterating a set). Fix `fetch_week.build_brief`; never edit the brief by hand.
+- **What.** Joins `raw/` into one readable brief: standings, the Elo table, every matchup with each player's fantasy points next to their real stat line, NFL games with ESPN's recap text, transactions, FAAB, next week, injuries. [Full contents](reference/facts.md#what-the-brief-contains). It also records this week's Elo in `newsletter/elo/<season>.json`.
+- **Why.** The writer and editor get one complete, trustworthy source and never touch an API. Elo is computed here, by code, so the rankings order is never a judgment call. The history file is the season's ledger: week N is computed from the recorded week N-1 ratings plus this week's games, then written. Past weeks are only read. If a recompute of a past week disagrees with the file, the step fails instead of quietly rewriting history.
+- **In → out.** `raw/` plus `newsletter/elo/<season>.json` (weeks 0 through N-1) → `brief.md`, `brief.json`, and the same history file with week N appended or overwritten.
+- **Run by.** Script: `python3 newsletter/run.py brief --week N`. No network. This is a script step, not a model step. Rerunning week N overwrites that week with the same numbers (idempotent) and leaves every other week alone.
+- **Gate `brief.reproducible`.** The brief is built twice from the same `raw/` and both builds must be byte-identical, including the history file.
+- **Failure and fix.** A failure means the builder has become non-deterministic (for example, iterating a set), or a past week in `newsletter/elo/<season>.json` no longer matches a recompute from `raw/`. Fix `fetch_week.build_brief` or restore the history file; never edit the brief or the history file by hand. A missing history file when recording any week after week 1 means the season was never backfilled (`python3 newsletter/elo.py --backfill --season 2026 --through 4` seeded 2026).
 
 ### Step 3: Check the brief
 
-- **What.** Sanity-checks the brief: 12 teams and 6 matchups, each margin equals the score difference, each team's starters add up to its score, wins balance losses, points for balance points against, Elo recomputed from `raw/` matches, this week's Elo changes sum to zero, the table is in Elo order, every NFL game is final, and `brief.md` matches `brief.json`.
+- **What.** Sanity-checks the brief: 12 teams and 6 matchups, each margin equals the score difference, each team's starters add up to its score, wins balance losses, points for balance points against, Elo recomputed from `raw/` matches, this week's Elo changes sum to zero, the table is in Elo order, the Elo history file has weeks 0 through N and this week matches the brief, every NFL game is final, and `brief.md` matches `brief.json`.
 - **Why.** A bad brief makes every downstream check pass on wrong data. This is the one place to catch it.
 - **Run by.** Script: `python3 newsletter/run.py check-brief --week N`.
 - **Gate `brief.valid`.** Every check above passes. The details also count starters with no stat record, worth a look if it's more than a handful.
@@ -96,7 +96,7 @@ Each step has the same parts: what it does, why it exists, its inputs and output
 
 ### Step 4: Write the issue (writer subagent, Opus)
 
-- **What.** The writer reads the brief, picks the week's three most surprising facts, and writes every section of `issue.json` in the [fixed section order](reference/issue-schema.md), following the [Boston Connor guide](voice/boston-connor.md) exactly (with [worked examples](reference/voice.md)) and the [fact rules](reference/facts.md). It also writes `writer.json` with its story picks.
+- **What.** The writer reads the brief, picks the week's three most surprising facts, and writes every section of `issue.json` in the [fixed section order](reference/issue-schema.md), following the [Boston Connor guide](voice/boston-connor.md) exactly (with [worked examples](reference/voice.md)) and the [fact rules](reference/facts.md). It also writes `writer.json` with its story picks. It does not write the Elo chart: render draws that from the history file.
 - **Why a model.** Finding the story and landing it in a very specific comic voice without bending a single fact is judgment. This is the reason the newsletter exists, so it gets the strongest writing model: **Opus**, pinned as `claude-opus-5-5[effort=high]` in `.cursor/agents/writer.md`.
 - **In → out.** The voice guide, `brief.md`, `brief.json`, the reference files, and the previous week's issue if one exists (for structure only, never an older draft of this week) → `issue.json` (with its `derived` list) and `writer.json`.
 - **Run by.** The main agent hands off to the `writer` subagent (see [Handoffs](#4-handoffs)).
@@ -123,15 +123,15 @@ Each step has the same parts: what it does, why it exists, its inputs and output
 
 ### Step 7: Render
 
-- **What.** Fills the Card Back template with `issue.json`, embeds the fonts as data URLs, and writes one self-contained `issue.html` in the issue folder.
-- **Why.** The design is final ([Card Back notes](reference/design.md)); rendering is mechanical and must never drift.
-- **Run by.** Script: `python3 newsletter/run.py render --week N`. It refuses if the issue no longer passes schema, lint, and facts.
-- **Gate `render.reproducible`.** Two renders of the same issue are byte-identical, and the file's hash is recorded.
-- **Failure and fix.** A check failure here means `issue.json` changed after step 4; rerun from `check-issue`. Never render to the repo root: a root-level page publishes once merged.
+- **What.** Fills the Card Back template with `issue.json`, embeds the fonts as data URLs, draws the Elo progression chart as inline SVG from `newsletter/elo/<season>.json`, and writes one self-contained `issue.html` in the issue folder.
+- **Why.** The design is final ([Card Back notes](reference/design.md)); rendering is mechanical and must never drift. The chart is generated in Python at render time so the HTML stays one file: no JavaScript, no CSS from the network, no fonts from a CDN.
+- **Run by.** Script: `python3 newsletter/run.py render --week N`. It refuses if the issue no longer passes schema, lint, and facts, or if the chart is missing.
+- **Gate `render.reproducible`.** Two renders of the same issue are byte-identical, the file's hash is recorded, and the HTML contains the 12-team Elo chart (`#elo-chart`).
+- **Failure and fix.** A check failure here means `issue.json` changed after step 4, or the history file is missing this week; rerun from `check-issue` or `brief`. Never render to the repo root: a root-level page publishes once merged.
 
 ### Step 8: Verify the page
 
-- **What.** Opens `issue.html` in headless Chromium at phone (390px) and desktop (1280px) widths and checks: no horizontal scroll, no network requests, every font loaded, no console errors, no `{{` left over, and all twelve "Find your team" links landing on their cards. Saves four screenshots.
+- **What.** Opens `issue.html` in headless Chromium at phone (390px) and desktop (1280px) widths and checks: no horizontal scroll, no network requests, every font loaded, no console errors, no `{{` left over, all twelve "Find your team" links landing on their cards, and the Elo chart present (12 lines, weekly points, 12-name legend). Saves four screenshots.
 - **Why.** Most readers open the issue on a phone. These are the failures that made past issues look broken.
 - **Run by.** Script: `python3 newsletter/run.py verify --week N` (or `python3 newsletter/verify_html.py <html>` for the raw JSON report).
 - **Gates `html.phone`, `html.desktop`, `html.screenshots`.** Every check passes at each width, and all four screenshots exist.
@@ -139,7 +139,7 @@ Each step has the same parts: what it does, why it exists, its inputs and output
 
 ### Step 9: Final checklist
 
-- **What.** Re-checks everything in one place: every earlier gate passed; the issue still passes schema, lint, and facts; `issue.html` is the render of the current `issue.json`; the HTML gates checked this exact file; the editor gate still holds; nothing is marked as sample data; `2026-week2.html`, `rebuilders-anonymous-draft-review.html`, `README.md`, the template, and the fonts are unchanged from `main`; no new page sits at the repo root; and no live page links to `newsletter/issues/`.
+- **What.** Re-checks everything in one place: every earlier gate passed; the issue still passes schema, lint, and facts; `issue.html` is the render of the current `issue.json`; the HTML gates checked this exact file; the editor gate still holds; nothing is marked as sample data; `newsletter/elo/<season>.json` has weeks 0 through N and matches the brief; the rendered HTML includes the Elo chart; `2026-week2.html`, `rebuilders-anonymous-draft-review.html`, `README.md`, the template, and the fonts are unchanged from `main`; no new page sits at the repo root; and no live page links to `newsletter/issues/`.
 - **Why.** Single stages can be rerun out of order. This gate makes sure the files going into the PR are the files that were checked.
 - **Run by.** Script: `python3 newsletter/run.py checklist --week N`.
 - **Gate `checklist.final`.** Every item passes.
@@ -183,12 +183,23 @@ The pipeline separates what's specific to this league from what isn't. To run it
 
 1. **League ID and season.** Change `LEAGUE_ID` in `newsletter/fetch_week.py` (or pass `--league`) and pass `--season`. Everything Sleeper-side, including scoring, lineup slots, and team names, is read from the league itself.
 2. **League size.** The checks assume 12 teams and 6 games: `validate()` in `newsletter/build.py`, `brief_problems()` in `newsletter/run.py`, and the Find-your-team count in `newsletter/verify_html.py`. Make those numbers come from the brief's team count.
-3. **Rankings.** Elo with K = 32 suits a 14-week season. If the league wants another order, change `elo_table()` and keep it in code, so the order stays a fact and not a taste.
+3. **Rankings.** Elo with K = 32 suits a 14-week season. If the league wants another order, change `elo_table()` and keep it in code, so the order stays a fact and not a taste. Start a new season's history file with `python3 newsletter/elo.py --backfill --season <Y> --through 1` after week 1, then let the brief step append each later week.
 4. **Voice.** Get a voice guide from the new league's owner and commit it verbatim under `voice/`. Point the writer and editor agent files and `VOICE_GUIDE` in `run.py` at it, rewrite the item table in `reference/voice-fidelity.md` to match the new guide's items, rewrite the examples and banned list in `reference/voice.md`, and retune the `VOICE` thresholds in `build.py` on a real issue.
 5. **League facts.** Replace `reference/league.md` (scoring, teams, history).
 6. **Design.** Pick a template with the owner using `.cursor/skills/frontend-design/SKILL.md`, and set `TEMPLATE` in `build.py`. The HTML gate works for any template that keeps the `#teams` jump list.
 7. **Another platform** (ESPN or Yahoo fantasy). Rewrite only `fetch_raw()` so it saves the same `raw/` shapes, or adapt `build_brief()`. Every step after the brief is platform-neutral.
 8. **Run the tests** with a finished week of the new league as the fixture, and pin its Elo values the way `test_elo_reproduces_week4` does.
+
+## 7. The Elo progression chart
+
+The chart is a section of the issue, directly under the power rankings. It is not writer copy and not an editor note. Scripts own it end to end. Writing and review still use the pinned Anthropic models: Opus for the writer (`claude-opus-5-5[effort=high]`), Sonnet for the editor (`claude-sonnet-5-5[effort=high]`).
+
+- **History.** `newsletter/elo/<season>.json` is the season ledger, keyed by week and then Sleeper `roster_id`. Week 0 is 1000 for every team. The brief step reads weeks 0 through N−1, applies this week's games to the recorded week N−1 ratings, and writes only week N. Rerunning a week is idempotent. A recompute that disagrees with a past week fails the brief instead of rewriting history. Never edit the file by hand. A new season starts with `python3 newsletter/elo.py --backfill --season <Y> --through 1` after week 1.
+- **Render.** `elo.chart_html` reads that file and inserts inline SVG into the Card Back template (`{{elo_chart}}`). One monotone-cubic line per team, a point on each recorded week, a week axis, an Elo axis, twelve Card Back inks keyed by roster id, and a Find-your-team legend (team names first). Each legend key is the same stroke and dot as that team's line. The 1000 line is a dashed ink baseline, not a team color. No JavaScript, no extra fonts, no CDNs.
+- **Overlapping lines.** Teams that share a rating sit on the same path. That is correct. Do not offset them. They will split when the ratings do.
+- **Gates.** `brief.valid` checks weeks 0 through N and that week N matches the brief. `render.reproducible` requires `#elo-chart`. `html.phone` and `html.desktop` require 12 lines, a point per recorded week, a 12-name legend, and each legend stroke equal to that team's line. `checklist.final` re-checks the history file and that the HTML includes the chart.
+
+Details: [league.md](reference/league.md#elo), [design.md](reference/design.md#the-elo-progression-chart), [issue-schema.md](reference/issue-schema.md).
 
 ## Reference
 
@@ -197,7 +208,7 @@ The pipeline separates what's specific to this league from what isn't. To run it
 - [reference/voice-fidelity.md](reference/voice-fidelity.md): the editor's item-by-item checklist against the guide.
 - [reference/facts.md](reference/facts.md): sources of truth, the fact check, the `derived` list, what the brief contains.
 - [reference/issue-schema.md](reference/issue-schema.md): section order and every field of schema 3.
-- [reference/league.md](reference/league.md): the league, teams, and the Elo formula.
-- [reference/design.md](reference/design.md): Card Back, the owner's design notes, and the HTML checks.
+- [reference/league.md](reference/league.md): the league, teams, the Elo formula, and the weekly history file.
+- [reference/design.md](reference/design.md): Card Back, the owner's design notes, the Elo chart, and the HTML checks.
 - `.cursor/agents/writer.md`, `.cursor/agents/editor.md`: the two subagents.
-- `newsletter/run.py`, `fetch_week.py`, `build.py`, `verify_html.py`: the scripts. `newsletter/tests/`: the tests.
+- `newsletter/run.py`, `fetch_week.py`, `elo.py`, `build.py`, `verify_html.py`: the scripts. `newsletter/tests/`: the tests. `newsletter/elo/`: the committed weekly Elo history.

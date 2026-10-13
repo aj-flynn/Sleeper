@@ -54,7 +54,7 @@ BOX_SCORE_WORDS = (
 BOX_SCORE = re.compile(rf"\b\d[\d,.]*\s+(?:\w+\s+){{0,3}}?(?:{BOX_SCORE_WORDS})\b", re.I)
 
 # Fields that hold no copy: skipped by the linter and the number trace.
-NOT_COPY = ("url", "derived")
+NOT_COPY = ("url", "derived", "elo_chart")
 NOT_FACTS = NOT_COPY + ("rank", "issue_number", "week", "schema", "season")
 
 
@@ -176,6 +176,9 @@ def derive(data):
     data["recap_index"] = sorted(teams, key=lambda t: re.sub(r"[^a-z0-9]", "", t["team"].lower()))
     for r in data.get("rankings", []):
         r["elo_up"] = signed(r["elo_change"]) >= 0
+    import elo
+    meta = data.get("meta") or {}
+    data["elo_chart"] = elo.chart_html(meta.get("season", "2026"), int(meta["week"]))
     return data
 
 
@@ -246,6 +249,12 @@ def schema_problems(data):
         render(derive(data))
     except (KeyError, TypeError, AttributeError) as e:
         problems.append(f"template: {e}")
+    except Exception as e:
+        import elo
+        if isinstance(e, elo.EloHistoryError):
+            problems.append(f"elo chart: {e}")
+        else:
+            raise
     return problems
 
 
