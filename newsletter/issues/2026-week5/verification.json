@@ -1,0 +1,74 @@
+{
+ "issue": "2026-week5",
+ "season": "2026",
+ "week": 5,
+ "updated_at": "2026-10-14T13:01:37Z",
+ "result": "waiting",
+ "stopped_at": "check-issue",
+ "next_action": "Hand off to the writer subagent: python3 newsletter/run.py handoff --agent writer --week 5",
+ "models": {
+  "writer": "claude-opus-5-5[effort=high]",
+  "editor": "claude-sonnet-5-5[effort=high]"
+ },
+ "artifacts": {
+  "brief.json": "f8eeb63ec923dbc9eb96591f37e7ca1975799a651e079d8f4f500a235963da45",
+  "brief.md": "99878c16dc385268ec56c8de81cb82f0799cb733cccdc24090f1fbc1e619c324",
+  "issue.json": null,
+  "review.json": null,
+  "writer.json": null,
+  "issue.html": null
+ },
+ "gates": [
+  {
+   "gate": "fetch.week_final",
+   "step": "fetch",
+   "owner": "script",
+   "status": "pass",
+   "checked_at": "2026-10-14T13:01:37Z",
+   "command": "python3 newsletter/run.py fetch --week 5",
+   "details": {
+    "raw": "fetched",
+    "fetched_at": "2026-10-14T13:01Z"
+   }
+  },
+  {
+   "gate": "brief.reproducible",
+   "step": "brief",
+   "owner": "script",
+   "status": "pass",
+   "checked_at": "2026-10-14T13:01:37Z",
+   "command": "python3 newsletter/run.py brief --week 5",
+   "details": {
+    "brief.json": "f8eeb63ec923dbc9eb96591f37e7ca1975799a651e079d8f4f500a235963da45",
+    "brief.md": "99878c16dc385268ec56c8de81cb82f0799cb733cccdc24090f1fbc1e619c324",
+    "elo": "99875c3c59536f09b03466a639f818f403b123d9e03aa44ff72a885c3868386a"
+   }
+  },
+  {
+   "gate": "brief.valid",
+   "step": "check-brief",
+   "owner": "script",
+   "status": "pass",
+   "checked_at": "2026-10-14T13:01:37Z",
+   "command": "python3 newsletter/run.py check-brief --week 5",
+   "details": {
+    "teams": 12,
+    "matchups": 6,
+    "nfl_games": 15,
+    "transactions": 22,
+    "starters_without_stat_record": 2
+   }
+  },
+  {
+   "gate": "issue.present",
+   "step": "write",
+   "owner": "writer (claude-opus-5-5)",
+   "status": "waiting",
+   "checked_at": "2026-10-14T13:01:37Z",
+   "command": "python3 newsletter/run.py check-issue --week 5",
+   "details": [
+    "/workspace/newsletter/issues/2026-week5/issue.json doesn't exist yet"
+   ]
+  }
+ ]
+}
