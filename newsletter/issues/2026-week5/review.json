@@ -1,219 +1,219 @@
 {
  "agent": "editor",
- "model": "claude-sonnet-5-5[effort=high]",
- "round": 1,
- "reviewed_at": "2026-10-17T17:14:27Z",
- "issue_sha256": "d575a87137d6b0299fa92aa496aa9646c77a4c8f7115a002b6c67cc9f2271079",
+ "model": "grok-4.7-high-fast",
+ "round": 2,
+ "reviewed_at": "2026-10-17T19:43:55Z",
+ "issue_sha256": "c4fe08a1d85290185ef20564e497e78c5faf2f16fb8682f2d5d856024ca97024",
  "verdict": "revise",
- "summary": "Strong Boston Connor draft. The lead, all six recaps, the awards, the transactions and the preview trace cleanly to the brief, and every voice item passes except one factual slip. The Patriot of the Week blurb says Stevenson's run \"started a 45-point day\". ESPN has New England's scoring open with Maye's 35-yard touchdown to Douglas, so that sentence is wrong and blocks approval.",
+ "summary": "Round 1's fact errors are fixed, and the draft still sounds like Boston Connor. The preview puts Dallas at Lambeau on Monday night; that kickoff is Sunday at 8:20 PM EDT.",
  "voice_fidelity": {
   "guide": ".cursor/skills/newsletter/voice/boston-connor.md",
   "items": [
    {
     "id": "voice.conviction",
     "result": "pass",
-    "evidence": "\"Dumbest move of the year.\" (lead.body[0]); \"Tenth is a gift. In a 12-team league I'd rank them 13th.\" (rankings[9]); \"Elo got this one right.\" (rankings[7])"
+    "evidence": "Start your Patriots. I'm not asking. Write that down. It's the rule now. A Patriot was on the best lineup of the week. That's the reason. End of discussion."
    },
    {
     "id": "voice.boston_bias",
     "result": "pass",
-    "evidence": "\"Benedict Arnold would've kept the Patriots defense.\" (lead); \"they throw you out of Fenway\" (recaps[2]); \"like the Bruins borrowing a goalie from Montreal\" (recaps[3]); \"One Patriot in the lineup, so A-minus.\" (awards[0]); \"Patriot of the Week\" award. No invented facts."
+    "evidence": "Who the hell does that? At Gillette? Wake me when a Patriot does that here. The sponsor started Maye, four touchdown passes and a rushing score, and scored 177.00. That gets them seventh. Do it again."
    },
    {
     "id": "voice.unimpressed_elsewhere",
     "result": "pass",
-    "evidence": "\"A Bills quarterback carrying a team in my power rankings. Disgusting.\" (rankings[4]); \"Seventeen catches and you still lose to Buffalo. Figures.\" (awards[3]); \"an NFL record per ESPN. Split lost anyway.\" (asides.awards)"
+    "evidence": "Wake me when a Patriot does that here. Seventeen catches. A blowout. Pathetic. Best running score of the week. The margin was a rounding error. Still a loss."
    },
    {
     "id": "voice.knowledge_plus_absurdity",
     "result": "pass",
-    "evidence": "Real lines such as Warren's 80-yard catch and 50-yard run, Doubs's 1 catch for 16 yards, and Mevis's 0 for 2 lead to \"That's on Kingslayers, not Doubs. Start him again next week or I riot.\" and \"A kicker who scores negative isn't unlucky. He's a double agent.\""
+    "evidence": "Shough went 16 of 25 for 96 yards and two interceptions. Score: minus 0.16. A negative quarterback is correct if the other guy scores 69.56."
    },
    {
     "id": "voice.sarcastic_stubborn",
     "result": "pass",
-    "evidence": "Sarcastic and confrontational throughout: \"Explain that to me.\" (lead), \"Ninth feels generous.\" (rankings[8]), \"Check who's playing. It takes ten seconds.\" (recaps[1]). The self-deprecating beats are thin: \"I hate how this happened.\" (recaps[3]) and \"RIGGED.\" (rankings[6]). UC never takes a real shot, which is a taste note (N2), not a miss."
+    "evidence": "BENCHED. I don't care that they won by 74.92. Elo can live with it. I won't. Right total. Wrong bench. I'm still mad. The sponsor started Maye. That gets them seventh."
    },
    {
     "id": "voice.never_concedes",
     "result": "pass",
-    "evidence": "No winking or \"just kidding.\" \"It works. It still feels wrong.\" (recaps[3]) reads as grudging, not as admitting the Bruins line is silly. \"Bold. Stupid, but bold.\" (rankings[5]) stays in character."
+    "evidence": "The name is a fraud. The win can stay. I'm still mad. Write that down. It's the rule now. No wink and no walk-back."
    },
    {
     "id": "rhythm.short_blunt",
     "result": "pass",
-    "evidence": "\"Pathetic.\" \"Justice.\" \"Figures.\" \"Wasted.\" \"Not enough.\" \"Negative points. From a kicker.\" Lint average sentence length passes."
+    "evidence": "UNREAL. That's the job. Score: 0.00. Coin flip. New king. Ugly. Cardboard. Start Jefferson."
    },
    {
     "id": "rhythm.outrageous_interruption",
     "result": "pass",
-    "evidence": "\"Root for both teams in a rivalry game and they throw you out of Fenway.\" cuts into the Dak Side/Micah recap. \"In a 12-team league I'd rank them 13th.\" cuts into the Elo take."
+    "evidence": "The Shough stat line cuts to A negative quarterback is correct if the other guy scores 69.56. The Myers line cuts to Print the kicker's name on the trophy."
    },
    {
     "id": "rhythm.rhetorical_questions",
     "result": "pass",
-    "evidence": "Occasional and not overdone: \"Second place with that quarterback? Whatever.\" (rankings[1]); \"Losing to a team whose namesake went negative?\" (recaps[6]); \"Now who plays quarterback?\" (transactions)"
+    "evidence": "Who the hell does that? At Gillette? and How do you lose that? Two of them, both aimed at the manager."
    },
    {
     "id": "rhythm.wild_as_fact",
     "result": "pass",
-    "evidence": "\"Dumbest move of the year.\" \"Tenth is a gift.\" \"The ghost lost.\" \"Revoke his lineup privileges.\" All read as opinion about real numbers."
+    "evidence": "A kicker decided it. Points are a hobby. The back is the roster. It's the rule now. The punchlines keep them as takes."
    },
    {
     "id": "rhythm.sparing_caps",
     "result": "pass",
-    "evidence": "Three outbursts in the whole issue: \"RAIDERS\" (lead.body[0]), \"ZERO.\" (recaps[1]), \"RIGGED.\" (rankings[6])."
+    "evidence": "Two outbursts: UNREAL. in the lead and BENCHED. in recaps[1]."
    },
    {
     "id": "rhythm.dry_then_chaos",
     "result": "pass",
-    "evidence": "Dry stat run (\"Maye completed 26 of 34 passes for 374 yards and four touchdowns\") then \"So they started the touchdown and the defense that allowed it.\" Dry Rams recap then \"He's a double agent.\" Dry Shough recap then \"Somebody unplug this team.\""
+    "evidence": "Maye's line stays flat, then Who the hell does that? Warren's line stays flat, then BENCHED."
    },
    {
     "id": "rhythm.one_liners",
     "result": "pass",
-    "evidence": "\"Pathetic.\" \"Justice.\" \"Took them long enough.\" \"Bargain.\" \"Figures.\" \"Whatever.\""
+    "evidence": "Embarrassing. Pathetic. Cardboard. Do it again. Start Jefferson."
    },
    {
     "id": "vocab.working_class",
     "result": "pass",
-    "evidence": "\"Sorry, pal. You don't get to come home after that.\" \"Take the win and go shower.\" \"Nobody else showed up.\" \"Somebody unplug this team.\""
+    "evidence": "Who the hell does that? Damn near a cliff from first to sixth. Write that down. I'm not asking."
    },
    {
     "id": "vocab.insults_slang_profanity",
     "result": "pass",
-    "evidence": "Insults and slang (\"ghost\", \"ripoff\", \"Hung 226.24\", \"Disgusting\"). Profanity is sensibly left out rather than forced."
+    "evidence": "hell and Damn once each. Insults stay on lineups: fraud, Embarrassing, Pathetic, disaster."
    },
    {
     "id": "vocab.favored_words",
     "result": "pass",
-    "evidence": "\"Pathetic.\" (lead), \"Unbelievable.\" (recaps[3]), \"Disgusting.\" (rankings[4]), \"Unforgivable.\" (recaps[0]). Each is used once, where it is comedically justified."
+    "evidence": "Spread once each, not stacked: fraud (rankings[3]), Unbelievable (recaps[3]), Embarrassing (recaps[2]), Pathetic (recaps[1]), disaster (recaps[6])."
    },
    {
     "id": "vocab.exaggerated_comparisons",
     "result": "pass",
-    "evidence": "\"like the Bruins borrowing a goalie from Montreal\"; \"The other started a ghost. The ghost lost.\"; \"He's a double agent.\"; \"Benedict Arnold would've kept the Patriots defense.\""
+    "evidence": "a sneeze behind 1018.79. Damn near a cliff from first to sixth. The margin was a rounding error. Cardboard, not steel."
    },
    {
     "id": "vocab.boston_unforced",
     "result": "pass",
-    "evidence": "Fenway, Bruins/Montreal and Benedict Arnold each appear once, in a spot where they fit. The Boston lines don't dominate the issue."
+    "evidence": "Gillette, Foxborough, and the Patriots are the week's actual game. Start Maye in the preview follows the Jets at Gillette."
    },
    {
     "id": "vocab.no_polish",
     "result": "pass",
-    "evidence": "Plain language throughout; no polished transitions or elaborate metaphors. \"Elo doesn't care how loud you win. Neither do I.\""
+    "evidence": "No polished transitions. Closers are End of discussion. The number is the number. Cardboard."
    },
    {
     "id": "comedy.unreasonable_certainty",
     "result": "pass",
-    "evidence": "\"Dumbest move of the year.\" \"Seventh ... RIGGED.\" \"Tenth is a gift.\""
+    "evidence": "It's the rule now. I'm not asking. End of discussion. The back is the roster."
    },
    {
     "id": "comedy.flawed_logic",
     "result": "pass",
-    "evidence": "\"Elo got this one right.\" next to the Elo order; \"Without him, maybe the Raiders win and ThePeopleBeaters look smart.\"; \"Beating J'Allen is worth five bucks by itself.\""
+    "evidence": "A negative quarterback is correct if the other guy scores 69.56. A Patriot was on the best lineup of the week. That's the reason. Stevenson at 17.50, with Maye at 39.46 left out on purpose."
    },
    {
     "id": "comedy.deadpan_absurdity",
     "result": "pass",
-    "evidence": "\"One team left a whole lineup on the bench. The other started a ghost. The ghost lost.\" \"Negative points. From a kicker.\""
+    "evidence": "Print the kicker's name on the trophy. Write that down. It's the rule now. Cardboard, not steel."
    },
    {
     "id": "comedy.sudden_escalation",
     "result": "pass",
-    "evidence": "\"Take the win and go shower.\" after the dry Houston numbers. \"Start him again next week or I riot.\" after \"Unbelievable. That's on Kingslayers, not Doubs.\""
+    "evidence": "BENCHED. Who the hell does that? Right total. Wrong bench. I'm still mad."
    },
    {
     "id": "comedy.dismissive_punchlines",
     "result": "pass",
-    "evidence": "\"Pathetic.\" \"Justice.\" \"Dead last in Elo, and earned.\" \"Took them long enough.\" \"Figures.\""
+    "evidence": "A blowout. Pathetic. You picked wrong. Embarrassing. The lineup is a disaster. Cardboard."
    },
    {
     "id": "comedy.contradictory_confidence",
     "result": "pass",
-    "evidence": "\"Doubs caught 1 ball for 16 yards ... That's on Kingslayers, not Doubs. Start him again next week or I riot.\" \"Maye scored 39.46 and the sponsor still can't crack the top five. RIGGED.\""
+    "evidence": "I don't care that they won by 74.92. The name is a fraud. The win can stay. McVay said the kicking cost them the game. You don't lose by 44.46 because of a kicker."
    },
    {
     "id": "delivery",
     "result": "pass",
-    "evidence": "All seven units carry the five steps in order.",
+    "evidence": "Lead and all six recaps hit the five steps in order.",
     "units": [
      {
       "unit": "lead",
       "result": "pass",
       "steps": {
-       "1": "\"Dumbest move of the year.\"",
-       "2": "\"ThePeopleBeaters had the Patriots defense. On Saturday ... they cut it. For the RAIDERS defense.\"",
-       "3": "\"Drake Maye completed 26 of 34 passes for 374 yards and four touchdowns ... The Raiders defense got one sack and scored 0.00\"",
-       "4": "\"So they started the touchdown and the defense that allowed it.\"",
-       "5": "\"Benedict Arnold would've kept the Patriots defense. Pathetic.\""
+       "1": "UNREAL.",
+       "2": "Unsportsmanlike Conduct started Drake Maye.",
+       "3": "Maye went 26 of 34 for 374 yards and four touchdowns.",
+       "4": "Who the hell does that? At Gillette?",
+       "5": "Start your Patriots. I'm not asking."
       }
      },
      {
       "unit": "recaps[1]",
       "result": "pass",
       "steps": {
-       "1": "\"Unforgivable.\"",
-       "2": "\"Split Safety Syndicate started DJ Moore at flex.\"",
-       "3": "\"Moore sat out Buffalo's overtime win in Los Angeles with a shoulder injury, per ESPN ... the final margin was 1.94.\"",
-       "4": "\"One team left a whole lineup on the bench. The other started a ghost. The ghost lost.\"",
-       "5": "\"Check who's playing. It takes ten seconds.\""
+       "1": "Ridiculous.",
+       "2": "Mendozareamazingpicks buried Kingslayers.",
+       "3": "Jaylen Warren ran 15 times for 101 yards and a touchdown.",
+       "4": "BENCHED. I don't care that they won by 74.92.",
+       "5": "A blowout. Pathetic."
       }
      },
      {
       "unit": "recaps[2]",
       "result": "pass",
       "steps": {
-       "1": "\"Pick a side.\"",
-       "2": "\"Micah parsons fan club started Tyson Bagent at Superflex and the Green Bay defense in the same game.\"",
-       "3": "\"Xavier McKinney intercepted Bagent twice, per ESPN, and Bagent went 12 of 21 for 87 yards (1.18).\"",
-       "4": "\"Root for both teams in a rivalry game and they throw you out of Fenway.\"",
-       "5": "\"Micah lost by 11.22. Justice.\""
+       "1": "Good.",
+       "2": "Unsportsmanlike Conduct, JeffyWaterton's club, won it",
+       "3": "He started Maye, who completed 26 of 34 passes for 374 yards with 4 touchdowns.",
+       "4": "You had a Patriot and a zero defense. You picked wrong.",
+       "5": "Embarrassing."
       }
      },
      {
       "unit": "recaps[3]",
       "result": "pass",
       "steps": {
-       "1": "\"I hate how this happened.\"",
-       "2": "\"Unsportsmanlike Conduct beat ThePeopleBeaters by 17.42, and the backbone was Houston.\"",
-       "3": "\"C.J. Stroud threw for 261 yards and ran in a 2-yard keeper at Tennessee (20.94) ... That's 53.94 from one game in Nashville.\"",
-       "4": "\"A Boston team leaning on Texans is like the Bruins borrowing a goalie from Montreal.\"",
-       "5": "\"Take the win and go shower.\""
+       "1": "Unbelievable.",
+       "2": "WELL! It's The Big Shough started Tyler Shough",
+       "3": "Shough went 16 of 25 for 96 yards and two interceptions.",
+       "4": "A negative quarterback is correct if the other guy scores 69.56.",
+       "5": "Write that down. It's the rule now."
       }
      },
      {
       "unit": "recaps[4]",
       "result": "pass",
       "steps": {
-       "1": "\"Not even close.\"",
-       "2": "\"Mendozareamazingpicks scored 226.24 and beat Kingslayers by 74.92\"",
-       "3": "\"Jaylen Warren took a catch 80 yards and a run 50 yards to the end zone at Pittsburgh (36.80).\"",
-       "4": "\"Unbelievable. That's on Kingslayers, not Doubs.\"",
-       "5": "\"Start him again next week or I riot.\""
+       "1": "Coin flip.",
+       "2": "BigJohnDeBo008 left Justin Jefferson on the bench.",
+       "3": "Jefferson caught 6 passes for 79 yards and a touchdown. That's 18.80",
+       "4": "Not enough. How do you lose that?",
+       "5": "Start Jefferson."
       }
      },
      {
       "unit": "recaps[5]",
       "result": "pass",
       "steps": {
-       "1": "\"This team is cursed.\"",
-       "2": "\"Rams of Steel started David Montgomery, who ran 5 times for 11 yards before hurting his groin, per ESPN (1.10).\"",
-       "3": "\"Harrison Mevis missed both his field goals Monday night (-2.00).\"",
-       "4": "\"A kicker who scores negative isn't unlucky. He's a double agent.\"",
-       "5": "\"Dead last in Elo, and earned.\""
+       "1": "New king.",
+       "2": "SweetRavenge84 takes the top Elo spot.",
+       "3": "Malik Nabers caught 11 of 20 targets for 121 yards and a touchdown.",
+       "4": "A kicker decided it.",
+       "5": "Print the kicker's name on the trophy."
       }
      },
      {
       "unit": "recaps[6]",
       "result": "pass",
       "steps": {
-       "1": "\"The team is named after him, and he scored negative.\"",
-       "2": "\"Skat started Kyle Monangai, who didn't play for Chicago (0.00).\"",
-       "3": "\"He threw for 96 yards and two interceptions in a home loss to Minnesota (-0.16). Byron Murphy Jr. picked him off both times, per ESPN.\"",
-       "4": "\"I've seen the Jets play. This is worse.\"",
-       "5": "\"Somebody unplug this team.\""
+       "1": "Ugly.",
+       "2": "hammball walked out 137.48 to 93.02 over Rams of Steel.",
+       "3": "Bucky Irving ran 21 times for 165 yards, a career high per ESPN",
+       "4": "You don't lose by 44.46 because of a kicker.",
+       "5": "The lineup is a disaster. Cardboard."
       }
      }
     ]
@@ -221,7 +221,7 @@
    {
     "id": "constraints.facts_accurate",
     "result": "miss",
-    "evidence": "\"That run started a 45-point day.\" (awards[4]) puts Stevenson's 5-yard run at the start of the 45-point day. ESPN has the scoring open with Maye's 35-yard touchdown to Pop Douglas, and Stevenson's run comes after the Raiders tied it.",
+    "evidence": "Dallas visits Lambeau on Monday night.",
     "note_ids": [
      "E1"
     ]
@@ -229,22 +229,22 @@
    {
     "id": "constraints.commentary_not_news",
     "result": "pass",
-    "evidence": "Absurd takes are all framed as opinion about real facts: \"Without him, maybe the Raiders win and ThePeopleBeaters look smart.\" \"Benedict Arnold would've kept the Patriots defense.\" \"Revoke his lineup privileges.\" \"Best money they've spent all year.\" Quotes and reasons (McVay, ESPN injuries, Rousseau block) are all in the brief."
+    "evidence": "A kicker decided it. Print the kicker's name on the trophy. McVay said the kicking cost them the game tracks the ESPN quote, then You don't lose by 44.46 because of a kicker."
    },
    {
     "id": "constraints.not_every_sentence_a_joke",
     "result": "pass",
-    "evidence": "Stat-line sentences carry the facts straight: \"Jared Goff threw three touchdowns and ran in another at Arizona (28.94).\" \"Smack missed from 43 and 47 and pushed an extra point wide left Sunday, per ESPN.\" \"Cincinnati's on bye, so fine.\""
+    "evidence": "Stat sentences stay straight: Maye went 26 of 34 for 374 yards and four touchdowns. Puka Nacua caught 17 passes for 138 yards and a touchdown in the loss."
    },
    {
     "id": "constraints.no_yelling_or_catchphrases",
     "result": "pass",
-    "evidence": "Three caps outbursts total. \"Unbelievable.\", \"Pathetic.\" and \"Justice.\" each appear once. No repeated short sentences, and the lint passed."
+    "evidence": "Caps are UNREAL. and BENCHED. only. No short sentence is repeated. Cardboard echoes once, on the same team, and is not a second catchphrase."
    },
    {
     "id": "constraints.boston_connor",
     "result": "pass",
-    "evidence": "The issue as a whole reads as one blunt, biased, deadpan-then-chaotic Patriots fan: the Raiders-defense lead, the \"ghost\" and \"double agent\" bits, and the Bruins/Fenway/Benedict Arnold references."
+    "evidence": "Conviction, a Patriots grudge, and a straight stat line that snaps into a bad argument. A negative quarterback is correct if the other guy scores 69.56. Write that down. It's the rule now."
    }
   ]
  },
@@ -252,38 +252,11 @@
   {
    "id": "E1",
    "severity": "blocking",
-   "section": "awards[4].body",
-   "quote": "That run started a 45-point day.",
-   "problem": "The brief's NE 45, LV 17 ESPN recap says New England opened the scoring on a 35-yard TD pass from Maye to Douglas after a 79-yard drive. The Raiders then tied it on Bowers's 13-yard TD. Stevenson's 5-yard run followed that tie. It did not start the 45-point day. A real number is attached to the wrong event. Rule: facts.md, number attached to the right play.",
+   "section": "preview.note",
+   "quote": "Dallas visits Lambeau on Monday night.",
+   "problem": "Week 6 lists DAL at GB with date_utc 2026-10-19T00:20Z at Lambeau Field. The ESPN scoreboard detail for that kickoff is Sun, October 18th at 8:20 PM EDT. The Packers recap in the brief says Host Dallas next Sunday night. Monday night is the other game: WAS at SF, date_utc 2026-10-20T00:15Z, Mon, October 19th at 8:15 PM EDT. The 2026-10-19 date is the UTC stamp on a Sunday-night kickoff, not Monday night.",
    "rule": "fact",
-   "fix": "Cut the sentence or restate it from the recap: Maye's 35-yard touchdown to Douglas opened the scoring, and Stevenson's 5-yard run put New England back ahead right after the Raiders tied it (the existing preceding sentence already says this). Don't use a new number unless it goes in `derived`."
-  },
-  {
-   "id": "E2",
-   "severity": "non-blocking",
-   "section": "recaps[3].headline / recaps[3].body",
-   "quote": "Three Texans and Drake Maye carry the sponsor",
-   "problem": "The headline credits Maye, but the body never mentions him or his 39.46. The lead and the Maye standout cover it, but this recap's own story skips the sponsor's biggest scorer. \"A Boston team leaning on Texans\" also calls UC a Boston team, which the brief never says. It is harmless as a bit, but nothing in the draft sets it up.",
-   "rule": "quality",
-   "fix": "Add one short sentence with Maye's 39.46 (a brief number), or trim the headline to the Texans. Optionally drop \"Boston\" from the Bruins line."
-  },
-  {
-   "id": "E3",
-   "severity": "non-blocking",
-   "section": "issue-wide",
-   "quote": "UC by a mile.",
-   "problem": "The guide wants occasional self-deprecation, with UC getting it too. Every UC mention is flattering or a complaint on UC's behalf (\"RIGGED.\", \"UC by a mile.\", \"Beating J'Allen is worth five bucks\"). UC did start Henderson (4.80) and Waddle (4.80) at flex and bench Hurts (13.00), which is a free jab.",
-   "rule": "quality",
-   "fix": "Optionally give UC one small dig, for example in the preview line or the ranking take, using a brief number."
-  },
-  {
-   "id": "E4",
-   "severity": "non-blocking",
-   "section": "standouts[5]",
-   "quote": "GB DEF ... 20.00",
-   "problem": "Mendozareamazingpicks' SF DEF also scored 20.00, so the DEF standout is a tie. The fact gate passed it, and nothing in the copy claims it is the sole top score.",
-   "rule": "quality",
-   "fix": "No change required. If the writer wants to be safe, avoid any \"best defense\" phrasing in this section."
+   "fix": "Change Monday night to Sunday night."
   }
  ]
 }

@@ -1,17 +1,18 @@
 {
   "agent": "writer",
-  "model": "claude-opus-5-5[effort=high]",
-  "round": 2,
-  "responds_to_review": 1,
+  "model": "grok-4.7-high-fast",
+  "round": 3,
+  "responds_to_review": 2,
   "story": [
-    "ThePeopleBeaters cut the Patriots defense for the Raiders defense on Saturday, the day before Las Vegas played at New England. The Raiders defense allowed 45 points and 536 yards and scored 0.00. Drake Maye scored 39.46 for UC, the most of any player in the league, UC won by 17.42, and ThePeopleBeaters picked the Patriots defense back up on Wednesday.",
-    "Split Safety Syndicate lost by 1.94 after starting DJ Moore at flex. Moore sat out with a shoulder injury per ESPN (0.00), and Treylon Burks's 4.60 on the bench would have won it by 2.66.",
-    "Micah parsons fan club started Tyson Bagent and the Green Bay defense in the same game. Xavier McKinney picked Bagent off twice, and Micah lost by 11.22. Then they cut both of their Week 5 quarterbacks: Tyler Huntley (24.04) for Trey Smack, a kicker who missed two field goals and an extra point that Sunday, and Bagent for Stefon Diggs."
+    "Drake Maye scored 39.46, the best player score of the week, with 374 yards and four passing touchdowns plus a rushing score in New England's 45-17 win, while ThePeopleBeaters started the Raiders defense for 0.00 after dropping the Patriots defense.",
+    "Mendozareamazingpicks scored 226.24 and beat Kingslayers by 74.92, the high score and the biggest margin, while benching Jayden Daniels, who ran for 103 yards and two touchdowns.",
+    "Tyler Shough scored -0.16 for the team named after him, Isaiah Likely's 32.40 sat on the bench, and they still won by 46.32 because Skat scored 69.56, the low score of the week."
   ],
   "responses": [
-    {"note_id": "E1", "status": "fixed", "change": "Cut \"That run started a 45-point day.\" from awards[4].body. The blurb now reads: \"Ran 13 times for 64 yards and caught 3 for 21. His 5-yard touchdown put New England back ahead right after the Raiders tied it, per ESPN. Without him, maybe the Raiders win and ThePeopleBeaters look smart. Nobody wants to live in that world.\" No new numbers."},
-    {"note_id": "E2", "status": "declined", "change": "Per the main agent's instruction, this round addresses blocking notes only. The lead and the QB standout carry Maye's 39.46, and the recap's key performers list him."},
-    {"note_id": "E3", "status": "declined", "change": "Per the main agent's instruction, this round addresses blocking notes only."},
-    {"note_id": "E4", "status": "declined", "change": "The editor asked for no change. Nothing in the copy calls GB DEF the sole top defense."}
+    {
+      "note_id": "E1",
+      "status": "fixed",
+      "change": "Changed the preview note kickoff from Monday night to Sunday night: \"Dallas visits Lambeau on Sunday night.\""
+    }
   ]
 }
