@@ -1,0 +1,262 @@
+{
+ "agent": "editor",
+ "model": "grok-4.7-high-fast",
+ "round": 2,
+ "reviewed_at": "2026-10-17T19:43:55Z",
+ "issue_sha256": "c4fe08a1d85290185ef20564e497e78c5faf2f16fb8682f2d5d856024ca97024",
+ "verdict": "revise",
+ "summary": "Round 1's fact errors are fixed, and the draft still sounds like Boston Connor. The preview puts Dallas at Lambeau on Monday night; that kickoff is Sunday at 8:20 PM EDT.",
+ "voice_fidelity": {
+  "guide": ".cursor/skills/newsletter/voice/boston-connor.md",
+  "items": [
+   {
+    "id": "voice.conviction",
+    "result": "pass",
+    "evidence": "Start your Patriots. I'm not asking. Write that down. It's the rule now. A Patriot was on the best lineup of the week. That's the reason. End of discussion."
+   },
+   {
+    "id": "voice.boston_bias",
+    "result": "pass",
+    "evidence": "Who the hell does that? At Gillette? Wake me when a Patriot does that here. The sponsor started Maye, four touchdown passes and a rushing score, and scored 177.00. That gets them seventh. Do it again."
+   },
+   {
+    "id": "voice.unimpressed_elsewhere",
+    "result": "pass",
+    "evidence": "Wake me when a Patriot does that here. Seventeen catches. A blowout. Pathetic. Best running score of the week. The margin was a rounding error. Still a loss."
+   },
+   {
+    "id": "voice.knowledge_plus_absurdity",
+    "result": "pass",
+    "evidence": "Shough went 16 of 25 for 96 yards and two interceptions. Score: minus 0.16. A negative quarterback is correct if the other guy scores 69.56."
+   },
+   {
+    "id": "voice.sarcastic_stubborn",
+    "result": "pass",
+    "evidence": "BENCHED. I don't care that they won by 74.92. Elo can live with it. I won't. Right total. Wrong bench. I'm still mad. The sponsor started Maye. That gets them seventh."
+   },
+   {
+    "id": "voice.never_concedes",
+    "result": "pass",
+    "evidence": "The name is a fraud. The win can stay. I'm still mad. Write that down. It's the rule now. No wink and no walk-back."
+   },
+   {
+    "id": "rhythm.short_blunt",
+    "result": "pass",
+    "evidence": "UNREAL. That's the job. Score: 0.00. Coin flip. New king. Ugly. Cardboard. Start Jefferson."
+   },
+   {
+    "id": "rhythm.outrageous_interruption",
+    "result": "pass",
+    "evidence": "The Shough stat line cuts to A negative quarterback is correct if the other guy scores 69.56. The Myers line cuts to Print the kicker's name on the trophy."
+   },
+   {
+    "id": "rhythm.rhetorical_questions",
+    "result": "pass",
+    "evidence": "Who the hell does that? At Gillette? and How do you lose that? Two of them, both aimed at the manager."
+   },
+   {
+    "id": "rhythm.wild_as_fact",
+    "result": "pass",
+    "evidence": "A kicker decided it. Points are a hobby. The back is the roster. It's the rule now. The punchlines keep them as takes."
+   },
+   {
+    "id": "rhythm.sparing_caps",
+    "result": "pass",
+    "evidence": "Two outbursts: UNREAL. in the lead and BENCHED. in recaps[1]."
+   },
+   {
+    "id": "rhythm.dry_then_chaos",
+    "result": "pass",
+    "evidence": "Maye's line stays flat, then Who the hell does that? Warren's line stays flat, then BENCHED."
+   },
+   {
+    "id": "rhythm.one_liners",
+    "result": "pass",
+    "evidence": "Embarrassing. Pathetic. Cardboard. Do it again. Start Jefferson."
+   },
+   {
+    "id": "vocab.working_class",
+    "result": "pass",
+    "evidence": "Who the hell does that? Damn near a cliff from first to sixth. Write that down. I'm not asking."
+   },
+   {
+    "id": "vocab.insults_slang_profanity",
+    "result": "pass",
+    "evidence": "hell and Damn once each. Insults stay on lineups: fraud, Embarrassing, Pathetic, disaster."
+   },
+   {
+    "id": "vocab.favored_words",
+    "result": "pass",
+    "evidence": "Spread once each, not stacked: fraud (rankings[3]), Unbelievable (recaps[3]), Embarrassing (recaps[2]), Pathetic (recaps[1]), disaster (recaps[6])."
+   },
+   {
+    "id": "vocab.exaggerated_comparisons",
+    "result": "pass",
+    "evidence": "a sneeze behind 1018.79. Damn near a cliff from first to sixth. The margin was a rounding error. Cardboard, not steel."
+   },
+   {
+    "id": "vocab.boston_unforced",
+    "result": "pass",
+    "evidence": "Gillette, Foxborough, and the Patriots are the week's actual game. Start Maye in the preview follows the Jets at Gillette."
+   },
+   {
+    "id": "vocab.no_polish",
+    "result": "pass",
+    "evidence": "No polished transitions. Closers are End of discussion. The number is the number. Cardboard."
+   },
+   {
+    "id": "comedy.unreasonable_certainty",
+    "result": "pass",
+    "evidence": "It's the rule now. I'm not asking. End of discussion. The back is the roster."
+   },
+   {
+    "id": "comedy.flawed_logic",
+    "result": "pass",
+    "evidence": "A negative quarterback is correct if the other guy scores 69.56. A Patriot was on the best lineup of the week. That's the reason. Stevenson at 17.50, with Maye at 39.46 left out on purpose."
+   },
+   {
+    "id": "comedy.deadpan_absurdity",
+    "result": "pass",
+    "evidence": "Print the kicker's name on the trophy. Write that down. It's the rule now. Cardboard, not steel."
+   },
+   {
+    "id": "comedy.sudden_escalation",
+    "result": "pass",
+    "evidence": "BENCHED. Who the hell does that? Right total. Wrong bench. I'm still mad."
+   },
+   {
+    "id": "comedy.dismissive_punchlines",
+    "result": "pass",
+    "evidence": "A blowout. Pathetic. You picked wrong. Embarrassing. The lineup is a disaster. Cardboard."
+   },
+   {
+    "id": "comedy.contradictory_confidence",
+    "result": "pass",
+    "evidence": "I don't care that they won by 74.92. The name is a fraud. The win can stay. McVay said the kicking cost them the game. You don't lose by 44.46 because of a kicker."
+   },
+   {
+    "id": "delivery",
+    "result": "pass",
+    "evidence": "Lead and all six recaps hit the five steps in order.",
+    "units": [
+     {
+      "unit": "lead",
+      "result": "pass",
+      "steps": {
+       "1": "UNREAL.",
+       "2": "Unsportsmanlike Conduct started Drake Maye.",
+       "3": "Maye went 26 of 34 for 374 yards and four touchdowns.",
+       "4": "Who the hell does that? At Gillette?",
+       "5": "Start your Patriots. I'm not asking."
+      }
+     },
+     {
+      "unit": "recaps[1]",
+      "result": "pass",
+      "steps": {
+       "1": "Ridiculous.",
+       "2": "Mendozareamazingpicks buried Kingslayers.",
+       "3": "Jaylen Warren ran 15 times for 101 yards and a touchdown.",
+       "4": "BENCHED. I don't care that they won by 74.92.",
+       "5": "A blowout. Pathetic."
+      }
+     },
+     {
+      "unit": "recaps[2]",
+      "result": "pass",
+      "steps": {
+       "1": "Good.",
+       "2": "Unsportsmanlike Conduct, JeffyWaterton's club, won it",
+       "3": "He started Maye, who completed 26 of 34 passes for 374 yards with 4 touchdowns.",
+       "4": "You had a Patriot and a zero defense. You picked wrong.",
+       "5": "Embarrassing."
+      }
+     },
+     {
+      "unit": "recaps[3]",
+      "result": "pass",
+      "steps": {
+       "1": "Unbelievable.",
+       "2": "WELL! It's The Big Shough started Tyler Shough",
+       "3": "Shough went 16 of 25 for 96 yards and two interceptions.",
+       "4": "A negative quarterback is correct if the other guy scores 69.56.",
+       "5": "Write that down. It's the rule now."
+      }
+     },
+     {
+      "unit": "recaps[4]",
+      "result": "pass",
+      "steps": {
+       "1": "Coin flip.",
+       "2": "BigJohnDeBo008 left Justin Jefferson on the bench.",
+       "3": "Jefferson caught 6 passes for 79 yards and a touchdown. That's 18.80",
+       "4": "Not enough. How do you lose that?",
+       "5": "Start Jefferson."
+      }
+     },
+     {
+      "unit": "recaps[5]",
+      "result": "pass",
+      "steps": {
+       "1": "New king.",
+       "2": "SweetRavenge84 takes the top Elo spot.",
+       "3": "Malik Nabers caught 11 of 20 targets for 121 yards and a touchdown.",
+       "4": "A kicker decided it.",
+       "5": "Print the kicker's name on the trophy."
+      }
+     },
+     {
+      "unit": "recaps[6]",
+      "result": "pass",
+      "steps": {
+       "1": "Ugly.",
+       "2": "hammball walked out 137.48 to 93.02 over Rams of Steel.",
+       "3": "Bucky Irving ran 21 times for 165 yards, a career high per ESPN",
+       "4": "You don't lose by 44.46 because of a kicker.",
+       "5": "The lineup is a disaster. Cardboard."
+      }
+     }
+    ]
+   },
+   {
+    "id": "constraints.facts_accurate",
+    "result": "miss",
+    "evidence": "Dallas visits Lambeau on Monday night.",
+    "note_ids": [
+     "E1"
+    ]
+   },
+   {
+    "id": "constraints.commentary_not_news",
+    "result": "pass",
+    "evidence": "A kicker decided it. Print the kicker's name on the trophy. McVay said the kicking cost them the game tracks the ESPN quote, then You don't lose by 44.46 because of a kicker."
+   },
+   {
+    "id": "constraints.not_every_sentence_a_joke",
+    "result": "pass",
+    "evidence": "Stat sentences stay straight: Maye went 26 of 34 for 374 yards and four touchdowns. Puka Nacua caught 17 passes for 138 yards and a touchdown in the loss."
+   },
+   {
+    "id": "constraints.no_yelling_or_catchphrases",
+    "result": "pass",
+    "evidence": "Caps are UNREAL. and BENCHED. only. No short sentence is repeated. Cardboard echoes once, on the same team, and is not a second catchphrase."
+   },
+   {
+    "id": "constraints.boston_connor",
+    "result": "pass",
+    "evidence": "Conviction, a Patriots grudge, and a straight stat line that snaps into a bad argument. A negative quarterback is correct if the other guy scores 69.56. Write that down. It's the rule now."
+   }
+  ]
+ },
+ "notes": [
+  {
+   "id": "E1",
+   "severity": "blocking",
+   "section": "preview.note",
+   "quote": "Dallas visits Lambeau on Monday night.",
+   "problem": "Week 6 lists DAL at GB with date_utc 2026-10-19T00:20Z at Lambeau Field. The ESPN scoreboard detail for that kickoff is Sun, October 18th at 8:20 PM EDT. The Packers recap in the brief says Host Dallas next Sunday night. Monday night is the other game: WAS at SF, date_utc 2026-10-20T00:15Z, Mon, October 19th at 8:15 PM EDT. The 2026-10-19 date is the UTC stamp on a Sunday-night kickoff, not Monday night.",
+   "rule": "fact",
+   "fix": "Change Monday night to Sunday night."
+  }
+ ]
+}

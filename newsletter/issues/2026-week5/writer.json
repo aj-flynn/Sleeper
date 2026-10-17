@@ -1,0 +1,18 @@
+{
+  "agent": "writer",
+  "model": "grok-4.7-high-fast",
+  "round": 3,
+  "responds_to_review": 2,
+  "story": [
+    "Drake Maye scored 39.46, the best player score of the week, with 374 yards and four passing touchdowns plus a rushing score in New England's 45-17 win, while ThePeopleBeaters started the Raiders defense for 0.00 after dropping the Patriots defense.",
+    "Mendozareamazingpicks scored 226.24 and beat Kingslayers by 74.92, the high score and the biggest margin, while benching Jayden Daniels, who ran for 103 yards and two touchdowns.",
+    "Tyler Shough scored -0.16 for the team named after him, Isaiah Likely's 32.40 sat on the bench, and they still won by 46.32 because Skat scored 69.56, the low score of the week."
+  ],
+  "responses": [
+    {
+      "note_id": "E1",
+      "status": "fixed",
+      "change": "Changed the preview note kickoff from Monday night to Sunday night: \"Dallas visits Lambeau on Sunday night.\""
+    }
+  ]
+}
