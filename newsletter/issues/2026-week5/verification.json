@@ -1,0 +1,270 @@
+{
+ "issue": "2026-week5",
+ "season": "2026",
+ "week": 5,
+ "updated_at": "2026-10-17T17:18:15Z",
+ "result": "fail",
+ "stopped_at": "checklist",
+ "next_action": "Fix the listed items and rerun the pipeline.",
+ "models": {
+  "writer": "claude-opus-5-5[effort=high]",
+  "editor": "claude-sonnet-5-5[effort=high]"
+ },
+ "artifacts": {
+  "brief.json": "c4dfd2c286c5de42599fb5f59bb5be5f7b1bb7f46079805ac140b2f291ef92bc",
+  "brief.md": "f9cb463d0b20693b492446624007b37766e9ac887de44a5f06b2f6fa714a9a68",
+  "issue.json": "12d4305b6d4abbc07d01974201a92f6a0daef31a379446489e5f23f6ce79ced8",
+  "review.json": "4d5648f5bacb05b9f24f5118ec4fc8a72f560d704428054d53be82007488ad00",
+  "writer.json": "695b07c1d39e3f017d14f2453cbd489a1b951c6f8ff6404c0e5e2c64be234c2c",
+  "issue.html": "ed8e107dfd9e3df2eef442468ed67def8cf70fd357d807a9f4c1d2f1174f7a61"
+ },
+ "gates": [
+  {
+   "gate": "fetch.week_final",
+   "step": "fetch",
+   "owner": "script",
+   "status": "pass",
+   "checked_at": "2026-10-17T17:18:13Z",
+   "command": "python3 newsletter/run.py fetch --week 5",
+   "details": {
+    "raw": "cached",
+    "fetched_at": "2026-10-17T16:57Z"
+   }
+  },
+  {
+   "gate": "brief.reproducible",
+   "step": "brief",
+   "owner": "script",
+   "status": "pass",
+   "checked_at": "2026-10-17T17:18:13Z",
+   "command": "python3 newsletter/run.py brief --week 5",
+   "details": {
+    "brief.json": "c4dfd2c286c5de42599fb5f59bb5be5f7b1bb7f46079805ac140b2f291ef92bc",
+    "brief.md": "f9cb463d0b20693b492446624007b37766e9ac887de44a5f06b2f6fa714a9a68",
+    "elo": "8bc232b99aad0be0d4d6e9e9d6731c3494a2b1348140fbf124820874f47a22ec"
+   }
+  },
+  {
+   "gate": "brief.valid",
+   "step": "check-brief",
+   "owner": "script",
+   "status": "pass",
+   "checked_at": "2026-10-17T17:18:13Z",
+   "command": "python3 newsletter/run.py check-brief --week 5",
+   "details": {
+    "teams": 12,
+    "matchups": 6,
+    "nfl_games": 15,
+    "transactions": 28,
+    "starters_without_stat_record": 2
+   }
+  },
+  {
+   "gate": "issue.present",
+   "step": "write",
+   "owner": "writer (claude-opus-5-5)",
+   "status": "pass",
+   "checked_at": "2026-10-17T17:18:13Z",
+   "command": "python3 newsletter/run.py check-issue --week 5",
+   "details": {
+    "issue.json": "12d4305b6d4abbc07d01974201a92f6a0daef31a379446489e5f23f6ce79ced8"
+   }
+  },
+  {
+   "gate": "issue.schema",
+   "step": "write",
+   "owner": "writer (claude-opus-5-5)",
+   "status": "pass",
+   "checked_at": "2026-10-17T17:18:13Z",
+   "command": "python3 newsletter/run.py check-issue --week 5",
+   "details": {
+    "problems": 0
+   }
+  },
+  {
+   "gate": "issue.lint",
+   "step": "write",
+   "owner": "writer (claude-opus-5-5)",
+   "status": "pass",
+   "checked_at": "2026-10-17T17:18:13Z",
+   "command": "python3 newsletter/run.py check-issue --week 5",
+   "details": {
+    "problems": 0
+   }
+  },
+  {
+   "gate": "issue.facts",
+   "step": "write",
+   "owner": "writer (claude-opus-5-5)",
+   "status": "pass",
+   "checked_at": "2026-10-17T17:18:13Z",
+   "command": "python3 newsletter/run.py check-issue --week 5",
+   "details": {
+    "problems": 0
+   }
+  },
+  {
+   "gate": "review.verdict",
+   "step": "review",
+   "owner": "editor (claude-sonnet-5-5)",
+   "status": "pass",
+   "checked_at": "2026-10-17T17:18:13Z",
+   "command": "python3 newsletter/run.py check-review --week 5",
+   "details": {
+    "round": 1,
+    "verdict": "revise",
+    "blocking": [
+     "E1"
+    ],
+    "non_blocking": [
+     "E2",
+     "E3",
+     "E4"
+    ],
+    "voice_fidelity": {
+     "voice.conviction": "pass",
+     "voice.boston_bias": "pass",
+     "voice.unimpressed_elsewhere": "pass",
+     "voice.knowledge_plus_absurdity": "pass",
+     "voice.sarcastic_stubborn": "pass",
+     "voice.never_concedes": "pass",
+     "rhythm.short_blunt": "pass",
+     "rhythm.outrageous_interruption": "pass",
+     "rhythm.rhetorical_questions": "pass",
+     "rhythm.wild_as_fact": "pass",
+     "rhythm.sparing_caps": "pass",
+     "rhythm.dry_then_chaos": "pass",
+     "rhythm.one_liners": "pass",
+     "vocab.working_class": "pass",
+     "vocab.insults_slang_profanity": "pass",
+     "vocab.favored_words": "pass",
+     "vocab.exaggerated_comparisons": "pass",
+     "vocab.boston_unforced": "pass",
+     "vocab.no_polish": "pass",
+     "comedy.unreasonable_certainty": "pass",
+     "comedy.flawed_logic": "pass",
+     "comedy.deadpan_absurdity": "pass",
+     "comedy.sudden_escalation": "pass",
+     "comedy.dismissive_punchlines": "pass",
+     "comedy.contradictory_confidence": "pass",
+     "delivery": "pass",
+     "constraints.facts_accurate": "miss",
+     "constraints.commentary_not_news": "pass",
+     "constraints.not_every_sentence_a_joke": "pass",
+     "constraints.no_yelling_or_catchphrases": "pass",
+     "constraints.boston_connor": "pass"
+    }
+   }
+  },
+  {
+   "gate": "review.addressed",
+   "step": "revise",
+   "owner": "writer (claude-opus-5-5)",
+   "status": "pass",
+   "checked_at": "2026-10-17T17:18:13Z",
+   "command": "python3 newsletter/run.py check-review --week 5",
+   "details": {
+    "fixed": [
+     "E1"
+    ],
+    "issue_sha256": "12d4305b6d4abbc07d01974201a92f6a0daef31a379446489e5f23f6ce79ced8",
+    "reviewed_sha256": "d575a87137d6b0299fa92aa496aa9646c77a4c8f7115a002b6c67cc9f2271079"
+   }
+  },
+  {
+   "gate": "render.reproducible",
+   "step": "render",
+   "owner": "script",
+   "status": "pass",
+   "checked_at": "2026-10-17T17:18:14Z",
+   "command": "python3 newsletter/run.py render --week 5",
+   "details": {
+    "issue.html": "ed8e107dfd9e3df2eef442468ed67def8cf70fd357d807a9f4c1d2f1174f7a61",
+    "bytes": 165963,
+    "elo_chart": true
+   }
+  },
+  {
+   "gate": "html.phone",
+   "step": "verify",
+   "owner": "script",
+   "status": "pass",
+   "checked_at": "2026-10-17T17:18:15Z",
+   "command": "python3 newsletter/run.py verify --week 5",
+   "details": {
+    "html_sha256": "ed8e107dfd9e3df2eef442468ed67def8cf70fd357d807a9f4c1d2f1174f7a61",
+    "checks": {
+     "phone.no_horizontal_scroll": "scrollWidth 390 vs viewport 390",
+     "phone.no_network_requests": "only data: URLs",
+     "phone.fonts_loaded": {
+      "faces": 5,
+      "not_loaded": [],
+      "families": {
+       "Alfa Slab One": true,
+       "Archivo Narrow": true
+      }
+     },
+     "phone.no_console_errors": "none",
+     "phone.no_template_leftovers": "0 unrendered '{{' in the page",
+     "phone.find_your_team_links": "12 links, 0 broken",
+     "phone.elo_chart": "svg=True lines=12 points=72 legend=12 colors=True"
+    }
+   }
+  },
+  {
+   "gate": "html.desktop",
+   "step": "verify",
+   "owner": "script",
+   "status": "pass",
+   "checked_at": "2026-10-17T17:18:15Z",
+   "command": "python3 newsletter/run.py verify --week 5",
+   "details": {
+    "html_sha256": "ed8e107dfd9e3df2eef442468ed67def8cf70fd357d807a9f4c1d2f1174f7a61",
+    "checks": {
+     "desktop.no_horizontal_scroll": "scrollWidth 1280 vs viewport 1280",
+     "desktop.no_network_requests": "only data: URLs",
+     "desktop.fonts_loaded": {
+      "faces": 5,
+      "not_loaded": [],
+      "families": {
+       "Alfa Slab One": true,
+       "Archivo Narrow": true
+      }
+     },
+     "desktop.no_console_errors": "none",
+     "desktop.no_template_leftovers": "0 unrendered '{{' in the page",
+     "desktop.find_your_team_links": "12 links, 0 broken",
+     "desktop.elo_chart": "svg=True lines=12 points=72 legend=12 colors=True"
+    }
+   }
+  },
+  {
+   "gate": "html.screenshots",
+   "step": "verify",
+   "owner": "script",
+   "status": "pass",
+   "checked_at": "2026-10-17T17:18:15Z",
+   "command": "python3 newsletter/run.py verify --week 5",
+   "details": {
+    "html_sha256": "ed8e107dfd9e3df2eef442468ed67def8cf70fd357d807a9f4c1d2f1174f7a61",
+    "files": {
+     "phone-first-screen.png": "dbe1a8c1903dd622f5d5e35c289754d763867fdc39dff54f70ff53603b4a4939",
+     "phone-full.png": "5f62cfcbdbd90e60187468b7199fb0270cd5913922c2c1d0d646fe501e7b4786",
+     "desktop-first-screen.png": "1156b517c2f9050518f8148507b706554928968a9bc651aee0b677aab77517bc",
+     "desktop-full.png": "bfa38e756a4629e553e468493ef8c18cb686606c722f632cb9ed21cc8e1dfb6e"
+    }
+   }
+  },
+  {
+   "gate": "checklist.final",
+   "step": "checklist",
+   "owner": "script",
+   "status": "fail",
+   "checked_at": "2026-10-17T17:18:15Z",
+   "command": "python3 newsletter/run.py checklist --week 5",
+   "details": [
+    "live page README.md links to newsletter/issues/"
+   ]
+  }
+ ]
+}
