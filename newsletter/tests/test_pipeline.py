@@ -477,8 +477,25 @@ def frontmatter(name):
 def test_agents_pin_their_models():
     assert pipeline.agent_model("writer") == "claude-opus-5-5[effort=high]"
     assert pipeline.agent_model("editor") == "claude-sonnet-5-5[effort=high]"
+    assert pipeline.agent_model("runner") == "composer-2.5[fast=false]"
+    assert pipeline.agent_model("runner") != pipeline.agent_model("writer")
     assert "readonly: true" in frontmatter("editor")
     assert "name: writer" in frontmatter("writer") and "name: editor" in frontmatter("editor")
+    assert "name: runner" in frontmatter("runner")
+
+
+def test_parent_skill_dispatches_the_week():
+    skill = (REPO / ".cursor" / "skills" / "newsletter" / "SKILL.md").read_text(encoding="utf-8")
+    body = skill.split("---", 2)[-1]
+    assert len(body.split()) < 250
+    assert "subagent_type" in body and "runner" in body
+    assert "reference/process.md" in body and "reference/adapting.md" in body
+    assert "five-step" not in body
+    runner = (REPO / ".cursor" / "agents" / "runner.md").read_text(encoding="utf-8")
+    assert "writer" in runner and "editor" in runner
+    assert "Do not spawn another runner." in runner
+    for name in ("process.md", "adapting.md"):
+        assert (REPO / ".cursor" / "skills" / "newsletter" / "reference" / name).is_file()
 
 
 def test_agents_point_at_the_voice_guide():
