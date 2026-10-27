@@ -27,6 +27,7 @@ import argparse
 import datetime as dt
 import hashlib
 import json
+import os
 import re
 import subprocess
 import sys
@@ -509,7 +510,7 @@ def stage_check_review_quiet(run):
     saved, nxt = dict(run.gates), run.next_action
     out = sys.stdout
     try:
-        sys.stdout = open("/dev/null", "w")
+        sys.stdout = open(os.devnull, "w")
         status = stage_check_review(run)
     finally:
         sys.stdout.close()
