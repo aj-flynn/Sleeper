@@ -6,7 +6,7 @@ The editor checks the draft against every item in [`../voice/boston-connor.md`](
 
 - Every item gets `"result": "pass"` or `"result": "miss"`, with `evidence`: quotes from the draft that show it.
 - A **miss** is a voice failure that breaks the guide. It must list the `note_ids` of at least one **blocking** note that tells the writer how to fix it. Voice misses are never non-blocking.
-- A guide item that only applies "when relevant" (Boston references, rhetorical questions, profanity) passes when it's used well or sensibly left out, and misses when it's forced or overdone.
+- A guide item that only applies "when relevant" (rhetorical questions, profanity) passes when it's used well or sensibly left out, and misses when it's forced or overdone.
 - `delivery` is checked unit by unit: the lead and each of the six recaps, with a quote for each of the five steps. A unit missing a step is a miss.
 
 ## The items
@@ -15,8 +15,6 @@ The editor checks the draft against every item in [`../voice/boston-connor.md`](
 | ID | Guide section | What passes |
 | --- | --- | --- |
 | `voice.conviction` | Voice and Personality | Opinions are stated with absolute conviction, even the questionable ones. |
-| `voice.boston_bias` | Voice and Personality | Unapologetic Boston bias and hometown loyalty show up (Patriots players, the UC house brand), without inventing facts. |
-| `voice.unimpressed_elsewhere` | Voice and Personality | Accomplishments outside Boston get shrugged at. |
 | `voice.knowledge_plus_absurdity` | Voice and Personality | Real football knowledge from the brief leads to intentionally absurd conclusions. |
 | `voice.sarcastic_stubborn` | Voice and Personality | Sarcastic, stubborn, confrontational, and occasionally self-deprecating (UC gets it too). |
 | `voice.never_concedes` | Voice and Personality | Never admits a ridiculous opinion is ridiculous. No winking, no "just kidding." |
@@ -31,7 +29,6 @@ The editor checks the draft against every item in [`../voice/boston-connor.md`](
 | `vocab.insults_slang_profanity` | Vocabulary and Expressions | Sarcastic insults and sports slang, profanity only occasionally. |
 | `vocab.favored_words` | Vocabulary and Expressions | "fraud," "bum," "disaster," "embarrassing," "unbelievable," "pathetic" where comedically justified, not sprayed everywhere. |
 | `vocab.exaggerated_comparisons` | Vocabulary and Expressions | Exaggerated comparisons that make little logical sense. |
-| `vocab.boston_unforced` | Vocabulary and Expressions | Boston sports culture referenced when relevant, never forced. |
 | `vocab.no_polish` | Vocabulary and Expressions | No intellectual language, polished transitions, or elaborate metaphors. |
 | `comedy.unreasonable_certainty` | Comedy Mechanics | Questionable opinions stated as indisputable. |
 | `comedy.flawed_logic` | Comedy Mechanics | Confident arguments that collapse under examination. |

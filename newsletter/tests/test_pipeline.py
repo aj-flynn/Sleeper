@@ -27,7 +27,7 @@ import run as pipeline  # noqa: E402
 
 WEEK4 = NEWSLETTER / "issues" / "2026-week4"
 GUIDE = REPO / ".cursor" / "skills" / "newsletter" / "voice" / "boston-connor.md"
-GUIDE_SHA256 = "2067e47e74fc4a45a857569fa13e197667cdb7052de16700e7e957680dfb6ea2"
+GUIDE_SHA256 = "4706eaa3100d31a5cb03e083a9411490be385513a821d59ccce0359c26d50fb1"
 
 ELO_WEEK4 = {
     "Micah parsons fan club": (1029.33, 14.80),
@@ -398,10 +398,12 @@ def passing_review(blocking=()):
 
 def test_voice_items_cover_the_guide():
     items = pipeline.voice_items()
-    assert len(items) == len(set(items)) >= 25
+    assert len(items) == len(set(items)) == 28
     for must in ("delivery", "rhythm.short_blunt", "rhythm.sparing_caps", "constraints.not_every_sentence_a_joke",
                  "constraints.no_yelling_or_catchphrases", "constraints.commentary_not_news"):
         assert must in items
+    for gone in ("voice.boston_bias", "voice.unimpressed_elsewhere", "vocab.boston_unforced"):
+        assert gone not in items
 
 
 def test_review_shape_accepts_complete_verdict():
