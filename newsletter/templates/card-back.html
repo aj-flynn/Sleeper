@@ -277,7 +277,7 @@ h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;ma
     </div>
     {{^transactions.trades}}<p>{{transactions.no_trades}}</p>{{/transactions.trades}}
     <h3 style="margin:1.5rem 0 .5rem">{{transactions.free_agents_label}}</h3>
-    <ul class="slate">{{#transactions.free_agents}}<li><b>{{move_label}}</b>{{#move_details}} ({{move_details}}){{/move_details}} · {{team}}{{#move_drop}}; dropped {{move_drop}}{{/move_drop}}. <span class="w">{{note}}</span></li>{{/transactions.free_agents}}</ul>
+    <ul class="slate">{{#transactions.free_agents}}<li><b>{{move_label}}</b>{{#move_details}} ({{move_details}}){{/move_details}} · {{team}}{{#move_drop}}; dropped {{move_drop}}{{/move_drop}}{{move_sentence_end}} <span class="w">{{note}}</span></li>{{/transactions.free_agents}}</ul>
   </section>
 
   <section aria-labelledby="s-next">

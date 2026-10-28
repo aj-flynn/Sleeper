@@ -212,9 +212,14 @@ def test_legend_colors_match_chart_lines(issue):
 
 def test_brief_rebuild_is_deterministic_and_matches_committed(week):
     fetch_week.build_brief(week.dir, 4, "2026")
-    assert (week.dir / "brief.json").read_bytes() == (WEEK4 / "brief.json").read_bytes()
-    assert (week.dir / "brief.md").read_bytes() == (WEEK4 / "brief.md").read_bytes()
+    # The archived fixture predates the singular sack-unit correction; preserve all other content.
+    first = {}
+    for name in ("brief.json", "brief.md"):
+        expected = re.sub(r"(?<![\d.])1 sacks\b", "1 sack", (WEEK4 / name).read_text(encoding="utf-8"))
+        assert (week.dir / name).read_text(encoding="utf-8") == expected
+        first[name] = (week.dir / name).read_bytes()
     assert pipeline.stage_brief(week) == "pass"
+    assert all((week.dir / name).read_bytes() == content for name, content in first.items())
 
 
 def test_fetch_is_cached_without_network(week, monkeypatch):
