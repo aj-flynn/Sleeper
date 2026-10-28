@@ -1,12 +1,28 @@
 {
   "agent": "writer",
-  "model": "cursor-grok-4.6-high",
-  "round": 1,
-  "responds_to_review": null,
+  "model": "cursor-grok-4-6-high",
+  "round": 2,
+  "responds_to_review": 1,
   "story": [
     "Split Safety Syndicate started Patrick Mahomes (6.00, 165 pass yards, 0 TD) over Geno Smith (23.48, 287 yards, 3 TDs) and lost 116.60–113.72 by 2.88",
     "hammball left Tony Pollard (36.50, 25 carries, 129 yards, 3 TDs), the week's highest scorer, on a league-high 108.18 bench and still beat Unsportsmanlike Conduct by 34.42",
     "Kingslayers started Jeremiyah Love (0.00, no stat record), Romeo Doubs (0.00, no stats), and Jalon Daniels (−0.30, 6 snaps) and scored 90.70, the week's low"
   ],
-  "responses": []
+  "responses": [
+    {
+      "note_id": "E1",
+      "status": "fixed",
+      "change": "Pinned Geno to the Jets' loss: “Geno Smith went 23 of 30 for 287 yards and three scores in the Jets’ 28-25 loss to Miami.” Searched the issue; no other copy attached him to Miami's win (Lineup Crime and ranking take leave the game unnamed; Douglas-for-Miami is a different player)."
+    },
+    {
+      "note_id": "E2",
+      "status": "fixed",
+      "change": "Split Cooper from the bench total: “parked Omar Cooper’s 5 catches, 115 yards, and a touchdown on the bench (22.50). The bench was 62.10 in a 31.16 loss.”"
+    },
+    {
+      "note_id": "E3",
+      "status": "fixed",
+      "change": "Kept the Noel roast, then closed on the bench crime: “The sponsor found a new disaster. Left 36.50 and a 108.18 bench and still won.”"
+    }
+  ]
 }
