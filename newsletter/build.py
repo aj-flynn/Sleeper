@@ -150,8 +150,13 @@ def template_fonts(template=TEMPLATE):
     return sorted({FAMILY_NAMES[f.rsplit("-", 2)[0]] for f in m.group(1).split()}) if m else []
 
 
-def render(data, template=TEMPLATE):
+def render(data, template=TEMPLATE, theme="regular"):
+    if theme not in ("regular", "halloween"):
+        raise ValueError("Unknown newsletter theme: " + str(theme))
     source = (TEMPLATES / f"{template}.html").read_text(encoding="utf-8")
+    if theme == "halloween":
+        skin = (TEMPLATES / "halloween.css").read_text(encoding="utf-8")
+        source = source.replace("</style>", skin + "\n</style>", 1)
     html = render_nodes(parse(source), [data])
     html = re.sub(r"\s*<!--\s*fonts:[^>]*-->", "", html, count=1)
     return html.replace("/*@font-faces*/", font_faces(source))
@@ -171,11 +176,24 @@ def derive(data):
     # The jump list: every team, alphabetically, pointing at its own recap card.
     teams = []
     for i, r in enumerate(data.get("recaps", []), 1):
-        teams.append({"team": r["winner"], "manager": r["w_manager"], "score": r["w_score"], "won": True, "game": i})
-        teams.append({"team": r["loser"], "manager": r["l_manager"], "score": r["l_score"], "won": False, "game": i})
+        tied = abs(num(r["w_score"])-num(r["l_score"])) < 0.005
+        teams.append({"team": r["winner"], "manager": r["w_manager"], "score": r["w_score"], "won": not tied, "tied": tied, "game": i})
+        teams.append({"team": r["loser"], "manager": r["l_manager"], "score": r["l_score"], "won": False, "tied": tied, "game": i})
     data["recap_index"] = sorted(teams, key=lambda t: re.sub(r"[^a-z0-9]", "", t["team"].lower()))
     for r in data.get("rankings", []):
         r["elo_up"] = signed(r["elo_change"]) >= 0
+    # Transaction presentation only: omit absent metadata and describe drop-only moves.
+    for group in ("waivers", "free_agents"):
+        for row in (data.get("transactions") or {}).get(group, []):
+            name = str(row.get("add") or "").strip()
+            drop_only = not name or name == "No addition"
+            row["move_label"] = "Dropped " + str(row.get("drop") or "player") if drop_only else name
+            pos, nfl = row.get("pos"), row.get("nfl_team")
+            details = [] if drop_only else [v for v in (pos, nfl) if v]
+            if not drop_only and pos == "DEF" and name.endswith(" DEF"):
+                details = [v for v in details if v != "DEF" and not name.startswith(str(v) + " ")]
+            row["move_details"] = ", ".join(str(v) for v in details)
+            row["move_drop"] = None if drop_only else row.get("drop")
     import elo
     meta = data.get("meta") or {}
     data["elo_chart"] = elo.chart_html(meta.get("season", "2026"), int(meta["week"]))
@@ -426,7 +444,7 @@ def voice_metrics(data):
     }
 
 
-def lint(data):
+def lint(data, legacy_average=True):
     """The mechanical rules a script can check for certain: banned filler, punctuation, and the measurable
     parts of the Boston Connor voice. The editor checks the rest against the guide itself."""
     prose = re.sub(r"<[^>]+>", "", "\n".join(strings(data)))
@@ -474,7 +492,7 @@ def lint(data):
             problems.append(f"{len(hits)} ALL-CAPS words in {sec} (limit {VOICE['caps_per_section']} per section): {', '.join(hits)}")
     if total > VOICE["caps_per_issue"]:
         problems.append(f"{total} ALL-CAPS words in the issue (limit {VOICE['caps_per_issue']}); caps are for the occasional outburst")
-    if v["avg_sentence_words"] > VOICE["avg_sentence_words"]:
+    if legacy_average and v["avg_sentence_words"] > VOICE["avg_sentence_words"]:
         problems.append(f"average sentence is {v['avg_sentence_words']} words (limit {VOICE['avg_sentence_words']}); go shorter and blunter")
     where, longest = v["longest"]
     if len(words(longest)) > VOICE["max_sentence_words"]:

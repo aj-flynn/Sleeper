@@ -1,0 +1,832 @@
+{
+  "events": [
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "30",
+              "team": {
+                "abbreviation": "CHI"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "24",
+              "team": {
+                "abbreviation": "NE"
+              }
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "isTBDFlex": false,
+            "period": 4,
+            "type": {
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "shortDetail": "Final",
+              "state": "post"
+            }
+          },
+          "venue": {
+            "address": {
+              "city": "Chicago",
+              "country": "USA",
+              "state": "IL"
+            },
+            "fullName": "Soldier Field",
+            "id": "3933",
+            "indoor": false
+          }
+        }
+      ],
+      "date": "2026-10-23T00:15Z",
+      "id": "401873010",
+      "shortName": "NE @ CHI"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "10",
+              "team": {
+                "abbreviation": "NO"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "16",
+              "team": {
+                "abbreviation": "PIT"
+              }
+            }
+          ],
+          "notes": [
+            {
+              "headline": "NFL Paris Game",
+              "type": "event"
+            }
+          ],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "isTBDFlex": false,
+            "period": 4,
+            "type": {
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "shortDetail": "Final",
+              "state": "post"
+            }
+          },
+          "venue": {
+            "address": {
+              "city": "Saint-Denis",
+              "country": "France"
+            },
+            "fullName": "Stade de France",
+            "id": "1781",
+            "indoor": false
+          }
+        }
+      ],
+      "date": "2026-10-25T13:30Z",
+      "id": "401873011",
+      "shortName": "PIT VS NO"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "29",
+              "team": {
+                "abbreviation": "ATL"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "20",
+              "team": {
+                "abbreviation": "SF"
+              }
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "isTBDFlex": false,
+            "period": 4,
+            "type": {
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "shortDetail": "Final",
+              "state": "post"
+            }
+          },
+          "venue": {
+            "address": {
+              "city": "Atlanta",
+              "country": "USA",
+              "state": "GA"
+            },
+            "fullName": "Mercedes-Benz Stadium",
+            "id": "5348",
+            "indoor": true
+          }
+        }
+      ],
+      "date": "2026-10-25T17:00Z",
+      "id": "401873017",
+      "shortName": "SF @ ATL"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "24",
+              "team": {
+                "abbreviation": "TEN"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "27",
+              "team": {
+                "abbreviation": "CLE"
+              }
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "isTBDFlex": false,
+            "period": 4,
+            "type": {
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "shortDetail": "Final",
+              "state": "post"
+            }
+          },
+          "venue": {
+            "address": {
+              "city": "Nashville",
+              "country": "USA",
+              "state": "TN"
+            },
+            "fullName": "Nissan Stadium",
+            "id": "3810",
+            "indoor": false
+          }
+        }
+      ],
+      "date": "2026-10-25T17:00Z",
+      "id": "401873013",
+      "shortName": "CLE @ TEN"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "16",
+              "team": {
+                "abbreviation": "MIN"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "10",
+              "team": {
+                "abbreviation": "IND"
+              }
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "isTBDFlex": false,
+            "period": 4,
+            "type": {
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "shortDetail": "Final",
+              "state": "post"
+            }
+          },
+          "venue": {
+            "address": {
+              "city": "Minneapolis",
+              "country": "USA",
+              "state": "MN"
+            },
+            "fullName": "U.S. Bank Stadium",
+            "id": "5239",
+            "indoor": true
+          }
+        }
+      ],
+      "date": "2026-10-25T17:00Z",
+      "id": "401873014",
+      "shortName": "IND @ MIN"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "25",
+              "team": {
+                "abbreviation": "NYJ"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "28",
+              "team": {
+                "abbreviation": "MIA"
+              }
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "isTBDFlex": false,
+            "period": 4,
+            "type": {
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "shortDetail": "Final",
+              "state": "post"
+            }
+          },
+          "venue": {
+            "address": {
+              "city": "East Rutherford",
+              "country": "USA",
+              "state": "NJ"
+            },
+            "fullName": "MetLife Stadium",
+            "id": "3839",
+            "indoor": false
+          }
+        }
+      ],
+      "date": "2026-10-25T17:00Z",
+      "id": "401873015",
+      "shortName": "MIA @ NYJ"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "13",
+              "team": {
+                "abbreviation": "CAR"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "43",
+              "team": {
+                "abbreviation": "TB"
+              }
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "isTBDFlex": false,
+            "period": 4,
+            "type": {
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "shortDetail": "Final",
+              "state": "post"
+            }
+          },
+          "venue": {
+            "address": {
+              "city": "Charlotte",
+              "country": "USA",
+              "state": "NC"
+            },
+            "fullName": "Bank of America Stadium",
+            "id": "3628",
+            "indoor": false
+          }
+        }
+      ],
+      "date": "2026-10-25T17:00Z",
+      "id": "401873018",
+      "shortName": "TB @ CAR"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "13",
+              "team": {
+                "abbreviation": "BAL"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "35",
+              "team": {
+                "abbreviation": "CIN"
+              }
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "isTBDFlex": false,
+            "period": 4,
+            "type": {
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "shortDetail": "Final",
+              "state": "post"
+            }
+          },
+          "venue": {
+            "address": {
+              "city": "Baltimore",
+              "country": "USA",
+              "state": "MD"
+            },
+            "fullName": "M&T Bank Stadium",
+            "id": "3814",
+            "indoor": false
+          }
+        }
+      ],
+      "date": "2026-10-25T17:00Z",
+      "id": "401873012",
+      "shortName": "CIN @ BAL"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "21",
+              "team": {
+                "abbreviation": "HOU"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "27",
+              "team": {
+                "abbreviation": "NYG"
+              }
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "isTBDFlex": false,
+            "period": 5,
+            "type": {
+              "altDetail": "OT",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final/OT",
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "shortDetail": "Final/OT",
+              "state": "post"
+            }
+          },
+          "venue": {
+            "address": {
+              "city": "Houston",
+              "country": "USA",
+              "state": "TX"
+            },
+            "fullName": "Reliant Stadium",
+            "id": "3891",
+            "indoor": true
+          }
+        }
+      ],
+      "date": "2026-10-25T17:00Z",
+      "id": "401873016",
+      "shortName": "NYG @ HOU"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "16",
+              "team": {
+                "abbreviation": "ARI"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "30",
+              "team": {
+                "abbreviation": "DEN"
+              }
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "isTBDFlex": false,
+            "period": 4,
+            "type": {
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "shortDetail": "Final",
+              "state": "post"
+            }
+          },
+          "venue": {
+            "address": {
+              "city": "Glendale",
+              "country": "USA",
+              "state": "AZ"
+            },
+            "fullName": "State Farm Stadium",
+            "id": "3970",
+            "indoor": true
+          }
+        }
+      ],
+      "date": "2026-10-25T20:05Z",
+      "id": "401873019",
+      "shortName": "DEN @ ARI"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "20",
+              "team": {
+                "abbreviation": "DET"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "17",
+              "team": {
+                "abbreviation": "GB"
+              }
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "isTBDFlex": false,
+            "period": 4,
+            "type": {
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "shortDetail": "Final",
+              "state": "post"
+            }
+          },
+          "venue": {
+            "address": {
+              "city": "Detroit",
+              "country": "USA",
+              "state": "MI"
+            },
+            "fullName": "Ford Field",
+            "id": "3727",
+            "indoor": true
+          }
+        }
+      ],
+      "date": "2026-10-25T20:25Z",
+      "id": "401873020",
+      "shortName": "GB @ DET"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "21",
+              "team": {
+                "abbreviation": "LV"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "35",
+              "team": {
+                "abbreviation": "LAR"
+              }
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "isTBDFlex": false,
+            "period": 4,
+            "type": {
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "shortDetail": "Final",
+              "state": "post"
+            }
+          },
+          "venue": {
+            "address": {
+              "city": "Las Vegas",
+              "country": "USA",
+              "state": "NV"
+            },
+            "fullName": "Allegiant Stadium",
+            "id": "6501",
+            "indoor": true
+          }
+        }
+      ],
+      "date": "2026-10-25T20:25Z",
+      "id": "401873021",
+      "shortName": "LAR @ LV"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "20",
+              "team": {
+                "abbreviation": "SEA"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "3",
+              "team": {
+                "abbreviation": "KC"
+              }
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "isTBDFlex": false,
+            "period": 4,
+            "type": {
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "shortDetail": "Final",
+              "state": "post"
+            }
+          },
+          "venue": {
+            "address": {
+              "city": "Seattle",
+              "country": "USA",
+              "state": "WA"
+            },
+            "fullName": "Lumen Field",
+            "id": "3673",
+            "indoor": false
+          }
+        }
+      ],
+      "date": "2026-10-26T00:20Z",
+      "id": "401873022",
+      "shortName": "KC @ SEA"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "21",
+              "team": {
+                "abbreviation": "PHI"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "38",
+              "team": {
+                "abbreviation": "DAL"
+              }
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "isTBDFlex": false,
+            "period": 4,
+            "type": {
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "shortDetail": "Final",
+              "state": "post"
+            }
+          },
+          "venue": {
+            "address": {
+              "city": "Philadelphia",
+              "country": "USA",
+              "state": "PA"
+            },
+            "fullName": "Lincoln Financial Field",
+            "id": "3806",
+            "indoor": false
+          }
+        }
+      ],
+      "date": "2026-10-27T00:15Z",
+      "id": "401873009",
+      "shortName": "DAL @ PHI"
+    }
+  ],
+  "season": {
+    "type": 2,
+    "year": 2026
+  },
+  "week": {
+    "number": 7,
+    "teamsOnBye": [
+      {
+        "abbreviation": "BUF",
+        "displayName": "Buffalo Bills",
+        "id": "2",
+        "isActive": true,
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/buf/buffalo-bills",
+            "isExternal": false,
+            "isPremium": false,
+            "rel": [
+              "clubhouse",
+              "desktop",
+              "team"
+            ],
+            "text": "Clubhouse"
+          }
+        ],
+        "location": "Buffalo",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
+        "logoDark": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/buf.png",
+        "name": "Bills",
+        "shortDisplayName": "Bills",
+        "uid": "s:20~l:28~t:2"
+      },
+      {
+        "abbreviation": "LAC",
+        "displayName": "Los Angeles Chargers",
+        "id": "24",
+        "isActive": true,
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lac/los-angeles-chargers",
+            "isExternal": false,
+            "isPremium": false,
+            "rel": [
+              "clubhouse",
+              "desktop",
+              "team"
+            ],
+            "text": "Clubhouse"
+          }
+        ],
+        "location": "Los Angeles",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+        "logoDark": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lac.png",
+        "name": "Chargers",
+        "shortDisplayName": "Chargers",
+        "uid": "s:20~l:28~t:24"
+      },
+      {
+        "abbreviation": "WSH",
+        "displayName": "Washington Commanders",
+        "id": "28",
+        "isActive": true,
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/wsh/washington-commanders",
+            "isExternal": false,
+            "isPremium": false,
+            "rel": [
+              "clubhouse",
+              "desktop",
+              "team"
+            ],
+            "text": "Clubhouse"
+          }
+        ],
+        "location": "Washington",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+        "logoDark": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/wsh.png",
+        "name": "Commanders",
+        "shortDisplayName": "Commanders",
+        "uid": "s:20~l:28~t:28"
+      },
+      {
+        "abbreviation": "JAX",
+        "displayName": "Jacksonville Jaguars",
+        "id": "30",
+        "isActive": true,
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/jax/jacksonville-jaguars",
+            "isExternal": false,
+            "isPremium": false,
+            "rel": [
+              "clubhouse",
+              "desktop",
+              "team"
+            ],
+            "text": "Clubhouse"
+          }
+        ],
+        "location": "Jacksonville",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+        "logoDark": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/jax.png",
+        "name": "Jaguars",
+        "shortDisplayName": "Jaguars",
+        "uid": "s:20~l:28~t:30"
+      }
+    ]
+  }
+}

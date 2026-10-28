@@ -1,0 +1,5144 @@
+{
+ "league": {
+  "name": "Rebuilders Anonymous",
+  "league_id": "1319718857249665024",
+  "season": "2026",
+  "week": 7,
+  "roster_positions": [
+   "QB",
+   "RB",
+   "RB",
+   "WR",
+   "WR",
+   "TE",
+   "FLEX",
+   "FLEX",
+   "SUPER_FLEX",
+   "K",
+   "DEF",
+   "BN",
+   "BN",
+   "BN",
+   "BN",
+   "BN",
+   "BN",
+   "BN",
+   "BN"
+  ],
+  "scoring": {
+   "rec": 1.0,
+   "pass_td": 4.0,
+   "pass_yd": 0.04,
+   "pass_int": -2.0,
+   "rush_yd": 0.1,
+   "rec_yd": 0.1,
+   "fum_lost": -2.0,
+   "bonus_rec_te": null
+  },
+  "waiver_budget": 200
+ },
+ "fetched_at": "2026-10-28T14:35:53.429349+00:00",
+ "sources": {
+  "sleeper_league": "https://api.sleeper.app/v1/league/1319718857249665024 (+ /users, /rosters, /matchups/1..8, /transactions/7, /transactions/8)",
+  "sleeper_players": "https://api.sleeper.app/v1/players/nfl (trimmed to rostered players)",
+  "sleeper_stats": "https://api.sleeper.com/stats/nfl/2026/7?season_type=regular&position[]=QB&position[]=RB&position[]=WR&position[]=TE&position[]=K&position[]=DEF",
+  "espn_scoreboard": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=7 (and week 8)",
+  "espn_summaries": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=<id> for each week 7 game"
+ },
+ "teams": [
+  {
+   "team": "Skat’s BruteForce Theorem",
+   "manager": "LittleTimmyFlynn",
+   "roster_id": 1,
+   "faab_used_at_fetch": 50
+  },
+  {
+   "team": "ThePeopleBeaters",
+   "manager": "ThePeopleBeaters",
+   "roster_id": 2,
+   "faab_used_at_fetch": 18
+  },
+  {
+   "team": "Dak Side of the Sun",
+   "manager": "SweetRavenge84",
+   "roster_id": 3,
+   "faab_used_at_fetch": 0
+  },
+  {
+   "team": "WELL! It's The Big Shough",
+   "manager": "KaranLuvSport",
+   "roster_id": 4,
+   "faab_used_at_fetch": 54
+  },
+  {
+   "team": "Split Safety Syndicate",
+   "manager": "kylejones10",
+   "roster_id": 5,
+   "faab_used_at_fetch": 150
+  },
+  {
+   "team": "Rams of Steel",
+   "manager": "iemerson969",
+   "roster_id": 6,
+   "faab_used_at_fetch": 171
+  },
+  {
+   "team": "Kingslayers",
+   "manager": "maierz3948",
+   "roster_id": 7,
+   "faab_used_at_fetch": 44
+  },
+  {
+   "team": "Mendozareamazingpicks",
+   "manager": "DarknessMonster",
+   "roster_id": 8,
+   "faab_used_at_fetch": 14
+  },
+  {
+   "team": "hammball",
+   "manager": "hammball",
+   "roster_id": 9,
+   "faab_used_at_fetch": 0
+  },
+  {
+   "team": "Micah parsons fan club",
+   "manager": "Packersfan1992",
+   "roster_id": 10,
+   "faab_used_at_fetch": 191
+  },
+  {
+   "team": "Unsportsmanlike Conduct",
+   "manager": "JeffyWaterton",
+   "roster_id": 11,
+   "faab_used_at_fetch": 54
+  },
+  {
+   "team": "J’Allen Waffle Stompers",
+   "manager": "BigJohnDeBo008",
+   "roster_id": 12,
+   "faab_used_at_fetch": 130
+  }
+ ],
+ "standings": [
+  {
+   "team": "Dak Side of the Sun",
+   "w": 5,
+   "l": 2,
+   "t": 0,
+   "pf": 1088.56,
+   "pa": 1023.66,
+   "results": [
+    "L",
+    "W",
+    "L",
+    "W",
+    "W",
+    "W",
+    "W"
+   ],
+   "rank": 1,
+   "record": "5-2"
+  },
+  {
+   "team": "Mendozareamazingpicks",
+   "w": 5,
+   "l": 2,
+   "t": 0,
+   "pf": 1063.08,
+   "pa": 963.34,
+   "results": [
+    "W",
+    "L",
+    "W",
+    "L",
+    "W",
+    "W",
+    "W"
+   ],
+   "rank": 2,
+   "record": "5-2"
+  },
+  {
+   "team": "WELL! It's The Big Shough",
+   "w": 5,
+   "l": 2,
+   "t": 0,
+   "pf": 921.76,
+   "pa": 865.9,
+   "results": [
+    "L",
+    "W",
+    "L",
+    "W",
+    "W",
+    "W",
+    "W"
+   ],
+   "rank": 3,
+   "record": "5-2"
+  },
+  {
+   "team": "Split Safety Syndicate",
+   "w": 4,
+   "l": 3,
+   "t": 0,
+   "pf": 1100.62,
+   "pa": 908.56,
+   "results": [
+    "W",
+    "W",
+    "W",
+    "L",
+    "L",
+    "W",
+    "L"
+   ],
+   "rank": 4,
+   "record": "4-3"
+  },
+  {
+   "team": "Unsportsmanlike Conduct",
+   "w": 4,
+   "l": 3,
+   "t": 0,
+   "pf": 1048.46,
+   "pa": 968.68,
+   "results": [
+    "W",
+    "W",
+    "L",
+    "L",
+    "W",
+    "W",
+    "L"
+   ],
+   "rank": 5,
+   "record": "4-3"
+  },
+  {
+   "team": "Micah parsons fan club",
+   "w": 4,
+   "l": 3,
+   "t": 0,
+   "pf": 1019.18,
+   "pa": 966.14,
+   "results": [
+    "W",
+    "W",
+    "L",
+    "W",
+    "L",
+    "L",
+    "W"
+   ],
+   "rank": 6,
+   "record": "4-3"
+  },
+  {
+   "team": "J’Allen Waffle Stompers",
+   "w": 4,
+   "l": 3,
+   "t": 0,
+   "pf": 1012.38,
+   "pa": 960.04,
+   "results": [
+    "W",
+    "W",
+    "L",
+    "L",
+    "W",
+    "W",
+    "L"
+   ],
+   "rank": 7,
+   "record": "4-3"
+  },
+  {
+   "team": "hammball",
+   "w": 4,
+   "l": 3,
+   "t": 0,
+   "pf": 984.36,
+   "pa": 956.48,
+   "results": [
+    "L",
+    "L",
+    "W",
+    "W",
+    "W",
+    "L",
+    "W"
+   ],
+   "rank": 8,
+   "record": "4-3"
+  },
+  {
+   "team": "ThePeopleBeaters",
+   "w": 2,
+   "l": 5,
+   "t": 0,
+   "pf": 954.86,
+   "pa": 1056.16,
+   "results": [
+    "W",
+    "L",
+    "L",
+    "W",
+    "L",
+    "L",
+    "L"
+   ],
+   "rank": 9,
+   "record": "2-5"
+  },
+  {
+   "team": "Kingslayers",
+   "w": 2,
+   "l": 5,
+   "t": 0,
+   "pf": 897.08,
+   "pa": 1083.52,
+   "results": [
+    "L",
+    "L",
+    "W",
+    "W",
+    "L",
+    "L",
+    "L"
+   ],
+   "rank": 10,
+   "record": "2-5"
+  },
+  {
+   "team": "Skat’s BruteForce Theorem",
+   "w": 2,
+   "l": 5,
+   "t": 0,
+   "pf": 829.78,
+   "pa": 940.54,
+   "results": [
+    "L",
+    "L",
+    "W",
+    "L",
+    "L",
+    "L",
+    "W"
+   ],
+   "rank": 11,
+   "record": "2-5"
+  },
+  {
+   "team": "Rams of Steel",
+   "w": 1,
+   "l": 6,
+   "t": 0,
+   "pf": 760.3,
+   "pa": 987.4,
+   "results": [
+    "L",
+    "L",
+    "W",
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "rank": 12,
+   "record": "1-6"
+  }
+ ],
+ "elo": {
+  "start": 1000.0,
+  "k": 32,
+  "margin_of_victory": false,
+  "through_week": 7,
+  "table": [
+   {
+    "team": "Dak Side of the Sun",
+    "elo": 1047.92,
+    "change": 15.87,
+    "history": [
+     984.0,
+     1000.0,
+     982.6,
+     1001.51,
+     1018.79,
+     1032.05,
+     1047.92
+    ],
+    "record": "5-2",
+    "w": 5,
+    "pf": 1088.56,
+    "rank": 1
+   },
+   {
+    "team": "Mendozareamazingpicks",
+    "elo": 1046.51,
+    "change": 15.67,
+    "history": [
+     1016.0,
+     1000.0,
+     1016.0,
+     998.46,
+     1014.66,
+     1030.84,
+     1046.51
+    ],
+    "record": "5-2",
+    "w": 5,
+    "pf": 1063.08,
+    "rank": 2
+   },
+   {
+    "team": "WELL! It's The Big Shough",
+    "elo": 1043.9,
+    "change": 13.32,
+    "history": [
+     984.0,
+     1000.0,
+     984.0,
+     1001.34,
+     1016.06,
+     1030.58,
+     1043.9
+    ],
+    "record": "5-2",
+    "w": 5,
+    "pf": 921.76,
+    "rank": 3
+   },
+   {
+    "team": "hammball",
+    "elo": 1019.44,
+    "change": 17.13,
+    "history": [
+     984.0,
+     969.47,
+     986.87,
+     1004.08,
+     1018.49,
+     1002.31,
+     1019.44
+    ],
+    "record": "4-3",
+    "w": 4,
+    "pf": 984.36,
+    "rank": 4
+   },
+   {
+    "team": "J’Allen Waffle Stompers",
+    "elo": 1013.41,
+    "change": -15.87,
+    "history": [
+     1016.0,
+     1032.0,
+     1013.09,
+     995.88,
+     1013.34,
+     1029.28,
+     1013.41
+    ],
+    "record": "4-3",
+    "w": 4,
+    "pf": 1012.38,
+    "rank": 5
+   },
+   {
+    "team": "Unsportsmanlike Conduct",
+    "elo": 1009.71,
+    "change": -17.13,
+    "history": [
+     1016.0,
+     1032.0,
+     1013.15,
+     995.81,
+     1012.01,
+     1026.84,
+     1009.71
+    ],
+    "record": "4-3",
+    "w": 4,
+    "pf": 1048.46,
+    "rank": 6
+   },
+   {
+    "team": "Micah parsons fan club",
+    "elo": 1009.62,
+    "change": 13.51,
+    "history": [
+     1016.0,
+     1030.53,
+     1014.53,
+     1029.33,
+     1012.05,
+     996.11,
+     1009.62
+    ],
+    "record": "4-3",
+    "w": 4,
+    "pf": 1019.18,
+    "rank": 7
+   },
+   {
+    "team": "Split Safety Syndicate",
+    "elo": 1007.98,
+    "change": -15.67,
+    "history": [
+     1016.0,
+     1030.53,
+     1046.53,
+     1027.62,
+     1010.16,
+     1023.65,
+     1007.98
+    ],
+    "record": "4-3",
+    "w": 4,
+    "pf": 1100.62,
+    "rank": 8
+   },
+   {
+    "team": "Skat’s BruteForce Theorem",
+    "elo": 962.63,
+    "change": 17.09,
+    "history": [
+     984.0,
+     969.47,
+     988.32,
+     973.52,
+     958.8,
+     945.54,
+     962.63
+    ],
+    "record": "2-5",
+    "w": 2,
+    "pf": 829.78,
+    "rank": 9
+   },
+   {
+    "team": "Kingslayers",
+    "elo": 958.49,
+    "change": -13.32,
+    "history": [
+     984.0,
+     968.0,
+     986.91,
+     1002.84,
+     986.64,
+     971.81,
+     958.49
+    ],
+    "record": "2-5",
+    "w": 2,
+    "pf": 897.08,
+    "rank": 10
+   },
+   {
+    "team": "ThePeopleBeaters",
+    "elo": 952.26,
+    "change": -17.09,
+    "history": [
+     1016.0,
+     1000.0,
+     982.53,
+     1000.07,
+     983.87,
+     969.35,
+     952.26
+    ],
+    "record": "2-5",
+    "w": 2,
+    "pf": 954.86,
+    "rank": 11
+   },
+   {
+    "team": "Rams of Steel",
+    "elo": 928.13,
+    "change": -13.51,
+    "history": [
+     984.0,
+     968.0,
+     985.47,
+     969.54,
+     955.13,
+     941.64,
+     928.13
+    ],
+    "record": "1-6",
+    "w": 1,
+    "pf": 760.3,
+    "rank": 12
+   }
+  ]
+ },
+ "fantasy_matchups": [
+  {
+   "matchup_id": 1,
+   "winner": {
+    "team": "Skat’s BruteForce Theorem",
+    "manager": "LittleTimmyFlynn",
+    "roster_id": 1,
+    "points": 154.86,
+    "starters": [
+     {
+      "name": "Brock Purdy",
+      "pos": "QB",
+      "nfl_team": "SF",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "8183",
+      "fantasy_pts": 12.02,
+      "line": "27/40, 288 pass yds, 1 TD, 2 INT; 2 car, 5 rush yds; 66 of 66 snaps",
+      "opponent": "ATL",
+      "nfl_game": "ATL 29, SF 20",
+      "slot": "QB"
+     },
+     {
+      "name": "Jonah Coleman",
+      "pos": "RB",
+      "nfl_team": "DEN",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "13345",
+      "fantasy_pts": 8.9,
+      "line": "9 car, 54 rush yds; 2 rec (2 tgt), 15 rec yds; 30 of 61 snaps",
+      "opponent": "ARI",
+      "nfl_game": "DEN 30, ARI 16",
+      "slot": "RB"
+     },
+     {
+      "name": "Cam Skattebo",
+      "pos": "RB",
+      "nfl_team": "NYG",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "12481",
+      "fantasy_pts": 19.1,
+      "line": "17 car, 124 rush yds, 1 TD; 1 rec (1 tgt), -3 rec yds; 37 of 66 snaps",
+      "opponent": "HOU",
+      "nfl_game": "NYG 27, HOU 21",
+      "slot": "RB"
+     },
+     {
+      "name": "Luther Burden III",
+      "pos": "WR",
+      "nfl_team": "CHI",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "12519",
+      "fantasy_pts": 23.7,
+      "line": "1 car, 7 rush yds; 4 rec (4 tgt), 130 rec yds, 1 TD; 42 of 69 snaps",
+      "opponent": "NE",
+      "nfl_game": "CHI 30, NE 24",
+      "slot": "WR"
+     },
+     {
+      "name": "Makai Lemon",
+      "pos": "WR",
+      "nfl_team": "PHI",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "13294",
+      "fantasy_pts": 19.7,
+      "line": "7 rec (8 tgt), 67 rec yds, 1 TD; 60 of 66 snaps",
+      "opponent": "DAL",
+      "nfl_game": "DAL 38, PHI 21",
+      "slot": "WR"
+     },
+     {
+      "name": "Eli Raridon",
+      "pos": "TE",
+      "nfl_team": "NE",
+      "eligible": [
+       "TE"
+      ],
+      "player_id": "13421",
+      "fantasy_pts": 14.6,
+      "line": "3 rec (4 tgt), 56 rec yds, 1 TD; 29 of 54 snaps",
+      "opponent": "CHI",
+      "nfl_game": "CHI 30, NE 24",
+      "slot": "TE"
+     },
+     {
+      "name": "Carnell Tate",
+      "pos": "WR",
+      "nfl_team": "TEN",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "13279",
+      "fantasy_pts": 9.9,
+      "line": "5 rec (7 tgt), 69 rec yds; 1 fumble lost; 56 of 63 snaps",
+      "opponent": "CLE",
+      "nfl_game": "CLE 27, TEN 24",
+      "slot": "FLEX"
+     },
+     {
+      "name": "KC Concepcion Jr.",
+      "pos": "WR",
+      "nfl_team": "CLE",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "13298",
+      "fantasy_pts": 23.2,
+      "line": "3 car, 23 rush yds; 8 rec (10 tgt), 129 rec yds; 55 of 70 snaps",
+      "opponent": "TEN",
+      "nfl_game": "CLE 27, TEN 24",
+      "slot": "FLEX"
+     },
+     {
+      "name": "Cam Ward",
+      "pos": "QB",
+      "nfl_team": "TEN",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "12522",
+      "fantasy_pts": 5.74,
+      "line": "20/31, 181 pass yds, 0 TD, 1 INT; 2 car, 5 rush yds; 63 of 63 snaps",
+      "opponent": "CLE",
+      "nfl_game": "CLE 27, TEN 24",
+      "slot": "SUPER_FLEX"
+     },
+     {
+      "name": "Brandon Aubrey",
+      "pos": "K",
+      "nfl_team": "DAL",
+      "eligible": [
+       "K"
+      ],
+      "player_id": "11533",
+      "fantasy_pts": 14.0,
+      "line": "FG 3/3 (long 55), XP 3/3",
+      "opponent": "PHI",
+      "nfl_game": "DAL 38, PHI 21",
+      "slot": "K"
+     },
+     {
+      "name": "DEN DEF",
+      "pos": "DEF",
+      "nfl_team": "DEN",
+      "player_id": "DEN",
+      "fantasy_pts": 4.0,
+      "line": "16 pts allowed, 353 yds allowed, 3 sacks",
+      "opponent": "ARI",
+      "nfl_game": "DEN 30, ARI 16",
+      "slot": "DEF"
+     }
+    ],
+    "bench": [
+     {
+      "name": "Ja'Kobi Lane",
+      "pos": "WR",
+      "nfl_team": "BAL",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "13293",
+      "fantasy_pts": 5.5,
+      "line": "3 rec (5 tgt), 25 rec yds; 46 of 67 snaps",
+      "opponent": "CIN",
+      "nfl_game": "CIN 35, BAL 13"
+     },
+     {
+      "name": "Chris Bell",
+      "pos": "WR",
+      "nfl_team": "MIA",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "13311",
+      "fantasy_pts": 5.5,
+      "line": "3 rec (4 tgt), 25 rec yds; 31 of 65 snaps",
+      "opponent": "NYJ",
+      "nfl_game": "MIA 28, NYJ 25"
+     },
+     {
+      "name": "Emmett Johnson",
+      "pos": "RB",
+      "nfl_team": "KC",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "13337",
+      "fantasy_pts": 3.7,
+      "line": "2 rec (3 tgt), 17 rec yds; 14 of 53 snaps",
+      "opponent": "SEA",
+      "nfl_game": "SEA 20, KC 3"
+     },
+     {
+      "name": "Terrance Ferguson",
+      "pos": "TE",
+      "nfl_team": "LAR",
+      "eligible": [
+       "TE"
+      ],
+      "player_id": "12487",
+      "fantasy_pts": 0.0,
+      "line": "no stats",
+      "opponent": "LV",
+      "nfl_game": "LAR 35, LV 21"
+     },
+     {
+      "name": "Kyle Monangai",
+      "pos": "RB",
+      "nfl_team": "CHI",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "12534",
+      "fantasy_pts": 0.0,
+      "line": "no stat record",
+      "opponent": null,
+      "nfl_game": "CHI 30, NE 24"
+     },
+     {
+      "name": "Jordyn Tyson",
+      "pos": "WR",
+      "nfl_team": "NO",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "13281",
+      "fantasy_pts": 0.0,
+      "line": "no stats",
+      "opponent": "PIT",
+      "nfl_game": "PIT 16, NO 10"
+     },
+     {
+      "name": "Jadarian Price",
+      "pos": "RB",
+      "nfl_team": "SEA",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "13286",
+      "fantasy_pts": 0.0,
+      "line": "no stats",
+      "opponent": "KC",
+      "nfl_game": "SEA 20, KC 3"
+     },
+     {
+      "name": "Antonio Williams",
+      "pos": "WR",
+      "nfl_team": "WAS",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "13301",
+      "fantasy_pts": 0.0,
+      "line": "bye week",
+      "opponent": null,
+      "nfl_game": null
+     },
+     {
+      "name": "Eli Stowers",
+      "pos": "TE",
+      "nfl_team": "PHI",
+      "eligible": [
+       "TE"
+      ],
+      "player_id": "13349",
+      "fantasy_pts": 0.0,
+      "line": "0 rec (1 tgt), 0 rec yds; 12 of 66 snaps",
+      "opponent": "DAL",
+      "nfl_game": "DAL 38, PHI 21"
+     },
+     {
+      "name": "Breece Hall",
+      "pos": "RB",
+      "nfl_team": "NYJ",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "8155",
+      "fantasy_pts": 0.0,
+      "line": "no stat record",
+      "opponent": null,
+      "nfl_game": "MIA 28, NYJ 25"
+     }
+    ],
+    "bench_points": 14.7
+   },
+   "loser": {
+    "team": "ThePeopleBeaters",
+    "manager": "ThePeopleBeaters",
+    "roster_id": 2,
+    "points": 123.7,
+    "starters": [
+     {
+      "name": "J.J. McCarthy",
+      "pos": "QB",
+      "nfl_team": "NYG",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "11565",
+      "fantasy_pts": 10.18,
+      "line": "20/28, 252 pass yds, 0 TD; 1 car, 1 rush yds; 61 of 66 snaps",
+      "opponent": "HOU",
+      "nfl_game": "NYG 27, HOU 21",
+      "slot": "QB"
+     },
+     {
+      "name": "Ashton Jeanty",
+      "pos": "RB",
+      "nfl_team": "LV",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "12527",
+      "fantasy_pts": 21.6,
+      "line": "8 car, 15 rush yds; 8 rec (8 tgt), 61 rec yds, 1 TD; 49 of 68 snaps",
+      "opponent": "LAR",
+      "nfl_game": "LAR 35, LV 21",
+      "slot": "RB"
+     },
+     {
+      "name": "Tyler Allgeier",
+      "pos": "RB",
+      "nfl_team": "ARI",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "8132",
+      "fantasy_pts": 7.9,
+      "line": "8 car, 19 rush yds; 3 rec (3 tgt), 30 rec yds; 38 of 81 snaps",
+      "opponent": "DEN",
+      "nfl_game": "DEN 30, ARI 16",
+      "slot": "RB"
+     },
+     {
+      "name": "Chris Olave",
+      "pos": "WR",
+      "nfl_team": "NO",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "8144",
+      "fantasy_pts": 11.6,
+      "line": "6 rec (10 tgt), 56 rec yds; 44 of 57 snaps",
+      "opponent": "PIT",
+      "nfl_game": "PIT 16, NO 10",
+      "slot": "WR"
+     },
+     {
+      "name": "Tetairoa McMillan",
+      "pos": "WR",
+      "nfl_team": "CAR",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "12526",
+      "fantasy_pts": 8.0,
+      "line": "4 rec (6 tgt), 40 rec yds; 38 of 56 snaps",
+      "opponent": "TB",
+      "nfl_game": "TB 43, CAR 13",
+      "slot": "WR"
+     },
+     {
+      "name": "Dallas Goedert",
+      "pos": "TE",
+      "nfl_team": "PHI",
+      "eligible": [
+       "TE"
+      ],
+      "player_id": "5022",
+      "fantasy_pts": 9.8,
+      "line": "5 rec (7 tgt), 48 rec yds; 48 of 66 snaps",
+      "opponent": "DAL",
+      "nfl_game": "DAL 38, PHI 21",
+      "slot": "TE"
+     },
+     {
+      "name": "Hunter Henry",
+      "pos": "TE",
+      "nfl_team": "NE",
+      "eligible": [
+       "TE"
+      ],
+      "player_id": "3214",
+      "fantasy_pts": 14.1,
+      "line": "7 rec (7 tgt), 71 rec yds; 41 of 54 snaps",
+      "opponent": "CHI",
+      "nfl_game": "CHI 30, NE 24",
+      "slot": "FLEX"
+     },
+     {
+      "name": "Brock Bowers",
+      "pos": "TE",
+      "nfl_team": "LV",
+      "eligible": [
+       "TE"
+      ],
+      "player_id": "11604",
+      "fantasy_pts": 13.3,
+      "line": "6 rec (8 tgt), 73 rec yds; 57 of 68 snaps",
+      "opponent": "LAR",
+      "nfl_game": "LAR 35, LV 21",
+      "slot": "FLEX"
+     },
+     {
+      "name": "Deshaun Watson",
+      "pos": "QB",
+      "nfl_team": "CLE",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "4017",
+      "fantasy_pts": 18.22,
+      "line": "25/36, 308 pass yds, 0 TD, 1 INT; 3 car, 19 rush yds, 1 TD; 70 of 70 snaps",
+      "opponent": "TEN",
+      "nfl_game": "CLE 27, TEN 24",
+      "slot": "SUPER_FLEX"
+     },
+     {
+      "name": "Tyler Loop",
+      "pos": "K",
+      "nfl_team": "BAL",
+      "eligible": [
+       "K"
+      ],
+      "player_id": "12711",
+      "fantasy_pts": 7.0,
+      "line": "FG 2/2 (long 34), XP 1/1",
+      "opponent": "CIN",
+      "nfl_game": "CIN 35, BAL 13",
+      "slot": "K"
+     },
+     {
+      "name": "NE DEF",
+      "pos": "DEF",
+      "nfl_team": "NE",
+      "player_id": "NE",
+      "fantasy_pts": 2.0,
+      "line": "30 pts allowed, 405 yds allowed, 3 sacks",
+      "opponent": "CHI",
+      "nfl_game": "CHI 30, NE 24",
+      "slot": "DEF"
+     }
+    ],
+    "bench": [
+     {
+      "name": "Omar Cooper Jr.",
+      "pos": "WR",
+      "nfl_team": "NYJ",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "13276",
+      "fantasy_pts": 22.5,
+      "line": "5 rec (5 tgt), 115 rec yds, 1 TD; 38 of 59 snaps",
+      "opponent": "MIA",
+      "nfl_game": "MIA 28, NYJ 25"
+     },
+     {
+      "name": "Emanuel Wilson",
+      "pos": "RB",
+      "nfl_team": "SEA",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "11435",
+      "fantasy_pts": 18.5,
+      "line": "24 car, 100 rush yds, 1 TD; 1 rec (1 tgt), 15 rec yds; 33 of 69 snaps",
+      "opponent": "KC",
+      "nfl_game": "SEA 20, KC 3"
+     },
+     {
+      "name": "Ryan Flournoy",
+      "pos": "WR",
+      "nfl_team": "DAL",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "11783",
+      "fantasy_pts": 11.0,
+      "line": "4 rec (4 tgt), 70 rec yds; 53 of 68 snaps",
+      "opponent": "PHI",
+      "nfl_game": "DAL 38, PHI 21"
+     },
+     {
+      "name": "Keenan Allen",
+      "pos": "WR",
+      "nfl_team": "IND",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "1479",
+      "fantasy_pts": 6.1,
+      "line": "3 rec (3 tgt), 31 rec yds; 30 of 58 snaps",
+      "opponent": "MIN",
+      "nfl_game": "MIN 16, IND 10"
+     },
+     {
+      "name": "Pat Freiermuth",
+      "pos": "TE",
+      "nfl_team": "PIT",
+      "eligible": [
+       "TE"
+      ],
+      "player_id": "7600",
+      "fantasy_pts": 4.0,
+      "line": "2 rec (4 tgt), 20 rec yds; 34 of 64 snaps",
+      "opponent": "NO",
+      "nfl_game": "PIT 16, NO 10"
+     },
+     {
+      "name": "Keon Coleman",
+      "pos": "WR",
+      "nfl_team": "BUF",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "11637",
+      "fantasy_pts": 0.0,
+      "line": "bye week",
+      "opponent": null,
+      "nfl_game": null
+     },
+     {
+      "name": "Pat Bryant",
+      "pos": "WR",
+      "nfl_team": "DEN",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "12492",
+      "fantasy_pts": 0.0,
+      "line": "no stats",
+      "opponent": "ARI",
+      "nfl_game": "DEN 30, ARI 16"
+     },
+     {
+      "name": "Jaxson Dart",
+      "pos": "QB",
+      "nfl_team": "NYG",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "12508",
+      "fantasy_pts": 0.0,
+      "line": "no stats",
+      "opponent": "HOU",
+      "nfl_game": "NYG 27, HOU 21"
+     },
+     {
+      "name": "Shedeur Sanders",
+      "pos": "QB",
+      "nfl_team": "CLE",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "12524",
+      "fantasy_pts": 0.0,
+      "line": "no stats",
+      "opponent": "TEN",
+      "nfl_game": "CLE 27, TEN 24"
+     },
+     {
+      "name": "Trevor Lawrence",
+      "pos": "QB",
+      "nfl_team": "JAX",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "7523",
+      "fantasy_pts": 0.0,
+      "line": "bye week",
+      "opponent": null,
+      "nfl_game": null
+     }
+    ],
+    "bench_points": 62.1
+   },
+   "margin": 31.16
+  },
+  {
+   "matchup_id": 2,
+   "winner": {
+    "team": "Dak Side of the Sun",
+    "manager": "SweetRavenge84",
+    "roster_id": 3,
+    "points": 160.86,
+    "starters": [
+     {
+      "name": "Joe Burrow",
+      "pos": "QB",
+      "nfl_team": "CIN",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "6770",
+      "fantasy_pts": 28.88,
+      "line": "22/30, 292 pass yds, 4 TD; 2 car, 12 rush yds; 50 of 53 snaps",
+      "opponent": "BAL",
+      "nfl_game": "CIN 35, BAL 13",
+      "slot": "QB"
+     },
+     {
+      "name": "Chase Brown",
+      "pos": "RB",
+      "nfl_team": "CIN",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "9224",
+      "fantasy_pts": 9.8,
+      "line": "11 car, 39 rush yds; 4 rec (5 tgt), 19 rec yds; 40 of 53 snaps",
+      "opponent": "BAL",
+      "nfl_game": "CIN 35, BAL 13",
+      "slot": "RB"
+     },
+     {
+      "name": "Kyren Williams",
+      "pos": "RB",
+      "nfl_team": "LAR",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "8150",
+      "fantasy_pts": 18.1,
+      "line": "16 car, 99 rush yds, 1 TD; 2 rec (2 tgt), 22 rec yds; 1 fumble lost; 37 of 72 snaps",
+      "opponent": "LV",
+      "nfl_game": "LAR 35, LV 21",
+      "slot": "RB"
+     },
+     {
+      "name": "George Pickens",
+      "pos": "WR",
+      "nfl_team": "DAL",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "8137",
+      "fantasy_pts": 15.7,
+      "line": "4 rec (6 tgt), 57 rec yds, 1 TD; 41 of 68 snaps",
+      "opponent": "PHI",
+      "nfl_game": "DAL 38, PHI 21",
+      "slot": "WR"
+     },
+     {
+      "name": "Malik Nabers",
+      "pos": "WR",
+      "nfl_team": "NYG",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "11632",
+      "fantasy_pts": 18.1,
+      "line": "7 rec (9 tgt), 111 rec yds; 48 of 66 snaps",
+      "opponent": "HOU",
+      "nfl_game": "NYG 27, HOU 21",
+      "slot": "WR"
+     },
+     {
+      "name": "Sam LaPorta",
+      "pos": "TE",
+      "nfl_team": "DET",
+      "eligible": [
+       "TE"
+      ],
+      "player_id": "10859",
+      "fantasy_pts": 2.8,
+      "line": "1 rec (2 tgt), 18 rec yds; 66 of 68 snaps",
+      "opponent": "GB",
+      "nfl_game": "DET 20, GB 17",
+      "slot": "TE"
+     },
+     {
+      "name": "RJ Harvey",
+      "pos": "RB",
+      "nfl_team": "DEN",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "12489",
+      "fantasy_pts": 14.0,
+      "line": "3 car, 6 rush yds; 2 rec (2 tgt), 54 rec yds, 1 TD; 16 of 61 snaps",
+      "opponent": "ARI",
+      "nfl_game": "DEN 30, ARI 16",
+      "slot": "FLEX"
+     },
+     {
+      "name": "Amon-Ra St. Brown",
+      "pos": "WR",
+      "nfl_team": "DET",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "7547",
+      "fantasy_pts": 24.2,
+      "line": "1 car, -1 rush yds; 9 rec (11 tgt), 153 rec yds; 53 of 68 snaps",
+      "opponent": "GB",
+      "nfl_game": "DET 20, GB 17",
+      "slot": "FLEX"
+     },
+     {
+      "name": "Dak Prescott",
+      "pos": "QB",
+      "nfl_team": "DAL",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "3294",
+      "fantasy_pts": 23.28,
+      "line": "15/27, 212 pass yds, 3 TD; 2 car, 8 rush yds; 68 of 68 snaps",
+      "opponent": "PHI",
+      "nfl_game": "DAL 38, PHI 21",
+      "slot": "SUPER_FLEX"
+     },
+     {
+      "name": "Jason Myers",
+      "pos": "K",
+      "nfl_team": "SEA",
+      "eligible": [
+       "K"
+      ],
+      "player_id": "2747",
+      "fantasy_pts": 8.0,
+      "line": "FG 2/2 (long 35), XP 2/2",
+      "opponent": "KC",
+      "nfl_game": "SEA 20, KC 3",
+      "slot": "K"
+     },
+     {
+      "name": "BAL DEF",
+      "pos": "DEF",
+      "nfl_team": "BAL",
+      "player_id": "BAL",
+      "fantasy_pts": -2.0,
+      "line": "35 pts allowed, 357 yds allowed, 1 sacks",
+      "opponent": "CIN",
+      "nfl_game": "CIN 35, BAL 13",
+      "slot": "DEF"
+     }
+    ],
+    "bench": [
+     {
+      "name": "Malik Willis",
+      "pos": "QB",
+      "nfl_team": "MIA",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "8161",
+      "fantasy_pts": 26.02,
+      "line": "14/21, 208 pass yds, 2 TD; 8 car, 37 rush yds, 1 TD; 65 of 65 snaps",
+      "opponent": "NYJ",
+      "nfl_game": "MIA 28, NYJ 25"
+     },
+     {
+      "name": "Tanner McKee",
+      "pos": "QB",
+      "nfl_team": "PHI",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "9230",
+      "fantasy_pts": 10.54,
+      "line": "23/35, 211 pass yds, 1 TD, 1 INT; 1 car, 1 rush yds; 66 of 66 snaps",
+      "opponent": "DAL",
+      "nfl_game": "DAL 38, PHI 21"
+     },
+     {
+      "name": "Germie Bernard",
+      "pos": "WR",
+      "nfl_team": "PIT",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "13274",
+      "fantasy_pts": 5.7,
+      "line": "3 rec (5 tgt), 27 rec yds; 58 of 64 snaps",
+      "opponent": "NO",
+      "nfl_game": "PIT 16, NO 10"
+     },
+     {
+      "name": "Wan'Dale Robinson",
+      "pos": "WR",
+      "nfl_team": "TEN",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "8126",
+      "fantasy_pts": 4.7,
+      "line": "4 rec (6 tgt), 7 rec yds; 38 of 63 snaps",
+      "opponent": "CLE",
+      "nfl_game": "CLE 27, TEN 24"
+     },
+     {
+      "name": "Jacory Croskey-Merritt",
+      "pos": "RB",
+      "nfl_team": "WAS",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "12533",
+      "fantasy_pts": 0.0,
+      "line": "bye week",
+      "opponent": null,
+      "nfl_game": null
+     },
+     {
+      "name": "Ty Simpson",
+      "pos": "QB",
+      "nfl_team": "LAR",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "13275",
+      "fantasy_pts": 0.0,
+      "line": "no stat record",
+      "opponent": null,
+      "nfl_game": "LAR 35, LV 21"
+     },
+     {
+      "name": "Austin Ekeler",
+      "pos": "RB",
+      "nfl_team": "WAS",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "4663",
+      "fantasy_pts": 0.0,
+      "line": "bye week",
+      "opponent": null,
+      "nfl_game": null
+     },
+     {
+      "name": "Jake Ferguson",
+      "pos": "TE",
+      "nfl_team": "DAL",
+      "eligible": [
+       "TE"
+      ],
+      "player_id": "8110",
+      "fantasy_pts": 0.0,
+      "line": "0 rec (1 tgt), 0 rec yds; 38 of 68 snaps",
+      "opponent": "PHI",
+      "nfl_game": "DAL 38, PHI 21"
+     }
+    ],
+    "bench_points": 46.96
+   },
+   "loser": {
+    "team": "J’Allen Waffle Stompers",
+    "manager": "BigJohnDeBo008",
+    "roster_id": 12,
+    "points": 140.7,
+    "starters": [
+     {
+      "name": "Kirk Cousins",
+      "pos": "QB",
+      "nfl_team": "LV",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "1166",
+      "fantasy_pts": 20.4,
+      "line": "26/44, 295 pass yds, 2 TD; 3 car, 6 rush yds; 68 of 68 snaps",
+      "opponent": "LAR",
+      "nfl_game": "LAR 35, LV 21",
+      "slot": "QB"
+     },
+     {
+      "name": "Christian McCaffrey",
+      "pos": "RB",
+      "nfl_team": "SF",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "4034",
+      "fantasy_pts": 22.0,
+      "line": "7 car, 39 rush yds, 1 TD; 6 rec (7 tgt), 61 rec yds; 34 of 66 snaps",
+      "opponent": "ATL",
+      "nfl_game": "ATL 29, SF 20",
+      "slot": "RB"
+     },
+     {
+      "name": "Woody Marks",
+      "pos": "RB",
+      "nfl_team": "HOU",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "12474",
+      "fantasy_pts": 9.1,
+      "line": "19 car, 66 rush yds; 1 rec (1 tgt), 15 rec yds; 54 of 61 snaps",
+      "opponent": "NYG",
+      "nfl_game": "NYG 27, HOU 21",
+      "slot": "RB"
+     },
+     {
+      "name": "Devaughn Vele",
+      "pos": "WR",
+      "nfl_team": "NO",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "11834",
+      "fantasy_pts": 16.4,
+      "line": "5 rec (5 tgt), 54 rec yds, 1 TD; 51 of 57 snaps",
+      "opponent": "PIT",
+      "nfl_game": "PIT 16, NO 10",
+      "slot": "WR"
+     },
+     {
+      "name": "Tee Higgins",
+      "pos": "WR",
+      "nfl_team": "CIN",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "6801",
+      "fantasy_pts": 26.8,
+      "line": "6 rec (7 tgt), 148 rec yds, 1 TD; 46 of 53 snaps",
+      "opponent": "BAL",
+      "nfl_game": "CIN 35, BAL 13",
+      "slot": "WR"
+     },
+     {
+      "name": "AJ Barner",
+      "pos": "TE",
+      "nfl_team": "SEA",
+      "eligible": [
+       "TE"
+      ],
+      "player_id": "11603",
+      "fantasy_pts": 8.6,
+      "line": "3 car, 4 rush yds; 4 rec (5 tgt), 42 rec yds; 55 of 69 snaps",
+      "opponent": "KC",
+      "nfl_game": "SEA 20, KC 3",
+      "slot": "TE"
+     },
+     {
+      "name": "Chris Godwin Jr.",
+      "pos": "WR",
+      "nfl_team": "TB",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "4037",
+      "fantasy_pts": 6.7,
+      "line": "4 rec (5 tgt), 27 rec yds; 46 of 63 snaps",
+      "opponent": "CAR",
+      "nfl_game": "TB 43, CAR 13",
+      "slot": "FLEX"
+     },
+     {
+      "name": "J.K. Dobbins",
+      "pos": "RB",
+      "nfl_team": "DEN",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "6806",
+      "fantasy_pts": 8.3,
+      "line": "6 car, 23 rush yds, 1 TD; 14 of 61 snaps",
+      "opponent": "ARI",
+      "nfl_game": "DEN 30, ARI 16",
+      "slot": "FLEX"
+     },
+     {
+      "name": "Justin Jefferson",
+      "pos": "WR",
+      "nfl_team": "MIN",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "6794",
+      "fantasy_pts": 8.4,
+      "line": "4 rec (7 tgt), 44 rec yds; 55 of 59 snaps",
+      "opponent": "IND",
+      "nfl_game": "MIN 16, IND 10",
+      "slot": "SUPER_FLEX"
+     },
+     {
+      "name": "Will Reichard",
+      "pos": "K",
+      "nfl_team": "MIN",
+      "eligible": [
+       "K"
+      ],
+      "player_id": "11792",
+      "fantasy_pts": 10.0,
+      "line": "FG 3/4 (long 52), XP 1/1",
+      "opponent": "IND",
+      "nfl_game": "MIN 16, IND 10",
+      "slot": "K"
+     },
+     {
+      "name": "CHI DEF",
+      "pos": "DEF",
+      "nfl_team": "CHI",
+      "player_id": "CHI",
+      "fantasy_pts": 4.0,
+      "line": "24 pts allowed, 380 yds allowed, 2 sacks, 1 INT",
+      "opponent": "NE",
+      "nfl_game": "CHI 30, NE 24",
+      "slot": "DEF"
+     }
+    ],
+    "bench": [
+     {
+      "name": "Tre Tucker",
+      "pos": "WR",
+      "nfl_team": "LV",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "10213",
+      "fantasy_pts": 21.3,
+      "line": "5 rec (12 tgt), 103 rec yds, 1 TD; 56 of 68 snaps",
+      "opponent": "LAR",
+      "nfl_game": "LAR 35, LV 21"
+     },
+     {
+      "name": "Saquon Barkley",
+      "pos": "RB",
+      "nfl_team": "PHI",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "4866",
+      "fantasy_pts": 15.1,
+      "line": "7 car, 62 rush yds, 1 TD; 2 rec (2 tgt), 9 rec yds; 10 of 66 snaps",
+      "opponent": "DAL",
+      "nfl_game": "DAL 38, PHI 21"
+     },
+     {
+      "name": "Dylan Sampson",
+      "pos": "RB",
+      "nfl_team": "CLE",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "12469",
+      "fantasy_pts": 10.7,
+      "line": "6 car, 45 rush yds; 3 rec (3 tgt), 32 rec yds; 32 of 70 snaps",
+      "opponent": "TEN",
+      "nfl_game": "CLE 27, TEN 24"
+     },
+     {
+      "name": "Zonovan Knight",
+      "pos": "RB",
+      "nfl_team": "ARI",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "8122",
+      "fantasy_pts": 9.3,
+      "line": "7 car, 48 rush yds; 3 rec (5 tgt), 15 rec yds; 43 of 81 snaps",
+      "opponent": "DEN",
+      "nfl_game": "DEN 30, ARI 16"
+     },
+     {
+      "name": "Konata Mumpfield",
+      "pos": "WR",
+      "nfl_team": "LAR",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "12718",
+      "fantasy_pts": 2.5,
+      "line": "1 rec (2 tgt), 15 rec yds; 31 of 72 snaps",
+      "opponent": "LV",
+      "nfl_game": "LAR 35, LV 21"
+     },
+     {
+      "name": "Dalton Kincaid",
+      "pos": "TE",
+      "nfl_team": "BUF",
+      "eligible": [
+       "TE"
+      ],
+      "player_id": "10236",
+      "fantasy_pts": 0.0,
+      "line": "bye week",
+      "opponent": null,
+      "nfl_game": null
+     },
+     {
+      "name": "Josh Allen",
+      "pos": "QB",
+      "nfl_team": "BUF",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "4984",
+      "fantasy_pts": 0.0,
+      "line": "bye week",
+      "opponent": null,
+      "nfl_game": null
+     },
+     {
+      "name": "Justin Herbert",
+      "pos": "QB",
+      "nfl_team": "LAC",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "6797",
+      "fantasy_pts": 0.0,
+      "line": "bye week",
+      "opponent": null,
+      "nfl_game": null
+     },
+     {
+      "name": "Khalil Shakir",
+      "pos": "WR",
+      "nfl_team": "BUF",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "8134",
+      "fantasy_pts": 0.0,
+      "line": "bye week",
+      "opponent": null,
+      "nfl_game": null
+     }
+    ],
+    "bench_points": 58.9
+   },
+   "margin": 20.16
+  },
+  {
+   "matchup_id": 3,
+   "winner": {
+    "team": "WELL! It's The Big Shough",
+    "manager": "KaranLuvSport",
+    "roster_id": 4,
+    "points": 124.04,
+    "starters": [
+     {
+      "name": "Tyler Shough",
+      "pos": "QB",
+      "nfl_team": "NO",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "12545",
+      "fantasy_pts": 13.82,
+      "line": "30/38, 278 pass yds, 1 TD, 1 INT; 3 car, 7 rush yds; 57 of 57 snaps",
+      "opponent": "PIT",
+      "nfl_game": "PIT 16, NO 10",
+      "slot": "QB"
+     },
+     {
+      "name": "Quinshon Judkins",
+      "pos": "RB",
+      "nfl_team": "CLE",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "12512",
+      "fantasy_pts": 23.4,
+      "line": "17 car, 96 rush yds, 2 TD; 1 rec (1 tgt), 8 rec yds; 37 of 70 snaps",
+      "opponent": "TEN",
+      "nfl_game": "CLE 27, TEN 24",
+      "slot": "RB"
+     },
+     {
+      "name": "Alvin Kamara",
+      "pos": "RB",
+      "nfl_team": "NO",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "4035",
+      "fantasy_pts": 13.2,
+      "line": "6 car, 5 rush yds; 7 rec (7 tgt), 57 rec yds; 32 of 57 snaps",
+      "opponent": "PIT",
+      "nfl_game": "PIT 16, NO 10",
+      "slot": "RB"
+     },
+     {
+      "name": "Ted Hurst III",
+      "pos": "WR",
+      "nfl_team": "TB",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "13317",
+      "fantasy_pts": 0.0,
+      "line": "0 rec (1 tgt), 0 rec yds; 35 of 63 snaps",
+      "opponent": "CAR",
+      "nfl_game": "TB 43, CAR 13",
+      "slot": "WR"
+     },
+     {
+      "name": "Rome Odunze",
+      "pos": "WR",
+      "nfl_team": "CHI",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "11620",
+      "fantasy_pts": 10.9,
+      "line": "4 rec (5 tgt), 69 rec yds; 65 of 69 snaps",
+      "opponent": "NE",
+      "nfl_game": "CHI 30, NE 24",
+      "slot": "WR"
+     },
+     {
+      "name": "Colston Loveland",
+      "pos": "TE",
+      "nfl_team": "CHI",
+      "eligible": [
+       "TE"
+      ],
+      "player_id": "12517",
+      "fantasy_pts": 19.9,
+      "line": "7 rec (12 tgt), 69 rec yds, 1 TD; 58 of 69 snaps",
+      "opponent": "NE",
+      "nfl_game": "CHI 30, NE 24",
+      "slot": "TE"
+     },
+     {
+      "name": "Isaiah Likely",
+      "pos": "TE",
+      "nfl_team": "NYG",
+      "eligible": [
+       "TE"
+      ],
+      "player_id": "8131",
+      "fantasy_pts": 3.2,
+      "line": "2 rec (4 tgt), 12 rec yds; 57 of 66 snaps",
+      "opponent": "HOU",
+      "nfl_game": "NYG 27, HOU 21",
+      "slot": "FLEX"
+     },
+     {
+      "name": "Garrett Wilson",
+      "pos": "WR",
+      "nfl_team": "NYJ",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "8146",
+      "fantasy_pts": 4.6,
+      "line": "2 rec (3 tgt), 26 rec yds; 50 of 59 snaps",
+      "opponent": "MIA",
+      "nfl_game": "MIA 28, NYJ 25",
+      "slot": "FLEX"
+     },
+     {
+      "name": "Jared Goff",
+      "pos": "QB",
+      "nfl_team": "DET",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "3163",
+      "fantasy_pts": 18.02,
+      "line": "22/32, 303 pass yds, 2 TD; 2 car, -1 rush yds; 1 fumble lost; 68 of 68 snaps",
+      "opponent": "GB",
+      "nfl_game": "DET 20, GB 17",
+      "slot": "SUPER_FLEX"
+     },
+     {
+      "name": "Chris Boswell",
+      "pos": "K",
+      "nfl_team": "PIT",
+      "eligible": [
+       "K"
+      ],
+      "player_id": "1945",
+      "fantasy_pts": 11.0,
+      "line": "FG 3/3 (long 47), XP 1/1",
+      "opponent": "NO",
+      "nfl_game": "PIT 16, NO 10",
+      "slot": "K"
+     },
+     {
+      "name": "CLE DEF",
+      "pos": "DEF",
+      "nfl_team": "CLE",
+      "player_id": "CLE",
+      "fantasy_pts": 6.0,
+      "line": "24 pts allowed, 322 yds allowed, 1 sacks, 1 INT, 1 fumble rec",
+      "opponent": "TEN",
+      "nfl_game": "CLE 27, TEN 24",
+      "slot": "DEF"
+     }
+    ],
+    "bench": [
+     {
+      "name": "Kyler Murray",
+      "pos": "QB",
+      "nfl_team": "MIN",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "5849",
+      "fantasy_pts": 13.9,
+      "line": "14/24, 150 pass yds, 1 TD; 5 car, 39 rush yds; 59 of 59 snaps",
+      "opponent": "IND",
+      "nfl_game": "MIN 16, IND 10"
+     },
+     {
+      "name": "Kaelon Black",
+      "pos": "RB",
+      "nfl_team": "SF",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "13414",
+      "fantasy_pts": 10.9,
+      "line": "12 car, 63 rush yds, 1 TD; 1 rec (3 tgt), -4 rec yds; 1 fumble lost; 31 of 66 snaps",
+      "opponent": "ATL",
+      "nfl_game": "ATL 29, SF 20"
+     },
+     {
+      "name": "Seth McGowan",
+      "pos": "RB",
+      "nfl_team": "IND",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "13424",
+      "fantasy_pts": 5.8,
+      "line": "11 car, 46 rush yds; 1 rec (1 tgt), 2 rec yds; 20 of 58 snaps",
+      "opponent": "MIN",
+      "nfl_game": "MIN 16, IND 10"
+     },
+     {
+      "name": "Jonathon Brooks",
+      "pos": "RB",
+      "nfl_team": "CAR",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "11583",
+      "fantasy_pts": 0.0,
+      "line": "no stats",
+      "opponent": "TB",
+      "nfl_game": "TB 43, CAR 13"
+     },
+     {
+      "name": "Brian Thomas Jr.",
+      "pos": "WR",
+      "nfl_team": "JAX",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "11631",
+      "fantasy_pts": 0.0,
+      "line": "bye week",
+      "opponent": null,
+      "nfl_game": null
+     },
+     {
+      "name": "Cam Little",
+      "pos": "K",
+      "nfl_team": "JAX",
+      "eligible": [
+       "K"
+      ],
+      "player_id": "11786",
+      "fantasy_pts": 0.0,
+      "line": "bye week",
+      "opponent": null,
+      "nfl_game": null
+     },
+     {
+      "name": "Bhayshul Tuten",
+      "pos": "RB",
+      "nfl_team": "JAX",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "12490",
+      "fantasy_pts": 0.0,
+      "line": "bye week",
+      "opponent": null,
+      "nfl_game": null
+     },
+     {
+      "name": "Emeka Egbuka",
+      "pos": "WR",
+      "nfl_team": "TB",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "12514",
+      "fantasy_pts": 0.0,
+      "line": "no stat record",
+      "opponent": null,
+      "nfl_game": "TB 43, CAR 13"
+     },
+     {
+      "name": "Travis Hunter",
+      "pos": "DB",
+      "nfl_team": "JAX",
+      "eligible": [
+       "DB",
+       "WR"
+      ],
+      "player_id": "12530",
+      "fantasy_pts": 0.0,
+      "line": "bye week",
+      "opponent": null,
+      "nfl_game": null
+     },
+     {
+      "name": "Travis Etienne Jr.",
+      "pos": "RB",
+      "nfl_team": "NO",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "7543",
+      "fantasy_pts": 0.0,
+      "line": "no stats",
+      "opponent": "PIT",
+      "nfl_game": "PIT 16, NO 10"
+     },
+     {
+      "name": "JAX DEF",
+      "pos": "DEF",
+      "nfl_team": "JAX",
+      "player_id": "JAX",
+      "fantasy_pts": 0.0,
+      "line": "bye week",
+      "opponent": null,
+      "nfl_game": null
+     }
+    ],
+    "bench_points": 30.6
+   },
+   "loser": {
+    "team": "Kingslayers",
+    "manager": "maierz3948",
+    "roster_id": 7,
+    "points": 90.7,
+    "starters": [
+     {
+      "name": "Matthew Stafford",
+      "pos": "QB",
+      "nfl_team": "LAR",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "421",
+      "fantasy_pts": 17.5,
+      "line": "23/29, 195 pass yds, 3 TD, 1 INT; 3 car, -3 rush yds; 72 of 72 snaps",
+      "opponent": "LV",
+      "nfl_game": "LAR 35, LV 21",
+      "slot": "QB"
+     },
+     {
+      "name": "Derrick Henry",
+      "pos": "RB",
+      "nfl_team": "BAL",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "3198",
+      "fantasy_pts": 5.9,
+      "line": "17 car, 45 rush yds; 1 rec (2 tgt), 4 rec yds; 34 of 67 snaps",
+      "opponent": "CIN",
+      "nfl_game": "CIN 35, BAL 13",
+      "slot": "RB"
+     },
+     {
+      "name": "Jeremiyah Love",
+      "pos": "RB",
+      "nfl_team": "ARI",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "13287",
+      "fantasy_pts": 0.0,
+      "line": "no stat record",
+      "opponent": null,
+      "nfl_game": "DEN 30, ARI 16",
+      "slot": "RB"
+     },
+     {
+      "name": "Puka Nacua",
+      "pos": "WR",
+      "nfl_team": "LAR",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "9493",
+      "fantasy_pts": 21.8,
+      "line": "2 car, 10 rush yds; 8 rec (10 tgt), 68 rec yds, 1 TD; 61 of 72 snaps",
+      "opponent": "LV",
+      "nfl_game": "LAR 35, LV 21",
+      "slot": "WR"
+     },
+     {
+      "name": "Drake London",
+      "pos": "WR",
+      "nfl_team": "ATL",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "8112",
+      "fantasy_pts": 19.6,
+      "line": "7 rec (10 tgt), 66 rec yds, 1 TD; 55 of 69 snaps",
+      "opponent": "SF",
+      "nfl_game": "ATL 29, SF 20",
+      "slot": "WR"
+     },
+     {
+      "name": "Juwan Johnson",
+      "pos": "TE",
+      "nfl_team": "NO",
+      "eligible": [
+       "TE"
+      ],
+      "player_id": "7002",
+      "fantasy_pts": 1.7,
+      "line": "1 rec (3 tgt), 7 rec yds; 32 of 57 snaps",
+      "opponent": "PIT",
+      "nfl_game": "PIT 16, NO 10",
+      "slot": "TE"
+     },
+     {
+      "name": "Dalton Schultz",
+      "pos": "TE",
+      "nfl_team": "HOU",
+      "eligible": [
+       "TE"
+      ],
+      "player_id": "5001",
+      "fantasy_pts": 9.5,
+      "line": "5 rec (6 tgt), 45 rec yds; 35 of 61 snaps",
+      "opponent": "NYG",
+      "nfl_game": "NYG 27, HOU 21",
+      "slot": "FLEX"
+     },
+     {
+      "name": "Romeo Doubs",
+      "pos": "WR",
+      "nfl_team": "NE",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "8121",
+      "fantasy_pts": 0.0,
+      "line": "no stats",
+      "opponent": "CHI",
+      "nfl_game": "CHI 30, NE 24",
+      "slot": "FLEX"
+     },
+     {
+      "name": "Jalon Daniels",
+      "pos": "QB",
+      "nfl_team": "TB",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "13425",
+      "fantasy_pts": -0.3,
+      "line": "2 car, -3 rush yds; 6 of 63 snaps",
+      "opponent": "CAR",
+      "nfl_game": "TB 43, CAR 13",
+      "slot": "SUPER_FLEX"
+     },
+     {
+      "name": "Evan McPherson",
+      "pos": "K",
+      "nfl_team": "CIN",
+      "eligible": [
+       "K"
+      ],
+      "player_id": "7839",
+      "fantasy_pts": 5.0,
+      "line": "FG 0/0, XP 5/5",
+      "opponent": "BAL",
+      "nfl_game": "CIN 35, BAL 13",
+      "slot": "K"
+     },
+     {
+      "name": "MIN DEF",
+      "pos": "DEF",
+      "nfl_team": "MIN",
+      "player_id": "MIN",
+      "fantasy_pts": 10.0,
+      "line": "10 pts allowed, 218 yds allowed, 4 sacks, 1 INT",
+      "opponent": "IND",
+      "nfl_game": "MIN 16, IND 10",
+      "slot": "DEF"
+     }
+    ],
+    "bench": [
+     {
+      "name": "Mike Gesicki",
+      "pos": "TE",
+      "nfl_team": "CIN",
+      "eligible": [
+       "TE"
+      ],
+      "player_id": "4993",
+      "fantasy_pts": 7.6,
+      "line": "1 rec (1 tgt), 6 rec yds, 1 TD; 20 of 53 snaps",
+      "opponent": "BAL",
+      "nfl_game": "CIN 35, BAL 13"
+     },
+     {
+      "name": "IND DEF",
+      "pos": "DEF",
+      "nfl_team": "IND",
+      "player_id": "IND",
+      "fantasy_pts": 7.0,
+      "line": "16 pts allowed, 275 yds allowed, 3 sacks",
+      "opponent": "MIN",
+      "nfl_game": "MIN 16, IND 10"
+     },
+     {
+      "name": "Jordan Mason",
+      "pos": "RB",
+      "nfl_team": "MIN",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "8408",
+      "fantasy_pts": 6.8,
+      "line": "15 car, 68 rush yds; 0 rec (2 tgt), 0 rec yds; 38 of 59 snaps",
+      "opponent": "IND",
+      "nfl_game": "MIN 16, IND 10"
+     },
+     {
+      "name": "Malik Washington",
+      "pos": "WR",
+      "nfl_team": "MIA",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "11610",
+      "fantasy_pts": 6.5,
+      "line": "2 car, 8 rush yds; 3 rec (3 tgt), 27 rec yds; 52 of 65 snaps",
+      "opponent": "NYJ",
+      "nfl_game": "MIA 28, NYJ 25"
+     },
+     {
+      "name": "Rashid Shaheed",
+      "pos": "WR",
+      "nfl_team": "SEA",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "8676",
+      "fantasy_pts": 2.1,
+      "line": "2 rec (3 tgt), 1 rec yds; 22 of 69 snaps",
+      "opponent": "KC",
+      "nfl_game": "SEA 20, KC 3"
+     },
+     {
+      "name": "Eddy Pineiro",
+      "pos": "K",
+      "nfl_team": "SF",
+      "eligible": [
+       "K"
+      ],
+      "player_id": "5189",
+      "fantasy_pts": 1.0,
+      "line": "FG 0/0, XP 2/3",
+      "opponent": "ATL",
+      "nfl_game": "ATL 29, SF 20"
+     },
+     {
+      "name": "Chris Rodriguez Jr.",
+      "pos": "RB",
+      "nfl_team": "JAX",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "10219",
+      "fantasy_pts": 0.0,
+      "line": "bye week",
+      "opponent": null,
+      "nfl_game": null
+     },
+     {
+      "name": "Fernando Mendoza",
+      "pos": "QB",
+      "nfl_team": "LV",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "13269",
+      "fantasy_pts": 0.0,
+      "line": "no stats",
+      "opponent": "LAR",
+      "nfl_game": "LAR 35, LV 21"
+     },
+     {
+      "name": "Kalif Raymond",
+      "pos": "WR",
+      "nfl_team": "CHI",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "3634",
+      "fantasy_pts": 0.0,
+      "line": "0 rec (2 tgt), 0 rec yds; 48 of 69 snaps",
+      "opponent": "NE",
+      "nfl_game": "CHI 30, NE 24"
+     },
+     {
+      "name": "Alec Pierce",
+      "pos": "WR",
+      "nfl_team": "IND",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "8142",
+      "fantasy_pts": 0.0,
+      "line": "no stats",
+      "opponent": "MIN",
+      "nfl_game": "MIN 16, IND 10"
+     }
+    ],
+    "bench_points": 31.0
+   },
+   "margin": 33.34
+  },
+  {
+   "matchup_id": 4,
+   "winner": {
+    "team": "Micah parsons fan club",
+    "manager": "Packersfan1992",
+    "roster_id": 10,
+    "points": 157.78,
+    "starters": [
+     {
+      "name": "Tyler Huntley",
+      "pos": "QB",
+      "nfl_team": "BAL",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "7083",
+      "fantasy_pts": 15.12,
+      "line": "23/34, 298 pass yds, 1 TD, 1 INT; 3 car, 12 rush yds; 67 of 67 snaps",
+      "opponent": "CIN",
+      "nfl_game": "CIN 35, BAL 13",
+      "slot": "QB"
+     },
+     {
+      "name": "Josh Jacobs",
+      "pos": "RB",
+      "nfl_team": "GB",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "5850",
+      "fantasy_pts": 20.1,
+      "line": "11 car, 36 rush yds; 5 rec (7 tgt), 55 rec yds, 1 TD; 35 of 67 snaps",
+      "opponent": "DET",
+      "nfl_game": "DET 20, GB 17",
+      "slot": "RB"
+     },
+     {
+      "name": "Javonte Williams",
+      "pos": "RB",
+      "nfl_team": "DAL",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "7588",
+      "fantasy_pts": 21.5,
+      "line": "25 car, 155 rush yds, 1 TD; 44 of 68 snaps",
+      "opponent": "PHI",
+      "nfl_game": "DAL 38, PHI 21",
+      "slot": "RB"
+     },
+     {
+      "name": "Zay Flowers",
+      "pos": "WR",
+      "nfl_team": "BAL",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "9997",
+      "fantasy_pts": 27.7,
+      "line": "8 rec (11 tgt), 137 rec yds, 1 TD; 57 of 67 snaps",
+      "opponent": "CIN",
+      "nfl_game": "CIN 35, BAL 13",
+      "slot": "WR"
+     },
+     {
+      "name": "Christian Watson",
+      "pos": "WR",
+      "nfl_team": "GB",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "8167",
+      "fantasy_pts": 10.7,
+      "line": "5 rec (8 tgt), 57 rec yds; 54 of 67 snaps",
+      "opponent": "DET",
+      "nfl_game": "DET 20, GB 17",
+      "slot": "WR"
+     },
+     {
+      "name": "Trey McBride",
+      "pos": "TE",
+      "nfl_team": "ARI",
+      "eligible": [
+       "TE"
+      ],
+      "player_id": "8130",
+      "fantasy_pts": 27.1,
+      "line": "10 rec (13 tgt), 111 rec yds, 1 TD; 75 of 81 snaps",
+      "opponent": "DEN",
+      "nfl_game": "DEN 30, ARI 16",
+      "slot": "TE"
+     },
+     {
+      "name": "Ollie Gordon II",
+      "pos": "RB",
+      "nfl_team": "MIA",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "12495",
+      "fantasy_pts": 17.3,
+      "line": "25 car, 103 rush yds, 1 TD; 1 rec (3 tgt), 0 rec yds; 54 of 65 snaps",
+      "opponent": "NYJ",
+      "nfl_game": "MIA 28, NYJ 25",
+      "slot": "FLEX"
+     },
+     {
+      "name": "Aaron Jones Sr.",
+      "pos": "RB",
+      "nfl_team": "MIN",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "4199",
+      "fantasy_pts": 3.6,
+      "line": "8 car, 26 rush yds; 1 rec (1 tgt), 0 rec yds; 15 of 59 snaps",
+      "opponent": "IND",
+      "nfl_game": "MIN 16, IND 10",
+      "slot": "FLEX"
+     },
+     {
+      "name": "Baker Mayfield",
+      "pos": "QB",
+      "nfl_team": "TB",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "4892",
+      "fantasy_pts": 6.66,
+      "line": "7/11, 64 pass yds, 1 TD; 1 car, 1 rush yds; 57 of 63 snaps",
+      "opponent": "CAR",
+      "nfl_game": "TB 43, CAR 13",
+      "slot": "SUPER_FLEX"
+     },
+     {
+      "name": "Trey Smack",
+      "pos": "K",
+      "nfl_team": "GB",
+      "eligible": [
+       "K"
+      ],
+      "player_id": "13545",
+      "fantasy_pts": 0.0,
+      "line": "FG 1/3 (long 43), XP 2/2",
+      "opponent": "DET",
+      "nfl_game": "DET 20, GB 17",
+      "slot": "K"
+     },
+     {
+      "name": "GB DEF",
+      "pos": "DEF",
+      "nfl_team": "GB",
+      "player_id": "GB",
+      "fantasy_pts": 8.0,
+      "line": "20 pts allowed, 415 yds allowed, 1 sacks, 2 fumble rec",
+      "opponent": "DET",
+      "nfl_game": "DET 20, GB 17",
+      "slot": "DEF"
+     }
+    ],
+    "bench": [
+     {
+      "name": "T.J. Hockenson",
+      "pos": "TE",
+      "nfl_team": "MIN",
+      "eligible": [
+       "TE"
+      ],
+      "player_id": "5844",
+      "fantasy_pts": 13.5,
+      "line": "4 rec (5 tgt), 35 rec yds, 1 TD; 45 of 59 snaps",
+      "opponent": "IND",
+      "nfl_game": "MIN 16, IND 10"
+     },
+     {
+      "name": "Jake Bates",
+      "pos": "K",
+      "nfl_team": "DET",
+      "eligible": [
+       "K"
+      ],
+      "player_id": "11539",
+      "fantasy_pts": 9.0,
+      "line": "FG 2/2 (long 40), XP 2/2",
+      "opponent": "GB",
+      "nfl_game": "DET 20, GB 17"
+     },
+     {
+      "name": "Marvin Harrison Jr.",
+      "pos": "WR",
+      "nfl_team": "HOU",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "11628",
+      "fantasy_pts": 7.6,
+      "line": "1 rec (4 tgt), 6 rec yds, 1 TD; 13 of 61 snaps",
+      "opponent": "NYG",
+      "nfl_game": "NYG 27, HOU 21"
+     },
+     {
+      "name": "Courtland Sutton",
+      "pos": "WR",
+      "nfl_team": "DEN",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "5045",
+      "fantasy_pts": 7.5,
+      "line": "3 rec (5 tgt), 45 rec yds; 43 of 61 snaps",
+      "opponent": "ARI",
+      "nfl_game": "DEN 30, ARI 16"
+     },
+     {
+      "name": "Jalen McMillan",
+      "pos": "WR",
+      "nfl_team": "TB",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "11618",
+      "fantasy_pts": 0.0,
+      "line": "no stats",
+      "opponent": "CAR",
+      "nfl_game": "TB 43, CAR 13"
+     },
+     {
+      "name": "Kimani Vidal",
+      "pos": "RB",
+      "nfl_team": "LAC",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "11647",
+      "fantasy_pts": 0.0,
+      "line": "bye week",
+      "opponent": null,
+      "nfl_game": null
+     },
+     {
+      "name": "Stefon Diggs",
+      "pos": "WR",
+      "nfl_team": "WAS",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "2449",
+      "fantasy_pts": 0.0,
+      "line": "bye week",
+      "opponent": null,
+      "nfl_game": null
+     },
+     {
+      "name": "James Conner",
+      "pos": "RB",
+      "nfl_team": "ARI",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "4137",
+      "fantasy_pts": 0.0,
+      "line": "no stats",
+      "opponent": "DEN",
+      "nfl_game": "DEN 30, ARI 16"
+     },
+     {
+      "name": "Lamar Jackson",
+      "pos": "QB",
+      "nfl_team": "BAL",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "4881",
+      "fantasy_pts": 0.0,
+      "line": "no stat record",
+      "opponent": null,
+      "nfl_game": "CIN 35, BAL 13"
+     }
+    ],
+    "bench_points": 37.6
+   },
+   "loser": {
+    "team": "Rams of Steel",
+    "manager": "iemerson969",
+    "roster_id": 6,
+    "points": 91.4,
+    "starters": [
+     {
+      "name": "Caleb Williams",
+      "pos": "QB",
+      "nfl_team": "CHI",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "11560",
+      "fantasy_pts": 22.12,
+      "line": "22/33, 308 pass yds, 2 TD; 5 car, 18 rush yds; 69 of 69 snaps",
+      "opponent": "NE",
+      "nfl_game": "CHI 30, NE 24",
+      "slot": "QB"
+     },
+     {
+      "name": "Kendre Miller",
+      "pos": "RB",
+      "nfl_team": "NO",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "9757",
+      "fantasy_pts": 5.8,
+      "line": "8 car, 6 rush yds; 3 rec (5 tgt), 22 rec yds; 22 of 57 snaps",
+      "opponent": "PIT",
+      "nfl_game": "PIT 16, NO 10",
+      "slot": "RB"
+     },
+     {
+      "name": "Tyrone Tracy Jr.",
+      "pos": "RB",
+      "nfl_team": "NYG",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "11655",
+      "fantasy_pts": 8.7,
+      "line": "6 car, 15 rush yds, 1 TD; 1 rec (1 tgt), 2 rec yds; 10 of 66 snaps",
+      "opponent": "HOU",
+      "nfl_game": "NYG 27, HOU 21",
+      "slot": "RB"
+     },
+     {
+      "name": "DeMario Douglas",
+      "pos": "WR",
+      "nfl_team": "NE",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "9501",
+      "fantasy_pts": 5.3,
+      "line": "3 rec (4 tgt), 23 rec yds; 35 of 54 snaps",
+      "opponent": "CHI",
+      "nfl_game": "CHI 30, NE 24",
+      "slot": "WR"
+     },
+     {
+      "name": "Jordan Addison",
+      "pos": "WR",
+      "nfl_team": "MIN",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "9756",
+      "fantasy_pts": 4.3,
+      "line": "1 car, 3 rush yds; 2 rec (3 tgt), 20 rec yds; 49 of 59 snaps",
+      "opponent": "IND",
+      "nfl_game": "MIN 16, IND 10",
+      "slot": "WR"
+     },
+     {
+      "name": "Harold Fannin Jr.",
+      "pos": "TE",
+      "nfl_team": "CLE",
+      "eligible": [
+       "TE"
+      ],
+      "player_id": "12506",
+      "fantasy_pts": 13.1,
+      "line": "6 rec (9 tgt), 91 rec yds; 1 fumble lost; 58 of 70 snaps",
+      "opponent": "TEN",
+      "nfl_game": "CLE 27, TEN 24",
+      "slot": "TE"
+     },
+     {
+      "name": "Mark Andrews",
+      "pos": "TE",
+      "nfl_team": "BAL",
+      "eligible": [
+       "TE"
+      ],
+      "player_id": "5012",
+      "fantasy_pts": 5.3,
+      "line": "3 rec (4 tgt), 23 rec yds; 38 of 67 snaps",
+      "opponent": "CIN",
+      "nfl_game": "CIN 35, BAL 13",
+      "slot": "FLEX"
+     },
+     {
+      "name": "Darius Cooper",
+      "pos": "WR",
+      "nfl_team": "PHI",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "13150",
+      "fantasy_pts": 2.7,
+      "line": "1 rec (3 tgt), 17 rec yds; 61 of 66 snaps",
+      "opponent": "DAL",
+      "nfl_game": "DAL 38, PHI 21",
+      "slot": "FLEX"
+     },
+     {
+      "name": "Aaron Rodgers",
+      "pos": "QB",
+      "nfl_team": "PIT",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "96",
+      "fantasy_pts": 13.08,
+      "line": "19/30, 212 pass yds, 1 TD; 3 car, 6 rush yds; 64 of 64 snaps",
+      "opponent": "NO",
+      "nfl_game": "PIT 16, NO 10",
+      "slot": "SUPER_FLEX"
+     },
+     {
+      "name": "Nick Folk",
+      "pos": "K",
+      "nfl_team": "ATL",
+      "eligible": [
+       "K"
+      ],
+      "player_id": "650",
+      "fantasy_pts": 10.0,
+      "line": "FG 3/3 (long 39), XP 2/3",
+      "opponent": "SF",
+      "nfl_game": "ATL 29, SF 20",
+      "slot": "K"
+     },
+     {
+      "name": "NYJ DEF",
+      "pos": "DEF",
+      "nfl_team": "NYJ",
+      "player_id": "NYJ",
+      "fantasy_pts": 1.0,
+      "line": "28 pts allowed, 360 yds allowed, 2 sacks",
+      "opponent": "MIA",
+      "nfl_game": "MIA 28, NYJ 25",
+      "slot": "DEF"
+     }
+    ],
+    "bench": [
+     {
+      "name": "Bo Nix",
+      "pos": "QB",
+      "nfl_team": "DEN",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "11563",
+      "fantasy_pts": 26.18,
+      "line": "15/29, 222 pass yds, 1 TD; 7 car, 73 rush yds, 1 TD; 61 of 61 snaps",
+      "opponent": "ARI",
+      "nfl_game": "DEN 30, ARI 16"
+     },
+     {
+      "name": "Zachariah Branch",
+      "pos": "WR",
+      "nfl_team": "ATL",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "13320",
+      "fantasy_pts": 2.7,
+      "line": "1 car, 8 rush yds; 1 rec (2 tgt), 9 rec yds; 23 of 69 snaps",
+      "opponent": "SF",
+      "nfl_game": "ATL 29, SF 20"
+     },
+     {
+      "name": "Rashee Rice",
+      "pos": "WR",
+      "nfl_team": "KC",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "10229",
+      "fantasy_pts": 0.0,
+      "line": "no stat record",
+      "opponent": null,
+      "nfl_game": "SEA 20, KC 3"
+     },
+     {
+      "name": "Omarion Hampton",
+      "pos": "RB",
+      "nfl_team": "LAC",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "12507",
+      "fantasy_pts": 0.0,
+      "line": "bye week",
+      "opponent": null,
+      "nfl_game": null
+     },
+     {
+      "name": "Carson Beck",
+      "pos": "QB",
+      "nfl_team": "ARI",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "13272",
+      "fantasy_pts": 0.0,
+      "line": "no stat record",
+      "opponent": null,
+      "nfl_game": "DEN 30, ARI 16"
+     },
+     {
+      "name": "Davante Adams",
+      "pos": "WR",
+      "nfl_team": "LAR",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "2133",
+      "fantasy_pts": 0.0,
+      "line": "no stats",
+      "opponent": "LV",
+      "nfl_game": "LAR 35, LV 21"
+     },
+     {
+      "name": "Mike Evans",
+      "pos": "WR",
+      "nfl_team": "SF",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "2216",
+      "fantasy_pts": 0.0,
+      "line": "no stat record",
+      "opponent": null,
+      "nfl_game": "ATL 29, SF 20"
+     },
+     {
+      "name": "Deebo Samuel Sr.",
+      "pos": "WR",
+      "nfl_team": "SF",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "5872",
+      "fantasy_pts": 0.0,
+      "line": "no stat record",
+      "opponent": null,
+      "nfl_game": "ATL 29, SF 20"
+     },
+     {
+      "name": "David Montgomery",
+      "pos": "RB",
+      "nfl_team": "HOU",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "5892",
+      "fantasy_pts": 0.0,
+      "line": "no stat record",
+      "opponent": null,
+      "nfl_game": "NYG 27, HOU 21"
+     },
+     {
+      "name": "De'Von Achane",
+      "pos": "RB",
+      "nfl_team": "MIA",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "9226",
+      "fantasy_pts": 0.0,
+      "line": "no stats",
+      "opponent": "NYJ",
+      "nfl_game": "MIA 28, NYJ 25"
+     }
+    ],
+    "bench_points": 28.88
+   },
+   "margin": 66.38
+  },
+  {
+   "matchup_id": 5,
+   "winner": {
+    "team": "hammball",
+    "manager": "hammball",
+    "roster_id": 9,
+    "points": 160.78,
+    "starters": [
+     {
+      "name": "Michael Penix Jr.",
+      "pos": "QB",
+      "nfl_team": "ATL",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "11559",
+      "fantasy_pts": 20.42,
+      "line": "25/34, 213 pass yds, 3 TD; 5 car, -1 rush yds; 68 of 69 snaps",
+      "opponent": "SF",
+      "nfl_game": "ATL 29, SF 20",
+      "slot": "QB"
+     },
+     {
+      "name": "Bucky Irving",
+      "pos": "RB",
+      "nfl_team": "TB",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "11584",
+      "fantasy_pts": 24.0,
+      "line": "24 car, 106 rush yds, 2 TD; 1 rec (2 tgt), 4 rec yds; 37 of 63 snaps",
+      "opponent": "CAR",
+      "nfl_game": "TB 43, CAR 13",
+      "slot": "RB"
+     },
+     {
+      "name": "Braelon Allen",
+      "pos": "RB",
+      "nfl_team": "NYJ",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "11576",
+      "fantasy_pts": 19.4,
+      "line": "17 car, 104 rush yds; 6 rec (7 tgt), 30 rec yds; 46 of 59 snaps",
+      "opponent": "MIA",
+      "nfl_game": "MIA 28, NYJ 25",
+      "slot": "RB"
+     },
+     {
+      "name": "CeeDee Lamb",
+      "pos": "WR",
+      "nfl_team": "DAL",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "6786",
+      "fantasy_pts": 24.4,
+      "line": "5 rec (12 tgt), 74 rec yds, 2 TD; 55 of 68 snaps",
+      "opponent": "PHI",
+      "nfl_game": "DAL 38, PHI 21",
+      "slot": "WR"
+     },
+     {
+      "name": "Nico Collins",
+      "pos": "WR",
+      "nfl_team": "HOU",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "7569",
+      "fantasy_pts": 2.6,
+      "line": "2 rec (5 tgt), 6 rec yds; 41 of 61 snaps",
+      "opponent": "NYG",
+      "nfl_game": "NYG 27, HOU 21",
+      "slot": "WR"
+     },
+     {
+      "name": "Kyle Pitts Sr.",
+      "pos": "TE",
+      "nfl_team": "ATL",
+      "eligible": [
+       "TE"
+      ],
+      "player_id": "7553",
+      "fantasy_pts": 13.2,
+      "line": "5 rec (5 tgt), 22 rec yds, 1 TD; 38 of 69 snaps",
+      "opponent": "SF",
+      "nfl_game": "ATL 29, SF 20",
+      "slot": "TE"
+     },
+     {
+      "name": "Bijan Robinson",
+      "pos": "RB",
+      "nfl_team": "ATL",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "9509",
+      "fantasy_pts": 17.2,
+      "line": "20 car, 63 rush yds; 5 rec (5 tgt), 59 rec yds; 55 of 69 snaps",
+      "opponent": "SF",
+      "nfl_game": "ATL 29, SF 20",
+      "slot": "FLEX"
+     },
+     {
+      "name": "DK Metcalf",
+      "pos": "WR",
+      "nfl_team": "PIT",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "5846",
+      "fantasy_pts": 7.6,
+      "line": "2 rec (6 tgt), 56 rec yds; 59 of 64 snaps",
+      "opponent": "NO",
+      "nfl_game": "PIT 16, NO 10",
+      "slot": "FLEX"
+     },
+     {
+      "name": "Jordan Love",
+      "pos": "QB",
+      "nfl_team": "GB",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "6804",
+      "fantasy_pts": 16.96,
+      "line": "27/45, 274 pass yds, 2 TD, 1 INT; 67 of 67 snaps",
+      "opponent": "DET",
+      "nfl_game": "DET 20, GB 17",
+      "slot": "SUPER_FLEX"
+     },
+     {
+      "name": "Matt Gay",
+      "pos": "K",
+      "nfl_team": "LV",
+      "eligible": [
+       "K"
+      ],
+      "player_id": "6083",
+      "fantasy_pts": 6.0,
+      "line": "FG 3/4 (long 36)",
+      "opponent": "LAR",
+      "nfl_game": "LAR 35, LV 21",
+      "slot": "K"
+     },
+     {
+      "name": "PIT DEF",
+      "pos": "DEF",
+      "nfl_team": "PIT",
+      "player_id": "PIT",
+      "fantasy_pts": 9.0,
+      "line": "10 pts allowed, 281 yds allowed, 2 sacks, 1 INT",
+      "opponent": "NO",
+      "nfl_game": "PIT 16, NO 10",
+      "slot": "DEF"
+     }
+    ],
+    "bench": [
+     {
+      "name": "Tony Pollard",
+      "pos": "RB",
+      "nfl_team": "TEN",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "5967",
+      "fantasy_pts": 36.5,
+      "line": "25 car, 129 rush yds, 3 TD; 3 rec (3 tgt), 26 rec yds; 47 of 63 snaps",
+      "opponent": "CLE",
+      "nfl_game": "CLE 27, TEN 24"
+     },
+     {
+      "name": "Jameson Williams",
+      "pos": "WR",
+      "nfl_team": "DET",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "8148",
+      "fantasy_pts": 26.1,
+      "line": "5 rec (9 tgt), 91 rec yds, 2 TD; 57 of 68 snaps",
+      "opponent": "GB",
+      "nfl_game": "DET 20, GB 17"
+     },
+     {
+      "name": "Sam Darnold",
+      "pos": "QB",
+      "nfl_team": "SEA",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "4943",
+      "fantasy_pts": 13.98,
+      "line": "20/28, 257 pass yds, 1 TD, 1 INT; 2 car, 17 rush yds; 69 of 69 snaps",
+      "opponent": "KC",
+      "nfl_game": "SEA 20, KC 3"
+     },
+     {
+      "name": "Darren Waller",
+      "pos": "TE",
+      "nfl_team": "CAR",
+      "eligible": [
+       "TE"
+      ],
+      "player_id": "2505",
+      "fantasy_pts": 12.0,
+      "line": "1 rec (2 tgt), 50 rec yds, 1 TD; 25 of 56 snaps",
+      "opponent": "TB",
+      "nfl_game": "TB 43, CAR 13"
+     },
+     {
+      "name": "Dameon Pierce",
+      "pos": "RB",
+      "nfl_team": "PHI",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "8129",
+      "fantasy_pts": 11.8,
+      "line": "14 car, 47 rush yds, 1 TD; 1 rec (1 tgt), 1 rec yds; 42 of 66 snaps",
+      "opponent": "DAL",
+      "nfl_game": "DAL 38, PHI 21"
+     },
+     {
+      "name": "A.J. Brown",
+      "pos": "WR",
+      "nfl_team": "NE",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "5859",
+      "fantasy_pts": 7.8,
+      "line": "3 rec (6 tgt), 48 rec yds; 49 of 54 snaps",
+      "opponent": "CHI",
+      "nfl_game": "CHI 30, NE 24"
+     },
+     {
+      "name": "Jayden Reed",
+      "pos": "WR",
+      "nfl_team": "GB",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "10222",
+      "fantasy_pts": 0.0,
+      "line": "no stats",
+      "opponent": "DET",
+      "nfl_game": "DET 20, GB 17"
+     },
+     {
+      "name": "Isiah Pacheco",
+      "pos": "RB",
+      "nfl_team": "DET",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "8205",
+      "fantasy_pts": 0.0,
+      "line": "no stats",
+      "opponent": "GB",
+      "nfl_game": "DET 20, GB 17"
+     },
+     {
+      "name": "Tyjae Spears",
+      "pos": "RB",
+      "nfl_team": "TEN",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "9508",
+      "fantasy_pts": 0.0,
+      "line": "no stat record",
+      "opponent": null,
+      "nfl_game": "CLE 27, TEN 24"
+     }
+    ],
+    "bench_points": 108.18
+   },
+   "loser": {
+    "team": "Unsportsmanlike Conduct",
+    "manager": "JeffyWaterton",
+    "roster_id": 11,
+    "points": 126.36,
+    "starters": [
+     {
+      "name": "Drake Maye",
+      "pos": "QB",
+      "nfl_team": "NE",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "11564",
+      "fantasy_pts": 27.44,
+      "line": "24/31, 321 pass yds, 2 TD, 1 INT; 4 car, 26 rush yds, 1 TD; 54 of 54 snaps",
+      "opponent": "CHI",
+      "nfl_game": "CHI 30, NE 24",
+      "slot": "QB"
+     },
+     {
+      "name": "Jonathan Taylor",
+      "pos": "RB",
+      "nfl_team": "IND",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "6813",
+      "fantasy_pts": 19.0,
+      "line": "18 car, 95 rush yds, 1 TD; 2 rec (3 tgt), 15 rec yds; 41 of 58 snaps",
+      "opponent": "MIN",
+      "nfl_game": "MIN 16, IND 10",
+      "slot": "RB"
+     },
+     {
+      "name": "D'Andre Swift",
+      "pos": "RB",
+      "nfl_team": "CHI",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "6790",
+      "fantasy_pts": 19.0,
+      "line": "22 car, 78 rush yds, 1 TD; 4 rec (4 tgt), 12 rec yds; 59 of 69 snaps",
+      "opponent": "NE",
+      "nfl_game": "CHI 30, NE 24",
+      "slot": "RB"
+     },
+     {
+      "name": "Josh Downs",
+      "pos": "WR",
+      "nfl_team": "IND",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "9500",
+      "fantasy_pts": 3.8,
+      "line": "2 rec (4 tgt), 18 rec yds; 52 of 58 snaps",
+      "opponent": "MIN",
+      "nfl_game": "MIN 16, IND 10",
+      "slot": "WR"
+     },
+     {
+      "name": "Jaylin Noel",
+      "pos": "WR",
+      "nfl_team": "HOU",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "12536",
+      "fantasy_pts": 1.7,
+      "line": "2 rec (2 tgt), -3 rec yds; 19 of 61 snaps",
+      "opponent": "NYG",
+      "nfl_game": "NYG 27, HOU 21",
+      "slot": "WR"
+     },
+     {
+      "name": "George Kittle",
+      "pos": "TE",
+      "nfl_team": "SF",
+      "eligible": [
+       "TE"
+      ],
+      "player_id": "4217",
+      "fantasy_pts": 14.8,
+      "line": "8 rec (10 tgt), 88 rec yds; 1 fumble lost; 60 of 66 snaps",
+      "opponent": "ATL",
+      "nfl_game": "ATL 29, SF 20",
+      "slot": "TE"
+     },
+     {
+      "name": "Jaylen Waddle",
+      "pos": "WR",
+      "nfl_team": "DEN",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "7526",
+      "fantasy_pts": 8.8,
+      "line": "4 rec (7 tgt), 48 rec yds; 34 of 61 snaps",
+      "opponent": "ARI",
+      "nfl_game": "DEN 30, ARI 16",
+      "slot": "FLEX"
+     },
+     {
+      "name": "Roschon Johnson",
+      "pos": "RB",
+      "nfl_team": "CHI",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "10235",
+      "fantasy_pts": 1.3,
+      "line": "2 car, 13 rush yds; 10 of 69 snaps",
+      "opponent": "NE",
+      "nfl_game": "CHI 30, NE 24",
+      "slot": "FLEX"
+     },
+     {
+      "name": "C.J. Stroud",
+      "pos": "QB",
+      "nfl_team": "HOU",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "9758",
+      "fantasy_pts": 16.52,
+      "line": "17/28, 153 pass yds, 2 TD; 2 car, 4 rush yds; 61 of 61 snaps",
+      "opponent": "NYG",
+      "nfl_game": "NYG 27, HOU 21",
+      "slot": "SUPER_FLEX"
+     },
+     {
+      "name": "Ka'imi Fairbairn",
+      "pos": "K",
+      "nfl_team": "HOU",
+      "eligible": [
+       "K"
+      ],
+      "player_id": "3451",
+      "fantasy_pts": 11.0,
+      "line": "FG 2/2 (long 58), XP 1/1",
+      "opponent": "NYG",
+      "nfl_game": "NYG 27, HOU 21",
+      "slot": "K"
+     },
+     {
+      "name": "HOU DEF",
+      "pos": "DEF",
+      "nfl_team": "HOU",
+      "player_id": "HOU",
+      "fantasy_pts": 3.0,
+      "line": "27 pts allowed, 420 yds allowed, 3 sacks",
+      "opponent": "NYG",
+      "nfl_game": "NYG 27, HOU 21",
+      "slot": "DEF"
+     }
+    ],
+    "bench": [
+     {
+      "name": "Malachi Fields",
+      "pos": "WR",
+      "nfl_team": "NYG",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "13285",
+      "fantasy_pts": 12.3,
+      "line": "4 rec (5 tgt), 83 rec yds; 49 of 66 snaps",
+      "opponent": "HOU",
+      "nfl_game": "NYG 27, HOU 21"
+     },
+     {
+      "name": "TreVeyon Henderson",
+      "pos": "RB",
+      "nfl_team": "NE",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "12529",
+      "fantasy_pts": 4.3,
+      "line": "3 car, 9 rush yds; 2 rec (2 tgt), 14 rec yds; 13 of 54 snaps",
+      "opponent": "CHI",
+      "nfl_game": "CHI 30, NE 24"
+     },
+     {
+      "name": "Kenyon Sadiq",
+      "pos": "TE",
+      "nfl_team": "NYJ",
+      "eligible": [
+       "TE"
+      ],
+      "player_id": "13330",
+      "fantasy_pts": 1.6,
+      "line": "1 rec (1 tgt), 6 rec yds; 22 of 59 snaps",
+      "opponent": "MIA",
+      "nfl_game": "MIA 28, NYJ 25"
+     },
+     {
+      "name": "Adonai Mitchell",
+      "pos": "WR",
+      "nfl_team": "NYJ",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "11625",
+      "fantasy_pts": 0.0,
+      "line": "0 rec (3 tgt), 0 rec yds; 26 of 59 snaps",
+      "opponent": "MIA",
+      "nfl_game": "MIA 28, NYJ 25"
+     },
+     {
+      "name": "Ladd McConkey",
+      "pos": "WR",
+      "nfl_team": "LAC",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "11635",
+      "fantasy_pts": 0.0,
+      "line": "bye week",
+      "opponent": null,
+      "nfl_game": null
+     },
+     {
+      "name": "Jayden Higgins",
+      "pos": "WR",
+      "nfl_team": "HOU",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "12484",
+      "fantasy_pts": 0.0,
+      "line": "no stats",
+      "opponent": "NYG",
+      "nfl_game": "NYG 27, HOU 21"
+     },
+     {
+      "name": "Jakobi Meyers",
+      "pos": "WR",
+      "nfl_team": "JAX",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "5947",
+      "fantasy_pts": 0.0,
+      "line": "bye week",
+      "opponent": null,
+      "nfl_game": null
+     },
+     {
+      "name": "Jalen Hurts",
+      "pos": "QB",
+      "nfl_team": "PHI",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "6904",
+      "fantasy_pts": 0.0,
+      "line": "no stats",
+      "opponent": "DAL",
+      "nfl_game": "DAL 38, PHI 21"
+     },
+     {
+      "name": "DeVonta Smith",
+      "pos": "WR",
+      "nfl_team": "PHI",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "7525",
+      "fantasy_pts": 0.0,
+      "line": "no stat record",
+      "opponent": null,
+      "nfl_game": "DAL 38, PHI 21"
+     },
+     {
+      "name": "Parker Washington",
+      "pos": "WR",
+      "nfl_team": "JAX",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "9487",
+      "fantasy_pts": 0.0,
+      "line": "bye week",
+      "opponent": null,
+      "nfl_game": null
+     }
+    ],
+    "bench_points": 18.2
+   },
+   "margin": 34.42
+  },
+  {
+   "matchup_id": 6,
+   "winner": {
+    "team": "Mendozareamazingpicks",
+    "manager": "DarknessMonster",
+    "roster_id": 8,
+    "points": 116.6,
+    "starters": [
+     {
+      "name": "Jacoby Brissett",
+      "pos": "QB",
+      "nfl_team": "ARI",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "3257",
+      "fantasy_pts": 16.48,
+      "line": "27/48, 272 pass yds, 1 TD; 7 car, 16 rush yds; 81 of 81 snaps",
+      "opponent": "DEN",
+      "nfl_game": "DEN 30, ARI 16",
+      "slot": "QB"
+     },
+     {
+      "name": "Rhamondre Stevenson",
+      "pos": "RB",
+      "nfl_team": "NE",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "7611",
+      "fantasy_pts": 22.5,
+      "line": "6 car, 22 rush yds; 5 rec (5 tgt), 93 rec yds, 1 TD; 37 of 54 snaps",
+      "opponent": "CHI",
+      "nfl_game": "CHI 30, NE 24",
+      "slot": "RB"
+     },
+     {
+      "name": "Jaylen Warren",
+      "pos": "RB",
+      "nfl_team": "PIT",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "8228",
+      "fantasy_pts": 16.7,
+      "line": "18 car, 101 rush yds; 3 rec (4 tgt), 36 rec yds; 40 of 64 snaps",
+      "opponent": "NO",
+      "nfl_game": "PIT 16, NO 10",
+      "slot": "RB"
+     },
+     {
+      "name": "Jaxon Smith-Njigba",
+      "pos": "WR",
+      "nfl_team": "SEA",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "9488",
+      "fantasy_pts": 31.3,
+      "line": "2 car, 13 rush yds; 9 rec (12 tgt), 150 rec yds, 1 TD; 53 of 69 snaps",
+      "opponent": "KC",
+      "nfl_game": "SEA 20, KC 3",
+      "slot": "WR"
+     },
+     {
+      "name": "Michael Wilson",
+      "pos": "WR",
+      "nfl_team": "ARI",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "10232",
+      "fantasy_pts": 10.6,
+      "line": "2 car, 11 rush yds; 4 rec (8 tgt), 55 rec yds; 73 of 81 snaps",
+      "opponent": "DEN",
+      "nfl_game": "DEN 30, ARI 16",
+      "slot": "WR"
+     },
+     {
+      "name": "Tyler Higbee",
+      "pos": "TE",
+      "nfl_team": "LAR",
+      "eligible": [
+       "TE"
+      ],
+      "player_id": "3271",
+      "fantasy_pts": 3.4,
+      "line": "2 rec (3 tgt), 14 rec yds; 53 of 72 snaps",
+      "opponent": "LV",
+      "nfl_game": "LAR 35, LV 21",
+      "slot": "TE"
+     },
+     {
+      "name": "Xavier Worthy",
+      "pos": "WR",
+      "nfl_team": "KC",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "11624",
+      "fantasy_pts": 4.1,
+      "line": "3 rec (6 tgt), 11 rec yds; 46 of 53 snaps",
+      "opponent": "SEA",
+      "nfl_game": "SEA 20, KC 3",
+      "slot": "FLEX"
+     },
+     {
+      "name": "Matthew Golden",
+      "pos": "WR",
+      "nfl_team": "GB",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "12501",
+      "fantasy_pts": 9.9,
+      "line": "6 rec (12 tgt), 39 rec yds; 57 of 67 snaps",
+      "opponent": "DET",
+      "nfl_game": "DET 20, GB 17",
+      "slot": "FLEX"
+     },
+     {
+      "name": "Daniel Jones",
+      "pos": "QB",
+      "nfl_team": "IND",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "5870",
+      "fantasy_pts": 3.62,
+      "line": "13/22, 108 pass yds, 0 TD, 1 INT; 4 car, 13 rush yds; 61 of 58 snaps",
+      "opponent": "MIN",
+      "nfl_game": "MIN 16, IND 10",
+      "slot": "SUPER_FLEX"
+     },
+     {
+      "name": "Spencer Shrader",
+      "pos": "K",
+      "nfl_team": "IND",
+      "eligible": [
+       "K"
+      ],
+      "player_id": "12185",
+      "fantasy_pts": -1.0,
+      "line": "FG 1/3 (long 43), XP 1/1",
+      "opponent": "MIN",
+      "nfl_game": "MIN 16, IND 10",
+      "slot": "K"
+     },
+     {
+      "name": "SF DEF",
+      "pos": "DEF",
+      "nfl_team": "SF",
+      "player_id": "SF",
+      "fantasy_pts": -1.0,
+      "line": "29 pts allowed, 295 yds allowed",
+      "opponent": "ATL",
+      "nfl_game": "ATL 29, SF 20",
+      "slot": "DEF"
+     }
+    ],
+    "bench": [
+     {
+      "name": "Blake Corum",
+      "pos": "RB",
+      "nfl_team": "LAR",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "11586",
+      "fantasy_pts": 17.1,
+      "line": "17 car, 93 rush yds, 1 TD; 1 rec (1 tgt), 8 rec yds; 32 of 72 snaps",
+      "opponent": "LV",
+      "nfl_game": "LAR 35, LV 21"
+     },
+     {
+      "name": "Mike Washington Jr.",
+      "pos": "RB",
+      "nfl_team": "LV",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "13305",
+      "fantasy_pts": 2.7,
+      "line": "6 car, 27 rush yds; 0 rec (1 tgt), 0 rec yds; 18 of 68 snaps",
+      "opponent": "LAR",
+      "nfl_game": "LAR 35, LV 21"
+     },
+     {
+      "name": "Jayden Daniels",
+      "pos": "QB",
+      "nfl_team": "WAS",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "11566",
+      "fantasy_pts": 0.0,
+      "line": "bye week",
+      "opponent": null,
+      "nfl_game": null
+     },
+     {
+      "name": "Tre' Harris",
+      "pos": "WR",
+      "nfl_team": "LAC",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "12509",
+      "fantasy_pts": 0.0,
+      "line": "bye week",
+      "opponent": null,
+      "nfl_game": null
+     },
+     {
+      "name": "Tyler Warren",
+      "pos": "TE",
+      "nfl_team": "IND",
+      "eligible": [
+       "TE"
+      ],
+      "player_id": "12518",
+      "fantasy_pts": 0.0,
+      "line": "no stat record",
+      "opponent": null,
+      "nfl_game": "MIN 16, IND 10"
+     },
+     {
+      "name": "De'Zhaun Stribling",
+      "pos": "WR",
+      "nfl_team": "SF",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "13417",
+      "fantasy_pts": 0.0,
+      "line": "no stats",
+      "opponent": "ATL",
+      "nfl_game": "ATL 29, SF 20"
+     },
+     {
+      "name": "Tyler Bass",
+      "pos": "K",
+      "nfl_team": "BUF",
+      "eligible": [
+       "K"
+      ],
+      "player_id": "7042",
+      "fantasy_pts": 0.0,
+      "line": "bye week",
+      "opponent": null,
+      "nfl_game": null
+     },
+     {
+      "name": "Rachaad White",
+      "pos": "RB",
+      "nfl_team": "WAS",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "8136",
+      "fantasy_pts": 0.0,
+      "line": "bye week",
+      "opponent": null,
+      "nfl_game": null
+     },
+     {
+      "name": "James Cook III",
+      "pos": "RB",
+      "nfl_team": "BUF",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "8138",
+      "fantasy_pts": 0.0,
+      "line": "bye week",
+      "opponent": null,
+      "nfl_game": null
+     },
+     {
+      "name": "Brenton Strange",
+      "pos": "TE",
+      "nfl_team": "JAX",
+      "eligible": [
+       "TE"
+      ],
+      "player_id": "9480",
+      "fantasy_pts": 0.0,
+      "line": "bye week",
+      "opponent": null,
+      "nfl_game": null
+     }
+    ],
+    "bench_points": 19.8
+   },
+   "loser": {
+    "team": "Split Safety Syndicate",
+    "manager": "kylejones10",
+    "roster_id": 5,
+    "points": 113.72,
+    "starters": [
+     {
+      "name": "Patrick Mahomes",
+      "pos": "QB",
+      "nfl_team": "KC",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "4046",
+      "fantasy_pts": 6.0,
+      "line": "19/33, 165 pass yds, 0 TD, 1 INT; 2 car, 14 rush yds; 53 of 53 snaps",
+      "opponent": "SEA",
+      "nfl_game": "SEA 20, KC 3",
+      "slot": "QB"
+     },
+     {
+      "name": "Jahmyr Gibbs",
+      "pos": "RB",
+      "nfl_team": "DET",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "9221",
+      "fantasy_pts": 17.3,
+      "line": "29 car, 116 rush yds; 5 rec (6 tgt), 27 rec yds; 1 fumble lost; 61 of 68 snaps",
+      "opponent": "GB",
+      "nfl_game": "DET 20, GB 17",
+      "slot": "RB"
+     },
+     {
+      "name": "Kenneth Walker III",
+      "pos": "RB",
+      "nfl_team": "KC",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "8151",
+      "fantasy_pts": 9.7,
+      "line": "14 car, 36 rush yds; 4 rec (5 tgt), 21 rec yds; 39 of 53 snaps",
+      "opponent": "SEA",
+      "nfl_game": "SEA 20, KC 3",
+      "slot": "RB"
+     },
+     {
+      "name": "Ja'Marr Chase",
+      "pos": "WR",
+      "nfl_team": "CIN",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "7564",
+      "fantasy_pts": 17.2,
+      "line": "5 rec (7 tgt), 62 rec yds, 1 TD; 46 of 53 snaps",
+      "opponent": "BAL",
+      "nfl_game": "CIN 35, BAL 13",
+      "slot": "WR"
+     },
+     {
+      "name": "Jalen Coker",
+      "pos": "WR",
+      "nfl_team": "CAR",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "11646",
+      "fantasy_pts": 1.9,
+      "line": "1 rec (4 tgt), 9 rec yds; 37 of 56 snaps",
+      "opponent": "TB",
+      "nfl_game": "TB 43, CAR 13",
+      "slot": "WR"
+     },
+     {
+      "name": "Tucker Kraft",
+      "pos": "TE",
+      "nfl_team": "GB",
+      "eligible": [
+       "TE"
+      ],
+      "player_id": "9484",
+      "fantasy_pts": 14.8,
+      "line": "4 rec (6 tgt), 48 rec yds, 1 TD; 59 of 67 snaps",
+      "opponent": "DET",
+      "nfl_game": "DET 20, GB 17",
+      "slot": "TE"
+     },
+     {
+      "name": "Chuba Hubbard",
+      "pos": "RB",
+      "nfl_team": "CAR",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "7594",
+      "fantasy_pts": 10.0,
+      "line": "7 car, 33 rush yds; 4 rec (5 tgt), 27 rec yds; 34 of 56 snaps",
+      "opponent": "TB",
+      "nfl_game": "TB 43, CAR 13",
+      "slot": "FLEX"
+     },
+     {
+      "name": "Travis Kelce",
+      "pos": "TE",
+      "nfl_team": "KC",
+      "eligible": [
+       "TE"
+      ],
+      "player_id": "1466",
+      "fantasy_pts": 8.4,
+      "line": "4 rec (8 tgt), 44 rec yds; 44 of 53 snaps",
+      "opponent": "SEA",
+      "nfl_game": "SEA 20, KC 3",
+      "slot": "FLEX"
+     },
+     {
+      "name": "Bryce Young",
+      "pos": "QB",
+      "nfl_team": "CAR",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "9228",
+      "fantasy_pts": 5.42,
+      "line": "14/27, 163 pass yds, 1 TD, 2 INT; 1 car, 9 rush yds; 1 fumble lost; 43 of 56 snaps",
+      "opponent": "TB",
+      "nfl_game": "TB 43, CAR 13",
+      "slot": "SUPER_FLEX"
+     },
+     {
+      "name": "Chase McLaughlin",
+      "pos": "K",
+      "nfl_team": "TB",
+      "eligible": [
+       "K"
+      ],
+      "player_id": "6650",
+      "fantasy_pts": 12.0,
+      "line": "FG 2/2 (long 44), XP 5/5",
+      "opponent": "CAR",
+      "nfl_game": "TB 43, CAR 13",
+      "slot": "K"
+     },
+     {
+      "name": "SEA DEF",
+      "pos": "DEF",
+      "nfl_team": "SEA",
+      "player_id": "SEA",
+      "fantasy_pts": 11.0,
+      "line": "3 pts allowed, 213 yds allowed, 1 sacks, 1 INT",
+      "opponent": "KC",
+      "nfl_game": "SEA 20, KC 3",
+      "slot": "DEF"
+     }
+    ],
+    "bench": [
+     {
+      "name": "Geno Smith",
+      "pos": "QB",
+      "nfl_team": "NYJ",
+      "eligible": [
+       "QB"
+      ],
+      "player_id": "1373",
+      "fantasy_pts": 23.48,
+      "line": "23/30, 287 pass yds, 3 TD, 1 INT; 2 car, 0 rush yds; 59 of 59 snaps",
+      "opponent": "MIA",
+      "nfl_game": "MIA 28, NYJ 25"
+     },
+     {
+      "name": "Michael Mayer",
+      "pos": "TE",
+      "nfl_team": "LV",
+      "eligible": [
+       "TE"
+      ],
+      "player_id": "9482",
+      "fantasy_pts": 6.2,
+      "line": "3 rec (3 tgt), 32 rec yds; 56 of 68 snaps",
+      "opponent": "LAR",
+      "nfl_game": "LAR 35, LV 21"
+     },
+     {
+      "name": "Denzel Boston",
+      "pos": "WR",
+      "nfl_team": "CLE",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "13346",
+      "fantasy_pts": 5.7,
+      "line": "3 rec (8 tgt), 27 rec yds; 61 of 70 snaps",
+      "opponent": "TEN",
+      "nfl_game": "CLE 27, TEN 24"
+     },
+     {
+      "name": "Tank Dell",
+      "pos": "WR",
+      "nfl_team": "HOU",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "9502",
+      "fantasy_pts": 5.5,
+      "line": "1 car, 2 rush yds; 1 rec (1 tgt), 43 rec yds; 14 of 61 snaps",
+      "opponent": "NYG",
+      "nfl_game": "NYG 27, HOU 21"
+     },
+     {
+      "name": "DJ Moore",
+      "pos": "WR",
+      "nfl_team": "BUF",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "4983",
+      "fantasy_pts": 0.0,
+      "line": "bye week",
+      "opponent": null,
+      "nfl_game": null
+     },
+     {
+      "name": "Treylon Burks",
+      "pos": "WR",
+      "nfl_team": "WAS",
+      "eligible": [
+       "WR"
+      ],
+      "player_id": "8135",
+      "fantasy_pts": 0.0,
+      "line": "bye week",
+      "opponent": null,
+      "nfl_game": null
+     },
+     {
+      "name": "Cameron Dicker",
+      "pos": "K",
+      "nfl_team": "LAC",
+      "eligible": [
+       "K"
+      ],
+      "player_id": "8259",
+      "fantasy_pts": 0.0,
+      "line": "bye week",
+      "opponent": null,
+      "nfl_game": null
+     },
+     {
+      "name": "Keaton Mitchell",
+      "pos": "RB",
+      "nfl_team": "LAC",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "9511",
+      "fantasy_pts": 0.0,
+      "line": "bye week",
+      "opponent": null,
+      "nfl_game": null
+     },
+     {
+      "name": "Zach Charbonnet",
+      "pos": "RB",
+      "nfl_team": "SEA",
+      "eligible": [
+       "RB"
+      ],
+      "player_id": "9753",
+      "fantasy_pts": 0.0,
+      "line": "no stat record",
+      "opponent": null,
+      "nfl_game": "SEA 20, KC 3"
+     }
+    ],
+    "bench_points": 40.88
+   },
+   "margin": 2.88
+  }
+ ],
+ "nfl_games": [
+  {
+   "espn_id": "401873010",
+   "date_utc": "2026-10-23T00:15Z",
+   "away": "NE",
+   "away_score": 24,
+   "home": "CHI",
+   "home_score": 30,
+   "status": "Final",
+   "venue": "Soldier Field",
+   "notes": [],
+   "recap_headline": "Caleb Williams throws 2 TD passes as the Bears beat Drake Maye and the Patriots 30-24",
+   "recap_text": "CHICAGO -- — Round 2 went to Caleb Williams and the Chicago Bears . Williams passed for 308 yards and two touchdowns, and the Bears cooled off Drake Maye and the New England Patriots with a 30-24 victory Thursday night. It was the second meeting between the young quarterbacks since they were part of the 2024 NFL draft. Maye, who was selected by New England at No. 3, directed the Patriots to a 19-3 victory over Williams and the Bears when the longtime friends were rookies. But Williams, the No. 1 overall pick, leaned on Luther Burden and Colston Loveland while outlasting Maye and the Patriots in the rematch. Williams connected on 22 of 33 passes in his second game back after being sidelined by a right hamstring injury. “These nights are awesome,” Williams said. “You play against another good team on a primetime game in a short week, these games are awesome because you get to see who you are as a team. That’s who we are. We’re a smashmouth football team, an innovative team. And when things happen and things don’t go our way and the water is rocky, we stay steady.” Maye was 24 for 31 for 321 yards and two touchdowns. He also had a 7-yard run for New England's first TD with 11:33 left in the first half. But Maye also was intercepted by Bears linebacker D'Marco Jackson in the end zone on a pass intended for rookie tight end Eli Raridon late in the second quarter. “It’s those plays, I talk about it all the time,” Maye said. “You know those plays that can swing the game, can impact the game and that was definitely one of them right there. Yeah, I wish I definitely had that one back.” New England (4-3) had won three consecutive games behind Maye, who threw 10 TD passes and one interception during the win streak. “He gave us a chance,\" Patriots coach Mike Vrabel said. \"He competed and I know he’d like to have that throw back to Eli, but I thought he really competed. Whether that was running around and scrambling or finding good places to go with the football. He gave us a chance. ... I’m glad he’s ours.” Burden had four catches for 130 yards for Chicago (5-2), and Loveland had a 12-yard touchdown reception. Cairo Santos kicked a 58-yard field goal with 1:34 left, a career long and matching the franchise record, after he missed a 53-yard attempt earlier in the final quarter. Williams became the first Bears quarterback to throw for more than 300 yards in consecutive games since Mitch Trubisky had a three-game run in 2018. “I think he did a pretty good job throughout the night,” Bears coach Ben Johnson said. “I know he had a number of explosive plays. He found some of those guys at the second level that were huge for us.” After Santos’ long field goal, Maye drove New England into range for Andy Borregales’ 47-yarder with 37 seconds to go. But Chicago recovered the ensuing onside kick. Rhamondre Stevenson had five catches for 93 yards and a touchdown for the Patriots. Raridon had a 30-yard TD catch in the third quarter. “We did some good things,” Vrabel said. “But again, didn’t do enough.” It was Chicago’s first home game since Mike Ditka died on Oct. 9. The Bears saluted the Hall of Fame tight end and longtime coach with a pregame moment of silence, and they also handed out fake mustaches to the crowd of 60,520 at Soldier Field. Ditka’s No. 89 jersey dotted the stands, and fans also donned Bears sweaters in a callback to what he wore on the sideline as a coach. Chicago opened a 20-7 lead on Burden’s 24-yard touchdown with 14 seconds left in the first half. Burden got the ball on a screen on third-and-17, and Loveland, Kalif Raymond and Darnell Wright helped clear the way for his second TD reception of the season. “The whole calvary came ... and it was like a wave carrying him through there,” Johnson said. “He saw a little crease and hit the jets.” Set to receive the second-half kickoff, the Bears were in position to pull away. But the Patriots responded with Stevenson’s 48-yard touchdown reception on the final play of the period. Stevenson slipped out of the backfield and Maye lobbed the ball over the head of Bears safety Cam Lewis . Stevenson ran away from Lewis and got a downfield block from DeMario Douglas before cutting past Bears cornerback Jaylon Johnson on his way to the end zone. Injuries Patriots: CB Christian Gonzalez played after being listed as questionable because of an illness. ... S Kevin Byard departed after he was checked out by trainers with 9:44 left in first half. He later returned. ... DT Christian Barmore departed late in the game. Bears: CB Malik Muhammad left in the third quarter with a toe injury. ... TE Cole Kmet hurt his right knee on a reception with 5:34 left. \"We’ll know more tomorrow, but I don’t think it looked very good,” Johnson said. Up next Patriots: At Miami on Nov. 1. Bears: At Seattle for a Monday night game Nov. 2. ------ See AP’s full NFL coverage here",
+   "scoring_plays": [
+    "Cairo Santos 43 Yd Field Goal ",
+    "D'Andre Swift 4 Yd Rush (Cairo Santos Kick)",
+    "Drake Maye 7 Yd Rush (Andy Borregales Kick)",
+    "Cairo Santos 31 Yd Field Goal",
+    "Luther Burden III 24 Yd pass from Caleb Williams (Cairo Santos Kick)",
+    "Rhamondre Stevenson 48 Yd pass from Drake Maye (Andy Borregales Kick)",
+    "Colston Loveland 12 Yd pass from Caleb Williams (Cairo Santos Kick)",
+    "Eli Raridon 30 Yd pass from Drake Maye (Andy Borregales Kick)",
+    "Cairo Santos 58 Yd Field Goal",
+    "Andy Borregales 47 Yd Field Goal "
+   ],
+   "injury_report": [],
+   "final": "CHI 30, NE 24"
+  },
+  {
+   "espn_id": "401873011",
+   "date_utc": "2026-10-25T13:30Z",
+   "away": "PIT",
+   "away_score": 16,
+   "home": "NO",
+   "home_score": 10,
+   "status": "Final",
+   "venue": "Stade de France",
+   "notes": [
+    "NFL Paris Game"
+   ],
+   "recap_headline": "Rodgers throws TD pass in Paris as Steelers beat Saints 16-10 in NFL's regular-season France debut",
+   "recap_text": "SAINT-DENIS, France -- — Pittsburgh Steelers quarterback Aaron Rodgers knew a protective slide was out of the question when he scrambled on a key fourth-quarter play in New Orleans territory Sunday. The 42-year-old left the pocket on third-and-6 and picked up 8 yards before being tackled just before the two-minute warning to help Pittsburgh seal a 16-10 victory in the NFL’s first regular-season game in France. “Sometimes you’ve got to suck it up and make a play for your guys,” Rodgers said. “I think because I am so much less athletic than I used to be, it actually fires up the guys even more.” Rodgers threw a touchdown pass — the 540th of his career, moving past Peyton Manning for third in NFL history — and Chris Boswell kicked three field goals at Stade de France. Jaylen Warren rushed for 101 yards on 18 carries and Rodgers completed 19 of 30 passes for 212 yards as the Steelers (5-2) won their third straight game. Linebacker Payton Wilson had a red-zone interception of Tyler Shough in the third quarter and the Saints (2-5) couldn’t recover. New Orleans rushed for just 18 yards. With the Saints threatening on their opening drive of the second half, Wilson stepped in front of a short pass intended for Chris Olave . The Steelers got in field-goal position and Boswell was good from 39 yards for a 16-10 lead. “That’s honestly just a credit to our coaches and what we do every day in practice,” Wilson said. “I’ve repped that play, no lie, more than 20 times now. Just gambling a little bit and undercutting it.” Seated side by side at the postgame news conference, Rodgers added: “Did it help that you picked me off in practice on this very similar play this week?” Patrick Queen sacked Shough on third down to stall a New Orleans drive with under seven minutes left in the fourth quarter. Shough completed 30 of 38 passes for 278 yards, one touchdown and the interception. Just before halftime, Rodgers was sacked by Carl Granderson on third down, and with 15 seconds left and no timeouts, the Steelers offense ran to the sideline. Boswell sprinted on and kicked a 47-yard field goal to give Pittsburgh a 13-10 lead at the half. Rodgers’ 4-yard touchdown pass to 6-foot-7, 265-pound tight end Darnell Washington — with 5-foot-11 cornerback Kool-Aid McKinstry in coverage — put the Steelers up 10-3. Earlier on the drive, Rodgers moved in the pocket and found DK Metcalf for a 51-yard completion to the New Orleans 4. NFL France called it “quel caviar d’Aaron Rodgers.” The Saints then tied it at 10-10 on Shough’s 1-yard touchdown pass to Devaughn Vele on fourth-and-goal from the 1. Saints kicker Daniel Carlson missed a 52-yard field-goal attempt in the fourth quarter. “When you have a day like today, 17 runs for 18 yards, it’s going to be hard to win football games doing that,” coach Kellen Moore said. Shough said with such limited rushing success, “they know what’s coming in certain situations and they’re a good defense.” Attendance was 78,488 and several players and coaches noted the good atmosphere. Rodgers called the rendition of the French national anthem, La Marseillaise , “gorgeous.” The Steelers quarterback did note, however, that it was sometimes confusing looking for the play-clock number among many other numbers on the stadium's scoreboard. The atmosphere this week in Paris was tense following rioting and looting a week earlier during protests across the country over school funding and soaring living costs. Fans strolling Paris streets saw boarded-up storefronts and a heavy police presence ahead of more protests held Saturday . Steelers coach Mike McCarthy said players and their families and friends “really enjoyed” Friday — when the team arrived — but stayed close to the hotel Saturday when more protests took place. Injuries Steelers: S DeShon Elliott was active for the first time in a year after returning from a knee injury. Saints: CB Kool-Aid McKinstry was cleared to return after a concussion evaluation in the first half. ... RB CJ Donaldson left in the first half and was later ruled out. ... S Justin Reid was ruled out of the game early in the second half. ... Rookie Jeremiah Wright started in place of right guard Cesar Ruiz (knee). Up next Steelers: Host the Cleveland Browns before a bye in Week 9. Saints: Bye week. ------ See AP’s full NFL coverage here",
+   "scoring_plays": [
+    "Chris Boswell 28 Yd Field Goal ",
+    "Daniel Carlson 38 Yd Field Goal",
+    "Darnell Washington 4 Yd pass from Aaron Rodgers (Chris Boswell Kick)",
+    "Devaughn Vele 1 Yd pass from Tyler Shough (Daniel Carlson Kick)",
+    "Chris Boswell 47 Yd Field Goal",
+    "Chris Boswell 39 Yd Field Goal "
+   ],
+   "injury_report": [],
+   "final": "PIT 16, NO 10"
+  },
+  {
+   "espn_id": "401873017",
+   "date_utc": "2026-10-25T17:00Z",
+   "away": "SF",
+   "away_score": 20,
+   "home": "ATL",
+   "home_score": 29,
+   "status": "Final",
+   "venue": "Mercedes-Benz Stadium",
+   "notes": [],
+   "recap_headline": "Michael Penix Jr. throws 3 TD passes, Falcons force 4 turnovers to give 49ers first loss, 29-20",
+   "recap_text": "ATLANTA -- — San Francisco's perfect start to the season was wiped out by a painful reminder that even an unbeaten team can't overcome a 4-0 deficit in turnovers. Michael Penix Jr . threw three touchdown passes, Atlanta scored 13 points off four turnovers and the Falcons handed the 49ers their first loss, 29-20 on Sunday. “Any time you have four turnovers like that and you get zero, it’s real tough to win,” 49ers coach Kyle Shanahan said. “Too sloppy to win.” San Francisco (6-1) was already thin at wide receiver before its offense faced additional limitations when running back Christian McCaffrey missed much of the first half with a thigh injury and didn't assume his normal workload when he returned after halftime. Rookie linebacker Kendal Daniels intercepted Brock Purdy 's pass intended for Jordan Watkins with 2:34 remaining. It was Purdy's second interception. Daniels then recovered a fumble by George Kittle with less than a minute remaining for Atlanta's final takeaway. “That’s a great recipe for winning in this league,” Falcons coach Kevin Stefanski said. The 49ers had only six turnovers in their first six games. Penix threw scoring passes to tight ends Nick Muse and Kyle Pitts before giving Atlanta (3-4) a 26-14 lead with a 21-yard touchdown pass to Drake London in the fourth quarter. Penix completed 25 of 34 passes for 213 yards with no interceptions. The 49ers' comeback attempt was hurt when a lengthy review by the officials took away Purdy's apparent 23-yard touchdown pass to Watkins. Following the ruling, Purdy was sacked on fourth down by Za'Darius Smith . Purdy's 1-yard scoring pass to fullback Kyle Juszcyk with 5:05 remaining cut Atlanta's lead to 26-20 before Eddy Pineiro 's extra-point attempt was wide left — his fourth PAT miss of the season. A shanked punt by Atlanta's Jake Bailey allowed San Francisco to start a possession at its 47 with about four minutes remaining. The 49ers wasted the opportunity to mount a go-ahead drive when Purdy threw his second interception, which led to Nick Folk 's 31-yard field goal. Purdy completed 27 of 40 passes for 288 yards with one touchdown and the two picks. Bijan Robinson rushed for 63 yards as the Falcons snapped a two-game skid. McCaffrey was limited to seven carries for 39 yards. McCaffrey's backup, Kaelon Black , lost a fumble at the Atlanta 29 that was recovered by Gervon Dexter Sr . in the second quarter. A long Atlanta drive set up Nick Folk's 33-yard field goal. In the third quarter, Jessie Bates III intercepted Purdy's pass at the Atlanta 10 to set up the touchdown drive capped by the scoring pass to London. The 49ers leaned heavily on McCaffrey on their opening touchdown drive. McCaffrey had two catches for 40 yards, including a 24-yard gain to the Atlanta 5. He had four carries for 29 yards, including a scoring fourth-down leap over the pile from the 1. McCaffrey had a 5-yard catch on the 49ers' next drive before leaving the game with the thigh injury. He was listed as questionable to return as he was examined in the injury tent. McCaffrey emerged, put on his helmet and tested the thigh by running on the sideline before heading to the locker room. Black's 30-yard scoring run on the first play of the second quarter gave San Francisco a 14-3 lead. McCaffrey returned for the second half and was used as a decoy on some plays. Asked if McCaffrey was at full strength in the second half, Shanahan said, “I don't know. I'll ask him but it seemed all right.” Falcons draw plenty of opposing fans again An Atlanta team coming off home losses to Baltimore and Chicago needed a win to stop the skid and also to win back its fans. The Bears and 49ers each had vocal supporters in the stands who forced Penix to work on silent snap counts, an unusual circumstance for home games. “We came out here and showcased what we are capable of,” Falcons defensive end Samson Ebukam said. New names at receiver for the 49ers Watkins had three catches for 56 yards and Jacob Cowing added three receptions for 38 yards as Purdy’s new top targets at wide receiver. “I thought they did a good job,” Purdy said. “And it’s our first game all together as a with the receivers that we had.” Added Purdy: “The fact that we were out there, having those new guys and stuff out there running routes for us and create separation and making plays ... I thought I saw a lot of really cool things.” Kittle had team-leading totals of eight catches for 88 yards and McCaffrey added six receptions for 61 yards. Falcons' faith in Branch rewarded Stefanski stuck with rookie Zachariah Branch as a return specialist one week after Branch lost two fumbles — one on a muffed fair catch on a punt and one on a kickoff return. Branch rewarded Stefanski by returning the 49ers' first kickoff 60 yards to the San Francisco 36. The return set up a 39-yard field goal by Folk. Injuries 49ers: Depth was an issue at wide receiver with starters Mike Evans (Achilles tendinitis) and Deebo Samuel (hamstring) inactive. Receivers Ricky Pearsall , De’Zhaun Stribling and Demarcus Robinson are also out. Safety Marques Sigle (ankle) was inactive. Falcons: Cornerback A.J. Terrell (groin) started after coming off injured reserve but his brother, rookie cornerback Avieon Terrell (back), was inactive. Up next 49ers: Following a bye week, host Las Vegas on Nov. 8. Falcons: Visit Tampa Bay next Sunday. ------ See AP’s full NFL coverage here",
+   "scoring_plays": [
+    "Christian McCaffrey 1 Yd Rush (Eddy Pineiro Kick)",
+    "Nick Folk 39 Yd Field Goal",
+    "Kaelon Black 30 Yd Rush (Eddy Pineiro Kick)",
+    "Nick Muse 1 Yd pass from Michael Penix Jr. (Nick Folk PAT Failed)",
+    "Nick Folk 33 Yd Field Goal",
+    "Kyle Pitts Sr. 5 Yd pass from Michael Penix Jr. (Nick Folk Kick)",
+    "Drake London 21 Yd pass from Michael Penix Jr. (Nick Folk Kick)",
+    "Kyle Juszczyk 1 Yd pass from Brock Purdy (Eddy Pineiro PAT Failed)",
+    "Nick Folk 31 Yd Field Goal "
+   ],
+   "injury_report": [],
+   "final": "ATL 29, SF 20"
+  },
+  {
+   "espn_id": "401873013",
+   "date_utc": "2026-10-25T17:00Z",
+   "away": "CLE",
+   "away_score": 27,
+   "home": "TEN",
+   "home_score": 24,
+   "status": "Final",
+   "venue": "Nissan Stadium",
+   "notes": [],
+   "recap_headline": "Deshaun Watson leads another game-winning drive as the Browns beat the Titans 27-24",
+   "recap_text": "NASHVILLE, Tenn. -- — Deshaun Watson keeps turning in game-winning drives, and his career revival is keeping the Cleveland Browns atop the AFC North. Watson led his fifth winning drive in the fourth quarter this season, connecting with Harold Fannin Jr . on a 36-yard catch-and run that set up Andre Szmyt 's 32-yard field goal as time expired, and the Browns beat the Tennessee Titans 27-24 on Sunday for their fifth win in six games. “He has something in him to be able to make plays when it counts,” Browns first-year coach Todd Monken said. Watson also ran for a touchdown and threw for 308 yards. “Being in this league for 10 years now, I understand that a lot of games are going to come down to that, if not every game,” Watson said. “So, if we’re close enough in it and we have those opportunities, we just got to lock in and ... that’s where the pressure and the most important (thing), you got to really be on your P’s and Q’s.” Quinshon Judkins ran for 96 yards and two touchdowns, and rookie KC Concepcion caught eight passes for 129 yards in his best game yet. The Browns (5-2) had two takeaways as they started a three-game road swing with a win. Szmyt got the chance with his game-winning kick to make up for clanking a 43-yarder off the right upright within the first minute of the fourth quarter. The Titans responded with a drive capped by a 29-yard field goal by Joey Slye , which tied the game at 17-all with 8:41 remaining. Watson responded with a 71-yard drive that he finished with a 9-yard TD run with 4:34 left. The Titans answered when Tony Pollard scored his career high-tying third TD with 58 seconds remaining. Slye’s extra point tied it at 24-all. Officials missed an apparent false start on the Browns when Watson found Fannin for the big gain. Asked if officials missed the penalty, Titans coach Robert Saleh said he'd have to look at the video. “Live, I think they did, yeah,” Saleh said. The Titans (1-6) came in trying to string together back-to-back wins for the first time in nearly four years. They had their best start to a game this season, taking a 14-0 lead with Pollard's two touchdowns. They missed a chance at a 21-7 lead when Pollard was ruled down just outside the end zone in the second. Cleveland turned the Titans over on downs with Maliek Collins stopping Pollard on fourth-and-goal. “We’ve got to be able to push it in from the inch-yard line,” Saleh said. Tennessee's Anthony Hill Jr . stripped Fannin of the ball after a catch in the second quarter, and safety Tony Adams recovered. But Cleveland's Denzel Ward picked off Cam Ward on the next play. The Browns turned that takeaway into a 78-yard drive, capped by Judkins running for his second 5-yard TD. The Titans went three-and-out, giving Cleveland the ball back. Szmyt kicked a 28-yard field goal as time expired for a 17-14 halftime lead. Pollard finished with a season-high 129 yards rushing. Not that it mattered after another loss. “The most important stat is a win,” Titans right tackle JC Latham said. “So, I don’t care if we have 1,000 yards rushing the ball in one game. If we didn’t win the game, it doesn’t really matter.” Titans match an unwelcome Browns milestone The Titans tied the 2014-18 Browns for most consecutive games without back-to-back wins in the same season at 65, according to Sportradar. Tampa Bay went 74 straight from 1985-1989 without consecutive wins, but the Bucs won the last game of 1988 and the first of 1989. With this latest loss, Tennessee's streak is assured of reaching at least 66 games. Injuries Browns right tackle Tytus Howard was evaluated for a concussion after going down during Cleveland's opening drive of the third quarter. Cornerback Myles Harden hurt a hamstring but returned in the fourth quarter. Titans punter Tommy Townsend hurt a knee on a 44-yard punt late in the second quarter. Townsend stretched on the sideline, but placekicker Slye came out for a punt on fourth-and-1, only to be bailed out when Cleveland had 12 men on the field. Slye punted late in the third and had a 42-yarder on his first NFL punt. Saleh said after the game that Townsend was being evaluated. Up next The Browns visit Pittsburgh next Sunday. The Titans visit Cincinnati next Sunday. ------ See AP’s full NFL coverage here",
+   "scoring_plays": [
+    "Tony Pollard 36 Yd Rush (Joey Slye Kick)",
+    "Tony Pollard 10 Yd Rush (Joey Slye Kick)",
+    "Quinshon Judkins 5 Yd Rush (Andre Szmyt Kick)",
+    "Quinshon Judkins 6 Yd Rush (Andre Szmyt Kick)",
+    "Andre Szmyt 28 Yd Field Goal ",
+    "Joey Slye 29 Yd Field Goal",
+    "Deshaun Watson 9 Yd Rush (Andre Szmyt Kick)",
+    "Tony Pollard 1 Yd Rush (Joey Slye Kick)",
+    "Andre Szmyt 32 Yd Field Goal "
+   ],
+   "injury_report": [],
+   "final": "CLE 27, TEN 24"
+  },
+  {
+   "espn_id": "401873014",
+   "date_utc": "2026-10-25T17:00Z",
+   "away": "IND",
+   "away_score": 10,
+   "home": "MIN",
+   "home_score": 16,
+   "status": "Final",
+   "venue": "U.S. Bank Stadium",
+   "notes": [],
+   "recap_headline": "Vikings defense clamps down on Daniel Jones and the Colts for a 16-10 victory to stay undefeated",
+   "recap_text": "MINNEAPOLIS -- — Blake Cashman led an onslaught of pressure all afternoon. Harrison Smith had the game-sealing interception. The Minnesota Vikings aren't scoring much, but a near-impenetrable defense has so far had all the support it's needed to fuel the NFC's last undefeated team. Kyler Murray and the Vikings overcame another sluggish start and remained unbeaten with a 16-10 victory over the spiraling Indianapolis Colts on Sunday. “We feel really comfortable and confident to win football games when we don’t turn it over and we win the field position and boring stuff like that, because we know over the course of 60 minutes what that side can do,” Vikings coach Kevin O'Connell said. Cashman, the eighth-year linebacker who is thriving as the primary communicator for defensive coordinator Brian Flores, had 12 tackles, two sacks, four passes defensed and three hits on quarterback Daniel Jones for the Vikings (6-0), who have allowed a league-low 74 points. Smith picked off Jones around midfield with about a minute left to kill the last-ditch drive by the Colts (2-5) before it ever got going. It was his 40th career interception. Smith planted the ball on the 40-yard line to mark the occasion as the crowd at U.S. Bank Stadium chanted: “Harry! Harry! Harry!” “There’s a lot of fight in this group,” said Smith, a six-time Pro Bowl safety who decided right before the regular season to return for his 15th year with the Vikings. Will Reichard made three field goals for the Vikings, including a 52-yarder with 1:39 left after his 59-yard try was blocked by Grover Stewart earlier in the fourth quarter. Jonathan Taylor gave the Colts the lead they kept for more than three quarters of the game with a 38-yard touchdown run on their opening drive, but Spencer Shrader missed two field goals in the second half. The miss from 56 yards that coach Shane Steichen called for on fourth-and-2 set the Vikings up for their only touchdown, when Murray used a 35-yard run to get in range for a short scoring pass to T.J. Hockenson . That was just the 10th touchdown for the offense in six games. “We’ll continue to get better. I know we will. I know we keep saying that, but I felt like we moved the ball well today,” said Murray, who was 14 for 24 for 150 yards. “We’ve just got to put the ball in the end zone.” Steichen says Colts will stick with Jones at quarterback Jones went 13 for 22 for 108 yards and lost 44 yards on four sacks, with Flores relentlessly sending blitzers into the backfield. “I think we expected it to be this kind of game, kind of an ugly game, and credit to them on defense,” said Jones, who spent the last half of the 2024 season as a backup with the Vikings. “They have a good system and do good stuff.” Jones has just four touchdown passes and seven interceptions in seven games, but Steichen said afterward he's not considering a switch. “I've got a ton of faith in Daniel,” Steichen said. Two of the NFL's best kickers are automatic no more Reichard hit from 28 and 47 yards in the second quarter to set the franchise record with 35 consecutive made field goals, which was the longest active streak in the league — until the block. Shrader, who leads the NFL in scoring this season with 70 points, had his streak of 22 straight made field goals end with his wide-left miss that had heavy pressure off the edge by former Colts cornerback Isaiah Rodgers . That also stopped Shrader's run of seven makes in a row from 50-plus yards. Injury report Colts: With standout Sauce Gardner (calf) inactive, the CB depth chart was chewed up in the second half when Justin Walley (knee) and Cam Taylor-Britt (groin) left with injuries. ... TE Tyler Warren (groin) missed his second straight game. LB Jaylon Carlies (ribs) returned to the starting lineup after missing two games. Vikings: RB Aaron Jones aggravated a nagging knee injury in the fourth quarter when he took a low hit at the end of a 17-yard run. He didn't return. Up next Colts: at Jacksonville next Sunday. Vikings: at Detroit next Sunday. ------ See AP’s full NFL coverage here",
+   "scoring_plays": [
+    "Jonathan Taylor 38 Yd Rush (Spencer Shrader Kick)",
+    "Will Reichard 28 Yd Field Goal",
+    "Will Reichard 47 Yd Field Goal",
+    "Spencer Shrader 43 Yd Field Goal",
+    "T.J. Hockenson 5 Yd pass from Kyler Murray (Will Reichard Kick)",
+    "Will Reichard 52 Yd Field Goal"
+   ],
+   "injury_report": [],
+   "final": "MIN 16, IND 10"
+  },
+  {
+   "espn_id": "401873015",
+   "date_utc": "2026-10-25T17:00Z",
+   "away": "MIA",
+   "away_score": 28,
+   "home": "NYJ",
+   "home_score": 25,
+   "status": "Final",
+   "venue": "MetLife Stadium",
+   "notes": [],
+   "recap_headline": "Malik Willis sparks first win for Jeff Hafley and Dolphins hold off late Jets rally in 28-25 victory",
+   "recap_text": "EAST RUTHERFORD, N.J. -- — Jeff Hafley had a towel draped around his neck as he stepped to the podium and the Miami Dolphins coach wiped his face one last time before taking questions from reporters. He had just been doused by his players in the middle of a jubilant locker room after they held on for a 28-25 victory — his first leading the Dolphins — over the New York Jets on Sunday. “I grabbed every guy as they ran in,” a happy Hafley said. \"My socks are wet. I had so much water on me. It was a really, really special moment, one that I’m appreciative of and one that I won’t forget. It was fun. “They deserve it. You could feel a lot come out of it. I'm very happy for the players. They did a great job.” Malik Willis threw two touchdown passes and ran for a score, and made a victory-sealing 2-yard push up the middle on fourth-and-1 as the Dolphins (1-5) came off their bye-week break and avoided their first 0-6 start since 2019. “It was awesome,” said Willis, who was 14 of 21 for 208 yards and two TD passes to rookie Caleb Douglas . He also ran for 37 yards on eight carries, but the last one was the biggest of the game. The Jets (2-5) made a late push trailing 28-17. On fourth-and-4, Geno Smith completed a short pass to Isaiah Davis , who zipped downfield 41 yards to the Dolphins 18. Three plays later, Smith found Mason Taylor for a 12-yard touchdown, the tight end's second of the game. Penalties negated New York's first two 2-point tries before Smith threw to Taylor to make it 28-25 with 3:24 left. Looking to end it, the Dolphins faced fourth-and-1 from the Jets 49 at the two-minute warning and Hafley went straight to his offensive linemen. “I asked them what they thought,” Hafley said. “When I saw the look in their eyes, I was very confident that we’d get it. As soon as I saw that, there was no doubt in my mind that we’d go for it.” Passing up the punt, Hafley left it to the offense — and Willis pushed forward for 2 yards as the Dolphins celebrated. “He trusted us,” Willis said, \"and we trusted him.” Hafley, who grew up about 20 minutes north of MetLife Stadium in Montvale, got the win in front of about 30 friends and family members. The Jets, meanwhile, dropped to 0-8 against AFC East opponents under Aaron Glenn, including consecutive losses to New England and Miami. “When it comes to this game, highly disappointed,” Glenn said. “Disappointed in myself, first and foremost.” Smith was 23 of 30 for 287 yards and three touchdowns, the two to Taylor and another to Omar Cooper Jr ., and an interception. Braelon Allen had 104 yards rushing. Dolphins and Jets start things off with a scoring spree The Dolphins started quickly, marching 76 yards on seven plays and taking their first lead in any game this season on Willis' 7-yard touchdown pass to Douglas. It also ended New York's streak of not allowing any points on an opening possession in five straight games. But the Jets came right back with a 13-yard touchdown catch by Taylor — son of former Dolphins star and Pro Football Hall of Famer Jason Taylor — to tie it. It's the third straight game in which New York scored on its opening drive. Miami then went on a 14-play drive that was capped by a 1-yard touchdown run by Gordon, who finished with 103 yards rushing. New York was driving again on its next possession at the Miami 21 when Smith was intercepted by Michael Taaffe . The Dolphins' touchdown streak ended on their third possession when they went three-and-out. They got right back at it on their next drive, with Willis scoring on a 2-yard scramble with 6 seconds left in the first half. Jets' woes extend into the second half Allen gave New York some immediate second-half juice with a 27-yard run on the Jets' first play of the third quarter, but the drive stalled. Adding to the misery, Jason Sanders — a longtime Dolphins kicker in his first season with the Jets — hit the right upright on a 40-yard try. Cooper got New York's next drive started with a 60-yard reception, and ended it five plays later with a 3-yard touchdown catch to make it a one-score game at 21-14 with 5:50 left in the third quarter. The Jets later got to the Dolphins 1, but couldn't punch it in on runs by Andrew Beck and Allen and settled for a 33-yard field goal when Smith was sacked on third down. Willis side-armed a short toss to Douglas, who tiptoed the sideline after the catch and raced for a 63-yard touchdown that put Miami up 28-17 with 4:44 remaining. Injuries Dolphins: RB Jaylen Wright left in the fourth quarter with an injured quadriceps. ... S Dante Trader Jr . hurt his left shoulder in the third quarter. ... CB JuJu Brents left with a stinger in the second half, but returned in the fourth quarter. Jets: DT T'Vondre Sweat limped off with a knee injury late in the second quarter and didn't return. Up next Dolphins: Host New England next Sunday. Jets: Host Las Vegas next Sunday. ------ See AP’s full NFL coverage here",
+   "scoring_plays": [
+    "Caleb Douglas 7 Yd pass from Malik Willis (Zane Gonzalez Kick)",
+    "Mason Taylor 13 Yd pass from Geno Smith (Jason Sanders Kick)",
+    "Ollie Gordon II 1 Yd Run (Zane Gonzalez Kick)",
+    "Malik Willis 2 Yd Rush (Zane Gonzalez Kick)",
+    "Omar Cooper Jr. 3 Yd pass from Geno Smith (Jason Sanders Kick)",
+    "Jason Sanders 33 Yd Field Goal",
+    "Caleb Douglas 63 Yd pass from Malik Willis (Zane Gonzalez Kick)",
+    "Mason Taylor 12 Yd pass from Geno Smith (Geno Smith Pass to Mason Taylor for Two-Point Conversion)"
+   ],
+   "injury_report": [],
+   "final": "MIA 28, NYJ 25"
+  },
+  {
+   "espn_id": "401873018",
+   "date_utc": "2026-10-25T17:00Z",
+   "away": "TB",
+   "away_score": 43,
+   "home": "CAR",
+   "home_score": 13,
+   "status": "Final",
+   "venue": "Bank of America Stadium",
+   "notes": [],
+   "recap_headline": "Bucky Irving runs for 2 TDs and Bucs force 4 turnovers in 43-13 rout of Panthers",
+   "recap_text": "CHARLOTTE, N.C. -- — The Tampa Bay Buccaneers wanted to make sure not to put too much on Baker Mayfield 's plate with their quarterback still healing from a dislocated thumb and wearing a protective glove on his throwing hand. The Bucs' offensive line and defense took care of that. Bucky Irving ran for 106 yards and two touchdowns as the Bucs racked up 258 yards on the ground on 49 carries, and Tampa Bay's defense forced four turnovers in Sunday's 43-13 rout of the division rival Carolina Panthers . “With all of these handoffs, I don't know, my thumb might be pretty sore,” Mayfield said. Mayfield, who had missed the previous three games , finished with just 11 pass attempts in a game the Bucs led 33-6 at halftime following a series of Carolina blunders. He had seven completions for 64 yards and a touchdown, and that was plenty for him to improve to 7-1 against the Panthers, including 6-1 since joining the Bucs (2-5). “He made the plays when we needed them,” Bucs coach Todd Bowles said. “He didn't need to make many. When you have 49 runs, for a quarterback coming off an injury, that made the day easy for him.” There was nothing easy about the day for Carolina's Bryce Young . Young was sacked five times and the NFL's leader in yards passing per game was limited to 163 yards on 14-of-27 passing. He had one touchdown pass but threw two interceptions and lost a fumble. Tampa Bay's Calijah Kancey turned Al-Quadin Muhammad 's strip-sack of Young into a 32-yard touchdown return . Tampa Bay's special teams chipped in, too. The Bucs recovered a muffed punt by David Moore and blocked an extra point and returned it for 2 points. “Just really disappointing,” Panthers coach Dave Canales said. “Turnovers really in every phase. A sack-fumble on a protection issue, a dropped punt led to points, the blocked kick. ... It really combined to put us in a really big hole.” Young took blame for the three turnovers, saying, “I can’t turn the ball like that. It hurts the team and that’s on me.” Tampa Bay won the coin toss and elected to receive. The Bucs proceeded to march 70 yards in 14 plays, with Irving scoring on a 4-yard touchdown run. They didn't let up after that, scoring on five of their next seven possessions. “We took the ball and just wanted to set the tone early,” Mayfield said. “It wouldn't have mattered though, as I think the defense would have set the tone regardless.” Even when things appeared to be going right for the Panthers (3-3), something immediately went wrong. After Young found a streaking Darren Waller down the middle of the field for a 50-yard touchdown to cut Tampa Bay's lead to 17-6, the Bucs blocked the ensuing extra point and Zyon McCollum returned it 70 yards to the end zone. As a result, the Panthers netted just four points on the TD. YaYa Diaby had three of Tampa Bay's five sacks. “It's just that we know this offense so well,” Diaby said. “They know us and we know them. So we just came with a game plan and attacked. ... We just got after Bryce and tried to take away his first read and just be aggressive.” The Bucs had played 12 straight one-score games dating to last season before Sunday. When asked where this type of game has been, Bowles replied, “I wish I had an answer for that, but it was very welcome.” Kuechly gets his Hall of Fame ring The Panthers honored Luke Kuechly at halftime as the former middle linebacker received his Hall of Fame ring as part of a busy afternoon . Kuechly also hit the “Keep Pounding” drum before the game and served as a broadcaster for the Panthers' radio network. Injuries Tampa Bay: RB Kenny Gainwell briefly left with a hip injury in the second half but returned. He finished with 14 carries for 88 yards. Carolina: RT Taylor Moton , who missed the first four games of the season with blood clots in his lung, was carted off the field in the third quarter with a left ankle/fibula injury and did not return. Up next Tampa Bay: Host Atlanta on Sunday. Carolina: At Green Bay on Thursday night. ------ See AP’s full NFL coverage here",
+   "scoring_plays": [
+    "Bucky Irving 4 Yd Rush (Chase McLaughlin Kick)",
+    "Chase McLaughlin 22 Yd Field Goal",
+    "Calijah Kancey 32 Yd Fumble Return (Chase McLaughlin Kick)",
+    "Darren Waller 50 Yd pass from Bryce Young (Ryan Fitzgerald PAT blocked)",
+    "Zyon McCollum Defensive PAT Conversion",
+    "Bucky Irving 1 Yd Rush (Chase McLaughlin Kick)",
+    "Tez Johnson 14 Yd pass from Baker Mayfield (Chase McLaughlin Kick)",
+    "Chase McLaughlin 44 Yd Field Goal",
+    "Sean Tucker 46 Yd Rush (Chase McLaughlin Kick)",
+    "Anthony Tyus III 12 Yd Rush (Ryan Fitzgerald Kick) (Ryan Fitzgerald Kick)"
+   ],
+   "injury_report": [],
+   "final": "TB 43, CAR 13"
+  },
+  {
+   "espn_id": "401873012",
+   "date_utc": "2026-10-25T17:00Z",
+   "away": "CIN",
+   "away_score": 35,
+   "home": "BAL",
+   "home_score": 13,
+   "status": "Final",
+   "venue": "M&T Bank Stadium",
+   "notes": [],
+   "recap_headline": "Burrow throws 4 TD passes as Bengals storm past Jackson-less Ravens in 2nd half of 35-13 win",
+   "recap_text": "BALTIMORE -- — For 30 minutes, it was hard to tell which team was playing its backup quarterback, Cincinnati or Baltimore. Then the best version of Joe Burrow arrived, and the second half wasn't close. Burrow threw four touchdown passes, and the Bengals rebounded from a desultory first two quarters to beat Baltimore 35-13 on Sunday, handing the Ravens a second straight divisional loss with Lamar Jackson sidelined. Baltimore (4-3) dominated the first half but led only 13-0 after settling for a couple of short field goals. Then the Ravens blew a double-digit second-half lead for the second straight week and 10th time since the start of the 2022 season. Cincinnati scored touchdowns on its first five possessions of the second half. “Just took a deep breath, kept their composure, led,” Bengals coach Zac Taylor said. “And went out there and put together as good of a second-half performance as I've ever seen.” The Bengals (4-2) were shut out in their second meeting with Baltimore last season, and were scoreless through two quarters this time before going 66 yards on the first drive after halftime, capped by Burrow’s 6-yard TD pass to Mike Gesicki . Baltimore, which held the ball for 22:20 in the first half, went three-and-out on its first possession of the second. Burrow’s 13-yard scoring pass to Tee Higgins put Cincinnati ahead to stay. “That second half is who we have to be,” Burrow said. “Our defense played well in the first half in limiting the points on the board and keeping us in it. We were able to make those plays down the stretch, but it doesn’t have to be that way. We can do that for a full game.” The Ravens put together one more decent drive, but on fourth-and-2 from the Cincinnati 12, Tyler Huntley threw incomplete. The Bengals then showed why Baltimore decided to be so aggressive, driving 88 yards and going up 21-13 on Samaje Perine 's 1-yard run. Burrow added a 2-yard scoring pass to Ja'Marr Chase and a 16-yarder to Drew Sample . “Right now, we’re too much of a momentum team,” Ravens coach Jesse Minter said. “We’re riding the wave when it’s good, and we’re riding the wave when it’s bad. I think that’s a main focus for us to be able to stay a little bit more even-keeled and continue to make plays and do things.” The Ravens became the first team in 76 years to lead by at least 13 points at halftime and lose by at least 20, according to Sportradar. The Baltimore Colts were up 20-7 on the New York Giants on Nov. 19, 1950, before losing 55-20. Jackson missed a third straight game with an ankle injury, and the Ravens are 1-2 without him. After a loss at Cleveland last weekend, he practiced in a limited role during the week but was inactive again. Baltimore's running game wasn't much of a factor without him, but Huntley threw for 215 yards in the first half — 120 of them to Zay Flowers . The shifty Flowers opened the scoring with a 48-yard catch-and-run. Cincinnati kept pouring it on after erasing the 13-0 deficit. Former Baltimore quarterback Joe Flacco relieved Burrow late, closing out the Ravens' fifth loss in their past six home games. Baltimore has outscored opponents by 65 points in the first half this season, while being outscored by 70 after the break. Unpleasant reunion Trey Hendrickson , the pass rusher who went from the Bengals to the Ravens in free agency, was credited with two quarterback hits but no sacks or tackles. “We have to continue to rely on the technique that we’ve been coached and not make the moment bigger than it is. It’s just the details that win games,” he said. “Going through the process one play at a time will result in the way we want it to go.” Two halves The Ravens outgained Cincinnati 258-59 in the first half, but the Bengals had a 298-101 advantage after halftime. In first downs, it was 12-3 Baltimore in the first two quarters, then 18-5 Cincinnati. Higgins had all six of his catches for 148 yards in the second half, and Chase finished with five catches for 62 yards. “We just started calling some of our base stuff, O-line protected great,” Burrow said. “Really, we just got the ball in Ja'Marr and Tee's hands as many times as we could.” Injuries Bengals: S Kyle Dugger injured his quadriceps, and TE Erick All Jr . hurt his knee. Ravens: Rookie G Vega Ioane (knee) exited in the first half. Up next Bengals: Tennessee at home next Sunday. Ravens: At Buffalo next Sunday. ------ See AP’s full NFL coverage here",
+   "scoring_plays": [
+    "Zay Flowers 48 Yd pass from Tyler Huntley (Tyler Loop Kick)",
+    "Tyler Loop 34 Yd Field Goal ",
+    "Tyler Loop 24 Yd Field Goal",
+    "Mike Gesicki 6 Yd pass from Joe Burrow (Evan McPherson Kick)",
+    "Tee Higgins 13 Yd pass from Joe Burrow (Evan McPherson Kick)",
+    "Samaje Perine 1 Yd Rush (Evan McPherson Kick)",
+    "Ja'Marr Chase 2 Yd pass from Joe Burrow (Evan McPherson Kick)",
+    "Drew Sample 16 Yd pass from Joe Burrow (Evan McPherson Kick)"
+   ],
+   "injury_report": [],
+   "final": "CIN 35, BAL 13"
+  },
+  {
+   "espn_id": "401873016",
+   "date_utc": "2026-10-25T17:00Z",
+   "away": "NYG",
+   "away_score": 27,
+   "home": "HOU",
+   "home_score": 21,
+   "status": "Final",
+   "venue": "Reliant Stadium",
+   "notes": [],
+   "recap_headline": "Singletary's 30-yard run in OT gives Giants 27-21 win over Texans",
+   "recap_text": "HOUSTON -- — Two weeks ago, Cam Skattebo 's fumble in overtime cost the New York Giants a chance at a win. On Sunday, his huge run in OT set up a 30-yard touchdown run by Devin Singletary that gave the Giants a 27-21 victory over the Houston Texans . Skattebo had a 16-yard touchdown run in the fourth quarter before his 42-yard scamper on second down set the stage for Singletary’s game winner. He had 17 carries for 124 yards after not having a carry last Sunday following his fumble in New York's 27-27 tie with Washington. “When I fumbled against Washington, it wasn’t in my mind to take care of the ball in that moment,” he said. “This week, I made sure I took care of it. I can protect the ball if I need to and when I have the right mindset.” J.J. McCarthy moved the ball effectively for the Giants (4-2-1) in his first start of the season after coach John Harbaugh benched Jameis Winston . He was 20 of 28 for 252 yards in the stadium in which he won the national title with Michigan in January 2024. “I thought he did a great job,” Harbaugh said. “He made some great throws. I’m sure he didn’t play perfect, but he played a heck of a football game, and he deserves a lot of credit.” The Texans (2-5) got the ball first in overtime, but New York’s defense forced a three-and-out with Kayvon Thibodeaux dropping a potential interception on second down. C.J. Stroud had two touchdown passes but finished with a season-low 153 yards passing as the Texans failed to move the ball for most of the second half. They tied it at 21-all on Xavier Hutchinson’s 3-yard grab with just under a minute to go. The Giants didn’t get into field-goal range before time ran out to send it to OT. Houston's defense continued to struggle, allowing a season-high 188 yards rushing. “We've been very inconsistent of playing up to our standard,” defensive end Will Anderson Jr . said. “Sometimes we’re swarming, sometimes we’re not. Sometimes we’re tackling well, sometimes we’re not, and we've got to find a way to do it on a consistent basis.” The Giants took a 21-14 lead when Skattebo broke multiple tackles on a 16-yard touchdown run with about nine minutes remaining and celebrated with a backflip. He said receivers coach Chad Hall approached him before that play and told him that it was time for a backflip. “I knew that means: it’s time to get in the end zone,” Skattebo said. “He believed in me, and I was able to make it happen.” The Texans had trouble moving the ball after halftime and punted on their first three possessions after the break before the touchdown by Hutchinson. Marvin Harrison Jr . scored a touchdown in the second quarter in his second game with the Texans after a trade with the Cardinals two weeks ago. The Texans were up 3-0 after an early field goal by Ka’imi Fairbairn when the Giants took the lead when Tyrone Tracy Jr . scored on a 2-yard run. That TD was set up by a 42-yard reception by Malik Nabers the play before. A 57-yard field goal by Fairbairn cut the lead to 7-6 with about nine minutes left in the second quarter. New York padded the lead when Winston plunged in from 1-yard out for a touchdown about 3 ½ minutes before halftime. McCarthy found Thomas Fidone II wide open for a 29-yard gain two plays earlier to put the Giants in scoring position. Stroud found Harrison in the back of the end zone on a 6-yard TD with about 30 seconds left in the second quarter. Cade Stover’s reception for the 2-point conversion tied it at 14-all. The Giants had a chance to take the lead after that but Dominic Zvada’s 44-yard field-goal attempt sailed wide right. It was his second miss of the game after his 56-yard attempt late in the first quarter was also wide right. Dell's return Tank Dell had one reception for 43 yards and returned a punt for 14 yards in his return after missing almost two years recovering from a gruesome knee injury. “Really exciting for Tank,” coach DeMeco Ryans said. “Happy for all of the work he’s put in.” Dell said he knows a lot of people were concerned about him getting hit for the first time since his injury, but that wasn't anything he thought about. “I didn’t have no worries about getting tackled,” he said. “It felt cool actually.” And he said his big reception on Sunday was just a glimpse of what to expect from him this season. “I’m a playmaker man,” he said. “I’m so used to making those plays and there’s so many more to come.” Injuries Texans WR Jaylin Noel left in the fourth quarter with a toe injury. Up next Both teams are off next week before the Giants visit the Eagles on Nov. 8 and the Texans visit the Chargers that day. ------ See AP’s full NFL coverage here",
+   "scoring_plays": [
+    "Ka'imi Fairbairn 58 Yd Field Goal ",
+    "Tyrone Tracy Jr. 2 Yd Rush (Dominic Zvada Kick)",
+    "Ka'imi Fairbairn 57 Yd Field Goal ",
+    "Jameis Winston 1 Yd Rush (Dominic Zvada Kick)",
+    "Marvin Harrison Jr. 6 Yd pass from C.J. Stroud (C.J. Stroud Pass to Cade Stover for Two-Point Conversion)",
+    "Cam Skattebo 16 Yd Rush (Dominic Zvada Kick)",
+    "Xavier Hutchinson 3 Yd pass from C.J. Stroud (Ka'imi Fairbairn Kick)",
+    "Devin Singletary 30 Yd Rush "
+   ],
+   "injury_report": [],
+   "final": "NYG 27, HOU 21"
+  },
+  {
+   "espn_id": "401873019",
+   "date_utc": "2026-10-25T20:05Z",
+   "away": "DEN",
+   "away_score": 30,
+   "home": "ARI",
+   "home_score": 16,
+   "status": "Final",
+   "venue": "State Farm Stadium",
+   "notes": [],
+   "recap_headline": "Bo Nix runs for a 62-yard TD, leads Broncos past the Cardinals for a 30-16 win",
+   "recap_text": "GLENDALE, Ariz. -- — Bo Nix has insisted throughout the past few months that the right ankle he injured during last season's playoffs is now healthy, even if his rushing numbers haven't matched his first two seasons in the league. A spectacular 62-yard touchdown dash by the Denver Broncos quarterback on Sunday proved it. “You believe me now?” Nix asked with a grin. Nix's touchdown run was the longest of his career, RJ Harvey turned a short screen pass into a 52-yard touchdown and the Broncos used a handful of big offensive plays to beat the Arizona Cardinals 30-16. The Cardinals have lost 10 straight home games in a streak that's lasted 406 days. The Broncos (5-2) have struggled on offense for most of this season and that trend continued for part of Sunday's game, but Nix and Harvey took advantage of costly mistakes by the Cardinals defense to get things moving. “I think it answers our question, ‘Can he can still run?’” Broncos coach Sean Payton said of Nix's touchdown. “The confidence inside the building relative to his abilities hasn't changed at all. He's our guy and it's good to see him play well. It's good to see us block well and make some plays down the field.” Denver has won three straight. Its defense was dominant once again with 12 quarterback hits, six tackles for a loss and three sacks. Nix's long touchdown run came late in the second quarter, giving the Broncos a 13-6 lead and a lot of momentum. He dropped back to pass and then stepped up in pocket, surging forward when a huge patch of grass appeared. No one on the Cardinals defense was near him until a few yards before the end zone, when he sidestepped a tackle and tumbled forward for the touchdown. Nix had just 37 yards rushing combined over his first six games of the season, but after seeing that big crease open on Sunday, it was time to show he still has some wheels. “There's not a lot of times you get that much open space,” Nix said. Denver extended its lead to 20-6 midway through the third quarter when Harvey caught a short screen pass, took advantage of plenty of blocking and ran untouched to the end zone. Nix finished 15 of 29 passing for 222 yards. He also had 73 yards rushing. “I thought we played a good game offensively,” Nix said. “There's still several things we'd like to get better at, several penalties that we didn't love, but overall, we had a big win over a tough team on the road. It was really good for us.” The Cardinals (2-5) cut the deficit to 20-13 late in the third quarter on Trey McBride 's 7-yard touchdown catch. Denver responded with a 76-yard touchdown drive — highlighted by a 47-yard pass from Nix to Marvin Mims Jr . — for a 27-13 lead and controlled the game from that point forward. Arizona scored just one touchdown on five trips to the red zone. “We've got to play better,\" Cardinals first-year coach Mike LaFleur said. “We had too many penalties, we had opportunities to make plays and we didn't. When we get to the point where we're gonna flip this thing, we've got to make those plays. This is a collective deal in terms of coaching and playing.” The Broncos took an early 6-0 lead on a pair of field goals during a flag-filled first quarter that included 10 penalties — five on each team. The Cardinals cut the deficit to 6-3 early in the second, settling for a 30-yard field goal after running back Bam Knight dropped a potential touchdown catch in the end zone on third down. Arizona quarterback Jacoby Brissett finished with 272 yards passing and a touchdown, but the Cardinals were just 5 of 17 on third down. McBride caught 10 passes for 111 yards. Fitzgerald in Cardinals' Ring of Honor Cardinals wide receiver Larry Fitzgerald was inducted into the team's Ring of Honor during a halftime ceremony at State Farm Stadium. Fitzgerald — one of the greatest receivers in NFL history — finished his career with 17,492 yards receiving and 121 touchdowns. He was inducted into the Pro Football Hall of Fame over the summer. Injuries Broncos: DL Malcolm Roach was evaluated for a concussion, but returned to the game. DL Zach Allen was shaken up during the fourth quarter, but said postgame that he was fine. Cardinals: Rookie RB Jeremiyah Love missed his second straight game with a sore ankle. Up next Broncos: Host Kansas City next Sunday. Cardinals: At Dallas next Sunday. ------ See AP’s full NFL coverage here",
+   "scoring_plays": [
+    "Wil Lutz 48 Yd Field Goal",
+    "Wil Lutz 43 Yd Field Goal",
+    "Chad Ryland 30 Yd Field Goal",
+    "Chad Ryland 26 Yd Field Goal",
+    "Bo Nix 62 Yd Rush (Wil Lutz Kick)",
+    "RJ Harvey 52 Yd pass from Bo Nix (Wil Lutz Kick)",
+    "Trey McBride 7 Yd pass from Jacoby Brissett (Chad Ryland Kick)",
+    "J.K. Dobbins 1 Yd Rush (Wil Lutz Kick)",
+    "Wil Lutz 31 Yd Field Goal",
+    "Chad Ryland 41 Yd Field Goal"
+   ],
+   "injury_report": [],
+   "final": "DEN 30, ARI 16"
+  },
+  {
+   "espn_id": "401873020",
+   "date_utc": "2026-10-25T20:25Z",
+   "away": "GB",
+   "away_score": 17,
+   "home": "DET",
+   "home_score": 20,
+   "status": "Final",
+   "venue": "Ford Field",
+   "notes": [],
+   "recap_headline": "Lions beat Packers 20-17 on last-play field goal to bail out Dan Campbell's failed 4th-down gamble",
+   "recap_text": "DETROIT -- — Dan Campbell's latest gamble did not pan out and the Detroit Lions made plays in all three phases — with some yellow flags that went their way — to bail out the aggressive coach. Jake Bates made a 22-yard field goal as time expired to give Detroit a 20-17 win over the Green Bay Packers on Sunday. Campbell, who is known for taking risks, seemed to make a reckless decision to go for it on fourth-and-1 from his 24 with just under 5 minutes to play and Jahmyr Gibbs was stopped for no gain. “I thought we would get it, No. 1,\" Campbell said. “No. 2, I knew we would get the ball back if it didn’t work out.” One play after Jordan Love put a pass on Josh Jacobs’ hands for an incompletion that landed in in the end zone, rookie Trey Smack missed a 35-yard field goal after D.J. Wonnum got a finger on the football. Smack was wide right from 26 in the first half and became the first kicker to miss two field goals from 35 yards or closer in same game since 2019, according to Sportradar. “We had some premier field position and we just didn't take advantage,” Packers coach Matt LaFleur said. “We missed two field goals, but we know Trey is capable of making those.” With a chance to drive for a winning score, Goff connected with Sam LaPorta on an 18 -yard pass and Karl Brooks was called for a late hit on the quarterback gave Detroit the ball at the Green Bay 45. Gibbs had a 15-yard run and Brooks was called for being offside on third-and-5, giving Detroit a first down at the Packers 15. Gibbs could have run for a touchdown twice because Green Bay didn’t want to tackle him, hoping to get the ball back. The running back wisely went down each time, the latter allowing Bates’ winning kick to come on the final play. “That was as good as it gets at clock management,” Goff said. The Lions (4-2) have won two straight for the first time this season, putting them in third place in the NFC North behind Minnesota (6-0) and Chicago (5-2). Detroit hosts the undefeated Vikings on Sunday. “Any division game is important,” said safety Brian Branch , who had a fourth-quarter interception in his first game since tearing his left Achilles tendon last December. “We need these. They're mini-playoff games.” The Packers (4-3) had a three-game winning streak stopped and dropped to last place in the highly competitive NFC North. All four teams have winning records, matching the AFC North. The Lions entered the game with only one turnover and lost two fumbles that took away chances for them to add to three-point leads late in the first half and early in the third quarter. The second turnover set up Love's 25-yard touchdown pass to Jacobs for a 14-10 Green Bay lead. Detroit retook the lead on the ensuing drive on Goff's 10-yard scoring pass to Williams, who had two TD receptions for a second straight week. The Lions missed another opportunity to add to a three-point lead when Campbell went for it on fourth-and-5 from the Green Bay 6 late in the third and Goff threw incomplete. LaFleur passed on a field goal while trailing by three in the second quarter, and Love's pass to Matthew Golden was stopped for no gain on fourth-and-4 from the Detroit 7. But Smack had already missed from 26 by then. Jacobs' return Jacobs made his season debut less than a week after the three-time Pro Bowl running back was removed from the commissioner’s exempt list for pleading no contest to two misdemeanor charges stemming from a May altercation with his then-girlfriend. He had five receptions for 55 yards and a touchdown and 11 carries for 36 yards. Flag day Penalties gave Detroit five first downs, the most for the Lions since 2020. “I’m not a fan of the refs right now,” Green Bay safety Xavier McKinney said in an expletive-filled response to questions about the officials. LaFleur was more diplomatic. “I could tell you what I really think, but it wouldn't do us any good,” he said. Injuries Packers: Starting C Sean Rhyan (ankle) and backup Jacob Monk (quad) were injured, putting second-year lineman John Williams in the game to snap for his first career appearance on offense. LaFleur said he would not expect Rhyan on Monk to play on Thursday night against Carolina. Lions: C Cade Mays made his Detroit debut after signing as a free agent in the offseason. He injured a wrist in training camp. ... Oft-injured CB Ennis Rakestraw (ankle) was hurt during the game. Up next Packers: Host the Panthers on Thursday night. Lions: Host the Vikings on Sunday. ------ See AP’s full NFL coverage here",
+   "scoring_plays": [
+    "Jameson Williams 16 Yd pass from Jared Goff (Jake Bates Kick)",
+    "Tucker Kraft 14 Yd pass from Jordan Love (Trey Smack Kick)",
+    "Jake Bates 40 Yd Field Goal",
+    "Josh Jacobs 25 Yd pass from Jordan Love (Trey Smack Kick)",
+    "Jameson Williams 10 Yd pass from Jared Goff (Jake Bates Kick)",
+    "Trey Smack 43 Yd Field Goal",
+    "Jake Bates 22 Yd Field Goal "
+   ],
+   "injury_report": [],
+   "final": "DET 20, GB 17"
+  },
+  {
+   "espn_id": "401873021",
+   "date_utc": "2026-10-25T20:25Z",
+   "away": "LAR",
+   "away_score": 35,
+   "home": "LV",
+   "home_score": 21,
+   "status": "Final",
+   "venue": "Allegiant Stadium",
+   "notes": [],
+   "recap_headline": "Matthew Stafford sets Rams TD pass record as Los Angeles rolls past Raiders 35-21",
+   "recap_text": "LAS VEGAS -- — This was, especially in the first half, the kind of Rams team many expected to see all along. Matthew Stafford threw for 195 yards and three touchdowns to become the Rams' career leader in passing TDs, and Los Angeles resembled the team previously favored to win the Super Bowl, beating the Las Vegas Raiders 35-21 on Sunday. The Rams (3-4) still have a ways to go to overcome their slow start and numerous injuries, but this victory improves their chances to be a factor in the playoff race. Since the NFL playoffs expanded from 12 to 14 teams in 2020, 10 of 41 clubs have made the postseason after opening 3-4, with just 4 of 33 making it after going 2-5. At least in the first half, when they took a 28-6 lead, the Rams showed why they entered the season favored to win it all. The Raiders (3-4) made a push in the second half but lost their fourth straight. “It’s nice feeling a little bit more comfortable in the fourth quarter, and that’s just a testament to how the guys played,” Stafford said. “Great team effort. I thought our coaches did a great job of giving us a plan that we felt great about coming in here to execute. Just proud of the way we worked throughout the week, and I think that showed today. We're going to have to keep doing that and doing it at a high level.” Stafford has 155 touchdown passes in a Rams uniform, one more than previous team record holder Roman Gabriel. The reigning MVP also became the first player to accomplish that for two teams; Stafford's 282 touchdown passes is Detroit's record. Las Vegas native Puka Nacua , who had been listed as questionable with a calf injury, caught eight passes for 68 yards and a touchdown for the Rams, and tight end Davis Allen had two TD catches — his first trips to the end zone this season. Nacua's availability was in question until game day. “I’m super grateful for everybody in the training room and also the belief in coach (Sean McVay) and everybody for me to be able to go out there and still perform,” Nacua said. “The communication, I think, (for) Matthew is something that he prides himself in, but especially when not being able to get some of those (practice) reps. The time to mentally still (get) a rep and have that conversation so we know where we can be on the same page.” Kyren Williams and Blake Corum combined to rush for 192 yards and two touchdowns for Los Angeles. The Raiders' Kirk Cousins passed for 295 yards with touchdowns to Tre Tucker and running back Ashton Jeanty . Tucker finished with five receptions for 103 yards, and Jeanty hauled in eight catches for 61 yards. Cousins leads the NFL with 16 TD passes. Jeanty and Mike Washington Jr ., however, rushed for just 42 yards on 14 carries. The Raiders gave up 30-plus points for fourth consecutive week. “Well, no one’s coming to help us,” Las Vegas coach Klint Kubiak said. “We’ve got to figure it out ourselves as a coaching staff, with the players, and we have to complement each other as well because we’ve got to start the game a lot faster offensively.” McVay, now 4-0 against the Raiders, and the Rams took control from the beginning. They led by 22 points at halftime — the Raiders' largest home deficit after two quarters since trailing Cincinnati 24-0 in 2015 — and maintained that advantage after a scoreless third quarter. The Raiders tried to rally in the fourth, scoring two touchdowns to get within 28-18, though they failed on both 2-point conversions. Las Vegas also failed to convert two fourth downs in Rams territory. Los Angeles ended a two-game skid, which included last week's stunning 18-16 defeat to Arizona. “This league is so humbling,” McVay said. “Humility is only a day away, but I was proud of the way the group prepared and, most importantly, celebrating each other’s success, having the right energy when you’re on the road and it’s just you versus the opponent and their fans.” Injuries Rams: CB Trent McDuffie (groin) did not play for the second week in a row. He was listed as questionable, but was deactivated before kickoff. Up next Rams: Host their Los Angeles rival, the Chargers, next Sunday. Raiders: Visit the New York Jets next Sunday. ------ See AP’s full NFL coverage here",
+   "scoring_plays": [
+    "Davis Allen 3 Yd pass from Matthew Stafford (Brandon McManus Kick)",
+    "Matt Gay 30 Yd Field Goal",
+    "Davis Allen 5 Yd pass from Matthew Stafford (Brandon McManus Kick)",
+    "Puka Nacua 11 Yd pass from Matthew Stafford (Brandon McManus Kick)",
+    "Kyren Williams 17 Yd Rush (Brandon McManus Kick)",
+    "Matt Gay 27 Yd Field Goal",
+    "Tre Tucker 37 Yd pass from Kirk Cousins (Two-Point Pass Conversion Failed)",
+    "Ashton Jeanty 15 Yd pass from Kirk Cousins (Two-Point Pass Conversion Failed)",
+    "Blake Corum 4 Yd Rush (Brandon McManus Kick)",
+    "Matt Gay 36 Yd Field Goal"
+   ],
+   "injury_report": [],
+   "final": "LAR 35, LV 21"
+  },
+  {
+   "espn_id": "401873022",
+   "date_utc": "2026-10-26T00:20Z",
+   "away": "KC",
+   "away_score": 3,
+   "home": "SEA",
+   "home_score": 20,
+   "status": "Final",
+   "venue": "Lumen Field",
+   "notes": [],
+   "recap_headline": "Jaxon Smith-Njigba has 150 receiving yards and a score in the Seahawks' 20-3 win over the Chiefs",
+   "recap_text": "SEATTLE -- — Frustrated by a two-game skid, the Seattle Seahawks went into playoff mode. Jaxon Smith-Njigba caught nine passes for 150 yards and a touchdown, and the Seahawks handed the Kansas City Chiefs their first loss of the season, 20-3 on Sunday night. Sam Darnold threw for 257 yards and a score for the Seahawks (4-3), while Emanuel Wilson had 24 carries for 100 yards and a TD. “Playing a team like Kansas City and all the killers that they got on that side, we knew how big this game was, and we wanted this one badly,” said Smith-Njigba, the NFL's leading receiver and reigning Offensive Player of the Year. “You know, we saw it as a playoff game.” Patrick Mahomes struggled, throwing for 165 yards with an interception for the Chiefs (5-1). Kenneth Walker III , the Super Bowl MVP for the Seahawks last season before signing with the Chiefs in the offseason, was held to 36 yards on 14 carries. Walker entered the night averaging a league-leading 133 yards per game, but the Seahawks shut him down, along with the rest of Kansas City's offense. The Chiefs had 213 total yards, 50 on the ground. “Listen, all three phases we struggled, so we’ve got to do better, and that’s my responsibility,” Kansas City coach Andy Reid said. “So I take full responsibility for this. We’ve got to play better as a team.” The Super Bowl champion Seahawks have not allowed a 100-yard rusher in 36 games, the league’s longest current streak. “We know what kind of running back was coming in here, but we don't allow people to run through our defense,” linebacker Ernest Jones IV said. “That's just us.” The only bright spot for Kansas City's offense was a milestone for Travis Kelce , who had four receptions to reach 1,104 for his career, moving past Marvin Harrison and Cris Carter for fifth in NFL history . After Darnold hit Smith-Njigba for a 33-yard gain early in the second quarter to get the Seahawks in the red zone, Jason Myers kicked a 25-yard field goal for a 3-0 lead. On the next series, Ty Okada intercepted Mahomes on a pass intended for Jalen Royals . Seattle's ensuing drive was kept alive by Darnold's 7-yard scramble. He then connected with Smith-Njigba for a 28-yard touchdown to put Seattle up 10-0 with 1:44 left in the first half. Another 28-yard pass from Darnold to Smith-Njigba got the Seahawks to the Kansas City 1 in the closing seconds of the half, but Darnold was intercepted by Nohl Williams in the back of the end zone. Williams returned the pick 64 yards, but Harrison Butker 's 58-yard field goal attempt fell short as time expired. Myers made a 35-yard field goal to extend Seattle's lead to 13-0. Before the third quarter was over, the Chiefs drove to the Seattle 30, but Mahomes fumbled on third down and Kansas City had to settle for Butker's 50-yard field goal. Mahomes found Kelce for a 19-yard catch early in the fourth quarter, but the Chiefs came away with no points when Butker missed a 45-yard field goal attempt wide right. Butker has missed 10 field goals since the start of last season. “He’s off a bit. Got to fix it,” Reid said. The Seahawks pushed their lead to 20-3 on Wilson's 21-yard scoring run with 3:47 left. “I think this game reminds the guys what we’re capable of,” Seahawks coach Mike Macdonald said. “I think our guys understand that there’s more levels to where we can go, and so I hope they feel the sense of urgency that we can get there because it is stuff that we can control. You know, talking about procedural stuff, red-zone stuff, negative plays, how we rush our red-zone defense, all those things we’ve been attacking.” Notable absences The Seahawks moved running back Zach Charbonnet to the active roster this week, but he was ruled out for the game. Charbonnet rushed for 730 yards and 12 touchdowns for the Seahawks last season before he tore an ACL. The Chiefs were without receiver Rashee Rice , who missed his third straight game with a hamstring injury, and starting tackle Jaylon Moore , who is in the concussion protocol. Injuries Seahawks receiver Rashid Shaheed left early in the second half with a knee injury. He did not return. Tackle Charles Cross left in the fourth quarter with an ankle injury. Up next The Chiefs visit the Denver Broncos next Sunday. The Seahawks host the Chicago Bears on Monday, Nov. 2 ------ See AP’s full NFL coverage here",
+   "scoring_plays": [
+    "Jason Myers 25 Yd Field Goal",
+    "Jaxon Smith-Njigba 28 Yd pass from Sam Darnold (Jason Myers Kick)",
+    "Jason Myers 35 Yd Field Goal ",
+    "Harrison Butker 50 Yd Field Goal",
+    "Emanuel Wilson 21 Yd Rush (Jason Myers Kick)"
+   ],
+   "injury_report": [],
+   "final": "SEA 20, KC 3"
+  },
+  {
+   "espn_id": "401873009",
+   "date_utc": "2026-10-27T00:15Z",
+   "away": "DAL",
+   "away_score": 38,
+   "home": "PHI",
+   "home_score": 21,
+   "status": "Final",
+   "venue": "Lincoln Financial Field",
+   "notes": [],
+   "recap_headline": "Dak Prescott throws 3 TD passes, Javonte Williams runs for 155 yards as Cowboys beat Eagles 38-21",
+   "recap_text": "PHILADELPHIA -- — Tanner McKee and the Philadelphia Eagles still had a potential victory within their grasp in the fourth quarter when the career backup threw a pass into the outstretched hands of DeMarvion Overshown . The Cowboys linebacker raised the ball in celebration after making the clutch play the Eagles’ defense could not deliver. Look at Dallas now, playing for a division title that's up for grabs. Dak Prescott threw for 212 yards and three touchdowns, two to CeeDee Lamb , and the Cowboys handed the Eagles their fifth straight loss, 38-21 on Monday night. The Eagles (2-5) are spiraling into a disaster of a season with their longest skid since 2016. Javonte Williams ran for a career-high 155 yards and a touchdown for the Cowboys (3-4), who still have realistic designs on an NFC East title. The New York Giants lead the division at 4-2-1, and the Cowboys are the only team with two division victories. “Come out, get a division win on the road in a hostile environment right before we get to go home for a couple of weeks, I think it was massive,” Prescott said. Philadelphia lost eight straight games in 2012 and had a seven-game skid in 1994. Eagles quarterback Jalen Hurts is expected to miss the rest of the season because of blood clots in his lungs. McKee provided little encouragement that he can turn the season around, completing 23 of 35 passes for 211 yards with one touchdown and one interception. Prescott finished long drives with scores that McKee was unable to match. The Eagles are 3-6 without Hurts since he became the starter in 2021. With Dallas trailing 21-20 late in the third quarter, Lamb hauled in his second TD on a beautiful 16-yard floater from Prescott in the corner of the end zone. Prescott ran in the 2-point conversion for a 28-21 lead. Brandon Aubrey kicked field goals of 55, 27 and 24 yards. The final kick extended Dallas’ lead to 31-21. Williams capped the scoring and the first 150-yard rushing game by a Dallas player since Ezekiel Elliott in 2018 with a 2-yard TD. The Cowboys finished with 204 yards rushing. “Javonte, man, the power, the acceleration, it was there tonight. He looked great,” Cowboys coach Brian Schottenheimer said. Overshown sealed the win with the pick in his first game since he suffered a hamstring injury in Week 1. “Our division, we're in it,” Overshown said. Unlike the Eagles. McKee orchestrated the first Eagles touchdown drive in the third quarter this season when they ran almost 10 minutes off the clock and he hit rookie Makai Lemon for a 4-yard touchdown and a 21-20 lead. The Eagles didn't score again and are running out of chances to salvage their season. “Football is going to deal you some tough hands at times,” coach Nick Sirianni said. “Can you get up and keep fighting?” High-scoring game early The Cowboys got a field goal on their opening drive, and the Eagles came right back and made it 7-3 on Saquon Barkley’s 8-yard touchdown run. Barkley returned after missing the last two-plus games with a hamstring injury and had 37 yards rushing on the drive. Barkley entered with 36 yards rushing all season. He still seemed bothered by the hamstring and had to visit the sideline medical tent. Barkley also missed long stretches getting treatment for his back on the sideline and finished with 62 yards on seven carries. The Eagles also played without wideout DeVonta Smith . Prescott threw touchdown passes of 9 yards to Lamb and 21 yards to George Pickens that helped the Cowboys stretch their lead to 20-14 at halftime. Pickens’ catch was particularly impressive, as he escaped tight coverage by safety Andrew Mukuba in the back of the end zone and dragged his left foot sideways for the score. “Stuck to the run. Had great balance,” Prescott said. “When you’re able to do that, we should put ourselves in position like this. It was a great environment. We knew we had to win. We came out and got it done.” Eagles' defense offers little resistance The Eagles allowed 416 total yards with an average of 6.4 yards per play and 25 first downs. Philadelphia has allowed at least 375 yards in each game of its losing streak. Lurie is an Eagles Hall of Famer Eagles owner Jeffrey Lurie was inducted into the team's Hall of Fame. Lurie bought the Eagles on May 6, 1994, and since the turn of the century they have been one of the top franchises in football. The Eagles are one of three teams to play in four Super Bowls since 2004 and have won the only two titles in franchise history under Lurie's ownership. Lurie was flanked by Eagles Hall of Famers including Brian Dawkins and Donovan McNabb and gave a brief halftime speech. However, unlike other Hall of Fame inductees, Lurie did not hold a pregame news conference. Sirianni remained the only team representative addressing Hurts’ condition since he was injured. Injuries Eagles: Kick returner Britain Covey suffered a knee injury in the first quarter. Up next Cowboys: Host Arizona on Sunday. Eagles: At Washington in a Sunday night matchup of struggling NFC East rivals. ------ See AP’s full NFL coverage here",
+   "scoring_plays": [
+    "Brandon Aubrey 55 Yd Field Goal",
+    "Saquon Barkley 8 Yd Rush (Jake Elliott Kick)",
+    "CeeDee Lamb 9 Yd pass from Dak Prescott (Brandon Aubrey Kick)",
+    "Dameon Pierce 5 Yd Rush (Jake Elliott Kick)",
+    "George Pickens 21 Yd pass from Dak Prescott (Brandon Aubrey Kick)",
+    "Brandon Aubrey 27 Yd Field Goal",
+    "Makai Lemon 4 Yd pass from Tanner McKee (Jake Elliott Kick)",
+    "CeeDee Lamb 16 Yd pass from Dak Prescott (Dak Prescott Run for Two-Point Conversion)",
+    "Brandon Aubrey 24 Yd Field Goal",
+    "Javonte Williams 2 Yd Rush (Brandon Aubrey Kick)"
+   ],
+   "injury_report": [],
+   "final": "DAL 38, PHI 21"
+  }
+ ],
+ "transactions": [
+  {
+   "type": "free_agent",
+   "status": "complete",
+   "leg": 7,
+   "processed_utc": "2026-10-21 18:22",
+   "teams": [
+    "ThePeopleBeaters"
+   ],
+   "adds": [
+    {
+     "player": "J.J. McCarthy",
+     "pos": "QB",
+     "team": "ThePeopleBeaters"
+    }
+   ],
+   "drops": [
+    {
+     "player": "Jameis Winston",
+     "pos": "QB",
+     "team": "ThePeopleBeaters"
+    }
+   ],
+   "faab_bid": null,
+   "draft_picks": [],
+   "faab_moved": [],
+   "note": null
+  },
+  {
+   "type": "free_agent",
+   "status": "complete",
+   "leg": 7,
+   "processed_utc": "2026-10-21 23:34",
+   "teams": [
+    "ThePeopleBeaters"
+   ],
+   "adds": [
+    {
+     "player": "Pierre Strong Jr.",
+     "pos": "RB",
+     "team": "ThePeopleBeaters"
+    }
+   ],
+   "drops": [
+    {
+     "player": "MarShawn Lloyd",
+     "pos": "RB",
+     "team": "ThePeopleBeaters"
+    }
+   ],
+   "faab_bid": null,
+   "draft_picks": [],
+   "faab_moved": [],
+   "note": null
+  },
+  {
+   "type": "free_agent",
+   "status": "complete",
+   "leg": 7,
+   "processed_utc": "2026-10-21 23:40",
+   "teams": [
+    "ThePeopleBeaters"
+   ],
+   "adds": [
+    {
+     "player": "Ryan Flournoy",
+     "pos": "WR",
+     "team": "ThePeopleBeaters"
+    }
+   ],
+   "drops": [
+    {
+     "player": "Kayshon Boutte",
+     "pos": "WR",
+     "team": "ThePeopleBeaters"
+    }
+   ],
+   "faab_bid": null,
+   "draft_picks": [],
+   "faab_moved": [],
+   "note": null
+  },
+  {
+   "type": "free_agent",
+   "status": "complete",
+   "leg": 7,
+   "processed_utc": "2026-10-22 14:47",
+   "teams": [
+    "J’Allen Waffle Stompers"
+   ],
+   "adds": [
+    {
+     "player": "Zonovan Knight",
+     "pos": "RB",
+     "team": "J’Allen Waffle Stompers"
+    }
+   ],
+   "drops": [
+    {
+     "player": "Terry McLaurin",
+     "pos": "WR",
+     "team": "J’Allen Waffle Stompers"
+    }
+   ],
+   "faab_bid": null,
+   "draft_picks": [],
+   "faab_moved": [],
+   "note": null
+  },
+  {
+   "type": "free_agent",
+   "status": "complete",
+   "leg": 7,
+   "processed_utc": "2026-10-22 16:12",
+   "teams": [
+    "Skat’s BruteForce Theorem"
+   ],
+   "adds": [
+    {
+     "player": "Chris Bell",
+     "pos": "WR",
+     "team": "Skat’s BruteForce Theorem"
+    }
+   ],
+   "drops": [
+    {
+     "player": "Caleb Douglas",
+     "pos": "WR",
+     "team": "Skat’s BruteForce Theorem"
+    }
+   ],
+   "faab_bid": null,
+   "draft_picks": [],
+   "faab_moved": [],
+   "note": null
+  },
+  {
+   "type": "free_agent",
+   "status": "complete",
+   "leg": 7,
+   "processed_utc": "2026-10-22 18:08",
+   "teams": [
+    "ThePeopleBeaters"
+   ],
+   "adds": [
+    {
+     "player": "Keenan Allen",
+     "pos": "WR",
+     "team": "ThePeopleBeaters"
+    }
+   ],
+   "drops": [
+    {
+     "player": "Pierre Strong Jr.",
+     "pos": "RB",
+     "team": "ThePeopleBeaters"
+    }
+   ],
+   "faab_bid": null,
+   "draft_picks": [],
+   "faab_moved": [],
+   "note": null
+  },
+  {
+   "type": "free_agent",
+   "status": "complete",
+   "leg": 7,
+   "processed_utc": "2026-10-22 19:48",
+   "teams": [
+    "Unsportsmanlike Conduct"
+   ],
+   "adds": [
+    {
+     "player": "Jakobi Meyers",
+     "pos": "WR",
+     "team": "Unsportsmanlike Conduct"
+    }
+   ],
+   "drops": [
+    {
+     "player": "Michael Pittman Jr.",
+     "pos": "WR",
+     "team": "Unsportsmanlike Conduct"
+    }
+   ],
+   "faab_bid": null,
+   "draft_picks": [],
+   "faab_moved": [],
+   "note": null
+  },
+  {
+   "type": "free_agent",
+   "status": "complete",
+   "leg": 7,
+   "processed_utc": "2026-10-22 19:51",
+   "teams": [
+    "Unsportsmanlike Conduct"
+   ],
+   "adds": [
+    {
+     "player": "Malachi Fields",
+     "pos": "WR",
+     "team": "Unsportsmanlike Conduct"
+    }
+   ],
+   "drops": [
+    {
+     "player": "Kenny Gainwell",
+     "pos": "RB",
+     "team": "Unsportsmanlike Conduct"
+    }
+   ],
+   "faab_bid": null,
+   "draft_picks": [],
+   "faab_moved": [],
+   "note": null
+  },
+  {
+   "type": "free_agent",
+   "status": "complete",
+   "leg": 7,
+   "processed_utc": "2026-10-23 00:00",
+   "teams": [
+    "WELL! It's The Big Shough"
+   ],
+   "adds": [
+    {
+     "player": "Travis Hunter",
+     "pos": "DB",
+     "team": "WELL! It's The Big Shough"
+    }
+   ],
+   "drops": [
+    {
+     "player": "Samaje Perine",
+     "pos": "RB",
+     "team": "WELL! It's The Big Shough"
+    }
+   ],
+   "faab_bid": null,
+   "draft_picks": [],
+   "faab_moved": [],
+   "note": null
+  },
+  {
+   "type": "free_agent",
+   "status": "complete",
+   "leg": 7,
+   "processed_utc": "2026-10-25 02:40",
+   "teams": [
+    "Rams of Steel"
+   ],
+   "adds": [
+    {
+     "player": "Darius Cooper",
+     "pos": "WR",
+     "team": "Rams of Steel"
+    }
+   ],
+   "drops": [
+    {
+     "player": "Brian Robinson Jr.",
+     "pos": "RB",
+     "team": "Rams of Steel"
+    }
+   ],
+   "faab_bid": null,
+   "draft_picks": [],
+   "faab_moved": [],
+   "note": null
+  },
+  {
+   "type": "free_agent",
+   "status": "complete",
+   "leg": 7,
+   "processed_utc": "2026-10-25 12:20",
+   "teams": [
+    "Unsportsmanlike Conduct"
+   ],
+   "adds": [
+    {
+     "player": "Jaylin Noel",
+     "pos": "WR",
+     "team": "Unsportsmanlike Conduct"
+    }
+   ],
+   "drops": [
+    {
+     "player": "Rico Dowdle",
+     "pos": "RB",
+     "team": "Unsportsmanlike Conduct"
+    }
+   ],
+   "faab_bid": null,
+   "draft_picks": [],
+   "faab_moved": [],
+   "note": null
+  },
+  {
+   "type": "free_agent",
+   "status": "complete",
+   "leg": 7,
+   "processed_utc": "2026-10-25 12:23",
+   "teams": [
+    "Kingslayers"
+   ],
+   "adds": [],
+   "drops": [
+    {
+     "player": "Kalif Raymond",
+     "pos": "WR",
+     "team": "Kingslayers"
+    }
+   ],
+   "faab_bid": null,
+   "draft_picks": [],
+   "faab_moved": [],
+   "note": null
+  },
+  {
+   "type": "free_agent",
+   "status": "complete",
+   "leg": 7,
+   "processed_utc": "2026-10-28 02:42",
+   "teams": [
+    "WELL! It's The Big Shough"
+   ],
+   "adds": [],
+   "drops": [
+    {
+     "player": "Chris Boswell",
+     "pos": "K",
+     "team": "WELL! It's The Big Shough"
+    }
+   ],
+   "faab_bid": null,
+   "draft_picks": [],
+   "faab_moved": [],
+   "note": null
+  },
+  {
+   "type": "waiver",
+   "status": "failed",
+   "leg": 7,
+   "processed_utc": "2026-10-28 07:04",
+   "teams": [
+    "ThePeopleBeaters"
+   ],
+   "adds": [
+    {
+     "player": "Caleb Douglas",
+     "pos": "WR",
+     "team": "ThePeopleBeaters"
+    }
+   ],
+   "drops": [],
+   "faab_bid": 17,
+   "draft_picks": [],
+   "faab_moved": [],
+   "note": "This player was claimed by another owner."
+  },
+  {
+   "type": "waiver",
+   "status": "complete",
+   "leg": 7,
+   "processed_utc": "2026-10-28 07:04",
+   "teams": [
+    "Unsportsmanlike Conduct"
+   ],
+   "adds": [
+    {
+     "player": "CIN DEF",
+     "pos": "DEF",
+     "team": "Unsportsmanlike Conduct"
+    }
+   ],
+   "drops": [
+    {
+     "player": "HOU DEF",
+     "pos": "DEF",
+     "team": "Unsportsmanlike Conduct"
+    }
+   ],
+   "faab_bid": 5,
+   "draft_picks": [],
+   "faab_moved": [],
+   "note": "Your waiver claim was processed successfully!"
+  },
+  {
+   "type": "waiver",
+   "status": "failed",
+   "leg": 7,
+   "processed_utc": "2026-10-28 07:04",
+   "teams": [
+    "Unsportsmanlike Conduct"
+   ],
+   "adds": [
+    {
+     "player": "Tyler Bass",
+     "pos": "K",
+     "team": "Unsportsmanlike Conduct"
+    }
+   ],
+   "drops": [],
+   "faab_bid": 0,
+   "draft_picks": [],
+   "faab_moved": [],
+   "note": "This player was claimed by another owner."
+  },
+  {
+   "type": "waiver",
+   "status": "complete",
+   "leg": 7,
+   "processed_utc": "2026-10-28 07:04",
+   "teams": [
+    "Unsportsmanlike Conduct"
+   ],
+   "adds": [
+    {
+     "player": "Kendrick Bourne",
+     "pos": "WR",
+     "team": "Unsportsmanlike Conduct"
+    }
+   ],
+   "drops": [
+    {
+     "player": "Adonai Mitchell",
+     "pos": "WR",
+     "team": "Unsportsmanlike Conduct"
+    }
+   ],
+   "faab_bid": 11,
+   "draft_picks": [],
+   "faab_moved": [],
+   "note": "Your waiver claim was processed successfully!"
+  },
+  {
+   "type": "waiver",
+   "status": "failed",
+   "leg": 7,
+   "processed_utc": "2026-10-28 07:04",
+   "teams": [
+    "Unsportsmanlike Conduct"
+   ],
+   "adds": [
+    {
+     "player": "Rico Dowdle",
+     "pos": "RB",
+     "team": "Unsportsmanlike Conduct"
+    }
+   ],
+   "drops": [],
+   "faab_bid": 3,
+   "draft_picks": [],
+   "faab_moved": [],
+   "note": "This player was claimed by another owner."
+  },
+  {
+   "type": "waiver",
+   "status": "complete",
+   "leg": 7,
+   "processed_utc": "2026-10-28 07:04",
+   "teams": [
+    "Rams of Steel"
+   ],
+   "adds": [
+    {
+     "player": "Rico Dowdle",
+     "pos": "RB",
+     "team": "Rams of Steel"
+    }
+   ],
+   "drops": [
+    {
+     "player": "Tyrone Tracy Jr.",
+     "pos": "RB",
+     "team": "Rams of Steel"
+    }
+   ],
+   "faab_bid": 27,
+   "draft_picks": [],
+   "faab_moved": [],
+   "note": "Your waiver claim was processed successfully!"
+  },
+  {
+   "type": "waiver",
+   "status": "complete",
+   "leg": 7,
+   "processed_utc": "2026-10-28 07:04",
+   "teams": [
+    "Mendozareamazingpicks"
+   ],
+   "adds": [
+    {
+     "player": "Tyler Bass",
+     "pos": "K",
+     "team": "Mendozareamazingpicks"
+    }
+   ],
+   "drops": [
+    {
+     "player": "Spencer Shrader",
+     "pos": "K",
+     "team": "Mendozareamazingpicks"
+    }
+   ],
+   "faab_bid": 3,
+   "draft_picks": [],
+   "faab_moved": [],
+   "note": "Your waiver claim was processed successfully!"
+  },
+  {
+   "type": "waiver",
+   "status": "complete",
+   "leg": 7,
+   "processed_utc": "2026-10-28 07:04",
+   "teams": [
+    "WELL! It's The Big Shough"
+   ],
+   "adds": [
+    {
+     "player": "JAX DEF",
+     "pos": "DEF",
+     "team": "WELL! It's The Big Shough"
+    }
+   ],
+   "drops": [
+    {
+     "player": "CLE DEF",
+     "pos": "DEF",
+     "team": "WELL! It's The Big Shough"
+    }
+   ],
+   "faab_bid": 3,
+   "draft_picks": [],
+   "faab_moved": [],
+   "note": "Your waiver claim was processed successfully!"
+  },
+  {
+   "type": "waiver",
+   "status": "complete",
+   "leg": 7,
+   "processed_utc": "2026-10-28 07:04",
+   "teams": [
+    "WELL! It's The Big Shough"
+   ],
+   "adds": [
+    {
+     "player": "Caleb Douglas",
+     "pos": "WR",
+     "team": "WELL! It's The Big Shough"
+    }
+   ],
+   "drops": [],
+   "faab_bid": 51,
+   "draft_picks": [],
+   "faab_moved": [],
+   "note": "Your waiver claim was processed successfully!"
+  },
+  {
+   "type": "free_agent",
+   "status": "complete",
+   "leg": 8,
+   "processed_utc": "2026-10-28 10:25",
+   "teams": [
+    "Kingslayers"
+   ],
+   "adds": [
+    {
+     "player": "LAR DEF",
+     "pos": "DEF",
+     "team": "Kingslayers"
+    }
+   ],
+   "drops": [
+    {
+     "player": "IND DEF",
+     "pos": "DEF",
+     "team": "Kingslayers"
+    }
+   ],
+   "faab_bid": null,
+   "draft_picks": [],
+   "faab_moved": [],
+   "note": null
+  },
+  {
+   "type": "free_agent",
+   "status": "complete",
+   "leg": 8,
+   "processed_utc": "2026-10-28 11:49",
+   "teams": [
+    "Unsportsmanlike Conduct"
+   ],
+   "adds": [
+    {
+     "player": "Drew Stevens",
+     "pos": "K",
+     "team": "Unsportsmanlike Conduct"
+    }
+   ],
+   "drops": [
+    {
+     "player": "Ka'imi Fairbairn",
+     "pos": "K",
+     "team": "Unsportsmanlike Conduct"
+    }
+   ],
+   "faab_bid": null,
+   "draft_picks": [],
+   "faab_moved": [],
+   "note": null
+  }
+ ],
+ "next_week": {
+  "week": 8,
+  "fantasy_matchups": [
+   [
+    "Skat’s BruteForce Theorem",
+    "J’Allen Waffle Stompers"
+   ],
+   [
+    "ThePeopleBeaters",
+    "Kingslayers"
+   ],
+   [
+    "Dak Side of the Sun",
+    "Rams of Steel"
+   ],
+   [
+    "WELL! It's The Big Shough",
+    "hammball"
+   ],
+   [
+    "Mendozareamazingpicks",
+    "Micah parsons fan club"
+   ],
+   [
+    "Split Safety Syndicate",
+    "Unsportsmanlike Conduct"
+   ]
+  ],
+  "nfl_games": [
+   {
+    "away": "CAR",
+    "home": "GB",
+    "date_utc": "2026-10-30T00:15Z",
+    "venue": "Lambeau Field",
+    "notes": []
+   },
+   {
+    "away": "ARI",
+    "home": "DAL",
+    "date_utc": "2026-11-01T18:00Z",
+    "venue": "AT&T Stadium",
+    "notes": []
+   },
+   {
+    "away": "ATL",
+    "home": "TB",
+    "date_utc": "2026-11-01T18:00Z",
+    "venue": "Raymond James Stadium",
+    "notes": []
+   },
+   {
+    "away": "BAL",
+    "home": "BUF",
+    "date_utc": "2026-11-01T18:00Z",
+    "venue": "Highmark Stadium",
+    "notes": []
+   },
+   {
+    "away": "CLE",
+    "home": "PIT",
+    "date_utc": "2026-11-01T18:00Z",
+    "venue": "Acrisure Stadium",
+    "notes": []
+   },
+   {
+    "away": "IND",
+    "home": "JAX",
+    "date_utc": "2026-11-01T18:00Z",
+    "venue": "EverBank Stadium",
+    "notes": []
+   },
+   {
+    "away": "LV",
+    "home": "NYJ",
+    "date_utc": "2026-11-01T18:00Z",
+    "venue": "MetLife Stadium",
+    "notes": []
+   },
+   {
+    "away": "MIN",
+    "home": "DET",
+    "date_utc": "2026-11-01T18:00Z",
+    "venue": "Ford Field",
+    "notes": []
+   },
+   {
+    "away": "TEN",
+    "home": "CIN",
+    "date_utc": "2026-11-01T18:00Z",
+    "venue": "Paycor Stadium",
+    "notes": []
+   },
+   {
+    "away": "LAC",
+    "home": "LAR",
+    "date_utc": "2026-11-01T21:05Z",
+    "venue": "SoFi Stadium",
+    "notes": []
+   },
+   {
+    "away": "KC",
+    "home": "DEN",
+    "date_utc": "2026-11-01T21:25Z",
+    "venue": "Empower Field at Mile High",
+    "notes": []
+   },
+   {
+    "away": "NE",
+    "home": "MIA",
+    "date_utc": "2026-11-01T21:25Z",
+    "venue": "Hard Rock Stadium",
+    "notes": []
+   },
+   {
+    "away": "PHI",
+    "home": "WAS",
+    "date_utc": "2026-11-02T01:20Z",
+    "venue": "Northwest Stadium",
+    "notes": []
+   },
+   {
+    "away": "CHI",
+    "home": "SEA",
+    "date_utc": "2026-11-03T01:15Z",
+    "venue": "Lumen Field",
+    "notes": []
+   }
+  ],
+  "nfl_byes": [
+   "HOU",
+   "NO",
+   "NYG",
+   "SF"
+  ]
+ },
+ "injury_status_at_fetch": []
+}

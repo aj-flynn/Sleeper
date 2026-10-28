@@ -1,0 +1,232 @@
+{
+  "sources": [
+    {
+      "file": "sleeper_league.json",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024",
+      "retrieved_utc": "2026-10-28T14:35:49.352061+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "sleeper_rosters.json",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/rosters",
+      "retrieved_utc": "2026-10-28T14:35:49.354792+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "sleeper_matchups_w2.json",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/matchups/2",
+      "retrieved_utc": "2026-10-28T14:35:49.375956+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "sleeper_matchups_w1.json",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/matchups/1",
+      "retrieved_utc": "2026-10-28T14:35:49.382171+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "sleeper_users.json",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/users",
+      "retrieved_utc": "2026-10-28T14:35:49.382752+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "sleeper_matchups_w3.json",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/matchups/3",
+      "retrieved_utc": "2026-10-28T14:35:49.481619+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "sleeper_matchups_w4.json",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/matchups/4",
+      "retrieved_utc": "2026-10-28T14:35:49.497769+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "sleeper_matchups_w6.json",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/matchups/6",
+      "retrieved_utc": "2026-10-28T14:35:49.503464+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "sleeper_matchups_w7.json",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/matchups/7",
+      "retrieved_utc": "2026-10-28T14:35:49.504470+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "sleeper_matchups_w5.json",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/matchups/5",
+      "retrieved_utc": "2026-10-28T14:35:49.504805+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "sleeper_transactions_leg0.json",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/transactions/0",
+      "retrieved_utc": "2026-10-28T14:35:49.589827+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "sleeper_matchups_w8.json",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/matchups/8",
+      "retrieved_utc": "2026-10-28T14:35:49.610582+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "sleeper_transactions_leg2.json",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/transactions/2",
+      "retrieved_utc": "2026-10-28T14:35:49.611077+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "sleeper_transactions_leg3.json",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/transactions/3",
+      "retrieved_utc": "2026-10-28T14:35:49.616149+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "sleeper_transactions_leg1.json",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/transactions/1",
+      "retrieved_utc": "2026-10-28T14:35:49.617623+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "sleeper_transactions_leg4.json",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/transactions/4",
+      "retrieved_utc": "2026-10-28T14:35:49.698123+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "sleeper_transactions_leg8.json",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/transactions/8",
+      "retrieved_utc": "2026-10-28T14:35:49.705195+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "sleeper_transactions_leg5.json",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/transactions/5",
+      "retrieved_utc": "2026-10-28T14:35:49.710151+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "sleeper_transactions_leg7.json",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/transactions/7",
+      "retrieved_utc": "2026-10-28T14:35:49.715536+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "sleeper_transactions_leg6.json",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/transactions/6",
+      "retrieved_utc": "2026-10-28T14:35:49.737977+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "espn_scoreboard_w8.json",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=8",
+      "retrieved_utc": "2026-10-28T14:35:50.181587+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "sleeper_stats_w7.json",
+      "url": "https://api.sleeper.com/stats/nfl/2026/7?season_type=regular",
+      "retrieved_utc": "2026-10-28T14:35:50.689574+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "espn_scoreboard_w7.json",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=7",
+      "retrieved_utc": "2026-10-28T14:35:50.724387+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "sleeper_players_rostered.json",
+      "url": "https://api.sleeper.app/v1/players/nfl",
+      "retrieved_utc": "2026-10-28T14:35:51.847434+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "espn_summary_401873013.json",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873013",
+      "retrieved_utc": "2026-10-28T14:35:52.392514+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "espn_summary_401873010.json",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+      "retrieved_utc": "2026-10-28T14:35:52.413414+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "espn_summary_401873011.json",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873011",
+      "retrieved_utc": "2026-10-28T14:35:52.422395+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "espn_summary_401873017.json",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873017",
+      "retrieved_utc": "2026-10-28T14:35:52.422603+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "espn_summary_401873014.json",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873014",
+      "retrieved_utc": "2026-10-28T14:35:52.522790+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "espn_summary_401873018.json",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873018",
+      "retrieved_utc": "2026-10-28T14:35:52.829871+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "espn_summary_401873015.json",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873015",
+      "retrieved_utc": "2026-10-28T14:35:52.845654+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "espn_summary_401873016.json",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873016",
+      "retrieved_utc": "2026-10-28T14:35:52.874048+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "espn_summary_401873012.json",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873012",
+      "retrieved_utc": "2026-10-28T14:35:53.020567+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "espn_summary_401873019.json",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873019",
+      "retrieved_utc": "2026-10-28T14:35:53.045705+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "espn_summary_401873020.json",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873020",
+      "retrieved_utc": "2026-10-28T14:35:53.248119+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "espn_summary_401873022.json",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873022",
+      "retrieved_utc": "2026-10-28T14:35:53.297168+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "espn_summary_401873021.json",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873021",
+      "retrieved_utc": "2026-10-28T14:35:53.331809+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    },
+    {
+      "file": "espn_summary_401873009.json",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873009",
+      "retrieved_utc": "2026-10-28T14:35:53.429349+00:00",
+      "representation": "Selected public fields; original acquisition hash retained separately"
+    }
+  ]
+}

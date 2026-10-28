@@ -1,0 +1,3490 @@
+{
+  "tool": "get_usage_trends",
+  "arguments": {
+    "player_names": [
+      "Luther Burden III",
+      "KC Concepcion Jr.",
+      "Ashton Jeanty",
+      "Deshaun Watson",
+      "Joe Burrow",
+      "Amon-Ra St. Brown",
+      "Tee Higgins",
+      "Christian McCaffrey",
+      "Quinshon Judkins",
+      "Colston Loveland",
+      "Puka Nacua",
+      "Drake London",
+      "Zay Flowers",
+      "Trey McBride",
+      "Caleb Williams",
+      "Harold Fannin Jr.",
+      "CeeDee Lamb",
+      "Bucky Irving",
+      "Drake Maye",
+      "Jonathan Taylor",
+      "Jaxon Smith-Njigba",
+      "Rhamondre Stevenson",
+      "Jahmyr Gibbs",
+      "Ja'Marr Chase"
+    ],
+    "weeks": 2,
+    "season": 2026,
+    "through_week": 7
+  },
+  "fetched_at": "2026-10-28T14:40:02.431288+00:00",
+  "response": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": {
+      "content": [
+        {
+          "text": "{\"success\":true,\"error\":null,\"error_type\":null,\"season\":2026,\"window\":[6,7],\"week_inferred\":true,\"players\":[{\"player\":\"Quinshon Judkins\",\"sleeper_id\":null,\"position\":\"RB\",\"team\":\"CLE\",\"found_in_nflverse\":true,\"weeks\":[{\"week\":6,\"status\":\"did_not_play\"},{\"week\":7,\"status\":\"played\",\"team\":\"CLE\",\"opponent\":\"TEN\",\"targets\":1.0,\"target_share\":2.9,\"air_yards\":0.0,\"air_yards_share\":0.0,\"wopr\":0.043,\"racr\":0.0,\"carries\":17.0,\"carries_share\":58.6,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null}],\"trends\":{\"target_share\":{\"average\":2.9,\"latest\":2.9,\"change_over_window\":0.0,\"direction\":\"insufficient_data\",\"weeks\":1},\"air_yards_share\":{\"average\":0.0,\"latest\":0.0,\"change_over_window\":0.0,\"direction\":\"insufficient_data\",\"weeks\":1},\"wopr\":{\"average\":0.043,\"latest\":0.043,\"change_over_window\":0.0,\"direction\":\"insufficient_data\",\"weeks\":1},\"carries_share\":{\"average\":58.6,\"latest\":58.6,\"change_over_window\":0.0,\"direction\":\"insufficient_data\",\"weeks\":1}},\"flags\":[\"did not play week 6\"]},{\"player\":\"Luther Burden III\",\"sleeper_id\":null,\"position\":\"WR\",\"team\":\"CHI\",\"found_in_nflverse\":true,\"weeks\":[{\"week\":6,\"status\":\"played\",\"team\":\"CHI\",\"opponent\":\"ATL\",\"targets\":8.0,\"target_share\":24.2,\"air_yards\":46.0,\"air_yards_share\":32.6,\"wopr\":0.592,\"racr\":2.07,\"carries\":0.0,\"carries_share\":0.0,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null},{\"week\":7,\"status\":\"played\",\"team\":\"CHI\",\"opponent\":\"NE\",\"targets\":4.0,\"target_share\":13.3,\"air_yards\":38.0,\"air_yards_share\":13.2,\"wopr\":0.293,\"racr\":3.42,\"carries\":1.0,\"carries_share\":3.3,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null}],\"trends\":{\"target_share\":{\"average\":18.8,\"latest\":13.3,\"change_over_window\":-10.9,\"direction\":\"falling\",\"weeks\":2},\"air_yards_share\":{\"average\":22.9,\"latest\":13.2,\"change_over_window\":-19.4,\"direction\":\"falling\",\"weeks\":2},\"wopr\":{\"average\":0.443,\"latest\":0.293,\"change_over_window\":-0.299,\"direction\":\"falling\",\"weeks\":2},\"carries_share\":{\"average\":1.6,\"latest\":3.3,\"change_over_window\":3.3,\"direction\":\"stable\",\"weeks\":2}},\"flags\":[]},{\"player\":\"KC Concepcion\",\"sleeper_id\":null,\"position\":\"WR\",\"team\":\"CLE\",\"found_in_nflverse\":true,\"weeks\":[{\"week\":6,\"status\":\"played\",\"team\":\"CLE\",\"opponent\":\"BAL\",\"targets\":6.0,\"target_share\":24.0,\"air_yards\":55.0,\"air_yards_share\":26.3,\"wopr\":0.544,\"racr\":0.67,\"carries\":2.0,\"carries_share\":7.1,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null},{\"week\":7,\"status\":\"played\",\"team\":\"CLE\",\"opponent\":\"TEN\",\"targets\":10.0,\"target_share\":28.6,\"air_yards\":110.0,\"air_yards_share\":37.3,\"wopr\":0.69,\"racr\":1.17,\"carries\":3.0,\"carries_share\":10.3,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null}],\"trends\":{\"target_share\":{\"average\":26.3,\"latest\":28.6,\"change_over_window\":4.6,\"direction\":\"rising\",\"weeks\":2},\"air_yards_share\":{\"average\":31.8,\"latest\":37.3,\"change_over_window\":11.0,\"direction\":\"rising\",\"weeks\":2},\"wopr\":{\"average\":0.617,\"latest\":0.69,\"change_over_window\":0.146,\"direction\":\"rising\",\"weeks\":2},\"carries_share\":{\"average\":8.7,\"latest\":10.3,\"change_over_window\":3.2,\"direction\":\"stable\",\"weeks\":2}},\"flags\":[]},{\"player\":\"Ashton Jeanty\",\"sleeper_id\":null,\"position\":\"RB\",\"team\":\"LV\",\"found_in_nflverse\":true,\"weeks\":[{\"week\":6,\"status\":\"played\",\"team\":\"LV\",\"opponent\":\"BUF\",\"targets\":6.0,\"target_share\":15.4,\"air_yards\":19.0,\"air_yards_share\":5.4,\"wopr\":0.269,\"racr\":1.89,\"carries\":10.0,\"carries_share\":50.0,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null},{\"week\":7,\"status\":\"played\",\"team\":\"LV\",\"opponent\":\"LAR\",\"targets\":8.0,\"target_share\":18.6,\"air_yards\":28.0,\"air_yards_share\":8.5,\"wopr\":0.339,\"racr\":2.18,\"carries\":8.0,\"carries_share\":47.1,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null}],\"trends\":{\"target_share\":{\"average\":17.0,\"latest\":18.6,\"change_over_window\":3.2,\"direction\":\"rising\",\"weeks\":2},\"air_yards_share\":{\"average\":7.0,\"latest\":8.5,\"change_over_window\":3.1,\"direction\":\"stable\",\"weeks\":2},\"wopr\":{\"average\":0.304,\"latest\":0.339,\"change_over_window\":0.07,\"direction\":\"rising\",\"weeks\":2},\"carries_share\":{\"average\":48.5,\"latest\":47.1,\"change_over_window\":-2.9,\"direction\":\"stable\",\"weeks\":2}},\"flags\":[]},{\"player\":\"Deshaun Watson\",\"sleeper_id\":null,\"position\":\"QB\",\"team\":\"CLE\",\"found_in_nflverse\":true,\"weeks\":[{\"week\":6,\"status\":\"played\",\"team\":\"CLE\",\"opponent\":\"BAL\",\"targets\":0.0,\"target_share\":0.0,\"air_yards\":0.0,\"air_yards_share\":0.0,\"wopr\":0.0,\"racr\":null,\"carries\":8.0,\"carries_share\":28.6,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null},{\"week\":7,\"status\":\"played\",\"team\":\"CLE\",\"opponent\":\"TEN\",\"targets\":0.0,\"target_share\":0.0,\"air_yards\":0.0,\"air_yards_share\":0.0,\"wopr\":0.0,\"racr\":null,\"carries\":3.0,\"carries_share\":10.3,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null}],\"trends\":{\"carries_share\":{\"average\":19.5,\"latest\":10.3,\"change_over_window\":-18.3,\"direction\":\"falling\",\"weeks\":2}},\"flags\":[]},{\"player\":\"Joe Burrow\",\"sleeper_id\":null,\"position\":\"QB\",\"team\":\"CIN\",\"found_in_nflverse\":true,\"weeks\":[{\"week\":6,\"status\":\"bye\"},{\"week\":7,\"status\":\"played\",\"team\":\"CIN\",\"opponent\":\"BAL\",\"targets\":0.0,\"target_share\":0.0,\"air_yards\":0.0,\"air_yards_share\":0.0,\"wopr\":0.0,\"racr\":null,\"carries\":2.0,\"carries_share\":10.0,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null}],\"trends\":{\"carries_share\":{\"average\":10.0,\"latest\":10.0,\"change_over_window\":0.0,\"direction\":\"insufficient_data\",\"weeks\":1}},\"flags\":[]},{\"player\":\"Amon-Ra St. Brown\",\"sleeper_id\":null,\"position\":\"WR\",\"team\":\"DET\",\"found_in_nflverse\":true,\"weeks\":[{\"week\":6,\"status\":\"bye\"},{\"week\":7,\"status\":\"played\",\"team\":\"DET\",\"opponent\":\"GB\",\"targets\":11.0,\"target_share\":35.5,\"air_yards\":139.0,\"air_yards_share\":54.3,\"wopr\":0.912,\"racr\":1.1,\"carries\":1.0,\"carries_share\":3.0,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null}],\"trends\":{\"target_share\":{\"average\":35.5,\"latest\":35.5,\"change_over_window\":0.0,\"direction\":\"insufficient_data\",\"weeks\":1},\"air_yards_share\":{\"average\":54.3,\"latest\":54.3,\"change_over_window\":0.0,\"direction\":\"insufficient_data\",\"weeks\":1},\"wopr\":{\"average\":0.912,\"latest\":0.912,\"change_over_window\":0.0,\"direction\":\"insufficient_data\",\"weeks\":1},\"carries_share\":{\"average\":3.0,\"latest\":3.0,\"change_over_window\":0.0,\"direction\":\"insufficient_data\",\"weeks\":1}},\"flags\":[]},{\"player\":\"Tee Higgins\",\"sleeper_id\":null,\"position\":\"WR\",\"team\":\"CIN\",\"found_in_nflverse\":true,\"weeks\":[{\"week\":6,\"status\":\"bye\"},{\"week\":7,\"status\":\"played\",\"team\":\"CIN\",\"opponent\":\"BAL\",\"targets\":7.0,\"target_share\":25.0,\"air_yards\":137.0,\"air_yards_share\":58.8,\"wopr\":0.787,\"racr\":1.08,\"carries\":0.0,\"carries_share\":0.0,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null}],\"trends\":{\"target_share\":{\"average\":25.0,\"latest\":25.0,\"change_over_window\":0.0,\"direction\":\"insufficient_data\",\"weeks\":1},\"air_yards_share\":{\"average\":58.8,\"latest\":58.8,\"change_over_window\":0.0,\"direction\":\"insufficient_data\",\"weeks\":1},\"wopr\":{\"average\":0.787,\"latest\":0.787,\"change_over_window\":0.0,\"direction\":\"insufficient_data\",\"weeks\":1},\"carries_share\":{\"average\":0.0,\"latest\":0.0,\"change_over_window\":0.0,\"direction\":\"insufficient_data\",\"weeks\":1}},\"flags\":[]},{\"player\":\"Christian McCaffrey\",\"sleeper_id\":null,\"position\":\"RB\",\"team\":\"SF\",\"found_in_nflverse\":true,\"weeks\":[{\"week\":6,\"status\":\"played\",\"team\":\"SF\",\"opponent\":\"WSH\",\"targets\":10.0,\"target_share\":34.5,\"air_yards\":17.0,\"air_yards_share\":6.8,\"wopr\":0.565,\"racr\":3.12,\"carries\":16.0,\"carries_share\":55.2,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null},{\"week\":7,\"status\":\"played\",\"team\":\"SF\",\"opponent\":\"ATL\",\"targets\":7.0,\"target_share\":17.9,\"air_yards\":39.0,\"air_yards_share\":12.9,\"wopr\":0.36,\"racr\":1.56,\"carries\":7.0,\"carries_share\":30.4,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null}],\"trends\":{\"target_share\":{\"average\":26.2,\"latest\":17.9,\"change_over_window\":-16.6,\"direction\":\"falling\",\"weeks\":2},\"air_yards_share\":{\"average\":9.8,\"latest\":12.9,\"change_over_window\":6.1,\"direction\":\"rising\",\"weeks\":2},\"wopr\":{\"average\":0.462,\"latest\":0.36,\"change_over_window\":-0.205,\"direction\":\"falling\",\"weeks\":2},\"carries_share\":{\"average\":42.8,\"latest\":30.4,\"change_over_window\":-24.8,\"direction\":\"falling\",\"weeks\":2}},\"flags\":[]},{\"player\":\"Colston Loveland\",\"sleeper_id\":null,\"position\":\"TE\",\"team\":\"CHI\",\"found_in_nflverse\":true,\"weeks\":[{\"week\":6,\"status\":\"played\",\"team\":\"CHI\",\"opponent\":\"ATL\",\"targets\":7.0,\"target_share\":21.2,\"air_yards\":33.0,\"air_yards_share\":23.4,\"wopr\":0.482,\"racr\":1.97,\"carries\":0.0,\"carries_share\":0.0,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null},{\"week\":7,\"status\":\"played\",\"team\":\"CHI\",\"opponent\":\"NE\",\"targets\":12.0,\"target_share\":40.0,\"air_yards\":112.0,\"air_yards_share\":39.0,\"wopr\":0.873,\"racr\":0.62,\"carries\":0.0,\"carries_share\":0.0,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null}],\"trends\":{\"target_share\":{\"average\":30.6,\"latest\":40.0,\"change_over_window\":18.8,\"direction\":\"rising\",\"weeks\":2},\"air_yards_share\":{\"average\":31.2,\"latest\":39.0,\"change_over_window\":15.6,\"direction\":\"rising\",\"weeks\":2},\"wopr\":{\"average\":0.677,\"latest\":0.873,\"change_over_window\":0.391,\"direction\":\"rising\",\"weeks\":2},\"carries_share\":{\"average\":0.0,\"latest\":0.0,\"change_over_window\":0.0,\"direction\":\"stable\",\"weeks\":2}},\"flags\":[]},{\"player\":\"Puka Nacua\",\"sleeper_id\":null,\"position\":\"WR\",\"team\":\"LAR\",\"found_in_nflverse\":true,\"weeks\":[{\"week\":6,\"status\":\"played\",\"team\":\"LAR\",\"opponent\":\"ARI\",\"targets\":7.0,\"target_share\":21.9,\"air_yards\":60.0,\"air_yards_share\":38.2,\"wopr\":0.596,\"racr\":1.33,\"carries\":0.0,\"carries_share\":0.0,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null},{\"week\":7,\"status\":\"played\",\"team\":\"LAR\",\"opponent\":\"LV\",\"targets\":10.0,\"target_share\":34.5,\"air_yards\":57.0,\"air_yards_share\":34.8,\"wopr\":0.761,\"racr\":1.19,\"carries\":2.0,\"carries_share\":5.3,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null}],\"trends\":{\"target_share\":{\"average\":28.2,\"latest\":34.5,\"change_over_window\":12.6,\"direction\":\"rising\",\"weeks\":2},\"air_yards_share\":{\"average\":36.5,\"latest\":34.8,\"change_over_window\":-3.4,\"direction\":\"stable\",\"weeks\":2},\"wopr\":{\"average\":0.678,\"latest\":0.761,\"change_over_window\":0.165,\"direction\":\"rising\",\"weeks\":2},\"carries_share\":{\"average\":2.6,\"latest\":5.3,\"change_over_window\":5.3,\"direction\":\"rising\",\"weeks\":2}},\"flags\":[]},{\"player\":\"Drake London\",\"sleeper_id\":null,\"position\":\"WR\",\"team\":\"ATL\",\"found_in_nflverse\":true,\"weeks\":[{\"week\":6,\"status\":\"played\",\"team\":\"ATL\",\"opponent\":\"CHI\",\"targets\":10.0,\"target_share\":30.3,\"air_yards\":143.0,\"air_yards_share\":44.0,\"wopr\":0.763,\"racr\":0.43,\"carries\":0.0,\"carries_share\":0.0,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null},{\"week\":7,\"status\":\"played\",\"team\":\"ATL\",\"opponent\":\"SF\",\"targets\":10.0,\"target_share\":31.2,\"air_yards\":86.0,\"air_yards_share\":42.6,\"wopr\":0.767,\"racr\":0.77,\"carries\":0.0,\"carries_share\":0.0,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null}],\"trends\":{\"target_share\":{\"average\":30.8,\"latest\":31.2,\"change_over_window\":0.9,\"direction\":\"stable\",\"weeks\":2},\"air_yards_share\":{\"average\":43.3,\"latest\":42.6,\"change_over_window\":-1.4,\"direction\":\"stable\",\"weeks\":2},\"wopr\":{\"average\":0.765,\"latest\":0.767,\"change_over_window\":0.004,\"direction\":\"stable\",\"weeks\":2},\"carries_share\":{\"average\":0.0,\"latest\":0.0,\"change_over_window\":0.0,\"direction\":\"stable\",\"weeks\":2}},\"flags\":[]},{\"player\":\"Zay Flowers\",\"sleeper_id\":null,\"position\":\"WR\",\"team\":\"BAL\",\"found_in_nflverse\":true,\"weeks\":[{\"week\":6,\"status\":\"played\",\"team\":\"BAL\",\"opponent\":\"CLE\",\"targets\":11.0,\"target_share\":35.5,\"air_yards\":106.0,\"air_yards_share\":38.8,\"wopr\":0.804,\"racr\":0.62,\"carries\":1.0,\"carries_share\":4.3,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null},{\"week\":7,\"status\":\"played\",\"team\":\"BAL\",\"opponent\":\"CIN\",\"targets\":11.0,\"target_share\":32.4,\"air_yards\":62.0,\"air_yards_share\":25.9,\"wopr\":0.667,\"racr\":2.21,\"carries\":0.0,\"carries_share\":0.0,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null}],\"trends\":{\"target_share\":{\"average\":34.0,\"latest\":32.4,\"change_over_window\":-3.1,\"direction\":\"falling\",\"weeks\":2},\"air_yards_share\":{\"average\":32.3,\"latest\":25.9,\"change_over_window\":-12.9,\"direction\":\"falling\",\"weeks\":2},\"wopr\":{\"average\":0.736,\"latest\":0.667,\"change_over_window\":-0.137,\"direction\":\"falling\",\"weeks\":2},\"carries_share\":{\"average\":2.1,\"latest\":0.0,\"change_over_window\":-4.3,\"direction\":\"stable\",\"weeks\":2}},\"flags\":[]},{\"player\":\"Trey McBride\",\"sleeper_id\":null,\"position\":\"TE\",\"team\":\"ARI\",\"found_in_nflverse\":true,\"weeks\":[{\"week\":6,\"status\":\"played\",\"team\":\"ARI\",\"opponent\":\"LAR\",\"targets\":9.0,\"target_share\":26.5,\"air_yards\":28.0,\"air_yards_share\":15.1,\"wopr\":0.502,\"racr\":1.89,\"carries\":0.0,\"carries_share\":0.0,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null},{\"week\":7,\"status\":\"played\",\"team\":\"ARI\",\"opponent\":\"DEN\",\"targets\":13.0,\"target_share\":29.5,\"air_yards\":106.0,\"air_yards_share\":34.0,\"wopr\":0.681,\"racr\":1.05,\"carries\":0.0,\"carries_share\":0.0,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null}],\"trends\":{\"target_share\":{\"average\":28.0,\"latest\":29.5,\"change_over_window\":3.0,\"direction\":\"rising\",\"weeks\":2},\"air_yards_share\":{\"average\":24.6,\"latest\":34.0,\"change_over_window\":18.9,\"direction\":\"rising\",\"weeks\":2},\"wopr\":{\"average\":0.592,\"latest\":0.681,\"change_over_window\":0.179,\"direction\":\"rising\",\"weeks\":2},\"carries_share\":{\"average\":0.0,\"latest\":0.0,\"change_over_window\":0.0,\"direction\":\"stable\",\"weeks\":2}},\"flags\":[]},{\"player\":\"Caleb Williams\",\"sleeper_id\":null,\"position\":\"QB\",\"team\":\"CHI\",\"found_in_nflverse\":true,\"weeks\":[{\"week\":6,\"status\":\"played\",\"team\":\"CHI\",\"opponent\":\"ATL\",\"targets\":0.0,\"target_share\":0.0,\"air_yards\":0.0,\"air_yards_share\":0.0,\"wopr\":0.0,\"racr\":null,\"carries\":4.0,\"carries_share\":12.1,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null},{\"week\":7,\"status\":\"played\",\"team\":\"CHI\",\"opponent\":\"NE\",\"targets\":0.0,\"target_share\":0.0,\"air_yards\":0.0,\"air_yards_share\":0.0,\"wopr\":0.0,\"racr\":null,\"carries\":5.0,\"carries_share\":16.7,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null}],\"trends\":{\"carries_share\":{\"average\":14.4,\"latest\":16.7,\"change_over_window\":4.6,\"direction\":\"stable\",\"weeks\":2}},\"flags\":[]},{\"player\":\"Harold Fannin Jr.\",\"sleeper_id\":null,\"position\":\"TE\",\"team\":\"CLE\",\"found_in_nflverse\":true,\"weeks\":[{\"week\":6,\"status\":\"played\",\"team\":\"CLE\",\"opponent\":\"BAL\",\"targets\":3.0,\"target_share\":12.0,\"air_yards\":10.0,\"air_yards_share\":4.8,\"wopr\":0.213,\"racr\":0.9,\"carries\":0.0,\"carries_share\":0.0,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null},{\"week\":7,\"status\":\"played\",\"team\":\"CLE\",\"opponent\":\"TEN\",\"targets\":9.0,\"target_share\":25.7,\"air_yards\":38.0,\"air_yards_share\":12.9,\"wopr\":0.476,\"racr\":2.39,\"carries\":0.0,\"carries_share\":0.0,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null}],\"trends\":{\"target_share\":{\"average\":18.9,\"latest\":25.7,\"change_over_window\":13.7,\"direction\":\"rising\",\"weeks\":2},\"air_yards_share\":{\"average\":8.8,\"latest\":12.9,\"change_over_window\":8.1,\"direction\":\"rising\",\"weeks\":2},\"wopr\":{\"average\":0.344,\"latest\":0.476,\"change_over_window\":0.263,\"direction\":\"rising\",\"weeks\":2},\"carries_share\":{\"average\":0.0,\"latest\":0.0,\"change_over_window\":0.0,\"direction\":\"stable\",\"weeks\":2}},\"flags\":[]},{\"player\":\"CeeDee Lamb\",\"sleeper_id\":null,\"position\":\"WR\",\"team\":\"DAL\",\"found_in_nflverse\":true,\"weeks\":[{\"week\":6,\"status\":\"played\",\"team\":\"DAL\",\"opponent\":\"GB\",\"targets\":18.0,\"target_share\":33.3,\"air_yards\":153.0,\"air_yards_share\":41.0,\"wopr\":0.787,\"racr\":0.46,\"carries\":0.0,\"carries_share\":0.0,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null},{\"week\":7,\"status\":\"played\",\"team\":\"DAL\",\"opponent\":\"PHI\",\"targets\":12.0,\"target_share\":46.2,\"air_yards\":176.0,\"air_yards_share\":50.3,\"wopr\":1.044,\"racr\":0.42,\"carries\":0.0,\"carries_share\":0.0,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null}],\"trends\":{\"target_share\":{\"average\":39.8,\"latest\":46.2,\"change_over_window\":12.9,\"direction\":\"rising\",\"weeks\":2},\"air_yards_share\":{\"average\":45.6,\"latest\":50.3,\"change_over_window\":9.3,\"direction\":\"rising\",\"weeks\":2},\"wopr\":{\"average\":0.915,\"latest\":1.044,\"change_over_window\":0.257,\"direction\":\"rising\",\"weeks\":2},\"carries_share\":{\"average\":0.0,\"latest\":0.0,\"change_over_window\":0.0,\"direction\":\"stable\",\"weeks\":2}},\"flags\":[]},{\"player\":\"Bucky Irving\",\"sleeper_id\":null,\"position\":\"RB\",\"team\":\"TB\",\"found_in_nflverse\":true,\"weeks\":[{\"week\":6,\"status\":\"played\",\"team\":\"TB\",\"opponent\":\"PIT\",\"targets\":3.0,\"target_share\":7.3,\"air_yards\":-9.0,\"air_yards_share\":-3.3,\"wopr\":0.087,\"racr\":-0.33,\"carries\":19.0,\"carries_share\":76.0,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null},{\"week\":7,\"status\":\"played\",\"team\":\"TB\",\"opponent\":\"CAR\",\"targets\":2.0,\"target_share\":18.2,\"air_yards\":-6.0,\"air_yards_share\":-20.7,\"wopr\":0.128,\"racr\":-0.67,\"carries\":24.0,\"carries_share\":49.0,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null}],\"trends\":{\"target_share\":{\"average\":12.8,\"latest\":18.2,\"change_over_window\":10.9,\"direction\":\"rising\",\"weeks\":2},\"air_yards_share\":{\"average\":-12.0,\"latest\":-20.7,\"change_over_window\":-17.4,\"direction\":\"falling\",\"weeks\":2},\"wopr\":{\"average\":0.107,\"latest\":0.128,\"change_over_window\":0.041,\"direction\":\"stable\",\"weeks\":2},\"carries_share\":{\"average\":62.5,\"latest\":49.0,\"change_over_window\":-27.0,\"direction\":\"falling\",\"weeks\":2}},\"flags\":[]},{\"player\":\"Drake Maye\",\"sleeper_id\":null,\"position\":\"QB\",\"team\":\"NE\",\"found_in_nflverse\":true,\"weeks\":[{\"week\":6,\"status\":\"played\",\"team\":\"NE\",\"opponent\":\"NYJ\",\"targets\":0.0,\"target_share\":0.0,\"air_yards\":0.0,\"air_yards_share\":0.0,\"wopr\":0.0,\"racr\":null,\"carries\":4.0,\"carries_share\":11.1,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null},{\"week\":7,\"status\":\"played\",\"team\":\"NE\",\"opponent\":\"CHI\",\"targets\":0.0,\"target_share\":0.0,\"air_yards\":0.0,\"air_yards_share\":0.0,\"wopr\":0.0,\"racr\":null,\"carries\":4.0,\"carries_share\":23.5,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null}],\"trends\":{\"carries_share\":{\"average\":17.3,\"latest\":23.5,\"change_over_window\":12.4,\"direction\":\"rising\",\"weeks\":2}},\"flags\":[]},{\"player\":\"Jonathan Taylor\",\"sleeper_id\":null,\"position\":\"RB\",\"team\":\"IND\",\"found_in_nflverse\":true,\"weeks\":[{\"week\":6,\"status\":\"played\",\"team\":\"IND\",\"opponent\":\"TEN\",\"targets\":4.0,\"target_share\":10.5,\"air_yards\":-1.0,\"air_yards_share\":-0.2,\"wopr\":0.156,\"racr\":-57.0,\"carries\":21.0,\"carries_share\":70.0,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null},{\"week\":7,\"status\":\"played\",\"team\":\"IND\",\"opponent\":\"MIN\",\"targets\":3.0,\"target_share\":14.3,\"air_yards\":-8.0,\"air_yards_share\":-7.0,\"wopr\":0.166,\"racr\":-1.88,\"carries\":18.0,\"carries_share\":54.5,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null}],\"trends\":{\"target_share\":{\"average\":12.4,\"latest\":14.3,\"change_over_window\":3.8,\"direction\":\"rising\",\"weeks\":2},\"air_yards_share\":{\"average\":-3.6,\"latest\":-7.0,\"change_over_window\":-6.8,\"direction\":\"falling\",\"weeks\":2},\"wopr\":{\"average\":0.161,\"latest\":0.166,\"change_over_window\":0.01,\"direction\":\"stable\",\"weeks\":2},\"carries_share\":{\"average\":62.2,\"latest\":54.5,\"change_over_window\":-15.5,\"direction\":\"falling\",\"weeks\":2}},\"flags\":[]},{\"player\":\"Jaxon Smith-Njigba\",\"sleeper_id\":null,\"position\":\"WR\",\"team\":\"SEA\",\"found_in_nflverse\":true,\"weeks\":[{\"week\":6,\"status\":\"played\",\"team\":\"SEA\",\"opponent\":\"DEN\",\"targets\":16.0,\"target_share\":34.8,\"air_yards\":183.0,\"air_yards_share\":43.2,\"wopr\":0.824,\"racr\":0.73,\"carries\":0.0,\"carries_share\":0.0,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null},{\"week\":7,\"status\":\"played\",\"team\":\"SEA\",\"opponent\":\"KC\",\"targets\":12.0,\"target_share\":44.4,\"air_yards\":117.0,\"air_yards_share\":79.1,\"wopr\":1.22,\"racr\":1.28,\"carries\":2.0,\"carries_share\":4.9,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null}],\"trends\":{\"target_share\":{\"average\":39.6,\"latest\":44.4,\"change_over_window\":9.6,\"direction\":\"rising\",\"weeks\":2},\"air_yards_share\":{\"average\":61.1,\"latest\":79.1,\"change_over_window\":35.9,\"direction\":\"rising\",\"weeks\":2},\"wopr\":{\"average\":1.022,\"latest\":1.22,\"change_over_window\":0.396,\"direction\":\"rising\",\"weeks\":2},\"carries_share\":{\"average\":2.5,\"latest\":4.9,\"change_over_window\":4.9,\"direction\":\"stable\",\"weeks\":2}},\"flags\":[]},{\"player\":\"Rhamondre Stevenson\",\"sleeper_id\":null,\"position\":\"RB\",\"team\":\"NE\",\"found_in_nflverse\":true,\"weeks\":[{\"week\":6,\"status\":\"played\",\"team\":\"NE\",\"opponent\":\"NYJ\",\"targets\":0.0,\"target_share\":0.0,\"air_yards\":0.0,\"air_yards_share\":0.0,\"wopr\":0.0,\"racr\":null,\"carries\":14.0,\"carries_share\":38.9,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null},{\"week\":7,\"status\":\"played\",\"team\":\"NE\",\"opponent\":\"CHI\",\"targets\":5.0,\"target_share\":16.7,\"air_yards\":27.0,\"air_yards_share\":9.6,\"wopr\":0.318,\"racr\":3.44,\"carries\":6.0,\"carries_share\":35.3,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null}],\"trends\":{\"target_share\":{\"average\":8.3,\"latest\":16.7,\"change_over_window\":16.7,\"direction\":\"rising\",\"weeks\":2},\"air_yards_share\":{\"average\":4.8,\"latest\":9.6,\"change_over_window\":9.6,\"direction\":\"rising\",\"weeks\":2},\"wopr\":{\"average\":0.159,\"latest\":0.318,\"change_over_window\":0.318,\"direction\":\"rising\",\"weeks\":2},\"carries_share\":{\"average\":37.1,\"latest\":35.3,\"change_over_window\":-3.6,\"direction\":\"stable\",\"weeks\":2}},\"flags\":[]},{\"player\":\"Jahmyr Gibbs\",\"sleeper_id\":null,\"position\":\"RB\",\"team\":\"DET\",\"found_in_nflverse\":true,\"weeks\":[{\"week\":6,\"status\":\"bye\"},{\"week\":7,\"status\":\"played\",\"team\":\"DET\",\"opponent\":\"GB\",\"targets\":6.0,\"target_share\":19.4,\"air_yards\":-12.0,\"air_yards_share\":-4.7,\"wopr\":0.258,\"racr\":-2.25,\"carries\":29.0,\"carries_share\":87.9,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null}],\"trends\":{\"target_share\":{\"average\":19.4,\"latest\":19.4,\"change_over_window\":0.0,\"direction\":\"insufficient_data\",\"weeks\":1},\"air_yards_share\":{\"average\":-4.7,\"latest\":-4.7,\"change_over_window\":0.0,\"direction\":\"insufficient_data\",\"weeks\":1},\"wopr\":{\"average\":0.258,\"latest\":0.258,\"change_over_window\":0.0,\"direction\":\"insufficient_data\",\"weeks\":1},\"carries_share\":{\"average\":87.9,\"latest\":87.9,\"change_over_window\":0.0,\"direction\":\"insufficient_data\",\"weeks\":1}},\"flags\":[]},{\"player\":\"Ja'Marr Chase\",\"sleeper_id\":null,\"position\":\"WR\",\"team\":\"CIN\",\"found_in_nflverse\":true,\"weeks\":[{\"week\":6,\"status\":\"bye\"},{\"week\":7,\"status\":\"played\",\"team\":\"CIN\",\"opponent\":\"BAL\",\"targets\":7.0,\"target_share\":25.0,\"air_yards\":67.0,\"air_yards_share\":28.8,\"wopr\":0.576,\"racr\":0.93,\"carries\":0.0,\"carries_share\":0.0,\"snap_share\":null,\"rz_targets\":null,\"rz_carries\":null,\"rz_opportunities\":null,\"rz_pass_attempts\":null}],\"trends\":{\"target_share\":{\"average\":25.0,\"latest\":25.0,\"change_over_window\":0.0,\"direction\":\"insufficient_data\",\"weeks\":1},\"air_yards_share\":{\"average\":28.8,\"latest\":28.8,\"change_over_window\":0.0,\"direction\":\"insufficient_data\",\"weeks\":1},\"wopr\":{\"average\":0.576,\"latest\":0.576,\"change_over_window\":0.0,\"direction\":\"insufficient_data\",\"weeks\":1},\"carries_share\":{\"average\":0.0,\"latest\":0.0,\"change_over_window\":0.0,\"direction\":\"insufficient_data\",\"weeks\":1}},\"flags\":[]}],\"count\":24,\"sources\":{\"shares\":\"nflverse weekly player stats (target_share, air_yards_share, wopr, racr; carries share = carries / team carries)\",\"snaps_and_red_zone\":\"Sleeper weekly stats (off_snp / tm_off_snp; rec_rz_tgt + rush_rz_att) — counted, not estimated\"},\"trend_method\":\"least-squares change across the played weeks of the window; rising/falling past target share 3, air-yards share 5, WOPR 0.05, snap share 5, carries share 5, red-zone opportunities 1\",\"notes\":[],\"message\":\"Usage trends for 24 player(s), weeks 6-7 of 2026.\"}",
+          "type": "text"
+        }
+      ],
+      "isError": false,
+      "structuredContent": {
+        "success": true,
+        "error": null,
+        "error_type": null,
+        "season": 2026,
+        "window": [
+          6,
+          7
+        ],
+        "week_inferred": true,
+        "players": [
+          {
+            "player": "Quinshon Judkins",
+            "sleeper_id": null,
+            "position": "RB",
+            "team": "CLE",
+            "found_in_nflverse": true,
+            "weeks": [
+              {
+                "week": 6,
+                "status": "did_not_play"
+              },
+              {
+                "week": 7,
+                "status": "played",
+                "team": "CLE",
+                "opponent": "TEN",
+                "targets": 1.0,
+                "target_share": 2.9,
+                "air_yards": 0.0,
+                "air_yards_share": 0.0,
+                "wopr": 0.043,
+                "racr": 0.0,
+                "carries": 17.0,
+                "carries_share": 58.6,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              }
+            ],
+            "trends": {
+              "target_share": {
+                "average": 2.9,
+                "latest": 2.9,
+                "change_over_window": 0.0,
+                "direction": "insufficient_data",
+                "weeks": 1
+              },
+              "air_yards_share": {
+                "average": 0.0,
+                "latest": 0.0,
+                "change_over_window": 0.0,
+                "direction": "insufficient_data",
+                "weeks": 1
+              },
+              "wopr": {
+                "average": 0.043,
+                "latest": 0.043,
+                "change_over_window": 0.0,
+                "direction": "insufficient_data",
+                "weeks": 1
+              },
+              "carries_share": {
+                "average": 58.6,
+                "latest": 58.6,
+                "change_over_window": 0.0,
+                "direction": "insufficient_data",
+                "weeks": 1
+              }
+            },
+            "flags": [
+              "did not play week 6"
+            ]
+          },
+          {
+            "player": "Luther Burden III",
+            "sleeper_id": null,
+            "position": "WR",
+            "team": "CHI",
+            "found_in_nflverse": true,
+            "weeks": [
+              {
+                "week": 6,
+                "status": "played",
+                "team": "CHI",
+                "opponent": "ATL",
+                "targets": 8.0,
+                "target_share": 24.2,
+                "air_yards": 46.0,
+                "air_yards_share": 32.6,
+                "wopr": 0.592,
+                "racr": 2.07,
+                "carries": 0.0,
+                "carries_share": 0.0,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              },
+              {
+                "week": 7,
+                "status": "played",
+                "team": "CHI",
+                "opponent": "NE",
+                "targets": 4.0,
+                "target_share": 13.3,
+                "air_yards": 38.0,
+                "air_yards_share": 13.2,
+                "wopr": 0.293,
+                "racr": 3.42,
+                "carries": 1.0,
+                "carries_share": 3.3,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              }
+            ],
+            "trends": {
+              "target_share": {
+                "average": 18.8,
+                "latest": 13.3,
+                "change_over_window": -10.9,
+                "direction": "falling",
+                "weeks": 2
+              },
+              "air_yards_share": {
+                "average": 22.9,
+                "latest": 13.2,
+                "change_over_window": -19.4,
+                "direction": "falling",
+                "weeks": 2
+              },
+              "wopr": {
+                "average": 0.443,
+                "latest": 0.293,
+                "change_over_window": -0.299,
+                "direction": "falling",
+                "weeks": 2
+              },
+              "carries_share": {
+                "average": 1.6,
+                "latest": 3.3,
+                "change_over_window": 3.3,
+                "direction": "stable",
+                "weeks": 2
+              }
+            },
+            "flags": []
+          },
+          {
+            "player": "KC Concepcion",
+            "sleeper_id": null,
+            "position": "WR",
+            "team": "CLE",
+            "found_in_nflverse": true,
+            "weeks": [
+              {
+                "week": 6,
+                "status": "played",
+                "team": "CLE",
+                "opponent": "BAL",
+                "targets": 6.0,
+                "target_share": 24.0,
+                "air_yards": 55.0,
+                "air_yards_share": 26.3,
+                "wopr": 0.544,
+                "racr": 0.67,
+                "carries": 2.0,
+                "carries_share": 7.1,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              },
+              {
+                "week": 7,
+                "status": "played",
+                "team": "CLE",
+                "opponent": "TEN",
+                "targets": 10.0,
+                "target_share": 28.6,
+                "air_yards": 110.0,
+                "air_yards_share": 37.3,
+                "wopr": 0.69,
+                "racr": 1.17,
+                "carries": 3.0,
+                "carries_share": 10.3,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              }
+            ],
+            "trends": {
+              "target_share": {
+                "average": 26.3,
+                "latest": 28.6,
+                "change_over_window": 4.6,
+                "direction": "rising",
+                "weeks": 2
+              },
+              "air_yards_share": {
+                "average": 31.8,
+                "latest": 37.3,
+                "change_over_window": 11.0,
+                "direction": "rising",
+                "weeks": 2
+              },
+              "wopr": {
+                "average": 0.617,
+                "latest": 0.69,
+                "change_over_window": 0.146,
+                "direction": "rising",
+                "weeks": 2
+              },
+              "carries_share": {
+                "average": 8.7,
+                "latest": 10.3,
+                "change_over_window": 3.2,
+                "direction": "stable",
+                "weeks": 2
+              }
+            },
+            "flags": []
+          },
+          {
+            "player": "Ashton Jeanty",
+            "sleeper_id": null,
+            "position": "RB",
+            "team": "LV",
+            "found_in_nflverse": true,
+            "weeks": [
+              {
+                "week": 6,
+                "status": "played",
+                "team": "LV",
+                "opponent": "BUF",
+                "targets": 6.0,
+                "target_share": 15.4,
+                "air_yards": 19.0,
+                "air_yards_share": 5.4,
+                "wopr": 0.269,
+                "racr": 1.89,
+                "carries": 10.0,
+                "carries_share": 50.0,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              },
+              {
+                "week": 7,
+                "status": "played",
+                "team": "LV",
+                "opponent": "LAR",
+                "targets": 8.0,
+                "target_share": 18.6,
+                "air_yards": 28.0,
+                "air_yards_share": 8.5,
+                "wopr": 0.339,
+                "racr": 2.18,
+                "carries": 8.0,
+                "carries_share": 47.1,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              }
+            ],
+            "trends": {
+              "target_share": {
+                "average": 17.0,
+                "latest": 18.6,
+                "change_over_window": 3.2,
+                "direction": "rising",
+                "weeks": 2
+              },
+              "air_yards_share": {
+                "average": 7.0,
+                "latest": 8.5,
+                "change_over_window": 3.1,
+                "direction": "stable",
+                "weeks": 2
+              },
+              "wopr": {
+                "average": 0.304,
+                "latest": 0.339,
+                "change_over_window": 0.07,
+                "direction": "rising",
+                "weeks": 2
+              },
+              "carries_share": {
+                "average": 48.5,
+                "latest": 47.1,
+                "change_over_window": -2.9,
+                "direction": "stable",
+                "weeks": 2
+              }
+            },
+            "flags": []
+          },
+          {
+            "player": "Deshaun Watson",
+            "sleeper_id": null,
+            "position": "QB",
+            "team": "CLE",
+            "found_in_nflverse": true,
+            "weeks": [
+              {
+                "week": 6,
+                "status": "played",
+                "team": "CLE",
+                "opponent": "BAL",
+                "targets": 0.0,
+                "target_share": 0.0,
+                "air_yards": 0.0,
+                "air_yards_share": 0.0,
+                "wopr": 0.0,
+                "racr": null,
+                "carries": 8.0,
+                "carries_share": 28.6,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              },
+              {
+                "week": 7,
+                "status": "played",
+                "team": "CLE",
+                "opponent": "TEN",
+                "targets": 0.0,
+                "target_share": 0.0,
+                "air_yards": 0.0,
+                "air_yards_share": 0.0,
+                "wopr": 0.0,
+                "racr": null,
+                "carries": 3.0,
+                "carries_share": 10.3,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              }
+            ],
+            "trends": {
+              "carries_share": {
+                "average": 19.5,
+                "latest": 10.3,
+                "change_over_window": -18.3,
+                "direction": "falling",
+                "weeks": 2
+              }
+            },
+            "flags": []
+          },
+          {
+            "player": "Joe Burrow",
+            "sleeper_id": null,
+            "position": "QB",
+            "team": "CIN",
+            "found_in_nflverse": true,
+            "weeks": [
+              {
+                "week": 6,
+                "status": "bye"
+              },
+              {
+                "week": 7,
+                "status": "played",
+                "team": "CIN",
+                "opponent": "BAL",
+                "targets": 0.0,
+                "target_share": 0.0,
+                "air_yards": 0.0,
+                "air_yards_share": 0.0,
+                "wopr": 0.0,
+                "racr": null,
+                "carries": 2.0,
+                "carries_share": 10.0,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              }
+            ],
+            "trends": {
+              "carries_share": {
+                "average": 10.0,
+                "latest": 10.0,
+                "change_over_window": 0.0,
+                "direction": "insufficient_data",
+                "weeks": 1
+              }
+            },
+            "flags": []
+          },
+          {
+            "player": "Amon-Ra St. Brown",
+            "sleeper_id": null,
+            "position": "WR",
+            "team": "DET",
+            "found_in_nflverse": true,
+            "weeks": [
+              {
+                "week": 6,
+                "status": "bye"
+              },
+              {
+                "week": 7,
+                "status": "played",
+                "team": "DET",
+                "opponent": "GB",
+                "targets": 11.0,
+                "target_share": 35.5,
+                "air_yards": 139.0,
+                "air_yards_share": 54.3,
+                "wopr": 0.912,
+                "racr": 1.1,
+                "carries": 1.0,
+                "carries_share": 3.0,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              }
+            ],
+            "trends": {
+              "target_share": {
+                "average": 35.5,
+                "latest": 35.5,
+                "change_over_window": 0.0,
+                "direction": "insufficient_data",
+                "weeks": 1
+              },
+              "air_yards_share": {
+                "average": 54.3,
+                "latest": 54.3,
+                "change_over_window": 0.0,
+                "direction": "insufficient_data",
+                "weeks": 1
+              },
+              "wopr": {
+                "average": 0.912,
+                "latest": 0.912,
+                "change_over_window": 0.0,
+                "direction": "insufficient_data",
+                "weeks": 1
+              },
+              "carries_share": {
+                "average": 3.0,
+                "latest": 3.0,
+                "change_over_window": 0.0,
+                "direction": "insufficient_data",
+                "weeks": 1
+              }
+            },
+            "flags": []
+          },
+          {
+            "player": "Tee Higgins",
+            "sleeper_id": null,
+            "position": "WR",
+            "team": "CIN",
+            "found_in_nflverse": true,
+            "weeks": [
+              {
+                "week": 6,
+                "status": "bye"
+              },
+              {
+                "week": 7,
+                "status": "played",
+                "team": "CIN",
+                "opponent": "BAL",
+                "targets": 7.0,
+                "target_share": 25.0,
+                "air_yards": 137.0,
+                "air_yards_share": 58.8,
+                "wopr": 0.787,
+                "racr": 1.08,
+                "carries": 0.0,
+                "carries_share": 0.0,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              }
+            ],
+            "trends": {
+              "target_share": {
+                "average": 25.0,
+                "latest": 25.0,
+                "change_over_window": 0.0,
+                "direction": "insufficient_data",
+                "weeks": 1
+              },
+              "air_yards_share": {
+                "average": 58.8,
+                "latest": 58.8,
+                "change_over_window": 0.0,
+                "direction": "insufficient_data",
+                "weeks": 1
+              },
+              "wopr": {
+                "average": 0.787,
+                "latest": 0.787,
+                "change_over_window": 0.0,
+                "direction": "insufficient_data",
+                "weeks": 1
+              },
+              "carries_share": {
+                "average": 0.0,
+                "latest": 0.0,
+                "change_over_window": 0.0,
+                "direction": "insufficient_data",
+                "weeks": 1
+              }
+            },
+            "flags": []
+          },
+          {
+            "player": "Christian McCaffrey",
+            "sleeper_id": null,
+            "position": "RB",
+            "team": "SF",
+            "found_in_nflverse": true,
+            "weeks": [
+              {
+                "week": 6,
+                "status": "played",
+                "team": "SF",
+                "opponent": "WSH",
+                "targets": 10.0,
+                "target_share": 34.5,
+                "air_yards": 17.0,
+                "air_yards_share": 6.8,
+                "wopr": 0.565,
+                "racr": 3.12,
+                "carries": 16.0,
+                "carries_share": 55.2,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              },
+              {
+                "week": 7,
+                "status": "played",
+                "team": "SF",
+                "opponent": "ATL",
+                "targets": 7.0,
+                "target_share": 17.9,
+                "air_yards": 39.0,
+                "air_yards_share": 12.9,
+                "wopr": 0.36,
+                "racr": 1.56,
+                "carries": 7.0,
+                "carries_share": 30.4,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              }
+            ],
+            "trends": {
+              "target_share": {
+                "average": 26.2,
+                "latest": 17.9,
+                "change_over_window": -16.6,
+                "direction": "falling",
+                "weeks": 2
+              },
+              "air_yards_share": {
+                "average": 9.8,
+                "latest": 12.9,
+                "change_over_window": 6.1,
+                "direction": "rising",
+                "weeks": 2
+              },
+              "wopr": {
+                "average": 0.462,
+                "latest": 0.36,
+                "change_over_window": -0.205,
+                "direction": "falling",
+                "weeks": 2
+              },
+              "carries_share": {
+                "average": 42.8,
+                "latest": 30.4,
+                "change_over_window": -24.8,
+                "direction": "falling",
+                "weeks": 2
+              }
+            },
+            "flags": []
+          },
+          {
+            "player": "Colston Loveland",
+            "sleeper_id": null,
+            "position": "TE",
+            "team": "CHI",
+            "found_in_nflverse": true,
+            "weeks": [
+              {
+                "week": 6,
+                "status": "played",
+                "team": "CHI",
+                "opponent": "ATL",
+                "targets": 7.0,
+                "target_share": 21.2,
+                "air_yards": 33.0,
+                "air_yards_share": 23.4,
+                "wopr": 0.482,
+                "racr": 1.97,
+                "carries": 0.0,
+                "carries_share": 0.0,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              },
+              {
+                "week": 7,
+                "status": "played",
+                "team": "CHI",
+                "opponent": "NE",
+                "targets": 12.0,
+                "target_share": 40.0,
+                "air_yards": 112.0,
+                "air_yards_share": 39.0,
+                "wopr": 0.873,
+                "racr": 0.62,
+                "carries": 0.0,
+                "carries_share": 0.0,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              }
+            ],
+            "trends": {
+              "target_share": {
+                "average": 30.6,
+                "latest": 40.0,
+                "change_over_window": 18.8,
+                "direction": "rising",
+                "weeks": 2
+              },
+              "air_yards_share": {
+                "average": 31.2,
+                "latest": 39.0,
+                "change_over_window": 15.6,
+                "direction": "rising",
+                "weeks": 2
+              },
+              "wopr": {
+                "average": 0.677,
+                "latest": 0.873,
+                "change_over_window": 0.391,
+                "direction": "rising",
+                "weeks": 2
+              },
+              "carries_share": {
+                "average": 0.0,
+                "latest": 0.0,
+                "change_over_window": 0.0,
+                "direction": "stable",
+                "weeks": 2
+              }
+            },
+            "flags": []
+          },
+          {
+            "player": "Puka Nacua",
+            "sleeper_id": null,
+            "position": "WR",
+            "team": "LAR",
+            "found_in_nflverse": true,
+            "weeks": [
+              {
+                "week": 6,
+                "status": "played",
+                "team": "LAR",
+                "opponent": "ARI",
+                "targets": 7.0,
+                "target_share": 21.9,
+                "air_yards": 60.0,
+                "air_yards_share": 38.2,
+                "wopr": 0.596,
+                "racr": 1.33,
+                "carries": 0.0,
+                "carries_share": 0.0,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              },
+              {
+                "week": 7,
+                "status": "played",
+                "team": "LAR",
+                "opponent": "LV",
+                "targets": 10.0,
+                "target_share": 34.5,
+                "air_yards": 57.0,
+                "air_yards_share": 34.8,
+                "wopr": 0.761,
+                "racr": 1.19,
+                "carries": 2.0,
+                "carries_share": 5.3,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              }
+            ],
+            "trends": {
+              "target_share": {
+                "average": 28.2,
+                "latest": 34.5,
+                "change_over_window": 12.6,
+                "direction": "rising",
+                "weeks": 2
+              },
+              "air_yards_share": {
+                "average": 36.5,
+                "latest": 34.8,
+                "change_over_window": -3.4,
+                "direction": "stable",
+                "weeks": 2
+              },
+              "wopr": {
+                "average": 0.678,
+                "latest": 0.761,
+                "change_over_window": 0.165,
+                "direction": "rising",
+                "weeks": 2
+              },
+              "carries_share": {
+                "average": 2.6,
+                "latest": 5.3,
+                "change_over_window": 5.3,
+                "direction": "rising",
+                "weeks": 2
+              }
+            },
+            "flags": []
+          },
+          {
+            "player": "Drake London",
+            "sleeper_id": null,
+            "position": "WR",
+            "team": "ATL",
+            "found_in_nflverse": true,
+            "weeks": [
+              {
+                "week": 6,
+                "status": "played",
+                "team": "ATL",
+                "opponent": "CHI",
+                "targets": 10.0,
+                "target_share": 30.3,
+                "air_yards": 143.0,
+                "air_yards_share": 44.0,
+                "wopr": 0.763,
+                "racr": 0.43,
+                "carries": 0.0,
+                "carries_share": 0.0,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              },
+              {
+                "week": 7,
+                "status": "played",
+                "team": "ATL",
+                "opponent": "SF",
+                "targets": 10.0,
+                "target_share": 31.2,
+                "air_yards": 86.0,
+                "air_yards_share": 42.6,
+                "wopr": 0.767,
+                "racr": 0.77,
+                "carries": 0.0,
+                "carries_share": 0.0,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              }
+            ],
+            "trends": {
+              "target_share": {
+                "average": 30.8,
+                "latest": 31.2,
+                "change_over_window": 0.9,
+                "direction": "stable",
+                "weeks": 2
+              },
+              "air_yards_share": {
+                "average": 43.3,
+                "latest": 42.6,
+                "change_over_window": -1.4,
+                "direction": "stable",
+                "weeks": 2
+              },
+              "wopr": {
+                "average": 0.765,
+                "latest": 0.767,
+                "change_over_window": 0.004,
+                "direction": "stable",
+                "weeks": 2
+              },
+              "carries_share": {
+                "average": 0.0,
+                "latest": 0.0,
+                "change_over_window": 0.0,
+                "direction": "stable",
+                "weeks": 2
+              }
+            },
+            "flags": []
+          },
+          {
+            "player": "Zay Flowers",
+            "sleeper_id": null,
+            "position": "WR",
+            "team": "BAL",
+            "found_in_nflverse": true,
+            "weeks": [
+              {
+                "week": 6,
+                "status": "played",
+                "team": "BAL",
+                "opponent": "CLE",
+                "targets": 11.0,
+                "target_share": 35.5,
+                "air_yards": 106.0,
+                "air_yards_share": 38.8,
+                "wopr": 0.804,
+                "racr": 0.62,
+                "carries": 1.0,
+                "carries_share": 4.3,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              },
+              {
+                "week": 7,
+                "status": "played",
+                "team": "BAL",
+                "opponent": "CIN",
+                "targets": 11.0,
+                "target_share": 32.4,
+                "air_yards": 62.0,
+                "air_yards_share": 25.9,
+                "wopr": 0.667,
+                "racr": 2.21,
+                "carries": 0.0,
+                "carries_share": 0.0,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              }
+            ],
+            "trends": {
+              "target_share": {
+                "average": 34.0,
+                "latest": 32.4,
+                "change_over_window": -3.1,
+                "direction": "falling",
+                "weeks": 2
+              },
+              "air_yards_share": {
+                "average": 32.3,
+                "latest": 25.9,
+                "change_over_window": -12.9,
+                "direction": "falling",
+                "weeks": 2
+              },
+              "wopr": {
+                "average": 0.736,
+                "latest": 0.667,
+                "change_over_window": -0.137,
+                "direction": "falling",
+                "weeks": 2
+              },
+              "carries_share": {
+                "average": 2.1,
+                "latest": 0.0,
+                "change_over_window": -4.3,
+                "direction": "stable",
+                "weeks": 2
+              }
+            },
+            "flags": []
+          },
+          {
+            "player": "Trey McBride",
+            "sleeper_id": null,
+            "position": "TE",
+            "team": "ARI",
+            "found_in_nflverse": true,
+            "weeks": [
+              {
+                "week": 6,
+                "status": "played",
+                "team": "ARI",
+                "opponent": "LAR",
+                "targets": 9.0,
+                "target_share": 26.5,
+                "air_yards": 28.0,
+                "air_yards_share": 15.1,
+                "wopr": 0.502,
+                "racr": 1.89,
+                "carries": 0.0,
+                "carries_share": 0.0,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              },
+              {
+                "week": 7,
+                "status": "played",
+                "team": "ARI",
+                "opponent": "DEN",
+                "targets": 13.0,
+                "target_share": 29.5,
+                "air_yards": 106.0,
+                "air_yards_share": 34.0,
+                "wopr": 0.681,
+                "racr": 1.05,
+                "carries": 0.0,
+                "carries_share": 0.0,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              }
+            ],
+            "trends": {
+              "target_share": {
+                "average": 28.0,
+                "latest": 29.5,
+                "change_over_window": 3.0,
+                "direction": "rising",
+                "weeks": 2
+              },
+              "air_yards_share": {
+                "average": 24.6,
+                "latest": 34.0,
+                "change_over_window": 18.9,
+                "direction": "rising",
+                "weeks": 2
+              },
+              "wopr": {
+                "average": 0.592,
+                "latest": 0.681,
+                "change_over_window": 0.179,
+                "direction": "rising",
+                "weeks": 2
+              },
+              "carries_share": {
+                "average": 0.0,
+                "latest": 0.0,
+                "change_over_window": 0.0,
+                "direction": "stable",
+                "weeks": 2
+              }
+            },
+            "flags": []
+          },
+          {
+            "player": "Caleb Williams",
+            "sleeper_id": null,
+            "position": "QB",
+            "team": "CHI",
+            "found_in_nflverse": true,
+            "weeks": [
+              {
+                "week": 6,
+                "status": "played",
+                "team": "CHI",
+                "opponent": "ATL",
+                "targets": 0.0,
+                "target_share": 0.0,
+                "air_yards": 0.0,
+                "air_yards_share": 0.0,
+                "wopr": 0.0,
+                "racr": null,
+                "carries": 4.0,
+                "carries_share": 12.1,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              },
+              {
+                "week": 7,
+                "status": "played",
+                "team": "CHI",
+                "opponent": "NE",
+                "targets": 0.0,
+                "target_share": 0.0,
+                "air_yards": 0.0,
+                "air_yards_share": 0.0,
+                "wopr": 0.0,
+                "racr": null,
+                "carries": 5.0,
+                "carries_share": 16.7,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              }
+            ],
+            "trends": {
+              "carries_share": {
+                "average": 14.4,
+                "latest": 16.7,
+                "change_over_window": 4.6,
+                "direction": "stable",
+                "weeks": 2
+              }
+            },
+            "flags": []
+          },
+          {
+            "player": "Harold Fannin Jr.",
+            "sleeper_id": null,
+            "position": "TE",
+            "team": "CLE",
+            "found_in_nflverse": true,
+            "weeks": [
+              {
+                "week": 6,
+                "status": "played",
+                "team": "CLE",
+                "opponent": "BAL",
+                "targets": 3.0,
+                "target_share": 12.0,
+                "air_yards": 10.0,
+                "air_yards_share": 4.8,
+                "wopr": 0.213,
+                "racr": 0.9,
+                "carries": 0.0,
+                "carries_share": 0.0,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              },
+              {
+                "week": 7,
+                "status": "played",
+                "team": "CLE",
+                "opponent": "TEN",
+                "targets": 9.0,
+                "target_share": 25.7,
+                "air_yards": 38.0,
+                "air_yards_share": 12.9,
+                "wopr": 0.476,
+                "racr": 2.39,
+                "carries": 0.0,
+                "carries_share": 0.0,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              }
+            ],
+            "trends": {
+              "target_share": {
+                "average": 18.9,
+                "latest": 25.7,
+                "change_over_window": 13.7,
+                "direction": "rising",
+                "weeks": 2
+              },
+              "air_yards_share": {
+                "average": 8.8,
+                "latest": 12.9,
+                "change_over_window": 8.1,
+                "direction": "rising",
+                "weeks": 2
+              },
+              "wopr": {
+                "average": 0.344,
+                "latest": 0.476,
+                "change_over_window": 0.263,
+                "direction": "rising",
+                "weeks": 2
+              },
+              "carries_share": {
+                "average": 0.0,
+                "latest": 0.0,
+                "change_over_window": 0.0,
+                "direction": "stable",
+                "weeks": 2
+              }
+            },
+            "flags": []
+          },
+          {
+            "player": "CeeDee Lamb",
+            "sleeper_id": null,
+            "position": "WR",
+            "team": "DAL",
+            "found_in_nflverse": true,
+            "weeks": [
+              {
+                "week": 6,
+                "status": "played",
+                "team": "DAL",
+                "opponent": "GB",
+                "targets": 18.0,
+                "target_share": 33.3,
+                "air_yards": 153.0,
+                "air_yards_share": 41.0,
+                "wopr": 0.787,
+                "racr": 0.46,
+                "carries": 0.0,
+                "carries_share": 0.0,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              },
+              {
+                "week": 7,
+                "status": "played",
+                "team": "DAL",
+                "opponent": "PHI",
+                "targets": 12.0,
+                "target_share": 46.2,
+                "air_yards": 176.0,
+                "air_yards_share": 50.3,
+                "wopr": 1.044,
+                "racr": 0.42,
+                "carries": 0.0,
+                "carries_share": 0.0,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              }
+            ],
+            "trends": {
+              "target_share": {
+                "average": 39.8,
+                "latest": 46.2,
+                "change_over_window": 12.9,
+                "direction": "rising",
+                "weeks": 2
+              },
+              "air_yards_share": {
+                "average": 45.6,
+                "latest": 50.3,
+                "change_over_window": 9.3,
+                "direction": "rising",
+                "weeks": 2
+              },
+              "wopr": {
+                "average": 0.915,
+                "latest": 1.044,
+                "change_over_window": 0.257,
+                "direction": "rising",
+                "weeks": 2
+              },
+              "carries_share": {
+                "average": 0.0,
+                "latest": 0.0,
+                "change_over_window": 0.0,
+                "direction": "stable",
+                "weeks": 2
+              }
+            },
+            "flags": []
+          },
+          {
+            "player": "Bucky Irving",
+            "sleeper_id": null,
+            "position": "RB",
+            "team": "TB",
+            "found_in_nflverse": true,
+            "weeks": [
+              {
+                "week": 6,
+                "status": "played",
+                "team": "TB",
+                "opponent": "PIT",
+                "targets": 3.0,
+                "target_share": 7.3,
+                "air_yards": -9.0,
+                "air_yards_share": -3.3,
+                "wopr": 0.087,
+                "racr": -0.33,
+                "carries": 19.0,
+                "carries_share": 76.0,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              },
+              {
+                "week": 7,
+                "status": "played",
+                "team": "TB",
+                "opponent": "CAR",
+                "targets": 2.0,
+                "target_share": 18.2,
+                "air_yards": -6.0,
+                "air_yards_share": -20.7,
+                "wopr": 0.128,
+                "racr": -0.67,
+                "carries": 24.0,
+                "carries_share": 49.0,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              }
+            ],
+            "trends": {
+              "target_share": {
+                "average": 12.8,
+                "latest": 18.2,
+                "change_over_window": 10.9,
+                "direction": "rising",
+                "weeks": 2
+              },
+              "air_yards_share": {
+                "average": -12.0,
+                "latest": -20.7,
+                "change_over_window": -17.4,
+                "direction": "falling",
+                "weeks": 2
+              },
+              "wopr": {
+                "average": 0.107,
+                "latest": 0.128,
+                "change_over_window": 0.041,
+                "direction": "stable",
+                "weeks": 2
+              },
+              "carries_share": {
+                "average": 62.5,
+                "latest": 49.0,
+                "change_over_window": -27.0,
+                "direction": "falling",
+                "weeks": 2
+              }
+            },
+            "flags": []
+          },
+          {
+            "player": "Drake Maye",
+            "sleeper_id": null,
+            "position": "QB",
+            "team": "NE",
+            "found_in_nflverse": true,
+            "weeks": [
+              {
+                "week": 6,
+                "status": "played",
+                "team": "NE",
+                "opponent": "NYJ",
+                "targets": 0.0,
+                "target_share": 0.0,
+                "air_yards": 0.0,
+                "air_yards_share": 0.0,
+                "wopr": 0.0,
+                "racr": null,
+                "carries": 4.0,
+                "carries_share": 11.1,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              },
+              {
+                "week": 7,
+                "status": "played",
+                "team": "NE",
+                "opponent": "CHI",
+                "targets": 0.0,
+                "target_share": 0.0,
+                "air_yards": 0.0,
+                "air_yards_share": 0.0,
+                "wopr": 0.0,
+                "racr": null,
+                "carries": 4.0,
+                "carries_share": 23.5,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              }
+            ],
+            "trends": {
+              "carries_share": {
+                "average": 17.3,
+                "latest": 23.5,
+                "change_over_window": 12.4,
+                "direction": "rising",
+                "weeks": 2
+              }
+            },
+            "flags": []
+          },
+          {
+            "player": "Jonathan Taylor",
+            "sleeper_id": null,
+            "position": "RB",
+            "team": "IND",
+            "found_in_nflverse": true,
+            "weeks": [
+              {
+                "week": 6,
+                "status": "played",
+                "team": "IND",
+                "opponent": "TEN",
+                "targets": 4.0,
+                "target_share": 10.5,
+                "air_yards": -1.0,
+                "air_yards_share": -0.2,
+                "wopr": 0.156,
+                "racr": -57.0,
+                "carries": 21.0,
+                "carries_share": 70.0,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              },
+              {
+                "week": 7,
+                "status": "played",
+                "team": "IND",
+                "opponent": "MIN",
+                "targets": 3.0,
+                "target_share": 14.3,
+                "air_yards": -8.0,
+                "air_yards_share": -7.0,
+                "wopr": 0.166,
+                "racr": -1.88,
+                "carries": 18.0,
+                "carries_share": 54.5,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              }
+            ],
+            "trends": {
+              "target_share": {
+                "average": 12.4,
+                "latest": 14.3,
+                "change_over_window": 3.8,
+                "direction": "rising",
+                "weeks": 2
+              },
+              "air_yards_share": {
+                "average": -3.6,
+                "latest": -7.0,
+                "change_over_window": -6.8,
+                "direction": "falling",
+                "weeks": 2
+              },
+              "wopr": {
+                "average": 0.161,
+                "latest": 0.166,
+                "change_over_window": 0.01,
+                "direction": "stable",
+                "weeks": 2
+              },
+              "carries_share": {
+                "average": 62.2,
+                "latest": 54.5,
+                "change_over_window": -15.5,
+                "direction": "falling",
+                "weeks": 2
+              }
+            },
+            "flags": []
+          },
+          {
+            "player": "Jaxon Smith-Njigba",
+            "sleeper_id": null,
+            "position": "WR",
+            "team": "SEA",
+            "found_in_nflverse": true,
+            "weeks": [
+              {
+                "week": 6,
+                "status": "played",
+                "team": "SEA",
+                "opponent": "DEN",
+                "targets": 16.0,
+                "target_share": 34.8,
+                "air_yards": 183.0,
+                "air_yards_share": 43.2,
+                "wopr": 0.824,
+                "racr": 0.73,
+                "carries": 0.0,
+                "carries_share": 0.0,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              },
+              {
+                "week": 7,
+                "status": "played",
+                "team": "SEA",
+                "opponent": "KC",
+                "targets": 12.0,
+                "target_share": 44.4,
+                "air_yards": 117.0,
+                "air_yards_share": 79.1,
+                "wopr": 1.22,
+                "racr": 1.28,
+                "carries": 2.0,
+                "carries_share": 4.9,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              }
+            ],
+            "trends": {
+              "target_share": {
+                "average": 39.6,
+                "latest": 44.4,
+                "change_over_window": 9.6,
+                "direction": "rising",
+                "weeks": 2
+              },
+              "air_yards_share": {
+                "average": 61.1,
+                "latest": 79.1,
+                "change_over_window": 35.9,
+                "direction": "rising",
+                "weeks": 2
+              },
+              "wopr": {
+                "average": 1.022,
+                "latest": 1.22,
+                "change_over_window": 0.396,
+                "direction": "rising",
+                "weeks": 2
+              },
+              "carries_share": {
+                "average": 2.5,
+                "latest": 4.9,
+                "change_over_window": 4.9,
+                "direction": "stable",
+                "weeks": 2
+              }
+            },
+            "flags": []
+          },
+          {
+            "player": "Rhamondre Stevenson",
+            "sleeper_id": null,
+            "position": "RB",
+            "team": "NE",
+            "found_in_nflverse": true,
+            "weeks": [
+              {
+                "week": 6,
+                "status": "played",
+                "team": "NE",
+                "opponent": "NYJ",
+                "targets": 0.0,
+                "target_share": 0.0,
+                "air_yards": 0.0,
+                "air_yards_share": 0.0,
+                "wopr": 0.0,
+                "racr": null,
+                "carries": 14.0,
+                "carries_share": 38.9,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              },
+              {
+                "week": 7,
+                "status": "played",
+                "team": "NE",
+                "opponent": "CHI",
+                "targets": 5.0,
+                "target_share": 16.7,
+                "air_yards": 27.0,
+                "air_yards_share": 9.6,
+                "wopr": 0.318,
+                "racr": 3.44,
+                "carries": 6.0,
+                "carries_share": 35.3,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              }
+            ],
+            "trends": {
+              "target_share": {
+                "average": 8.3,
+                "latest": 16.7,
+                "change_over_window": 16.7,
+                "direction": "rising",
+                "weeks": 2
+              },
+              "air_yards_share": {
+                "average": 4.8,
+                "latest": 9.6,
+                "change_over_window": 9.6,
+                "direction": "rising",
+                "weeks": 2
+              },
+              "wopr": {
+                "average": 0.159,
+                "latest": 0.318,
+                "change_over_window": 0.318,
+                "direction": "rising",
+                "weeks": 2
+              },
+              "carries_share": {
+                "average": 37.1,
+                "latest": 35.3,
+                "change_over_window": -3.6,
+                "direction": "stable",
+                "weeks": 2
+              }
+            },
+            "flags": []
+          },
+          {
+            "player": "Jahmyr Gibbs",
+            "sleeper_id": null,
+            "position": "RB",
+            "team": "DET",
+            "found_in_nflverse": true,
+            "weeks": [
+              {
+                "week": 6,
+                "status": "bye"
+              },
+              {
+                "week": 7,
+                "status": "played",
+                "team": "DET",
+                "opponent": "GB",
+                "targets": 6.0,
+                "target_share": 19.4,
+                "air_yards": -12.0,
+                "air_yards_share": -4.7,
+                "wopr": 0.258,
+                "racr": -2.25,
+                "carries": 29.0,
+                "carries_share": 87.9,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              }
+            ],
+            "trends": {
+              "target_share": {
+                "average": 19.4,
+                "latest": 19.4,
+                "change_over_window": 0.0,
+                "direction": "insufficient_data",
+                "weeks": 1
+              },
+              "air_yards_share": {
+                "average": -4.7,
+                "latest": -4.7,
+                "change_over_window": 0.0,
+                "direction": "insufficient_data",
+                "weeks": 1
+              },
+              "wopr": {
+                "average": 0.258,
+                "latest": 0.258,
+                "change_over_window": 0.0,
+                "direction": "insufficient_data",
+                "weeks": 1
+              },
+              "carries_share": {
+                "average": 87.9,
+                "latest": 87.9,
+                "change_over_window": 0.0,
+                "direction": "insufficient_data",
+                "weeks": 1
+              }
+            },
+            "flags": []
+          },
+          {
+            "player": "Ja'Marr Chase",
+            "sleeper_id": null,
+            "position": "WR",
+            "team": "CIN",
+            "found_in_nflverse": true,
+            "weeks": [
+              {
+                "week": 6,
+                "status": "bye"
+              },
+              {
+                "week": 7,
+                "status": "played",
+                "team": "CIN",
+                "opponent": "BAL",
+                "targets": 7.0,
+                "target_share": 25.0,
+                "air_yards": 67.0,
+                "air_yards_share": 28.8,
+                "wopr": 0.576,
+                "racr": 0.93,
+                "carries": 0.0,
+                "carries_share": 0.0,
+                "snap_share": null,
+                "rz_targets": null,
+                "rz_carries": null,
+                "rz_opportunities": null,
+                "rz_pass_attempts": null
+              }
+            ],
+            "trends": {
+              "target_share": {
+                "average": 25.0,
+                "latest": 25.0,
+                "change_over_window": 0.0,
+                "direction": "insufficient_data",
+                "weeks": 1
+              },
+              "air_yards_share": {
+                "average": 28.8,
+                "latest": 28.8,
+                "change_over_window": 0.0,
+                "direction": "insufficient_data",
+                "weeks": 1
+              },
+              "wopr": {
+                "average": 0.576,
+                "latest": 0.576,
+                "change_over_window": 0.0,
+                "direction": "insufficient_data",
+                "weeks": 1
+              },
+              "carries_share": {
+                "average": 0.0,
+                "latest": 0.0,
+                "change_over_window": 0.0,
+                "direction": "insufficient_data",
+                "weeks": 1
+              }
+            },
+            "flags": []
+          }
+        ],
+        "count": 24,
+        "sources": {
+          "shares": "nflverse weekly player stats (target_share, air_yards_share, wopr, racr; carries share = carries / team carries)",
+          "snaps_and_red_zone": "Sleeper weekly stats (off_snp / tm_off_snp; rec_rz_tgt + rush_rz_att) — counted, not estimated"
+        },
+        "trend_method": "least-squares change across the played weeks of the window; rising/falling past target share 3, air-yards share 5, WOPR 0.05, snap share 5, carries share 5, red-zone opportunities 1",
+        "notes": [],
+        "message": "Usage trends for 24 player(s), weeks 6-7 of 2026."
+      }
+    }
+  },
+  "data": {
+    "success": true,
+    "error": null,
+    "error_type": null,
+    "season": 2026,
+    "window": [
+      6,
+      7
+    ],
+    "week_inferred": true,
+    "players": [
+      {
+        "player": "Quinshon Judkins",
+        "sleeper_id": null,
+        "position": "RB",
+        "team": "CLE",
+        "found_in_nflverse": true,
+        "weeks": [
+          {
+            "week": 6,
+            "status": "did_not_play"
+          },
+          {
+            "week": 7,
+            "status": "played",
+            "team": "CLE",
+            "opponent": "TEN",
+            "targets": 1.0,
+            "target_share": 2.9,
+            "air_yards": 0.0,
+            "air_yards_share": 0.0,
+            "wopr": 0.043,
+            "racr": 0.0,
+            "carries": 17.0,
+            "carries_share": 58.6,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          }
+        ],
+        "trends": {
+          "target_share": {
+            "average": 2.9,
+            "latest": 2.9,
+            "change_over_window": 0.0,
+            "direction": "insufficient_data",
+            "weeks": 1
+          },
+          "air_yards_share": {
+            "average": 0.0,
+            "latest": 0.0,
+            "change_over_window": 0.0,
+            "direction": "insufficient_data",
+            "weeks": 1
+          },
+          "wopr": {
+            "average": 0.043,
+            "latest": 0.043,
+            "change_over_window": 0.0,
+            "direction": "insufficient_data",
+            "weeks": 1
+          },
+          "carries_share": {
+            "average": 58.6,
+            "latest": 58.6,
+            "change_over_window": 0.0,
+            "direction": "insufficient_data",
+            "weeks": 1
+          }
+        },
+        "flags": [
+          "did not play week 6"
+        ]
+      },
+      {
+        "player": "Luther Burden III",
+        "sleeper_id": null,
+        "position": "WR",
+        "team": "CHI",
+        "found_in_nflverse": true,
+        "weeks": [
+          {
+            "week": 6,
+            "status": "played",
+            "team": "CHI",
+            "opponent": "ATL",
+            "targets": 8.0,
+            "target_share": 24.2,
+            "air_yards": 46.0,
+            "air_yards_share": 32.6,
+            "wopr": 0.592,
+            "racr": 2.07,
+            "carries": 0.0,
+            "carries_share": 0.0,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          },
+          {
+            "week": 7,
+            "status": "played",
+            "team": "CHI",
+            "opponent": "NE",
+            "targets": 4.0,
+            "target_share": 13.3,
+            "air_yards": 38.0,
+            "air_yards_share": 13.2,
+            "wopr": 0.293,
+            "racr": 3.42,
+            "carries": 1.0,
+            "carries_share": 3.3,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          }
+        ],
+        "trends": {
+          "target_share": {
+            "average": 18.8,
+            "latest": 13.3,
+            "change_over_window": -10.9,
+            "direction": "falling",
+            "weeks": 2
+          },
+          "air_yards_share": {
+            "average": 22.9,
+            "latest": 13.2,
+            "change_over_window": -19.4,
+            "direction": "falling",
+            "weeks": 2
+          },
+          "wopr": {
+            "average": 0.443,
+            "latest": 0.293,
+            "change_over_window": -0.299,
+            "direction": "falling",
+            "weeks": 2
+          },
+          "carries_share": {
+            "average": 1.6,
+            "latest": 3.3,
+            "change_over_window": 3.3,
+            "direction": "stable",
+            "weeks": 2
+          }
+        },
+        "flags": []
+      },
+      {
+        "player": "KC Concepcion",
+        "sleeper_id": null,
+        "position": "WR",
+        "team": "CLE",
+        "found_in_nflverse": true,
+        "weeks": [
+          {
+            "week": 6,
+            "status": "played",
+            "team": "CLE",
+            "opponent": "BAL",
+            "targets": 6.0,
+            "target_share": 24.0,
+            "air_yards": 55.0,
+            "air_yards_share": 26.3,
+            "wopr": 0.544,
+            "racr": 0.67,
+            "carries": 2.0,
+            "carries_share": 7.1,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          },
+          {
+            "week": 7,
+            "status": "played",
+            "team": "CLE",
+            "opponent": "TEN",
+            "targets": 10.0,
+            "target_share": 28.6,
+            "air_yards": 110.0,
+            "air_yards_share": 37.3,
+            "wopr": 0.69,
+            "racr": 1.17,
+            "carries": 3.0,
+            "carries_share": 10.3,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          }
+        ],
+        "trends": {
+          "target_share": {
+            "average": 26.3,
+            "latest": 28.6,
+            "change_over_window": 4.6,
+            "direction": "rising",
+            "weeks": 2
+          },
+          "air_yards_share": {
+            "average": 31.8,
+            "latest": 37.3,
+            "change_over_window": 11.0,
+            "direction": "rising",
+            "weeks": 2
+          },
+          "wopr": {
+            "average": 0.617,
+            "latest": 0.69,
+            "change_over_window": 0.146,
+            "direction": "rising",
+            "weeks": 2
+          },
+          "carries_share": {
+            "average": 8.7,
+            "latest": 10.3,
+            "change_over_window": 3.2,
+            "direction": "stable",
+            "weeks": 2
+          }
+        },
+        "flags": []
+      },
+      {
+        "player": "Ashton Jeanty",
+        "sleeper_id": null,
+        "position": "RB",
+        "team": "LV",
+        "found_in_nflverse": true,
+        "weeks": [
+          {
+            "week": 6,
+            "status": "played",
+            "team": "LV",
+            "opponent": "BUF",
+            "targets": 6.0,
+            "target_share": 15.4,
+            "air_yards": 19.0,
+            "air_yards_share": 5.4,
+            "wopr": 0.269,
+            "racr": 1.89,
+            "carries": 10.0,
+            "carries_share": 50.0,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          },
+          {
+            "week": 7,
+            "status": "played",
+            "team": "LV",
+            "opponent": "LAR",
+            "targets": 8.0,
+            "target_share": 18.6,
+            "air_yards": 28.0,
+            "air_yards_share": 8.5,
+            "wopr": 0.339,
+            "racr": 2.18,
+            "carries": 8.0,
+            "carries_share": 47.1,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          }
+        ],
+        "trends": {
+          "target_share": {
+            "average": 17.0,
+            "latest": 18.6,
+            "change_over_window": 3.2,
+            "direction": "rising",
+            "weeks": 2
+          },
+          "air_yards_share": {
+            "average": 7.0,
+            "latest": 8.5,
+            "change_over_window": 3.1,
+            "direction": "stable",
+            "weeks": 2
+          },
+          "wopr": {
+            "average": 0.304,
+            "latest": 0.339,
+            "change_over_window": 0.07,
+            "direction": "rising",
+            "weeks": 2
+          },
+          "carries_share": {
+            "average": 48.5,
+            "latest": 47.1,
+            "change_over_window": -2.9,
+            "direction": "stable",
+            "weeks": 2
+          }
+        },
+        "flags": []
+      },
+      {
+        "player": "Deshaun Watson",
+        "sleeper_id": null,
+        "position": "QB",
+        "team": "CLE",
+        "found_in_nflverse": true,
+        "weeks": [
+          {
+            "week": 6,
+            "status": "played",
+            "team": "CLE",
+            "opponent": "BAL",
+            "targets": 0.0,
+            "target_share": 0.0,
+            "air_yards": 0.0,
+            "air_yards_share": 0.0,
+            "wopr": 0.0,
+            "racr": null,
+            "carries": 8.0,
+            "carries_share": 28.6,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          },
+          {
+            "week": 7,
+            "status": "played",
+            "team": "CLE",
+            "opponent": "TEN",
+            "targets": 0.0,
+            "target_share": 0.0,
+            "air_yards": 0.0,
+            "air_yards_share": 0.0,
+            "wopr": 0.0,
+            "racr": null,
+            "carries": 3.0,
+            "carries_share": 10.3,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          }
+        ],
+        "trends": {
+          "carries_share": {
+            "average": 19.5,
+            "latest": 10.3,
+            "change_over_window": -18.3,
+            "direction": "falling",
+            "weeks": 2
+          }
+        },
+        "flags": []
+      },
+      {
+        "player": "Joe Burrow",
+        "sleeper_id": null,
+        "position": "QB",
+        "team": "CIN",
+        "found_in_nflverse": true,
+        "weeks": [
+          {
+            "week": 6,
+            "status": "bye"
+          },
+          {
+            "week": 7,
+            "status": "played",
+            "team": "CIN",
+            "opponent": "BAL",
+            "targets": 0.0,
+            "target_share": 0.0,
+            "air_yards": 0.0,
+            "air_yards_share": 0.0,
+            "wopr": 0.0,
+            "racr": null,
+            "carries": 2.0,
+            "carries_share": 10.0,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          }
+        ],
+        "trends": {
+          "carries_share": {
+            "average": 10.0,
+            "latest": 10.0,
+            "change_over_window": 0.0,
+            "direction": "insufficient_data",
+            "weeks": 1
+          }
+        },
+        "flags": []
+      },
+      {
+        "player": "Amon-Ra St. Brown",
+        "sleeper_id": null,
+        "position": "WR",
+        "team": "DET",
+        "found_in_nflverse": true,
+        "weeks": [
+          {
+            "week": 6,
+            "status": "bye"
+          },
+          {
+            "week": 7,
+            "status": "played",
+            "team": "DET",
+            "opponent": "GB",
+            "targets": 11.0,
+            "target_share": 35.5,
+            "air_yards": 139.0,
+            "air_yards_share": 54.3,
+            "wopr": 0.912,
+            "racr": 1.1,
+            "carries": 1.0,
+            "carries_share": 3.0,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          }
+        ],
+        "trends": {
+          "target_share": {
+            "average": 35.5,
+            "latest": 35.5,
+            "change_over_window": 0.0,
+            "direction": "insufficient_data",
+            "weeks": 1
+          },
+          "air_yards_share": {
+            "average": 54.3,
+            "latest": 54.3,
+            "change_over_window": 0.0,
+            "direction": "insufficient_data",
+            "weeks": 1
+          },
+          "wopr": {
+            "average": 0.912,
+            "latest": 0.912,
+            "change_over_window": 0.0,
+            "direction": "insufficient_data",
+            "weeks": 1
+          },
+          "carries_share": {
+            "average": 3.0,
+            "latest": 3.0,
+            "change_over_window": 0.0,
+            "direction": "insufficient_data",
+            "weeks": 1
+          }
+        },
+        "flags": []
+      },
+      {
+        "player": "Tee Higgins",
+        "sleeper_id": null,
+        "position": "WR",
+        "team": "CIN",
+        "found_in_nflverse": true,
+        "weeks": [
+          {
+            "week": 6,
+            "status": "bye"
+          },
+          {
+            "week": 7,
+            "status": "played",
+            "team": "CIN",
+            "opponent": "BAL",
+            "targets": 7.0,
+            "target_share": 25.0,
+            "air_yards": 137.0,
+            "air_yards_share": 58.8,
+            "wopr": 0.787,
+            "racr": 1.08,
+            "carries": 0.0,
+            "carries_share": 0.0,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          }
+        ],
+        "trends": {
+          "target_share": {
+            "average": 25.0,
+            "latest": 25.0,
+            "change_over_window": 0.0,
+            "direction": "insufficient_data",
+            "weeks": 1
+          },
+          "air_yards_share": {
+            "average": 58.8,
+            "latest": 58.8,
+            "change_over_window": 0.0,
+            "direction": "insufficient_data",
+            "weeks": 1
+          },
+          "wopr": {
+            "average": 0.787,
+            "latest": 0.787,
+            "change_over_window": 0.0,
+            "direction": "insufficient_data",
+            "weeks": 1
+          },
+          "carries_share": {
+            "average": 0.0,
+            "latest": 0.0,
+            "change_over_window": 0.0,
+            "direction": "insufficient_data",
+            "weeks": 1
+          }
+        },
+        "flags": []
+      },
+      {
+        "player": "Christian McCaffrey",
+        "sleeper_id": null,
+        "position": "RB",
+        "team": "SF",
+        "found_in_nflverse": true,
+        "weeks": [
+          {
+            "week": 6,
+            "status": "played",
+            "team": "SF",
+            "opponent": "WSH",
+            "targets": 10.0,
+            "target_share": 34.5,
+            "air_yards": 17.0,
+            "air_yards_share": 6.8,
+            "wopr": 0.565,
+            "racr": 3.12,
+            "carries": 16.0,
+            "carries_share": 55.2,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          },
+          {
+            "week": 7,
+            "status": "played",
+            "team": "SF",
+            "opponent": "ATL",
+            "targets": 7.0,
+            "target_share": 17.9,
+            "air_yards": 39.0,
+            "air_yards_share": 12.9,
+            "wopr": 0.36,
+            "racr": 1.56,
+            "carries": 7.0,
+            "carries_share": 30.4,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          }
+        ],
+        "trends": {
+          "target_share": {
+            "average": 26.2,
+            "latest": 17.9,
+            "change_over_window": -16.6,
+            "direction": "falling",
+            "weeks": 2
+          },
+          "air_yards_share": {
+            "average": 9.8,
+            "latest": 12.9,
+            "change_over_window": 6.1,
+            "direction": "rising",
+            "weeks": 2
+          },
+          "wopr": {
+            "average": 0.462,
+            "latest": 0.36,
+            "change_over_window": -0.205,
+            "direction": "falling",
+            "weeks": 2
+          },
+          "carries_share": {
+            "average": 42.8,
+            "latest": 30.4,
+            "change_over_window": -24.8,
+            "direction": "falling",
+            "weeks": 2
+          }
+        },
+        "flags": []
+      },
+      {
+        "player": "Colston Loveland",
+        "sleeper_id": null,
+        "position": "TE",
+        "team": "CHI",
+        "found_in_nflverse": true,
+        "weeks": [
+          {
+            "week": 6,
+            "status": "played",
+            "team": "CHI",
+            "opponent": "ATL",
+            "targets": 7.0,
+            "target_share": 21.2,
+            "air_yards": 33.0,
+            "air_yards_share": 23.4,
+            "wopr": 0.482,
+            "racr": 1.97,
+            "carries": 0.0,
+            "carries_share": 0.0,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          },
+          {
+            "week": 7,
+            "status": "played",
+            "team": "CHI",
+            "opponent": "NE",
+            "targets": 12.0,
+            "target_share": 40.0,
+            "air_yards": 112.0,
+            "air_yards_share": 39.0,
+            "wopr": 0.873,
+            "racr": 0.62,
+            "carries": 0.0,
+            "carries_share": 0.0,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          }
+        ],
+        "trends": {
+          "target_share": {
+            "average": 30.6,
+            "latest": 40.0,
+            "change_over_window": 18.8,
+            "direction": "rising",
+            "weeks": 2
+          },
+          "air_yards_share": {
+            "average": 31.2,
+            "latest": 39.0,
+            "change_over_window": 15.6,
+            "direction": "rising",
+            "weeks": 2
+          },
+          "wopr": {
+            "average": 0.677,
+            "latest": 0.873,
+            "change_over_window": 0.391,
+            "direction": "rising",
+            "weeks": 2
+          },
+          "carries_share": {
+            "average": 0.0,
+            "latest": 0.0,
+            "change_over_window": 0.0,
+            "direction": "stable",
+            "weeks": 2
+          }
+        },
+        "flags": []
+      },
+      {
+        "player": "Puka Nacua",
+        "sleeper_id": null,
+        "position": "WR",
+        "team": "LAR",
+        "found_in_nflverse": true,
+        "weeks": [
+          {
+            "week": 6,
+            "status": "played",
+            "team": "LAR",
+            "opponent": "ARI",
+            "targets": 7.0,
+            "target_share": 21.9,
+            "air_yards": 60.0,
+            "air_yards_share": 38.2,
+            "wopr": 0.596,
+            "racr": 1.33,
+            "carries": 0.0,
+            "carries_share": 0.0,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          },
+          {
+            "week": 7,
+            "status": "played",
+            "team": "LAR",
+            "opponent": "LV",
+            "targets": 10.0,
+            "target_share": 34.5,
+            "air_yards": 57.0,
+            "air_yards_share": 34.8,
+            "wopr": 0.761,
+            "racr": 1.19,
+            "carries": 2.0,
+            "carries_share": 5.3,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          }
+        ],
+        "trends": {
+          "target_share": {
+            "average": 28.2,
+            "latest": 34.5,
+            "change_over_window": 12.6,
+            "direction": "rising",
+            "weeks": 2
+          },
+          "air_yards_share": {
+            "average": 36.5,
+            "latest": 34.8,
+            "change_over_window": -3.4,
+            "direction": "stable",
+            "weeks": 2
+          },
+          "wopr": {
+            "average": 0.678,
+            "latest": 0.761,
+            "change_over_window": 0.165,
+            "direction": "rising",
+            "weeks": 2
+          },
+          "carries_share": {
+            "average": 2.6,
+            "latest": 5.3,
+            "change_over_window": 5.3,
+            "direction": "rising",
+            "weeks": 2
+          }
+        },
+        "flags": []
+      },
+      {
+        "player": "Drake London",
+        "sleeper_id": null,
+        "position": "WR",
+        "team": "ATL",
+        "found_in_nflverse": true,
+        "weeks": [
+          {
+            "week": 6,
+            "status": "played",
+            "team": "ATL",
+            "opponent": "CHI",
+            "targets": 10.0,
+            "target_share": 30.3,
+            "air_yards": 143.0,
+            "air_yards_share": 44.0,
+            "wopr": 0.763,
+            "racr": 0.43,
+            "carries": 0.0,
+            "carries_share": 0.0,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          },
+          {
+            "week": 7,
+            "status": "played",
+            "team": "ATL",
+            "opponent": "SF",
+            "targets": 10.0,
+            "target_share": 31.2,
+            "air_yards": 86.0,
+            "air_yards_share": 42.6,
+            "wopr": 0.767,
+            "racr": 0.77,
+            "carries": 0.0,
+            "carries_share": 0.0,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          }
+        ],
+        "trends": {
+          "target_share": {
+            "average": 30.8,
+            "latest": 31.2,
+            "change_over_window": 0.9,
+            "direction": "stable",
+            "weeks": 2
+          },
+          "air_yards_share": {
+            "average": 43.3,
+            "latest": 42.6,
+            "change_over_window": -1.4,
+            "direction": "stable",
+            "weeks": 2
+          },
+          "wopr": {
+            "average": 0.765,
+            "latest": 0.767,
+            "change_over_window": 0.004,
+            "direction": "stable",
+            "weeks": 2
+          },
+          "carries_share": {
+            "average": 0.0,
+            "latest": 0.0,
+            "change_over_window": 0.0,
+            "direction": "stable",
+            "weeks": 2
+          }
+        },
+        "flags": []
+      },
+      {
+        "player": "Zay Flowers",
+        "sleeper_id": null,
+        "position": "WR",
+        "team": "BAL",
+        "found_in_nflverse": true,
+        "weeks": [
+          {
+            "week": 6,
+            "status": "played",
+            "team": "BAL",
+            "opponent": "CLE",
+            "targets": 11.0,
+            "target_share": 35.5,
+            "air_yards": 106.0,
+            "air_yards_share": 38.8,
+            "wopr": 0.804,
+            "racr": 0.62,
+            "carries": 1.0,
+            "carries_share": 4.3,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          },
+          {
+            "week": 7,
+            "status": "played",
+            "team": "BAL",
+            "opponent": "CIN",
+            "targets": 11.0,
+            "target_share": 32.4,
+            "air_yards": 62.0,
+            "air_yards_share": 25.9,
+            "wopr": 0.667,
+            "racr": 2.21,
+            "carries": 0.0,
+            "carries_share": 0.0,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          }
+        ],
+        "trends": {
+          "target_share": {
+            "average": 34.0,
+            "latest": 32.4,
+            "change_over_window": -3.1,
+            "direction": "falling",
+            "weeks": 2
+          },
+          "air_yards_share": {
+            "average": 32.3,
+            "latest": 25.9,
+            "change_over_window": -12.9,
+            "direction": "falling",
+            "weeks": 2
+          },
+          "wopr": {
+            "average": 0.736,
+            "latest": 0.667,
+            "change_over_window": -0.137,
+            "direction": "falling",
+            "weeks": 2
+          },
+          "carries_share": {
+            "average": 2.1,
+            "latest": 0.0,
+            "change_over_window": -4.3,
+            "direction": "stable",
+            "weeks": 2
+          }
+        },
+        "flags": []
+      },
+      {
+        "player": "Trey McBride",
+        "sleeper_id": null,
+        "position": "TE",
+        "team": "ARI",
+        "found_in_nflverse": true,
+        "weeks": [
+          {
+            "week": 6,
+            "status": "played",
+            "team": "ARI",
+            "opponent": "LAR",
+            "targets": 9.0,
+            "target_share": 26.5,
+            "air_yards": 28.0,
+            "air_yards_share": 15.1,
+            "wopr": 0.502,
+            "racr": 1.89,
+            "carries": 0.0,
+            "carries_share": 0.0,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          },
+          {
+            "week": 7,
+            "status": "played",
+            "team": "ARI",
+            "opponent": "DEN",
+            "targets": 13.0,
+            "target_share": 29.5,
+            "air_yards": 106.0,
+            "air_yards_share": 34.0,
+            "wopr": 0.681,
+            "racr": 1.05,
+            "carries": 0.0,
+            "carries_share": 0.0,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          }
+        ],
+        "trends": {
+          "target_share": {
+            "average": 28.0,
+            "latest": 29.5,
+            "change_over_window": 3.0,
+            "direction": "rising",
+            "weeks": 2
+          },
+          "air_yards_share": {
+            "average": 24.6,
+            "latest": 34.0,
+            "change_over_window": 18.9,
+            "direction": "rising",
+            "weeks": 2
+          },
+          "wopr": {
+            "average": 0.592,
+            "latest": 0.681,
+            "change_over_window": 0.179,
+            "direction": "rising",
+            "weeks": 2
+          },
+          "carries_share": {
+            "average": 0.0,
+            "latest": 0.0,
+            "change_over_window": 0.0,
+            "direction": "stable",
+            "weeks": 2
+          }
+        },
+        "flags": []
+      },
+      {
+        "player": "Caleb Williams",
+        "sleeper_id": null,
+        "position": "QB",
+        "team": "CHI",
+        "found_in_nflverse": true,
+        "weeks": [
+          {
+            "week": 6,
+            "status": "played",
+            "team": "CHI",
+            "opponent": "ATL",
+            "targets": 0.0,
+            "target_share": 0.0,
+            "air_yards": 0.0,
+            "air_yards_share": 0.0,
+            "wopr": 0.0,
+            "racr": null,
+            "carries": 4.0,
+            "carries_share": 12.1,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          },
+          {
+            "week": 7,
+            "status": "played",
+            "team": "CHI",
+            "opponent": "NE",
+            "targets": 0.0,
+            "target_share": 0.0,
+            "air_yards": 0.0,
+            "air_yards_share": 0.0,
+            "wopr": 0.0,
+            "racr": null,
+            "carries": 5.0,
+            "carries_share": 16.7,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          }
+        ],
+        "trends": {
+          "carries_share": {
+            "average": 14.4,
+            "latest": 16.7,
+            "change_over_window": 4.6,
+            "direction": "stable",
+            "weeks": 2
+          }
+        },
+        "flags": []
+      },
+      {
+        "player": "Harold Fannin Jr.",
+        "sleeper_id": null,
+        "position": "TE",
+        "team": "CLE",
+        "found_in_nflverse": true,
+        "weeks": [
+          {
+            "week": 6,
+            "status": "played",
+            "team": "CLE",
+            "opponent": "BAL",
+            "targets": 3.0,
+            "target_share": 12.0,
+            "air_yards": 10.0,
+            "air_yards_share": 4.8,
+            "wopr": 0.213,
+            "racr": 0.9,
+            "carries": 0.0,
+            "carries_share": 0.0,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          },
+          {
+            "week": 7,
+            "status": "played",
+            "team": "CLE",
+            "opponent": "TEN",
+            "targets": 9.0,
+            "target_share": 25.7,
+            "air_yards": 38.0,
+            "air_yards_share": 12.9,
+            "wopr": 0.476,
+            "racr": 2.39,
+            "carries": 0.0,
+            "carries_share": 0.0,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          }
+        ],
+        "trends": {
+          "target_share": {
+            "average": 18.9,
+            "latest": 25.7,
+            "change_over_window": 13.7,
+            "direction": "rising",
+            "weeks": 2
+          },
+          "air_yards_share": {
+            "average": 8.8,
+            "latest": 12.9,
+            "change_over_window": 8.1,
+            "direction": "rising",
+            "weeks": 2
+          },
+          "wopr": {
+            "average": 0.344,
+            "latest": 0.476,
+            "change_over_window": 0.263,
+            "direction": "rising",
+            "weeks": 2
+          },
+          "carries_share": {
+            "average": 0.0,
+            "latest": 0.0,
+            "change_over_window": 0.0,
+            "direction": "stable",
+            "weeks": 2
+          }
+        },
+        "flags": []
+      },
+      {
+        "player": "CeeDee Lamb",
+        "sleeper_id": null,
+        "position": "WR",
+        "team": "DAL",
+        "found_in_nflverse": true,
+        "weeks": [
+          {
+            "week": 6,
+            "status": "played",
+            "team": "DAL",
+            "opponent": "GB",
+            "targets": 18.0,
+            "target_share": 33.3,
+            "air_yards": 153.0,
+            "air_yards_share": 41.0,
+            "wopr": 0.787,
+            "racr": 0.46,
+            "carries": 0.0,
+            "carries_share": 0.0,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          },
+          {
+            "week": 7,
+            "status": "played",
+            "team": "DAL",
+            "opponent": "PHI",
+            "targets": 12.0,
+            "target_share": 46.2,
+            "air_yards": 176.0,
+            "air_yards_share": 50.3,
+            "wopr": 1.044,
+            "racr": 0.42,
+            "carries": 0.0,
+            "carries_share": 0.0,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          }
+        ],
+        "trends": {
+          "target_share": {
+            "average": 39.8,
+            "latest": 46.2,
+            "change_over_window": 12.9,
+            "direction": "rising",
+            "weeks": 2
+          },
+          "air_yards_share": {
+            "average": 45.6,
+            "latest": 50.3,
+            "change_over_window": 9.3,
+            "direction": "rising",
+            "weeks": 2
+          },
+          "wopr": {
+            "average": 0.915,
+            "latest": 1.044,
+            "change_over_window": 0.257,
+            "direction": "rising",
+            "weeks": 2
+          },
+          "carries_share": {
+            "average": 0.0,
+            "latest": 0.0,
+            "change_over_window": 0.0,
+            "direction": "stable",
+            "weeks": 2
+          }
+        },
+        "flags": []
+      },
+      {
+        "player": "Bucky Irving",
+        "sleeper_id": null,
+        "position": "RB",
+        "team": "TB",
+        "found_in_nflverse": true,
+        "weeks": [
+          {
+            "week": 6,
+            "status": "played",
+            "team": "TB",
+            "opponent": "PIT",
+            "targets": 3.0,
+            "target_share": 7.3,
+            "air_yards": -9.0,
+            "air_yards_share": -3.3,
+            "wopr": 0.087,
+            "racr": -0.33,
+            "carries": 19.0,
+            "carries_share": 76.0,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          },
+          {
+            "week": 7,
+            "status": "played",
+            "team": "TB",
+            "opponent": "CAR",
+            "targets": 2.0,
+            "target_share": 18.2,
+            "air_yards": -6.0,
+            "air_yards_share": -20.7,
+            "wopr": 0.128,
+            "racr": -0.67,
+            "carries": 24.0,
+            "carries_share": 49.0,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          }
+        ],
+        "trends": {
+          "target_share": {
+            "average": 12.8,
+            "latest": 18.2,
+            "change_over_window": 10.9,
+            "direction": "rising",
+            "weeks": 2
+          },
+          "air_yards_share": {
+            "average": -12.0,
+            "latest": -20.7,
+            "change_over_window": -17.4,
+            "direction": "falling",
+            "weeks": 2
+          },
+          "wopr": {
+            "average": 0.107,
+            "latest": 0.128,
+            "change_over_window": 0.041,
+            "direction": "stable",
+            "weeks": 2
+          },
+          "carries_share": {
+            "average": 62.5,
+            "latest": 49.0,
+            "change_over_window": -27.0,
+            "direction": "falling",
+            "weeks": 2
+          }
+        },
+        "flags": []
+      },
+      {
+        "player": "Drake Maye",
+        "sleeper_id": null,
+        "position": "QB",
+        "team": "NE",
+        "found_in_nflverse": true,
+        "weeks": [
+          {
+            "week": 6,
+            "status": "played",
+            "team": "NE",
+            "opponent": "NYJ",
+            "targets": 0.0,
+            "target_share": 0.0,
+            "air_yards": 0.0,
+            "air_yards_share": 0.0,
+            "wopr": 0.0,
+            "racr": null,
+            "carries": 4.0,
+            "carries_share": 11.1,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          },
+          {
+            "week": 7,
+            "status": "played",
+            "team": "NE",
+            "opponent": "CHI",
+            "targets": 0.0,
+            "target_share": 0.0,
+            "air_yards": 0.0,
+            "air_yards_share": 0.0,
+            "wopr": 0.0,
+            "racr": null,
+            "carries": 4.0,
+            "carries_share": 23.5,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          }
+        ],
+        "trends": {
+          "carries_share": {
+            "average": 17.3,
+            "latest": 23.5,
+            "change_over_window": 12.4,
+            "direction": "rising",
+            "weeks": 2
+          }
+        },
+        "flags": []
+      },
+      {
+        "player": "Jonathan Taylor",
+        "sleeper_id": null,
+        "position": "RB",
+        "team": "IND",
+        "found_in_nflverse": true,
+        "weeks": [
+          {
+            "week": 6,
+            "status": "played",
+            "team": "IND",
+            "opponent": "TEN",
+            "targets": 4.0,
+            "target_share": 10.5,
+            "air_yards": -1.0,
+            "air_yards_share": -0.2,
+            "wopr": 0.156,
+            "racr": -57.0,
+            "carries": 21.0,
+            "carries_share": 70.0,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          },
+          {
+            "week": 7,
+            "status": "played",
+            "team": "IND",
+            "opponent": "MIN",
+            "targets": 3.0,
+            "target_share": 14.3,
+            "air_yards": -8.0,
+            "air_yards_share": -7.0,
+            "wopr": 0.166,
+            "racr": -1.88,
+            "carries": 18.0,
+            "carries_share": 54.5,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          }
+        ],
+        "trends": {
+          "target_share": {
+            "average": 12.4,
+            "latest": 14.3,
+            "change_over_window": 3.8,
+            "direction": "rising",
+            "weeks": 2
+          },
+          "air_yards_share": {
+            "average": -3.6,
+            "latest": -7.0,
+            "change_over_window": -6.8,
+            "direction": "falling",
+            "weeks": 2
+          },
+          "wopr": {
+            "average": 0.161,
+            "latest": 0.166,
+            "change_over_window": 0.01,
+            "direction": "stable",
+            "weeks": 2
+          },
+          "carries_share": {
+            "average": 62.2,
+            "latest": 54.5,
+            "change_over_window": -15.5,
+            "direction": "falling",
+            "weeks": 2
+          }
+        },
+        "flags": []
+      },
+      {
+        "player": "Jaxon Smith-Njigba",
+        "sleeper_id": null,
+        "position": "WR",
+        "team": "SEA",
+        "found_in_nflverse": true,
+        "weeks": [
+          {
+            "week": 6,
+            "status": "played",
+            "team": "SEA",
+            "opponent": "DEN",
+            "targets": 16.0,
+            "target_share": 34.8,
+            "air_yards": 183.0,
+            "air_yards_share": 43.2,
+            "wopr": 0.824,
+            "racr": 0.73,
+            "carries": 0.0,
+            "carries_share": 0.0,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          },
+          {
+            "week": 7,
+            "status": "played",
+            "team": "SEA",
+            "opponent": "KC",
+            "targets": 12.0,
+            "target_share": 44.4,
+            "air_yards": 117.0,
+            "air_yards_share": 79.1,
+            "wopr": 1.22,
+            "racr": 1.28,
+            "carries": 2.0,
+            "carries_share": 4.9,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          }
+        ],
+        "trends": {
+          "target_share": {
+            "average": 39.6,
+            "latest": 44.4,
+            "change_over_window": 9.6,
+            "direction": "rising",
+            "weeks": 2
+          },
+          "air_yards_share": {
+            "average": 61.1,
+            "latest": 79.1,
+            "change_over_window": 35.9,
+            "direction": "rising",
+            "weeks": 2
+          },
+          "wopr": {
+            "average": 1.022,
+            "latest": 1.22,
+            "change_over_window": 0.396,
+            "direction": "rising",
+            "weeks": 2
+          },
+          "carries_share": {
+            "average": 2.5,
+            "latest": 4.9,
+            "change_over_window": 4.9,
+            "direction": "stable",
+            "weeks": 2
+          }
+        },
+        "flags": []
+      },
+      {
+        "player": "Rhamondre Stevenson",
+        "sleeper_id": null,
+        "position": "RB",
+        "team": "NE",
+        "found_in_nflverse": true,
+        "weeks": [
+          {
+            "week": 6,
+            "status": "played",
+            "team": "NE",
+            "opponent": "NYJ",
+            "targets": 0.0,
+            "target_share": 0.0,
+            "air_yards": 0.0,
+            "air_yards_share": 0.0,
+            "wopr": 0.0,
+            "racr": null,
+            "carries": 14.0,
+            "carries_share": 38.9,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          },
+          {
+            "week": 7,
+            "status": "played",
+            "team": "NE",
+            "opponent": "CHI",
+            "targets": 5.0,
+            "target_share": 16.7,
+            "air_yards": 27.0,
+            "air_yards_share": 9.6,
+            "wopr": 0.318,
+            "racr": 3.44,
+            "carries": 6.0,
+            "carries_share": 35.3,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          }
+        ],
+        "trends": {
+          "target_share": {
+            "average": 8.3,
+            "latest": 16.7,
+            "change_over_window": 16.7,
+            "direction": "rising",
+            "weeks": 2
+          },
+          "air_yards_share": {
+            "average": 4.8,
+            "latest": 9.6,
+            "change_over_window": 9.6,
+            "direction": "rising",
+            "weeks": 2
+          },
+          "wopr": {
+            "average": 0.159,
+            "latest": 0.318,
+            "change_over_window": 0.318,
+            "direction": "rising",
+            "weeks": 2
+          },
+          "carries_share": {
+            "average": 37.1,
+            "latest": 35.3,
+            "change_over_window": -3.6,
+            "direction": "stable",
+            "weeks": 2
+          }
+        },
+        "flags": []
+      },
+      {
+        "player": "Jahmyr Gibbs",
+        "sleeper_id": null,
+        "position": "RB",
+        "team": "DET",
+        "found_in_nflverse": true,
+        "weeks": [
+          {
+            "week": 6,
+            "status": "bye"
+          },
+          {
+            "week": 7,
+            "status": "played",
+            "team": "DET",
+            "opponent": "GB",
+            "targets": 6.0,
+            "target_share": 19.4,
+            "air_yards": -12.0,
+            "air_yards_share": -4.7,
+            "wopr": 0.258,
+            "racr": -2.25,
+            "carries": 29.0,
+            "carries_share": 87.9,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          }
+        ],
+        "trends": {
+          "target_share": {
+            "average": 19.4,
+            "latest": 19.4,
+            "change_over_window": 0.0,
+            "direction": "insufficient_data",
+            "weeks": 1
+          },
+          "air_yards_share": {
+            "average": -4.7,
+            "latest": -4.7,
+            "change_over_window": 0.0,
+            "direction": "insufficient_data",
+            "weeks": 1
+          },
+          "wopr": {
+            "average": 0.258,
+            "latest": 0.258,
+            "change_over_window": 0.0,
+            "direction": "insufficient_data",
+            "weeks": 1
+          },
+          "carries_share": {
+            "average": 87.9,
+            "latest": 87.9,
+            "change_over_window": 0.0,
+            "direction": "insufficient_data",
+            "weeks": 1
+          }
+        },
+        "flags": []
+      },
+      {
+        "player": "Ja'Marr Chase",
+        "sleeper_id": null,
+        "position": "WR",
+        "team": "CIN",
+        "found_in_nflverse": true,
+        "weeks": [
+          {
+            "week": 6,
+            "status": "bye"
+          },
+          {
+            "week": 7,
+            "status": "played",
+            "team": "CIN",
+            "opponent": "BAL",
+            "targets": 7.0,
+            "target_share": 25.0,
+            "air_yards": 67.0,
+            "air_yards_share": 28.8,
+            "wopr": 0.576,
+            "racr": 0.93,
+            "carries": 0.0,
+            "carries_share": 0.0,
+            "snap_share": null,
+            "rz_targets": null,
+            "rz_carries": null,
+            "rz_opportunities": null,
+            "rz_pass_attempts": null
+          }
+        ],
+        "trends": {
+          "target_share": {
+            "average": 25.0,
+            "latest": 25.0,
+            "change_over_window": 0.0,
+            "direction": "insufficient_data",
+            "weeks": 1
+          },
+          "air_yards_share": {
+            "average": 28.8,
+            "latest": 28.8,
+            "change_over_window": 0.0,
+            "direction": "insufficient_data",
+            "weeks": 1
+          },
+          "wopr": {
+            "average": 0.576,
+            "latest": 0.576,
+            "change_over_window": 0.0,
+            "direction": "insufficient_data",
+            "weeks": 1
+          },
+          "carries_share": {
+            "average": 0.0,
+            "latest": 0.0,
+            "change_over_window": 0.0,
+            "direction": "insufficient_data",
+            "weeks": 1
+          }
+        },
+        "flags": []
+      }
+    ],
+    "count": 24,
+    "sources": {
+      "shares": "nflverse weekly player stats (target_share, air_yards_share, wopr, racr; carries share = carries / team carries)",
+      "snaps_and_red_zone": "Sleeper weekly stats (off_snp / tm_off_snp; rec_rz_tgt + rush_rz_att) — counted, not estimated"
+    },
+    "trend_method": "least-squares change across the played weeks of the window; rising/falling past target share 3, air-yards share 5, WOPR 0.05, snap share 5, carries share 5, red-zone opportunities 1",
+    "notes": [],
+    "message": "Usage trends for 24 player(s), weeks 6-7 of 2026."
+  }
+}

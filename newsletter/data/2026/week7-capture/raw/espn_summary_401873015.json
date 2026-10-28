@@ -1,0 +1,866 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "New York Jets",
+        "guid": "732d3caf-b350-1e34-48c6-b7cebb4a0d88",
+        "id": 2378,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "NYJ",
+          "description": "New York Jets",
+          "id": 20,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/nyj/new-york-jets"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/nyj/new-york-jets"
+              }
+            }
+          },
+          "shortDisplayName": "Jets"
+        },
+        "teamId": 20,
+        "type": "team",
+        "uid": "s:20~l:28~t:20"
+      },
+      {
+        "description": "Miami Dolphins",
+        "guid": "af33088b-1e19-d27d-dbc0-354fd7151703",
+        "id": 2258,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "MIA",
+          "description": "Miami Dolphins",
+          "id": 15,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/mia/miami-dolphins"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/mia/miami-dolphins"
+              }
+            }
+          },
+          "shortDisplayName": "Dolphins"
+        },
+        "teamId": 15,
+        "type": "team",
+        "uid": "s:20~l:28~t:15"
+      },
+      {
+        "description": "Miami Dolphins @ New York Jets",
+        "event": {
+          "description": "Miami Dolphins @ New York Jets",
+          "id": 401873015,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873015"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873015"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873015,
+        "guid": "dc8086aa-f817-3837-a245-af5f05e9b553",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873015"
+      }
+    ],
+    "categorized": "2026-10-26T04:16:44Z",
+    "contentKey": "50280095-1-21-1",
+    "dataSourceIdentifier": "c74be3e297ab9",
+    "description": "— Jeff Hafley had a towel draped around his neck as he stepped to the podium and the Miami Dolphins coach wiped his face one last time before taking questions from reporters.",
+    "gameId": "401873015",
+    "headline": "Malik Willis sparks first win for Jeff Hafley and Dolphins hold off late Jets rally in 28-25 victory",
+    "id": 50280095,
+    "images": [
+      {
+        "caption": "Garrett Wilson frustrated on the Jets' sidelines",
+        "height": 324,
+        "name": "Garrett Wilson frustrated on the Jets' sidelines",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/ss_20261025_201955396_371158716/ss_20261025_201955396_371158716.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "New York Jets",
+      "Miami Dolphins",
+      "Miami Dolphins @ New York Jets"
+    ],
+    "lastModified": "2026-10-25T21:49:47Z",
+    "linkText": "Malik Willis sparks first win for Jeff Hafley and Dolphins hold off late Jets rally in 28-25 victory",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50280095"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50280095"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50280095"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873015"
+      }
+    },
+    "nowId": "1-50280095",
+    "originallyPosted": "2026-10-25T20:25:45Z",
+    "premium": false,
+    "published": "2026-10-25T20:25:45Z",
+    "publishedkey": "nfl401873015",
+    "section": "NFL",
+    "source": "AP",
+    "story": "EAST RUTHERFORD, N.J. -- — Jeff Hafley had a towel draped around his neck as he stepped to the podium and the <a href=\"http://www.espn.com/nfl/team/_/name/mia/miami-dolphins\">Miami Dolphins</a> coach wiped his face one last time before taking questions from reporters.\n\n\r\n              He had just been doused by his players in the middle of a jubilant locker room after they held on for a 28-25 victory — his first leading the Dolphins — over the <a href=\"http://www.espn.com/nfl/team/_/name/nyj/new-york-jets\">New York Jets</a> on Sunday.\n\n\r\n              “I grabbed every guy as they ran in,” a happy Hafley said. \"My socks are wet. I had so much water on me. It was a really, really special moment, one that I’m appreciative of and one that I won’t forget. It was fun. \n\n\r\n              “They deserve it. You could feel a lot come out of it. I'm very happy for the players. They did a great job.”\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4242512/malik-willis\">Malik Willis</a> threw two touchdown passes and ran for a score, and made a victory-sealing 2-yard push up the middle on fourth-and-1 as the Dolphins (1-5) came off their bye-week break and avoided their first 0-6 start since 2019. \n\n\r\n              “It was awesome,” said Willis, who was 14 of 21 for 208 yards and two TD passes to rookie <a href=\"http://www.espn.com/nfl/player/_/id/4869645/caleb-douglas\">Caleb Douglas</a>. He also ran for 37 yards on eight carries, but the last one was the biggest of the game.\n\n\r\n              The Jets (2-5) made a late push trailing 28-17. On fourth-and-4, <a href=\"http://www.espn.com/nfl/player/_/id/15864/geno-smith\">Geno Smith</a> completed a short pass to <a href=\"http://www.espn.com/nfl/player/_/id/4695404/isaiah-davis\">Isaiah Davis</a>, who zipped downfield 41 yards to the Dolphins 18. Three plays later, Smith found <a href=\"http://www.espn.com/nfl/player/_/id/4808766/mason-taylor\">Mason Taylor</a> for a 12-yard touchdown, the tight end's second of the game. \n\n\r\n              Penalties negated New York's first two 2-point tries before Smith threw to Taylor to make it 28-25 with 3:24 left.\n\n\r\n              Looking to end it, the Dolphins faced fourth-and-1 from the Jets 49 at the two-minute warning and Hafley went straight to his offensive linemen.\n\n\r\n              “I asked them what they thought,” Hafley said. “When I saw the look in their eyes, I was very confident that we’d get it. As soon as I saw that, there was no doubt in my mind that we’d go for it.”\n\n\r\n              Passing up the punt, Hafley left it to the offense — and Willis pushed forward for 2 yards as the Dolphins celebrated. \n\n\r\n              “He trusted us,” Willis said, \"and we trusted him.”\n\n\r\n              Hafley, who grew up about 20 minutes north of MetLife Stadium in Montvale, got the win in front of about 30 friends and family members.\n\n\r\n              The Jets, meanwhile, dropped to 0-8 against AFC East opponents under Aaron Glenn, including consecutive losses to New England and Miami.\n\n\r\n              “When it comes to this game, highly disappointed,” Glenn said. “Disappointed in myself, first and foremost.”\n\n\r\n              Smith was 23 of 30 for 287 yards and three touchdowns, the two to Taylor and another to <a href=\"http://www.espn.com/nfl/player/_/id/4723820/omar-cooper-jr\">Omar Cooper Jr</a>., and an interception. <a href=\"http://www.espn.com/nfl/player/_/id/4685247/braelon-allen\">Braelon Allen</a> had 104 yards rushing.\n\n\r\n              <hl2>Dolphins and Jets start things off with a scoring spree</hl2>\r\n              The Dolphins started quickly, marching 76 yards on seven plays and taking their first lead in any game this season on Willis' 7-yard touchdown pass to Douglas.\n\n\r\n              It also ended New York's streak of not allowing any points on an opening possession in five straight games.\n\n\r\n              But the Jets came right back with a 13-yard touchdown catch by Taylor — son of former Dolphins star and Pro Football Hall of Famer Jason Taylor — to tie it. It's the third straight game in which New York scored on its opening drive.\n\n\r\n              Miami then went on a 14-play drive that was capped by a 1-yard touchdown run by Gordon, who finished with 103 yards rushing. \n\n\r\n              New York was driving again on its next possession at the Miami 21 when Smith was intercepted by <a href=\"http://www.espn.com/nfl/player/_/id/4880346/michael-taaffe\">Michael Taaffe</a>.\n\n\r\n              The Dolphins' touchdown streak ended on their third possession when they went three-and-out. They got right back at it on their next drive, with Willis scoring on a 2-yard scramble with 6 seconds left in the first half.\n\n\r\n              <hl2>Jets' woes extend into the second half</hl2>\r\n              Allen gave New York some immediate second-half juice with a 27-yard run on the Jets' first play of the third quarter, but the drive stalled. Adding to the misery, <a href=\"http://www.espn.com/nfl/player/_/id/3124679/jason-sanders\">Jason Sanders</a> — a longtime Dolphins kicker in his first season with the Jets — hit the right upright on a 40-yard try.\n\n\r\n              Cooper got New York's next drive started with a 60-yard reception, and ended it five plays later with a 3-yard touchdown catch to make it a one-score game at 21-14 with 5:50 left in the third quarter.\n\n\r\n              The Jets later got to the Dolphins 1, but couldn't punch it in on runs by <a href=\"http://www.espn.com/nfl/player/_/id/3125107/andrew-beck\">Andrew Beck</a> and Allen and settled for a 33-yard field goal when Smith was sacked on third down.\n\n\r\n              Willis side-armed a short toss to Douglas, who tiptoed the sideline after the catch and raced for a 63-yard touchdown that put Miami up 28-17 with 4:44 remaining.\n\n\r\n              <hl2>Injuries</hl2>\r\n              Dolphins: RB <a href=\"http://www.espn.com/nfl/player/_/id/4682745/jaylen-wright\">Jaylen Wright</a> left in the fourth quarter with an injured quadriceps. ... S <a href=\"http://www.espn.com/nfl/player/_/id/4431664/dante-trader-jr\">Dante Trader Jr</a>. hurt his left shoulder in the third quarter. ... CB <a href=\"http://www.espn.com/nfl/player/_/id/4360488/juju-brents\">JuJu Brents</a> left with a stinger in the second half, but returned in the fourth quarter.\n\n\r\n              Jets: DT <a href=\"http://www.espn.com/nfl/player/_/id/4428617/t'vondre-sweat\">T'Vondre Sweat</a> limped off with a knee injury late in the second quarter and didn't return.\n\n\r\n              <hl2>Up next</hl2>\r\n              Dolphins: Host New England next Sunday.\n\n\r\n              Jets: Host Las Vegas next Sunday.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": []
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "10:53",
+        "value": 653.0
+      },
+      "homeScore": 0,
+      "id": "401873015213",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "MIA",
+        "displayName": "Miami Dolphins",
+        "id": "15",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/mia/miami-dolphins",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/mia",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:15"
+      },
+      "text": "Caleb Douglas 7 Yd pass from Malik Willis (Zane Gonzalez Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "8:37",
+        "value": 517.0
+      },
+      "homeScore": 7,
+      "id": "401873015361",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "NYJ",
+        "displayName": "New York Jets",
+        "id": "20",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/nyj/new-york-jets",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/nyj",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/nyj.png",
+            "lastUpdated": "2024-10-30T17:29Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+            "lastUpdated": "2024-07-02T15:08Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/nyj.png",
+            "lastUpdated": "2024-07-02T15:09Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:20"
+      },
+      "text": "Mason Taylor 13 Yd pass from Geno Smith (Jason Sanders Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 14,
+      "clock": {
+        "displayValue": "1:02",
+        "value": 62.0
+      },
+      "homeScore": 7,
+      "id": "401873015751",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "MIA",
+        "displayName": "Miami Dolphins",
+        "id": "15",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/mia/miami-dolphins",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/mia",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:15"
+      },
+      "text": "Ollie Gordon II 1 Yd Run (Zane Gonzalez Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 21,
+      "clock": {
+        "displayValue": "0:06",
+        "value": 6.0
+      },
+      "homeScore": 7,
+      "id": "4018730151802",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "MIA",
+        "displayName": "Miami Dolphins",
+        "id": "15",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/mia/miami-dolphins",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/mia",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:15"
+      },
+      "text": "Malik Willis 2 Yd Rush (Zane Gonzalez Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 21,
+      "clock": {
+        "displayValue": "5:50",
+        "value": 350.0
+      },
+      "homeScore": 14,
+      "id": "4018730152427",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "NYJ",
+        "displayName": "New York Jets",
+        "id": "20",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/nyj/new-york-jets",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/nyj",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/nyj.png",
+            "lastUpdated": "2024-10-30T17:29Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+            "lastUpdated": "2024-07-02T15:08Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/nyj.png",
+            "lastUpdated": "2024-07-02T15:09Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:20"
+      },
+      "text": "Omar Cooper Jr. 3 Yd pass from Geno Smith (Jason Sanders Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 21,
+      "clock": {
+        "displayValue": "8:57",
+        "value": 537.0
+      },
+      "homeScore": 17,
+      "id": "4018730153046",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "NYJ",
+        "displayName": "New York Jets",
+        "id": "20",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/nyj/new-york-jets",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/nyj",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/nyj.png",
+            "lastUpdated": "2024-10-30T17:29Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+            "lastUpdated": "2024-07-02T15:08Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/nyj.png",
+            "lastUpdated": "2024-07-02T15:09Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:20"
+      },
+      "text": "Jason Sanders 33 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 28,
+      "clock": {
+        "displayValue": "4:44",
+        "value": 284.0
+      },
+      "homeScore": 17,
+      "id": "4018730153406",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "MIA",
+        "displayName": "Miami Dolphins",
+        "id": "15",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/mia/miami-dolphins",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/mia",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:15"
+      },
+      "text": "Caleb Douglas 63 Yd pass from Malik Willis (Zane Gonzalez Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 28,
+      "clock": {
+        "displayValue": "3:24",
+        "value": 204.0
+      },
+      "homeScore": 25,
+      "id": "4018730153642",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "NYJ",
+        "displayName": "New York Jets",
+        "id": "20",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/nyj/new-york-jets",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/nyj",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/nyj.png",
+            "lastUpdated": "2024-10-30T17:29Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+            "lastUpdated": "2024-07-02T15:08Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/nyj.png",
+            "lastUpdated": "2024-07-02T15:09Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:20"
+      },
+      "text": "Mason Taylor 12 Yd pass from Geno Smith (Geno Smith Pass to Mason Taylor for Two-Point Conversion)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    }
+  ]
+}

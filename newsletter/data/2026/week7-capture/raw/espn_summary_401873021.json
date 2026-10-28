@@ -1,0 +1,1266 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "Las Vegas Raiders",
+        "guid": "b18540eb-6f2b-534c-e7f9-9bd930518da9",
+        "id": 2553,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "LV",
+          "description": "Las Vegas Raiders",
+          "id": 13,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders"
+              }
+            }
+          },
+          "shortDisplayName": "Raiders"
+        },
+        "teamId": 13,
+        "type": "team",
+        "uid": "s:20~l:28~t:13"
+      },
+      {
+        "description": "Los Angeles Rams",
+        "guid": "2e1473b2-e269-fd7a-1137-c1edacb85986",
+        "id": 1519,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "LAR",
+          "description": "Los Angeles Rams",
+          "id": 14,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/lar/los-angeles-rams"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/lar/los-angeles-rams"
+              }
+            }
+          },
+          "shortDisplayName": "Rams"
+        },
+        "teamId": 14,
+        "type": "team",
+        "uid": "s:20~l:28~t:14"
+      },
+      {
+        "description": "Los Angeles Rams @ Las Vegas Raiders",
+        "event": {
+          "description": "Los Angeles Rams @ Las Vegas Raiders",
+          "id": 401873021,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873021"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873021"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873021,
+        "guid": "70f9540a-f8ce-31e2-8658-1ef8269cd0d7",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873021"
+      }
+    ],
+    "categorized": "2026-10-26T04:22:16Z",
+    "contentKey": "50282610-1-21-1",
+    "dataSourceIdentifier": "e5be73b8e2aed",
+    "description": "— This was, especially in the first half, the kind of Rams team many expected to see all along.",
+    "gameId": "401873021",
+    "headline": "Matthew Stafford sets Rams TD pass record as Los Angeles rolls past Raiders 35-21",
+    "id": 50282610,
+    "images": [
+      {
+        "caption": "Ryan McFadden breaks down a possible quarterback switch in Las Vegas after the Raiders' fourth-consecutive loss.",
+        "height": 324,
+        "name": "Could a QB change be on the horizon for the Raiders?",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/dm_261026_Raiders_lose_to_Rams_IA/dm_261026_Raiders_lose_to_Rams_IA.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "Las Vegas Raiders",
+      "Los Angeles Rams",
+      "Los Angeles Rams @ Las Vegas Raiders"
+    ],
+    "lastModified": "2026-10-26T01:37:46Z",
+    "linkText": "Matthew Stafford sets Rams TD pass record as Los Angeles rolls past Raiders 35-21",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50282610"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50282610"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50282610"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873021"
+      }
+    },
+    "nowId": "1-50282610",
+    "originallyPosted": "2026-10-25T23:51:45Z",
+    "premium": false,
+    "published": "2026-10-25T23:51:45Z",
+    "publishedkey": "nfl401873021",
+    "section": "NFL",
+    "source": "AP",
+    "story": "LAS VEGAS -- — This was, especially in the first half, the kind of <a href=\"https://apnews.com/hub/los-angeles-rams\">Rams</a> team many expected to see all along.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/12483/matthew-stafford\">Matthew Stafford</a> threw for 195 yards and three touchdowns <a href=\"https://apnews.com/article/rams-matthew-stafford-touchdown-pass-franchise-record-d227b2b5ee4082cd2a529134a7f1f2a5\">to become the Rams' career leader</a> in passing TDs, and Los Angeles resembled the team previously favored to win the Super Bowl, beating the <a href=\"https://apnews.com/hub/las-vegas-raiders\"><a href=\"http://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders\">Las Vegas Raiders</a></a> 35-21 on Sunday.\n\n\r\n              The Rams (3-4) still have a ways to go to overcome their slow start and numerous injuries, but this victory improves their chances to be a factor in the playoff race. Since the NFL playoffs expanded from 12 to 14 teams in 2020, 10 of 41 clubs have made the postseason after opening 3-4, with just 4 of 33 making it after going 2-5.\n\n\r\n              At least in the first half, when they took a 28-6 lead, the Rams showed why they entered the season favored to win it all. The Raiders (3-4) made a push in the second half but lost their fourth straight.\n\n\r\n              “It’s nice feeling a little bit more comfortable in the fourth quarter, and that’s just a testament to how the guys played,” Stafford said. “Great team effort. I thought our coaches did a great job of giving us a plan that we felt great about coming in here to execute. Just proud of the way we worked throughout the week, and I think that showed today. We're going to have to keep doing that and doing it at a high level.”\n\n\r\n              Stafford has 155 touchdown passes in a Rams uniform, one more than previous team record holder Roman Gabriel. The <a href=\"https://apnews.com/article/nfl-mvp-awards-1f6a4d94a8ffcdd5844855c5d4ba510a?utm--source=copy&utm--medium=share\">reigning MVP</a> also became the first player to accomplish that for two teams; Stafford's 282 touchdown passes is Detroit's record.\n\n\r\n              Las Vegas native <a href=\"http://www.espn.com/nfl/player/_/id/4426515/puka-nacua\">Puka Nacua</a>, who had been listed as questionable with a calf injury, caught eight passes for 68 yards and a touchdown for the Rams, and tight end <a href=\"http://www.espn.com/nfl/player/_/id/4426553/davis-allen\">Davis Allen</a> had two TD catches — his first trips to the end zone this season.\n\n\r\n              Nacua's availability was in question until game day.\n\n\r\n              “I’m super grateful for everybody in the training room and also the belief in coach (Sean McVay) and everybody for me to be able to go out there and still perform,” Nacua said. “The communication, I think, (for) Matthew is something that he prides himself in, but especially when not being able to get some of those (practice) reps. The time to mentally still (get) a rep and have that conversation so we know where we can be on the same page.”\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4430737/kyren-williams\">Kyren Williams</a> and <a href=\"http://www.espn.com/nfl/player/_/id/4429096/blake-corum\">Blake Corum</a> combined to rush for 192 yards and two touchdowns for Los Angeles.\n\n\r\n              The Raiders' <a href=\"http://www.espn.com/nfl/player/_/id/14880/kirk-cousins\">Kirk Cousins</a> passed for 295 yards with touchdowns to <a href=\"http://www.espn.com/nfl/player/_/id/4428718/tre-tucker\">Tre Tucker</a> and running back <a href=\"http://www.espn.com/nfl/player/_/id/4890973/ashton-jeanty\">Ashton Jeanty</a>. Tucker finished with five receptions for 103 yards, and Jeanty hauled in eight catches for 61 yards. Cousins leads the NFL with 16 TD passes.\n\n\r\n              Jeanty and <a href=\"http://www.espn.com/nfl/player/_/id/4686658/mike-washington-jr\">Mike Washington Jr</a>., however, rushed for just 42 yards on 14 carries.\n\n\r\n              The Raiders gave up 30-plus points for fourth consecutive week.\n\n\r\n              “Well, no one’s coming to help us,” Las Vegas coach <a href=\"http://www.espn.com/nfl/player/_/id/2181979/klint-kubiak\">Klint Kubiak</a> said. “We’ve got to figure it out ourselves as a coaching staff, with the players, and we have to complement each other as well because we’ve got to start the game a lot faster offensively.”\n\n\r\n              McVay, now 4-0 against the Raiders, and the Rams took control from the beginning. They led by 22 points at halftime — the Raiders' largest home deficit after two quarters since trailing Cincinnati 24-0 in 2015 — and maintained that advantage after a scoreless third quarter.\n\n\r\n              The Raiders tried to rally in the fourth, scoring two touchdowns to get within 28-18, though they failed on both 2-point conversions. Las Vegas also failed to convert two fourth downs in Rams territory.\n\n\r\n              Los Angeles ended a two-game skid, which included last week's <a href=\"https://apnews.com/article/cardinals-rams-score-5af63ca9deeb998b5e8a63632a876f36?utm--source=copy&utm--medium=share\">stunning 18-16 defeat</a> to Arizona.\n\n\r\n              “This league is so humbling,” McVay said. “Humility is only a day away, but I was proud of the way the group prepared and, most importantly, celebrating each other’s success, having the right energy when you’re on the road and it’s just you versus the opponent and their fans.”\n\n\r\n              <hl2>Injuries</hl2>\r\n              Rams: CB <a href=\"http://www.espn.com/nfl/player/_/id/4426405/trent-mcduffie\">Trent McDuffie</a> (groin) did not play for the second week in a row. He was listed as questionable, but was deactivated before kickoff.\n\n\r\n              <hl2>Up next</hl2>\r\n              Rams: Host their Los Angeles rival, the Chargers, next Sunday.\n\n\r\n              Raiders: Visit the <a href=\"http://www.espn.com/nfl/team/_/name/nyj/new-york-jets\">New York Jets</a> next Sunday.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": [
+      {
+        "ad": {
+          "bundle": "sportscenter",
+          "sport": "nfl"
+        },
+        "caption": "Ryan McFadden breaks down a possible quarterback switch in Las Vegas after the Raiders' fourth-consecutive loss.",
+        "categories": [
+          {
+            "description": "Las Vegas Raiders",
+            "guid": "b18540eb-6f2b-534c-e7f9-9bd930518da9",
+            "id": 2553,
+            "sportId": 28,
+            "team": {
+              "abbreviation": "LV",
+              "description": "Las Vegas Raiders",
+              "id": 13,
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders"
+                  }
+                }
+              },
+              "shortDisplayName": "Raiders"
+            },
+            "teamId": 13,
+            "type": "team",
+            "uid": "s:20~l:28~t:13"
+          },
+          {
+            "description": "SC4U  - Eligible",
+            "guid": "d348c764-47d9-3e31-bd75-d39dfde52c26",
+            "id": 711824,
+            "type": "editorialindicator"
+          },
+          {
+            "description": "SC4U - InstantAnalysis",
+            "guid": "2a4cc294-9e85-38be-b7ed-12d8b3f3c646",
+            "id": 718171,
+            "type": "editorialindicator"
+          },
+          {
+            "description": "Los Angeles Rams @ Las Vegas Raiders",
+            "event": {
+              "description": "Los Angeles Rams @ Las Vegas Raiders",
+              "id": 401873021,
+              "league": "nfl",
+              "links": {
+                "mobile": {
+                  "event": {
+                    "href": "https://www.espn.com/nfl/game/_/gameId/401873021"
+                  }
+                },
+                "web": {
+                  "event": {
+                    "href": "https://www.espn.com/nfl/game/_/gameId/401873021"
+                  }
+                }
+              },
+              "sport": "football"
+            },
+            "eventId": 401873021,
+            "guid": "70f9540a-f8ce-31e2-8658-1ef8269cd0d7",
+            "type": "event",
+            "uid": "s:20~l:28~e:401873021"
+          }
+        ],
+        "cerebroId": "6aded52627a06c02511376c9",
+        "dataSourceIdentifier": "4e5fbfc23078e",
+        "description": "Ryan McFadden breaks down a possible quarterback switch in Las Vegas after the Raiders' fourth-consecutive loss.",
+        "deviceRestrictions": {
+          "devices": [
+            "settop",
+            "tablet",
+            "handset",
+            "ipad",
+            "desktop"
+          ],
+          "type": "whitelist"
+        },
+        "duration": 54,
+        "gameId": 401873021,
+        "headline": "Could a QB change be on the horizon for the Raiders?",
+        "id": 50284713,
+        "images": [
+          {
+            "alt": "",
+            "caption": "",
+            "credit": "",
+            "height": 324,
+            "name": "Poster Image",
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/dm_261026_Raiders_lose_to_Rams_IA/dm_261026_Raiders_lose_to_Rams_IA.jpg",
+            "width": 576
+          }
+        ],
+        "lastModified": "2026-10-26T04:22:16Z",
+        "links": {
+          "api": {
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/6df17f93-2a79-4958-b255-551d3b847eeb"
+            },
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/video/clips/50284713"
+            }
+          },
+          "mobile": {
+            "alert": {
+              "href": "https://m.espn.com/general/video/videoAlert?vid=50284713"
+            },
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/6df17f93-2a79-4958-b255-551d3b847eeb/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50284713/could-qb-change-horizon-raiders",
+            "progressiveDownload": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/6df17f93-2a79-4958-b255-551d3b847eeb/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50284713/could-qb-change-horizon-raiders"
+            },
+            "source": {
+              "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1026/dm_261026_Raiders_lose_to_Rams_IA/dm_261026_Raiders_lose_to_Rams_IA.mp4"
+            },
+            "streaming": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/6df17f93-2a79-4958-b255-551d3b847eeb/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50284713/could-qb-change-horizon-raiders"
+            }
+          },
+          "source": {
+            "HD": {
+              "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1026/dm_261026_Raiders_lose_to_Rams_IA/dm_261026_Raiders_lose_to_Rams_IA.mp4"
+            },
+            "HLS": {
+              "9x16": {
+                "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/2026/1026/dm_261026_Raiders_lose_to_Rams_IA/dm_261026_Raiders_lose_to_Rams_IA/playlist.m3u8"
+              },
+              "HD": {
+                "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/1026/dm_261026_Raiders_lose_to_Rams_IA/dm_261026_Raiders_lose_to_Rams_IA/playlist.m3u8"
+              },
+              "cmaf": {
+                "9x16": {
+                  "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/2026/1026/dm_261026_Raiders_lose_to_Rams_IA/dm_261026_Raiders_lose_to_Rams_IA/playlist.m3u8"
+                },
+                "cmb": {
+                  "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/2026/1026/dm_261026_Raiders_lose_to_Rams_IA/dm_261026_Raiders_lose_to_Rams_IA/playlist.m3u8"
+                },
+                "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/2026/1026/dm_261026_Raiders_lose_to_Rams_IA/dm_261026_Raiders_lose_to_Rams_IA/playlist.m3u8"
+              },
+              "cmb": {
+                "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/2026/1026/dm_261026_Raiders_lose_to_Rams_IA/dm_261026_Raiders_lose_to_Rams_IA/playlist.m3u8"
+              },
+              "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/1026/dm_261026_Raiders_lose_to_Rams_IA/dm_261026_Raiders_lose_to_Rams_IA/playlist.m3u8",
+              "shield": {
+                "href": "https://watch.auth.api.espn.com/video/auth/media/6df17f93-2a79-4958-b255-551d3b847eeb/asset"
+              }
+            },
+            "flash": {
+              "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1026/dm_261026_Raiders_lose_to_Rams_IA/dm_261026_Raiders_lose_to_Rams_IA.mp4"
+            },
+            "full": {
+              "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1026/dm_261026_Raiders_lose_to_Rams_IA/dm_261026_Raiders_lose_to_Rams_IA.mp4"
+            },
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1026/dm_261026_Raiders_lose_to_Rams_IA/dm_261026_Raiders_lose_to_Rams_IA.mp4",
+            "mezzanine": {
+              "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1026/dm_261026_Raiders_lose_to_Rams_IA/dm_261026_Raiders_lose_to_Rams_IA.mp4"
+            }
+          },
+          "sportscenter": {
+            "href": "sportscenter://x-callback-url/showVideo?videoID=50284713&videoDSI=4e5fbfc23078e"
+          },
+          "web": {
+            "href": "https://www.espn.com/video/clip/_/id/50284713/could-qb-change-horizon-raiders",
+            "self": {
+              "dsi": {
+                "href": "https://www.espn.com/video/clip?id=4e5fbfc23078e"
+              },
+              "href": "https://www.espn.com/video/clip/_/id/50284713/could-qb-change-horizon-raiders"
+            }
+          }
+        },
+        "originalPublishDate": "2026-10-26T04:20:54Z",
+        "pccId": "6df17f93-2a79-4958-b255-551d3b847eeb",
+        "posterImages": {
+          "default": {
+            "height": 324,
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/dm_261026_Raiders_lose_to_Rams_IA/dm_261026_Raiders_lose_to_Rams_IA_default.jpg",
+            "width": 576
+          },
+          "firstFrame": {
+            "href": "https://cmp-espn.media.dssott.com/opp/img/espn/2026/1026/dm_261026_Raiders_lose_to_Rams_IA/dm_261026_Raiders_lose_to_Rams_IA/thumb-1-w720-h406-f4.jpg"
+          },
+          "full": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/dm_261026_Raiders_lose_to_Rams_IA/dm_261026_Raiders_lose_to_Rams_IA.jpg"
+          },
+          "square": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/dm_261026_Raiders_lose_to_Rams_IA/dm_261026_Raiders_lose_to_Rams_IA_1x1.jpg"
+          },
+          "vertical": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/dm_261026_Raiders_lose_to_Rams_IA/dm_261026_Raiders_lose_to_Rams_IA_9x16.jpg"
+          },
+          "verticalFirstFrame": {
+            "href": "https://cmp-espn.media.dssott.com/opp/img/espn/9x16/2026/1026/dm_261026_Raiders_lose_to_Rams_IA/dm_261026_Raiders_lose_to_Rams_IA/thumb-1-w406-h720-f4.jpg"
+          },
+          "wide": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/dm_261026_Raiders_lose_to_Rams_IA/dm_261026_Raiders_lose_to_Rams_IA_5x2.jpg"
+          }
+        },
+        "premium": false,
+        "shortDescription": "Ryan McFadden breaks down a possible quarterback switch in Las Vegas after the Raiders' fourth-consecutive loss.",
+        "shortHeadline": "Could a QB change be on the horizon for the Raiders?",
+        "source": "espn",
+        "syndicatable": true,
+        "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/dm_261026_Raiders_lose_to_Rams_IA/dm_261026_Raiders_lose_to_Rams_IA.jpg",
+        "timeRestrictions": {
+          "embargoDate": "2026-10-26T04:19:38Z",
+          "expirationDate": "2026-10-29T04:19:38Z"
+        },
+        "title": "Could a QB change be on the horizon for the Raiders?",
+        "tracking": {
+          "coverageType": "InstantAnalysis",
+          "leagueName": "No League",
+          "program": "NFL",
+          "sportName": "nfl",
+          "trackingId": "dm_261026_Raiders_lose_to_Rams_IA",
+          "trackingName": "SC4U_NFL InstantAnalysis (Could a QB change be on the horizon for the Raiders?) 2026/10/25"
+        },
+        "videoRatio": "16:9,9:16"
+      }
+    ]
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "6:25",
+        "value": 385.0
+      },
+      "homeScore": 0,
+      "id": "401873021639",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "LAR",
+        "displayName": "Los Angeles Rams",
+        "id": "14",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lar/los-angeles-rams",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lar",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+            "lastUpdated": "2026-04-24T14:36Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lar.png",
+            "lastUpdated": "2026-04-24T14:27Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+            "lastUpdated": "2026-04-24T14:36Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lar.png",
+            "lastUpdated": "2026-04-24T14:27Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:14"
+      },
+      "text": "Davis Allen 3 Yd pass from Matthew Stafford (Brandon McManus Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "0:51",
+        "value": 51.0
+      },
+      "homeScore": 3,
+      "id": "401873021913",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "LV",
+        "displayName": "Las Vegas Raiders",
+        "id": "13",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lv",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+            "lastUpdated": "2024-09-22T22:51Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lv.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lv.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:13"
+      },
+      "text": "Matt Gay 30 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 14,
+      "clock": {
+        "displayValue": "10:01",
+        "value": 601.0
+      },
+      "homeScore": 3,
+      "id": "4018730211282",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "LAR",
+        "displayName": "Los Angeles Rams",
+        "id": "14",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lar/los-angeles-rams",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lar",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+            "lastUpdated": "2026-04-24T14:36Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lar.png",
+            "lastUpdated": "2026-04-24T14:27Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+            "lastUpdated": "2026-04-24T14:36Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lar.png",
+            "lastUpdated": "2026-04-24T14:27Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:14"
+      },
+      "text": "Davis Allen 5 Yd pass from Matthew Stafford (Brandon McManus Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 21,
+      "clock": {
+        "displayValue": "4:15",
+        "value": 255.0
+      },
+      "homeScore": 3,
+      "id": "4018730211633",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "LAR",
+        "displayName": "Los Angeles Rams",
+        "id": "14",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lar/los-angeles-rams",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lar",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+            "lastUpdated": "2026-04-24T14:36Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lar.png",
+            "lastUpdated": "2026-04-24T14:27Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+            "lastUpdated": "2026-04-24T14:36Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lar.png",
+            "lastUpdated": "2026-04-24T14:27Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:14"
+      },
+      "text": "Puka Nacua 11 Yd pass from Matthew Stafford (Brandon McManus Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 28,
+      "clock": {
+        "displayValue": "1:19",
+        "value": 79.0
+      },
+      "homeScore": 3,
+      "id": "4018730212065",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "LAR",
+        "displayName": "Los Angeles Rams",
+        "id": "14",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lar/los-angeles-rams",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lar",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+            "lastUpdated": "2026-04-24T14:36Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lar.png",
+            "lastUpdated": "2026-04-24T14:27Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+            "lastUpdated": "2026-04-24T14:36Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lar.png",
+            "lastUpdated": "2026-04-24T14:27Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:14"
+      },
+      "text": "Kyren Williams 17 Yd Rush (Brandon McManus Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 28,
+      "clock": {
+        "displayValue": "0:00",
+        "value": 0.0
+      },
+      "homeScore": 6,
+      "id": "4018730212342",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "LV",
+        "displayName": "Las Vegas Raiders",
+        "id": "13",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lv",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+            "lastUpdated": "2024-09-22T22:51Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lv.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lv.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:13"
+      },
+      "text": "Matt Gay 27 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 28,
+      "clock": {
+        "displayValue": "14:51",
+        "value": 891.0
+      },
+      "homeScore": 12,
+      "id": "4018730213400",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "LV",
+        "displayName": "Las Vegas Raiders",
+        "id": "13",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lv",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+            "lastUpdated": "2024-09-22T22:51Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lv.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lv.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:13"
+      },
+      "text": "Tre Tucker 37 Yd pass from Kirk Cousins (Two-Point Pass Conversion Failed)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 28,
+      "clock": {
+        "displayValue": "13:12",
+        "value": 792.0
+      },
+      "homeScore": 18,
+      "id": "4018730213626",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "LV",
+        "displayName": "Las Vegas Raiders",
+        "id": "13",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lv",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+            "lastUpdated": "2024-09-22T22:51Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lv.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lv.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:13"
+      },
+      "text": "Ashton Jeanty 15 Yd pass from Kirk Cousins (Two-Point Pass Conversion Failed)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 35,
+      "clock": {
+        "displayValue": "6:34",
+        "value": 394.0
+      },
+      "homeScore": 18,
+      "id": "4018730213969",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "LAR",
+        "displayName": "Los Angeles Rams",
+        "id": "14",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lar/los-angeles-rams",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lar",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+            "lastUpdated": "2026-04-24T14:36Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lar.png",
+            "lastUpdated": "2026-04-24T14:27Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+            "lastUpdated": "2026-04-24T14:36Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lar.png",
+            "lastUpdated": "2026-04-24T14:27Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:14"
+      },
+      "text": "Blake Corum 4 Yd Rush (Brandon McManus Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 35,
+      "clock": {
+        "displayValue": "4:11",
+        "value": 251.0
+      },
+      "homeScore": 21,
+      "id": "4018730214254",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "LV",
+        "displayName": "Las Vegas Raiders",
+        "id": "13",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lv",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+            "lastUpdated": "2024-09-22T22:51Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lv.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lv.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:13"
+      },
+      "text": "Matt Gay 36 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    }
+  ]
+}

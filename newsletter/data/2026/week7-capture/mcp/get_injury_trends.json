@@ -1,0 +1,35 @@
+{
+  "tool": "get_injury_trends",
+  "arguments": {
+    "lookback_hours": 192,
+    "limit": 1000
+  },
+  "fetched_at": "2026-10-28T14:37:11.334716+00:00",
+  "response": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": {
+      "content": [
+        {
+          "text": "{\"changes\":[],\"total_changes\":0,\"lookback_hours\":192,\"success\":true,\"error\":null}",
+          "type": "text"
+        }
+      ],
+      "isError": false,
+      "structuredContent": {
+        "changes": [],
+        "total_changes": 0,
+        "lookback_hours": 192,
+        "success": true,
+        "error": null
+      }
+    }
+  },
+  "data": {
+    "changes": [],
+    "total_changes": 0,
+    "lookback_hours": 192,
+    "success": true,
+    "error": null
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "league_id": "1319718857249665024",
+  "season": "2026",
+  "teams": 12,
+  "regular_season_weeks": 14,
+  "timezone": "America/New_York",
+  "sleeper_api": "https://api.sleeper.app/v1",
+  "espn_api": "https://site.api.espn.com/apis/site/v2/sports/football/nfl",
+  "faab_adjustments": []
+}

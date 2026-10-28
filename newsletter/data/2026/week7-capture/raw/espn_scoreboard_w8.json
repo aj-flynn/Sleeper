@@ -1,0 +1,589 @@
+{
+  "events": [
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "team": {
+                "abbreviation": "GB"
+              }
+            },
+            {
+              "homeAway": "away",
+              "team": {
+                "abbreviation": "CAR"
+              }
+            }
+          ],
+          "notes": [],
+          "venue": {
+            "address": {
+              "city": "Green Bay",
+              "country": "USA",
+              "state": "WI"
+            },
+            "fullName": "Lambeau Field",
+            "id": "3798",
+            "indoor": false
+          }
+        }
+      ],
+      "date": "2026-10-30T00:15Z",
+      "id": "401873023",
+      "shortName": "CAR @ GB"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "team": {
+                "abbreviation": "BUF"
+              }
+            },
+            {
+              "homeAway": "away",
+              "team": {
+                "abbreviation": "BAL"
+              }
+            }
+          ],
+          "notes": [],
+          "venue": {
+            "address": {
+              "city": "Orchard Park",
+              "country": "USA",
+              "state": "NY"
+            },
+            "fullName": "Highmark Stadium",
+            "id": "11938",
+            "indoor": false
+          }
+        }
+      ],
+      "date": "2026-11-01T18:00Z",
+      "id": "401873026",
+      "shortName": "BAL @ BUF"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "team": {
+                "abbreviation": "CIN"
+              }
+            },
+            {
+              "homeAway": "away",
+              "team": {
+                "abbreviation": "TEN"
+              }
+            }
+          ],
+          "notes": [],
+          "venue": {
+            "address": {
+              "city": "Cincinnati",
+              "country": "USA",
+              "state": "OH"
+            },
+            "fullName": "Paycor Stadium",
+            "id": "3874",
+            "indoor": false
+          }
+        }
+      ],
+      "date": "2026-11-01T18:00Z",
+      "id": "401873031",
+      "shortName": "TEN @ CIN"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "team": {
+                "abbreviation": "DAL"
+              }
+            },
+            {
+              "homeAway": "away",
+              "team": {
+                "abbreviation": "ARI"
+              }
+            }
+          ],
+          "notes": [],
+          "venue": {
+            "address": {
+              "city": "Arlington",
+              "country": "USA",
+              "state": "TX"
+            },
+            "fullName": "AT&T Stadium",
+            "id": "3687",
+            "indoor": true
+          }
+        }
+      ],
+      "date": "2026-11-01T18:00Z",
+      "id": "401873024",
+      "shortName": "ARI @ DAL"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "team": {
+                "abbreviation": "DET"
+              }
+            },
+            {
+              "homeAway": "away",
+              "team": {
+                "abbreviation": "MIN"
+              }
+            }
+          ],
+          "notes": [],
+          "venue": {
+            "address": {
+              "city": "Detroit",
+              "country": "USA",
+              "state": "MI"
+            },
+            "fullName": "Ford Field",
+            "id": "3727",
+            "indoor": true
+          }
+        }
+      ],
+      "date": "2026-11-01T18:00Z",
+      "id": "401873030",
+      "shortName": "MIN @ DET"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "team": {
+                "abbreviation": "NYJ"
+              }
+            },
+            {
+              "homeAway": "away",
+              "team": {
+                "abbreviation": "LV"
+              }
+            }
+          ],
+          "notes": [],
+          "venue": {
+            "address": {
+              "city": "East Rutherford",
+              "country": "USA",
+              "state": "NJ"
+            },
+            "fullName": "MetLife Stadium",
+            "id": "3839",
+            "indoor": false
+          }
+        }
+      ],
+      "date": "2026-11-01T18:00Z",
+      "id": "401873029",
+      "shortName": "LV @ NYJ"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "team": {
+                "abbreviation": "PIT"
+              }
+            },
+            {
+              "homeAway": "away",
+              "team": {
+                "abbreviation": "CLE"
+              }
+            }
+          ],
+          "notes": [],
+          "venue": {
+            "address": {
+              "city": "Pittsburgh",
+              "country": "USA",
+              "state": "PA"
+            },
+            "fullName": "Acrisure Stadium",
+            "id": "3752",
+            "indoor": false
+          }
+        }
+      ],
+      "date": "2026-11-01T18:00Z",
+      "id": "401873027",
+      "shortName": "CLE @ PIT"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "team": {
+                "abbreviation": "TB"
+              }
+            },
+            {
+              "homeAway": "away",
+              "team": {
+                "abbreviation": "ATL"
+              }
+            }
+          ],
+          "notes": [],
+          "venue": {
+            "address": {
+              "city": "Tampa",
+              "country": "USA",
+              "state": "FL"
+            },
+            "fullName": "Raymond James Stadium",
+            "id": "3886",
+            "indoor": false
+          }
+        }
+      ],
+      "date": "2026-11-01T18:00Z",
+      "id": "401873025",
+      "shortName": "ATL @ TB"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "team": {
+                "abbreviation": "JAX"
+              }
+            },
+            {
+              "homeAway": "away",
+              "team": {
+                "abbreviation": "IND"
+              }
+            }
+          ],
+          "notes": [],
+          "venue": {
+            "address": {
+              "city": "Jacksonville",
+              "country": "USA",
+              "state": "FL"
+            },
+            "fullName": "EverBank Stadium",
+            "id": "3712",
+            "indoor": false
+          }
+        }
+      ],
+      "date": "2026-11-01T18:00Z",
+      "id": "401873028",
+      "shortName": "IND @ JAX"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "team": {
+                "abbreviation": "LAR"
+              }
+            },
+            {
+              "homeAway": "away",
+              "team": {
+                "abbreviation": "LAC"
+              }
+            }
+          ],
+          "notes": [],
+          "venue": {
+            "address": {
+              "city": "Inglewood",
+              "country": "USA",
+              "state": "CA"
+            },
+            "fullName": "SoFi Stadium",
+            "id": "7065",
+            "indoor": false
+          }
+        }
+      ],
+      "date": "2026-11-01T21:05Z",
+      "id": "401873032",
+      "shortName": "LAC @ LAR"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "team": {
+                "abbreviation": "DEN"
+              }
+            },
+            {
+              "homeAway": "away",
+              "team": {
+                "abbreviation": "KC"
+              }
+            }
+          ],
+          "notes": [],
+          "venue": {
+            "address": {
+              "city": "Denver",
+              "country": "USA",
+              "state": "CO"
+            },
+            "fullName": "Empower Field at Mile High",
+            "id": "3937",
+            "indoor": false
+          }
+        }
+      ],
+      "date": "2026-11-01T21:25Z",
+      "id": "401873033",
+      "shortName": "KC @ DEN"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "team": {
+                "abbreviation": "MIA"
+              }
+            },
+            {
+              "homeAway": "away",
+              "team": {
+                "abbreviation": "NE"
+              }
+            }
+          ],
+          "notes": [],
+          "venue": {
+            "address": {
+              "city": "Miami Gardens",
+              "country": "USA",
+              "state": "FL"
+            },
+            "fullName": "Hard Rock Stadium",
+            "id": "3948",
+            "indoor": false
+          }
+        }
+      ],
+      "date": "2026-11-01T21:25Z",
+      "id": "401873034",
+      "shortName": "NE @ MIA"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "team": {
+                "abbreviation": "WSH"
+              }
+            },
+            {
+              "homeAway": "away",
+              "team": {
+                "abbreviation": "PHI"
+              }
+            }
+          ],
+          "notes": [],
+          "venue": {
+            "address": {
+              "city": "Landover",
+              "country": "USA",
+              "state": "MD"
+            },
+            "fullName": "Northwest Stadium",
+            "id": "3719",
+            "indoor": false
+          }
+        }
+      ],
+      "date": "2026-11-02T01:20Z",
+      "id": "401873035",
+      "shortName": "PHI @ WSH"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "team": {
+                "abbreviation": "SEA"
+              }
+            },
+            {
+              "homeAway": "away",
+              "team": {
+                "abbreviation": "CHI"
+              }
+            }
+          ],
+          "notes": [],
+          "venue": {
+            "address": {
+              "city": "Seattle",
+              "country": "USA",
+              "state": "WA"
+            },
+            "fullName": "Lumen Field",
+            "id": "3673",
+            "indoor": false
+          }
+        }
+      ],
+      "date": "2026-11-03T01:15Z",
+      "id": "401873036",
+      "shortName": "CHI @ SEA"
+    }
+  ],
+  "season": {
+    "type": 2,
+    "year": 2026
+  },
+  "week": {
+    "number": 8,
+    "teamsOnBye": [
+      {
+        "abbreviation": "NO",
+        "displayName": "New Orleans Saints",
+        "id": "18",
+        "isActive": true,
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/no/new-orleans-saints",
+            "isExternal": false,
+            "isPremium": false,
+            "rel": [
+              "clubhouse",
+              "desktop",
+              "team"
+            ],
+            "text": "Clubhouse"
+          }
+        ],
+        "location": "New Orleans",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+        "logoDark": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/no.png",
+        "name": "Saints",
+        "shortDisplayName": "Saints",
+        "uid": "s:20~l:28~t:18"
+      },
+      {
+        "abbreviation": "NYG",
+        "displayName": "New York Giants",
+        "id": "19",
+        "isActive": true,
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/nyg/new-york-giants",
+            "isExternal": false,
+            "isPremium": false,
+            "rel": [
+              "clubhouse",
+              "desktop",
+              "team"
+            ],
+            "text": "Clubhouse"
+          }
+        ],
+        "location": "New York",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+        "logoDark": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/nyg.png",
+        "name": "Giants",
+        "shortDisplayName": "Giants",
+        "uid": "s:20~l:28~t:19"
+      },
+      {
+        "abbreviation": "SF",
+        "displayName": "San Francisco 49ers",
+        "id": "25",
+        "isActive": true,
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/sf/san-francisco-49ers",
+            "isExternal": false,
+            "isPremium": false,
+            "rel": [
+              "clubhouse",
+              "desktop",
+              "team"
+            ],
+            "text": "Clubhouse"
+          }
+        ],
+        "location": "San Francisco",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+        "logoDark": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/sf.png",
+        "name": "49ers",
+        "shortDisplayName": "49ers",
+        "uid": "s:20~l:28~t:25"
+      },
+      {
+        "abbreviation": "HOU",
+        "displayName": "Houston Texans",
+        "id": "34",
+        "isActive": true,
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/hou/houston-texans",
+            "isExternal": false,
+            "isPremium": false,
+            "rel": [
+              "clubhouse",
+              "desktop",
+              "team"
+            ],
+            "text": "Clubhouse"
+          }
+        ],
+        "location": "Houston",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+        "logoDark": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/hou.png",
+        "name": "Texans",
+        "shortDisplayName": "Texans",
+        "uid": "s:20~l:28~t:34"
+      }
+    ]
+  }
+}

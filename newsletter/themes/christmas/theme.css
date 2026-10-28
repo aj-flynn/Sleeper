@@ -1,0 +1,54 @@
+/* Christmas: evergreen ink, holly-red headlines, snow-white paper and muted gold.
+   Overrides color roles only; the approved newspaper grids remain untouched. */
+:root{--stock:#E8E9DF;--maroon:#792F3D;--ink:#1E3C32;--rose:#DCE2D7;--shade:#BDCFC3;--muted:#35554A;--rule:#94ACA0;--season-light:#F7F8F0;--season-accent:#B38C35}
+body{background-image:url("background.svg"),url("field-pattern.svg");background-size:cover,200px 200px;background-position:center top,0 0;background-attachment:fixed,scroll}
+.card{border-radius:2px;box-shadow:none}
+.card .band h3{color:#FFF8EE}
+.stats,.lead .trio{background:var(--season-light)}
+.stats td small{color:var(--muted)}
+.blurb{background:var(--season-light);border-radius:0}
+.newspaper{background:var(--season-light);box-shadow:none}
+.newspaper .player-line{color:var(--muted)}
+.elo-chart,.elo-chart > svg,.finder,.finder .box{background:var(--season-light)}
+.elo-chart .elo-plot{fill:var(--season-light)}
+@media(max-width:23.99rem){.waivers th:last-child{font-size:.75rem;padding-left:.2rem;padding-right:.2rem;overflow-wrap:normal}}
+
+.wrap{position:relative;z-index:1}
+.season-margins{pointer-events:none;position:fixed;inset:0;z-index:0;overflow:hidden;display:none}
+.margin-scene{position:absolute;width:calc((100vw - 70rem)/2 - .5rem);max-width:13rem;opacity:.94}
+.margin-scene svg{display:block;width:100%;height:auto;max-height:78vh}
+.margin-left{left:.65rem;top:9rem}
+.margin-right{right:.65rem;bottom:3rem}
+.newspaper:nth-child(3n+1){background-image:url("corner.svg");background-position:top right;background-size:5rem;background-repeat:no-repeat}
+@media(min-width:80rem){.season-margins{display:block}}
+
+@media print{body{background-image:none}.season-margins{display:none}}
+
+/* Anthropic frontend-design + design-taste-frontend: editorial type, seasonal
+   ink, engraved borders and flat paper shading; original geometry preserved. */
+:root{--stock:#E5ECDF;--ink:#13392C;--maroon:#A3213C;--rose:#D8E7CE;--season-light:#F6F7EC;--rule:#A6B49A;--band:#145B39;--edge:#B68B25;--alternate:#E9EEDF;--heading:#145B39;--slab:Georgia,'Times New Roman',serif}
+body{font-kerning:normal;text-rendering:optimizeLegibility}
+.mast h1{font-weight:700;letter-spacing:-.035em;color:var(--heading)}
+h2,h3,.lead .big,.newspaper .team,.newspaper .hed{font-weight:700}
+h2{color:var(--heading);letter-spacing:-.015em}
+.lead .big,.newspaper .hed{letter-spacing:-.025em;text-wrap:balance}
+.card{border-color:var(--edge);border-style:double;border-radius:0;box-shadow:none}
+.card .band{background:var(--band)}
+.card .band h3{color:var(--season-light);font-weight:700}
+.card .no{font-weight:700;background:var(--season-light);color:var(--band)}
+.card .body{background:var(--rose)}
+.lead .trio,.lead .trio div,.blurb{border-color:var(--rule)}
+.lead .trio b,.score,.check .fig,.award .stat,.aside b{font-weight:700}
+.mast{border-bottom-color:var(--edge);border-bottom-style:double}
+.newspaper{border-top-color:var(--band)}
+.newspaper .support,.newspaper .scoreboard,.newspaper .score-row+.score-row{border-color:var(--rule)}
+.newspaper .match-title,.newspaper .key-title{text-transform:none;letter-spacing:.025em;font-weight:600;color:var(--band)}
+.finder,.elo-chart{border-color:var(--edge);border-radius:0}
+.finder a,.stats td{border-color:var(--rule)}
+.stats th{background:var(--band);color:var(--season-light)}
+.stats tbody tr:nth-child(even){background:var(--alternate)}
+.stats .pts,.grade{color:var(--maroon)}
+.award .stat{color:var(--band)}
+.check li,.slate li{border-bottom-color:var(--rule)}
+a{text-underline-offset:.16em}
+::selection{background:var(--band);color:var(--season-light)}

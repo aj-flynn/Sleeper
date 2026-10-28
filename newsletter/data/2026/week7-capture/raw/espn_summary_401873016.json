@@ -1,0 +1,866 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "Houston Texans",
+        "guid": "595690b3-2161-4913-a7a7-814af2fd2621",
+        "id": 3053,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "HOU",
+          "description": "Houston Texans",
+          "id": 34,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/hou/houston-texans"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/hou/houston-texans"
+              }
+            }
+          },
+          "shortDisplayName": "Texans"
+        },
+        "teamId": 34,
+        "type": "team",
+        "uid": "s:20~l:28~t:34"
+      },
+      {
+        "description": "New York Giants",
+        "guid": "378600ea-2397-8364-8399-b7c1606a49a7",
+        "id": 1352,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "NYG",
+          "description": "New York Giants",
+          "id": 19,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/nyg/new-york-giants"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/nyg/new-york-giants"
+              }
+            }
+          },
+          "shortDisplayName": "Giants"
+        },
+        "teamId": 19,
+        "type": "team",
+        "uid": "s:20~l:28~t:19"
+      },
+      {
+        "description": "New York Giants @ Houston Texans",
+        "event": {
+          "description": "New York Giants @ Houston Texans",
+          "id": 401873016,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873016"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873016"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873016,
+        "guid": "131eece4-9f56-3d09-83ca-816fa88c8625",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873016"
+      }
+    ],
+    "categorized": "2026-10-27T19:31:12Z",
+    "contentKey": "50280311-1-21-1",
+    "dataSourceIdentifier": "90db9e54e0b06",
+    "description": "— Two weeks ago, Cam Skattebo's fumble in overtime cost the New York Giants a chance at a win.",
+    "gameId": "401873016",
+    "headline": "Singletary's 30-yard run in OT gives Giants 27-21 win over Texans",
+    "id": 50280311,
+    "images": [
+      {
+        "caption": "New York Giants vs. Houston Texans: Game Highlights",
+        "height": 324,
+        "name": "New York Giants vs. Houston Texans: Game Highlights",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1025/0d47d46c-a6a9-4481-a18d-5cab550d3de5/0d47d46c-a6a9-4481-a18d-5cab550d3de5.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "Houston Texans",
+      "New York Giants",
+      "New York Giants @ Houston Texans"
+    ],
+    "lastModified": "2026-10-25T22:41:46Z",
+    "linkText": "Singletary's 30-yard run in OT gives Giants 27-21 win over Texans",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50280311"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50280311"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50280311"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873016"
+      }
+    },
+    "nowId": "1-50280311",
+    "originallyPosted": "2026-10-25T20:45:01Z",
+    "premium": false,
+    "published": "2026-10-25T20:45:01Z",
+    "publishedkey": "nfl401873016",
+    "section": "NFL",
+    "source": "AP",
+    "story": "HOUSTON -- — Two weeks ago, <a href=\"http://www.espn.com/nfl/player/_/id/4696981/cam-skattebo\">Cam Skattebo</a>'s fumble in overtime cost the <a href=\"http://www.espn.com/nfl/team/_/name/nyg/new-york-giants\">New York Giants</a> a chance at a win.\n\n\r\n              On Sunday, his huge run in OT set up a 30-yard touchdown run by <a href=\"http://www.espn.com/nfl/player/_/id/4040761/devin-singletary\">Devin Singletary</a> that gave the Giants a 27-21 victory over the <a href=\"http://www.espn.com/nfl/team/_/name/hou/houston-texans\">Houston Texans</a>.\n\n\r\n              Skattebo had a 16-yard touchdown run in the fourth quarter <a href=\"https://x.com/NFL/status/2114451929187107039?s=20\">before his 42-yard scamper</a> on second down set the stage for Singletary’s game winner. He had 17 carries for 124 yards after not having a carry last Sunday following his fumble in New York's 27-27 tie with Washington.\n\n\r\n              “When I fumbled against Washington, it wasn’t in my mind to take care of the ball in that moment,” he said. “This week, I made sure I took care of it. I can protect the ball if I need to and when I have the right mindset.” \n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4433970/jj-mccarthy\">J.J. McCarthy</a> moved the ball effectively for the Giants (4-2-1) in his first start of the season after coach John Harbaugh benched <a href=\"http://www.espn.com/nfl/player/_/id/2969939/jameis-winston\">Jameis Winston</a>. He was 20 of 28 for 252 yards in the stadium in which he won the national title with Michigan in January 2024.\n\n\r\n              “I thought he did a great job,” Harbaugh said. “He made some great throws. I’m sure he didn’t play perfect, but he played a heck of a football game, and he deserves a lot of credit.”\n\n\r\n              The Texans (2-5) got the ball first in overtime, but New York’s defense forced a three-and-out with <a href=\"http://www.espn.com/nfl/player/_/id/4426326/kayvon-thibodeaux\">Kayvon Thibodeaux</a> dropping a potential interception on second down.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4432577/cj-stroud\">C.J. Stroud</a> had two touchdown passes but finished with a season-low 153 yards passing as the Texans failed to move the ball for most of the second half.\n\n\r\n              They tied it at 21-all on Xavier Hutchinson’s 3-yard grab with just under a minute to go.\n\n\r\n              The Giants didn’t get into field-goal range before time ran out to send it to OT. \n\n\r\n              Houston's defense continued to struggle, allowing a season-high 188 yards rushing. \n\n\r\n              “We've been very inconsistent of playing up to our standard,” defensive end <a href=\"http://www.espn.com/nfl/player/_/id/4685724/will-anderson-jr\">Will Anderson Jr</a>. said. “Sometimes we’re swarming, sometimes we’re not. Sometimes we’re tackling well, sometimes we’re not, and we've got to find a way to do it on a consistent basis.”\n\n\r\n              The Giants took a 21-14 lead when Skattebo <a href=\"https://x.com/NFL/status/2114442152985977185?s=20\">broke multiple tackles on a 16-yard touchdown run</a> with about nine minutes remaining and celebrated with a backflip.\n\n\r\n              He said receivers coach Chad Hall approached him before that play and told him that it was time for a backflip.\n\n\r\n              “I knew that means: it’s time to get in the end zone,” Skattebo said. “He believed in me, and I was able to make it happen.” \n\n\r\n              The Texans had trouble moving the ball after halftime and punted on their first three possessions after the break before the touchdown by Hutchinson. \n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4432708/marvin-harrison-jr\">Marvin Harrison Jr</a>. scored a touchdown in the second quarter in his second game with the Texans after a trade with the Cardinals two weeks ago.\n\n\r\n              The Texans were up 3-0 after an early field goal by Ka’imi Fairbairn when the Giants took the lead when <a href=\"http://www.espn.com/nfl/player/_/id/4360516/tyrone-tracy-jr\">Tyrone Tracy Jr</a>. scored on a 2-yard run.\n\n\r\n              That TD was set up by a 42-yard reception by <a href=\"http://www.espn.com/nfl/player/_/id/4595348/malik-nabers\">Malik Nabers</a> the play before.\n\n\r\n              A 57-yard field goal by Fairbairn cut the lead to 7-6 with about nine minutes left in the second quarter.\n\n\r\n              New York padded the lead when Winston plunged in from 1-yard out for a touchdown about 3 ½ minutes before halftime. McCarthy found <a href=\"http://www.espn.com/nfl/player/_/id/4590292/thomas-fidone-ii\">Thomas Fidone II</a> wide open for a 29-yard gain two plays earlier to put the Giants in scoring position. \n\n\r\n              Stroud found Harrison in the back of the end zone on a 6-yard TD with about 30 seconds left in the second quarter. Cade Stover’s reception for the 2-point conversion tied it at 14-all.\n\n\r\n              The Giants had a chance to take the lead after that but Dominic Zvada’s 44-yard field-goal attempt sailed wide right. It was his second miss of the game after his 56-yard attempt late in the first quarter was also wide right.\n\n\r\n              <hl2>Dell's return</hl2>\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4366031/tank-dell\">Tank Dell</a> had <a href=\"https://x.com/NFL/status/2114422754657128769?s=20\">one reception for 43 yards</a> and returned a punt for 14 yards in his return after missing almost two years recovering from a gruesome knee injury.\n\n\r\n              “Really exciting for Tank,” coach DeMeco Ryans said. “Happy for all of the work he’s put in.”\n\n\r\n              Dell said he knows a lot of people were concerned about him getting hit for the first time since his injury, but that wasn't anything he thought about. \n\n\r\n              “I didn’t have no worries about getting tackled,” he said. “It felt cool actually.” \n\n\r\n              And he said his big reception on Sunday was just a glimpse of what to expect from him this season.\n\n\r\n              “I’m a playmaker man,” he said. “I’m so used to making those plays and there’s so many more to come.”\n\n\r\n              <hl2>Injuries</hl2>\r\n              Texans WR <a href=\"http://www.espn.com/nfl/player/_/id/4586312/jaylin-noel\">Jaylin Noel</a> left in the fourth quarter with a toe injury.\n\n\r\n              <hl2>Up next</hl2>\r\n              Both teams are off next week before the Giants visit the Eagles on Nov. 8 and the Texans visit the Chargers that day.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": []
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 0,
+      "clock": {
+        "displayValue": "11:40",
+        "value": 700.0
+      },
+      "homeScore": 3,
+      "id": "401873016241",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "HOU",
+        "displayName": "Houston Texans",
+        "id": "34",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/hou/houston-texans",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/hou",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/hou.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/hou.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:34"
+      },
+      "text": "Ka'imi Fairbairn 58 Yd Field Goal ",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "6:26",
+        "value": 386.0
+      },
+      "homeScore": 3,
+      "id": "401873016525",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "NYG",
+        "displayName": "New York Giants",
+        "id": "19",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/nyg/new-york-giants",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/nyg",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/nyg.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/nyg.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:19"
+      },
+      "text": "Tyrone Tracy Jr. 2 Yd Rush (Dominic Zvada Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "9:03",
+        "value": 543.0
+      },
+      "homeScore": 6,
+      "id": "4018730161402",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "HOU",
+        "displayName": "Houston Texans",
+        "id": "34",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/hou/houston-texans",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/hou",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/hou.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/hou.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:34"
+      },
+      "text": "Ka'imi Fairbairn 57 Yd Field Goal ",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 14,
+      "clock": {
+        "displayValue": "3:32",
+        "value": 212.0
+      },
+      "homeScore": 6,
+      "id": "4018730161690",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "NYG",
+        "displayName": "New York Giants",
+        "id": "19",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/nyg/new-york-giants",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/nyg",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/nyg.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/nyg.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:19"
+      },
+      "text": "Jameis Winston 1 Yd Rush (Dominic Zvada Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 14,
+      "clock": {
+        "displayValue": "0:34",
+        "value": 34.0
+      },
+      "homeScore": 14,
+      "id": "4018730162086",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "HOU",
+        "displayName": "Houston Texans",
+        "id": "34",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/hou/houston-texans",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/hou",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/hou.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/hou.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:34"
+      },
+      "text": "Marvin Harrison Jr. 6 Yd pass from C.J. Stroud (C.J. Stroud Pass to Cade Stover for Two-Point Conversion)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 21,
+      "clock": {
+        "displayValue": "8:55",
+        "value": 535.0
+      },
+      "homeScore": 14,
+      "id": "4018730163379",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "NYG",
+        "displayName": "New York Giants",
+        "id": "19",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/nyg/new-york-giants",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/nyg",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/nyg.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/nyg.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:19"
+      },
+      "text": "Cam Skattebo 16 Yd Rush (Dominic Zvada Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 21,
+      "clock": {
+        "displayValue": "0:52",
+        "value": 52.0
+      },
+      "homeScore": 21,
+      "id": "4018730163937",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "HOU",
+        "displayName": "Houston Texans",
+        "id": "34",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/hou/houston-texans",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/hou",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/hou.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/hou.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:34"
+      },
+      "text": "Xavier Hutchinson 3 Yd pass from C.J. Stroud (Ka'imi Fairbairn Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 27,
+      "clock": {
+        "displayValue": "7:25",
+        "value": 445.0
+      },
+      "homeScore": 21,
+      "id": "4018730164295",
+      "period": {
+        "number": 5
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "NYG",
+        "displayName": "New York Giants",
+        "id": "19",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/nyg/new-york-giants",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/nyg",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/nyg.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/nyg.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:19"
+      },
+      "text": "Devin Singletary 30 Yd Rush ",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    }
+  ]
+}

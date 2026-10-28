@@ -1,0 +1,1365 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "Philadelphia Eagles",
+        "guid": "d1a9b001-1df7-fbd7-ae4c-6ca7065286ec",
+        "id": 1407,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "PHI",
+          "description": "Philadelphia Eagles",
+          "id": 21,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/phi/philadelphia-eagles"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/phi/philadelphia-eagles"
+              }
+            }
+          },
+          "shortDisplayName": "Eagles"
+        },
+        "teamId": 21,
+        "type": "team",
+        "uid": "s:20~l:28~t:21"
+      },
+      {
+        "description": "Dallas Cowboys",
+        "guid": "b0fc8fb7-9dbe-e574-9008-6f0ee7c6b234",
+        "id": 1298,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "DAL",
+          "description": "Dallas Cowboys",
+          "id": 6,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys"
+              }
+            }
+          },
+          "shortDisplayName": "Cowboys"
+        },
+        "teamId": 6,
+        "type": "team",
+        "uid": "s:20~l:28~t:6"
+      },
+      {
+        "description": "Dallas Cowboys @ Philadelphia Eagles",
+        "event": {
+          "description": "Dallas Cowboys @ Philadelphia Eagles",
+          "id": 401873009,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873009"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873009"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873009,
+        "guid": "b109f6b3-d0d3-3f8a-aef0-fe053a87606b",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873009"
+      }
+    ],
+    "categorized": "2026-10-27T05:13:17Z",
+    "contentKey": "50294083-1-21-1",
+    "dataSourceIdentifier": "05155d44da937",
+    "description": "— Tanner McKee and the Philadelphia Eagles still had a potential victory within their grasp in the fourth quarter when the career backup threw a pass into the outstretched hands of DeMarvion Overshown.",
+    "gameId": "401873009",
+    "headline": "Dak Prescott throws 3 TD passes, Javonte Williams runs for 155 yards as Cowboys beat Eagles 38-21",
+    "id": 50294083,
+    "images": [
+      {
+        "caption": "Javonte Williams waves bye after scoring a TD for Dallas",
+        "height": 324,
+        "name": "Javonte Williams waves bye after scoring a TD for Dallas",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/55729124aaf54d38b1edddbed237f9a51405/55729124aaf54d38b1edddbed237f9a51405.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "Philadelphia Eagles",
+      "Dallas Cowboys",
+      "Dallas Cowboys @ Philadelphia Eagles"
+    ],
+    "lastModified": "2026-10-27T04:43:48Z",
+    "linkText": "Dak Prescott throws 3 TD passes, Javonte Williams runs for 155 yards as Cowboys beat Eagles 38-21",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50294083"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50294083"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50294083"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873009"
+      }
+    },
+    "nowId": "1-50294083",
+    "originallyPosted": "2026-10-27T03:36:48Z",
+    "premium": false,
+    "published": "2026-10-27T03:36:48Z",
+    "publishedkey": "nfl401873009",
+    "section": "NFL",
+    "source": "AP",
+    "story": "PHILADELPHIA -- — <a href=\"http://www.espn.com/nfl/player/_/id/4685201/tanner-mckee\">Tanner McKee</a> and the <a href=\"http://www.espn.com/nfl/team/_/name/phi/philadelphia-eagles\">Philadelphia Eagles</a> still had a potential victory within their grasp in the fourth quarter when the career backup threw a pass into the outstretched hands of <a href=\"http://www.espn.com/nfl/player/_/id/4362088/demarvion-overshown\">DeMarvion Overshown</a>.\n\n\r\n              The Cowboys linebacker raised the ball in celebration after making the clutch play the Eagles’ defense could not deliver.\n\n\r\n              Look at Dallas now, playing for a division title that's up for grabs.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/2577417/dak-prescott\">Dak Prescott</a> threw for 212 yards and three touchdowns, two to <a href=\"http://www.espn.com/nfl/player/_/id/4241389/ceedee-lamb\">CeeDee Lamb</a>, and the Cowboys handed the Eagles their fifth straight loss, 38-21 on Monday night.\n\n\r\n              The Eagles (2-5) are spiraling into a disaster of a season with their longest skid since 2016.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4361579/javonte-williams\">Javonte Williams</a> ran for a career-high 155 yards and a touchdown for the Cowboys (3-4), who still have realistic designs on an NFC East title. The <a href=\"http://www.espn.com/nfl/team/_/name/nyg/new-york-giants\">New York Giants</a> lead the division at 4-2-1, and the Cowboys are the only team with two division victories.\n\n\r\n              “Come out, get a division win on the road in a hostile environment right before we get to go home for a couple of weeks, I think it was massive,” Prescott said.\n\n\r\n              Philadelphia lost eight straight games in 2012 and had a seven-game skid in 1994.\n\n\r\n              Eagles quarterback <a href=\"http://www.espn.com/nfl/player/_/id/4040715/jalen-hurts\">Jalen Hurts</a> is expected to miss the rest of the season because of <a href=\"https://apnews.com/article/jalen-hurts-blood-clots-eagles-d92af6b7ce495640139dd66a39f1ee86\">blood clots</a> in his lungs. McKee provided little encouragement that he can turn the season around, completing 23 of 35 passes for 211 yards with one touchdown and one interception.\n\n\r\n              Prescott finished long drives with scores that McKee was unable to match. The Eagles are 3-6 without Hurts since he became the starter in 2021.\n\n\r\n              With Dallas trailing 21-20 late in the third quarter, Lamb hauled in his second TD on <a href=\"https://x.com/espn/status/2114907569110315348\">a beautiful 16-yard floater</a> from Prescott in the corner of the end zone. Prescott ran in the 2-point conversion for a 28-21 lead.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/3953687/brandon-aubrey\">Brandon Aubrey</a> kicked field goals of 55, 27 and 24 yards. The final kick extended Dallas’ lead to 31-21. Williams capped the scoring and the first 150-yard rushing game by a Dallas player since <a href=\"http://www.espn.com/nfl/player/_/id/3051392/ezekiel-elliott\">Ezekiel Elliott</a> in 2018 with a 2-yard TD. The Cowboys finished with 204 yards rushing.\n\n\r\n              “Javonte, man, the power, the acceleration, it was there tonight. He looked great,” Cowboys coach Brian Schottenheimer said.\n\n\r\n              Overshown sealed the win with the pick in his first game since he suffered a hamstring injury in Week 1.\n\n\r\n              “Our division, we're in it,” Overshown said.\n\n\r\n              Unlike the Eagles.\n\n\r\n              McKee orchestrated the first Eagles touchdown drive in the third quarter this season when they ran almost 10 minutes off the clock and he hit rookie <a href=\"http://www.espn.com/nfl/player/_/id/4870795/makai-lemon\">Makai Lemon</a> for a 4-yard touchdown and a 21-20 lead.\n\n\r\n              The Eagles didn't score again and are running out of chances to salvage their season.\n\n\r\n              “Football is going to deal you some tough hands at times,” coach Nick Sirianni said. “Can you get up and keep fighting?”\n\n\r\n              <hl2>High-scoring game early</hl2>\r\n              The Cowboys got a field goal on their opening drive, and the Eagles came right back and made it 7-3 on Saquon Barkley’s 8-yard touchdown run. Barkley returned after missing the last two-plus games with a hamstring injury and had 37 yards rushing on the drive.\n\n\r\n              Barkley entered with 36 yards rushing all season. He still seemed bothered by the hamstring and had to visit the sideline medical tent. Barkley also missed long stretches getting treatment for his back on the sideline and finished with 62 yards on seven carries. The Eagles also played without wideout <a href=\"http://www.espn.com/nfl/player/_/id/4241478/devonta-smith\">DeVonta Smith</a>.\n\n\r\n              Prescott threw touchdown passes of 9 yards to Lamb and 21 yards to <a href=\"http://www.espn.com/nfl/player/_/id/4426354/george-pickens\">George Pickens</a> that helped the Cowboys stretch their lead to 20-14 at halftime. Pickens’ catch was particularly impressive, as he escaped tight coverage by safety <a href=\"http://www.espn.com/nfl/player/_/id/4602197/andrew-mukuba\">Andrew Mukuba</a> in the back of the end zone <a href=\"https://x.com/NFL/status/2114888124719567070\">and dragged his left foot sideways</a> for the score.\n\n\r\n              “Stuck to the run. Had great balance,” Prescott said. “When you’re able to do that, we should put ourselves in position like this. It was a great environment. We knew we had to win. We came out and got it done.”\n\n\r\n              <hl2>Eagles' defense offers little resistance</hl2>\r\n              The Eagles allowed 416 total yards with an average of 6.4 yards per play and 25 first downs. Philadelphia has allowed at least 375 yards in each game of its losing streak.\n\n\r\n              <hl2>Lurie is an Eagles Hall of Famer</hl2>\r\n              Eagles owner Jeffrey Lurie was inducted into the team's Hall of Fame.\n\n\r\n              Lurie bought the Eagles on May 6, 1994, and since the turn of the century they have been one of the top franchises in football. The Eagles are one of three teams to play in four Super Bowls since 2004 and have won the only two titles in franchise history under Lurie's ownership.\n\n\r\n              Lurie was flanked by Eagles Hall of Famers including Brian Dawkins and Donovan McNabb and gave a brief halftime speech. However, unlike other Hall of Fame inductees, Lurie did not hold a pregame news conference. Sirianni remained the only team representative addressing Hurts’ condition since he was injured.\n\n\r\n              <hl2>Injuries</hl2>\r\n              Eagles: Kick returner <a href=\"http://www.espn.com/nfl/player/_/id/3926231/britain-covey\">Britain Covey</a> suffered a knee injury in the first quarter. \n\n\r\n              <hl2>Up next</hl2>\r\n              Cowboys: Host Arizona on Sunday.\n\n\r\n              Eagles: At Washington in a Sunday night matchup of struggling NFC East rivals.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": [
+      {
+        "ad": {
+          "bundle": "nfl_inprogress_highlights",
+          "sport": "nfl"
+        },
+        "caption": "Javonte Williams waves bye after scoring a TD for Dallas",
+        "categories": [
+          {
+            "description": "Dallas Cowboys",
+            "guid": "b0fc8fb7-9dbe-e574-9008-6f0ee7c6b234",
+            "id": 1298,
+            "sportId": 28,
+            "team": {
+              "abbreviation": "DAL",
+              "description": "Dallas Cowboys",
+              "id": 6,
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys"
+                  }
+                }
+              },
+              "shortDisplayName": "Cowboys"
+            },
+            "teamId": 6,
+            "type": "team",
+            "uid": "s:20~l:28~t:6"
+          },
+          {
+            "description": "NFL",
+            "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+            "id": 9572,
+            "league": {
+              "abbreviation": "NFL",
+              "description": "NFL",
+              "id": 28,
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nfl/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nfl/"
+                  }
+                }
+              }
+            },
+            "leagueId": 28,
+            "sportId": 28,
+            "type": "league",
+            "uid": "s:20~l:28"
+          },
+          {
+            "athlete": {
+              "description": "Javonte Williams",
+              "id": 4361579,
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nfl/player/_/id/4361579/javonte-williams"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nfl/player/_/id/4361579/javonte-williams"
+                  }
+                }
+              }
+            },
+            "athleteId": 4361579,
+            "description": "Javonte Williams",
+            "guid": "0e04df01-7c44-1b1e-01a3-f73ab6f4eb61",
+            "id": 470208,
+            "sportId": 28,
+            "type": "athlete",
+            "uid": "s:20~l:28~a:4361579"
+          },
+          {
+            "description": "Fantasy NFL",
+            "guid": "a472a0eb-d630-3568-bf2a-59572429de6c",
+            "id": 12024,
+            "league": {
+              "abbreviation": "NFLFD",
+              "description": "Fantasy NFL",
+              "id": 3080
+            },
+            "leagueId": 3080,
+            "sportId": 3080,
+            "type": "league",
+            "uid": "s:20~l:3080"
+          },
+          {
+            "description": "3 Star Rating",
+            "guid": "26380a67-7938-32a0-9c82-33abab9f7ad4",
+            "id": 711827,
+            "type": "editorialindicator"
+          },
+          {
+            "description": "Philadelphia Eagles",
+            "guid": "d1a9b001-1df7-fbd7-ae4c-6ca7065286ec",
+            "id": 1407,
+            "sportId": 28,
+            "team": {
+              "abbreviation": "PHI",
+              "description": "Philadelphia Eagles",
+              "id": 21,
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nfl/team/_/name/phi/philadelphia-eagles"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nfl/team/_/name/phi/philadelphia-eagles"
+                  }
+                }
+              },
+              "shortDisplayName": "Eagles"
+            },
+            "teamId": 21,
+            "type": "team",
+            "uid": "s:20~l:28~t:21"
+          },
+          {
+            "description": "Team Boost",
+            "guid": "467e5496-7942-3006-b2f4-a6ef95021dce",
+            "id": 664674,
+            "type": "editorialindicator"
+          },
+          {
+            "description": "Dallas Cowboys @ Philadelphia Eagles",
+            "event": {
+              "description": "Dallas Cowboys @ Philadelphia Eagles",
+              "id": 401873009,
+              "league": "nfl",
+              "links": {
+                "mobile": {
+                  "event": {
+                    "href": "https://www.espn.com/nfl/game/_/gameId/401873009"
+                  }
+                },
+                "web": {
+                  "event": {
+                    "href": "https://www.espn.com/nfl/game/_/gameId/401873009"
+                  }
+                }
+              },
+              "sport": "football"
+            },
+            "eventId": 401873009,
+            "guid": "b109f6b3-d0d3-3f8a-aef0-fe053a87606b",
+            "type": "event",
+            "uid": "s:20~l:28~e:401873009"
+          }
+        ],
+        "cerebroId": "6ae0187027a06c025114c0ee",
+        "contributingPartner": "wsc",
+        "contributingSystem": "wsc",
+        "dataSourceIdentifier": "b2790c9094811",
+        "description": "Javonte Williams waves bye after scoring a TD for Dallas",
+        "deviceRestrictions": {
+          "devices": [
+            "settop",
+            "tablet",
+            "handset",
+            "ipad",
+            "desktop"
+          ],
+          "type": "whitelist"
+        },
+        "duration": 16,
+        "gameId": 401873009,
+        "headline": "Javonte Williams waves bye after scoring a TD for Dallas",
+        "id": 50293962,
+        "images": [
+          {
+            "alt": "",
+            "caption": "",
+            "credit": "",
+            "height": 324,
+            "name": "Poster Image",
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/55729124aaf54d38b1edddbed237f9a51405/55729124aaf54d38b1edddbed237f9a51405.jpg",
+            "width": 576
+          }
+        ],
+        "lastModified": "2026-10-27T03:26:56Z",
+        "links": {
+          "api": {
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/9a1d9018-8a13-465d-ad64-d21483f328f7"
+            },
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/video/clips/50293962"
+            }
+          },
+          "mobile": {
+            "alert": {
+              "href": "https://m.espn.com/general/video/videoAlert?vid=50293962"
+            },
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9a1d9018-8a13-465d-ad64-d21483f328f7/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50293962/javonte-williams-waves-bye-scoring-td-dallas",
+            "progressiveDownload": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9a1d9018-8a13-465d-ad64-d21483f328f7/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50293962/javonte-williams-waves-bye-scoring-td-dallas"
+            },
+            "source": {
+              "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1027/55729124-aaf5-4d38-b1ed-ddbed237f9a5/55729124-aaf5-4d38-b1ed-ddbed237f9a5.mp4"
+            },
+            "streaming": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9a1d9018-8a13-465d-ad64-d21483f328f7/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50293962/javonte-williams-waves-bye-scoring-td-dallas"
+            }
+          },
+          "source": {
+            "HD": {
+              "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1027/55729124-aaf5-4d38-b1ed-ddbed237f9a5/55729124-aaf5-4d38-b1ed-ddbed237f9a5.mp4"
+            },
+            "HLS": {
+              "9x16": {
+                "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1027/55729124-aaf5-4d38-b1ed-ddbed237f9a5/55729124-aaf5-4d38-b1ed-ddbed237f9a5/playlist.m3u8"
+              },
+              "HD": {
+                "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1027/55729124-aaf5-4d38-b1ed-ddbed237f9a5/55729124-aaf5-4d38-b1ed-ddbed237f9a5/playlist.m3u8"
+              },
+              "cmaf": {
+                "9x16": {
+                  "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1027/55729124-aaf5-4d38-b1ed-ddbed237f9a5/55729124-aaf5-4d38-b1ed-ddbed237f9a5/playlist.m3u8"
+                },
+                "cmb": {
+                  "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1027/55729124-aaf5-4d38-b1ed-ddbed237f9a5/55729124-aaf5-4d38-b1ed-ddbed237f9a5/playlist.m3u8"
+                },
+                "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1027/55729124-aaf5-4d38-b1ed-ddbed237f9a5/55729124-aaf5-4d38-b1ed-ddbed237f9a5/playlist.m3u8"
+              },
+              "cmb": {
+                "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1027/55729124-aaf5-4d38-b1ed-ddbed237f9a5/55729124-aaf5-4d38-b1ed-ddbed237f9a5/playlist.m3u8"
+              },
+              "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1027/55729124-aaf5-4d38-b1ed-ddbed237f9a5/55729124-aaf5-4d38-b1ed-ddbed237f9a5/playlist.m3u8",
+              "shield": {
+                "href": "https://watch.auth.api.espn.com/video/auth/media/9a1d9018-8a13-465d-ad64-d21483f328f7/asset"
+              }
+            },
+            "flash": {
+              "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1027/55729124-aaf5-4d38-b1ed-ddbed237f9a5/55729124-aaf5-4d38-b1ed-ddbed237f9a5.mp4"
+            },
+            "full": {
+              "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1027/55729124-aaf5-4d38-b1ed-ddbed237f9a5/55729124-aaf5-4d38-b1ed-ddbed237f9a5.mp4"
+            },
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1027/55729124-aaf5-4d38-b1ed-ddbed237f9a5/55729124-aaf5-4d38-b1ed-ddbed237f9a5.mp4",
+            "mezzanine": {
+              "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1027/55729124-aaf5-4d38-b1ed-ddbed237f9a5/55729124-aaf5-4d38-b1ed-ddbed237f9a5.mp4"
+            }
+          },
+          "sportscenter": {
+            "href": "sportscenter://x-callback-url/showVideo?videoID=50293962&videoDSI=b2790c9094811"
+          },
+          "web": {
+            "href": "https://www.espn.com/video/clip/_/id/50293962/javonte-williams-waves-bye-scoring-td-dallas",
+            "self": {
+              "dsi": {
+                "href": "https://www.espn.com/video/clip?id=b2790c9094811"
+              },
+              "href": "https://www.espn.com/video/clip/_/id/50293962/javonte-williams-waves-bye-scoring-td-dallas"
+            }
+          }
+        },
+        "originalPublishDate": "2026-10-27T03:20:16Z",
+        "pccId": "9a1d9018-8a13-465d-ad64-d21483f328f7",
+        "plays": [
+          {
+            "id": 4018730094082
+          }
+        ],
+        "posterImages": {
+          "default": {
+            "height": 324,
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/55729124aaf54d38b1edddbed237f9a51405/55729124aaf54d38b1edddbed237f9a51405_default.jpg",
+            "width": 576
+          },
+          "firstFrame": {
+            "href": "https://cmp-espn.media.dssott.com/opp/img/espn/wsc/2026/1027/55729124-aaf5-4d38-b1ed-ddbed237f9a5/55729124-aaf5-4d38-b1ed-ddbed237f9a5/thumb-1-w720-h406-f4.jpg"
+          },
+          "full": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/55729124aaf54d38b1edddbed237f9a51405/55729124aaf54d38b1edddbed237f9a51405.jpg"
+          },
+          "square": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/55729124aaf54d38b1edddbed237f9a51405/55729124aaf54d38b1edddbed237f9a51405_1x1.jpg"
+          },
+          "vertical": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/55729124aaf54d38b1edddbed237f9a51405/55729124aaf54d38b1edddbed237f9a51405_9x16.jpg"
+          },
+          "verticalFirstFrame": {
+            "href": "https://cmp-espn.media.dssott.com/opp/img/espn/9x16/wsc/2026/1027/55729124-aaf5-4d38-b1ed-ddbed237f9a5/55729124-aaf5-4d38-b1ed-ddbed237f9a5/thumb-1-w406-h720-f4.jpg"
+          },
+          "wide": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/55729124aaf54d38b1edddbed237f9a51405/55729124aaf54d38b1edddbed237f9a51405_5x2.jpg"
+          }
+        },
+        "premium": false,
+        "shortDescription": "Javonte Williams waves bye after scoring a TD for Dallas",
+        "shortHeadline": "Javonte Williams waves bye after scoring a TD for Dallas",
+        "source": "espn",
+        "syndicatable": true,
+        "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/55729124aaf54d38b1edddbed237f9a51405/55729124aaf54d38b1edddbed237f9a51405.jpg",
+        "timeRestrictions": {
+          "embargoDate": "2026-10-27T03:20:15Z",
+          "expirationDate": "2026-10-29T03:20:00Z"
+        },
+        "title": "Javonte Williams waves bye after scoring a TD for Dallas",
+        "tracking": {
+          "coverageType": "OnePlay",
+          "leagueName": "NFL",
+          "program": "espnnfl",
+          "sportName": "football",
+          "trackingId": "dm_20261027_NFL_javonte_williams_waves_bye_after_scoring_a_td_for_dallas",
+          "trackingName": "NFL_One-Play (Javonte Williams waves bye after scoring a TD for Dallas) 2026/10/27"
+        },
+        "videoRatio": "16:9,9:16"
+      }
+    ]
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "12:30",
+        "value": 750.0
+      },
+      "homeScore": 0,
+      "id": "401873009213",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "DAL",
+        "displayName": "Dallas Cowboys",
+        "id": "6",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/dal",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:6"
+      },
+      "text": "Brandon Aubrey 55 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "10:25",
+        "value": 625.0
+      },
+      "homeScore": 7,
+      "id": "401873009385",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "PHI",
+        "displayName": "Philadelphia Eagles",
+        "id": "21",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/phi/philadelphia-eagles",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/phi",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/phi.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/phi.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:21"
+      },
+      "text": "Saquon Barkley 8 Yd Rush (Jake Elliott Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 10,
+      "clock": {
+        "displayValue": "5:32",
+        "value": 332.0
+      },
+      "homeScore": 7,
+      "id": "401873009658",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "DAL",
+        "displayName": "Dallas Cowboys",
+        "id": "6",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/dal",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:6"
+      },
+      "text": "CeeDee Lamb 9 Yd pass from Dak Prescott (Brandon Aubrey Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 10,
+      "clock": {
+        "displayValue": "13:25",
+        "value": 805.0
+      },
+      "homeScore": 14,
+      "id": "4018730091152",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "PHI",
+        "displayName": "Philadelphia Eagles",
+        "id": "21",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/phi/philadelphia-eagles",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/phi",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/phi.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/phi.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:21"
+      },
+      "text": "Dameon Pierce 5 Yd Rush (Jake Elliott Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 17,
+      "clock": {
+        "displayValue": "5:37",
+        "value": 337.0
+      },
+      "homeScore": 14,
+      "id": "4018730091551",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "DAL",
+        "displayName": "Dallas Cowboys",
+        "id": "6",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/dal",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:6"
+      },
+      "text": "George Pickens 21 Yd pass from Dak Prescott (Brandon Aubrey Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 20,
+      "clock": {
+        "displayValue": "0:00",
+        "value": 0.0
+      },
+      "homeScore": 14,
+      "id": "4018730092272",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "DAL",
+        "displayName": "Dallas Cowboys",
+        "id": "6",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/dal",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:6"
+      },
+      "text": "Brandon Aubrey 27 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 20,
+      "clock": {
+        "displayValue": "5:44",
+        "value": 344.0
+      },
+      "homeScore": 21,
+      "id": "4018730092717",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "PHI",
+        "displayName": "Philadelphia Eagles",
+        "id": "21",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/phi/philadelphia-eagles",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/phi",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/phi.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/phi.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:21"
+      },
+      "text": "Makai Lemon 4 Yd pass from Tanner McKee (Jake Elliott Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 28,
+      "clock": {
+        "displayValue": "1:30",
+        "value": 90.0
+      },
+      "homeScore": 21,
+      "id": "4018730093048",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "DAL",
+        "displayName": "Dallas Cowboys",
+        "id": "6",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/dal",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:6"
+      },
+      "text": "CeeDee Lamb 16 Yd pass from Dak Prescott (Dak Prescott Run for Two-Point Conversion)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 31,
+      "clock": {
+        "displayValue": "9:10",
+        "value": 550.0
+      },
+      "homeScore": 21,
+      "id": "4018730093568",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "DAL",
+        "displayName": "Dallas Cowboys",
+        "id": "6",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/dal",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:6"
+      },
+      "text": "Brandon Aubrey 24 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 38,
+      "clock": {
+        "displayValue": "2:21",
+        "value": 141.0
+      },
+      "homeScore": 21,
+      "id": "4018730094082",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "DAL",
+        "displayName": "Dallas Cowboys",
+        "id": "6",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/dal",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:6"
+      },
+      "text": "Javonte Williams 2 Yd Rush (Brandon Aubrey Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    }
+  ]
+}
