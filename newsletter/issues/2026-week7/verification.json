@@ -1,0 +1,63 @@
+{
+ "issue": "2026-week7",
+ "season": "2026",
+ "week": 7,
+ "updated_at": "2026-10-28T13:13:37Z",
+ "result": "pass",
+ "stopped_at": null,
+ "next_action": null,
+ "models": {
+  "writer": "claude-opus-5-5[effort=high]",
+  "editor": "claude-sonnet-5-5[effort=high]"
+ },
+ "artifacts": {
+  "brief.json": "973f857d8fac6f5b699bc71a8480945a835b63029f2bf50678bb08ffb69e1473",
+  "brief.md": "e32abfe6a0e4b55107b4c7abdd0033a52422e4e7a21b9b2fd4fd3765f289d453",
+  "issue.json": null,
+  "review.json": null,
+  "writer.json": null,
+  "issue.html": null
+ },
+ "gates": [
+  {
+   "gate": "fetch.week_final",
+   "step": "fetch",
+   "owner": "script",
+   "status": "pass",
+   "checked_at": "2026-10-28T13:13:15Z",
+   "command": "python3 newsletter/run.py fetch --week 7",
+   "details": {
+    "raw": "fetched",
+    "fetched_at": "2026-10-28T13:13Z"
+   }
+  },
+  {
+   "gate": "brief.reproducible",
+   "step": "brief",
+   "owner": "script",
+   "status": "pass",
+   "checked_at": "2026-10-28T13:13:37Z",
+   "command": "python3 newsletter/run.py brief --week 7",
+   "details": {
+    "brief.json": "973f857d8fac6f5b699bc71a8480945a835b63029f2bf50678bb08ffb69e1473",
+    "brief.md": "e32abfe6a0e4b55107b4c7abdd0033a52422e4e7a21b9b2fd4fd3765f289d453",
+    "elo": "ec06babfe342d01ba3d2d2017e54e3476b6f76dd69ab6ac78e61ae4638ce0e0c"
+   }
+  },
+  {
+   "gate": "brief.valid",
+   "step": "check-brief",
+   "owner": "script",
+   "status": "pass",
+   "checked_at": "2026-10-28T13:13:37Z",
+   "command": "python3 newsletter/run.py check-brief --week 7",
+   "details": {
+    "teams": 12,
+    "matchups": 6,
+    "nfl_games": 14,
+    "transactions": 28,
+    "starters_without_stat_record": 1
+   }
+  }
+ ]
+}

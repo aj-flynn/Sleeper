@@ -133,7 +133,10 @@ def test_history_backfill_matches_elo_calc(tmp_path):
         for w in range(1, 5):
             assert abs(doc["weeks"][str(w)][str(rid)]["elo"] - history[rid][w - 1]) < 0.005
     committed = elo.read_doc(elo.history_path("2026"))
-    assert committed["weeks"] == doc["weeks"]
+    # Weeks 0–4 are the pinned seed and must never be rewritten. Later weeks
+    # are appended by later issues and are allowed to exist in the committed file.
+    for w in ("0", "1", "2", "3", "4"):
+        assert committed["weeks"][w] == doc["weeks"][w]
 
 
 def test_history_record_is_idempotent(tmp_path):
