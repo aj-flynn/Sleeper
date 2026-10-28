@@ -2,7 +2,7 @@
  "issue": "2026-week7",
  "season": "2026",
  "week": 7,
- "updated_at": "2026-10-28T13:13:37Z",
+ "updated_at": "2026-10-28T13:31:00Z",
  "result": "pass",
  "stopped_at": null,
  "next_action": null,
@@ -13,9 +13,9 @@
  "artifacts": {
   "brief.json": "973f857d8fac6f5b699bc71a8480945a835b63029f2bf50678bb08ffb69e1473",
   "brief.md": "e32abfe6a0e4b55107b4c7abdd0033a52422e4e7a21b9b2fd4fd3765f289d453",
-  "issue.json": null,
+  "issue.json": "203481b053728a549999d474798e134b90dbcccb3527f6a5081c51246c411866",
   "review.json": null,
-  "writer.json": null,
+  "writer.json": "16cb95fbdba15f355f2e7020259fde97d10d1eb275d92b7d74332cee272098c7",
   "issue.html": null
  },
  "gates": [
@@ -57,6 +57,50 @@
     "nfl_games": 14,
     "transactions": 28,
     "starters_without_stat_record": 1
+   }
+  },
+  {
+   "gate": "issue.present",
+   "step": "write",
+   "owner": "writer (claude-opus-5-5)",
+   "status": "pass",
+   "checked_at": "2026-10-28T13:31:00Z",
+   "command": "python3 newsletter/run.py check-issue --week 7",
+   "details": {
+    "issue.json": "203481b053728a549999d474798e134b90dbcccb3527f6a5081c51246c411866"
+   }
+  },
+  {
+   "gate": "issue.schema",
+   "step": "write",
+   "owner": "writer (claude-opus-5-5)",
+   "status": "pass",
+   "checked_at": "2026-10-28T13:31:00Z",
+   "command": "python3 newsletter/run.py check-issue --week 7",
+   "details": {
+    "problems": 0
+   }
+  },
+  {
+   "gate": "issue.lint",
+   "step": "write",
+   "owner": "writer (claude-opus-5-5)",
+   "status": "pass",
+   "checked_at": "2026-10-28T13:31:00Z",
+   "command": "python3 newsletter/run.py check-issue --week 7",
+   "details": {
+    "problems": 0
+   }
+  },
+  {
+   "gate": "issue.facts",
+   "step": "write",
+   "owner": "writer (claude-opus-5-5)",
+   "status": "pass",
+   "checked_at": "2026-10-28T13:31:00Z",
+   "command": "python3 newsletter/run.py check-issue --week 7",
+   "details": {
+    "problems": 0
    }
   }
  ]
