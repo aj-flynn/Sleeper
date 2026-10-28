@@ -1,6 +1,6 @@
 {
   "agent": "writer",
-  "model": "cursor-grok-4-6-high",
+  "model": "cursor-grok-4.6-high",
   "round": 1,
   "responds_to_review": null,
   "story": [
