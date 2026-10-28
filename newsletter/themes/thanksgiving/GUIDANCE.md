@@ -23,3 +23,5 @@ Typography/palette/borders/shading pass: use Georgia (Times New Roman fallback) 
 Guidance actually used: frontend-design from the installed anthropic-frontend-design package, and design-taste-frontend (including its type guidance). The existing layout is explicit user direction and takes precedence over generic redesign suggestions. No model API or external font service is required.
 
 Do not render the bench/nonstarter prose block formerly beneath the Standouts table. Keep the table and its rows, then continue to Injuries. Do not remove other two-column sections. Underlying bench data may remain available for accurate future writing.
+
+Weave recognizable holiday references naturally throughout the narrative, preserving the league-specific voice and full sentences without repetitive or forced puns. See the standing holiday rule in [EDITORIAL.md](../../EDITORIAL.md).

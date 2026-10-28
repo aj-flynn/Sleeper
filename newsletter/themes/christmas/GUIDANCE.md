@@ -25,3 +25,5 @@ Guidance actually used: frontend-design from the installed anthropic-frontend-de
 Christmas vibrancy: use richer evergreen #145B39, festive burgundy #A3213C, brighter old gold #B68B25 and fresh pale-pine surfaces #D8E7CE. Gutter needles use #1B6B45 with gold #BC8A14 and burgundy #AA2343 ornaments. Preserve the low-contrast snowy background and existing layout; color richness must not reduce legibility.
 
 Do not render the bench/nonstarter prose block formerly beneath the Standouts table. Keep the table and its rows, then continue to Injuries. Do not remove other two-column sections. Underlying bench data may remain available for accurate future writing.
+
+Weave recognizable holiday references naturally throughout the narrative, preserving the league-specific voice and full sentences without repetitive or forced puns. See the standing holiday rule in [EDITORIAL.md](../../EDITORIAL.md).
