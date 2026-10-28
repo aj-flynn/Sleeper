@@ -1,2 +1,5 @@
 __pycache__/
 .pytest_cache/
+
+# Local draft/capture revisions and browser artifacts. Archived data is tracked explicitly.
+work/

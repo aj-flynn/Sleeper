@@ -1,0 +1,55 @@
+{
+  "tool": "get_player_news",
+  "arguments": {
+    "league_id": "1319718857249665024",
+    "days": 8
+  },
+  "fetched_at": "2026-10-28T14:37:11.785732+00:00",
+  "response": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": {
+      "content": [
+        {
+          "text": "{\"success\":true,\"error\":null,\"error_type\":null,\"players\":[],\"unresolved\":[],\"window_days\":8,\"league_id\":\"1319718857249665024\",\"sources\":{},\"notes\":[\"news_flags are what the projections read (recency-weighted, one per flag, the newest availability flag only); news_adjustment is their effect on our model's share of the blend (Sleeper's projection already saw the news).\",\"A note carried by several sources is one timeline entry (sources lists each copy).\"],\"warnings\":[\"No news has been fetched yet: run refresh_data(scope=[\\\"news\\\"]) (the prefetch loop does it every 45 min when enabled).\"]}",
+          "type": "text"
+        }
+      ],
+      "isError": false,
+      "structuredContent": {
+        "success": true,
+        "error": null,
+        "error_type": null,
+        "players": [],
+        "unresolved": [],
+        "window_days": 8,
+        "league_id": "1319718857249665024",
+        "sources": {},
+        "notes": [
+          "news_flags are what the projections read (recency-weighted, one per flag, the newest availability flag only); news_adjustment is their effect on our model's share of the blend (Sleeper's projection already saw the news).",
+          "A note carried by several sources is one timeline entry (sources lists each copy)."
+        ],
+        "warnings": [
+          "No news has been fetched yet: run refresh_data(scope=[\"news\"]) (the prefetch loop does it every 45 min when enabled)."
+        ]
+      }
+    }
+  },
+  "data": {
+    "success": true,
+    "error": null,
+    "error_type": null,
+    "players": [],
+    "unresolved": [],
+    "window_days": 8,
+    "league_id": "1319718857249665024",
+    "sources": {},
+    "notes": [
+      "news_flags are what the projections read (recency-weighted, one per flag, the newest availability flag only); news_adjustment is their effect on our model's share of the blend (Sleeper's projection already saw the news).",
+      "A note carried by several sources is one timeline entry (sources lists each copy)."
+    ],
+    "warnings": [
+      "No news has been fetched yet: run refresh_data(scope=[\"news\"]) (the prefetch loop does it every 45 min when enabled)."
+    ]
+  }
+}

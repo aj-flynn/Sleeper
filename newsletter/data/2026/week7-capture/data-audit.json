@@ -1,0 +1,431 @@
+{
+  "source_count": 38,
+  "nfl_final_games": 14,
+  "starter_totals": [
+    {
+      "roster_id": 1,
+      "points": 154.86,
+      "starter_sum": 154.86
+    },
+    {
+      "roster_id": 2,
+      "points": 123.7,
+      "starter_sum": 123.7
+    },
+    {
+      "roster_id": 3,
+      "points": 160.86,
+      "starter_sum": 160.86
+    },
+    {
+      "roster_id": 4,
+      "points": 124.04,
+      "starter_sum": 124.04
+    },
+    {
+      "roster_id": 5,
+      "points": 113.72,
+      "starter_sum": 113.72
+    },
+    {
+      "roster_id": 6,
+      "points": 91.4,
+      "starter_sum": 91.4
+    },
+    {
+      "roster_id": 7,
+      "points": 90.7,
+      "starter_sum": 90.7
+    },
+    {
+      "roster_id": 8,
+      "points": 116.6,
+      "starter_sum": 116.6
+    },
+    {
+      "roster_id": 9,
+      "points": 160.78,
+      "starter_sum": 160.78
+    },
+    {
+      "roster_id": 10,
+      "points": 157.78,
+      "starter_sum": 157.78
+    },
+    {
+      "roster_id": 11,
+      "points": 126.36,
+      "starter_sum": 126.36
+    },
+    {
+      "roster_id": 12,
+      "points": 140.7,
+      "starter_sum": 140.7
+    }
+  ],
+  "coverage_start": "2026-10-21T12:00:00Z",
+  "coverage_end_exclusive": "2026-10-28T12:00:00Z",
+  "period_transaction_counts": {
+    "complete free_agent": 15,
+    "failed waiver": 3,
+    "complete waiver": 6
+  },
+  "post_cutoff_reversed": [],
+  "faab": {
+    "1": {
+      "spent": 50,
+      "net_transfers": 0,
+      "remaining": 150
+    },
+    "2": {
+      "spent": 18,
+      "net_transfers": 0,
+      "remaining": 182
+    },
+    "3": {
+      "spent": 0,
+      "net_transfers": 0,
+      "remaining": 200
+    },
+    "4": {
+      "spent": 54,
+      "net_transfers": 0,
+      "remaining": 146
+    },
+    "5": {
+      "spent": 150,
+      "net_transfers": 0,
+      "remaining": 50
+    },
+    "6": {
+      "spent": 171,
+      "net_transfers": 0,
+      "remaining": 29
+    },
+    "7": {
+      "spent": 44,
+      "net_transfers": 0,
+      "remaining": 156
+    },
+    "8": {
+      "spent": 14,
+      "net_transfers": 0,
+      "remaining": 186
+    },
+    "9": {
+      "spent": 0,
+      "net_transfers": 0,
+      "remaining": 200
+    },
+    "10": {
+      "spent": 191,
+      "net_transfers": 0,
+      "remaining": 9
+    },
+    "11": {
+      "spent": 54,
+      "net_transfers": 0,
+      "remaining": 146
+    },
+    "12": {
+      "spent": 130,
+      "net_transfers": 0,
+      "remaining": 70
+    }
+  },
+  "reproducible": true,
+  "main_brief_problems": [],
+  "elo_weeks0through6_preserved": true,
+  "article_dates": [
+    {
+      "event": "401873010",
+      "published": "2026-10-23T03:32:08Z",
+      "lastModified": "2026-10-23T05:40:08Z",
+      "headline": "Caleb Williams throws 2 TD passes as the Bears beat Drake Maye and the Patriots 30-24"
+    },
+    {
+      "event": "401873011",
+      "published": "2026-10-25T16:54:45Z",
+      "lastModified": "2026-10-26T02:02:46Z",
+      "headline": "Rodgers throws TD pass in Paris as Steelers beat Saints 16-10 in NFL's regular-season France debut"
+    },
+    {
+      "event": "401873017",
+      "published": "2026-10-25T20:22:46Z",
+      "lastModified": "2026-10-25T22:00:46Z",
+      "headline": "Michael Penix Jr. throws 3 TD passes, Falcons force 4 turnovers to give 49ers first loss, 29-20"
+    },
+    {
+      "event": "401873013",
+      "published": "2026-10-25T20:35:46Z",
+      "lastModified": "2026-10-25T22:20:49Z",
+      "headline": "Deshaun Watson leads another game-winning drive as the Browns beat the Titans 27-24"
+    },
+    {
+      "event": "401873014",
+      "published": "2026-10-25T20:16:52Z",
+      "lastModified": "2026-10-25T22:35:46Z",
+      "headline": "Vikings defense clamps down on Daniel Jones and the Colts for a 16-10 victory to stay undefeated"
+    },
+    {
+      "event": "401873015",
+      "published": "2026-10-25T20:25:45Z",
+      "lastModified": "2026-10-25T21:49:47Z",
+      "headline": "Malik Willis sparks first win for Jeff Hafley and Dolphins hold off late Jets rally in 28-25 victory"
+    },
+    {
+      "event": "401873018",
+      "published": "2026-10-25T20:06:46Z",
+      "lastModified": "2026-10-25T21:29:47Z",
+      "headline": "Bucky Irving runs for 2 TDs and Bucs force 4 turnovers in 43-13 rout of Panthers"
+    },
+    {
+      "event": "401873012",
+      "published": "2026-10-25T20:12:58Z",
+      "lastModified": "2026-10-25T22:02:47Z",
+      "headline": "Burrow throws 4 TD passes as Bengals storm past Jackson-less Ravens in 2nd half of 35-13 win"
+    },
+    {
+      "event": "401873016",
+      "published": "2026-10-25T20:45:01Z",
+      "lastModified": "2026-10-25T22:41:46Z",
+      "headline": "Singletary's 30-yard run in OT gives Giants 27-21 win over Texans"
+    },
+    {
+      "event": "401873019",
+      "published": "2026-10-25T23:44:45Z",
+      "lastModified": "2026-10-26T00:55:47Z",
+      "headline": "Bo Nix runs for a 62-yard TD, leads Broncos past the Cardinals for a 30-16 win"
+    },
+    {
+      "event": "401873020",
+      "published": "2026-10-25T23:53:46Z",
+      "lastModified": "2026-10-26T01:05:46Z",
+      "headline": "Lions beat Packers 20-17 on last-play field goal to bail out Dan Campbell's failed 4th-down gamble"
+    },
+    {
+      "event": "401873021",
+      "published": "2026-10-25T23:51:45Z",
+      "lastModified": "2026-10-26T01:37:46Z",
+      "headline": "Matthew Stafford sets Rams TD pass record as Los Angeles rolls past Raiders 35-21"
+    },
+    {
+      "event": "401873022",
+      "published": "2026-10-26T03:33:46Z",
+      "lastModified": "2026-10-26T04:13:47Z",
+      "headline": "Jaxon Smith-Njigba has 150 receiving yards and a score in the Seahawks' 20-3 win over the Chiefs"
+    },
+    {
+      "event": "401873009",
+      "published": "2026-10-27T03:36:48Z",
+      "lastModified": "2026-10-27T04:43:48Z",
+      "headline": "Dak Prescott throws 3 TD passes, Javonte Williams runs for 155 yards as Cowboys beat Eagles 38-21"
+    }
+  ],
+  "limitations": [
+    "Player names and user/team labels fetched today; historical metadata snapshots unavailable.",
+    "Current injury snapshot omitted. Game-event injury claims must cite dated recaps; article timing is preserved separately.",
+    "Roster ownership reconstructed by reversing completed post-cutoff transactions; IR/taxi slot history is unavailable and not used.",
+    "Derived raw transaction leg7 contains all records inside the explicit period regardless of original leg. Original API responses retained separately.",
+    "Week 8 matchup data reduced to pairings; NFL scoreboard reduced to schedule. No Week 8 results in brief."
+  ],
+  "mcp_usage_crosscheck": [
+    {
+      "player_id": "12519",
+      "sleeper_name": "Luther Burden III",
+      "mcp_name": "Luther Burden III",
+      "targets_match": true,
+      "carries_match": true,
+      "opponent_match": true
+    },
+    {
+      "player_id": "13298",
+      "sleeper_name": "KC Concepcion Jr.",
+      "mcp_name": "KC Concepcion",
+      "targets_match": true,
+      "carries_match": true,
+      "opponent_match": true
+    },
+    {
+      "player_id": "12527",
+      "sleeper_name": "Ashton Jeanty",
+      "mcp_name": "Ashton Jeanty",
+      "targets_match": true,
+      "carries_match": true,
+      "opponent_match": true
+    },
+    {
+      "player_id": "4017",
+      "sleeper_name": "Deshaun Watson",
+      "mcp_name": "Deshaun Watson",
+      "targets_match": true,
+      "carries_match": true,
+      "opponent_match": true
+    },
+    {
+      "player_id": "6770",
+      "sleeper_name": "Joe Burrow",
+      "mcp_name": "Joe Burrow",
+      "targets_match": true,
+      "carries_match": true,
+      "opponent_match": true
+    },
+    {
+      "player_id": "7547",
+      "sleeper_name": "Amon-Ra St. Brown",
+      "mcp_name": "Amon-Ra St. Brown",
+      "targets_match": true,
+      "carries_match": true,
+      "opponent_match": true
+    },
+    {
+      "player_id": "6801",
+      "sleeper_name": "Tee Higgins",
+      "mcp_name": "Tee Higgins",
+      "targets_match": true,
+      "carries_match": true,
+      "opponent_match": true
+    },
+    {
+      "player_id": "4034",
+      "sleeper_name": "Christian McCaffrey",
+      "mcp_name": "Christian McCaffrey",
+      "targets_match": true,
+      "carries_match": true,
+      "opponent_match": true
+    },
+    {
+      "player_id": "12512",
+      "sleeper_name": "Quinshon Judkins",
+      "mcp_name": "Quinshon Judkins",
+      "targets_match": true,
+      "carries_match": true,
+      "opponent_match": true
+    },
+    {
+      "player_id": "12517",
+      "sleeper_name": "Colston Loveland",
+      "mcp_name": "Colston Loveland",
+      "targets_match": true,
+      "carries_match": true,
+      "opponent_match": true
+    },
+    {
+      "player_id": "9493",
+      "sleeper_name": "Puka Nacua",
+      "mcp_name": "Puka Nacua",
+      "targets_match": true,
+      "carries_match": true,
+      "opponent_match": true
+    },
+    {
+      "player_id": "8112",
+      "sleeper_name": "Drake London",
+      "mcp_name": "Drake London",
+      "targets_match": true,
+      "carries_match": true,
+      "opponent_match": true
+    },
+    {
+      "player_id": "9997",
+      "sleeper_name": "Zay Flowers",
+      "mcp_name": "Zay Flowers",
+      "targets_match": true,
+      "carries_match": true,
+      "opponent_match": true
+    },
+    {
+      "player_id": "8130",
+      "sleeper_name": "Trey McBride",
+      "mcp_name": "Trey McBride",
+      "targets_match": true,
+      "carries_match": true,
+      "opponent_match": true
+    },
+    {
+      "player_id": "11560",
+      "sleeper_name": "Caleb Williams",
+      "mcp_name": "Caleb Williams",
+      "targets_match": true,
+      "carries_match": true,
+      "opponent_match": true
+    },
+    {
+      "player_id": "12506",
+      "sleeper_name": "Harold Fannin Jr.",
+      "mcp_name": "Harold Fannin Jr.",
+      "targets_match": true,
+      "carries_match": true,
+      "opponent_match": true
+    },
+    {
+      "player_id": "6786",
+      "sleeper_name": "CeeDee Lamb",
+      "mcp_name": "CeeDee Lamb",
+      "targets_match": true,
+      "carries_match": true,
+      "opponent_match": true
+    },
+    {
+      "player_id": "11584",
+      "sleeper_name": "Bucky Irving",
+      "mcp_name": "Bucky Irving",
+      "targets_match": true,
+      "carries_match": true,
+      "opponent_match": true
+    },
+    {
+      "player_id": "11564",
+      "sleeper_name": "Drake Maye",
+      "mcp_name": "Drake Maye",
+      "targets_match": true,
+      "carries_match": true,
+      "opponent_match": true
+    },
+    {
+      "player_id": "6813",
+      "sleeper_name": "Jonathan Taylor",
+      "mcp_name": "Jonathan Taylor",
+      "targets_match": true,
+      "carries_match": true,
+      "opponent_match": true
+    },
+    {
+      "player_id": "9488",
+      "sleeper_name": "Jaxon Smith-Njigba",
+      "mcp_name": "Jaxon Smith-Njigba",
+      "targets_match": true,
+      "carries_match": true,
+      "opponent_match": true
+    },
+    {
+      "player_id": "7611",
+      "sleeper_name": "Rhamondre Stevenson",
+      "mcp_name": "Rhamondre Stevenson",
+      "targets_match": true,
+      "carries_match": true,
+      "opponent_match": true
+    },
+    {
+      "player_id": "9221",
+      "sleeper_name": "Jahmyr Gibbs",
+      "mcp_name": "Jahmyr Gibbs",
+      "targets_match": true,
+      "carries_match": true,
+      "opponent_match": true
+    },
+    {
+      "player_id": "7564",
+      "sleeper_name": "Ja'Marr Chase",
+      "mcp_name": "Ja'Marr Chase",
+      "targets_match": true,
+      "carries_match": true,
+      "opponent_match": true
+    }
+  ],
+  "mcp_limitations": [
+    "get_injury_trends returned zero changes; no historical injury feed available.",
+    "get_player_news returned no players; news cache unpopulated. No refresh invoked.",
+    "get_usage_trends has null Sleeper IDs and null snaps/red zone; compared names/team/opponent and counted carries/targets against direct weekly records."
+  ]
+}

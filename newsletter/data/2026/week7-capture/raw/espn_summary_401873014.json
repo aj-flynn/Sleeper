@@ -1,0 +1,692 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "Minnesota Vikings",
+        "guid": "3db556c9-ed76-a7a5-4ccb-a92fc6db4334",
+        "id": 1920,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "MIN",
+          "description": "Minnesota Vikings",
+          "id": 16,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/min/minnesota-vikings"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/min/minnesota-vikings"
+              }
+            }
+          },
+          "shortDisplayName": "Vikings"
+        },
+        "teamId": 16,
+        "type": "team",
+        "uid": "s:20~l:28~t:16"
+      },
+      {
+        "description": "Indianapolis Colts",
+        "guid": "582d14eb-da61-e505-cc40-d972a1b60ed1",
+        "id": 2942,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "IND",
+          "description": "Indianapolis Colts",
+          "id": 11,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/ind/indianapolis-colts"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/ind/indianapolis-colts"
+              }
+            }
+          },
+          "shortDisplayName": "Colts"
+        },
+        "teamId": 11,
+        "type": "team",
+        "uid": "s:20~l:28~t:11"
+      },
+      {
+        "description": "Indianapolis Colts @ Minnesota Vikings",
+        "event": {
+          "description": "Indianapolis Colts @ Minnesota Vikings",
+          "id": 401873014,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873014"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873014"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873014,
+        "guid": "91ecbece-c043-30df-b4e4-c778b0f8c25c",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873014"
+      }
+    ],
+    "categorized": "2026-10-26T04:07:23Z",
+    "contentKey": "50279977-1-21-1",
+    "dataSourceIdentifier": "c027fe78ed38c",
+    "description": "— Blake Cashman led an onslaught of pressure all afternoon. Harrison Smith had the game-sealing interception.",
+    "gameId": "401873014",
+    "headline": "Vikings defense clamps down on Daniel Jones and the Colts for a 16-10 victory to stay undefeated",
+    "id": 50279977,
+    "images": [
+      {
+        "caption": "Daniel Jones picked off by Harrison Smith to seal Vikings victory",
+        "height": 324,
+        "name": "Daniel Jones picked off by Harrison Smith to seal Vikings victory",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/ae6005db1e9b44788f80abb361972e287/ae6005db1e9b44788f80abb361972e287.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "Minnesota Vikings",
+      "Indianapolis Colts",
+      "Indianapolis Colts @ Minnesota Vikings"
+    ],
+    "lastModified": "2026-10-25T22:35:46Z",
+    "linkText": "Vikings defense clamps down on Daniel Jones and the Colts for a 16-10 victory to stay undefeated",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50279977"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50279977"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50279977"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873014"
+      }
+    },
+    "nowId": "1-50279977",
+    "originallyPosted": "2026-10-25T20:16:52Z",
+    "premium": false,
+    "published": "2026-10-25T20:16:52Z",
+    "publishedkey": "nfl401873014",
+    "section": "NFL",
+    "source": "AP",
+    "story": "MINNEAPOLIS -- — <a href=\"http://www.espn.com/nfl/player/_/id/3728281/blake-cashman\">Blake Cashman</a> led an onslaught of pressure all afternoon. <a href=\"http://www.espn.com/nfl/player/_/id/14945/harrison-smith\">Harrison Smith</a> had the game-sealing interception.\n\n\r\n              The <a href=\"https://apnews.com/hub/minnesota-vikings\"><a href=\"http://www.espn.com/nfl/team/_/name/min/minnesota-vikings\">Minnesota Vikings</a></a> aren't scoring much, but a near-impenetrable defense has so far had all the support it's needed to fuel the NFC's last undefeated team.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/3917315/kyler-murray\">Kyler Murray</a> and the Vikings overcame another sluggish start and remained unbeaten with a 16-10 victory over the spiraling <a href=\"https://apnews.com/hub/indianapolis-colts\"><a href=\"http://www.espn.com/nfl/team/_/name/ind/indianapolis-colts\">Indianapolis Colts</a></a> on Sunday.\n\n\r\n              “We feel really comfortable and confident to win football games when we don’t turn it over and we win the field position and boring stuff like that, because we know over the course of 60 minutes what that side can do,” Vikings coach <a href=\"http://www.espn.com/nfl/player/_/id/2146711/kevin-o'connell\">Kevin O'Connell</a> said.\n\n\r\n              Cashman, the eighth-year linebacker who is thriving as the primary communicator for defensive coordinator Brian Flores, had 12 tackles, two sacks, four passes defensed and three hits on quarterback <a href=\"http://www.espn.com/nfl/player/_/id/3917792/daniel-jones\">Daniel Jones</a> for the Vikings (6-0), who have allowed a league-low 74 points.\n\n\r\n              Smith picked off Jones around midfield with about a minute left to kill the last-ditch drive by the Colts (2-5) before it ever got going. It was his 40th career interception. Smith planted the ball on the 40-yard line to mark the occasion as the crowd at U.S. Bank Stadium chanted: “Harry! Harry! Harry!”\n\n\r\n              “There’s a lot of fight in this group,” said Smith, a six-time Pro Bowl safety who decided right before the regular season to return for his 15th year with the Vikings.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4567104/will-reichard\">Will Reichard</a> made three field goals for the Vikings, including a 52-yarder with 1:39 left after his 59-yard try was blocked by <a href=\"http://www.espn.com/nfl/player/_/id/4058825/grover-stewart\">Grover Stewart</a> earlier in the fourth quarter.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4242335/jonathan-taylor\">Jonathan Taylor</a> gave the Colts the lead they kept for more than three quarters of the game with a 38-yard touchdown run on their opening drive, but <a href=\"http://www.espn.com/nfl/player/_/id/4571557/spencer-shrader\">Spencer Shrader</a> missed two field goals in the second half.\n\n\r\n              The miss from 56 yards that coach Shane Steichen called for on fourth-and-2 set the Vikings up for their only touchdown, when Murray used a 35-yard run to get in range for a short scoring pass to <a href=\"http://www.espn.com/nfl/player/_/id/4036133/tj-hockenson\">T.J. Hockenson</a>. That was just the 10th touchdown for the offense in six games.\n\n\r\n              “We’ll continue to get better. I know we will. I know we keep saying that, but I felt like we moved the ball well today,” said Murray, who was 14 for 24 for 150 yards. “We’ve just got to put the ball in the end zone.”\n\n\r\n              <hl2>Steichen says Colts will stick with Jones at quarterback</hl2>\r\n              Jones went 13 for 22 for 108 yards and lost 44 yards on four sacks, with Flores relentlessly sending blitzers into the backfield.\n\n\r\n              “I think we expected it to be this kind of game, kind of an ugly game, and credit to them on defense,” said Jones, who spent the last half of the 2024 season as a backup with the Vikings. “They have a good system and do good stuff.”\n\n\r\n              Jones has just four touchdown passes and seven interceptions in seven games, but Steichen said afterward he's not considering a switch.\n\n\r\n              “I've got a ton of faith in Daniel,” Steichen said.\n\n\r\n              <hl2>Two of the NFL's best kickers are automatic no more</hl2>\r\n              Reichard hit from 28 and 47 yards in the second quarter to set the franchise record with 35 consecutive made field goals, which was the longest active streak in the league — until the block.\n\n\r\n              Shrader, who leads the NFL in scoring this season with 70 points, had his streak of 22 straight made field goals end with his wide-left miss that had heavy pressure off the edge by former Colts cornerback <a href=\"http://www.espn.com/nfl/player/_/id/4044540/isaiah-rodgers\">Isaiah Rodgers</a>. That also stopped Shrader's run of seven makes in a row from 50-plus yards.\n\n\r\n              <hl2>Injury report</hl2>\r\n              Colts: With standout <a href=\"http://www.espn.com/nfl/player/_/id/4427250/sauce-gardner\">Sauce Gardner</a> (calf) inactive, the CB depth chart was chewed up in the second half when <a href=\"http://www.espn.com/nfl/player/_/id/4682909/justin-walley\">Justin Walley</a> (knee) and <a href=\"http://www.espn.com/nfl/player/_/id/4361196/cam-taylor-britt\">Cam Taylor-Britt</a> (groin) left with injuries. ... TE <a href=\"http://www.espn.com/nfl/player/_/id/4431459/tyler-warren\">Tyler Warren</a> (groin) missed his second straight game. LB <a href=\"http://www.espn.com/nfl/player/_/id/4601021/jaylon-carlies\">Jaylon Carlies</a> (ribs) returned to the starting lineup after missing two games.\n\n\r\n              Vikings: RB Aaron Jones aggravated a nagging knee injury in the fourth quarter when he took a low hit at the end of a 17-yard run. He didn't return.\n\n\r\n              <hl2>Up next</hl2>\r\n              Colts: at Jacksonville next Sunday.\n\n\r\n              Vikings: at Detroit next Sunday.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": []
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "9:13",
+        "value": 553.0
+      },
+      "homeScore": 0,
+      "id": "401873014290",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "IND",
+        "displayName": "Indianapolis Colts",
+        "id": "11",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/ind/indianapolis-colts",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/ind",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:11"
+      },
+      "text": "Jonathan Taylor 38 Yd Rush (Spencer Shrader Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "14:52",
+        "value": 892.0
+      },
+      "homeScore": 3,
+      "id": "4018730141021",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "MIN",
+        "displayName": "Minnesota Vikings",
+        "id": "16",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/min/minnesota-vikings",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/min",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+            "lastUpdated": "2023-08-24T19:26Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/min.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+            "lastUpdated": "2023-08-24T19:27Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/min.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:16"
+      },
+      "text": "Will Reichard 28 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "6:37",
+        "value": 397.0
+      },
+      "homeScore": 6,
+      "id": "4018730141489",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "MIN",
+        "displayName": "Minnesota Vikings",
+        "id": "16",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/min/minnesota-vikings",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/min",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+            "lastUpdated": "2023-08-24T19:26Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/min.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+            "lastUpdated": "2023-08-24T19:27Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/min.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:16"
+      },
+      "text": "Will Reichard 47 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 10,
+      "clock": {
+        "displayValue": "0:00",
+        "value": 0.0
+      },
+      "homeScore": 6,
+      "id": "4018730141953",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "IND",
+        "displayName": "Indianapolis Colts",
+        "id": "11",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/ind/indianapolis-colts",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/ind",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:11"
+      },
+      "text": "Spencer Shrader 43 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 10,
+      "clock": {
+        "displayValue": "14:36",
+        "value": 876.0
+      },
+      "homeScore": 13,
+      "id": "4018730142783",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "MIN",
+        "displayName": "Minnesota Vikings",
+        "id": "16",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/min/minnesota-vikings",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/min",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+            "lastUpdated": "2023-08-24T19:26Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/min.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+            "lastUpdated": "2023-08-24T19:27Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/min.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:16"
+      },
+      "text": "T.J. Hockenson 5 Yd pass from Kyler Murray (Will Reichard Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 10,
+      "clock": {
+        "displayValue": "1:39",
+        "value": 99.0
+      },
+      "homeScore": 16,
+      "id": "4018730143636",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "MIN",
+        "displayName": "Minnesota Vikings",
+        "id": "16",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/min/minnesota-vikings",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/min",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+            "lastUpdated": "2023-08-24T19:26Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/min.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+            "lastUpdated": "2023-08-24T19:27Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/min.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:16"
+      },
+      "text": "Will Reichard 52 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    }
+  ]
+}

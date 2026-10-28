@@ -133,7 +133,8 @@ def test_history_backfill_matches_elo_calc(tmp_path):
         for w in range(1, 5):
             assert abs(doc["weeks"][str(w)][str(rid)]["elo"] - history[rid][w - 1]) < 0.005
     committed = elo.read_doc(elo.history_path("2026"))
-    assert committed["weeks"] == doc["weeks"]
+    assert {week: committed["weeks"][week] for week in doc["weeks"]} == doc["weeks"]
+    assert set(committed["weeks"]) == {str(w) for w in range(max(map(int, committed["weeks"])) + 1)}
 
 
 def test_history_record_is_idempotent(tmp_path):
@@ -148,7 +149,7 @@ def test_history_record_is_idempotent(tmp_path):
     assert path.read_bytes() == first
     week3 = json.loads(first.decode())["weeks"]["3"]
     elo.record_week("2026", 4, raw_matchups(4), ids, name, path=path)
-    assert json.loads(path.read_text())["weeks"]["3"] == week3
+    assert json.loads(path.read_text(encoding="utf-8"))["weeks"]["3"] == week3
 
 
 def test_history_past_week_mismatch_fails(tmp_path):
@@ -488,8 +489,20 @@ def test_agents_point_at_the_voice_guide():
         assert ".cursor/skills/newsletter/voice/boston-connor.md" in (REPO / ".cursor" / "agents" / f"{name}.md").read_text()
 
 
-def test_voice_guide_is_the_verbatim_upload():
-    assert hashlib.sha256(GUIDE.read_bytes()).hexdigest() == GUIDE_SHA256
+def test_portable_render_does_not_require_legacy_voice_upload(tmp_path, monkeypatch):
+    import weekly
+    capture=NEWSLETTER / "data" / "2026" / "week7-capture"
+    start,end=weekly.window("2026-10-28T12:00:00Z")
+    out=tmp_path/"draft"
+    weekly.prepare(capture,out,weekly.load(NEWSLETTER/"config.json"),start,end,weekly.load(NEWSLETTER/"elo/2026.json"))
+    shutil.copyfile(NEWSLETTER/"examples/2026-week7-regular/issue.json",out/"issue.json")
+    original_read_text=Path.read_text
+    def without_upload(path,*args,**kwargs):
+        if path.resolve()==GUIDE.resolve():raise AssertionError("Read obsolete uploaded voice guide")
+        return original_read_text(path,*args,**kwargs)
+    monkeypatch.setattr(Path,"read_text",without_upload)
+    assert weekly.render_issue(out,"regular")["state"]=="draft_ready"
+    assert "<p class=\"bench-note\">" not in (out/"issue.html").read_text(encoding="utf-8")
 
 
 # ---------------------------------------------------------------- HTML

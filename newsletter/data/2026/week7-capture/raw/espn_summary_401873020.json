@@ -1,0 +1,779 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "Detroit Lions",
+        "guid": "56caffee-178d-f6f2-a076-b277486b8c32",
+        "id": 1805,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "DET",
+          "description": "Detroit Lions",
+          "id": 8,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/det/detroit-lions"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/det/detroit-lions"
+              }
+            }
+          },
+          "shortDisplayName": "Lions"
+        },
+        "teamId": 8,
+        "type": "team",
+        "uid": "s:20~l:28~t:8"
+      },
+      {
+        "description": "Green Bay Packers",
+        "guid": "06cd3bcf-7a86-53d4-28e7-aa049dd36261",
+        "id": 1861,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "GB",
+          "description": "Green Bay Packers",
+          "id": 9,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/gb/green-bay-packers"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/gb/green-bay-packers"
+              }
+            }
+          },
+          "shortDisplayName": "Packers"
+        },
+        "teamId": 9,
+        "type": "team",
+        "uid": "s:20~l:28~t:9"
+      },
+      {
+        "description": "Green Bay Packers @ Detroit Lions",
+        "event": {
+          "description": "Green Bay Packers @ Detroit Lions",
+          "id": 401873020,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873020"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873020"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873020,
+        "guid": "6851e517-d137-3265-9e44-df6b03859045",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873020"
+      }
+    ],
+    "categorized": "2026-10-26T04:10:55Z",
+    "contentKey": "50282634-1-21-1",
+    "dataSourceIdentifier": "3022347650a89",
+    "description": "— Dan Campbell's latest gamble did not pan out and the Detroit Lions made plays in all three phases — with some yellow flags that went their way — to bail out the aggressive coach.",
+    "gameId": "401873020",
+    "headline": "Lions beat Packers 20-17 on last-play field goal to bail out Dan Campbell's failed 4th-down gamble",
+    "id": 50282634,
+    "images": [
+      {
+        "caption": "Green Bay Packers vs. Detroit Lions: Game Highlight",
+        "height": 324,
+        "name": "Green Bay Packers vs. Detroit Lions: Game Highlight",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/a7bd171485344e25b8861f050b20144b10/a7bd171485344e25b8861f050b20144b10.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "Detroit Lions",
+      "Green Bay Packers",
+      "Green Bay Packers @ Detroit Lions"
+    ],
+    "lastModified": "2026-10-26T01:05:46Z",
+    "linkText": "Lions beat Packers 20-17 on last-play field goal to bail out Dan Campbell's failed 4th-down gamble",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50282634"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50282634"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50282634"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873020"
+      }
+    },
+    "nowId": "1-50282634",
+    "originallyPosted": "2026-10-25T23:53:46Z",
+    "premium": false,
+    "published": "2026-10-25T23:53:46Z",
+    "publishedkey": "nfl401873020",
+    "section": "NFL",
+    "source": "AP",
+    "story": "DETROIT -- — Dan Campbell's latest gamble did not pan out and the <a href=\"http://www.espn.com/nfl/team/_/name/det/detroit-lions\">Detroit Lions</a> made plays in all three phases — with some yellow flags that went their way — to bail out the aggressive coach.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4689936/jake-bates\">Jake Bates</a> made a 22-yard field goal as time expired to give Detroit a 20-17 win over the <a href=\"http://www.espn.com/nfl/team/_/name/gb/green-bay-packers\">Green Bay Packers</a> on Sunday.\n\n\r\n              Campbell, who is known for taking risks, seemed to make a reckless decision to go for it on fourth-and-1 from his 24 with just under 5 minutes to play and <a href=\"http://www.espn.com/nfl/player/_/id/4429795/jahmyr-gibbs\">Jahmyr Gibbs</a> was stopped for no gain.\n\n\r\n              “I thought we would get it, No. 1,\" Campbell said. “No. 2, I knew we would get the ball back if it didn’t work out.”\n\n\r\n              One play after <a href=\"http://www.espn.com/nfl/player/_/id/4036378/jordan-love\">Jordan Love</a> put a pass on Josh Jacobs’ hands for an incompletion that landed in in the end zone, rookie <a href=\"http://www.espn.com/nfl/player/_/id/4869461/trey-smack\">Trey Smack</a> missed a 35-yard field goal after D.J. Wonnum got a finger on the football.\n\n\r\n              Smack was wide right from 26 in the first half and became the first kicker to miss two field goals from 35 yards or closer in same game since 2019, according to Sportradar.\n\n\r\n              “We had some premier field position and we just didn't take advantage,” Packers coach Matt LaFleur said. “We missed two field goals, but we know Trey is capable of making those.”\n\n\r\n              With a chance to drive for a winning score, Goff connected with <a href=\"http://www.espn.com/nfl/player/_/id/4430027/sam-laporta\">Sam LaPorta</a> on an 18 -yard pass and <a href=\"http://www.espn.com/nfl/player/_/id/4373423/karl-brooks\">Karl Brooks</a> was called for a late hit on the quarterback gave Detroit the ball at the Green Bay 45.\n\n\r\n              Gibbs had a 15-yard run and Brooks was called for being offside on third-and-5, giving Detroit a first down at the Packers 15.\n\n\r\n              Gibbs could have run for a touchdown twice because Green Bay didn’t want to tackle him, hoping to get the ball back. The running back wisely went down each time, the latter allowing Bates’ winning kick to come on the final play.\n\n\r\n              “That was as good as it gets at clock management,” Goff said.\n\n\r\n              The Lions (4-2) have won two straight for the first time this season, putting them in third place in the NFC North behind Minnesota (6-0) and Chicago (5-2). \n\n\r\n              Detroit hosts the undefeated Vikings on Sunday.\n\n\r\n              “Any division game is important,” said safety <a href=\"http://www.espn.com/nfl/player/_/id/4692025/brian-branch\">Brian Branch</a>, who had a fourth-quarter interception in his first game since tearing his left Achilles tendon last December. “We need these. They're mini-playoff games.”\n\n\r\n              The Packers (4-3) had a three-game winning streak stopped and dropped to last place in the highly competitive NFC North. All four teams have winning records, matching the AFC North.\n\n\r\n              The Lions entered the game with only one turnover and lost two fumbles that took away chances for them to add to three-point leads late in the first half and early in the third quarter. The second turnover set up Love's 25-yard touchdown pass to Jacobs for a 14-10 Green Bay lead.\n\n\r\n              Detroit retook the lead on the ensuing drive on Goff's 10-yard scoring pass to Williams, who had two TD receptions for a second straight week.\n\n\r\n              The Lions missed another opportunity to add to a three-point lead when Campbell went for it on fourth-and-5 from the Green Bay 6 late in the third and Goff threw incomplete.\n\n\r\n              LaFleur passed on a field goal while trailing by three in the second quarter, and Love's pass to <a href=\"http://www.espn.com/nfl/player/_/id/4701936/matthew-golden\">Matthew Golden</a> was stopped for no gain on fourth-and-4 from the Detroit 7. But Smack had already missed from 26 by then.\n\n\r\n              <hl2>Jacobs' return</hl2>\r\n              <a href=\"https://apnews.com/article/josh-jacobs-packers-6e133e9e3539a3503c281233409a4342\">Jacobs</a> made his season debut less than a week after the three-time Pro Bowl running back was removed from the <a href=\"https://apnews.com/article/packers-josh-jacobs-47fbb57a1a0485f2b33e08ac505416e4\">commissioner’s exempt list</a> for pleading <a href=\"https://apnews.com/article/josh-jacobs-no-contest-plea-96da101ba6d3f3614a0b514fc910aaf6\">no contest</a> to two misdemeanor charges stemming from a May altercation with his then-girlfriend. He had five receptions for 55 yards and a touchdown and 11 carries for 36 yards.\n\n\r\n              <hl2>Flag day</hl2>\r\n              Penalties gave Detroit five first downs, the most for the Lions since 2020.\n\n\r\n              “I’m not a fan of the refs right now,” Green Bay safety <a href=\"http://www.espn.com/nfl/player/_/id/4241470/xavier-mckinney\">Xavier McKinney</a> said in an expletive-filled response to questions about the officials.\n\n\r\n              LaFleur was more diplomatic.\n\n\r\n              “I could tell you what I really think, but it wouldn't do us any good,” he said.\n\n\r\n              <hl2>Injuries</hl2>\r\n              Packers: Starting C <a href=\"http://www.espn.com/nfl/player/_/id/4426411/sean-rhyan\">Sean Rhyan</a> (ankle) and backup <a href=\"http://www.espn.com/nfl/player/_/id/4428037/jacob-monk\">Jacob Monk</a> (quad) were injured, putting second-year lineman <a href=\"http://www.espn.com/nfl/player/_/id/2312707/john-williams\">John Williams</a> in the game to snap for his first career appearance on offense. LaFleur said he would not expect Rhyan on Monk to play on Thursday night against Carolina.\n\n\r\n              Lions: C <a href=\"http://www.espn.com/nfl/player/_/id/4361788/cade-mays\">Cade Mays</a> made his Detroit debut after signing as a free agent in the offseason. He injured a wrist in training camp. ... Oft-injured CB Ennis Rakestraw (ankle) was hurt during the game.\n\n\r\n              <hl2>Up next</hl2>\r\n              <hl2 />\r\n              Packers: Host the Panthers on Thursday night.\n\n\r\n              Lions: Host the Vikings on Sunday.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": []
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 0,
+      "clock": {
+        "displayValue": "7:00",
+        "value": 420.0
+      },
+      "homeScore": 7,
+      "id": "401873020482",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "DET",
+        "displayName": "Detroit Lions",
+        "id": "8",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/det/detroit-lions",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/det",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:8"
+      },
+      "text": "Jameson Williams 16 Yd pass from Jared Goff (Jake Bates Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "0:58",
+        "value": 58.0
+      },
+      "homeScore": 7,
+      "id": "401873020837",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "GB",
+        "displayName": "Green Bay Packers",
+        "id": "9",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/gb/green-bay-packers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/gb",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+            "lastUpdated": "2024-10-28T18:22Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:9"
+      },
+      "text": "Tucker Kraft 14 Yd pass from Jordan Love (Trey Smack Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "12:36",
+        "value": 756.0
+      },
+      "homeScore": 10,
+      "id": "4018730201078",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "DET",
+        "displayName": "Detroit Lions",
+        "id": "8",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/det/detroit-lions",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/det",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:8"
+      },
+      "text": "Jake Bates 40 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 14,
+      "clock": {
+        "displayValue": "12:14",
+        "value": 734.0
+      },
+      "homeScore": 10,
+      "id": "4018730202263",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "GB",
+        "displayName": "Green Bay Packers",
+        "id": "9",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/gb/green-bay-packers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/gb",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+            "lastUpdated": "2024-10-28T18:22Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:9"
+      },
+      "text": "Josh Jacobs 25 Yd pass from Jordan Love (Trey Smack Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 14,
+      "clock": {
+        "displayValue": "6:33",
+        "value": 393.0
+      },
+      "homeScore": 17,
+      "id": "4018730202576",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "DET",
+        "displayName": "Detroit Lions",
+        "id": "8",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/det/detroit-lions",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/det",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:8"
+      },
+      "text": "Jameson Williams 10 Yd pass from Jared Goff (Jake Bates Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 17,
+      "clock": {
+        "displayValue": "7:10",
+        "value": 430.0
+      },
+      "homeScore": 17,
+      "id": "4018730203673",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "GB",
+        "displayName": "Green Bay Packers",
+        "id": "9",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/gb/green-bay-packers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/gb",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+            "lastUpdated": "2024-10-28T18:22Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:9"
+      },
+      "text": "Trey Smack 43 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 17,
+      "clock": {
+        "displayValue": "0:00",
+        "value": 0.0
+      },
+      "homeScore": 20,
+      "id": "4018730204224",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "DET",
+        "displayName": "Detroit Lions",
+        "id": "8",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/det/detroit-lions",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/det",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:8"
+      },
+      "text": "Jake Bates 22 Yd Field Goal ",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    }
+  ]
+}

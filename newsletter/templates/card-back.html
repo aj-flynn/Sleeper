@@ -13,6 +13,7 @@
 :root{
   --stock:#BDB9AF; --maroon:#8A1C2B; --ink:#262321; --rose:#E6C6C1; --shade:#A7A397;
   --slab:'Alfa Slab One',Rockwell,serif; --nar:'Archivo Narrow','Arial Narrow',sans-serif;
+  --column-gap:2rem;
 }
 *{box-sizing:border-box}
 html{background:var(--stock);-webkit-text-size-adjust:100%}
@@ -108,38 +109,74 @@ h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;ma
 @media (min-width:52rem){.finder .nm{font-size:.9375rem}}
 .finder .res{grid-column:2;font-size:.8125rem;line-height:1.3;font-variant-numeric:tabular-nums}
 .finder .won .res{color:var(--maroon);font-weight:700}
-/* recaps: cards */
-.deck{display:grid;gap:1.5rem}
-@media (min-width:52rem){.deck{grid-template-columns:1fr 1fr;gap:2rem}}
+/* Full-width newspaper match reports; shared by every edition. */
+.deck{display:grid;grid-template-columns:minmax(0,1fr);gap:1.5rem}
 .game{scroll-margin-top:.75rem}
-.game:target{animation:pulled .9s ease-out 1}
-@keyframes pulled{0%{box-shadow:0 0 0 6px var(--ink),3px 3px 0 var(--shade)}100%{box-shadow:0 0 0 0 var(--ink),3px 3px 0 var(--shade)}}
-@media (prefers-reduced-motion:reduce){.game:target{animation:none;outline:4px solid var(--ink);outline-offset:2px}}
-.plate .row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.75rem;align-items:center;padding:.6rem .75rem}
-.plate .team,.plate .score{margin:0;font-family:var(--slab);line-height:1.1}
-.plate .team{font-size:1.375rem;overflow-wrap:anywhere}
-.plate .score{font-size:1.375rem;text-align:right;font-variant-numeric:tabular-nums}
-.plate small{display:block;font-family:var(--nar);font-weight:600;font-size:.875rem;line-height:1.3;margin-top:.15rem}
-.plate .won{background:var(--maroon);color:#F6E9E6}
-.plate .won small{color:var(--rose)}
-.plate .lost{background:#D9B3AD;color:var(--ink);border-top:3px solid var(--ink)}
-.plate .lost .score{color:#5A4F4B}
-.game .hed{font-size:1.0625rem;color:var(--maroon);margin:0 0 .2rem}
-.game .margin{margin:0 0 .6rem;font-weight:700;font-size:.9375rem;border-bottom:2px solid var(--maroon);padding-bottom:.45rem;max-width:none}
-.back{margin:.7rem 0 0;font-size:.875rem;font-weight:600}
-.awards{display:grid;gap:1rem}
-@media (min-width:52rem){.awards{grid-template-columns:repeat(3,1fr)}}
+.game:target{outline:3px solid var(--maroon);outline-offset:4px}
+.newspaper{min-width:0;background:var(--paper,#F5EFE5);border-top:5px solid var(--maroon);border-bottom:2px solid var(--ink);padding:1.45rem}
+.newspaper p{margin:0;max-width:none}
+.report-main{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.8fr);gap:1.65rem}
+.newspaper .scoreboard{padding-right:1.5rem;border-right:1px solid var(--rule,#AC9C91)}
+.newspaper .match-title,.newspaper .key-title{font:700 .75rem/1.4 var(--nar);letter-spacing:.07em;text-transform:uppercase;color:var(--maroon);margin-bottom:.7rem}
+.newspaper .score-row{padding:.8rem 0}
+.newspaper .score-row+.score-row{border-top:1px solid var(--rule,#AC9C91)}
+.newspaper .team{font-family:var(--slab);font-weight:400;font-size:1.14rem;line-height:1.25;overflow-wrap:anywhere}
+.newspaper .score-cell{margin-top:.65rem}
+.newspaper .score{font-family:var(--slab);font-size:2rem;line-height:1.1;font-variant-numeric:tabular-nums;white-space:nowrap}
+.newspaper .winning .score{color:var(--maroon)}
+.newspaper .hed{color:var(--maroon);font-size:1.95rem;line-height:1.16;overflow-wrap:break-word}
+.newspaper .recap{font-size:1.0625rem;line-height:1.6;margin-top:.85rem;max-width:39rem}
+.newspaper .support{border-top:1px solid var(--ink);margin-top:1.4rem;padding-top:1rem}
+.newspaper .player-groups{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.5rem}
+.newspaper .player-group{min-width:0}
+.newspaper .player-group h4{font-size:1rem;line-height:1.25;margin:0 0 .35rem;overflow-wrap:anywhere}
+.newspaper .players{list-style:none;margin:0;padding:0}
+.newspaper .players li{border-top:1px solid var(--rule,#C9BDB0);padding:.6rem 0}
+.newspaper .players li:last-child{padding-bottom:0}
+.newspaper .player-top{display:flex;align-items:baseline;justify-content:space-between;gap:.7rem}
+.newspaper .player-name{font-weight:700;font-size:.96rem;line-height:1.3}
+.newspaper .nfl{font-size:.75rem;font-weight:600;color:var(--muted,#655950);white-space:nowrap}
+.newspaper .player-points{font-size:.96rem;font-weight:700;color:var(--maroon);font-variant-numeric:tabular-nums;white-space:nowrap}
+.newspaper .unit{font-size:.72rem;font-weight:400}
+.newspaper .player-line{font-size:.875rem;line-height:1.45;margin-top:.25rem;color:var(--muted,#4A4038)}
+.newspaper .back{margin:.7rem 0 0;font-size:.875rem;font-weight:600}
+@media(max-width:55rem){.report-main{grid-template-columns:minmax(0,.9fr) minmax(0,1.6fr);gap:1.2rem}.newspaper{padding:1.1rem}.newspaper .scoreboard{padding-right:1rem}.newspaper .hed{font-size:1.65rem}}
+@media(max-width:43rem){.report-main,.newspaper .player-groups{grid-template-columns:minmax(0,1fr)}.newspaper .scoreboard{padding:0 0 1rem;border-right:0;border-bottom:1px solid var(--rule,#AC9C91)}.newspaper .score-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.8rem}.newspaper .score-cell{text-align:right;margin:0}.newspaper .score{font-size:1.5rem}.newspaper .team{font-size:1rem}.newspaper .story{padding-top:.15rem}.newspaper .hed{font-size:1.65rem}.newspaper .support{margin-top:1.1rem}.newspaper{padding:1rem}.newspaper .player-groups{gap:1.1rem}}
+@media(max-width:23rem){.newspaper{padding:.8rem}.newspaper .team{font-size:.95rem}.newspaper .score{font-size:1.3rem}.newspaper .hed{font-size:1.5rem}}
+/* Awards, notes, and injury items share a two-column desktop rhythm and
+   the same outer edges. The table always spans the complete section. */
+.awards{display:grid;grid-template-columns:minmax(0,1fr);gap:1.5rem}
+@media (min-width:52rem){.awards{grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--column-gap)}}
 .award .band h3{font-size:1.0625rem}
 .award .stat{font-family:var(--slab);font-size:1.75rem;color:var(--maroon);line-height:1;margin:0 0 .35rem}
 .award .who{font-weight:700;margin:0 0 .35rem}
-.award p{font-size:.9375rem}
+.award p{font-size:.9375rem;max-width:none}
+.award .body > :last-child{margin-bottom:0}
+.section-subhead{margin:2rem 0 .75rem}
+.standouts{table-layout:fixed}
+.standouts th:first-child{width:7%}
+.standouts th:nth-child(2){width:29%}
+.standouts th:last-child{width:8%}
+.standouts td{overflow-wrap:break-word}
+@media (max-width:35.99rem){
+  .standouts th:first-child{width:2.5rem}
+  .standouts th:nth-child(2){width:30%}
+  .standouts th:last-child{width:3.25rem}
+  .standouts th,.standouts td{padding-left:.35rem;padding-right:.35rem}
+}
 .tablewrap{overflow-x:auto;max-width:100%}
-.slate{list-style:none;margin:0;padding:0;columns:1;max-width:72rem}
-@media (min-width:52rem){.slate{columns:2;column-gap:2.5rem}}
+.slate{list-style:none;margin:0;padding:0;columns:1;width:100%}
+@media (min-width:52rem){.slate{columns:2;column-gap:var(--column-gap)}}
 .slate li{break-inside:avoid;padding:.55rem 0;border-bottom:2px dotted rgba(38,35,33,.45);font-size:.9375rem}
 .slate b{font-family:var(--slab);font-weight:400;color:var(--maroon);margin-right:.35rem}
 .slate .w{font-style:italic}
 .moves .stats td:first-child{font-weight:700}
+@media (max-width:23.99rem){
+  .waivers{table-layout:fixed}
+  .waivers th:first-child{width:27%}
+  .waivers th:nth-child(3),.waivers th:nth-child(4){width:2.5rem}
+  .waivers th,.waivers td{padding-left:.35rem;padding-right:.35rem;overflow-wrap:anywhere}
+}
 .grade{font-family:var(--slab);color:var(--maroon);font-size:1.125rem;text-align:center}
 .trades{display:grid;gap:1rem;margin-bottom:1.5rem}
 @media (min-width:52rem){.trades{grid-template-columns:1fr 1fr}}
@@ -186,31 +223,21 @@ h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;ma
     <h2 id="s-recaps">Matchup recaps</h2>
     <nav class="finder" id="teams" aria-labelledby="s-find">
       <h3 id="s-find">Find your team</h3>
-      <ul>{{#recap_index}}<li><a href="#game-{{game}}" class="{{#won}}won{{/won}}{{^won}}lost{{/won}}"><span class="box" aria-hidden="true"></span><span class="nm">{{team}}</span><span class="res">{{#won}}Won{{/won}}{{^won}}Lost{{/won}}, {{score}}</span></a></li>{{/recap_index}}</ul>
+      <ul>{{#recap_index}}<li><a href="#game-{{game}}" class="{{#tied}}tied{{/tied}}{{^tied}}{{#won}}won{{/won}}{{^won}}lost{{/won}}{{/tied}}"><span class="box" aria-hidden="true"></span><span class="nm">{{team}}</span><span class="res">{{#tied}}Tied{{/tied}}{{^tied}}{{#won}}Won{{/won}}{{^won}}Lost{{/won}}{{/tied}}, {{score}}</span></a></li>{{/recap_index}}</ul>
     </nav>
     {{#asides.recaps}}<p class="aside"><b>{{figure}}</b>{{text}}</p>{{/asides.recaps}}
     <div class="deck">
     {{#recaps}}
-      <article class="card game" id="game-{{@index}}" aria-labelledby="game-{{@index}}-w game-{{@index}}-l">
-        <div class="plate">
-          <div class="row won"><p class="team" id="game-{{@index}}-w">{{winner}}<small>{{w_manager}}</small></p><p class="score">{{w_score}}<small>Won</small></p></div>
-          <div class="row lost"><p class="team" id="game-{{@index}}-l">{{loser}}<small>{{l_manager}}</small></p><p class="score">{{l_score}}<small>Lost</small></p></div>
+      <article class="game newspaper" id="game-{{@index}}" aria-labelledby="game-{{@index}}-headline">
+        <div class="report-main">
+          <div class="scoreboard" aria-label="Final score"><p class="match-title">{{meta.issue}} final</p>
+            <div class="score-row winning"><p class="team">{{winner}}</p><div class="score-cell"><p class="score">{{w_score}}</p></div></div>
+            <div class="score-row losing"><p class="team">{{loser}}</p><div class="score-cell"><p class="score">{{l_score}}</p></div></div>
+          </div>
+          <div class="story"><h3 class="hed" id="game-{{@index}}-headline">{{headline}}</h3><p class="recap">{{body}}</p></div>
         </div>
-        <div class="body">
-          <h3 class="hed">{{headline}}</h3>
-          <p class="margin">Won by {{margin}}</p>
-          <div class="tablewrap"><table class="stats">
-            <thead><tr><th scope="col">Player</th><th scope="col">Tm</th><th scope="col">{{meta.issue}} line</th><th scope="col" class="pts">Pts</th></tr></thead>
-            <tbody>
-              <tr class="side"><td colspan="4">{{winner}}</td></tr>
-              {{#w_keys}}<tr><td>{{player}}</td><td class="tm">{{nfl_team}}</td><td>{{line}}</td><td class="pts">{{pts}}</td></tr>{{/w_keys}}
-              <tr class="side"><td colspan="4">{{loser}}</td></tr>
-              {{#l_keys}}<tr><td>{{player}}</td><td class="tm">{{nfl_team}}</td><td>{{line}}</td><td class="pts">{{pts}}</td></tr>{{/l_keys}}
-            </tbody>
-          </table></div>
-          <div class="blurb"><p>{{body}}</p></div>
-          <p class="back"><a href="#teams">Back to the team list</a></p>
-        </div>
+        <div class="support"><p class="key-title">Key players</p><div class="player-groups"><section class="player-group"><h4>{{winner}}</h4><ul class="players">{{#w_keys}}<li><div class="player-top"><p class="player-name">{{player}} <span class="nfl">{{nfl_team}}</span></p><p class="player-points">{{pts}} <span class="unit">pts</span></p></div><p class="player-line">{{line}}</p></li>{{/w_keys}}</ul></section><section class="player-group"><h4>{{loser}}</h4><ul class="players">{{#l_keys}}<li><div class="player-top"><p class="player-name">{{player}} <span class="nfl">{{nfl_team}}</span></p><p class="player-points">{{pts}} <span class="unit">pts</span></p></div><p class="player-line">{{line}}</p></li>{{/l_keys}}</ul></section></div></div>
+        <p class="back"><a href="#teams">Back to the team list</a></p>
       </article>
     {{/recaps}}
     </div>
@@ -227,13 +254,12 @@ h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;ma
       </article>
     {{/awards}}
     </div>
-    <h3 style="margin:2rem 0 .75rem">Standouts</h3>
-    <div class="tablewrap"><table class="stats" style="max-width:52rem">
+    <h3 class="section-subhead">Standouts</h3>
+    <div class="tablewrap"><table class="stats standouts">
       <thead><tr><th scope="col">Pos</th><th scope="col">Player</th><th scope="col">NFL line</th><th scope="col" class="pts">Pts</th></tr></thead>
       <tbody>{{#standouts}}<tr><td>{{pos}}</td><td>{{player}}, {{nfl_team}}<small>{{team}}</small></td><td>{{line}}</td><td class="pts">{{pts}}</td></tr>{{/standouts}}</tbody>
     </table></div>
-    <p>{{bench_note}}</p>
-    <h3 style="margin:2rem 0 .5rem">Injuries</h3>
+    <h3 class="section-subhead">Injuries</h3>
     <ul class="slate">{{#injuries}}<li><b>{{player}}</b><span class="w">{{nfl_team}}, {{team}}.</span> {{note}}</li>{{/injuries}}</ul>
   </section>
 
@@ -241,9 +267,9 @@ h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;ma
     <h2 id="s-moves">Transactions</h2>
     {{#asides.transactions}}<p class="aside"><b>{{figure}}</b>{{text}}</p>{{/asides.transactions}}
     <h3 style="margin:1.5rem 0 .5rem">Waiver claims</h3>
-    <div class="tablewrap"><table class="stats" style="max-width:60rem">
+    <div class="tablewrap"><table class="stats waivers">
       <thead><tr><th scope="col">Team</th><th scope="col">Claim</th><th scope="col" class="pts">Bid</th><th scope="col">Grade</th></tr></thead>
-      <tbody>{{#transactions.waivers}}<tr><td>{{team}}</td><td>{{add}} ({{pos}}{{#nfl_team}}, {{nfl_team}}{{/nfl_team}}){{#drop}}, drops {{drop}}{{/drop}}<small>{{note}}</small></td><td class="pts">{{faab}}</td><td class="grade">{{grade}}</td></tr>{{/transactions.waivers}}</tbody>
+      <tbody>{{#transactions.waivers}}<tr><td>{{team}}</td><td>{{move_label}}{{#move_details}} ({{move_details}}){{/move_details}}{{#move_drop}}; drops {{move_drop}}{{/move_drop}}<small>{{note}}</small></td><td class="pts">{{faab}}</td><td class="grade">{{grade}}</td></tr>{{/transactions.waivers}}</tbody>
     </table></div>
     <h3 style="margin:1.5rem 0 .75rem">Trades</h3>
     <div class="trades">
@@ -251,7 +277,7 @@ h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;ma
     </div>
     {{^transactions.trades}}<p>{{transactions.no_trades}}</p>{{/transactions.trades}}
     <h3 style="margin:1.5rem 0 .5rem">{{transactions.free_agents_label}}</h3>
-    <ul class="slate">{{#transactions.free_agents}}<li><b>{{add}}</b>{{pos}}, {{nfl_team}}, to {{team}}{{#drop}} for {{drop}}{{/drop}}. <span class="w">{{note}}</span></li>{{/transactions.free_agents}}</ul>
+    <ul class="slate">{{#transactions.free_agents}}<li><b>{{move_label}}</b>{{#move_details}} ({{move_details}}){{/move_details}} · {{team}}{{#move_drop}}; dropped {{move_drop}}{{/move_drop}}. <span class="w">{{note}}</span></li>{{/transactions.free_agents}}</ul>
   </section>
 
   <section aria-labelledby="s-next">
@@ -262,11 +288,6 @@ h3{font-family:var(--slab);font-weight:400;font-size:1.25rem;line-height:1.15;ma
     <ul class="slate">{{#preview.games}}<li><b>{{a}}</b>vs. <b style="margin-left:.35rem">{{b}}</b><br>{{line}}</li>{{/preview.games}}</ul>
   </section>
 
-  <footer class="foot">
-    <p>{{footer.methods}}</p>
-    <ul>{{#footer.sources}}<li><a href="{{url}}">{{name}}</a></li>{{/footer.sources}}</ul>
-    <p>{{footer.credit}}</p>
-  </footer>
 </div>
 </body>
 </html>

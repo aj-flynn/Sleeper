@@ -1,0 +1,953 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "Atlanta Falcons",
+        "guid": "49fd392a-86fe-4df3-1b77-9bbfa18b2ad5",
+        "id": 1979,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "ATL",
+          "description": "Atlanta Falcons",
+          "id": 1,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/atl/atlanta-falcons"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/atl/atlanta-falcons"
+              }
+            }
+          },
+          "shortDisplayName": "Falcons"
+        },
+        "teamId": 1,
+        "type": "team",
+        "uid": "s:20~l:28~t:1"
+      },
+      {
+        "description": "San Francisco 49ers",
+        "guid": "985a261f-296c-c95c-32a5-addc4df75001",
+        "id": 1637,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "SF",
+          "description": "San Francisco 49ers",
+          "id": 25,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/sf/san-francisco-49ers"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/sf/san-francisco-49ers"
+              }
+            }
+          },
+          "shortDisplayName": "49ers"
+        },
+        "teamId": 25,
+        "type": "team",
+        "uid": "s:20~l:28~t:25"
+      },
+      {
+        "description": "San Francisco 49ers @ Atlanta Falcons",
+        "event": {
+          "description": "San Francisco 49ers @ Atlanta Falcons",
+          "id": 401873017,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873017"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873017"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873017,
+        "guid": "9ea87c11-513d-3034-ba69-d0a0b44f49b7",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873017"
+      }
+    ],
+    "categorized": "2026-10-26T04:08:59Z",
+    "contentKey": "50280072-1-21-1",
+    "dataSourceIdentifier": "72c4c4f4c868d",
+    "description": "— San Francisco's perfect start to the season was wiped out by a painful reminder that even an unbeaten team can't overcome a 4-0 deficit in turnovers.",
+    "gameId": "401873017",
+    "headline": "Michael Penix Jr. throws 3 TD passes, Falcons force 4 turnovers to give 49ers first loss, 29-20",
+    "id": 50280072,
+    "images": [
+      {
+        "caption": "Falcons jump on top of Kittle's fumble to seal win over 49ers",
+        "height": 324,
+        "name": "Falcons jump on top of Kittle's fumble to seal win over 49ers",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/796603ed5b7d4bf8a1af0f0c0016ed3f8/796603ed5b7d4bf8a1af0f0c0016ed3f8.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "Atlanta Falcons",
+      "San Francisco 49ers",
+      "San Francisco 49ers @ Atlanta Falcons"
+    ],
+    "lastModified": "2026-10-25T22:00:46Z",
+    "linkText": "Michael Penix Jr. throws 3 TD passes, Falcons force 4 turnovers to give 49ers first loss, 29-20",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50280072"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50280072"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50280072"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873017"
+      }
+    },
+    "nowId": "1-50280072",
+    "originallyPosted": "2026-10-25T20:22:46Z",
+    "premium": false,
+    "published": "2026-10-25T20:22:46Z",
+    "publishedkey": "nfl401873017",
+    "section": "NFL",
+    "source": "AP",
+    "story": "ATLANTA -- — San Francisco's perfect start to the season was wiped out by a painful reminder that even an unbeaten team can't overcome a 4-0 deficit in turnovers.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4360423/michael-penix-jr\">Michael Penix Jr</a>. threw three touchdown passes, Atlanta scored 13 points off four turnovers and the Falcons handed the 49ers their first loss, 29-20 on Sunday.\n\n\r\n              “Any time you have four turnovers like that and you get zero, it’s real tough to win,” 49ers coach Kyle Shanahan said. “Too sloppy to win.”\n\n\r\n              San Francisco (6-1) was already thin at wide receiver before its offense faced additional limitations when running back <a href=\"https://apnews.com/article/christian-mccaffrey-49ers-a030a8ae05fcf21060dfb05c5e848a34?utm--source=copy&utm--medium=share\"><a href=\"http://www.espn.com/nfl/player/_/id/3117251/christian-mccaffrey\">Christian McCaffrey</a></a> missed much of the first half with a thigh injury and didn't assume his normal workload when he returned after halftime. \n\n\r\n              Rookie linebacker <a href=\"http://www.espn.com/nfl/player/_/id/4595343/kendal-daniels\">Kendal Daniels</a> intercepted <a href=\"http://www.espn.com/nfl/player/_/id/4361741/brock-purdy\">Brock Purdy</a>'s pass intended for <a href=\"http://www.espn.com/nfl/player/_/id/4431466/jordan-watkins\">Jordan Watkins</a> with 2:34 remaining. It was Purdy's second interception. Daniels then recovered a fumble by <a href=\"http://www.espn.com/nfl/player/_/id/3040151/george-kittle\">George Kittle</a> with less than a minute remaining for Atlanta's final takeaway.\n\n\r\n              “That’s a great recipe for winning in this league,” Falcons coach Kevin Stefanski said.\n\n\r\n              The 49ers had only six turnovers in their first six games.\n\n\r\n              Penix threw scoring passes to tight ends <a href=\"http://www.espn.com/nfl/player/_/id/4249624/nick-muse\">Nick Muse</a> and Kyle Pitts before giving Atlanta (3-4) a 26-14 lead with a <a href=\"https://x.com/AtlantaFalcons/status/2114434876212494672/video/1\">21-yard touchdown pass</a> to <a href=\"http://www.espn.com/nfl/player/_/id/4426502/drake-london\">Drake London</a> in the fourth quarter. Penix completed 25 of 34 passes for 213 yards with no interceptions.\n\n\r\n              The 49ers' comeback attempt was hurt when a lengthy review by the officials took away Purdy's apparent 23-yard touchdown pass to Watkins. Following the ruling, Purdy was <a href=\"https://x.com/AtlantaFalcons/status/2114439338763091993/video/1\">sacked on fourth down</a> by <a href=\"http://www.espn.com/nfl/player/_/id/3043168/za'darius-smith\">Za'Darius Smith</a>.\n\n\r\n              Purdy's 1-yard scoring pass to fullback Kyle Juszcyk with 5:05 remaining cut Atlanta's lead to 26-20 before <a href=\"http://www.espn.com/nfl/player/_/id/4034949/eddy-pineiro\">Eddy Pineiro</a>'s extra-point attempt was wide left — his fourth PAT miss of the season.\n\n\r\n              A shanked punt by Atlanta's <a href=\"http://www.espn.com/nfl/player/_/id/3931395/jake-bailey\">Jake Bailey</a> allowed San Francisco to start a possession at its 47 with about four minutes remaining. The 49ers wasted the opportunity to mount a go-ahead drive when Purdy threw his second interception, which led to <a href=\"http://www.espn.com/nfl/player/_/id/10621/nick-folk\">Nick Folk</a>'s 31-yard field goal.\n\n\r\n              Purdy completed 27 of 40 passes for 288 yards with one touchdown and the two picks.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4430807/bijan-robinson\">Bijan Robinson</a> rushed for 63 yards as the Falcons snapped a two-game skid. McCaffrey was limited to seven carries for 39 yards.\n\n\r\n              McCaffrey's backup, <a href=\"http://www.espn.com/nfl/player/_/id/4696044/kaelon-black\">Kaelon Black</a>, lost a fumble at the Atlanta 29 that was recovered by <a href=\"http://www.espn.com/nfl/player/_/id/4429014/gervon-dexter-sr\">Gervon Dexter Sr</a>. in the second quarter. A long Atlanta drive set up Nick Folk's 33-yard field goal.\n\n\r\n              In the third quarter, <a href=\"http://www.espn.com/nfl/player/_/id/3919512/jessie-bates\">Jessie Bates III</a> intercepted Purdy's pass at the Atlanta 10 to set up the touchdown drive capped by the scoring pass to London.\n\n\r\n              The 49ers leaned heavily on McCaffrey on their opening touchdown drive. McCaffrey had two catches for 40 yards, including a 24-yard gain to the Atlanta 5. He had four carries for 29 yards, including a scoring fourth-down leap over the pile from the 1.\n\n\r\n              McCaffrey had a 5-yard catch on the 49ers' next drive before leaving the game with the thigh injury. He was listed as questionable to return as he was examined in the injury tent. McCaffrey emerged, put on his helmet and tested the thigh by running on the sideline before heading to the locker room.\n\n\r\n              Black's 30-yard scoring run on the first play of the second quarter gave San Francisco a 14-3 lead. McCaffrey returned for the second half and was used as a decoy on some plays.\n\n\r\n              Asked if McCaffrey was at full strength in the second half, Shanahan said, “I don't know. I'll ask him but it seemed all right.”\n\n\r\n              <hl2>Falcons draw plenty of opposing fans again</hl2>\r\n              An Atlanta team coming off home losses to Baltimore and Chicago needed a win to stop the skid and also to win back its fans. The Bears and 49ers each had vocal supporters in the stands who forced Penix to work on silent snap counts, an unusual circumstance for home games.\n\n\r\n              “We came out here and showcased what we are capable of,” Falcons defensive end <a href=\"http://www.espn.com/nfl/player/_/id/3045527/samson-ebukam\">Samson Ebukam</a> said.\n\n\r\n              <hl2>New names at receiver for the 49ers</hl2>\r\n              Watkins had three catches for 56 yards and <a href=\"http://www.espn.com/nfl/player/_/id/4575665/jacob-cowing\">Jacob Cowing</a> added three receptions for 38 yards as Purdy’s new top targets at wide receiver.\n\n\r\n              “I thought they did a good job,” Purdy said. “And it’s our first game all together as a with the receivers that we had.”\n\n\r\n              Added Purdy: “The fact that we were out there, having those new guys and stuff out there running routes for us and create separation and making plays ... I thought I saw a lot of really cool things.”\n\n\r\n              Kittle had team-leading totals of eight catches for 88 yards and McCaffrey added six receptions for 61 yards.\n\n\r\n              <hl2>Falcons' faith in Branch rewarded</hl2>\r\n              Stefanski stuck with rookie <a href=\"http://www.espn.com/nfl/player/_/id/4870612/zachariah-branch\">Zachariah Branch</a> as a return specialist one week after Branch lost two fumbles — one on a muffed fair catch on a punt and one on a kickoff return. Branch rewarded Stefanski by returning the 49ers' first kickoff 60 yards to the San Francisco 36. The return set up a 39-yard field goal by Folk.\n\n\r\n              <hl2>Injuries</hl2>\r\n              49ers: Depth was an issue at wide receiver with starters <a href=\"https://apnews.com/article/49ers-injuries-mike-evans-67ffc3d65a116d90465a5a3e98932049?utm--source=copy&utm--medium=share\"><a href=\"http://www.espn.com/nfl/player/_/id/16737/mike-evans\">Mike Evans</a></a> (Achilles tendinitis) and Deebo Samuel (hamstring) inactive. Receivers <a href=\"http://www.espn.com/nfl/player/_/id/4428209/ricky-pearsall\">Ricky Pearsall</a>, De’Zhaun Stribling and <a href=\"http://www.espn.com/nfl/player/_/id/3043116/demarcus-robinson\">Demarcus Robinson</a> are also out. Safety <a href=\"http://www.espn.com/nfl/player/_/id/4693337/marques-sigle\">Marques Sigle</a> (ankle) was inactive.\n\n\r\n              Falcons: Cornerback A.J. Terrell (groin) started after coming off injured reserve but his brother, rookie cornerback <a href=\"http://www.espn.com/nfl/player/_/id/4870988/avieon-terrell\">Avieon Terrell</a> (back), was inactive.\n\n\r\n              <hl2>Up next</hl2>\r\n              49ers: Following a bye week, host Las Vegas on Nov. 8.\n\n\r\n              Falcons: Visit Tampa Bay next Sunday.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": []
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "9:22",
+        "value": 562.0
+      },
+      "homeScore": 0,
+      "id": "401873017305",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "SF",
+        "displayName": "San Francisco 49ers",
+        "id": "25",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/sf/san-francisco-49ers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/sf",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/sf.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/sf.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:25"
+      },
+      "text": "Christian McCaffrey 1 Yd Rush (Eddy Pineiro Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "7:06",
+        "value": 426.0
+      },
+      "homeScore": 3,
+      "id": "401873017467",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "ATL",
+        "displayName": "Atlanta Falcons",
+        "id": "1",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/atl/atlanta-falcons",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/atl",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:1"
+      },
+      "text": "Nick Folk 39 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 14,
+      "clock": {
+        "displayValue": "14:54",
+        "value": 894.0
+      },
+      "homeScore": 3,
+      "id": "401873017909",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "SF",
+        "displayName": "San Francisco 49ers",
+        "id": "25",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/sf/san-francisco-49ers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/sf",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/sf.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/sf.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:25"
+      },
+      "text": "Kaelon Black 30 Yd Rush (Eddy Pineiro Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 14,
+      "clock": {
+        "displayValue": "8:47",
+        "value": 527.0
+      },
+      "homeScore": 9,
+      "id": "4018730171195",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "ATL",
+        "displayName": "Atlanta Falcons",
+        "id": "1",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/atl/atlanta-falcons",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/atl",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:1"
+      },
+      "text": "Nick Muse 1 Yd pass from Michael Penix Jr. (Nick Folk PAT Failed)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 14,
+      "clock": {
+        "displayValue": "0:00",
+        "value": 0.0
+      },
+      "homeScore": 12,
+      "id": "4018730171932",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "ATL",
+        "displayName": "Atlanta Falcons",
+        "id": "1",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/atl/atlanta-falcons",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/atl",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:1"
+      },
+      "text": "Nick Folk 33 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 14,
+      "clock": {
+        "displayValue": "8:59",
+        "value": 539.0
+      },
+      "homeScore": 19,
+      "id": "4018730172230",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "ATL",
+        "displayName": "Atlanta Falcons",
+        "id": "1",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/atl/atlanta-falcons",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/atl",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:1"
+      },
+      "text": "Kyle Pitts Sr. 5 Yd pass from Michael Penix Jr. (Nick Folk Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 14,
+      "clock": {
+        "displayValue": "14:55",
+        "value": 895.0
+      },
+      "homeScore": 26,
+      "id": "4018730172902",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "ATL",
+        "displayName": "Atlanta Falcons",
+        "id": "1",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/atl/atlanta-falcons",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/atl",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:1"
+      },
+      "text": "Drake London 21 Yd pass from Michael Penix Jr. (Nick Folk Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 20,
+      "clock": {
+        "displayValue": "5:05",
+        "value": 305.0
+      },
+      "homeScore": 26,
+      "id": "4018730173739",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "SF",
+        "displayName": "San Francisco 49ers",
+        "id": "25",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/sf/san-francisco-49ers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/sf",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/sf.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/sf.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:25"
+      },
+      "text": "Kyle Juszczyk 1 Yd pass from Brock Purdy (Eddy Pineiro PAT Failed)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 20,
+      "clock": {
+        "displayValue": "1:56",
+        "value": 116.0
+      },
+      "homeScore": 29,
+      "id": "4018730174093",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "ATL",
+        "displayName": "Atlanta Falcons",
+        "id": "1",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/atl/atlanta-falcons",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/atl",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:1"
+      },
+      "text": "Nick Folk 31 Yd Field Goal ",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    }
+  ]
+}

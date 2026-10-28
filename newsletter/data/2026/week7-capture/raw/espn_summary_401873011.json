@@ -1,0 +1,692 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "New Orleans Saints",
+        "guid": "97d2f6c9-2f22-459c-306a-046941ccab2a",
+        "id": 2035,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "NO",
+          "description": "New Orleans Saints",
+          "id": 18,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/no/new-orleans-saints"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/no/new-orleans-saints"
+              }
+            }
+          },
+          "shortDisplayName": "Saints"
+        },
+        "teamId": 18,
+        "type": "team",
+        "uid": "s:20~l:28~t:18"
+      },
+      {
+        "description": "Pittsburgh Steelers",
+        "guid": "debcd592-8d53-71f1-fc15-5c8b8ef9df6e",
+        "id": 2776,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "PIT",
+          "description": "Pittsburgh Steelers",
+          "id": 23,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/pit/pittsburgh-steelers"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/pit/pittsburgh-steelers"
+              }
+            }
+          },
+          "shortDisplayName": "Steelers"
+        },
+        "teamId": 23,
+        "type": "team",
+        "uid": "s:20~l:28~t:23"
+      },
+      {
+        "description": "Pittsburgh Steelers @ New Orleans Saints",
+        "event": {
+          "description": "Pittsburgh Steelers @ New Orleans Saints",
+          "id": 401873011,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873011"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873011"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873011,
+        "guid": "190c718e-528e-3ea1-b159-a25edc81c487",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873011"
+      }
+    ],
+    "categorized": "2026-10-26T02:40:32Z",
+    "contentKey": "50277952-1-21-1",
+    "dataSourceIdentifier": "0ce6ab7ed8589",
+    "description": "— Pittsburgh Steelers quarterback Aaron Rodgers knew a protective slide was out of the question when he scrambled on a key fourth-quarter play in New Orleans territory Sunday.",
+    "gameId": "401873011",
+    "headline": "Rodgers throws TD pass in Paris as Steelers beat Saints 16-10 in NFL's regular-season France debut",
+    "id": 50277952,
+    "images": [
+      {
+        "caption": "Aaron Rodgers scrambles for crucial late game first down ",
+        "height": 324,
+        "name": "Aaron Rodgers scrambles for crucial late game first down",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1025/22347de730ca4e85ba69d4783317e654776/22347de730ca4e85ba69d4783317e654776.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "New Orleans Saints",
+      "Pittsburgh Steelers",
+      "Pittsburgh Steelers @ New Orleans Saints"
+    ],
+    "lastModified": "2026-10-26T02:02:46Z",
+    "linkText": "Rodgers throws TD pass in Paris as Steelers beat Saints 16-10 in NFL's regular-season France debut",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50277952"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50277952"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50277952"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873011"
+      }
+    },
+    "nowId": "1-50277952",
+    "originallyPosted": "2026-10-25T16:54:45Z",
+    "premium": false,
+    "published": "2026-10-25T16:54:45Z",
+    "publishedkey": "nfl401873011",
+    "section": "NFL",
+    "source": "AP",
+    "story": "SAINT-DENIS, France -- — <a href=\"http://www.espn.com/nfl/team/_/name/pit/pittsburgh-steelers\">Pittsburgh Steelers</a> quarterback <a href=\"http://www.espn.com/nfl/player/_/id/8439/aaron-rodgers\">Aaron Rodgers</a> knew a protective slide was out of the question when he scrambled on a key fourth-quarter play in New Orleans territory Sunday.\n\n\r\n              The 42-year-old left the pocket on third-and-6 and picked up 8 yards before being tackled just before the two-minute warning to help Pittsburgh seal a 16-10 victory in the NFL’s first regular-season game in France.\n\n\r\n              “Sometimes you’ve got to suck it up and make a play for your guys,” Rodgers said. “I think because I am so much less athletic than I used to be, it actually fires up the guys even more.”\n\n\r\n              Rodgers threw a touchdown pass — the 540th of his career, moving past Peyton Manning for third in NFL history — and <a href=\"http://www.espn.com/nfl/player/_/id/17372/chris-boswell\">Chris Boswell</a> kicked three field goals at Stade de France.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4569987/jaylen-warren\">Jaylen Warren</a> rushed for 101 yards on 18 carries and Rodgers completed 19 of 30 passes for 212 yards as the Steelers (5-2) won their third straight game.\n\n\r\n              Linebacker <a href=\"http://www.espn.com/nfl/player/_/id/4361652/payton-wilson\">Payton Wilson</a> had a red-zone <a href=\"https://x.com/steelers/status/2114379766253924753\">interception</a> of <a href=\"http://www.espn.com/nfl/player/_/id/4360689/tyler-shough\">Tyler Shough</a> in the third quarter and the Saints (2-5) couldn’t recover. New Orleans rushed for just 18 yards.\n\n\r\n              With the Saints threatening on their opening drive of the second half, Wilson stepped in front of a short pass intended for <a href=\"http://www.espn.com/nfl/player/_/id/4361370/chris-olave\">Chris Olave</a>. The Steelers got in field-goal position and Boswell was good from 39 yards for a 16-10 lead.\n\n\r\n              “That’s honestly just a credit to our coaches and what we do every day in practice,” Wilson said. “I’ve repped that play, no lie, more than 20 times now. Just gambling a little bit and undercutting it.”\n\n\r\n              Seated side by side at the postgame news conference, Rodgers added: “Did it help that you picked me off in practice on this very similar play this week?”\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4242207/patrick-queen\">Patrick Queen</a> sacked Shough on third down to stall a New Orleans drive with under seven minutes left in the fourth quarter.\n\n\r\n              Shough completed 30 of 38 passes for 278 yards, one touchdown and the interception.\n\n\r\n              Just before halftime, Rodgers was sacked by <a href=\"http://www.espn.com/nfl/player/_/id/3918310/carl-granderson\">Carl Granderson</a> on third down, and with 15 seconds left and no timeouts, the Steelers offense ran to the sideline. Boswell sprinted on and kicked a 47-yard field goal to give Pittsburgh a 13-10 lead at the half.\n\n\r\n              Rodgers’ 4-yard touchdown pass to <a href=\"https://apnews.com/article/pittsburgh-steelers-darnell-washington-extension-7dc2fc595e8f64c15cb9b7cc0e30ea68\">6-foot-7, 265-pound tight end</a> <a href=\"http://www.espn.com/nfl/player/_/id/4430802/darnell-washington\">Darnell Washington</a> — with 5-foot-11 cornerback <a href=\"http://www.espn.com/nfl/player/_/id/4433975/kool-aid-mckinstry\">Kool-Aid McKinstry</a> in coverage — put the Steelers up 10-3.\n\n\r\n              Earlier on the drive, Rodgers moved in the pocket and found <a href=\"http://www.espn.com/nfl/player/_/id/4047650/dk-metcalf\">DK Metcalf</a> for a 51-yard completion to the New Orleans 4. <a href=\"https://x.com/NFLFrance/status/2114367086394818595\">NFL France</a> called it “quel caviar d’Aaron Rodgers.”\n\n\r\n              The Saints then tied it at 10-10 on Shough’s 1-yard touchdown pass to <a href=\"http://www.espn.com/nfl/player/_/id/4569559/devaughn-vele\">Devaughn Vele</a> on fourth-and-goal from the 1.\n\n\r\n              Saints kicker <a href=\"https://apnews.com/article/nfl-carlson-saints-steelers-paris-8739e708ebf55ab829752651700942b3\"><a href=\"http://www.espn.com/nfl/player/_/id/3051909/daniel-carlson\">Daniel Carlson</a></a> missed a 52-yard field-goal attempt in the fourth quarter.\n\n\r\n              “When you have a day like today, 17 runs for 18 yards, it’s going to be hard to win football games doing that,” coach Kellen Moore said.\n\n\r\n              Shough said with such limited rushing success, “they know what’s coming in certain situations and they’re a good defense.”\n\n\r\n              Attendance was 78,488 and several players and coaches noted the good atmosphere. \n\n\r\n              Rodgers called the rendition of the French national anthem, <a href=\"https://apnews.com/article/france-protests-education-inequality-violence-7c362a35d57e974e026f1e57062cf467\">La Marseillaise</a>, “gorgeous.”\n\n\r\n              The Steelers quarterback did note, however, that it was sometimes confusing looking for the play-clock number among many other numbers on the stadium's scoreboard.\n\n\r\n              The atmosphere this week in Paris was tense following <a href=\"https://apnews.com/article/france-protests-riots-looting-ca52b503a4ac8b2a489109f7de852847\">rioting and looting</a> a week earlier during protests across the country over school funding and soaring living costs. Fans strolling Paris streets saw boarded-up storefronts and a heavy police presence ahead of <a href=\"https://apnews.com/article/france-protests-paris-unrest-ad2fb9206e72e5d1b4ae43fdf7aa96a9\">more protests held Saturday</a>.\n\n\r\n              Steelers coach Mike McCarthy said players and their families and friends “really enjoyed” Friday — when the team arrived — but stayed close to the hotel Saturday when more protests took place.\n\n\r\n              <hl2>Injuries</hl2>\r\n              Steelers: S <a href=\"http://www.espn.com/nfl/player/_/id/3929846/deshon-elliott\">DeShon Elliott</a> was active for the first time in a year after returning from a knee injury.\n\n\r\n              Saints: CB Kool-Aid McKinstry was cleared to return after a concussion evaluation in the first half. ... RB <a href=\"http://www.espn.com/nfl/player/_/id/5081999/cj-donaldson\">CJ Donaldson</a> left in the first half and was later ruled out. ... S <a href=\"http://www.espn.com/nfl/player/_/id/3931399/justin-reid\">Justin Reid</a> was ruled out of the game early in the second half. ... Rookie <a href=\"http://www.espn.com/nfl/player/_/id/4433938/jeremiah-wright\">Jeremiah Wright</a> started in place of right guard <a href=\"http://www.espn.com/nfl/player/_/id/4258199/cesar-ruiz\">Cesar Ruiz</a> (knee).\n\n\r\n              <hl2>Up next</hl2>\r\n              Steelers: Host the <a href=\"http://www.espn.com/nfl/team/_/name/cle/cleveland-browns\">Cleveland Browns</a> before a bye in Week 9.\n\n\r\n              Saints: Bye week.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": []
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "10:51",
+        "value": 651.0
+      },
+      "homeScore": 0,
+      "id": "401873011231",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "PIT",
+        "displayName": "Pittsburgh Steelers",
+        "id": "23",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/pit/pittsburgh-steelers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/pit",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:23"
+      },
+      "text": "Chris Boswell 28 Yd Field Goal ",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "10:17",
+        "value": 617.0
+      },
+      "homeScore": 3,
+      "id": "4018730111201",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "NO",
+        "displayName": "New Orleans Saints",
+        "id": "18",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/no/new-orleans-saints",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/no",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/no.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/no.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:18"
+      },
+      "text": "Daniel Carlson 38 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 10,
+      "clock": {
+        "displayValue": "6:45",
+        "value": 405.0
+      },
+      "homeScore": 3,
+      "id": "4018730111426",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "PIT",
+        "displayName": "Pittsburgh Steelers",
+        "id": "23",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/pit/pittsburgh-steelers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/pit",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:23"
+      },
+      "text": "Darnell Washington 4 Yd pass from Aaron Rodgers (Chris Boswell Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 10,
+      "clock": {
+        "displayValue": "1:45",
+        "value": 105.0
+      },
+      "homeScore": 10,
+      "id": "4018730111821",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "NO",
+        "displayName": "New Orleans Saints",
+        "id": "18",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/no/new-orleans-saints",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/no",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/no.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/no.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:18"
+      },
+      "text": "Devaughn Vele 1 Yd pass from Tyler Shough (Daniel Carlson Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 13,
+      "clock": {
+        "displayValue": "0:00",
+        "value": 0.0
+      },
+      "homeScore": 10,
+      "id": "4018730112208",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "PIT",
+        "displayName": "Pittsburgh Steelers",
+        "id": "23",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/pit/pittsburgh-steelers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/pit",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:23"
+      },
+      "text": "Chris Boswell 47 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 16,
+      "clock": {
+        "displayValue": "0:14",
+        "value": 14.0
+      },
+      "homeScore": 10,
+      "id": "4018730112976",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "PIT",
+        "displayName": "Pittsburgh Steelers",
+        "id": "23",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/pit/pittsburgh-steelers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/pit",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:23"
+      },
+      "text": "Chris Boswell 39 Yd Field Goal ",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    }
+  ]
+}

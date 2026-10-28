@@ -1,0 +1,1040 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "Arizona Cardinals",
+        "guid": "8fc7b962-95e1-3cb8-6a7d-b499de9ad546",
+        "id": 1583,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "ARI",
+          "description": "Arizona Cardinals",
+          "id": 22,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/ari/arizona-cardinals"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/ari/arizona-cardinals"
+              }
+            }
+          },
+          "shortDisplayName": "Cardinals"
+        },
+        "teamId": 22,
+        "type": "team",
+        "uid": "s:20~l:28~t:22"
+      },
+      {
+        "description": "Denver Broncos",
+        "guid": "51042145-e3c1-0694-ae0d-f720342ff8fc",
+        "id": 2432,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "DEN",
+          "description": "Denver Broncos",
+          "id": 7,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/den/denver-broncos"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/den/denver-broncos"
+              }
+            }
+          },
+          "shortDisplayName": "Broncos"
+        },
+        "teamId": 7,
+        "type": "team",
+        "uid": "s:20~l:28~t:7"
+      },
+      {
+        "description": "Denver Broncos @ Arizona Cardinals",
+        "event": {
+          "description": "Denver Broncos @ Arizona Cardinals",
+          "id": 401873019,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873019"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873019"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873019,
+        "guid": "cea172f0-9a36-3912-9a60-8c7e2d9b39b5",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873019"
+      }
+    ],
+    "categorized": "2026-10-26T03:03:22Z",
+    "contentKey": "50282547-1-21-1",
+    "dataSourceIdentifier": "bcfa583a419dc",
+    "description": "— Bo Nix has insisted throughout the past few months that the right ankle he injured during last season's playoffs is now healthy, even...",
+    "gameId": "401873019",
+    "headline": "Bo Nix runs for a 62-yard TD, leads Broncos past the Cardinals for a 30-16 win",
+    "id": 50282547,
+    "images": [
+      {
+        "caption": "Trey McBride slants in for a Cardinals TD",
+        "height": 324,
+        "name": "Trey McBride slants in for a Cardinals TD",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1025/e0f48c3058e04f96b4d7c497dae89ffb1128/e0f48c3058e04f96b4d7c497dae89ffb1128.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "Arizona Cardinals",
+      "Denver Broncos",
+      "Denver Broncos @ Arizona Cardinals"
+    ],
+    "lastModified": "2026-10-26T00:55:47Z",
+    "linkText": "Bo Nix runs for a 62-yard TD, leads Broncos past the Cardinals for a 30-16 win",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50282547"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50282547"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50282547"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873019"
+      }
+    },
+    "nowId": "1-50282547",
+    "originallyPosted": "2026-10-25T23:44:45Z",
+    "premium": false,
+    "published": "2026-10-25T23:44:45Z",
+    "publishedkey": "nfl401873019",
+    "section": "NFL",
+    "source": "AP",
+    "story": "GLENDALE, Ariz. -- — <a href=\"http://www.espn.com/nfl/player/_/id/4426338/bo-nix\">Bo Nix</a> has insisted throughout the past few months that the <a href=\"https://apnews.com/article/broncos-bo-nix-broken-ankle-nfl-playoffs-b61840b6221f3ece7efb33814b00c6b4\">right ankle he injured during last season's playoffs</a> is now healthy, even if his rushing numbers haven't matched his first two seasons in the league.\n\n\r\n              A spectacular <a href=\"https://x.com/NFL/status/2114467738303213944?s=20\">62-yard touchdown dash</a> by the <a href=\"http://www.espn.com/nfl/team/_/name/den/denver-broncos\">Denver Broncos</a> quarterback on Sunday proved it.\n\n\r\n              “You believe me now?” Nix asked with a grin.\n\n\r\n              Nix's touchdown run was the longest of his career, <a href=\"http://www.espn.com/nfl/player/_/id/4568490/rj-harvey\">RJ Harvey</a> turned a short screen pass <a href=\"https://x.com/NFL/status/2114478812889321927?s=20\">into a 52-yard touchdown</a> and the Broncos used a handful of big offensive plays to beat the <a href=\"http://www.espn.com/nfl/team/_/name/ari/arizona-cardinals\">Arizona Cardinals</a> 30-16.\n\n\r\n              The Cardinals have lost 10 straight home games in a streak that's lasted 406 days.\n\n\r\n              The Broncos (5-2) have struggled on offense for most of this season and that trend continued for part of Sunday's game, but Nix and Harvey took advantage of costly mistakes by the Cardinals defense to get things moving.\n\n\r\n              “I think it answers our question, ‘Can he can still run?’” Broncos coach Sean Payton said of Nix's touchdown. “The confidence inside the building relative to his abilities hasn't changed at all. He's our guy and it's good to see him play well. It's good to see us block well and make some plays down the field.”\n\n\r\n              Denver has won three straight. Its defense was dominant once again with 12 quarterback hits, six tackles for a loss and three sacks.\n\n\r\n              Nix's long touchdown run came late in the second quarter, giving the Broncos a 13-6 lead and a lot of momentum. He dropped back to pass and then stepped up in pocket, surging forward when a huge patch of grass appeared. No one on the Cardinals defense was near him until a few yards before the end zone, when he sidestepped a tackle and tumbled forward for the touchdown.\n\n\r\n              Nix had just 37 yards rushing combined over his first six games of the season, but after seeing that big crease open on Sunday, it was time to show he still has some wheels.\n\n\r\n              “There's not a lot of times you get that much open space,” Nix said. \n\n\r\n              Denver extended its lead to 20-6 midway through the third quarter when Harvey caught a short screen pass, took advantage of plenty of blocking and ran untouched to the end zone.\n\n\r\n              Nix finished 15 of 29 passing for 222 yards. He also had 73 yards rushing.\n\n\r\n              “I thought we played a good game offensively,” Nix said. “There's still several things we'd like to get better at, several penalties that we didn't love, but overall, we had a big win over a tough team on the road. It was really good for us.”\n\n\r\n              The Cardinals (2-5) cut the deficit to 20-13 late in the third quarter on <a href=\"http://www.espn.com/nfl/player/_/id/4361307/trey-mcbride\">Trey McBride</a>'s 7-yard touchdown catch. Denver responded with a 76-yard touchdown drive — highlighted by a 47-yard pass from Nix to <a href=\"http://www.espn.com/nfl/player/_/id/4686472/marvin-mims-jr\">Marvin Mims Jr</a>. — for a 27-13 lead and controlled the game from that point forward.\n\n\r\n              Arizona scored just one touchdown on five trips to the red zone.\n\n\r\n              “We've got to play better,\" Cardinals first-year coach Mike LaFleur said. “We had too many penalties, we had opportunities to make plays and we didn't. When we get to the point where we're gonna flip this thing, we've got to make those plays. This is a collective deal in terms of coaching and playing.”\n\n\r\n              The Broncos took an early 6-0 lead on a pair of field goals during a flag-filled first quarter that included 10 penalties — five on each team.\n\n\r\n              The Cardinals cut the deficit to 6-3 early in the second, settling for a 30-yard field goal after running back <a href=\"http://www.espn.com/nfl/player/_/id/4427728/bam-knight\">Bam Knight</a> dropped a potential touchdown catch in the end zone on third down. \n\n\r\n              Arizona quarterback <a href=\"http://www.espn.com/nfl/player/_/id/2578570/jacoby-brissett\">Jacoby Brissett</a> finished with 272 yards passing and a touchdown, but the Cardinals were just 5 of 17 on third down. McBride caught 10 passes for 111 yards.\n\n\r\n              <hl2>Fitzgerald in Cardinals' Ring of Honor</hl2>\r\n              Cardinals wide receiver <a href=\"http://www.espn.com/nfl/player/_/id/5528/larry-fitzgerald\">Larry Fitzgerald</a> was inducted into the team's Ring of Honor during a halftime ceremony at State Farm Stadium. Fitzgerald — one of the greatest receivers in NFL history — finished his career with 17,492 yards receiving and 121 touchdowns. \n\n\r\n              He was inducted into the Pro Football Hall of Fame over the summer.\n\n\r\n              <hl2>Injuries</hl2>\r\n              Broncos: DL <a href=\"http://www.espn.com/nfl/player/_/id/4039064/malcolm-roach\">Malcolm Roach</a> was evaluated for a concussion, but returned to the game. DL <a href=\"http://www.espn.com/nfl/player/_/id/3915282/zach-allen\">Zach Allen</a> was shaken up during the fourth quarter, but said postgame that he was fine.\n\n\r\n              Cardinals: Rookie RB <a href=\"http://www.espn.com/nfl/player/_/id/4870808/jeremiyah-love\">Jeremiyah Love</a> missed his second straight game with a sore ankle.\n\n\r\n              <hl2>Up next</hl2>\r\n              Broncos: Host Kansas City next Sunday.\n\n\r\n              Cardinals: At Dallas next Sunday.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": []
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "11:00",
+        "value": 660.0
+      },
+      "homeScore": 0,
+      "id": "401873019292",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "DEN",
+        "displayName": "Denver Broncos",
+        "id": "7",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/den/denver-broncos",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/den",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:7"
+      },
+      "text": "Wil Lutz 48 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 6,
+      "clock": {
+        "displayValue": "1:08",
+        "value": 68.0
+      },
+      "homeScore": 0,
+      "id": "4018730191068",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "DEN",
+        "displayName": "Denver Broncos",
+        "id": "7",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/den/denver-broncos",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/den",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:7"
+      },
+      "text": "Wil Lutz 43 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 6,
+      "clock": {
+        "displayValue": "14:16",
+        "value": 856.0
+      },
+      "homeScore": 3,
+      "id": "4018730191300",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "ARI",
+        "displayName": "Arizona Cardinals",
+        "id": "22",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/ari/arizona-cardinals",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/ari",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:22"
+      },
+      "text": "Chad Ryland 30 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 6,
+      "clock": {
+        "displayValue": "4:30",
+        "value": 270.0
+      },
+      "homeScore": 6,
+      "id": "4018730191828",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "ARI",
+        "displayName": "Arizona Cardinals",
+        "id": "22",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/ari/arizona-cardinals",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/ari",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:22"
+      },
+      "text": "Chad Ryland 26 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 13,
+      "clock": {
+        "displayValue": "3:43",
+        "value": 223.0
+      },
+      "homeScore": 6,
+      "id": "4018730191903",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "DEN",
+        "displayName": "Denver Broncos",
+        "id": "7",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/den/denver-broncos",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/den",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:7"
+      },
+      "text": "Bo Nix 62 Yd Rush (Wil Lutz Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 20,
+      "clock": {
+        "displayValue": "10:26",
+        "value": 626.0
+      },
+      "homeScore": 6,
+      "id": "4018730192652",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "DEN",
+        "displayName": "Denver Broncos",
+        "id": "7",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/den/denver-broncos",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/den",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:7"
+      },
+      "text": "RJ Harvey 52 Yd pass from Bo Nix (Wil Lutz Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 20,
+      "clock": {
+        "displayValue": "3:50",
+        "value": 230.0
+      },
+      "homeScore": 13,
+      "id": "4018730193014",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "ARI",
+        "displayName": "Arizona Cardinals",
+        "id": "22",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/ari/arizona-cardinals",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/ari",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:22"
+      },
+      "text": "Trey McBride 7 Yd pass from Jacoby Brissett (Chad Ryland Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 27,
+      "clock": {
+        "displayValue": "0:00",
+        "value": 0.0
+      },
+      "homeScore": 13,
+      "id": "4018730193254",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "DEN",
+        "displayName": "Denver Broncos",
+        "id": "7",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/den/denver-broncos",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/den",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:7"
+      },
+      "text": "J.K. Dobbins 1 Yd Rush (Wil Lutz Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 30,
+      "clock": {
+        "displayValue": "8:39",
+        "value": 519.0
+      },
+      "homeScore": 13,
+      "id": "4018730193827",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "DEN",
+        "displayName": "Denver Broncos",
+        "id": "7",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/den/denver-broncos",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/den",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:7"
+      },
+      "text": "Wil Lutz 31 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 30,
+      "clock": {
+        "displayValue": "6:21",
+        "value": 381.0
+      },
+      "homeScore": 16,
+      "id": "4018730194101",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "ARI",
+        "displayName": "Arizona Cardinals",
+        "id": "22",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/ari/arizona-cardinals",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/ari",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:22"
+      },
+      "text": "Chad Ryland 41 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    }
+  ]
+}

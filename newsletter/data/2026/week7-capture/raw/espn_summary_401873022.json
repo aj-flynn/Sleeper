@@ -1,0 +1,605 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "Seattle Seahawks",
+        "guid": "3767a23c-a17d-294f-288a-9086ad1f0680",
+        "id": 1693,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "SEA",
+          "description": "Seattle Seahawks",
+          "id": 26,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/sea/seattle-seahawks"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/sea/seattle-seahawks"
+              }
+            }
+          },
+          "shortDisplayName": "Seahawks"
+        },
+        "teamId": 26,
+        "type": "team",
+        "uid": "s:20~l:28~t:26"
+      },
+      {
+        "description": "Kansas City Chiefs",
+        "guid": "f68f2343-8ceb-7a02-740d-af6338be21d2",
+        "id": 2496,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "KC",
+          "description": "Kansas City Chiefs",
+          "id": 12,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/kc/kansas-city-chiefs"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/kc/kansas-city-chiefs"
+              }
+            }
+          },
+          "shortDisplayName": "Chiefs"
+        },
+        "teamId": 12,
+        "type": "team",
+        "uid": "s:20~l:28~t:12"
+      },
+      {
+        "description": "Kansas City Chiefs @ Seattle Seahawks",
+        "event": {
+          "description": "Kansas City Chiefs @ Seattle Seahawks",
+          "id": 401873022,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873022"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873022"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873022,
+        "guid": "a1b73e76-a905-3baa-96cb-c846ffe56368",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873022"
+      }
+    ],
+    "categorized": "2026-10-26T05:20:59Z",
+    "contentKey": "50284430-1-21-1",
+    "dataSourceIdentifier": "a453e114fc65b",
+    "description": "— Frustrated by a two-game skid, the Seattle Seahawks went into playoff mode.",
+    "gameId": "401873022",
+    "headline": "Jaxon Smith-Njigba has 150 receiving yards and a score in the Seahawks' 20-3 win over the Chiefs",
+    "id": 50284430,
+    "images": [
+      {
+        "caption": "Seahawks knock off Chiefs 20-3, giving K.C. its first loss",
+        "height": 324,
+        "name": "Seahawks knock off Chiefs 20-3, giving K.C. its first loss",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1026/5fb0a3f2-07cb-4839-a854-38bfd8757ffc/5fb0a3f2-07cb-4839-a854-38bfd8757ffc.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "Seattle Seahawks",
+      "Kansas City Chiefs",
+      "Kansas City Chiefs @ Seattle Seahawks"
+    ],
+    "lastModified": "2026-10-26T04:13:47Z",
+    "linkText": "Jaxon Smith-Njigba has 150 receiving yards and a score in the Seahawks' 20-3 win over the Chiefs",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50284430"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50284430"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50284430"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873022"
+      }
+    },
+    "nowId": "1-50284430",
+    "originallyPosted": "2026-10-26T03:33:46Z",
+    "premium": false,
+    "published": "2026-10-26T03:33:46Z",
+    "publishedkey": "nfl401873022",
+    "section": "NFL",
+    "source": "AP",
+    "story": "SEATTLE -- — Frustrated by a two-game skid, the <a href=\"http://www.espn.com/nfl/team/_/name/sea/seattle-seahawks\">Seattle Seahawks</a> went into playoff mode. \n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4430878/jaxon-smith-njigba\">Jaxon Smith-Njigba</a> caught nine passes for 150 yards and a touchdown, and the Seahawks handed the <a href=\"http://www.espn.com/nfl/team/_/name/kc/kansas-city-chiefs\">Kansas City Chiefs</a> their first loss of the season, 20-3 on Sunday night. \n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/3912547/sam-darnold\">Sam Darnold</a> threw for 257 yards and a score for the Seahawks (4-3), while <a href=\"http://www.espn.com/nfl/player/_/id/4887558/emanuel-wilson\">Emanuel Wilson</a> had 24 carries for 100 yards and a TD.\n\n\r\n              “Playing a team like Kansas City and all the killers that they got on that side, we knew how big this game was, and we wanted this one badly,” said Smith-Njigba, the NFL's leading receiver and reigning Offensive Player of the Year. “You know, we saw it as a playoff game.”\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/3139477/patrick-mahomes\">Patrick Mahomes</a> struggled, throwing for 165 yards with an interception for the Chiefs (5-1). <a href=\"http://www.espn.com/nfl/player/_/id/4567048/kenneth-walker\">Kenneth Walker III</a>, the Super Bowl MVP for the Seahawks last season before signing with the Chiefs in the offseason, was held to 36 yards on 14 carries.\n\n\r\n              Walker entered the night averaging a league-leading 133 yards per game, but the Seahawks shut him down, along with the rest of Kansas City's offense. The Chiefs had 213 total yards, 50 on the ground.\n\n\r\n              “Listen, all three phases we struggled, so we’ve got to do better, and that’s my responsibility,” Kansas City coach Andy Reid said. “So I take full responsibility for this. We’ve got to play better as a team.”\n\n\r\n              The Super Bowl champion Seahawks have not allowed a 100-yard rusher in 36 games, the league’s longest current streak.\n\n\r\n              “We know what kind of running back was coming in here, but we don't allow people to run through our defense,” linebacker <a href=\"http://www.espn.com/nfl/player/_/id/4362851/ernest-jones-iv\">Ernest Jones IV</a> said. “That's just us.”\n\n\r\n              The only bright spot for Kansas City's offense was a milestone for <a href=\"http://www.espn.com/nfl/player/_/id/15847/travis-kelce\">Travis Kelce</a>, who had four receptions to reach 1,104 for his career, moving past Marvin Harrison and Cris Carter for <a href=\"https://x.com/NFL/status/2114548194222973364\">fifth in NFL history</a>.\n\n\r\n              After Darnold hit Smith-Njigba for a 33-yard gain early in the second quarter to get the Seahawks in the red zone, <a href=\"http://www.espn.com/nfl/player/_/id/2473037/jason-myers\">Jason Myers</a> kicked a 25-yard field goal for a 3-0 lead.\n\n\r\n              On the next series, <a href=\"http://www.espn.com/nfl/player/_/id/4247808/ty-okada\">Ty Okada</a> intercepted Mahomes on a pass intended for <a href=\"http://www.espn.com/nfl/player/_/id/5082630/jalen-royals\">Jalen Royals</a>. Seattle's ensuing drive was kept alive by Darnold's 7-yard scramble. He then connected with Smith-Njigba <a href=\"https://x.com/SNFonNBC/status/2114530599968944358\">for a 28-yard touchdown</a> to put Seattle up 10-0 with 1:44 left in the first half.\n\n\r\n              <a href=\"https://x.com/SNFonNBC/status/2114533491958321270\">Another 28-yard pass</a> from Darnold to Smith-Njigba got the Seahawks to the Kansas City 1 in the closing seconds of the half, but Darnold was intercepted by <a href=\"http://www.espn.com/nfl/player/_/id/4610705/nohl-williams\">Nohl Williams</a> in the back of the end zone. Williams returned the pick 64 yards, but <a href=\"http://www.espn.com/nfl/player/_/id/3055899/harrison-butker\">Harrison Butker</a>'s 58-yard field goal attempt fell short as time expired. \n\n\r\n              Myers made a 35-yard field goal to extend Seattle's lead to 13-0. Before the third quarter was over, the Chiefs drove to the Seattle 30, but Mahomes fumbled on third down and Kansas City had to settle for Butker's 50-yard field goal.\n\n\r\n              Mahomes found Kelce for a 19-yard catch early in the fourth quarter, but the Chiefs came away with no points when Butker missed a 45-yard field goal attempt wide right. Butker has missed 10 field goals since the start of last season.\n\n\r\n               “He’s off a bit. Got to fix it,” Reid said.\n\n\r\n              The Seahawks pushed their lead to 20-3 on Wilson's 21-yard scoring run with 3:47 left.\n\n\r\n              “I think this game reminds the guys what we’re capable of,” Seahawks coach Mike Macdonald said. “I think our guys understand that there’s more levels to where we can go, and so I hope they feel the sense of urgency that we can get there because it is stuff that we can control. You know, talking about procedural stuff, red-zone stuff, negative plays, how we rush our red-zone defense, all those things we’ve been attacking.”\n\n\r\n              <hl2>Notable absences</hl2>\r\n              The Seahawks moved running back <a href=\"http://www.espn.com/nfl/player/_/id/4426385/zach-charbonnet\">Zach Charbonnet</a> to the active roster this week, but he was ruled out for the game. Charbonnet rushed for 730 yards and 12 touchdowns for the Seahawks last season before he tore an ACL.\n\n\r\n              The Chiefs were without receiver <a href=\"http://www.espn.com/nfl/player/_/id/4428331/rashee-rice\">Rashee Rice</a>, who missed his third straight game with a hamstring injury, and starting tackle <a href=\"http://www.espn.com/nfl/player/_/id/3909416/jaylon-moore\">Jaylon Moore</a>, who is in the concussion protocol. \n\n\r\n              <hl2>Injuries</hl2>\r\n              Seahawks receiver <a href=\"http://www.espn.com/nfl/player/_/id/4032473/rashid-shaheed\">Rashid Shaheed</a> left early in the second half with a knee injury. He did not return. Tackle <a href=\"http://www.espn.com/nfl/player/_/id/4426376/charles-cross\">Charles Cross</a> left in the fourth quarter with an ankle injury. \n\n\r\n              <hl2>Up next</hl2>\r\n              The Chiefs visit the <a href=\"http://www.espn.com/nfl/team/_/name/den/denver-broncos\">Denver Broncos</a> next Sunday. \n\n\r\n              The Seahawks host the <a href=\"http://www.espn.com/nfl/team/_/name/chi/chicago-bears\">Chicago Bears</a> on Monday, Nov. 2\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": []
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 0,
+      "clock": {
+        "displayValue": "8:22",
+        "value": 502.0
+      },
+      "homeScore": 3,
+      "id": "4018730221177",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "SEA",
+        "displayName": "Seattle Seahawks",
+        "id": "26",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/sea/seattle-seahawks",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/sea",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:26"
+      },
+      "text": "Jason Myers 25 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 0,
+      "clock": {
+        "displayValue": "1:44",
+        "value": 104.0
+      },
+      "homeScore": 10,
+      "id": "4018730221637",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "SEA",
+        "displayName": "Seattle Seahawks",
+        "id": "26",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/sea/seattle-seahawks",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/sea",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:26"
+      },
+      "text": "Jaxon Smith-Njigba 28 Yd pass from Sam Darnold (Jason Myers Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 0,
+      "clock": {
+        "displayValue": "8:09",
+        "value": 489.0
+      },
+      "homeScore": 13,
+      "id": "4018730222497",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "SEA",
+        "displayName": "Seattle Seahawks",
+        "id": "26",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/sea/seattle-seahawks",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/sea",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:26"
+      },
+      "text": "Jason Myers 35 Yd Field Goal ",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "1:42",
+        "value": 102.0
+      },
+      "homeScore": 13,
+      "id": "4018730222917",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "KC",
+        "displayName": "Kansas City Chiefs",
+        "id": "12",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/kc/kansas-city-chiefs",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/kc",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:12"
+      },
+      "text": "Harrison Butker 50 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "3:47",
+        "value": 227.0
+      },
+      "homeScore": 20,
+      "id": "4018730223643",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "SEA",
+        "displayName": "Seattle Seahawks",
+        "id": "26",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/sea/seattle-seahawks",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/sea",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:26"
+      },
+      "text": "Emanuel Wilson 21 Yd Rush (Jason Myers Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    }
+  ]
+}

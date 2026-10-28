@@ -10,3 +10,5 @@ iniconfig==2.3.1
 packaging==24.0
 pluggy==1.6.0
 Pygments==2.21.0
+
+# The Eastern IANA fallback is bundled; optional tzdata can update the host database.

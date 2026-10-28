@@ -1,0 +1,11 @@
+{
+  "coverage_end_exclusive": "2026-10-28T12:00:00Z",
+  "coverage_start": "2026-10-21T12:00:00Z",
+  "league_id": "1319718857249665024",
+  "limitations": [
+    "Retrieved at 14:35Z, after 12:00Z cutoff; historical results reconstructed with dated sources, not a literal cutoff capture"
+  ],
+  "observation_kind": "retrospective_retrieval",
+  "season": "2026",
+  "week": 7
+}
