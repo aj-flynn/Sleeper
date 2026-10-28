@@ -194,6 +194,8 @@ def derive(data):
                 details = [v for v in details if v != "DEF" and not name.startswith(str(v) + " ")]
             row["move_details"] = ", ".join(str(v) for v in details)
             row["move_drop"] = None if drop_only else row.get("drop")
+            ending = str(row["move_drop"] or row.get("team") or "").rstrip()
+            row["move_sentence_end"] = "" if ending.endswith(".") else "."
     import elo
     meta = data.get("meta") or {}
     data["elo_chart"] = elo.chart_html(meta.get("season", "2026"), int(meta["week"]))

@@ -85,7 +85,8 @@ def stat_line(pos, s):
         parts.append(f"{n(g('pts_allow'))} pts allowed, {n(g('yds_allow'))} yds allowed")
         for k, label in (("sack", "sacks"), ("int", "INT"), ("fum_rec", "fumble rec"), ("def_td", "def TD"), ("st_td", "ST TD"), ("safe", "safety")):
             if g(k):
-                parts.append(f"{n(g(k))} {label}")
+                unit = "sack" if k == "sack" and g(k) == 1 else label
+                parts.append(f"{n(g(k))} {unit}")
         return ", ".join(parts)
     if pos == "K":
         line = f"FG {n(g('fgm'))}/{n(g('fga'))}"

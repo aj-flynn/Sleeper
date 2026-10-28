@@ -17,3 +17,5 @@ For template changes, inspect phone and desktop readability, team jumps, tables 
 All league managers are male (AJ, October 28, 2026). Use he/him/his for an individual manager. Retain grammatically valid plural they/their for multiple people or teams; distinguish a team reference from its individual manager. Do not mechanically rewrite quoted facts or archived approved editions.
 
 Do not render the bench/nonstarter commentary block beneath Standouts. Keep the table and all rows, then continue to Injuries. Other two-column sections remain. Keep underlying player and nonstarter data available for writing.
+
+Use singular stat units for one (1 sack). A suffix period such as Jr. also closes its sentence. Spell negative values as “minus one,” “minus two” and “minus three”; retain hyphens for genuine compound modifiers.
