@@ -1,0 +1,810 @@
+{
+  "schema": 3,
+  "meta": {
+    "title": "Rebuilders Anonymous, Week 7, 2026",
+    "league": "Rebuilders Anonymous",
+    "issue": "Week 7",
+    "issue_number": "7",
+    "season": "2026",
+    "week": 7,
+    "dateline": "Week 7, October 2026",
+    "presented_by": "Unsportsmanlike Conduct"
+  },
+  "lead": {
+    "kicker": "The wrong quarterback",
+    "headline": "Split sat Geno Smith and lost by 2.88",
+    "dek": "Split Safety Syndicate started Patrick Mahomes, benched 287 yards, and lost by 2.88.",
+    "stats": [
+      {
+        "value": "23.48",
+        "label": "Geno Smith’s points on Split’s bench"
+      },
+      {
+        "value": "2.88",
+        "label": "Split’s losing margin"
+      },
+      {
+        "value": "6.00",
+        "label": "Patrick Mahomes’s points as the starter"
+      }
+    ],
+    "body": [
+      "That’s how you lose a week. Split Safety Syndicate started Patrick Mahomes and sat Geno Smith. kylejones10 set this lineup himself.",
+      "Mahomes went 19 of 33 for 165 yards in Kansas City’s 20-3 loss at Seattle. First defeat of the season for the Chiefs, per ESPN. Zero touchdowns. One pick. Geno Smith went 23 of 30 for 287 yards and three scores in Miami’s 28-25 win. From the bench. 23.48 points. Split lost 113.72 to 116.60. The margin was 2.88.",
+      "Who starts 165 yards over 287? Superflex is a second quarterback slot, not a museum piece. Swap them and Split wins by 14.60. I don’t make the rules. I just watch people ignore them.",
+      "FRAUD."
+    ]
+  },
+  "asides": {
+    "lead": {
+      "figure": "14.60",
+      "text": "points: Split’s winning margin with Geno in and Mahomes on the bench."
+    },
+    "rankings": {
+      "figure": "17.13",
+      "text": "Elo points: hammball’s bump, the biggest of the week, with 36.50 sitting."
+    },
+    "recaps": {
+      "figure": "66.38",
+      "text": "points: Micah parsons fan club’s margin, the biggest of the week, over Rams of Steel."
+    },
+    "awards": {
+      "figure": "36.50",
+      "text": "from Tony Pollard on hammball’s bench, the top score by any player this week."
+    },
+    "transactions": {
+      "figure": "$51",
+      "text": "is what WELL! It's The Big Shough paid for Caleb Douglas after he caught two touchdowns, per ESPN."
+    },
+    "preview": {
+      "figure": "4",
+      "text": "teams on bye: Houston, New Orleans, the Giants, and San Francisco."
+    }
+  },
+  "rankings": [
+    {
+      "rank": 1,
+      "team": "Dak Side of the Sun",
+      "manager": "SweetRavenge84",
+      "record": "5-2",
+      "elo": "1047.92",
+      "elo_change": "+15.87",
+      "take": "High score at 160.86 and first in Elo. Joe Burrow threw four touchdown passes on 292 yards, and they’ve won four straight. Correct, unfortunately."
+    },
+    {
+      "rank": 2,
+      "team": "Mendozareamazingpicks",
+      "manager": "DarknessMonster",
+      "record": "5-2",
+      "elo": "1046.51",
+      "elo_change": "+15.67",
+      "take": "Jaxon Smith-Njigba caught 9 for 150 yards and a score while the kicker went minus-1.00. Second at 5-2. The win was 116.60 and it still climbed."
+    },
+    {
+      "rank": 3,
+      "team": "WELL! It's The Big Shough",
+      "manager": "KaranLuvSport",
+      "record": "5-2",
+      "elo": "1043.90",
+      "elo_change": "+13.32",
+      "take": "Ted Hurst caught zero balls on one target and they’re third. Quinshon Judkins ran for two scores, so the math worked. Generous ranking."
+    },
+    {
+      "rank": 4,
+      "team": "hammball",
+      "manager": "hammball",
+      "record": "4-3",
+      "elo": "1019.44",
+      "elo_change": "+17.13",
+      "take": "Pollard scored 36.50 from the couch and they still rose. Biggest Elo bump at +17.13, now fourth with a 108.18 bench. Unserious operation."
+    },
+    {
+      "rank": 5,
+      "team": "J’Allen Waffle Stompers",
+      "manager": "BigJohnDeBo008",
+      "record": "4-3",
+      "elo": "1013.41",
+      "elo_change": "−15.87",
+      "take": "Tre Tucker caught 5 for 103 yards and a touchdown on the bench. They lost by 20.16 to the high score, so fifth is a gift."
+    },
+    {
+      "rank": 6,
+      "team": "Unsportsmanlike Conduct",
+      "manager": "JeffyWaterton",
+      "record": "4-3",
+      "elo": "1009.71",
+      "elo_change": "−17.13",
+      "take": "Maye went 24 of 31 for 321 yards and still lost. Sixth, and the sponsor started Jaylin Noel for two catches and minus-3 yards."
+    },
+    {
+      "rank": 7,
+      "team": "Micah parsons fan club",
+      "manager": "Packersfan1992",
+      "record": "4-3",
+      "elo": "1009.62",
+      "elo_change": "+13.51",
+      "take": "Blew Rams of Steel out by 66.38 and still sits seventh. Flowers caught 8 for 137 yards and a score, and Elo ignores landslides."
+    },
+    {
+      "rank": 8,
+      "team": "Split Safety Syndicate",
+      "manager": "kylejones10",
+      "record": "4-3",
+      "elo": "1007.98",
+      "elo_change": "−15.67",
+      "take": "Geno threw three scores on the bench, and they’re eighth. They earned every inch of that drop."
+    },
+    {
+      "rank": 9,
+      "team": "Skat’s BruteForce Theorem",
+      "manager": "LittleTimmyFlynn",
+      "record": "2-5",
+      "elo": "962.63",
+      "elo_change": "+17.09",
+      "take": "Burden went 4 for 130 with a touchdown, and a 2-5 team climbed to ninth. Plus 17.09 Elo, which is a pulse."
+    },
+    {
+      "rank": 10,
+      "team": "Kingslayers",
+      "manager": "maierz3948",
+      "record": "2-5",
+      "elo": "958.49",
+      "elo_change": "−13.32",
+      "take": "Zero from Love, zero from Doubs, and minus-0.30 from Daniels. Tenth at 2-5 with 90.70, which is a lineup you delete."
+    },
+    {
+      "rank": 11,
+      "team": "ThePeopleBeaters",
+      "manager": "ThePeopleBeaters",
+      "record": "2-5",
+      "elo": "952.26",
+      "elo_change": "−17.09",
+      "take": "Omar Cooper’s 115 yards sat on the bench in a 31.16 loss. Eleventh, after starting three tight ends."
+    },
+    {
+      "rank": 12,
+      "team": "Rams of Steel",
+      "manager": "iemerson969",
+      "record": "1-6",
+      "elo": "928.13",
+      "elo_change": "−13.51",
+      "take": "Last at 1-6 with 91.40 points. They started Darius Cooper after cutting Brian Robinson, and he caught one ball for 17 yards."
+    }
+  ],
+  "recaps": [
+    {
+      "headline": "Skat starts the right guys and hits 154.86",
+      "winner": "Skat’s BruteForce Theorem",
+      "w_manager": "LittleTimmyFlynn",
+      "w_score": "154.86",
+      "loser": "ThePeopleBeaters",
+      "l_manager": "ThePeopleBeaters",
+      "l_score": "123.70",
+      "margin": "31.16",
+      "body": "About time. Skat’s BruteForce Theorem dropped 154.86 on ThePeopleBeaters and won by 31.16. LittleTimmyFlynn started his actual receivers. Luther Burden caught 4 of 4 for 130 yards and a touchdown in Chicago’s 30-24 win. KC Concepcion caught 8 for 129 yards. Cam Skattebo ran 17 times for 124 yards and a score. ThePeopleBeaters started three tight ends and parked Omar Cooper’s 5 catches, 115 yards, and a touchdown on the bench. That’s 62.10 sitting down in a 31.16 loss. Start the skill players. It works.",
+      "w_keys": [
+        {
+          "player": "Luther Burden III",
+          "nfl_team": "CHI",
+          "pts": "23.70",
+          "line": "4 rec on 4 targets, 130 yds, 1 TD"
+        },
+        {
+          "player": "KC Concepcion Jr.",
+          "nfl_team": "CLE",
+          "pts": "23.20",
+          "line": "8 rec on 10 targets, 129 yds; 3 car, 23 yds"
+        }
+      ],
+      "l_keys": [
+        {
+          "player": "Ashton Jeanty",
+          "nfl_team": "LV",
+          "pts": "21.60",
+          "line": "8 car, 15 yds; 8 rec, 61 yds, 1 TD"
+        },
+        {
+          "player": "Deshaun Watson",
+          "nfl_team": "CLE",
+          "pts": "18.22",
+          "line": "25/36, 308 yds, 0 TD, 1 INT; 1 rush TD"
+        }
+      ]
+    },
+    {
+      "headline": "Dak Side hangs 160.86, the week’s best",
+      "winner": "Dak Side of the Sun",
+      "w_manager": "SweetRavenge84",
+      "w_score": "160.86",
+      "loser": "J’Allen Waffle Stompers",
+      "l_manager": "BigJohnDeBo008",
+      "l_score": "140.70",
+      "margin": "20.16",
+      "body": "Wrong week to be decent. Dak Side of the Sun scored 160.86, most in the league, and beat J’Allen Waffle Stompers by 20.16. SweetRavenge84 started Joe Burrow, who went 22 of 30 for 292 yards and four scores in Cincinnati’s 35-13 win, per ESPN. Amon-Ra St. Brown caught 9 for 153 yards. Dak Prescott threw three scores. J’Allen got Tee Higgins at 6 catches, 148 yards, and a touchdown, then sat Tre Tucker’s 103 yards and a score. 140.70 and a loss. Bad draw. Worse bench.",
+      "w_keys": [
+        {
+          "player": "Joe Burrow",
+          "nfl_team": "CIN",
+          "pts": "28.88",
+          "line": "22/30, 292 yds, 4 TD; 2 car, 12 yds"
+        },
+        {
+          "player": "Amon-Ra St. Brown",
+          "nfl_team": "DET",
+          "pts": "24.20",
+          "line": "9 rec on 11 targets, 153 yds"
+        }
+      ],
+      "l_keys": [
+        {
+          "player": "Tee Higgins",
+          "nfl_team": "CIN",
+          "pts": "26.80",
+          "line": "6 rec on 7 targets, 148 yds, 1 TD"
+        },
+        {
+          "player": "Christian McCaffrey",
+          "nfl_team": "SF",
+          "pts": "22.00",
+          "line": "7 car, 39 yds, 1 TD; 6 rec, 61 yds"
+        }
+      ]
+    },
+    {
+      "headline": "Kingslayers start two zeros and a minus",
+      "winner": "WELL! It's The Big Shough",
+      "w_manager": "KaranLuvSport",
+      "w_score": "124.04",
+      "loser": "Kingslayers",
+      "l_manager": "maierz3948",
+      "l_score": "90.70",
+      "margin": "33.34",
+      "body": "UNBELIEVABLE. Kingslayers scored 90.70, least in the league, and maierz3948 started the reason. Jeremiyah Love had no stat record. ESPN had him out a second week with a sore ankle. Romeo Doubs had no stats. Jalon Daniels took 6 of 63 snaps, ran twice for minus-3 yards, and scored minus-0.30. WELL! It's The Big Shough started Ted Hurst, who caught 0 of 1. They still won by 33.34 because Quinshon Judkins ran for 96 yards and two scores. Start people who play. Wild idea.",
+      "w_keys": [
+        {
+          "player": "Quinshon Judkins",
+          "nfl_team": "CLE",
+          "pts": "23.40",
+          "line": "17 car, 96 yds, 2 TD; 1 rec, 8 yds"
+        },
+        {
+          "player": "Colston Loveland",
+          "nfl_team": "CHI",
+          "pts": "19.90",
+          "line": "7 rec on 12 targets, 69 yds, 1 TD"
+        }
+      ],
+      "l_keys": [
+        {
+          "player": "Puka Nacua",
+          "nfl_team": "LAR",
+          "pts": "21.80",
+          "line": "8 rec on 10 targets, 68 yds, 1 TD; 2 car, 10 yds"
+        },
+        {
+          "player": "Drake London",
+          "nfl_team": "ATL",
+          "pts": "19.60",
+          "line": "7 rec on 10 targets, 66 yds, 1 TD"
+        }
+      ]
+    },
+    {
+      "headline": "Micah wins by 66.38 and barely notices",
+      "winner": "Micah parsons fan club",
+      "w_manager": "Packersfan1992",
+      "w_score": "157.78",
+      "loser": "Rams of Steel",
+      "l_manager": "iemerson969",
+      "l_score": "91.40",
+      "margin": "66.38",
+      "body": "This was not a game. Micah parsons fan club hung 157.78 on Rams of Steel and won by 66.38. Packersfan1992 ran Flowers, McBride, and Javonte Williams at the same time. Zay Flowers caught 8 for 137 yards and a touchdown. Trey McBride caught 10 for 111 yards and a score. Javonte Williams ran 25 times for 155 yards and a touchdown, his best rushing night per ESPN. Rams of Steel started Darius Cooper, one catch for 17 yards, after dropping Brian Robinson. Biggest margin of the week at 66.38. Bring a team next time.",
+      "w_keys": [
+        {
+          "player": "Zay Flowers",
+          "nfl_team": "BAL",
+          "pts": "27.70",
+          "line": "8 rec on 11 targets, 137 yds, 1 TD"
+        },
+        {
+          "player": "Trey McBride",
+          "nfl_team": "ARI",
+          "pts": "27.10",
+          "line": "10 rec on 13 targets, 111 yds, 1 TD"
+        }
+      ],
+      "l_keys": [
+        {
+          "player": "Caleb Williams",
+          "nfl_team": "CHI",
+          "pts": "22.12",
+          "line": "22/33, 308 yds, 2 TD; 5 car, 18 yds"
+        },
+        {
+          "player": "Harold Fannin Jr.",
+          "nfl_team": "CLE",
+          "pts": "13.10",
+          "line": "6 rec on 9 targets, 91 yds; 1 fumble lost"
+        }
+      ]
+    },
+    {
+      "headline": "hammball benches 36.50 and still buries UC",
+      "winner": "hammball",
+      "w_manager": "hammball",
+      "w_score": "160.78",
+      "loser": "Unsportsmanlike Conduct",
+      "l_manager": "JeffyWaterton",
+      "l_score": "126.36",
+      "margin": "34.42",
+      "body": "You sat 36.50 and won anyway. hammball took Unsportsmanlike Conduct 160.78-126.36. What are you saving him for? Tony Pollard ran 25 times for 129 yards and three touchdowns from the bench, matching a career high in scores per ESPN. Bucky Irving ran 24 times for 106 yards and two scores. CeeDee Lamb caught two touchdowns. The bench totaled 108.18, most in the league. UC started Drake Maye, 24 of 31 for 321 yards, two passing scores, and a rushing touchdown, then Jaylin Noel for two catches and minus-3 yards. The sponsor found a new disaster. Hell of a supporting cast.",
+      "w_keys": [
+        {
+          "player": "CeeDee Lamb",
+          "nfl_team": "DAL",
+          "pts": "24.40",
+          "line": "5 rec on 12 targets, 74 yds, 2 TD"
+        },
+        {
+          "player": "Bucky Irving",
+          "nfl_team": "TB",
+          "pts": "24.00",
+          "line": "24 car, 106 yds, 2 TD; 1 rec, 4 yds"
+        }
+      ],
+      "l_keys": [
+        {
+          "player": "Drake Maye",
+          "nfl_team": "NE",
+          "pts": "27.44",
+          "line": "24/31, 321 yds, 2 TD, 1 INT; 4 car, 26 yds, 1 TD"
+        },
+        {
+          "player": "Jonathan Taylor",
+          "nfl_team": "IND",
+          "pts": "19.00",
+          "line": "18 car, 95 yds, 1 TD; 2 rec, 15 yds"
+        }
+      ]
+    },
+    {
+      "headline": "Mendoza wins with a kicker at minus-1",
+      "winner": "Mendozareamazingpicks",
+      "w_manager": "DarknessMonster",
+      "w_score": "116.60",
+      "loser": "Split Safety Syndicate",
+      "l_manager": "kylejones10",
+      "l_score": "113.72",
+      "margin": "2.88",
+      "body": "A kicker at minus-1.00, and they won. Mendozareamazingpicks slipped past Split Safety Syndicate 116.60-113.72. DarknessMonster rode Jaxon Smith-Njigba, 9 catches for 150 yards and a touchdown in Seattle’s 20-3 win, per ESPN. Rhamondre Stevenson caught 5 for 93 yards and a score. Spencer Shrader went 1 of 3 (minus-1.00). SF DEF scored minus-1.00. Daniel Jones threw for 108 yards (3.62). One receiver covered a pile of junk. Split donated the rest by starting Mahomes at 6.00. 116.60 is a bad score. It was enough.",
+      "w_keys": [
+        {
+          "player": "Jaxon Smith-Njigba",
+          "nfl_team": "SEA",
+          "pts": "31.30",
+          "line": "9 rec on 12 targets, 150 yds, 1 TD; 2 car, 13 yds"
+        },
+        {
+          "player": "Rhamondre Stevenson",
+          "nfl_team": "NE",
+          "pts": "22.50",
+          "line": "6 car, 22 yds; 5 rec, 93 yds, 1 TD"
+        }
+      ],
+      "l_keys": [
+        {
+          "player": "Jahmyr Gibbs",
+          "nfl_team": "DET",
+          "pts": "17.30",
+          "line": "29 car, 116 yds; 5 rec, 27 yds; 1 fumble lost"
+        },
+        {
+          "player": "Ja'Marr Chase",
+          "nfl_team": "CIN",
+          "pts": "17.20",
+          "line": "5 rec on 7 targets, 62 yds, 1 TD"
+        }
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "name": "Manager of the Week",
+      "winner": "Dak Side of the Sun (SweetRavenge84)",
+      "stat": "160.86",
+      "body": "SweetRavenge84 scored 160.86, most in the league. Burrow went 22 of 30 for 292 yards and four touchdowns. Amon-Ra caught 9 for 153 yards. Dak threw three scores. BAL DEF scored minus-2.00 and they still led the week. Do that."
+    },
+    {
+      "name": "Lineup Crime",
+      "winner": "Split Safety Syndicate (kylejones10)",
+      "stat": "23.48",
+      "body": "Geno Smith went 23 of 30 for 287 yards and three touchdowns, from the bench. Mahomes started and threw for 165 yards with no scores. The gap is 17.48. The loss was 2.88. This is not a puzzle."
+    },
+    {
+      "name": "Floor of the Week",
+      "winner": "Jalon Daniels, Kingslayers",
+      "stat": "−0.30",
+      "body": "Two carries, minus-3 yards, 6 of 63 snaps. Superflex. Tampa Bay won 43-13 and he still went negative. Start a kicker. Start a chair. Start anyone else."
+    },
+    {
+      "name": "Best Performance in a Loss",
+      "winner": "Drake Maye, Unsportsmanlike Conduct",
+      "stat": "27.44",
+      "body": "Maye went 24 of 31 for 321 yards, two passing scores, and a rushing touchdown. UC lost by 34.42. He did his job. Jaylin Noel caught 2 balls for minus-3 yards. The sponsor did not do his."
+    },
+    {
+      "name": "What Are You Saving Him For",
+      "winner": "Tony Pollard, hammball",
+      "stat": "36.50",
+      "body": "Pollard ran 25 times for 129 yards and three touchdowns, his third score tying a career high per ESPN. All of that sat. hammball still won by 34.42. I would have started him out of spite."
+    }
+  ],
+  "standouts": [
+    {
+      "pos": "QB",
+      "player": "Joe Burrow",
+      "nfl_team": "CIN",
+      "team": "Dak Side of the Sun",
+      "pts": "28.88",
+      "line": "22/30, 292 pass yds, 4 TD; 2 car, 12 rush yds"
+    },
+    {
+      "pos": "RB",
+      "player": "Bucky Irving",
+      "nfl_team": "TB",
+      "team": "hammball",
+      "pts": "24.00",
+      "line": "24 car, 106 rush yds, 2 TD; 1 rec (2 tgt), 4 rec yds"
+    },
+    {
+      "pos": "WR",
+      "player": "Jaxon Smith-Njigba",
+      "nfl_team": "SEA",
+      "team": "Mendozareamazingpicks",
+      "pts": "31.30",
+      "line": "2 car, 13 rush yds; 9 rec (12 tgt), 150 rec yds, 1 TD"
+    },
+    {
+      "pos": "TE",
+      "player": "Trey McBride",
+      "nfl_team": "ARI",
+      "team": "Micah parsons fan club",
+      "pts": "27.10",
+      "line": "10 rec (13 tgt), 111 rec yds, 1 TD"
+    },
+    {
+      "pos": "K",
+      "player": "Brandon Aubrey",
+      "nfl_team": "DAL",
+      "team": "Skat’s BruteForce Theorem",
+      "pts": "14.00",
+      "line": "FG 3/3 (long 55), XP 3/3"
+    },
+    {
+      "pos": "DEF",
+      "player": "SEA DEF",
+      "nfl_team": "SEA",
+      "team": "Split Safety Syndicate",
+      "pts": "11.00",
+      "line": "3 pts allowed, 213 yds allowed, 1 sack, 1 INT"
+    }
+  ],
+  "bench_note": "hammball left 108.18 on the bench, most in the league. Tony Pollard’s 36.50 led every player this week (25 car, 129 yds, 3 TD). They won by 34.42 anyway.",
+  "injuries": [
+    {
+      "player": "Jeremiyah Love",
+      "nfl_team": "ARI",
+      "team": "Kingslayers",
+      "note": "Missed a second straight game with a sore ankle, per ESPN, and still started. No stat record. Sleeper: questionable (ankle)."
+    },
+    {
+      "player": "Romeo Doubs",
+      "nfl_team": "NE",
+      "team": "Kingslayers",
+      "note": "In the lineup with no stats. Sleeper: injured reserve (shoulder)."
+    },
+    {
+      "player": "Christian McCaffrey",
+      "nfl_team": "SF",
+      "team": "J’Allen Waffle Stompers",
+      "note": "Missed much of the first half with a thigh injury, per ESPN, then returned as a decoy. Sleeper: questionable (calf)."
+    },
+    {
+      "player": "Saquon Barkley",
+      "nfl_team": "PHI",
+      "team": "J’Allen Waffle Stompers",
+      "note": "Returned, still bothered by the hamstring, and visited the medical tent, per ESPN. Seven carries, 62 yards, one score from the bench. Sleeper: questionable (back)."
+    },
+    {
+      "player": "Aaron Jones Sr.",
+      "nfl_team": "MIN",
+      "team": "Micah parsons fan club",
+      "note": "Aggravated a knee injury in the fourth quarter and didn’t return, per ESPN. Sleeper: questionable (undisclosed)."
+    },
+    {
+      "player": "Rashid Shaheed",
+      "nfl_team": "SEA",
+      "team": "Kingslayers",
+      "note": "Left early in the second half with a knee injury and did not return, per ESPN. Sleeper: questionable (knee)."
+    },
+    {
+      "player": "Jaylin Noel",
+      "nfl_team": "HOU",
+      "team": "Unsportsmanlike Conduct",
+      "note": "Left in the fourth quarter with a toe injury, per ESPN, after 2 catches for minus-3 yards. Sleeper: questionable (toe)."
+    },
+    {
+      "player": "Amon-Ra St. Brown",
+      "nfl_team": "DET",
+      "team": "Dak Side of the Sun",
+      "note": "Sleeper: questionable (ankle)."
+    },
+    {
+      "player": "Lamar Jackson",
+      "nfl_team": "BAL",
+      "team": "Micah parsons fan club",
+      "note": "Missed a third straight game, per ESPN. Sleeper: questionable (ankle)."
+    },
+    {
+      "player": "Cam Skattebo",
+      "nfl_team": "NYG",
+      "team": "Skat’s BruteForce Theorem",
+      "note": "Sleeper: questionable (hamstring). Giants are on bye."
+    },
+    {
+      "player": "Jalen Hurts",
+      "nfl_team": "PHI",
+      "team": "Unsportsmanlike Conduct",
+      "note": "Sleeper: injured reserve (calf)."
+    },
+    {
+      "player": "DeVonta Smith",
+      "nfl_team": "PHI",
+      "team": "Unsportsmanlike Conduct",
+      "note": "Sleeper: questionable (hamstring)."
+    }
+  ],
+  "transactions": {
+    "stats": [
+      {
+        "value": "$100",
+        "label": "spent on six completed claims"
+      },
+      {
+        "value": "$51",
+        "label": "Shough’s bid on Caleb Douglas, the top bid"
+      },
+      {
+        "value": "$191",
+        "label": "of Micah’s $200 already gone"
+      }
+    ],
+    "waivers": [
+      {
+        "team": "WELL! It's The Big Shough",
+        "add": "Caleb Douglas",
+        "pos": "WR",
+        "nfl_team": "MIA",
+        "drop": null,
+        "faab": "$51",
+        "grade": "A",
+        "note": "Top bid of the week. Beat ThePeopleBeaters at $17. Douglas caught touchdowns of 7 and 63 yards from Malik Willis, per ESPN. Skat had cut him for Chris Bell."
+      },
+      {
+        "team": "WELL! It's The Big Shough",
+        "add": "JAX DEF",
+        "pos": "DEF",
+        "nfl_team": "JAX",
+        "drop": "CLE DEF",
+        "faab": "$3",
+        "grade": "B",
+        "note": "Dropped CLE DEF after starting them for 6.00. Jacksonville was idle this week and now plays Indianapolis."
+      },
+      {
+        "team": "Mendozareamazingpicks",
+        "add": "Tyler Bass",
+        "pos": "K",
+        "nfl_team": "BUF",
+        "drop": "Spencer Shrader",
+        "faab": "$3",
+        "grade": "B",
+        "note": "Shrader went 1 of 3 and scored minus-1.00. Beat UC’s $0. Bass was idle. Sure."
+      },
+      {
+        "team": "Rams of Steel",
+        "add": "Rico Dowdle",
+        "pos": "RB",
+        "nfl_team": null,
+        "drop": "Tyrone Tracy Jr.",
+        "faab": "$27",
+        "grade": "B+",
+        "note": "UC dropped him Sunday for Jaylin Noel. Noel started and caught 2 for minus-3 yards. Rams paid $27. UC bid $3. Gift-wrapped."
+      },
+      {
+        "team": "Unsportsmanlike Conduct",
+        "add": "Kendrick Bourne",
+        "pos": "WR",
+        "nfl_team": null,
+        "drop": "Adonai Mitchell",
+        "faab": "$11",
+        "grade": "C",
+        "note": "Wednesday’s waiver run. Dropped Adonai Mitchell, who caught 0 of 3. Fine move, late."
+      },
+      {
+        "team": "Unsportsmanlike Conduct",
+        "add": "CIN DEF",
+        "pos": "DEF",
+        "nfl_team": "CIN",
+        "drop": "HOU DEF",
+        "faab": "$5",
+        "grade": "B",
+        "note": "Houston gave up 27 points and 420 yards (3.00). Cincinnati hosts Tennessee. Obvious swap."
+      }
+    ],
+    "free_agents_label": "Free-agent adds",
+    "free_agents": [
+      {
+        "team": "Rams of Steel",
+        "add": "Darius Cooper",
+        "pos": "WR",
+        "nfl_team": "PHI",
+        "drop": "Brian Robinson Jr.",
+        "note": "Put him in. One catch, 17 yards (2.70). Cut a running back for that."
+      },
+      {
+        "team": "Unsportsmanlike Conduct",
+        "add": "Jaylin Noel",
+        "pos": "WR",
+        "nfl_team": "HOU",
+        "drop": "Rico Dowdle",
+        "note": "Wrote him into the lineup. Two catches, minus-3 yards (1.70). Then lost Dowdle on waivers."
+      },
+      {
+        "team": "Skat’s BruteForce Theorem",
+        "add": "Chris Bell",
+        "pos": "WR",
+        "nfl_team": "MIA",
+        "drop": "Caleb Douglas",
+        "note": "Bell caught 3 for 25 on the bench (5.50). Douglas scored twice for Miami, per ESPN. Then Shough paid $51."
+      },
+      {
+        "team": "ThePeopleBeaters",
+        "add": "J.J. McCarthy",
+        "pos": "QB",
+        "nfl_team": "NYG",
+        "drop": "Jameis Winston",
+        "note": "Gave him the job. 20 of 28 for 252 yards, no scores (10.18). First start of the season, per ESPN."
+      },
+      {
+        "team": "WELL! It's The Big Shough",
+        "add": "Chris Boswell",
+        "pos": "K",
+        "nfl_team": "PIT",
+        "drop": "Chris Bell",
+        "note": "Used him in Paris. Three field goals, long 47 (11.00). Then dropped him after the week."
+      },
+      {
+        "team": "Unsportsmanlike Conduct",
+        "add": "Malachi Fields",
+        "pos": "WR",
+        "nfl_team": "NYG",
+        "drop": "Kenny Gainwell",
+        "note": "Four catches, 83 yards from the bench (12.30). Their best unused piece."
+      },
+      {
+        "team": "J’Allen Waffle Stompers",
+        "add": "Zonovan Knight",
+        "pos": "RB",
+        "nfl_team": "ARI",
+        "drop": "Terry McLaurin",
+        "note": "Knight ran 7 times for 48 yards from the bench (9.30). McLaurin is out (knee)."
+      },
+      {
+        "team": "Unsportsmanlike Conduct",
+        "add": "Jakobi Meyers",
+        "pos": "WR",
+        "nfl_team": "JAX",
+        "drop": "Michael Pittman Jr.",
+        "note": "Pittman is on IR (foot). Meyers was idle this week."
+      },
+      {
+        "team": "WELL! It's The Big Shough",
+        "add": "CLE DEF",
+        "pos": "DEF",
+        "nfl_team": "CLE",
+        "drop": "CAR DEF",
+        "note": "In the lineup. 24 points allowed, one sack, 6.00."
+      },
+      {
+        "team": "Unsportsmanlike Conduct",
+        "add": "Drew Stevens",
+        "pos": "K",
+        "nfl_team": null,
+        "drop": "Ka'imi Fairbairn",
+        "note": "Fairbairn went 2 of 2 with a long of 58 (11.00). Then they cut him. I have questions."
+      }
+    ],
+    "trades": [],
+    "no_trades": "No trades this week."
+  },
+  "preview": {
+    "is_sample": false,
+    "label": "Week 8",
+    "note": "Houston, New Orleans, the Giants, and San Francisco are on bye. Carolina visits Green Bay on Thursday, and Chicago plays at Seattle on Monday night.",
+    "games": [
+      {
+        "a": "Skat’s BruteForce Theorem",
+        "b": "J’Allen Waffle Stompers",
+        "line": "Skattebo and Purdy hit Giants and 49ers byes. McCaffrey does too. Messy. Coin flip."
+      },
+      {
+        "a": "ThePeopleBeaters",
+        "b": "Kingslayers",
+        "line": "McCarthy sits on the Giants bye. Kingslayers just scored 90.70. PeopleBeaters, I guess."
+      },
+      {
+        "a": "Dak Side of the Sun",
+        "b": "Rams of Steel",
+        "line": "Nabers hits the Giants bye. Rams of Steel scored 91.40. Dak Side, easily."
+      },
+      {
+        "a": "WELL! It's The Big Shough",
+        "b": "hammball",
+        "line": "Tyler Shough and Alvin Kamara sit with the Saints. Nico Collins sits with Houston. hammball."
+      },
+      {
+        "a": "Mendozareamazingpicks",
+        "b": "Micah parsons fan club",
+        "line": "Jaxon against Flowers and McBride. Mendoza by a hair."
+      },
+      {
+        "a": "Split Safety Syndicate",
+        "b": "Unsportsmanlike Conduct",
+        "line": "Start Geno this time. UC has Stroud on the Texans bye. Split, if they learned anything."
+      }
+    ]
+  },
+  "footer": {
+    "methods": "Fantasy points, lineups, standings, transactions and FAAB come from the league on Sleeper. Box-score lines come from Sleeper’s weekly NFL stats. Game results, quotes and in-game injuries come from ESPN’s scoreboard and recaps. Injury status is Sleeper’s at fetch time, 2026-10-28 13:13 UTC. Power rankings follow the Elo ratings in the data brief.",
+    "sources": [
+      {
+        "name": "Sleeper league, rosters, matchups and transactions",
+        "url": "https://api.sleeper.app/v1/league/1319718857249665024"
+      },
+      {
+        "name": "Sleeper players",
+        "url": "https://api.sleeper.app/v1/players/nfl"
+      },
+      {
+        "name": "Sleeper NFL weekly stats",
+        "url": "https://api.sleeper.com/stats/nfl/2026/7?season_type=regular&position[]=QB&position[]=RB&position[]=WR&position[]=TE&position[]=K&position[]=DEF"
+      },
+      {
+        "name": "ESPN NFL scoreboard",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=7"
+      },
+      {
+        "name": "ESPN game summaries",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary"
+      }
+    ],
+    "credit": "Rebuilders Anonymous, presented by Unsportsmanlike Conduct."
+  },
+  "derived": [
+    {
+      "value": "14.60",
+      "expr": "23.48 - 6.00 - 2.88",
+      "why": "Geno's bench points minus Mahomes's starting points minus Split's losing margin: winning margin with the swap"
+    },
+    {
+      "value": "17.48",
+      "expr": "23.48 - 6.00",
+      "why": "Geno's bench points minus Mahomes's starting points"
+    },
+    {
+      "value": "$100",
+      "expr": "51 + 3 + 3 + 27 + 11 + 5",
+      "why": "the six completed Wednesday waiver claims"
+    }
+  ]
+}
