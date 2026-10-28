@@ -17,3 +17,5 @@ Guidance actually used: frontend-design from the installed anthropic-frontend-de
 Reusable files: theme.css, background.svg, field-pattern.svg, corner.svg, margin-left.svg, margin-right.svg, week7.json and the saved full Week 7 sample. Inline local assets for a standalone edition. The old templates/halloween.css and themes/halloween/2026 are historical references; new weekly renders use themes/halloween/redesign.
 
 Do not render the bench/nonstarter prose block formerly beneath the Standouts table. Keep the table and its rows, then continue to Injuries. Do not remove other two-column sections. Underlying bench data may remain available for accurate future writing.
+
+Weave recognizable holiday references naturally throughout the narrative, preserving the league-specific voice and full sentences without repetitive or forced puns. See the standing holiday rule in [EDITORIAL.md](../../../EDITORIAL.md).
