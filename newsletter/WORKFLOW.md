@@ -32,7 +32,15 @@ Refresh the provisional copy against the final brief: update scores, moves, FAAB
 python newsletter/weekly.py render --out newsletter/work/2026-11-04-final-draft
 ```
 
-Rendering catches missing fields and obvious factual inconsistencies. Read the page for correct names/scores and readable phone/desktop layout, fix obvious problems and publish without waiting for another weekly approval. Follow [PUBLISHING.md](PUBLISHING.md): host the page through the repo's Pages setup, then post one link in the verified Rebuilders Anonymous chat. Read/update `data/publication-state.json` to avoid duplicate delivery. Missing critical data, failed deployment, missing browser access or an uncertain send outcome means stop and report, not guess or blindly resend. Corrections and re-deployments remain silent in chat.
+Rendering catches missing fields and obvious factual inconsistencies. Read the page for correct names/scores and readable phone/desktop layout, then complete the required proofread below before publication or league notification.
+
+## Required proofread
+
+After writing/rendering, have a fresh proofreader separate from the writer inspect the visible newsletter text. Use a fresh-context agent or reviewer with the rendered edition and relevant source facts, without the writer's self-assessment. Check grammar, punctuation, repeated separators, empty or stale labels, singular/plural stat wording, doubled periods after suffixes, and obvious formatting artifacts. Return only objective corrections with their locations, or say that none were found.
+
+Fix objective mistakes in the writing source or renderer and render again. Preserve facts, numerical data, exact team/player names, intentional humor, voice and layout. The step is complete when the corrections are applied and the affected rendered passages read correctly. A completed proofread carries forward if the visible copy is unchanged, including from 07:00 preparation; later copy edits need only a focused recheck of the affected passages. If a fresh proofreader is unavailable, report that before publication rather than claiming the step happened. Keep it to the proofread and corrections, without checksum procedures, formal signoff files or audit reports.
+
+Then publish without waiting for another weekly approval. Follow [PUBLISHING.md](PUBLISHING.md): host the page through the repo's Pages setup, then post one link in the verified Rebuilders Anonymous chat. Read/update `data/publication-state.json` to avoid duplicate delivery. Missing critical data, failed deployment, missing browser access or an uncertain send outcome means stop and report, not guess or blindly resend. Corrections and re-deployments remain silent in chat.
 
 Public Sleeper API is authoritative for fantasy scores and moves; ESPN supplies dated finals/game reporting. Supplemental NFL MCP defaults to `http://127.0.0.1:9000/mcp/` (override `NFL_MCP_URL` or `--mcp-url`). It can be unavailable or have empty news/injury caches. Use available dated game reporting and preserve uncertainty; never treat today's injury flag as last Wednesday's fact. `healthcheck.py --live` is for setup/troubleshooting, not weekly paperwork.
 
