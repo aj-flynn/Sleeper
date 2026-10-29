@@ -19,3 +19,5 @@ All league managers are male (AJ, October 28, 2026). Use he/him/his for an indiv
 Do not render the bench/nonstarter commentary block beneath Standouts. Keep the table and all rows, then continue to Injuries. Other two-column sections remain. Keep underlying player and nonstarter data available for writing.
 
 Use singular stat units for one (1 sack). A suffix period such as Jr. also closes its sentence. Spell negative values as “minus one,” “minus two” and “minus three”; retain hyphens for genuine compound modifiers.
+
+Before publication, follow the [required focused proofread](WORKFLOW.md#required-proofread): a fresh proofreader checks visible copy and fixes objective mistakes while preserving facts, numbers, exact names, intentional humor, voice and layout. Recheck only passages affected by later copy edits.
