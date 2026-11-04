@@ -1,0 +1,1214 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "Dallas Cowboys",
+        "guid": "b0fc8fb7-9dbe-e574-9008-6f0ee7c6b234",
+        "id": 1298,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "DAL",
+          "description": "Dallas Cowboys",
+          "id": 6,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys"
+              }
+            }
+          },
+          "shortDisplayName": "Cowboys"
+        },
+        "teamId": 6,
+        "type": "team",
+        "uid": "s:20~l:28~t:6"
+      },
+      {
+        "description": "Arizona Cardinals",
+        "guid": "8fc7b962-95e1-3cb8-6a7d-b499de9ad546",
+        "id": 1583,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "ARI",
+          "description": "Arizona Cardinals",
+          "id": 22,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/ari/arizona-cardinals"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/ari/arizona-cardinals"
+              }
+            }
+          },
+          "shortDisplayName": "Cardinals"
+        },
+        "teamId": 22,
+        "type": "team",
+        "uid": "s:20~l:28~t:22"
+      },
+      {
+        "description": "Arizona Cardinals @ Dallas Cowboys",
+        "event": {
+          "description": "Arizona Cardinals @ Dallas Cowboys",
+          "id": 401873024,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873024"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873024"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873024,
+        "guid": "72df15fc-8623-3136-a9a2-4847154edf4c",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873024"
+      }
+    ],
+    "categorized": "2026-11-02T05:26:07Z",
+    "contentKey": "50351522-1-21-1",
+    "dataSourceIdentifier": "f7c8f0093d846",
+    "description": "— Tyler Allgeier jolted his Arizona offense, which gave Gardner Minshew and Michael Wilson a chance to stun the Dallas Cowboys.",
+    "gameId": "401873024",
+    "headline": "Chad Ryland kicks winner after PAT miss that forced OT as Cards beat Cowboys 33-30 with wild rally",
+    "id": 50351522,
+    "images": [
+      {
+        "caption": "Dak Prescott rushes in for TD to pad Cowboys' lead",
+        "height": 324,
+        "name": "Dak Prescott rushes in for TD to pad Cowboys' lead",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/9bd541c52ef04fb7b36c20e3a2b81c6c997/9bd541c52ef04fb7b36c20e3a2b81c6c997.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "Dallas Cowboys",
+      "Arizona Cardinals",
+      "Arizona Cardinals @ Dallas Cowboys"
+    ],
+    "lastModified": "2026-11-01T23:41:47Z",
+    "linkText": "Chad Ryland kicks winner after PAT miss that forced OT as Cards beat Cowboys 33-30 with wild rally",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50351522"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50351522"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50351522"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873024"
+      }
+    },
+    "nowId": "1-50351522",
+    "originallyPosted": "2026-11-01T21:52:45Z",
+    "premium": false,
+    "published": "2026-11-01T21:52:45Z",
+    "publishedkey": "nfl401873024",
+    "section": "NFL",
+    "source": "AP",
+    "story": "ARLINGTON, Texas -- — <a href=\"http://www.espn.com/nfl/player/_/id/4373626/tyler-allgeier\">Tyler Allgeier</a> jolted his Arizona offense, which gave Gardner Minshew and <a href=\"http://www.espn.com/nfl/player/_/id/4360761/michael-wilson\">Michael Wilson</a> a chance to stun the <a href=\"http://www.espn.com/nfl/team/_/name/dal/dallas-cowboys\">Dallas Cowboys</a>.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4363538/chad-ryland\">Chad Ryland</a> just added some extra drama.\n\n\r\n              The Cardinals kicker hit a winning 42-yard field goal in overtime after missing a PAT that would have put the game away with 6 seconds left in regulation, and the Cardinals rallied for a wild 33-30 victory on Sunday.\n\n\r\n              “It’s not like that’s the first adversity we had on the day,” said Minshew, who replaced an ineffective <a href=\"http://www.espn.com/nfl/player/_/id/2578570/jacoby-brissett\">Jacoby Brissett</a> in the third quarter and led a 63-second drive to the tying touchdown before Ryland's miss. “I know it seems like, ‘Oh, man.’ But, it's 30-30, got a chance to play these boys in overtime. Let's freaking go. Sign me up.”\n\n\r\n              The Cardinals beat Dallas for the fifth consecutive time and improved to 5-0 at AT&T Stadium, the home of the Cowboys that opened in 2009.\n\n\r\n              This was by far the most crushing of those losses for the Cowboys (3-5), who didn't trail until the final kick and led by two touchdowns early in the fourth quarter. They still have just one winning streak in a season-plus under coach Brian Schottenheimer.\n\n\r\n              “What I told the guys is we obviously have to learn to finish in all three phases,” Schottenheimer said. “We had a chance to do it in a lot of different ways. When you have people down, you have to finish them and that’s the most disappointing thing.”\n\n\r\n              Arizona (3-5) was still in the game because Allgeier had a 63-yard touchdown run, a career long, followed by a 50-yarder to set up his second touchdown on a 5-yard catch, all in the second half. He had 191 scrimmage yards (147 yards rushing, 44 receiving), all but 7 coming after halftime.\n\n\r\n              The Dallas defense was having its best showing of the season before buckling in the last 16 minutes of regulation, particularly the final 65 seconds.\n\n\r\n              The Cardinals went 80 yards in eight plays, getting even on Wilson's 13-yard scoring catch from Minshew, who was 17 of 23 for 188 yards with three touchdowns. Ryland was wide left on the PAT after making his previous 58.\n\n\r\n              Arizona was the third team since 2000 to miss a go-ahead PAT in final 10 seconds of regulation, joining Cincinnati in a 23-20 overtime loss to Pittsburgh in 2022 and Tampa Bay in a 12-9 OT loss to Carolina in 2003.\n\n\r\n              Unlike the Bengals and Buccaneers, the Cardinals won anyway, led by Minshew.\n\n\r\n              Taking with 1:05 to go and down 30-24 with no timeouts, Minshew threw 14 yards to Allgeier and 21 yards to Wilson, who had eight catches for 111 yards. A 27-yarder to Wilson put the ball at the 13, and he got behind the defense in the back of the end zone for what figured to be the winning catch.\n\n\r\n              After Ryland's miss, the Cardinals went three-and-out to start overtime, but a Dallas offense that faltered late did the same. Wilson had a 17-yard catch to get the ball past midfield, and Allgeier ran 11 yards to put Arizona in comfortable range for Ryland. The winning kick never strayed from the uprights.\n\n\r\n              “I don’t think anyone really in this room or anyone, probably in the country, thought that we had a chance at a comeback right there,” said Cardinals coach Mike LaFleur, who didn't want to get into a discussion about who his starting quarterback is. “And so to make it 30-30, it was only fitting, and for Chad to finish it out for us. Like I told the guys, right when we started overtime, there’s no way we’re not coming out here with a win.”\n\n\r\n              Allgeier was the only Arizona running back available after rookie No. 3 overall pick <a href=\"http://www.espn.com/nfl/player/_/id/4870808/jeremiyah-love\">Jeremiyah Love</a> had left with another ankle injury. Love missed the previous two games with an ankle issue. <a href=\"http://www.espn.com/nfl/player/_/id/4427728/bam-knight\">Bam Knight</a> was ruled out with a concussion after taking a hit from <a href=\"http://www.espn.com/nfl/player/_/id/4362088/demarvion-overshown\">DeMarvion Overshown</a> and losing a fumble.\n\n\r\n              The Cardinals were also down two receivers in <a href=\"http://www.espn.com/nfl/player/_/id/3045523/kendrick-bourne\">Kendrick Bourne</a> and <a href=\"http://www.espn.com/nfl/player/_/id/4869132/reggie-virgil\">Reggie Virgil</a>. As a result, Wilson had five catches for 77 yards in the fourth quarter.\n\n\r\n              “For those guys to continue to battle was unbelievable,” LaFleur said. “I’ve never seen anything like it from an injury standpoint at the skill position.”\n\n\r\n              Prescott had a touchdown pass and ran for a score, but the Cowboys were outgained 467-261 and averaged 2.4 yards per carry a week after rushing for 204 yards.\n\n\r\n              “Very disappointing,” Prescott said “One of the toughest I guess I’ve been a part of. No other words for it really, other than really, really disappointing, frustrating. It’s part of this league.”\n\n\r\n              <hl2>McBride extends streak</hl2>\r\n              Cardinals TE <a href=\"http://www.espn.com/nfl/player/_/id/4361307/trey-mcbride\">Trey McBride</a> needed a big second half, but he finished with at least seven catches for the 10th consecutive game, third longest in league history. He finished with seven catches for 72 yards, the last coming to start the overtime drive to Ryland's winner.\n\n\r\n              <hl2>Injuries</hl2>\r\n              Cardinals: WR Kendrick Bourne didn't return after injuring an ankle. ... LT <a href=\"http://www.espn.com/nfl/player/_/id/4709718/jayden-williams\">Jayden Williams</a> was ruled out with a knee injury.\n\n\r\n              Cowboys: S <a href=\"http://www.espn.com/nfl/player/_/id/4870706/caleb-downs\">Caleb Downs</a>, a rookie first-round pick, was ruled out with a concussion in the second half. ... TE <a href=\"http://www.espn.com/nfl/player/_/id/4242355/jake-ferguson\">Jake Ferguson</a> exited with an ankle injury in the first quarter and didn't return.\n\n\r\n              <hl2>Up next</hl2>\r\n              Cardinals: At Seattle next Sunday.\n\n\r\n              Cowboys: At Indianapolis next Sunday.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": []
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 0,
+      "clock": {
+        "displayValue": "2:33",
+        "value": 153.0
+      },
+      "homeScore": 7,
+      "id": "401873024839",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "DAL",
+        "displayName": "Dallas Cowboys",
+        "id": "6",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/dal",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:6"
+      },
+      "text": "James Mitchell 0 Yd Fumble Recovery (Brandon Aubrey Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "39",
+        "text": "Fumble Return Touchdown"
+      }
+    },
+    {
+      "awayScore": 0,
+      "clock": {
+        "displayValue": "5:16",
+        "value": 316.0
+      },
+      "homeScore": 14,
+      "id": "4018730241516",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "DAL",
+        "displayName": "Dallas Cowboys",
+        "id": "6",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/dal",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:6"
+      },
+      "text": "Ryan Flournoy 9 Yd pass from Dak Prescott (Brandon Aubrey Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "1:13",
+        "value": 73.0
+      },
+      "homeScore": 14,
+      "id": "4018730241881",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "ARI",
+        "displayName": "Arizona Cardinals",
+        "id": "22",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/ari/arizona-cardinals",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/ari",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:22"
+      },
+      "text": "Chad Ryland 37 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "6:37",
+        "value": 397.0
+      },
+      "homeScore": 17,
+      "id": "4018730242674",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "DAL",
+        "displayName": "Dallas Cowboys",
+        "id": "6",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/dal",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:6"
+      },
+      "text": "Brandon Aubrey 31 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 10,
+      "clock": {
+        "displayValue": "0:57",
+        "value": 57.0
+      },
+      "homeScore": 17,
+      "id": "4018730243050",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "ARI",
+        "displayName": "Arizona Cardinals",
+        "id": "22",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/ari/arizona-cardinals",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/ari",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:22"
+      },
+      "text": "Tyler Allgeier 63 Yd Rush (Chad Ryland Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 10,
+      "clock": {
+        "displayValue": "14:20",
+        "value": 860.0
+      },
+      "homeScore": 24,
+      "id": "4018730243294",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "DAL",
+        "displayName": "Dallas Cowboys",
+        "id": "6",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/dal",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:6"
+      },
+      "text": "Dak Prescott 5 Yd Rush (Brandon Aubrey Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 17,
+      "clock": {
+        "displayValue": "10:47",
+        "value": 647.0
+      },
+      "homeScore": 24,
+      "id": "4018730243539",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "ARI",
+        "displayName": "Arizona Cardinals",
+        "id": "22",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/ari/arizona-cardinals",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/ari",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:22"
+      },
+      "text": "Tyler Allgeier 5 Yd pass from Gardner Minshew II (Chad Ryland Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 17,
+      "clock": {
+        "displayValue": "3:54",
+        "value": 234.0
+      },
+      "homeScore": 27,
+      "id": "4018730243970",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "DAL",
+        "displayName": "Dallas Cowboys",
+        "id": "6",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/dal",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:6"
+      },
+      "text": "Brandon Aubrey 35 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 24,
+      "clock": {
+        "displayValue": "2:11",
+        "value": 131.0
+      },
+      "homeScore": 27,
+      "id": "4018730244256",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "ARI",
+        "displayName": "Arizona Cardinals",
+        "id": "22",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/ari/arizona-cardinals",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/ari",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:22"
+      },
+      "text": "Trey McBride 14 Yd pass from Gardner Minshew II (Chad Ryland Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 24,
+      "clock": {
+        "displayValue": "1:09",
+        "value": 69.0
+      },
+      "homeScore": 30,
+      "id": "4018730244443",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "DAL",
+        "displayName": "Dallas Cowboys",
+        "id": "6",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/dal",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:6"
+      },
+      "text": "Brandon Aubrey 41 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 30,
+      "clock": {
+        "displayValue": "0:06",
+        "value": 6.0
+      },
+      "homeScore": 30,
+      "id": "4018730244667",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "ARI",
+        "displayName": "Arizona Cardinals",
+        "id": "22",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/ari/arizona-cardinals",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/ari",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:22"
+      },
+      "text": "Michael Wilson 13 Yd pass from Gardner Minshew II (Chad Ryland PAT Failed)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 33,
+      "clock": {
+        "displayValue": "2:53",
+        "value": 173.0
+      },
+      "homeScore": 30,
+      "id": "4018730245167",
+      "period": {
+        "number": 5
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "ARI",
+        "displayName": "Arizona Cardinals",
+        "id": "22",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/ari/arizona-cardinals",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/ari",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:22"
+      },
+      "text": "Chad Ryland 42 Yd Field Goal ",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    }
+  ]
+}

@@ -1,0 +1,518 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "Tampa Bay Buccaneers",
+        "guid": "13e8b157-a75a-ff24-ae91-fa3d52ddf204",
+        "id": 2091,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "TB",
+          "description": "Tampa Bay Buccaneers",
+          "id": 27,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/tb/tampa-bay-buccaneers"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/tb/tampa-bay-buccaneers"
+              }
+            }
+          },
+          "shortDisplayName": "Buccaneers"
+        },
+        "teamId": 27,
+        "type": "team",
+        "uid": "s:20~l:28~t:27"
+      },
+      {
+        "description": "Atlanta Falcons",
+        "guid": "49fd392a-86fe-4df3-1b77-9bbfa18b2ad5",
+        "id": 1979,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "ATL",
+          "description": "Atlanta Falcons",
+          "id": 1,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/atl/atlanta-falcons"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/atl/atlanta-falcons"
+              }
+            }
+          },
+          "shortDisplayName": "Falcons"
+        },
+        "teamId": 1,
+        "type": "team",
+        "uid": "s:20~l:28~t:1"
+      },
+      {
+        "description": "Atlanta Falcons @ Tampa Bay Buccaneers",
+        "event": {
+          "description": "Atlanta Falcons @ Tampa Bay Buccaneers",
+          "id": 401873025,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873025"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873025"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873025,
+        "guid": "17b20637-91a5-3c19-ab3f-dc4905c0c40d",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873025"
+      }
+    ],
+    "categorized": "2026-11-01T22:17:47Z",
+    "contentKey": "50350986-1-21-1",
+    "dataSourceIdentifier": "3bfcfbf07765a",
+    "description": "— Baker Mayfield threw more downfield blocks than he had completions.",
+    "gameId": "401873025",
+    "headline": "Buccaneers beat Falcons 16-0 despite failing to complete a single pass in wet, sloppy conditions",
+    "id": 50350986,
+    "images": [
+      {
+        "caption": "Bucky Irving barrels in for a Bucs TD",
+        "height": 324,
+        "name": "Bucky Irving barrels in for a Bucs TD",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/aa98da6210da47aca9ef3f7cdc28d99c982/aa98da6210da47aca9ef3f7cdc28d99c982.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "Tampa Bay Buccaneers",
+      "Atlanta Falcons",
+      "Atlanta Falcons @ Tampa Bay Buccaneers"
+    ],
+    "lastModified": "2026-11-01T22:17:47Z",
+    "linkText": "Buccaneers beat Falcons 16-0 despite failing to complete a single pass in wet, sloppy conditions",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50350986"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50350986"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50350986"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873025"
+      }
+    },
+    "nowId": "1-50350986",
+    "originallyPosted": "2026-11-01T21:05:46Z",
+    "premium": false,
+    "published": "2026-11-01T21:05:46Z",
+    "publishedkey": "nfl401873025",
+    "section": "NFL",
+    "source": "AP",
+    "story": "TAMPA, Fla. -- — <a href=\"http://www.espn.com/nfl/player/_/id/3052587/baker-mayfield\">Baker Mayfield</a> threw more downfield blocks than he had completions.\n\n\r\n              Mayfield didn’t complete a pass but the <a href=\"http://www.espn.com/nfl/team/_/name/tb/tampa-bay-buccaneers\">Tampa Bay Buccaneers</a> beat the <a href=\"http://www.espn.com/nfl/team/_/name/atl/atlanta-falcons\">Atlanta Falcons</a> 16-0 on Sunday behind <a href=\"http://www.espn.com/nfl/player/_/id/4596448/bucky-irving\">Bucky Irving</a> and <a href=\"http://www.espn.com/nfl/player/_/id/4371733/kenny-gainwell\">Kenny Gainwell</a>'s rushing on a wet, sloppy field.\n\n\r\n              “I’ll do whatever it takes to win,” Mayfield said after going 0 for 3. “That’s all that matters to me.”\n\n\r\n              The <a href=\"https://apnews.com/hub/tampa-bay-buccaneers\">Buccaneers</a> (3-5) set a team record for yards rushing in a game with 324, and became the first team to have zero completions since Buffalo on Sept. 29, 1974. The Bills beat the Jets 16-12 in that one, and that had been the only time a team didn’t complete a pass in the Super Bowl era.\n\n\r\n              Irving ran for 170 yards and one touchdown on 27 carries, Gainwell ran for 140 on 25 carries and <a href=\"http://www.espn.com/nfl/player/_/id/3150744/chase-mclaughlin\">Chase McLaughlin</a> kicked three field goals to stay perfect this season at 19 for 19.\n\n\r\n              Playing in a driving rain for most of the afternoon, Mayfield handed off 52 times in his second game back after missing three weeks with a fractured thumb.\n\n\r\n              He got out in front when Gainwell reversed direction on a 28-yard run in the fourth quarter, blocked <a href=\"http://www.espn.com/nfl/player/_/id/3919512/jessie-bates\">Jessie Bates III</a> and ended up in a puddle.\n\n\r\n              “If I’m not gonna throw the ball, I have to get active somehow,” Mayfield said. “Me and Jessie were out there playing in mud.”\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4360423/michael-penix-jr\">Michael Penix Jr</a>. went 8 for 24 for 125 yards with four interceptions for <a href=\"https://apnews.com/hub/atlanta-falcons\">Atlanta</a> (3-5). <a href=\"http://www.espn.com/nfl/player/_/id/4430807/bijan-robinson\">Bijan Robinson</a> was held to 76 yards on 19 carries.\n\n\r\n              Facing his former coach with Cleveland, Mayfield didn’t have to do much with his arm. He scrambled for 13 yards while Irving and Gainwell piled up big numbers. Mayfield and Kevin Stefanski are the only QB-coach combination to win a playoff game for the Browns since the franchise returned in 1999, but they didn’t have a close relationship. Mayfield was upset that Stefanski didn’t reach out to him after the Browns traded him to Carolina in 2022.\n\n\r\n              Tampa Bay’s previous rushing high was 283 yards — including 235 from Doug Martin — in a 45-17 win at Philadelphia on Nov. 22, 2015.\n\n\r\n              Irving’s 4-yard TD run in the third quarter gave the Buccaneers a 16-0 lead and the offense kept pounding the ball on the ground.\n\n\r\n              “Those guys up front, I see a different look in their eyes when it’s time to run the ball,” Irving said of an offensive line led by two-time Pro Bowl tackle <a href=\"http://www.espn.com/nfl/player/_/id/4240589/tristan-wirfs\">Tristan Wirfs</a>. “I’ll got to war with those guys any day.”\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/10621/nick-folk\">Nick Folk</a> missed a 53-yard field goal wide left on Atlanta’s opening series and McLaughlin made one from 46 yards out on the next series.\n\n\r\n              The Bucs missed an opportunity after <a href=\"http://www.espn.com/nfl/player/_/id/3043107/alex-anzalone\">Alex Anzalone</a> picked off Penix at Atlanta’s 41 and returned it 8 yards, and an unsportsmanlike penalty on <a href=\"http://www.espn.com/nfl/player/_/id/4426502/drake-london\">Drake London</a> put the ball at the 18. But Irving fumbled out of the end zone for a touchback after taking a lateral from Mayfield. Bates forced the fumble.\n\n\r\n              Anzalone picked off Penix again on Atlanta’s next possession to set up Tampa Bay at the Falcons 19. But the Buccaneers couldn’t go anywhere and settled for McLaughlin’s 34-yarder that made it 6-0.\n\n\r\n              After <a href=\"http://www.espn.com/nfl/player/_/id/4912847/jacob-parrish\">Jacob Parrish</a> picked off Penix on a fourth-down pass at Tampa Bay’s 17, the Buccaneers drove 65 yards and McLaughlin connected from 42 yards to extend the lead to 9-0.\n\n\r\n              Last week, <a href=\"https://apnews.com/article/buccaneers-panthers-score-857fca99147e6002fa7506f65dcc7fcb\">Tampa Bay beat the Panthers 43-13</a> with Mayfield completing just 7 of 11 passes for 64 yards.\n\n\r\n              The Bucs have won three of four since an 0-4 start and are just a half-game behind Carolina (3-4) in the NFC South.\n\n\r\n              “We have to want it,” Stefanski said of the poor all-around performance by the Falcons.\n\n\r\n              In the Jets-Bills game in 1974, Joe Ferguson was 0 for 2 for Buffalo, O.J. Simpson ran for 117 yards and Ferguson and Jim Braxton each had rushing touchdowns. New York’s Joe Namath completed just 2 of 18 passes for 33 yards.\n\n\r\n              The Buccaneers became the first team to win by double digits without completing a pass since the <a href=\"http://www.espn.com/nfl/team/_/name/pit/pittsburgh-steelers\">Pittsburgh Steelers</a> beat the Chicago Cardinals 23-0 on Nov. 11, 1945, according to NFL research.\n\n\r\n              <hl2>Injuries</hl2>\r\n              Falcons: WR Zacchariah Branch and DE <a href=\"http://www.espn.com/nfl/player/_/id/3045527/samson-ebukam\">Samson Ebukam</a> both exited with hamstring injuries. RB Brian Robinson (hamstring) was inactive.\n\n\r\n              Buccaneers: OLB <a href=\"http://www.espn.com/nfl/player/_/id/4686334/yaya-diaby\">Yaya Diaby</a> left the game with a knee injury in the first quarter. ... WR <a href=\"http://www.espn.com/nfl/player/_/id/4567750/emeka-egbuka\">Emeka Egbuka</a> (foot) was inactive.\n\n\r\n              <hl2>Up next</hl2>\r\n              Falcons: Travel to Madrid, where they will face the <a href=\"http://www.espn.com/nfl/team/_/name/cin/cincinnati-bengals\">Cincinnati Bengals</a> in the NFL's second regular-season game in Spain next Sunday.\n\n\r\n              Buccaneers: Visit the <a href=\"http://www.espn.com/nfl/team/_/name/chi/chicago-bears\">Chicago Bears</a> in a primetime matchup next Sunday night.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": []
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 0,
+      "clock": {
+        "displayValue": "7:43",
+        "value": 463.0
+      },
+      "homeScore": 3,
+      "id": "401873025398",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "TB",
+        "displayName": "Tampa Bay Buccaneers",
+        "id": "27",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/tb/tampa-bay-buccaneers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/tb",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:27"
+      },
+      "text": "Chase McLaughlin 46 Yd Field Goal ",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 0,
+      "clock": {
+        "displayValue": "4:02",
+        "value": 242.0
+      },
+      "homeScore": 6,
+      "id": "401873025738",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "TB",
+        "displayName": "Tampa Bay Buccaneers",
+        "id": "27",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/tb/tampa-bay-buccaneers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/tb",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:27"
+      },
+      "text": "Chase McLaughlin 34 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 0,
+      "clock": {
+        "displayValue": "4:04",
+        "value": 244.0
+      },
+      "homeScore": 9,
+      "id": "4018730251501",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "TB",
+        "displayName": "Tampa Bay Buccaneers",
+        "id": "27",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/tb/tampa-bay-buccaneers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/tb",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:27"
+      },
+      "text": "Chase McLaughlin 42 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 0,
+      "clock": {
+        "displayValue": "3:47",
+        "value": 227.0
+      },
+      "homeScore": 16,
+      "id": "4018730252455",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "TB",
+        "displayName": "Tampa Bay Buccaneers",
+        "id": "27",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/tb/tampa-bay-buccaneers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/tb",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:27"
+      },
+      "text": "Bucky Irving 4 Yd Rush (Chase McLaughlin Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    }
+  ]
+}

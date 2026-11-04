@@ -1,0 +1,953 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "Denver Broncos",
+        "guid": "51042145-e3c1-0694-ae0d-f720342ff8fc",
+        "id": 2432,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "DEN",
+          "description": "Denver Broncos",
+          "id": 7,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/den/denver-broncos"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/den/denver-broncos"
+              }
+            }
+          },
+          "shortDisplayName": "Broncos"
+        },
+        "teamId": 7,
+        "type": "team",
+        "uid": "s:20~l:28~t:7"
+      },
+      {
+        "description": "Kansas City Chiefs",
+        "guid": "f68f2343-8ceb-7a02-740d-af6338be21d2",
+        "id": 2496,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "KC",
+          "description": "Kansas City Chiefs",
+          "id": 12,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/kc/kansas-city-chiefs"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/kc/kansas-city-chiefs"
+              }
+            }
+          },
+          "shortDisplayName": "Chiefs"
+        },
+        "teamId": 12,
+        "type": "team",
+        "uid": "s:20~l:28~t:12"
+      },
+      {
+        "description": "Kansas City Chiefs @ Denver Broncos",
+        "event": {
+          "description": "Kansas City Chiefs @ Denver Broncos",
+          "id": 401873033,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873033"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873033"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873033,
+        "guid": "ba69d8fa-6175-3879-afab-9924b62ff3b3",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873033"
+      }
+    ],
+    "categorized": "2026-11-02T05:24:38Z",
+    "contentKey": "50353904-1-21-1",
+    "dataSourceIdentifier": "6976b79f30299",
+    "description": "— The one thing the Denver Broncos do really well is win close games.",
+    "gameId": "401873033",
+    "headline": "On fourth-and-goal, Roach drops Mahomes and flips the AFC West race as Broncos beat Chiefs 28-24",
+    "id": 50353904,
+    "images": [
+      {
+        "caption": "Patrick Mahomes finds Emmett Johnson who takes off for 73-yard TD",
+        "height": 324,
+        "name": "Patrick Mahomes finds Emmett Johnson who takes off for 73-yard TD",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/68c485a3154f4b27af60d5f6013352db1075/68c485a3154f4b27af60d5f6013352db1075.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "Denver Broncos",
+      "Kansas City Chiefs",
+      "Kansas City Chiefs @ Denver Broncos"
+    ],
+    "lastModified": "2026-11-02T02:48:46Z",
+    "linkText": "On fourth-and-goal, Roach drops Mahomes and flips the AFC West race as Broncos beat Chiefs 28-24",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50353904"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50353904"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50353904"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873033"
+      }
+    },
+    "nowId": "1-50353904",
+    "originallyPosted": "2026-11-02T01:05:49Z",
+    "premium": false,
+    "published": "2026-11-02T01:05:49Z",
+    "publishedkey": "nfl401873033",
+    "section": "NFL",
+    "source": "AP",
+    "story": "DENVER -- — The one thing the <a href=\"http://www.espn.com/nfl/team/_/name/den/denver-broncos\">Denver Broncos</a> do really well is win close games.\n\n\r\n              They stretched their winning streak in one-score games to 15 over the last two seasons by rallying past the <a href=\"http://www.espn.com/nfl/team/_/name/kc/kansas-city-chiefs\">Kansas City Chiefs</a> 28-24 on Sunday and dropping <a href=\"http://www.espn.com/nfl/player/_/id/3139477/patrick-mahomes\">Patrick Mahomes</a> to 80-3 in his career when leading by double digits in the fourth quarter.\n\n\r\n              “Obviously a big win,” Denver coach Sean Payton said after his 200th career victory. “And I'm proud of the grit.”\n\n\r\n              <a href=\"https://x.com/Broncos/status/2117054028697792876\"><a href=\"http://www.espn.com/nfl/player/_/id/4039064/malcolm-roach\">Malcolm Roach</a> sacked Mahomes</a> on fourth-and-goal on the final play, preserving Denver's win that vaulted Broncos (6-2) into first place in the AFC West, a half-game ahead of Kansas City (5-2), which lost its second straight.\n\n\r\n              The Broncos trailed 24-13 early in the fourth quarter, but <a href=\"http://www.espn.com/nfl/player/_/id/4426338/bo-nix\">Bo Nix</a> threw a 2-yard TD pass to tight end <a href=\"http://www.espn.com/nfl/player/_/id/4383440/nate-adkins\">Nate Adkins</a> and found <a href=\"http://www.espn.com/nfl/player/_/id/4372016/jaylen-waddle\">Jaylen Waddle</a> for the 2-point conversion to pull Denver within 24-21.\n\n\r\n              After Kansas City's <a href=\"https://apnews.com/article/kansas-city-chiefs-harrison-butker-f79528b3eb92699abaa992a54496e07d\">scuffling kicker <a href=\"http://www.espn.com/nfl/player/_/id/3055899/harrison-butker\">Harrison Butker</a></a> missed wide right on a 54-yard field goal attempt in a steady rain with 2 1/2 minutes remaining — one play after <a href=\"http://www.espn.com/nfl/player/_/id/2612151/alex-singleton\">Alex Singleton</a> sacked Mahomes for a 6-yard loss — the Broncos needed just two plays and 35 seconds to take the lead.\n\n\r\n              Nix hit rookie running back <a href=\"http://www.espn.com/nfl/player/_/id/4702555/jonah-coleman\">Jonah Coleman</a> for a 51-yard gain on first down. Coleman ran for a 5-yard touchdown on the next snap.\n\n\r\n              “It's always fun to throw it short and they run for a long time,” Nix said after recording his 15th career game-winning drive in the fourth quarter or overtime and surpassing <a href=\"http://www.espn.com/nfl/player/_/id/2577417/dak-prescott\">Dak Prescott</a> (14 games) for the most such drives by a QB in his first three seasons since the 1970 merger.\n\n\r\n              After the Broncos pushed ahead, Mahomes had just under 2 minutes to mount his own comeback.\n\n\r\n              A 44-yard kickoff return by <a href=\"http://www.espn.com/nfl/player/_/id/4832955/emmett-johnson\">Emmett Johnson</a>, who scored on a <a href=\"https://x.com/Chiefs/status/2117022737596047658\">73-yard reception</a> in the first half, and a 32-yard catch by <a href=\"http://www.espn.com/nfl/player/_/id/15847/travis-kelce\">Travis Kelce</a>, along with several big runs by <a href=\"http://www.espn.com/nfl/player/_/id/4567048/kenneth-walker\">Kenneth Walker III</a>, helped the Chiefs get inside the Denver 5-yard line with 35 seconds left.\n\n\r\n              Patrick Surtain II stopped Walker at the 1 after a 3-yard run on first down. \n\n\r\n              Mahomes was pressured by <a href=\"http://www.espn.com/nfl/player/_/id/4692048/que-robinson\">Que Robinson</a> and threw incomplete on second down. \n\n\r\n              On third down, third-string safety J.L. Skinner stuffed Walker for no gain.\n\n\r\n              On fourth-and-goal from the 1, Mahomes threw what he thought was the game-winner to <a href=\"http://www.espn.com/nfl/player/_/id/4428331/rashee-rice\">Rashee Rice</a> over the middle, but the play was wiped out by a false start penalty on right tackle <a href=\"http://www.espn.com/nfl/player/_/id/3909416/jaylon-moore\">Jaylon Moore</a>.\n\n\r\n              “If you could tangibly point to a crowd win,” that was it, Payton said. “The false start, I mean that's like just from a play-caller standpoint, 1 to the 6 and you're in another ZIP code with plays. That was huge.”\n\n\r\n              Said Mahomes: “I mean, at the end of the day, you got to go with whatever’s called. But a lot of times in those big moments, the little stuff doesn’t get called like that.”\n\n\r\n              On the do-over, Mahomes took the snap with 4 seconds left but Roach broke through the line alongside <a href=\"http://www.espn.com/nfl/player/_/id/4360259/nik-bonitto\">Nik Bonitto</a> and smothered Mahomes for a 6-yard loss.\n\n\r\n              “They have a good defensive line,” Mahomes said. “I wish I had done a better job of getting the ball out, give somebody a chance.”\n\n\r\n              Nix was just as nervous as the 76,831 fans in attendance watching Denver's goal line stand.\n\n\r\n              “The fourth down was another crazy play by our defense,” Nix said. “And I'm very thankful for the illegal shift that allowed them to snap it again. And it's just an incredible stand by them. They just battled and battled on that drive and came out on top.”\n\n\r\n              Mahomes was also kicking himself for taking the sack before Butker's miss.\n\n\r\n              “I can’t put him in that position,” Mahomes said.\n\n\r\n              The Broncos went three-and-out on all three of their drives in the third quarter, but Nix directed <a href=\"https://x.com/Broncos/status/2117026946127180055\">touchdown drives</a> on both of Denver's fourth-quarter possessions.\n\n\r\n              Nix finished 20 of 32 for 222 yards with two TDs and no interceptions. Mahomes was 30 of 41 for 321 yards, three TDs and no interceptions after struggling last week in a loss to Seattle.\n\n\r\n              Walker ran for 69 yards on 21 carries after rumbling for 173 yards against Denver in the opener, when the Broncos missed two dozen tackles in a 31-10 loss that left them smarting.\n\n\r\n              “It was personal,” Bonitto said. “It wasn’t that we lost, it was how we lost.’’\n\n\r\n              <hl2>Injuries</hl2>\r\n              Chiefs: DL <a href=\"http://www.espn.com/nfl/player/_/id/4871063/peter-woods\">Peter Woods</a> (neck) got hurt in the first quarter.\n\n\r\n              Broncos: CB <a href=\"http://www.espn.com/nfl/player/_/id/4429193/kris-abrams-draine\">Kris Abrams-Draine</a> (ankle) left in the second quarter and S <a href=\"http://www.espn.com/nfl/player/_/id/4039059/brandon-jones\">Brandon Jones</a> (hamstring) was ruled out at halftime.\n\n\r\n              <hl2>Up next</hl2>\r\n              Chiefs: Host the <a href=\"http://www.espn.com/nfl/team/_/name/nyj/new-york-jets\">New York Jets</a> next Sunday.\n\n\r\n              Broncos: Visit the <a href=\"http://www.espn.com/nfl/team/_/name/car/carolina-panthers\">Carolina Panthers</a> next Sunday, where they'll hope to improve on their third-down conversion rate. Over their last four games, all wins, the Broncos are just 10 for 48 on third down.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": []
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 0,
+      "clock": {
+        "displayValue": "9:43",
+        "value": 583.0
+      },
+      "homeScore": 3,
+      "id": "401873033389",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "DEN",
+        "displayName": "Denver Broncos",
+        "id": "7",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/den/denver-broncos",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/den",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:7"
+      },
+      "text": "Wil Lutz 39 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "6:04",
+        "value": 364.0
+      },
+      "homeScore": 3,
+      "id": "401873033599",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "KC",
+        "displayName": "Kansas City Chiefs",
+        "id": "12",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/kc/kansas-city-chiefs",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/kc",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:12"
+      },
+      "text": "Rashee Rice 11 Yd pass from Patrick Mahomes (Harrison Butker Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "14:08",
+        "value": 848.0
+      },
+      "homeScore": 6,
+      "id": "4018730331136",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "DEN",
+        "displayName": "Denver Broncos",
+        "id": "7",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/den/denver-broncos",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/den",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:7"
+      },
+      "text": "Wil Lutz 45 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 14,
+      "clock": {
+        "displayValue": "7:40",
+        "value": 460.0
+      },
+      "homeScore": 6,
+      "id": "4018730331780",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "KC",
+        "displayName": "Kansas City Chiefs",
+        "id": "12",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/kc/kansas-city-chiefs",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/kc",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:12"
+      },
+      "text": "Emmett Johnson 73 Yd pass from Patrick Mahomes (Harrison Butker Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 14,
+      "clock": {
+        "displayValue": "1:15",
+        "value": 75.0
+      },
+      "homeScore": 13,
+      "id": "4018730332223",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "DEN",
+        "displayName": "Denver Broncos",
+        "id": "7",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/den/denver-broncos",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/den",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:7"
+      },
+      "text": "Jaylen Waddle 1 Yd pass from Bo Nix (Wil Lutz Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 17,
+      "clock": {
+        "displayValue": "0:19",
+        "value": 19.0
+      },
+      "homeScore": 13,
+      "id": "4018730332443",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "KC",
+        "displayName": "Kansas City Chiefs",
+        "id": "12",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/kc/kansas-city-chiefs",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/kc",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:12"
+      },
+      "text": "Harrison Butker 45 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 24,
+      "clock": {
+        "displayValue": "1:38",
+        "value": 98.0
+      },
+      "homeScore": 13,
+      "id": "4018730333254",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "KC",
+        "displayName": "Kansas City Chiefs",
+        "id": "12",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/kc/kansas-city-chiefs",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/kc",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:12"
+      },
+      "text": "Noah Gray 4 Yd pass from Patrick Mahomes (Harrison Butker Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 24,
+      "clock": {
+        "displayValue": "8:55",
+        "value": 535.0
+      },
+      "homeScore": 21,
+      "id": "4018730333881",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "DEN",
+        "displayName": "Denver Broncos",
+        "id": "7",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/den/denver-broncos",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/den",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:7"
+      },
+      "text": "Nate Adkins 2 Yd pass from Bo Nix (Bo Nix Pass to Jaylen Waddle for Two-Point Conversion)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 24,
+      "clock": {
+        "displayValue": "1:56",
+        "value": 116.0
+      },
+      "homeScore": 28,
+      "id": "4018730334260",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "DEN",
+        "displayName": "Denver Broncos",
+        "id": "7",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/den/denver-broncos",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/den",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:7"
+      },
+      "text": "Jonah Coleman 5 Yd Rush (Wil Lutz Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    }
+  ]
+}

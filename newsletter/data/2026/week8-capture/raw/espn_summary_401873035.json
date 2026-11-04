@@ -1,0 +1,866 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "Washington Commanders",
+        "guid": "fbeaf73e-6d6c-cca4-0809-713d9d741f90",
+        "id": 1462,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "WSH",
+          "description": "Washington Commanders",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/wsh/washington-commanders"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/wsh/washington-commanders"
+              }
+            }
+          },
+          "shortDisplayName": "Commanders"
+        },
+        "teamId": 28,
+        "type": "team",
+        "uid": "s:20~l:28~t:28"
+      },
+      {
+        "description": "Philadelphia Eagles",
+        "guid": "d1a9b001-1df7-fbd7-ae4c-6ca7065286ec",
+        "id": 1407,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "PHI",
+          "description": "Philadelphia Eagles",
+          "id": 21,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/phi/philadelphia-eagles"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/phi/philadelphia-eagles"
+              }
+            }
+          },
+          "shortDisplayName": "Eagles"
+        },
+        "teamId": 21,
+        "type": "team",
+        "uid": "s:20~l:28~t:21"
+      },
+      {
+        "description": "Philadelphia Eagles @ Washington Commanders",
+        "event": {
+          "description": "Philadelphia Eagles @ Washington Commanders",
+          "id": 401873035,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873035"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873035"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873035,
+        "guid": "9addbdc4-86ce-33bc-bcee-d59bb945db86",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873035"
+      }
+    ],
+    "categorized": "2026-11-02T06:40:47Z",
+    "contentKey": "50355630-1-21-1",
+    "dataSourceIdentifier": "4c4eab1f84272",
+    "description": "— The Washington Commanders had just under two weeks to sit with their disheartening start to the season before their matchup against the Philadelphia Eagles on Sunday night.",
+    "gameId": "401873035",
+    "headline": "Jayden Daniels throws TD pass and Commanders shut out Eagles over final 3 quarters in 27-10 win",
+    "id": 50355630,
+    "images": [
+      {
+        "caption": "Jayden Daniels fires a dart to Stefon Diggs for a Commanders TD",
+        "height": 324,
+        "name": "Jayden Daniels fires a dart to Stefon Diggs for a Commanders TD",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/28fcc7077c9b4bb3bd9874ab713fc5ac1322/28fcc7077c9b4bb3bd9874ab713fc5ac1322.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "Washington Commanders",
+      "Philadelphia Eagles",
+      "Philadelphia Eagles @ Washington Commanders"
+    ],
+    "lastModified": "2026-11-02T06:40:46Z",
+    "linkText": "Jayden Daniels throws TD pass and Commanders shut out Eagles over final 3 quarters in 27-10 win",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50355630"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50355630"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50355630"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873035"
+      }
+    },
+    "nowId": "1-50355630",
+    "originallyPosted": "2026-11-02T04:43:46Z",
+    "premium": false,
+    "published": "2026-11-02T04:43:46Z",
+    "publishedkey": "nfl401873035",
+    "section": "NFL",
+    "source": "AP",
+    "story": "LANDOVER, Md. -- — The <a href=\"http://www.espn.com/nfl/team/_/name/wsh/washington-commanders\">Washington Commanders</a> had just under two weeks to sit with their disheartening start to the season before their matchup against the <a href=\"http://www.espn.com/nfl/team/_/name/phi/philadelphia-eagles\">Philadelphia Eagles</a> on Sunday night.\n\n\r\n              Coming off a bye week, they still needed an extra 10 or so minutes.\n\n\r\n              Washington pulled together after an extraordinarily sloppy first quarter to score 27 straight points in a 27-10 victory. It was Washington’s first win in more than a month, and Philadelphia’s sixth straight loss.\n\n\r\n              “When you come off of a bye, you either rev right up or you need a minute to warm up — and we took a minute,” Washington coach Dan Quinn said.\n\n\r\n              The Commanders (2-4-1) committed a bevy of first-quarter penalties, which put them behind 10-0.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4426348/jayden-daniels\">Jayden Daniels</a> threw for 217 yards and a touchdown, as the offense got rolling. Aided by a defense that pitched a shutout for the final three-plus quarters, Daniels had time to build rapport with his receivers absent <a href=\"http://www.espn.com/nfl/player/_/id/3121422/terry-mclaurin\">Terry McLaurin</a>. The victory was Daniels’ first as a starter since beating the <a href=\"http://www.espn.com/nfl/team/_/name/lac/los-angeles-chargers\">Los Angeles Chargers</a> on Oct. 5, 2025.\n\n\r\n              “It’s a blessing from God just to go out there, and everything I’ve been through in my career so far,” Daniels said. “From different injuries and a lot of different setbacks.\"\n\n\r\n              The Commanders sacked <a href=\"http://www.espn.com/nfl/player/_/id/4685201/tanner-mckee\">Tanner McKee</a> five times and intercepted one of his passes while holding the Eagles to 268 yards — just 199 before the meaningless final drive.\n\n\r\n              In his third start of the season in place of the injured <a href=\"http://www.espn.com/nfl/player/_/id/4040715/jalen-hurts\">Jalen Hurts</a>, McKee threw for 212 yards without a touchdown. And prior to the final drive of the game, the Eagles' longest drive was 52 yards.\n\n\r\n              “We just made adjustments,” cornerback <a href=\"http://www.espn.com/nfl/player/_/id/4574689/trey-amos\">Trey Amos</a> said. “We started a little bit slow, those things will happen sometimes, but after those adjustments, everybody came together to try and figure out a plan. It worked out, later down the line, series, quarters.”\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/3929630/saquon-barkley\">Saquon Barkley</a> ran for a touchdown for the Eagles but was held to 30 yards on 13 carries. Philadelphia finished with 91 yards rushing.\n\n\r\n              “I know nobody feels sorry for us, that’s for damn sure,” coach Nick Sirianni said. “Everyone is going to give us their best shot. I know nobody feels sorry for us and we have to do everything we can do to fix it so we don’t have this feeling for the last six games. Obviously, it sucks.\"\n\n\r\n              Both teams committed costly penalties. The Eagles’ <a href=\"http://www.espn.com/nfl/player/_/id/3050478/jake-elliott\">Jake Elliott</a> made a field goal to cut Washington’s lead to three points in the fourth quarter, but he had to try again because of an illegal formation penalty and missed from 41 yards.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/5081335/drew-stevens\">Drew Stevens</a> kicked four field goals for Washington, including a 56-yarder late in the first quarter. Daniels connected with <a href=\"http://www.espn.com/nfl/player/_/id/2976212/stefon-diggs\">Stefon Diggs</a> for an 8-yard touchdown strike in the second quarter that tied it at 10l, and Washington led 13-10 at halftime.\n\n\r\n              The Commanders had a sloppy first few drives. Stevens missed his first field goal attempt, from 55 yards, and <a href=\"http://www.espn.com/nfl/player/_/id/4360635/chig-okonkwo\">Chig Okonkwo</a> lost a fumble.\n\n\r\n              Barkley’s 3-yard touchdown run put Philadelphia ahead 10-0 in the first quarter.\n\n\r\n              On Washington’s final drive of the first half, Daniels took a hard hit and was slow to get to his feet, but he stayed in the game as the Commanders finished with 27 straight points.\n\n\r\n              The Commanders <a href=\"https://apnews.com/article/nfc-east-woes-giants-cowboys-commanders-eagles-4241f0bf299225428058bb9f1c5b196e\">remain in the hunt in a weak NFC East</a>, two games behind the first-place <a href=\"http://www.espn.com/nfl/team/_/name/nyg/new-york-giants\">New York Giants</a>, despite opening the season with just one win in their first six games.\n\n\r\n              The Eagles, on the other hand, are in last place.\n\n\r\n              “Are teams taking shots at us? Yeah,” Barkley said. “We’re not the big bad Eagles anymore.”\n\n\r\n              <hl2>Injuries</hl2>\r\n              Eagles: Safety <a href=\"http://www.espn.com/nfl/player/_/id/4240657/michael-carter\">Michael Carter</a> suffered an abdominal injury.\n\n\r\n              Commanders: Running back <a href=\"http://www.espn.com/nfl/player/_/id/3127586/jeremy-mcnichols\">Jeremy McNichols</a> limped to the locker room in the second half with a left foot injury.\n\n\r\n              <hl2>Up next</hl2>\r\n              Eagles: Host the Giants on Sunday.\n\n\r\n              Commanders: Host the <a href=\"http://www.espn.com/nfl/team/_/name/lar/los-angeles-rams\">Los Angeles Rams</a> on Sunday.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": []
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "6:10",
+        "value": 370.0
+      },
+      "homeScore": 0,
+      "id": "401873035698",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "PHI",
+        "displayName": "Philadelphia Eagles",
+        "id": "21",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/phi/philadelphia-eagles",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/phi",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/phi.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/phi.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:21"
+      },
+      "text": "Jake Elliott 40 Yd Field Goal ",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 10,
+      "clock": {
+        "displayValue": "4:27",
+        "value": 267.0
+      },
+      "homeScore": 0,
+      "id": "401873035906",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "PHI",
+        "displayName": "Philadelphia Eagles",
+        "id": "21",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/phi/philadelphia-eagles",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/phi",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/phi.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/phi.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:21"
+      },
+      "text": "Saquon Barkley 3 Yd Rush (Jake Elliott Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 10,
+      "clock": {
+        "displayValue": "0:28",
+        "value": 28.0
+      },
+      "homeScore": 3,
+      "id": "4018730351190",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "WSH",
+        "displayName": "Washington Commanders",
+        "id": "28",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/wsh/washington-commanders",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/wsh",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:28"
+      },
+      "text": "Drew Stevens 56 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 10,
+      "clock": {
+        "displayValue": "4:56",
+        "value": 296.0
+      },
+      "homeScore": 10,
+      "id": "4018730351699",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "WSH",
+        "displayName": "Washington Commanders",
+        "id": "28",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/wsh/washington-commanders",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/wsh",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:28"
+      },
+      "text": "Stefon Diggs 8 Yd pass from Jayden Daniels (Drew Stevens Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 10,
+      "clock": {
+        "displayValue": "0:19",
+        "value": 19.0
+      },
+      "homeScore": 13,
+      "id": "4018730352366",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "WSH",
+        "displayName": "Washington Commanders",
+        "id": "28",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/wsh/washington-commanders",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/wsh",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:28"
+      },
+      "text": "Drew Stevens 39 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 10,
+      "clock": {
+        "displayValue": "1:33",
+        "value": 93.0
+      },
+      "homeScore": 16,
+      "id": "4018730353142",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "WSH",
+        "displayName": "Washington Commanders",
+        "id": "28",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/wsh/washington-commanders",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/wsh",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:28"
+      },
+      "text": "Drew Stevens 25 Yd Field Goal ",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 10,
+      "clock": {
+        "displayValue": "3:43",
+        "value": 223.0
+      },
+      "homeScore": 19,
+      "id": "4018730353826",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "WSH",
+        "displayName": "Washington Commanders",
+        "id": "28",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/wsh/washington-commanders",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/wsh",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:28"
+      },
+      "text": "Drew Stevens 42 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 10,
+      "clock": {
+        "displayValue": "1:52",
+        "value": 112.0
+      },
+      "homeScore": 27,
+      "id": "4018730354036",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "WSH",
+        "displayName": "Washington Commanders",
+        "id": "28",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/wsh/washington-commanders",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/wsh",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:28"
+      },
+      "text": "Rachaad White 1 Yd Rush (Austin Ekeler Run for Two-Point Conversion)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    }
+  ]
+}

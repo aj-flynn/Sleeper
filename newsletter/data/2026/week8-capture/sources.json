@@ -1,0 +1,286 @@
+{
+  "sources": [
+    {
+      "file": "sleeper_league.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:34.046987Z",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024"
+    },
+    {
+      "file": "sleeper_users.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:34.144735Z",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/users"
+    },
+    {
+      "file": "sleeper_rosters.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:34.237037Z",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/rosters"
+    },
+    {
+      "file": "espn_scoreboard_w1.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:34.537514Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=1"
+    },
+    {
+      "file": "espn_scoreboard_w2.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:34.746450Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=2"
+    },
+    {
+      "file": "espn_scoreboard_w3.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:34.935048Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=3"
+    },
+    {
+      "file": "espn_scoreboard_w4.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:35.120524Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=4"
+    },
+    {
+      "file": "espn_scoreboard_w5.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:35.308085Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=5"
+    },
+    {
+      "file": "espn_scoreboard_w6.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:35.501538Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=6"
+    },
+    {
+      "file": "espn_scoreboard_w7.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:35.695159Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=7"
+    },
+    {
+      "file": "espn_scoreboard_w8.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:35.880261Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=8"
+    },
+    {
+      "file": "sleeper_matchups_w1.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:36.229275Z",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/matchups/1"
+    },
+    {
+      "file": "sleeper_matchups_w2.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:36.357289Z",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/matchups/2"
+    },
+    {
+      "file": "sleeper_matchups_w3.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:36.484487Z",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/matchups/3"
+    },
+    {
+      "file": "sleeper_matchups_w4.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:36.621890Z",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/matchups/4"
+    },
+    {
+      "file": "sleeper_matchups_w5.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:36.758633Z",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/matchups/5"
+    },
+    {
+      "file": "sleeper_matchups_w6.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:36.898188Z",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/matchups/6"
+    },
+    {
+      "file": "sleeper_matchups_w7.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:37.020877Z",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/matchups/7"
+    },
+    {
+      "file": "sleeper_matchups_w8.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:37.131591Z",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/matchups/8"
+    },
+    {
+      "file": "sleeper_matchups_w9.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:37.356110Z",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/matchups/9"
+    },
+    {
+      "file": "sleeper_transactions_leg0.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:37.440228Z",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/transactions/0"
+    },
+    {
+      "file": "sleeper_transactions_leg1.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:37.548089Z",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/transactions/1"
+    },
+    {
+      "file": "sleeper_transactions_leg2.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:37.642519Z",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/transactions/2"
+    },
+    {
+      "file": "sleeper_transactions_leg3.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:37.737700Z",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/transactions/3"
+    },
+    {
+      "file": "sleeper_transactions_leg4.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:37.833121Z",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/transactions/4"
+    },
+    {
+      "file": "sleeper_transactions_leg5.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:37.927646Z",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/transactions/5"
+    },
+    {
+      "file": "sleeper_transactions_leg6.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:38.026046Z",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/transactions/6"
+    },
+    {
+      "file": "sleeper_transactions_leg7.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:38.123953Z",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/transactions/7"
+    },
+    {
+      "file": "sleeper_transactions_leg8.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:38.228044Z",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/transactions/8"
+    },
+    {
+      "file": "sleeper_transactions_leg9.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:38.332776Z",
+      "url": "https://api.sleeper.app/v1/league/1319718857249665024/transactions/9"
+    },
+    {
+      "file": "espn_scoreboard_w9.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:38.577963Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=9"
+    },
+    {
+      "file": "sleeper_stats_w8.json",
+      "representation": "Selected public stat rows for captured rostered/mentioned player IDs; nested current player profile omitted; original full response retained privately in final capture.",
+      "retrieved_utc": "2026-11-04T13:05:39.068210Z",
+      "url": "https://api.sleeper.com/stats/nfl/2026/8?season_type=regular"
+    },
+    {
+      "file": "sleeper_players_rostered.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:40.857388Z",
+      "url": "https://api.sleeper.app/v1/players/nfl"
+    },
+    {
+      "file": "espn_summary_401873023.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:41.293468Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873023"
+    },
+    {
+      "file": "espn_summary_401873026.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:41.646619Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873026"
+    },
+    {
+      "file": "espn_summary_401873031.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:41.971801Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873031"
+    },
+    {
+      "file": "espn_summary_401873024.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:42.350469Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873024"
+    },
+    {
+      "file": "espn_summary_401873030.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:42.624711Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873030"
+    },
+    {
+      "file": "espn_summary_401873029.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:42.928575Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873029"
+    },
+    {
+      "file": "espn_summary_401873027.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:43.225858Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873027"
+    },
+    {
+      "file": "espn_summary_401873025.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:43.483795Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873025"
+    },
+    {
+      "file": "espn_summary_401873028.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:43.806198Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873028"
+    },
+    {
+      "file": "espn_summary_401873032.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:44.133094Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873032"
+    },
+    {
+      "file": "espn_summary_401873033.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:44.416440Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873033"
+    },
+    {
+      "file": "espn_summary_401873034.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:44.715259Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873034"
+    },
+    {
+      "file": "espn_summary_401873035.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:45.036029Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873035"
+    },
+    {
+      "file": "espn_summary_401873036.json",
+      "representation": "selected public fields; see weekly.py",
+      "retrieved_utc": "2026-11-04T13:05:45.336475Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873036"
+    }
+  ]
+}

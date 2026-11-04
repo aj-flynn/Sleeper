@@ -1,0 +1,779 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "Los Angeles Rams",
+        "guid": "2e1473b2-e269-fd7a-1137-c1edacb85986",
+        "id": 1519,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "LAR",
+          "description": "Los Angeles Rams",
+          "id": 14,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/lar/los-angeles-rams"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/lar/los-angeles-rams"
+              }
+            }
+          },
+          "shortDisplayName": "Rams"
+        },
+        "teamId": 14,
+        "type": "team",
+        "uid": "s:20~l:28~t:14"
+      },
+      {
+        "description": "Los Angeles Chargers",
+        "guid": "84caf62b-c753-71ea-a787-44fd224a4294",
+        "id": 2610,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "LAC",
+          "description": "Los Angeles Chargers",
+          "id": 24,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/lac/los-angeles-chargers"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/lac/los-angeles-chargers"
+              }
+            }
+          },
+          "shortDisplayName": "Chargers"
+        },
+        "teamId": 24,
+        "type": "team",
+        "uid": "s:20~l:28~t:24"
+      },
+      {
+        "description": "Los Angeles Chargers @ Los Angeles Rams",
+        "event": {
+          "description": "Los Angeles Chargers @ Los Angeles Rams",
+          "id": 401873032,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873032"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873032"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873032,
+        "guid": "5ee317b5-e6c6-3593-8953-887e294754ec",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873032"
+      }
+    ],
+    "categorized": "2026-11-02T05:21:15Z",
+    "contentKey": "50353104-1-21-1",
+    "dataSourceIdentifier": "7c29571a13fd5",
+    "description": "— Aaron Donald sprinted after Justin Herbert's loose fumble with almost nothing but open turf between him and his first touchdown for the Los Angeles Rams.",
+    "gameId": "401873032",
+    "headline": "Matthew Stafford and Rams overcome slow start, rally past winless Chargers 24-9",
+    "id": 50353104,
+    "images": [
+      {
+        "caption": "Aaron Donald in disbelief he can't scoop and score it",
+        "height": 324,
+        "name": "Aaron Donald in disbelief he can't scoop and score it",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/7c8c192f-0d9e-4846-9e60-35b17c389dc2/7c8c192f-0d9e-4846-9e60-35b17c389dc2.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "Los Angeles Rams",
+      "Los Angeles Chargers",
+      "Los Angeles Chargers @ Los Angeles Rams"
+    ],
+    "lastModified": "2026-11-02T02:22:47Z",
+    "linkText": "Matthew Stafford and Rams overcome slow start, rally past winless Chargers 24-9",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50353104"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50353104"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50353104"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873032"
+      }
+    },
+    "nowId": "1-50353104",
+    "originallyPosted": "2026-11-02T00:04:45Z",
+    "premium": false,
+    "published": "2026-11-02T00:04:45Z",
+    "publishedkey": "nfl401873032",
+    "section": "NFL",
+    "source": "AP",
+    "story": "INGLEWOOD, Calif. -- — <a href=\"http://www.espn.com/nfl/player/_/id/16716/aaron-donald\">Aaron Donald</a> sprinted after <a href=\"http://www.espn.com/nfl/player/_/id/4038941/justin-herbert\">Justin Herbert</a>'s loose fumble with almost nothing but open turf between him and his first touchdown for the <a href=\"http://www.espn.com/nfl/team/_/name/lar/los-angeles-rams\">Los Angeles Rams</a>.\n\n\r\n              But footballs bounce funny, and this one skittered out of bounds before the diving, scrambling Donald could scoop and/or score.\n\n\r\n              The 35-year-old superstar stayed down in exaggerated exhaustion, and his teammates applied some fake first aid before the Rams finished up their victory.\n\n\r\n              “Oh man, I’m going to give him such a hard time about that,” coach Sean McVay said. “He couldn’t even look at me. At least we can laugh about it right now.”\n\n\r\n              The Rams could afford to have a little fun Sunday. For the first time in their tumultuous season, they've won two games in a row.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/12483/matthew-stafford\">Matthew Stafford</a> passed for 157 yards and a touchdown, <a href=\"http://www.espn.com/nfl/player/_/id/4429096/blake-corum\">Blake Corum</a> and <a href=\"http://www.espn.com/nfl/player/_/id/4430737/kyren-williams\">Kyren Williams</a> rushed for scores and the Rams overcame a slow start for a 24-9 victory over the winless <a href=\"http://www.espn.com/nfl/team/_/name/lac/los-angeles-chargers\">Los Angeles Chargers</a>.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4426515/puka-nacua\">Puka Nacua</a> had 11 catches for 80 yards and a TD for the Rams (4-4), who <a href=\"https://apnews.com/article/rams-nfl-stafford-mcvay-28920e7f644990afc4ca9abac007b591\">won back-to-back games</a> for the first time since January by rallying past their SoFi Stadium roommates. The Rams have won two of the three editions of this Los Angeles derby since both teams relocated a decade ago.\n\n\r\n              But the Rams didn’t even manage a first down until they trailed 9-3 in the waning moments of the first half, when they made the first of three touchdown drives to take control. Corum, who rushed for 73 yards, <a href=\"https://x.com/NFL/status/2117026469167890913\">made a 23-yard TD run</a> before Nacua caught an 18-yard TD pass late in the third quarter.\n\n\r\n              “This is something that we've got to build upon, but it's not something we can exhale from,” Nacua said. “Not being able to execute in the first half, that's something we can't have. If our defense is playing like that, we've got to go out there and play complementary football.”\n\n\r\n              Herbert passed for 257 yards and threw two interceptions for the Chargers (0-7), who returned from their bye week and extended their worst start to a season since 2000. Although the offense led by coordinator Mike McDaniel showed some signs of life with 295 yards, the Bolts failed to score a touchdown for the second straight game — and they're still the NFL’s only winless team after their defense couldn't stop a Rams offense missing the injured <a href=\"http://www.espn.com/nfl/player/_/id/16800/davante-adams\">Davante Adams</a>.\n\n\r\n              “There’s no quit,” Chargers coach Jim Harbaugh said. “There’s no surrender. It’s going to be an opportunity next week, and get ourselves ready for that. It’s that motivation. There’s next week. … You've got to keep moving forward, and just give it your very best and get better, but there’s never any quit.”\n\n\r\n              LA's two NFL teams don't have a rivalry despite their geographical nearness, and both offenses started poorly with early interceptions. <a href=\"http://www.espn.com/nfl/player/_/id/4249128/quentin-lake\">Quentin Lake</a> set up the Rams' opening field goal by picking off Herbert's short pass and returning it 45 yards.\n\n\r\n              Herbert has thrown an interception in all seven games this season, but the Chargers also struggled to run the ball. McDaniel, who retained play-calling duties despite the Bolts’ winless start, called back-to-back successful flea-flickers to get the Chargers moving toward their second field goal in the second quarter.\n\n\r\n              “I think the turnovers are what’s stopping us, and that’s something we have to clean up,” Herbert said. “When we’re not converting on third down and not scoring points in the red zone, it’s tough in that regard.”\n\n\r\n              The Chargers haven't scored a TD in their last nine quarters of play, yet the Rams were pretty terrible themselves early on at SoFi.\n\n\r\n              They gained just 24 yards on their first 15 plays, going without a first down on their first five drives for the first time in McVay's career.\n\n\r\n              The Rams trailed by six when they finally got their initial first down on a 40-yard completion to <a href=\"http://www.espn.com/nfl/player/_/id/4360797/tutu-atwell\">Tutu Atwell</a>. Moments later, Williams waltzed in untouched for the game's first TD with 19 seconds left in the first half.\n\n\r\n              The Rams made another strong drive out of halftime, with Corum racking up 55 yards on the drive that ended with his graceful 23-yard score.\n\n\r\n              Two plays after <a href=\"https://x.com/NFL/status/2117031573619142901\"><a href=\"http://www.espn.com/nfl/player/_/id/4426405/trent-mcduffie\">Trent McDuffie</a></a> had the Rams' second interception, <a href=\"https://x.com/RamsNFL/status/2117032040378052625\">Nacua took a screen pass</a> for an 18-yard score.\n\n\r\n              <hl2>Injuries</hl2>\r\n              Chargers: LB <a href=\"http://www.espn.com/nfl/player/_/id/4241597/daiyan-henley\">Daiyan Henley</a> injured his shoulder in the first quarter, but returned. ... S Derwin James (hamstring) missed his fourth straight game. He went on injured reserve Saturday.\n\n\r\n              Rams: CB <a href=\"http://www.espn.com/nfl/player/_/id/4697639/jaylen-watson\">Jaylen Watson</a> injured his shoulder early in the second half and didn't return. He missed a game last month with a dislocated shoulder. ... McDuffie injured his back in the second half of his return from a two-game absence with a groin injury, but he was on the sideline wearing his helmet down the stretch.\n\n\r\n              <hl2>Up next</hl2>\r\n              Chargers: Host Houston next Sunday.\n\n\r\n              Rams: At Washington next Sunday.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": []
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 0,
+      "clock": {
+        "displayValue": "5:42",
+        "value": 342.0
+      },
+      "homeScore": 3,
+      "id": "401873032689",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "LAR",
+        "displayName": "Los Angeles Rams",
+        "id": "14",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lar/los-angeles-rams",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lar",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+            "lastUpdated": "2026-04-24T14:36Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lar.png",
+            "lastUpdated": "2026-04-24T14:27Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+            "lastUpdated": "2026-04-24T14:36Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lar.png",
+            "lastUpdated": "2026-04-24T14:27Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:14"
+      },
+      "text": "Brandon McManus 30 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "0:04",
+        "value": 4.0
+      },
+      "homeScore": 3,
+      "id": "401873032952",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "LAC",
+        "displayName": "Los Angeles Chargers",
+        "id": "24",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lac/los-angeles-chargers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lac",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+            "lastUpdated": "2024-06-25T18:52Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lac.png",
+            "lastUpdated": "2024-06-25T18:52Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lac.png",
+            "lastUpdated": "2024-06-25T18:52Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:24"
+      },
+      "text": "Cameron Dicker 34 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 6,
+      "clock": {
+        "displayValue": "10:06",
+        "value": 606.0
+      },
+      "homeScore": 3,
+      "id": "4018730321298",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "LAC",
+        "displayName": "Los Angeles Chargers",
+        "id": "24",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lac/los-angeles-chargers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lac",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+            "lastUpdated": "2024-06-25T18:52Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lac.png",
+            "lastUpdated": "2024-06-25T18:52Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lac.png",
+            "lastUpdated": "2024-06-25T18:52Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:24"
+      },
+      "text": "Cameron Dicker 46 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 9,
+      "clock": {
+        "displayValue": "1:55",
+        "value": 115.0
+      },
+      "homeScore": 3,
+      "id": "4018730321693",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "LAC",
+        "displayName": "Los Angeles Chargers",
+        "id": "24",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lac/los-angeles-chargers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lac",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+            "lastUpdated": "2024-06-25T18:52Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lac.png",
+            "lastUpdated": "2024-06-25T18:52Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lac.png",
+            "lastUpdated": "2024-06-25T18:52Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:24"
+      },
+      "text": "Cameron Dicker 41 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 9,
+      "clock": {
+        "displayValue": "0:19",
+        "value": 19.0
+      },
+      "homeScore": 10,
+      "id": "4018730321871",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "LAR",
+        "displayName": "Los Angeles Rams",
+        "id": "14",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lar/los-angeles-rams",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lar",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+            "lastUpdated": "2026-04-24T14:36Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lar.png",
+            "lastUpdated": "2026-04-24T14:27Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+            "lastUpdated": "2026-04-24T14:36Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lar.png",
+            "lastUpdated": "2026-04-24T14:27Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:14"
+      },
+      "text": "Kyren Williams 1 Yd Rush (Brandon McManus Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 9,
+      "clock": {
+        "displayValue": "10:42",
+        "value": 642.0
+      },
+      "homeScore": 17,
+      "id": "4018730322267",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "LAR",
+        "displayName": "Los Angeles Rams",
+        "id": "14",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lar/los-angeles-rams",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lar",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+            "lastUpdated": "2026-04-24T14:36Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lar.png",
+            "lastUpdated": "2026-04-24T14:27Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+            "lastUpdated": "2026-04-24T14:36Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lar.png",
+            "lastUpdated": "2026-04-24T14:27Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:14"
+      },
+      "text": "Blake Corum 23 Yd Rush (Brandon McManus Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 9,
+      "clock": {
+        "displayValue": "3:41",
+        "value": 221.0
+      },
+      "homeScore": 24,
+      "id": "4018730322855",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "LAR",
+        "displayName": "Los Angeles Rams",
+        "id": "14",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lar/los-angeles-rams",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lar",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+            "lastUpdated": "2026-04-24T14:36Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lar.png",
+            "lastUpdated": "2026-04-24T14:27Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+            "lastUpdated": "2026-04-24T14:36Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lar.png",
+            "lastUpdated": "2026-04-24T14:27Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:14"
+      },
+      "text": "Puka Nacua 18 Yd pass from Matthew Stafford (Brandon McManus Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    }
+  ]
+}

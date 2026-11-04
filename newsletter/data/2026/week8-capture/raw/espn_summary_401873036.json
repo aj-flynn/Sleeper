@@ -1,0 +1,1252 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "Seattle Seahawks",
+        "guid": "3767a23c-a17d-294f-288a-9086ad1f0680",
+        "id": 1693,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "SEA",
+          "description": "Seattle Seahawks",
+          "id": 26,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/sea/seattle-seahawks"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/sea/seattle-seahawks"
+              }
+            }
+          },
+          "shortDisplayName": "Seahawks"
+        },
+        "teamId": 26,
+        "type": "team",
+        "uid": "s:20~l:28~t:26"
+      },
+      {
+        "description": "Chicago Bears",
+        "guid": "19d73366-b5a5-cca2-a176-a2c024ce0bb3",
+        "id": 1750,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "CHI",
+          "description": "Chicago Bears",
+          "id": 3,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/chi/chicago-bears"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/chi/chicago-bears"
+              }
+            }
+          },
+          "shortDisplayName": "Bears"
+        },
+        "teamId": 3,
+        "type": "team",
+        "uid": "s:20~l:28~t:3"
+      },
+      {
+        "description": "Chicago Bears @ Seattle Seahawks",
+        "event": {
+          "description": "Chicago Bears @ Seattle Seahawks",
+          "id": 401873036,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873036"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873036"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873036,
+        "guid": "514dcd3d-58ef-3191-8a57-18f457eab097",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873036"
+      }
+    ],
+    "categorized": "2026-11-03T13:53:11Z",
+    "contentKey": "50365218-1-21-1",
+    "dataSourceIdentifier": "da35b46228ff6",
+    "description": "— Jeffery Simmons ran out of the tunnel for the first time since joining the Chicago Bears with a new uniform, orange sleeves and a wide smile as he welcomed the move that put right into contention...",
+    "gameId": "401873036",
+    "headline": "Caleb Williams and Jeffery Simmons lead the Bears past the Seahawks 34-17",
+    "id": 50365218,
+    "images": [
+      {
+        "caption": "D'Andre Swift shines with 3 TDs in Bears road win over Seahawks ",
+        "height": 324,
+        "name": "D'Andre Swift shines with 3 TDs in Bears road win over Seahawks",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1102/6975b93d485e4187b79035c969f284df1429/6975b93d485e4187b79035c969f284df1429.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "Seattle Seahawks",
+      "Chicago Bears",
+      "Chicago Bears @ Seattle Seahawks"
+    ],
+    "lastModified": "2026-11-03T05:55:55Z",
+    "linkText": "Caleb Williams and Jeffery Simmons lead the Bears past the Seahawks 34-17",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50365218"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50365218"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50365218"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873036"
+      }
+    },
+    "nowId": "1-50365218",
+    "originallyPosted": "2026-11-03T04:32:47Z",
+    "premium": false,
+    "published": "2026-11-03T04:32:47Z",
+    "publishedkey": "nfl401873036",
+    "section": "NFL",
+    "source": "AP",
+    "story": "SEATTLE -- — <a href=\"http://www.espn.com/nfl/player/_/id/4035369/jeffery-simmons\">Jeffery Simmons</a> ran out of the tunnel for the first time since joining the <a href=\"https://apnews.com/hub/chicago-bears\"><a href=\"http://www.espn.com/nfl/team/_/name/chi/chicago-bears\">Chicago Bears</a></a> with a new uniform, orange sleeves and a wide smile as he welcomed the move that put right into contention with important games on big stages.\n\n\r\n              Then he delivered exactly what the Bears needed.\n\n\r\n              Simmons had a sack in his Bears debut as part of a dominant defensive performance that helped lead Chicago to a 34-17 victory over the <a href=\"https://apnews.com/hub/seattle-seahawks\"><a href=\"http://www.espn.com/nfl/team/_/name/sea/seattle-seahawks\">Seattle Seahawks</a></a> 34-17 on Monday night.\n\n\r\n              “When I attacked the field, I wasn’t worried about the trade,” Simmons said. “I wasn’t worried about all the outside noise. All I was worried about is play after play, just give the team everything I got.”\n\n\r\n              <a href=\"https://apnews.com/article/chicago-bears-jeffery-simmons-50a7f8526496fa7a47930b73ff5ef7af\">Acquired last week from Tennessee</a> for a package that included two first-round picks, Simmons took little time to make a big impact on a defense that had lacked difference-makers.\n\n\r\n              He had a sack on the opening drive, added another tackle for loss and finished with six tackles, three pressures and a pass defensed with coach Ben Johnson describing his impact as “profound.\" Chicago held Seattle to 252 yards and one third-down conversion on 11 tries.\n\n\r\n              “He has me up off of the bench,” receiver <a href=\"http://www.espn.com/nfl/player/_/id/4431299/rome-odunze\">Rome Odunze</a> said. “Watching them third downs, watching the defense in general to see what he’s going to do next. He brings the energy to them. Obviously, his play-making ability ignites the defense, ignites the offense, ignites the team as a whole.”\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4431611/caleb-williams\">Caleb Williams</a> was extremely efficient for the Bears (6-2) against one of the NFL's stingiest defenses, committing no turnovers, taking just one sack and throwing for 247 yards while completing 71% of his passes.\n\n\r\n              Williams' play helped set up three short touchdown runs by <a href=\"http://www.espn.com/nfl/player/_/id/4259545/d'andre-swift\">D'Andre Swift</a> and that proved to be more than enough against <a href=\"http://www.espn.com/nfl/player/_/id/3912547/sam-darnold\">Sam Darnold</a> and the Seahawks (4-4), thanks to the impact Simmons had on the defense.\n\n\r\n              “We knew it was going to be challenging and this was one of the more elaborate game plans in terms of what we were asking (Williams) to do as well,” Johnson said. “He stayed calm and collected throughout. I think that there are some times where it can get a little bit chaotic and yet he didn’t allow that to happen.” \n\n\r\n              The defending champion Seahawks lost for the third time in four games and are now looking up at the NFC playoff standings and can ill afford many more slip-ups. \n\n\r\n              The loss ended a 30-game streak for Seattle in the regular season and playoffs — the fourth longest for any team in the Super Bowl era — of not losing by more than four points.\n\n\r\n              “We got beat. No other way to sugar coat it,” coach Mike Macdonald said. “When you look at the things that it takes to win in our league, we didn't do those things and they did.”\n\n\r\n              Sam Darnold went 17 of 34 for 188 yards and two touchdowns for Seattle, but his interception in the fourth quarter set up Swift's third TD that made it 34-17 with 4:41 to play.\n\n\r\n              The Seahawks struggled once again to run the ball despite their trade last week for <a href=\"https://apnews.com/article/indianapolis-colts-quenton-nelson-trade-seattle-seahawks-c85ab329267f01d54ed278d7179fb1d5\">three-time All-Pro guard <a href=\"http://www.espn.com/nfl/player/_/id/3129308/quenton-nelson\">Quenton Nelson</a></a> and the return of <a href=\"http://www.espn.com/nfl/player/_/id/4426385/zach-charbonnet\">Zach Charbonnet</a> and <a href=\"http://www.espn.com/nfl/player/_/id/4685512/jadarian-price\">Jadarian Price</a> from injures. Seattle ran for only 81 yards.\n\n\r\n              “We’ve got to improve very quickly in the run game,” guard <a href=\"http://www.espn.com/nfl/player/_/id/4693346/grey-zabel\">Grey Zabel</a> said. “Got to get back to running the ball, take the pressure off our quarterback and wide receivers and our play-caller. Got to be able to move the line of scrimmage.”\n\n\r\n              The Bears started off well against Seattle's stout defense by putting together a 17-play drive on the opening possession to take the lead when Williams threw a 1-yard touchdown pass to Luther Burden.\n\n\r\n              The Bears added two more field goals in the first half and built the lead to 20-9 in the third quarter with another efficient touchdown drive that ended with a 1-yard run by Swift.\n\n\r\n              The Seahawks were bottled up by Simmons and the Bears for almost the entire first half before Darnold connected with <a href=\"http://www.espn.com/nfl/player/_/id/4430878/jaxon-smith-njigba\">Jaxon Smith-Njigba</a> on a 43-yard pass with 30 seconds left in the second quarter.\n\n\r\n              Things looked bleak for Seattle when <a href=\"http://www.espn.com/nfl/player/_/id/2473037/jason-myers\">Jason Myers</a> had a 33-yard field goal blocked in the opening minute of the fourth quarter.\n\n\r\n              But <a href=\"http://www.espn.com/nfl/player/_/id/16802/demarcus-lawrence\">DeMarcus Lawrence</a> forced a fumble by <a href=\"http://www.espn.com/nfl/player/_/id/4723086/colston-loveland\">Colston Loveland</a> on the next possession that set up Darnold's 7-yard touchdown pass to <a href=\"http://www.espn.com/nfl/player/_/id/2977187/cooper-kupp\">Cooper Kupp</a>, and Seattle converted the 2-point conversion to make it 20-17.\n\n\r\n              The Bears answered with another TD drive and put the game away after Darnold's interception.\n\n\r\n              <hl2>Caleb covers his cleats</hl2>\r\n              Williams covered up the logo on his Caddix brand cleats after reportedly getting fined about $35,000 the past two weeks for displaying an unauthorized logo.\n\n\r\n              Williams wore all black shoes in the game with no logo displayed to avoid another run-in with the league.\n\n\r\n              “Just to just to calm things down, man,” he said. \"It was a big week, and not here to create any BS toward the team. I want to keep that to a minimum from my side. Obviously, I get a lot of media, and so just trying to minimize that as much as possible.”\n\n\r\n              <hl2>Injuries</hl2>\r\n              Bears: DL <a href=\"http://www.espn.com/nfl/player/_/id/2576492/grady-jarrett\">Grady Jarrett</a> (groin) and DL Kenatvius Street (knee) left the game with injuries.\n\n\r\n              Seahawks: DL <a href=\"http://www.espn.com/nfl/player/_/id/2971622/leonard-williams\">Leonard Williams</a> left in the second half with a stinger and didn't return.\n\n\r\n              <hl2>Up next</hl2>\r\n              Bears: Host Tampa Bay on Sunday night.\n\n\r\n              Seahawks: Host Arizona on Sunday,\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": [
+      {
+        "ad": {
+          "bundle": "nfl_inprogress_highlights",
+          "sport": "nfl"
+        },
+        "caption": "D'Andre Swift shines with 3 TDs in Bears road win over Seahawks",
+        "categories": [
+          {
+            "description": "NFL",
+            "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+            "id": 9572,
+            "league": {
+              "abbreviation": "NFL",
+              "description": "NFL",
+              "id": 28,
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nfl/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nfl/"
+                  }
+                }
+              }
+            },
+            "leagueId": 28,
+            "sportId": 28,
+            "type": "league",
+            "uid": "s:20~l:28"
+          },
+          {
+            "athlete": {
+              "description": "D'Andre Swift",
+              "id": 4259545,
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nfl/player/_/id/4259545/dandre-swift"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nfl/player/_/id/4259545/dandre-swift"
+                  }
+                }
+              }
+            },
+            "athleteId": 4259545,
+            "description": "D'Andre Swift",
+            "guid": "53a49a95-4f5b-fb94-9672-ef5787f431ee",
+            "id": 435107,
+            "sportId": 28,
+            "type": "athlete",
+            "uid": "s:20~l:28~a:4259545"
+          },
+          {
+            "description": "Chicago Bears",
+            "guid": "19d73366-b5a5-cca2-a176-a2c024ce0bb3",
+            "id": 1750,
+            "sportId": 28,
+            "team": {
+              "abbreviation": "CHI",
+              "description": "Chicago Bears",
+              "id": 3,
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nfl/team/_/name/chi/chicago-bears"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nfl/team/_/name/chi/chicago-bears"
+                  }
+                }
+              },
+              "shortDisplayName": "Bears"
+            },
+            "teamId": 3,
+            "type": "team",
+            "uid": "s:20~l:28~t:3"
+          },
+          {
+            "description": "Seattle Seahawks",
+            "guid": "3767a23c-a17d-294f-288a-9086ad1f0680",
+            "id": 1693,
+            "sportId": 28,
+            "team": {
+              "abbreviation": "SEA",
+              "description": "Seattle Seahawks",
+              "id": 26,
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nfl/team/_/name/sea/seattle-seahawks"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nfl/team/_/name/sea/seattle-seahawks"
+                  }
+                }
+              },
+              "shortDisplayName": "Seahawks"
+            },
+            "teamId": 26,
+            "type": "team",
+            "uid": "s:20~l:28~t:26"
+          },
+          {
+            "description": "Chicago Bears @ Seattle Seahawks",
+            "event": {
+              "description": "Chicago Bears @ Seattle Seahawks",
+              "id": 401873036,
+              "league": "nfl",
+              "links": {
+                "mobile": {
+                  "event": {
+                    "href": "https://www.espn.com/nfl/game/_/gameId/401873036"
+                  }
+                },
+                "web": {
+                  "event": {
+                    "href": "https://www.espn.com/nfl/game/_/gameId/401873036"
+                  }
+                }
+              },
+              "sport": "football"
+            },
+            "eventId": 401873036,
+            "guid": "514dcd3d-58ef-3191-8a57-18f457eab097",
+            "type": "event",
+            "uid": "s:20~l:28~e:401873036"
+          }
+        ],
+        "cerebroId": "6ae964413da0f53a9067d87d",
+        "contributingPartner": "wsc",
+        "contributingSystem": "wsc",
+        "dataSourceIdentifier": "c5751862b5991",
+        "description": "D'Andre Swift shines with 3 TDs in Bears road win over Seahawks ",
+        "deviceRestrictions": {
+          "devices": [
+            "settop",
+            "tablet",
+            "handset",
+            "ipad",
+            "desktop"
+          ],
+          "type": "whitelist"
+        },
+        "duration": 88,
+        "gameId": 401873036,
+        "headline": "D'Andre Swift shines with 3 TDs in Bears road win over Seahawks",
+        "id": 50365247,
+        "images": [
+          {
+            "alt": "",
+            "caption": "",
+            "credit": "",
+            "height": 324,
+            "name": "Poster Image",
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1102/6975b93d485e4187b79035c969f284df1429/6975b93d485e4187b79035c969f284df1429.jpg",
+            "width": 576
+          }
+        ],
+        "lastModified": "2026-11-03T13:52:43Z",
+        "links": {
+          "api": {
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/9ce1ef1e-1fac-4b72-9b97-8fe353ecdd2f"
+            },
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/video/clips/50365247"
+            }
+          },
+          "mobile": {
+            "alert": {
+              "href": "https://m.espn.com/general/video/videoAlert?vid=50365247"
+            },
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9ce1ef1e-1fac-4b72-9b97-8fe353ecdd2f/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50365247/dandre-swift-shines-3-tds-bears-road-win-seahawks",
+            "progressiveDownload": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9ce1ef1e-1fac-4b72-9b97-8fe353ecdd2f/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50365247/dandre-swift-shines-3-tds-bears-road-win-seahawks"
+            },
+            "source": {
+              "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1103/6975b93d-485e-4187-b790-35c969f284df/6975b93d-485e-4187-b790-35c969f284df.mp4"
+            },
+            "streaming": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9ce1ef1e-1fac-4b72-9b97-8fe353ecdd2f/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50365247/dandre-swift-shines-3-tds-bears-road-win-seahawks"
+            }
+          },
+          "source": {
+            "HD": {
+              "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1103/6975b93d-485e-4187-b790-35c969f284df/6975b93d-485e-4187-b790-35c969f284df.mp4"
+            },
+            "HLS": {
+              "9x16": {
+                "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1103/6975b93d-485e-4187-b790-35c969f284df/6975b93d-485e-4187-b790-35c969f284df/playlist.m3u8"
+              },
+              "HD": {
+                "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1103/6975b93d-485e-4187-b790-35c969f284df/6975b93d-485e-4187-b790-35c969f284df/playlist.m3u8"
+              },
+              "cmaf": {
+                "9x16": {
+                  "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1103/6975b93d-485e-4187-b790-35c969f284df/6975b93d-485e-4187-b790-35c969f284df/playlist.m3u8"
+                },
+                "cmb": {
+                  "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1103/6975b93d-485e-4187-b790-35c969f284df/6975b93d-485e-4187-b790-35c969f284df/playlist.m3u8"
+                },
+                "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1103/6975b93d-485e-4187-b790-35c969f284df/6975b93d-485e-4187-b790-35c969f284df/playlist.m3u8"
+              },
+              "cmb": {
+                "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1103/6975b93d-485e-4187-b790-35c969f284df/6975b93d-485e-4187-b790-35c969f284df/playlist.m3u8"
+              },
+              "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1103/6975b93d-485e-4187-b790-35c969f284df/6975b93d-485e-4187-b790-35c969f284df/playlist.m3u8",
+              "shield": {
+                "href": "https://watch.auth.api.espn.com/video/auth/media/9ce1ef1e-1fac-4b72-9b97-8fe353ecdd2f/asset"
+              }
+            },
+            "flash": {
+              "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1103/6975b93d-485e-4187-b790-35c969f284df/6975b93d-485e-4187-b790-35c969f284df.mp4"
+            },
+            "full": {
+              "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1103/6975b93d-485e-4187-b790-35c969f284df/6975b93d-485e-4187-b790-35c969f284df.mp4"
+            },
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1103/6975b93d-485e-4187-b790-35c969f284df/6975b93d-485e-4187-b790-35c969f284df.mp4",
+            "mezzanine": {
+              "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1103/6975b93d-485e-4187-b790-35c969f284df/6975b93d-485e-4187-b790-35c969f284df.mp4"
+            }
+          },
+          "sportscenter": {
+            "href": "sportscenter://x-callback-url/showVideo?videoID=50365247&videoDSI=c5751862b5991"
+          },
+          "web": {
+            "href": "https://www.espn.com/video/clip/_/id/50365247/dandre-swift-shines-3-tds-bears-road-win-seahawks",
+            "self": {
+              "dsi": {
+                "href": "https://www.espn.com/video/clip?id=c5751862b5991"
+              },
+              "href": "https://www.espn.com/video/clip/_/id/50365247/dandre-swift-shines-3-tds-bears-road-win-seahawks"
+            }
+          }
+        },
+        "originalPublishDate": "2026-11-03T04:34:10Z",
+        "pccId": "9ce1ef1e-1fac-4b72-9b97-8fe353ecdd2f",
+        "plays": [
+          {
+            "id": 4018730362598
+          }
+        ],
+        "posterImages": {
+          "default": {
+            "height": 324,
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1102/6975b93d485e4187b79035c969f284df1429/6975b93d485e4187b79035c969f284df1429_default.jpg",
+            "width": 576
+          },
+          "firstFrame": {
+            "href": "https://cmp-espn.media.dssott.com/opp/img/espn/wsc/2026/1103/6975b93d-485e-4187-b790-35c969f284df/6975b93d-485e-4187-b790-35c969f284df/thumb-1-w720-h406-f4.jpg"
+          },
+          "full": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1102/6975b93d485e4187b79035c969f284df1429/6975b93d485e4187b79035c969f284df1429.jpg"
+          },
+          "square": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1102/6975b93d485e4187b79035c969f284df1429/6975b93d485e4187b79035c969f284df1429_1x1.jpg"
+          },
+          "vertical": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1102/6975b93d485e4187b79035c969f284df1429/6975b93d485e4187b79035c969f284df1429_9x16.jpg"
+          },
+          "verticalFirstFrame": {
+            "href": "https://cmp-espn.media.dssott.com/opp/img/espn/9x16/wsc/2026/1103/6975b93d-485e-4187-b790-35c969f284df/6975b93d-485e-4187-b790-35c969f284df/thumb-1-w406-h720-f4.jpg"
+          },
+          "wide": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1102/6975b93d485e4187b79035c969f284df1429/6975b93d485e4187b79035c969f284df1429_5x2.jpg"
+          }
+        },
+        "premium": false,
+        "shortDescription": "D'Andre Swift shines with 3 TDs in Bears road win over Seahawks ",
+        "shortHeadline": "D'Andre Swift shines with 3 TDs in Bears road win over Seahawks ",
+        "source": "espn",
+        "syndicatable": true,
+        "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1102/6975b93d485e4187b79035c969f284df1429/6975b93d485e4187b79035c969f284df1429.jpg",
+        "timeRestrictions": {
+          "embargoDate": "2026-11-03T04:34:08Z",
+          "expirationDate": "2026-11-05T04:34:00Z"
+        },
+        "title": "D'Andre Swift shines with 3 TDs in Bears road win over Seahawks",
+        "tracking": {
+          "coverageType": "OnePlay",
+          "leagueName": "NFL",
+          "program": "espnnfl",
+          "sportName": "football",
+          "trackingId": "dm_20261103_NFL_dandre_swift_shines_with_3_tds_in_bears_road_win_over_seahawks_",
+          "trackingName": "NFL_One-Play (D'Andre Swift shines with 3 TDs in Bears road win over Seahawks ) 2026/11/03 ESHEET"
+        },
+        "videoRatio": "16:9,9:16"
+      }
+    ]
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "5:25",
+        "value": 325.0
+      },
+      "homeScore": 0,
+      "id": "401873036542",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "CHI",
+        "displayName": "Chicago Bears",
+        "id": "3",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/chi/chicago-bears",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/chi",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:3"
+      },
+      "text": "Luther Burden III 1 Yd pass from Caleb Williams (Cairo Santos Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "12:50",
+        "value": 770.0
+      },
+      "homeScore": 3,
+      "id": "4018730361001",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "SEA",
+        "displayName": "Seattle Seahawks",
+        "id": "26",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/sea/seattle-seahawks",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/sea",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:26"
+      },
+      "text": "Jason Myers 27 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 10,
+      "clock": {
+        "displayValue": "6:07",
+        "value": 367.0
+      },
+      "homeScore": 3,
+      "id": "4018730361407",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "CHI",
+        "displayName": "Chicago Bears",
+        "id": "3",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/chi/chicago-bears",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/chi",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:3"
+      },
+      "text": "Cairo Santos 44 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 13,
+      "clock": {
+        "displayValue": "1:08",
+        "value": 68.0
+      },
+      "homeScore": 3,
+      "id": "4018730361744",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "CHI",
+        "displayName": "Chicago Bears",
+        "id": "3",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/chi/chicago-bears",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/chi",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:3"
+      },
+      "text": "Cairo Santos 38 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 13,
+      "clock": {
+        "displayValue": "0:30",
+        "value": 30.0
+      },
+      "homeScore": 9,
+      "id": "4018730361939",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "SEA",
+        "displayName": "Seattle Seahawks",
+        "id": "26",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/sea/seattle-seahawks",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/sea",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:26"
+      },
+      "text": "Jaxon Smith-Njigba 43 Yd pass from Sam Darnold (Jason Myers PAT Failed)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 20,
+      "clock": {
+        "displayValue": "5:38",
+        "value": 338.0
+      },
+      "homeScore": 9,
+      "id": "4018730362598",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "CHI",
+        "displayName": "Chicago Bears",
+        "id": "3",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/chi/chicago-bears",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/chi",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:3"
+      },
+      "text": "D'Andre Swift 1 Yd Rush (Cairo Santos Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 20,
+      "clock": {
+        "displayValue": "11:46",
+        "value": 706.0
+      },
+      "homeScore": 17,
+      "id": "4018730363231",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "SEA",
+        "displayName": "Seattle Seahawks",
+        "id": "26",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/sea/seattle-seahawks",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/sea",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:26"
+      },
+      "text": "Cooper Kupp 7 Yd pass from Sam Darnold (Sam Darnold Pass to Tory Horton for Two-Point Conversion)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 27,
+      "clock": {
+        "displayValue": "8:28",
+        "value": 508.0
+      },
+      "homeScore": 17,
+      "id": "4018730363468",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "CHI",
+        "displayName": "Chicago Bears",
+        "id": "3",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/chi/chicago-bears",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/chi",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:3"
+      },
+      "text": "D'Andre Swift 5 Yd Rush (Cairo Santos Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 34,
+      "clock": {
+        "displayValue": "4:41",
+        "value": 281.0
+      },
+      "homeScore": 17,
+      "id": "4018730363824",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "CHI",
+        "displayName": "Chicago Bears",
+        "id": "3",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/chi/chicago-bears",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/chi",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:3"
+      },
+      "text": "D'Andre Swift 5 Yd Rush (Cairo Santos Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    }
+  ]
+}
