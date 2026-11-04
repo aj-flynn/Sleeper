@@ -1,0 +1,1301 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "New York Jets",
+        "guid": "732d3caf-b350-1e34-48c6-b7cebb4a0d88",
+        "id": 2378,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "NYJ",
+          "description": "New York Jets",
+          "id": 20,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/nyj/new-york-jets"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/nyj/new-york-jets"
+              }
+            }
+          },
+          "shortDisplayName": "Jets"
+        },
+        "teamId": 20,
+        "type": "team",
+        "uid": "s:20~l:28~t:20"
+      },
+      {
+        "description": "Las Vegas Raiders",
+        "guid": "b18540eb-6f2b-534c-e7f9-9bd930518da9",
+        "id": 2553,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "LV",
+          "description": "Las Vegas Raiders",
+          "id": 13,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders"
+              }
+            }
+          },
+          "shortDisplayName": "Raiders"
+        },
+        "teamId": 13,
+        "type": "team",
+        "uid": "s:20~l:28~t:13"
+      },
+      {
+        "description": "Las Vegas Raiders @ New York Jets",
+        "event": {
+          "description": "Las Vegas Raiders @ New York Jets",
+          "id": 401873029,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873029"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873029"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873029,
+        "guid": "a941fdf9-3c3f-3952-ac90-35c4d2166988",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873029"
+      }
+    ],
+    "categorized": "2026-11-01T23:03:46Z",
+    "contentKey": "50351478-1-21-1",
+    "dataSourceIdentifier": "4f934afab68ea",
+    "description": "— Kirk Cousins got up after his 1-yard touchdown run, crouched near the Raiders' sideline and started flapping his right elbow like a chicken wing.",
+    "gameId": "401873029",
+    "headline": "Raiders rally past the Jets 38-33 as Kirk Cousins leads a comeback to snap a 4-game skid",
+    "id": 50351478,
+    "images": [
+      {
+        "caption": "Las Vegas Raiders vs. New York Jets: Game Highlights\n",
+        "height": 324,
+        "name": "Las Vegas Raiders vs. New York Jets: Game Highlights",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/9461c9ca-476c-4eb6-adcf-6e514e18b0cc/9461c9ca-476c-4eb6-adcf-6e514e18b0cc.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "New York Jets",
+      "Las Vegas Raiders",
+      "Las Vegas Raiders @ New York Jets"
+    ],
+    "lastModified": "2026-11-01T23:03:46Z",
+    "linkText": "Raiders rally past the Jets 38-33 as Kirk Cousins leads a comeback to snap a 4-game skid",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50351478"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50351478"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50351478"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873029"
+      }
+    },
+    "nowId": "1-50351478",
+    "originallyPosted": "2026-11-01T21:40:46Z",
+    "premium": false,
+    "published": "2026-11-01T21:40:46Z",
+    "publishedkey": "nfl401873029",
+    "section": "NFL",
+    "source": "AP",
+    "story": "EAST RUTHERFORD, N.J. -- — <a href=\"http://www.espn.com/nfl/player/_/id/14880/kirk-cousins\">Kirk Cousins</a> got up after his 1-yard touchdown run, crouched near the Raiders' sideline and started <a href=\"https://x.com/Raiders/status/2116987164341010723?a=LI9IuOhWagckrGfKuZo&s=20\">flapping his right elbow</a> like a chicken wing.\n\n\r\n              It made for a viral social media moment on a day filled with highlights for the Las Vegas quarterback.\n\n\r\n              Cousins threw three touchdown passes, including a go-ahead 2-yard toss to <a href=\"http://www.espn.com/nfl/player/_/id/4382466/jalen-nailor\">Jalen Nailor</a> in the fourth quarter, to help the Raiders snap a four-game skid with a 38-33 comeback victory over the <a href=\"http://www.espn.com/nfl/team/_/name/nyj/new-york-jets\">New York Jets</a> on Sunday.\n\n\r\n              Oh, and there was that curious celebration after his TD run made it a two-point game in the third quarter.\n\n\r\n              “I call that my wellness celebration,” the 38-year-old quarterback said with a smile. “We do a lot of tissue work here. At my age, it’s especially helpful. ... So I said someday if I run a touchdown in, I’m going to give a shoutout to all the staff that works so hard to help us feel good and be one of the healthier teams in the league.”\n\n\r\n              Cousins initially forgot to do it until <a href=\"http://www.espn.com/nfl/player/_/id/4432665/brock-bowers\">Brock Bowers</a>, who caught two TD passes from Cousins, reminded him.\n\n\r\n              “Brock, who doesn’t say much,\" Cousins said, \"goes: ‘Hit them with the wellness celebration!’\"\n\n\r\n              Cousins and the Raiders (4-4) certainly felt pretty good after this one, which was sealed when <a href=\"http://www.espn.com/nfl/player/_/id/4043169/jeremy-chinn\">Jeremy Chinn</a> made a toe-tapping interception in the end zone on a desperation heave by <a href=\"http://www.espn.com/nfl/player/_/id/15864/geno-smith\">Geno Smith</a> in the closing seconds.\n\n\r\n              Cousins was 19 of 26 for 247 yards and rookie <a href=\"http://www.espn.com/nfl/player/_/id/4686658/mike-washington-jr\">Mike Washington Jr</a>. ran for 83 yards on 25 carries for the Raiders, who trailed the Jets (2-6) by nine at halftime and allowed New York to score on its first six possessions. <a href=\"http://www.espn.com/nfl/player/_/id/4366963/dylan-laube\">Dylan Laube</a> returned a kickoff 95 yards for a touchdown.\n\n\r\n              “It took everything we had today, but it’s great to get a win,” Cousins said. “To be .500 in November now and playing meaningful football is important.\"\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4890973/ashton-jeanty\">Ashton Jeanty</a>, who earlier in the week said it seemed the Jets' defense has players <a href=\"https://apnews.com/article/jets-raiders-jeanty-5241951ae3d38949abea8da5297afc4a\">who don't like to tackle</a>, ran for 9 yards on just two carries in a reduced role but caught three passes for 64 yards — including a big play on the go-ahead scoring drive.\n\n\r\n              With the Raiders trailing by two, Cousins tossed a screen pass to Jeanty — who stumbled and then zipped downfield for 45 yards to get to the Jets 13. \n\n\r\n              “Ashton is still going to be a big part of our team,\" coach <a href=\"http://www.espn.com/nfl/player/_/id/2181979/klint-kubiak\">Klint Kubiak</a> said. \"He made a huge catch. He’s going to be a huge part of our run game going forward.”\n\n\r\n              Five plays later, Cousins connected with Nailor to put Las Vegas up 35-30 with 11:33 remaining.\n\n\r\n              After New York got a 31-yard field goal by <a href=\"http://www.espn.com/nfl/player/_/id/3124679/jason-sanders\">Jason Sanders</a>, Las Vegas chewed up the clock and got a 53-yarder by <a href=\"http://www.espn.com/nfl/player/_/id/4249087/matt-gay\">Matt Gay</a> with 31 seconds remaining.\n\n\r\n              The Jets got the ball at their 35 with 27 seconds left and a 15-yard catch by <a href=\"http://www.espn.com/nfl/player/_/id/4569618/garrett-wilson\">Garrett Wilson</a> and an unnecessary roughness call on Chinn put the ball at the Raiders 35. But Smith's throw into the end zone with 14 seconds left was picked off by Chinn.\n\n\r\n              “It’s an understatement to say that we’re all disappointed in the way this one ended,\" Jets coach Aaron Glenn said, \"with not getting a victory in this game.”\n\n\r\n              Smith was 20 of 32 for 290 yards and touchdowns to <a href=\"http://www.espn.com/nfl/player/_/id/4597500/adonai-mitchell\">Adonai Mitchell</a> and <a href=\"http://www.espn.com/nfl/player/_/id/2574302/isaiah-williams\">Isaiah Williams</a> and the INT for the Jets, who have dropped three in a row. <a href=\"http://www.espn.com/nfl/player/_/id/4685247/braelon-allen\">Braelon Allen</a> ran for 147 yards and a touchdown on 21 carries.\n\n\r\n              “I think we didn’t do enough to win the game,\" Smith said. \"So that’s really where my focus is, is how can we improve and get better so that we can finish the game?”\n\n\r\n              <hl2>Jets and Raiders go back and forth on the scoreboard to start the game</hl2>\r\n              <hl2 />\r\n              The Jets got a 21-yard field goal by Sanders on their opening drive, and the Raiders followed with Cousins' 12-yard TD pass to Bowers on third-and-goal.\n\n\r\n              Sanders kicked a 36-yarder and Smith threw an 18-yard touchdown pass to Williams on New York's third drive. But Las Vegas snatched the lead right back when Laube returned the ensuing kickoff 95 yards for a touchdown to put the Raiders back up, 14-13. It was the first kickoff returned for a TD in the NFL this season, and the first of Laube's three-year career.\n\n\r\n              Smith's over-the-shoulder fade pass to Mitchell on fourth-and-1 from the 12 for a touchdown put New York up 20-14. \n\n\r\n              <hl2>New York gets a rare score right before halftime</hl2>\r\n              The Jets entered having been outscored 107-6 in the final two minutes of the opening half in two seasons under Glenn. They got a 39-yard field goal to go up 23-14 with 9 seconds left for their first points this season in the last two minutes of the first half.\n\n\r\n              Las Vegas made it a two-point game at 23-21 on Cousins' 2-yard TD pass to Bowers to open the second half.\n\n\r\n              After Allen rumbled 21 yards for a touchdown to put the Jets up 30-21, Cousins pushed forward and over the goal line for a 1-yard TD.\n\n\r\n              The Jets' scoring streak ended on their seventh drive late in the third quarter.\n\n\r\n              <hl2>Injuries</hl2>\r\n              Raiders CB <a href=\"http://www.espn.com/nfl/player/_/id/4430330/darien-porter\">Darien Porter</a> didn't return after injuring his groin on Las Vegas' first defensive play.\n\n\r\n              <hl2>Up next</hl2>\r\n              Raiders: Face the 49ers in San Francisco next Sunday.\n\n\r\n              Jets: Travel to Kansas City to face the Chiefs next Sunday.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": []
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 0,
+      "clock": {
+        "displayValue": "12:50",
+        "value": 770.0
+      },
+      "homeScore": 3,
+      "id": "401873029213",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "NYJ",
+        "displayName": "New York Jets",
+        "id": "20",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/nyj/new-york-jets",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/nyj",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/nyj.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+            "lastUpdated": "2024-07-02T15:08Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/nyj.png",
+            "lastUpdated": "2024-07-02T15:09Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:20"
+      },
+      "text": "Jason Sanders 21 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "7:23",
+        "value": 443.0
+      },
+      "homeScore": 3,
+      "id": "401873029545",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "LV",
+        "displayName": "Las Vegas Raiders",
+        "id": "13",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lv",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+            "lastUpdated": "2024-09-22T22:51Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lv.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lv.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:13"
+      },
+      "text": "Brock Bowers 12 Yd pass from Kirk Cousins (Matt Gay Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "2:13",
+        "value": 133.0
+      },
+      "homeScore": 6,
+      "id": "401873029921",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "NYJ",
+        "displayName": "New York Jets",
+        "id": "20",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/nyj/new-york-jets",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/nyj",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/nyj.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+            "lastUpdated": "2024-07-02T15:08Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/nyj.png",
+            "lastUpdated": "2024-07-02T15:09Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:20"
+      },
+      "text": "Jason Sanders 36 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "10:56",
+        "value": 656.0
+      },
+      "homeScore": 13,
+      "id": "4018730291333",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "NYJ",
+        "displayName": "New York Jets",
+        "id": "20",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/nyj/new-york-jets",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/nyj",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/nyj.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+            "lastUpdated": "2024-07-02T15:08Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/nyj.png",
+            "lastUpdated": "2024-07-02T15:09Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:20"
+      },
+      "text": "Isaiah Williams 18 Yd pass from Geno Smith (Jason Sanders Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 14,
+      "clock": {
+        "displayValue": "10:44",
+        "value": 644.0
+      },
+      "homeScore": 13,
+      "id": "4018730291385",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "LV",
+        "displayName": "Las Vegas Raiders",
+        "id": "13",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lv",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+            "lastUpdated": "2024-09-22T22:51Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lv.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lv.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:13"
+      },
+      "text": "Dylan Laube 95 Yd Kickoff Return (Matt Gay Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "32",
+        "text": "Kickoff Return Touchdown"
+      }
+    },
+    {
+      "awayScore": 14,
+      "clock": {
+        "displayValue": "6:18",
+        "value": 378.0
+      },
+      "homeScore": 20,
+      "id": "4018730291620",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "NYJ",
+        "displayName": "New York Jets",
+        "id": "20",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/nyj/new-york-jets",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/nyj",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/nyj.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+            "lastUpdated": "2024-07-02T15:08Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/nyj.png",
+            "lastUpdated": "2024-07-02T15:09Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:20"
+      },
+      "text": "Adonai Mitchell 12 Yd pass from Geno Smith (Jason Sanders Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 14,
+      "clock": {
+        "displayValue": "0:09",
+        "value": 9.0
+      },
+      "homeScore": 23,
+      "id": "4018730292063",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "NYJ",
+        "displayName": "New York Jets",
+        "id": "20",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/nyj/new-york-jets",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/nyj",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/nyj.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+            "lastUpdated": "2024-07-02T15:08Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/nyj.png",
+            "lastUpdated": "2024-07-02T15:09Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:20"
+      },
+      "text": "Jason Sanders 39 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 21,
+      "clock": {
+        "displayValue": "9:59",
+        "value": 599.0
+      },
+      "homeScore": 23,
+      "id": "4018730292415",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "LV",
+        "displayName": "Las Vegas Raiders",
+        "id": "13",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lv",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+            "lastUpdated": "2024-09-22T22:51Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lv.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lv.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:13"
+      },
+      "text": "Brock Bowers 2 Yd pass from Kirk Cousins (Matt Gay Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 21,
+      "clock": {
+        "displayValue": "8:20",
+        "value": 500.0
+      },
+      "homeScore": 30,
+      "id": "4018730292536",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "NYJ",
+        "displayName": "New York Jets",
+        "id": "20",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/nyj/new-york-jets",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/nyj",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/nyj.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+            "lastUpdated": "2024-07-02T15:08Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/nyj.png",
+            "lastUpdated": "2024-07-02T15:09Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:20"
+      },
+      "text": "Braelon Allen 21 Yd Rush (Jason Sanders Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 28,
+      "clock": {
+        "displayValue": "4:14",
+        "value": 254.0
+      },
+      "homeScore": 30,
+      "id": "4018730292845",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "LV",
+        "displayName": "Las Vegas Raiders",
+        "id": "13",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lv",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+            "lastUpdated": "2024-09-22T22:51Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lv.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lv.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:13"
+      },
+      "text": "Kirk Cousins 1 Yd Rush (Matt Gay Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 35,
+      "clock": {
+        "displayValue": "11:33",
+        "value": 693.0
+      },
+      "homeScore": 30,
+      "id": "4018730293258",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "LV",
+        "displayName": "Las Vegas Raiders",
+        "id": "13",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lv",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+            "lastUpdated": "2024-09-22T22:51Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lv.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lv.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:13"
+      },
+      "text": "Jalen Nailor 2 Yd pass from Kirk Cousins (Matt Gay Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 35,
+      "clock": {
+        "displayValue": "4:31",
+        "value": 271.0
+      },
+      "homeScore": 33,
+      "id": "4018730293833",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "NYJ",
+        "displayName": "New York Jets",
+        "id": "20",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/nyj/new-york-jets",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/nyj",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/nyj.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+            "lastUpdated": "2024-07-02T15:08Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/nyj.png",
+            "lastUpdated": "2024-07-02T15:09Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:20"
+      },
+      "text": "Jason Sanders 31 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 38,
+      "clock": {
+        "displayValue": "0:27",
+        "value": 27.0
+      },
+      "homeScore": 33,
+      "id": "4018730294079",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "LV",
+        "displayName": "Las Vegas Raiders",
+        "id": "13",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lv",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+            "lastUpdated": "2024-09-22T22:51Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lv.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lv.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:13"
+      },
+      "text": "Matt Gay 53 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    }
+  ]
+}

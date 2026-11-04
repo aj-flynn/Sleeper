@@ -1,0 +1,866 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "Miami Dolphins",
+        "guid": "af33088b-1e19-d27d-dbc0-354fd7151703",
+        "id": 2258,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "MIA",
+          "description": "Miami Dolphins",
+          "id": 15,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/mia/miami-dolphins"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/mia/miami-dolphins"
+              }
+            }
+          },
+          "shortDisplayName": "Dolphins"
+        },
+        "teamId": 15,
+        "type": "team",
+        "uid": "s:20~l:28~t:15"
+      },
+      {
+        "description": "New England Patriots",
+        "guid": "0078f353-fe3e-67ed-a42c-43cca0568e21",
+        "id": 2321,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "NE",
+          "description": "New England Patriots",
+          "id": 17,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/ne/new-england-patriots"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/ne/new-england-patriots"
+              }
+            }
+          },
+          "shortDisplayName": "Patriots"
+        },
+        "teamId": 17,
+        "type": "team",
+        "uid": "s:20~l:28~t:17"
+      },
+      {
+        "description": "New England Patriots @ Miami Dolphins",
+        "event": {
+          "description": "New England Patriots @ Miami Dolphins",
+          "id": 401873034,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873034"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873034"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873034,
+        "guid": "598e6028-673b-3da3-bbae-17f9f7ac6cec",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873034"
+      }
+    ],
+    "categorized": "2026-11-02T12:57:44Z",
+    "contentKey": "50353663-1-21-1",
+    "dataSourceIdentifier": "6cf512d17c68a",
+    "description": "— Drake Maye was without a pair of top receivers and a running back Sunday against the Miami Dolphins.",
+    "gameId": "401873034",
+    "headline": "Maye has 3 touchdowns as Patriots rally to beat Dolphins 24-19",
+    "id": 50353663,
+    "images": [
+      {
+        "caption": "Kevin Coleman Jr. scores deep TD to make it a 1-possession game",
+        "height": 324,
+        "name": "Kevin Coleman Jr. scores deep TD to make it a 1-possession game",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/64fb6e9b37fc4b888681eaead43e5d791181/64fb6e9b37fc4b888681eaead43e5d791181.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "Miami Dolphins",
+      "New England Patriots",
+      "New England Patriots @ Miami Dolphins"
+    ],
+    "lastModified": "2026-11-02T01:56:02Z",
+    "linkText": "Maye has 3 touchdowns as Patriots rally to beat Dolphins 24-19",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50353663"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50353663"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50353663"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873034"
+      }
+    },
+    "nowId": "1-50353663",
+    "originallyPosted": "2026-11-02T00:41:46Z",
+    "premium": false,
+    "published": "2026-11-02T00:41:46Z",
+    "publishedkey": "nfl401873034",
+    "section": "NFL",
+    "source": "AP",
+    "story": "MIAMI GARDENS, Fla. -- — <a href=\"http://www.espn.com/nfl/player/_/id/4431452/drake-maye\">Drake Maye</a> was without a pair of top receivers and a running back Sunday against the <a href=\"http://www.espn.com/nfl/team/_/name/mia/miami-dolphins\">Miami Dolphins</a>.\n\n\r\n              No problem for the <a href=\"http://www.espn.com/nfl/team/_/name/ne/new-england-patriots\">New England Patriots</a> quarterback. \n\n\r\n              Star <a href=\"https://apnews.com/article/patriots-injuries-aj-brown-treveyon-henderson-38ddb65abb5a6674edd9df57e8626769\"><a href=\"http://www.espn.com/nfl/player/_/id/4047646/aj-brown\">A.J. Brown</a></a> (knee/ankle), <a href=\"https://apnews.com/article/patriots-mack-hollins-injury-il-11d0520ca8ad2b412684c8cf90fb933b\"><a href=\"http://www.espn.com/nfl/player/_/id/2991662/mack-hollins\">Mack Hollins</a> (</a> calf) and running back <a href=\"http://www.espn.com/nfl/player/_/id/4432710/treveyon-henderson\">TreVeyon Henderson</a> (illness) were all sidelined. Still, Maye threw two touchdown passes and rushed for a score as the Patriots came back to beat the Dolphins 24-19.\n\n\r\n              “(If) you want to be a great quarterback in the National Football League, there's not a whole lot of excuses,\" Patriots coach Mike Vrabel said about Maye's performance. \"You go out there and find ways to win for your football team. That’s who he is and that’s what he wants to continue to be.”\n\n\r\n              Maye completed 16 of 20 passes for 199 yards and the Patriots (5-3) overcame a 10-point halftime deficit to take a 17-13 lead entering the fourth, then held on after a late Miami rally.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4427095/demario-douglas\">DeMario Douglas</a> caught a pass and weaved through the Dolphins secondary for a 48-yard touchdown catch that put the Patriots up by two scores early in the fourth.\n\n\r\n              The Patriots hadn’t had a clean operation in the first half, but they took advantage of the young Dolphins’ mistakes in the second, outscoring Miami 21-0 until <a href=\"http://www.espn.com/nfl/player/_/id/4242512/malik-willis\">Malik Willis</a> threw a 35-yard touchdown to rookie <a href=\"http://www.espn.com/nfl/player/_/id/4685307/kevin-coleman-jr\">Kevin Coleman Jr</a>. with two minutes left. \n\n\r\n              After an unsuccessful two-point try by Miami, <a href=\"http://www.espn.com/nfl/player/_/id/4569173/rhamondre-stevenson\">Rhamondre Stevenson</a> recovered <a href=\"http://www.espn.com/nfl/player/_/id/2977680/bradley-pinion\">Bradley Pinion</a>'s onside kick, and New England kept the ball from there.\n\n\r\n              Stevenson had 19 carries for 82 yards, and Douglas caught three passes for 76 yards.\n\n\r\n              “We knew that once we settle in and get some drives together,\" Maye said, \"we had a chance of getting some points on the board.”\n\n\r\n              One week after leading Miami (1-6) to its first win of the season, Willis completed 21 of 32 passes for 211 yards. He threw for two touchdowns and had an interception while being sacked five times. \n\n\r\n              The Patriots pulled within three when Maye lofted a pass to <a href=\"http://www.espn.com/nfl/player/_/id/4252364/kyle-williams\">Kyle Williams</a> for a 43-yard touchdown that was initially ruled an incompletion after Williams' knee appeared to jar the ball loose. Vrabel <a href=\"https://x.com/Patriots/status/2117034245008863397?a=GjZu2t48oCOrthFfT3k&s=20\">demonstratively launched</a> the red challenge flag, and officials overturned the call to a touchdown after replays showed Williams crossed the goal line before losing possession of the ball. \n\n\r\n              “I was a lot more certain than the officials were the first time they called it,” Vrabel said. \n\n\r\n              Miami went three-and-out on the next drive, its momentum stalled after Ollie Gordon drew an unsportsmanlike conduct penalty after saying something to a defender following a 5-yard carry. Coach Jeff Hafley removed Gordon from the game for a play, and the second-year running back appeared visibly upset as Willis spoke to him on the sideline.\n\n\r\n              “Ollie is a competitor, and he cares about the game a lot,” Willis said. “And I was just letting him know that in that situation, that he’s ... wrong. I mean, that’s the honest truth. And it would be wrong if I didn’t tell him the truth.”\n\n\r\n              On the next New England drive, Maye faked a pitch to Stevenson and ran it in for the 2-yard go-ahead score with 59 seconds left in the third — his fifth straight game with at least three total touchdowns.\n\n\r\n              Willis led the Dolphins on an 11-play, 70-yard two-minute drive that <a href=\"http://www.espn.com/nfl/player/_/id/4569603/malik-washington\">Malik Washington</a> capped with a 1-yard touchdown to put Miami ahead 13-3 at the half. \n\n\r\n              Washington had briefly left the game after taking a hard hit from Patriots linebacker <a href=\"http://www.espn.com/nfl/player/_/id/4245273/christian-elliss\">Christian Elliss</a> earlier in the drive. Elliss was flagged for unnecessary roughness for the hit, and Washington, after a brief trip to the blue medial tent, returned five plays later to catch his first receiving touchdown of the season.\n\n\r\n              \"I thought it was probably the best half that we played all year in the first half in some phases,\" Hafley said. “But we had not had a lead like that going into a half. And there was great energy and we came out and I believe we held them to a three -and -out. And then those are the opportunities where you've got to learn to put people away.”\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/3043234/zane-gonzalez\">Zane Gonzalez</a>, in his <a href=\"https://apnews.com/article/miami-dolphins-e7fce118ee03720f6a1f443a57a5e947\">second game since re-signing with Miami</a>, hit field goals of 31 and 52 yards, the latter of which doinked off the left upright and through. He missed a 43-yard attempt in the fourth.\n\n\r\n              <hl2>Injuries</hl2>\r\n              Patriots: TE <a href=\"http://www.espn.com/nfl/player/_/id/3046439/hunter-henry\">Hunter Henry</a> (foot) left in the second quarter and did not return. ... Linebacker <a href=\"http://www.espn.com/nfl/player/_/id/4837244/gabe-jacas\">Gabe Jacas</a> (knee) left in the third and didn't return. \n\n\r\n              Dolphins: Edge rusher <a href=\"http://www.espn.com/nfl/player/_/id/4259547/malik-herring\">Malik Herring</a> left in the second with a stringer but in the third.\n\n\r\n              <hl2>Up next</hl2>\r\n              Patriots: Host Green Bay next Sunday.\n\n\r\n              Dolphins: Host Detroit next Sunday.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": []
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "9:10",
+        "value": 550.0
+      },
+      "homeScore": 0,
+      "id": "401873034367",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "NE",
+        "displayName": "New England Patriots",
+        "id": "17",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/ne/new-england-patriots",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/ne",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:17"
+      },
+      "text": "Andy Borregales 34 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "3:39",
+        "value": 219.0
+      },
+      "homeScore": 3,
+      "id": "401873034683",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "MIA",
+        "displayName": "Miami Dolphins",
+        "id": "15",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/mia/miami-dolphins",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/mia",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:15"
+      },
+      "text": "Zane Gonzalez 31 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "9:27",
+        "value": 567.0
+      },
+      "homeScore": 6,
+      "id": "4018730341168",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "MIA",
+        "displayName": "Miami Dolphins",
+        "id": "15",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/mia/miami-dolphins",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/mia",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:15"
+      },
+      "text": "Zane Gonzalez 52 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "0:08",
+        "value": 8.0
+      },
+      "homeScore": 13,
+      "id": "4018730341946",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "MIA",
+        "displayName": "Miami Dolphins",
+        "id": "15",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/mia/miami-dolphins",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/mia",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:15"
+      },
+      "text": "Malik Washington 1 Yd pass from Malik Willis (Zane Gonzalez Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 10,
+      "clock": {
+        "displayValue": "9:23",
+        "value": 563.0
+      },
+      "homeScore": 13,
+      "id": "4018730342381",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "NE",
+        "displayName": "New England Patriots",
+        "id": "17",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/ne/new-england-patriots",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/ne",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:17"
+      },
+      "text": "Kyle Williams 43 Yd pass from Drake Maye (Andy Borregales Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 17,
+      "clock": {
+        "displayValue": "0:59",
+        "value": 59.0
+      },
+      "homeScore": 13,
+      "id": "4018730343017",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "NE",
+        "displayName": "New England Patriots",
+        "id": "17",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/ne/new-england-patriots",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/ne",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:17"
+      },
+      "text": "Drake Maye 2 Yd Rush (Andy Borregales Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 24,
+      "clock": {
+        "displayValue": "12:39",
+        "value": 759.0
+      },
+      "homeScore": 13,
+      "id": "4018730343268",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "NE",
+        "displayName": "New England Patriots",
+        "id": "17",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/ne/new-england-patriots",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/ne",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:17"
+      },
+      "text": "DeMario Douglas 48 Yd pass from Drake Maye (Andy Borregales Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 24,
+      "clock": {
+        "displayValue": "2:04",
+        "value": 124.0
+      },
+      "homeScore": 19,
+      "id": "4018730344021",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "MIA",
+        "displayName": "Miami Dolphins",
+        "id": "15",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/mia/miami-dolphins",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/mia",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/mia.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:15"
+      },
+      "text": "Kevin Coleman Jr. 35 Yd pass from Malik Willis (Two-Point Pass Conversion Failed)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    }
+  ]
+}

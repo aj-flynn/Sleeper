@@ -1,0 +1,577 @@
+{
+  "events": [
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "team": {
+                "abbreviation": "BAL"
+              }
+            },
+            {
+              "homeAway": "away",
+              "team": {
+                "abbreviation": "JAX"
+              }
+            }
+          ],
+          "notes": [],
+          "venue": {
+            "address": {
+              "city": "Baltimore",
+              "country": "USA",
+              "state": "MD"
+            },
+            "fullName": "M&T Bank Stadium",
+            "id": "3814",
+            "indoor": false
+          }
+        }
+      ],
+      "date": "2026-11-06T01:15Z",
+      "id": "401873037",
+      "shortName": "JAX @ BAL"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "team": {
+                "abbreviation": "ATL"
+              }
+            },
+            {
+              "homeAway": "away",
+              "team": {
+                "abbreviation": "CIN"
+              }
+            }
+          ],
+          "notes": [
+            {
+              "headline": "NFL Madrid Game",
+              "type": "event"
+            }
+          ],
+          "venue": {
+            "address": {
+              "city": "Madrid",
+              "country": "Spain"
+            },
+            "fullName": "Santiago Bernabéu",
+            "id": "1353",
+            "indoor": true
+          }
+        }
+      ],
+      "date": "2026-11-08T14:30Z",
+      "id": "401873038",
+      "shortName": "CIN VS ATL"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "team": {
+                "abbreviation": "IND"
+              }
+            },
+            {
+              "homeAway": "away",
+              "team": {
+                "abbreviation": "DAL"
+              }
+            }
+          ],
+          "notes": [],
+          "venue": {
+            "address": {
+              "city": "Indianapolis",
+              "country": "USA",
+              "state": "IN"
+            },
+            "fullName": "Lucas Oil Stadium",
+            "id": "3812",
+            "indoor": true
+          }
+        }
+      ],
+      "date": "2026-11-08T18:00Z",
+      "id": "401873040",
+      "shortName": "DAL @ IND"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "team": {
+                "abbreviation": "KC"
+              }
+            },
+            {
+              "homeAway": "away",
+              "team": {
+                "abbreviation": "NYJ"
+              }
+            }
+          ],
+          "notes": [],
+          "venue": {
+            "address": {
+              "city": "Kansas City",
+              "country": "USA",
+              "state": "MO"
+            },
+            "fullName": "Arrowhead Stadium",
+            "id": "3622",
+            "indoor": false
+          }
+        }
+      ],
+      "date": "2026-11-08T18:00Z",
+      "id": "401873045",
+      "shortName": "NYJ @ KC"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "team": {
+                "abbreviation": "MIA"
+              }
+            },
+            {
+              "homeAway": "away",
+              "team": {
+                "abbreviation": "DET"
+              }
+            }
+          ],
+          "notes": [],
+          "venue": {
+            "address": {
+              "city": "Miami Gardens",
+              "country": "USA",
+              "state": "FL"
+            },
+            "fullName": "Hard Rock Stadium",
+            "id": "3948",
+            "indoor": false
+          }
+        }
+      ],
+      "date": "2026-11-08T18:00Z",
+      "id": "401873042",
+      "shortName": "DET @ MIA"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "team": {
+                "abbreviation": "NO"
+              }
+            },
+            {
+              "homeAway": "away",
+              "team": {
+                "abbreviation": "CLE"
+              }
+            }
+          ],
+          "notes": [],
+          "venue": {
+            "address": {
+              "city": "New Orleans",
+              "country": "USA",
+              "state": "LA"
+            },
+            "fullName": "Caesars Superdome",
+            "id": "3493",
+            "indoor": true
+          }
+        }
+      ],
+      "date": "2026-11-08T18:00Z",
+      "id": "401873039",
+      "shortName": "CLE @ NO"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "team": {
+                "abbreviation": "PHI"
+              }
+            },
+            {
+              "homeAway": "away",
+              "team": {
+                "abbreviation": "NYG"
+              }
+            }
+          ],
+          "notes": [],
+          "venue": {
+            "address": {
+              "city": "Philadelphia",
+              "country": "USA",
+              "state": "PA"
+            },
+            "fullName": "Lincoln Financial Field",
+            "id": "3806",
+            "indoor": false
+          }
+        }
+      ],
+      "date": "2026-11-08T18:00Z",
+      "id": "401873044",
+      "shortName": "NYG @ PHI"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "team": {
+                "abbreviation": "WSH"
+              }
+            },
+            {
+              "homeAway": "away",
+              "team": {
+                "abbreviation": "LAR"
+              }
+            }
+          ],
+          "notes": [],
+          "venue": {
+            "address": {
+              "city": "Landover",
+              "country": "USA",
+              "state": "MD"
+            },
+            "fullName": "Northwest Stadium",
+            "id": "3719",
+            "indoor": false
+          }
+        }
+      ],
+      "date": "2026-11-08T18:00Z",
+      "id": "401873043",
+      "shortName": "LAR @ WSH"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "team": {
+                "abbreviation": "CAR"
+              }
+            },
+            {
+              "homeAway": "away",
+              "team": {
+                "abbreviation": "DEN"
+              }
+            }
+          ],
+          "notes": [],
+          "venue": {
+            "address": {
+              "city": "Charlotte",
+              "country": "USA",
+              "state": "NC"
+            },
+            "fullName": "Bank of America Stadium",
+            "id": "3628",
+            "indoor": false
+          }
+        }
+      ],
+      "date": "2026-11-08T18:00Z",
+      "id": "401873041",
+      "shortName": "DEN @ CAR"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "team": {
+                "abbreviation": "LAC"
+              }
+            },
+            {
+              "homeAway": "away",
+              "team": {
+                "abbreviation": "HOU"
+              }
+            }
+          ],
+          "notes": [],
+          "venue": {
+            "address": {
+              "city": "Inglewood",
+              "country": "USA",
+              "state": "CA"
+            },
+            "fullName": "SoFi Stadium",
+            "id": "7065",
+            "indoor": false
+          }
+        }
+      ],
+      "date": "2026-11-08T21:05Z",
+      "id": "401873046",
+      "shortName": "HOU @ LAC"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "team": {
+                "abbreviation": "NE"
+              }
+            },
+            {
+              "homeAway": "away",
+              "team": {
+                "abbreviation": "GB"
+              }
+            }
+          ],
+          "notes": [],
+          "venue": {
+            "address": {
+              "city": "Foxborough",
+              "country": "USA",
+              "state": "MA"
+            },
+            "fullName": "Gillette Stadium",
+            "id": "3738",
+            "indoor": false
+          }
+        }
+      ],
+      "date": "2026-11-08T21:25Z",
+      "id": "401873049",
+      "shortName": "GB @ NE"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "team": {
+                "abbreviation": "SF"
+              }
+            },
+            {
+              "homeAway": "away",
+              "team": {
+                "abbreviation": "LV"
+              }
+            }
+          ],
+          "notes": [],
+          "venue": {
+            "address": {
+              "city": "Santa Clara",
+              "country": "USA",
+              "state": "CA"
+            },
+            "fullName": "Levi's Stadium",
+            "id": "4738",
+            "indoor": false
+          }
+        }
+      ],
+      "date": "2026-11-08T21:25Z",
+      "id": "401873047",
+      "shortName": "LV @ SF"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "team": {
+                "abbreviation": "SEA"
+              }
+            },
+            {
+              "homeAway": "away",
+              "team": {
+                "abbreviation": "ARI"
+              }
+            }
+          ],
+          "notes": [],
+          "venue": {
+            "address": {
+              "city": "Seattle",
+              "country": "USA",
+              "state": "WA"
+            },
+            "fullName": "Lumen Field",
+            "id": "3673",
+            "indoor": false
+          }
+        }
+      ],
+      "date": "2026-11-08T21:25Z",
+      "id": "401873048",
+      "shortName": "ARI @ SEA"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "team": {
+                "abbreviation": "CHI"
+              }
+            },
+            {
+              "homeAway": "away",
+              "team": {
+                "abbreviation": "TB"
+              }
+            }
+          ],
+          "notes": [],
+          "venue": {
+            "address": {
+              "city": "Chicago",
+              "country": "USA",
+              "state": "IL"
+            },
+            "fullName": "Soldier Field",
+            "id": "3933",
+            "indoor": false
+          }
+        }
+      ],
+      "date": "2026-11-09T01:20Z",
+      "id": "401873050",
+      "shortName": "TB @ CHI"
+    },
+    {
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "homeAway": "home",
+              "team": {
+                "abbreviation": "MIN"
+              }
+            },
+            {
+              "homeAway": "away",
+              "team": {
+                "abbreviation": "BUF"
+              }
+            }
+          ],
+          "notes": [],
+          "venue": {
+            "address": {
+              "city": "Minneapolis",
+              "country": "USA",
+              "state": "MN"
+            },
+            "fullName": "U.S. Bank Stadium",
+            "id": "5239",
+            "indoor": true
+          }
+        }
+      ],
+      "date": "2026-11-10T01:15Z",
+      "id": "401873051",
+      "shortName": "BUF @ MIN"
+    }
+  ],
+  "season": {
+    "type": 2,
+    "year": 2026
+  },
+  "week": {
+    "number": 9,
+    "teamsOnBye": [
+      {
+        "abbreviation": "TEN",
+        "displayName": "Tennessee Titans",
+        "id": "10",
+        "isActive": true,
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/ten/tennessee-titans",
+            "isExternal": false,
+            "isPremium": false,
+            "rel": [
+              "clubhouse",
+              "desktop",
+              "team"
+            ],
+            "text": "Clubhouse"
+          }
+        ],
+        "location": "Tennessee",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
+        "logoDark": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ten.png",
+        "name": "Titans",
+        "shortDisplayName": "Titans",
+        "uid": "s:20~l:28~t:10"
+      },
+      {
+        "abbreviation": "PIT",
+        "displayName": "Pittsburgh Steelers",
+        "id": "23",
+        "isActive": true,
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/pit/pittsburgh-steelers",
+            "isExternal": false,
+            "isPremium": false,
+            "rel": [
+              "clubhouse",
+              "desktop",
+              "team"
+            ],
+            "text": "Clubhouse"
+          }
+        ],
+        "location": "Pittsburgh",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+        "logoDark": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/pit.png",
+        "name": "Steelers",
+        "shortDisplayName": "Steelers",
+        "uid": "s:20~l:28~t:23"
+      }
+    ]
+  }
+}

@@ -1,0 +1,779 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "Jacksonville Jaguars",
+        "guid": "ca6fb778-cbf6-d9a3-3e93-01230335fcab",
+        "id": 2996,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "JAX",
+          "description": "Jacksonville Jaguars",
+          "id": 30,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/jax/jacksonville-jaguars"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/jax/jacksonville-jaguars"
+              }
+            }
+          },
+          "shortDisplayName": "Jaguars"
+        },
+        "teamId": 30,
+        "type": "team",
+        "uid": "s:20~l:28~t:30"
+      },
+      {
+        "description": "Indianapolis Colts",
+        "guid": "582d14eb-da61-e505-cc40-d972a1b60ed1",
+        "id": 2942,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "IND",
+          "description": "Indianapolis Colts",
+          "id": 11,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/ind/indianapolis-colts"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/ind/indianapolis-colts"
+              }
+            }
+          },
+          "shortDisplayName": "Colts"
+        },
+        "teamId": 11,
+        "type": "team",
+        "uid": "s:20~l:28~t:11"
+      },
+      {
+        "description": "Indianapolis Colts @ Jacksonville Jaguars",
+        "event": {
+          "description": "Indianapolis Colts @ Jacksonville Jaguars",
+          "id": 401873028,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873028"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873028"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873028,
+        "guid": "0f6132b4-fceb-34d2-b1e5-34ca65d313d0",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873028"
+      }
+    ],
+    "categorized": "2026-11-01T22:42:47Z",
+    "contentKey": "50351122-1-21-1",
+    "dataSourceIdentifier": "c484b2b15545d",
+    "description": "— The Jacksonville Jaguars' latest home blowout gave them a three-game lead in the AFC South — and put them in a spot they haven't been in since 1999.",
+    "gameId": "401873028",
+    "headline": "Jaguars deliver big plays on both sides of the ball in 42-7 romp over rebuilding Colts",
+    "id": 50351122,
+    "images": [
+      {
+        "caption": "Chris Rodriguez Jr. scores 28-yard rushing TD for Jacksonville",
+        "height": 324,
+        "name": "Chris Rodriguez Jr. scores 28-yard rushing TD for Jacksonville",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/d1b21373-6013-49bb-a7fc-0220f2f6d315/d1b21373-6013-49bb-a7fc-0220f2f6d315.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "Jacksonville Jaguars",
+      "Indianapolis Colts",
+      "Indianapolis Colts @ Jacksonville Jaguars"
+    ],
+    "lastModified": "2026-11-01T22:42:47Z",
+    "linkText": "Jaguars deliver big plays on both sides of the ball in 42-7 romp over rebuilding Colts",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50351122"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50351122"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50351122"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873028"
+      }
+    },
+    "nowId": "1-50351122",
+    "originallyPosted": "2026-11-01T21:14:46Z",
+    "premium": false,
+    "published": "2026-11-01T21:14:46Z",
+    "publishedkey": "nfl401873028",
+    "section": "NFL",
+    "source": "AP",
+    "story": "JACKSONVILLE, Fla. -- — The <a href=\"http://www.espn.com/nfl/team/_/name/jax/jacksonville-jaguars\">Jacksonville Jaguars</a>' latest home blowout gave them a three-game lead in the AFC South — and put them in a spot they haven't been in since 1999.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4360310/trevor-lawrence\">Trevor Lawrence</a> threw three touchdown passes, including one to <a href=\"https://twitter.com/Jaguars/status/2116958999606116555\">recently benched receiver <a href=\"http://www.espn.com/nfl/player/_/id/5089509/brian-thomas\">Brian Thomas</a> Jr.</a>, and the Jaguars dominated the reeling <a href=\"http://www.espn.com/nfl/team/_/name/ind/indianapolis-colts\">Indianapolis Colts</a> 42-7 in the rain Sunday to extend their home winning streak in the series to 12.\n\n\r\n              The latest one was essentially over at halftime and put Jacksonville (5-2) in firm control of the AFC South after eight weeks.\n\n\r\n              “Good teams don't think about the division lead they have in November,” Lawrence said. \n\n\r\n              Lawrence directed a 98-yard touchdown drive on Jacksonville's opening possession and never let up until he was watching the fourth quarter from the sideline.\n\n\r\n              “It’s embarrassing. It's a butt whooping,” Colts running back <a href=\"http://www.espn.com/nfl/player/_/id/4242335/jonathan-taylor\">Jonathan Taylor</a> said. “Went down there and they kicked our teeth in. That was an old-fashioned butt whooping. That’s what’s going to show up on the film.”\n\n\r\n              Lawrence found Thomas alone in the back of the end zone for the first score. He also connected with <a href=\"https://twitter.com/Jaguars/status/2116991111243960795\"><a href=\"http://www.espn.com/nfl/player/_/id/4882093/bhayshul-tuten\">Bhayshul Tuten</a></a> on a screen in the third quarter and with rookie <a href=\"http://www.espn.com/nfl/player/_/id/4686248/nate-boerkircher\">Nate Boerkircher</a> on a 31-yarder in a first half filled with big plays for the Jaguars.\n\n\r\n              Tuten scored on a <a href=\"https://twitter.com/Jaguars/status/2116976910601269549\">39-yard scamper</a> in which he broke three tackles, and Rayuan Lane returned an interception <a href=\"https://twitter.com/Jaguars/status/2116977118454423957\">92 yards for a touchdown</a> with 10 seconds to play in the second quarter to put the Jags up 28-0.\n\n\r\n              Tuten finished with 104 yards rushing and 55 yards receiving, both career highs.\n\n\r\n              “We knew it was going to rain,” Tuten said. “We knew we were going to run the ball, and we just went out and imposed our will.”\n\n\r\n              Jacksonville finished with 183 yards on the ground five days after the Colts (2-6) traded two of their best players, defensive tackle <a href=\"https://apnews.com/article/colts-49ers-trade-deforest-buckner-660e126bfe0eeb8fa1981ccb08662e95\"><a href=\"http://www.espn.com/nfl/player/_/id/2971282/deforest-buckner\">DeForest Buckner</a></a> and longtime guard <a href=\"https://apnews.com/article/indianapolis-colts-quenton-nelson-trade-seattle-seahawks-c85ab329267f01d54ed278d7179fb1d5\"><a href=\"http://www.espn.com/nfl/player/_/id/3129308/quenton-nelson\">Quenton Nelson</a></a>, to kick-start a rebuilding effort.\n\n\r\n              Indianapolis also fired general manager Chris Ballard last month and is reportedly willing to part with Taylor.\n\n\r\n              Taylor was bottled up most of the day against Jacksonville, finishing with 23 yards on eight carries and getting saddled with a fumble on a botched trick play. He is the last player to top 100 yards rushing in a game against the Jaguars, accomplishing the feat in the 2024 regular-season finale.\n\n\r\n              Jacksonville’s run defense could get tested moving forward, though, because 335-pound nose <a href=\"http://www.espn.com/nfl/player/_/id/3915520/davon-hamilton\">DaVon Hamilton</a> sustained what looked like a season-ending right knee injury in the second quarter. Players rushed to his side, and a team trainer called for a cart to take him to the locker room. He was ruled out minutes later.\n\n\r\n              “Extremely, extremely difficult,” coach Liam Coen said. “There's not many better humans, better competitors, team guys. ... I can't say enough about him.\"\n\n\r\n              Indianapolis last won at EverBank Stadium in 2014. The 12-game skid includes a trip to London in 2016. Even during some of the Jaguars’ worst years — a one-win campaign in 2020 and a pair of three-win seasons — they managed to beat the Colts at home.\n\n\r\n              This one was never in doubt.\n\n\r\n              Coming off a bye and wearing the franchise’s new “Bold City” rivalry uniforms, Lawrence completed 10 of 14 passes for 210 yards and the Jaguars won their seventh consecutive regular-season game at home. They have outscored opponents 271-75 in those games.\n\n\r\n              “The guys, I think they were knowing that there’s a little blood in the water, that we wanted to be able to jump on these guys at home,\" Coen said. \"We haven’t been home much. Wanted to be able to put on a show for our home fan base and give the people some excitement.”\n\n\r\n              Indianapolis has dropped four in a row and 13 of 15 dating to last season.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/3917792/daniel-jones\">Daniel Jones</a> completed 19 of 28 passes for 144 yards, with a <a href=\"https://twitter.com/Colts/status/2116987039191122077\">touchdown to <a href=\"http://www.espn.com/nfl/player/_/id/4688813/josh-downs\">Josh Downs</a></a> and two interceptions. He was benched in the fourth quarter and replaced by Anthony Richardson.\n\n\r\n              <hl2>Key injuries</hl2>\r\n              Colts played without nickel cornerback <a href=\"http://www.espn.com/nfl/player/_/id/4682909/justin-walley\">Justin Walley</a>.\n\n\r\n              Jaguars had three starters besides Hamilton injured in the game: safety <a href=\"http://www.espn.com/nfl/player/_/id/2970716/eric-murray\">Eric Murray</a> (left elbow), defensive end <a href=\"http://www.espn.com/nfl/player/_/id/4426349/travon-walker\">Travon Walker</a> (right-side ribs) and right guard <a href=\"http://www.espn.com/nfl/player/_/id/4048231/ezra-cleveland\">Ezra Cleveland</a> (right ankle). Backup linebacker <a href=\"http://www.espn.com/nfl/player/_/id/4572704/branson-combs\">Branson Combs</a> (left arm) also left the game in the fourth.\n\n\r\n              <hl2>Up next</hl2>\r\n              The Colts host Dallas next Sunday.\n\n\r\n              The Jaguars play at Baltimore on Thursday night.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": []
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 0,
+      "clock": {
+        "displayValue": "5:30",
+        "value": 330.0
+      },
+      "homeScore": 7,
+      "id": "401873028475",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "JAX",
+        "displayName": "Jacksonville Jaguars",
+        "id": "30",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/jax/jacksonville-jaguars",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/jax",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/jax.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/jax.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:30"
+      },
+      "text": "Brian Thomas Jr. 12 Yd pass from Trevor Lawrence (Cam Little Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 0,
+      "clock": {
+        "displayValue": "7:14",
+        "value": 434.0
+      },
+      "homeScore": 14,
+      "id": "4018730281428",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "JAX",
+        "displayName": "Jacksonville Jaguars",
+        "id": "30",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/jax/jacksonville-jaguars",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/jax",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/jax.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/jax.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:30"
+      },
+      "text": "Nate Boerkircher 31 Yd pass from Trevor Lawrence (Cam Little Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 0,
+      "clock": {
+        "displayValue": "1:51",
+        "value": 111.0
+      },
+      "homeScore": 21,
+      "id": "4018730281838",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "JAX",
+        "displayName": "Jacksonville Jaguars",
+        "id": "30",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/jax/jacksonville-jaguars",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/jax",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/jax.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/jax.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:30"
+      },
+      "text": "Bhayshul Tuten 39 Yd Rush (Cam Little Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 0,
+      "clock": {
+        "displayValue": "0:10",
+        "value": 10.0
+      },
+      "homeScore": 28,
+      "id": "4018730282125",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "JAX",
+        "displayName": "Jacksonville Jaguars",
+        "id": "30",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/jax/jacksonville-jaguars",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/jax",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/jax.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/jax.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:30"
+      },
+      "text": "Rayuan Lane III 92 Yd Interception Return (Cam Little Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "36",
+        "text": "Interception Return Touchdown"
+      }
+    },
+    {
+      "awayScore": 0,
+      "clock": {
+        "displayValue": "9:08",
+        "value": 548.0
+      },
+      "homeScore": 35,
+      "id": "4018730282513",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "JAX",
+        "displayName": "Jacksonville Jaguars",
+        "id": "30",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/jax/jacksonville-jaguars",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/jax",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/jax.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/jax.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:30"
+      },
+      "text": "Chris Rodriguez Jr. 28 Yd Rush (Cam Little Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "3:59",
+        "value": 239.0
+      },
+      "homeScore": 35,
+      "id": "4018730282817",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "IND",
+        "displayName": "Indianapolis Colts",
+        "id": "11",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/ind/indianapolis-colts",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/ind",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:11"
+      },
+      "text": "Josh Downs 6 Yd pass from Daniel Jones (Spencer Shrader Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "0:00",
+        "value": 0.0
+      },
+      "homeScore": 42,
+      "id": "4018730283022",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "JAX",
+        "displayName": "Jacksonville Jaguars",
+        "id": "30",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/jax/jacksonville-jaguars",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/jax",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/jax.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/jax.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:30"
+      },
+      "text": "Bhayshul Tuten 25 Yd pass from Trevor Lawrence (Cam Little Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    }
+  ]
+}

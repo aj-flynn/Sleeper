@@ -1,0 +1,862 @@
+{
+  "schema": 3,
+  "meta": {
+    "title": "Rebuilders Anonymous | Week 8",
+    "league": "Rebuilders Anonymous",
+    "issue": "Week 8",
+    "issue_number": 8,
+    "season": 2026,
+    "week": 8,
+    "dateline": "Week 8, November 2026",
+    "presented_by": "Unsportsmanlike Conduct"
+  },
+  "lead": {
+    "kicker": "The expensive victory lap",
+    "headline": "Mendoza wins big, then spends bigger",
+    "dek": "A 61.64-point win sent Mendoza to the top of Elo, where the first order of business was a $122 quarterback.",
+    "stats": [
+      {
+        "value": "$122",
+        "label": "Mendoza paid for Minshew"
+      },
+      {
+        "value": "61.64",
+        "label": "Mendoza's winning margin"
+      },
+      {
+        "value": "$32",
+        "label": "Mendoza's remaining FAAB"
+      }
+    ],
+    "body": [
+      "Mendozareamazingpicks beat Micah parsons fan club 164.14-102.50, took the Elo lead and immediately went shopping for a quarterback. Gardner Minshew II cost $122, the week's largest successful bid. Apparently the view from first place includes a very alarming price tag.",
+      "Michael Wilson caught 8 passes for 111 yards and a touchdown, while Jaxon Smith-Njigba added 6 catches for 118 yards and a score. Their 50.60 combined points helped cover Jacoby Brissett's 3.46. Brissett completed 10 of 23 passes for 119 yards, threw an interception and was replaced by Minshew in Arizona's overtime win.",
+      "Mendoza released Brissett and spent another $32 on Adonai Mitchell, bringing his Wednesday purchases to $154. His remaining budget is also $32. Winning by more than sixty apparently felt too comfortable, so he arranged a separate competition against his own wallet.",
+      "Dak Side of the Sun also reached 6-2 behind Joe Burrow's 462 passing yards and five touchdown passes. Split Safety Syndicate led the week with 182.60, while hammball scored 167.44. Next comes Dak Side against Mendoza, a meeting of the league's two 6-2 teams and a useful test of whether retail therapy counts as preparation."
+    ]
+  },
+  "asides": {
+    "lead": {
+      "figure": "$154",
+      "text": "Mendoza spent that much on Minshew and Mitchell after winning by 61.64. The victory lap apparently went through checkout."
+    },
+    "rankings": {
+      "figure": "1060.82",
+      "text": "Mendoza's Elo now leads the league. Buying a quarterback remains considerably easier than buying another win."
+    },
+    "recaps": {
+      "figure": "77.54",
+      "text": "Split Safety delivered the week's widest margin against the team presenting this newsletter. Sponsorship does not include editorial protection."
+    },
+    "awards": {
+      "figure": "39.48",
+      "text": "Burrow led all starters while throwing five touchdown passes. Three interceptions were apparently his way of keeping the scoring department awake."
+    },
+    "transactions": {
+      "figure": "$175",
+      "text": "Five successful waiver claims cost that much, including hammball's zero-dollar defense. One failed bid stays outside the spending total."
+    },
+    "preview": {
+      "figure": "6-2",
+      "text": "Both Dak Side and Mendoza bring that record into their meeting. At least one contender will finally have to stop collecting wins."
+    }
+  },
+  "rankings": [
+    {
+      "rank": 1,
+      "team": "Mendozareamazingpicks",
+      "manager": "DarknessMonster",
+      "record": "6-2",
+      "elo": "1060.82",
+      "elo_change": "+14.31",
+      "take": "Mendoza climbed to first in Elo with Wilson's 111 receiving yards and Smith-Njigba's 118. He then paid $122 for Minshew, so the celebration had a finance department."
+    },
+    {
+      "rank": 2,
+      "team": "Dak Side of the Sun",
+      "manager": "SweetRavenge84",
+      "record": "6-2",
+      "elo": "1058.61",
+      "elo_change": "+10.69",
+      "take": "Burrow threw five touchdowns and ran for another while Dak Side reached 6-2. Jason Myers scored minus one, apparently worried that a functioning kicker would make this look too easy."
+    },
+    {
+      "rank": 3,
+      "team": "hammball",
+      "manager": "hammball",
+      "record": "5-3",
+      "elo": "1036.56",
+      "elo_change": "+17.12",
+      "take": "Pollard made it into the starting lineup this time and supplied 117 rushing yards with two touchdowns. Pittsburgh added eight sacks, which is an excellent way to make a fantasy defense feel like an additional running back."
+    },
+    {
+      "rank": 4,
+      "team": "J’Allen Waffle Stompers",
+      "manager": "BigJohnDeBo008",
+      "record": "5-3",
+      "elo": "1027.09",
+      "elo_change": "+13.68",
+      "take": "Higgins caught 10 passes for 155 yards and two scores, and Cousins supplied four total touchdowns. Tre Tucker's zero and Will Reichard's minus two were carried to safety without contributing to the rescue."
+    },
+    {
+      "rank": 5,
+      "team": "WELL! It's The Big Shough",
+      "manager": "KaranLuvSport",
+      "record": "5-3",
+      "elo": "1026.78",
+      "elo_change": "-17.12",
+      "take": "Tuten produced 104 rushing yards and two total touchdowns, but Shough still lost by 28.40. Travis Hunter's half point at receiver made the lineup look like it charged admission by the contribution."
+    },
+    {
+      "rank": 6,
+      "team": "Split Safety Syndicate",
+      "manager": "kylejones10",
+      "record": "5-3",
+      "elo": "1024.06",
+      "elo_change": "+16.08",
+      "take": "Chase's 11 catches for 141 yards helped Split Safety post the week's highest score. Sixth in Elo after scoring 182.60 is an excellent reason to yell at a formula that never promised to count style points."
+    },
+    {
+      "rank": 7,
+      "team": "Micah parsons fan club",
+      "manager": "Packersfan1992",
+      "record": "4-4",
+      "elo": "995.31",
+      "elo_change": "-14.31",
+      "take": "Jackson lasted one offensive snap, and Mayfield completed none of his three passes. Jacobs scored twice and McBride caught seven passes, but the fan club's quarterback meeting could have fit inside a missed field goal."
+    },
+    {
+      "rank": 8,
+      "team": "Unsportsmanlike Conduct",
+      "manager": "JeffyWaterton",
+      "record": "4-4",
+      "elo": "993.63",
+      "elo_change": "-16.08",
+      "take": "Swift ran for three touchdowns and still finished on the wrong end of a 77.54-point margin. JeffyWaterton watched Parker Washington score 3.60 at Superflex while the league supplied a fairly clear explanation of the position's name."
+    },
+    {
+      "rank": 9,
+      "team": "ThePeopleBeaters",
+      "manager": "ThePeopleBeaters",
+      "record": "3-5",
+      "elo": "968.55",
+      "elo_change": "+16.29",
+      "take": "Allgeier turned 147 rushing yards and two total touchdowns into the week-saving performance. ThePeopleBeaters won despite Omar Cooper Jr. recording no stats, which is a generous interpretation of a supporting cast."
+    },
+    {
+      "rank": 10,
+      "team": "Skat’s BruteForce Theorem",
+      "manager": "LittleTimmyFlynn",
+      "record": "2-6",
+      "elo": "948.95",
+      "elo_change": "-13.68",
+      "take": "Ward threw for 304 yards, and Emmett Johnson had five receptions for 128 yards. Skat's rookie collection offered plenty of promise, but promise remains stubbornly unavailable as a scoring category."
+    },
+    {
+      "rank": 11,
+      "team": "Kingslayers",
+      "manager": "maierz3948",
+      "record": "2-6",
+      "elo": "942.20",
+      "elo_change": "-16.29",
+      "take": "Nacua caught 11 passes, but London managed one catch for 8 yards. Kingslayers have lost four straight, and the throne room is starting to resemble a waiting room."
+    },
+    {
+      "rank": 12,
+      "team": "Rams of Steel",
+      "manager": "iemerson969",
+      "record": "1-7",
+      "elo": "917.44",
+      "elo_change": "-10.69",
+      "take": "Fannin caught 10 passes for 154 yards while Folk and the Jets defense each scored minus three. Rams of Steel reached 1-7 after finding yet another way to turn two lineup spots into an opponent benefit."
+    }
+  ],
+  "recaps": [
+    {
+      "headline": "Higgins handles the missing persons",
+      "winner": "J’Allen Waffle Stompers",
+      "w_manager": "BigJohnDeBo008",
+      "w_score": "155.74",
+      "loser": "Skat’s BruteForce Theorem",
+      "l_manager": "LittleTimmyFlynn",
+      "l_score": "135.16",
+      "margin": "20.58",
+      "body": "Tee Higgins caught 10 passes for 155 yards and two touchdowns as the Waffle Stompers won by 20.58. Kirk Cousins threw for 247 yards and three scores, then added a rushing touchdown in Las Vegas' 38-33 win over the Jets. Cam Ward's 304 passing yards and Emmett Johnson's five catches for 128 yards kept Skat competitive. Tre Tucker finished without a catch and Will Reichard scored minus two, but the Stompers' productive employees covered both absences.",
+      "w_keys": [
+        {
+          "player": "Tee Higgins",
+          "nfl_team": "CIN",
+          "pts": "37.50",
+          "line": "10 rec (11 tgt), 155 rec yds, 2 TD; 65 of 74 snaps"
+        },
+        {
+          "player": "Kirk Cousins",
+          "nfl_team": "LV",
+          "pts": "28.18",
+          "line": "19/26, 247 pass yds, 3 TD; 5 car, 3 rush yds, 1 TD; 63 of 63 snaps"
+        }
+      ],
+      "l_keys": [
+        {
+          "player": "Cam Ward",
+          "nfl_team": "TEN",
+          "pts": "26.26",
+          "line": "26/40, 304 pass yds, 2 TD; 7 car, 41 rush yds; 1 fumble lost; 77 of 77 snaps"
+        },
+        {
+          "player": "Emmett Johnson",
+          "nfl_team": "KC",
+          "pts": "25.30",
+          "line": "1 car, 15 rush yds; 5 rec (5 tgt), 128 rec yds, 1 TD; 13 of 69 snaps"
+        }
+      ]
+    },
+    {
+      "headline": "Allgeier breaks the emergency glass",
+      "winner": "ThePeopleBeaters",
+      "w_manager": "ThePeopleBeaters",
+      "w_score": "139.16",
+      "loser": "Kingslayers",
+      "l_manager": "maierz3948",
+      "l_score": "102.28",
+      "margin": "36.88",
+      "body": "Tyler Allgeier rushed for 147 yards and a touchdown, then caught five passes for 44 yards and another score as ThePeopleBeaters won by 36.88. Brock Bowers added seven catches for 92 yards and two touchdowns, making Omar Cooper Jr.'s empty stat line survivable. Puka Nacua caught 11 passes for 80 yards and a touchdown for Kingslayers, but Drake London caught one pass for 8 yards in Atlanta's shutout loss. A team named for overthrowing royalty is having considerable trouble overthrowing anyone.",
+      "w_keys": [
+        {
+          "player": "Tyler Allgeier",
+          "nfl_team": "ARI",
+          "pts": "36.10",
+          "line": "11 car, 147 rush yds, 1 TD; 5 rec (5 tgt), 44 rec yds, 1 TD; 48 of 81 snaps"
+        },
+        {
+          "player": "Brock Bowers",
+          "nfl_team": "LV",
+          "pts": "28.20",
+          "line": "7 rec (10 tgt), 92 rec yds, 2 TD; 54 of 63 snaps"
+        }
+      ],
+      "l_keys": [
+        {
+          "player": "Puka Nacua",
+          "nfl_team": "LAR",
+          "pts": "25.00",
+          "line": "11 rec (12 tgt), 80 rec yds, 1 TD; 52 of 54 snaps"
+        },
+        {
+          "player": "Mike Gesicki",
+          "nfl_team": "CIN",
+          "pts": "17.60",
+          "line": "4 rec (6 tgt), 76 rec yds, 1 TD; 50 of 74 snaps"
+        }
+      ]
+    },
+    {
+      "headline": "Burrow brings enough for everyone",
+      "winner": "Dak Side of the Sun",
+      "w_manager": "SweetRavenge84",
+      "w_score": "142.88",
+      "loser": "Rams of Steel",
+      "l_manager": "iemerson969",
+      "l_score": "105.46",
+      "margin": "37.42",
+      "body": "Joe Burrow completed 38 of 48 passes for 462 yards and five touchdowns, then ran for another score in Cincinnati's 43-36 win. Even three interceptions could not stop his 39.48 fantasy points from driving Dak Side to a 37.42-point victory. Harold Fannin Jr. caught 10 passes for 154 yards for Rams of Steel, while Rashee Rice added seven catches and a touchdown. Nick Folk missed his only field-goal attempt and the Jets allowed 38 points, leaving the Rams with minus six from kicker and defense. Burrow supplied a fireworks show; the Rams paid to have theirs removed.",
+      "w_keys": [
+        {
+          "player": "Joe Burrow",
+          "nfl_team": "CIN",
+          "pts": "39.48",
+          "line": "38/48, 462 pass yds, 5 TD, 3 INT; 3 car, 10 rush yds, 1 TD; 74 of 74 snaps"
+        },
+        {
+          "player": "Dak Prescott",
+          "nfl_team": "DAL",
+          "pts": "19.80",
+          "line": "19/29, 195 pass yds, 1 TD; 7 car, 20 rush yds, 1 TD; 74 of 74 snaps"
+        }
+      ],
+      "l_keys": [
+        {
+          "player": "Harold Fannin Jr.",
+          "nfl_team": "CLE",
+          "pts": "23.40",
+          "line": "10 rec (12 tgt), 154 rec yds; 1 fumble lost; 60 of 70 snaps"
+        },
+        {
+          "player": "Rashee Rice",
+          "nfl_team": "KC",
+          "pts": "18.30",
+          "line": "7 rec (8 tgt), 53 rec yds, 1 TD; 39 of 69 snaps"
+        }
+      ]
+    },
+    {
+      "headline": "Pollard finally gets a working time slot",
+      "winner": "hammball",
+      "w_manager": "hammball",
+      "w_score": "167.44",
+      "loser": "WELL! It's The Big Shough",
+      "l_manager": "KaranLuvSport",
+      "l_score": "139.04",
+      "margin": "28.40",
+      "body": "Tony Pollard started for hammball and delivered 117 rushing yards, two touchdowns and three catches for 20 yards. Bucky Irving added 170 rushing yards and a score, while Pittsburgh's eight sacks helped its defense produce 21.00. Bhayshul Tuten answered with 104 rushing yards, 55 receiving yards and two total touchdowns for Shough, but Travis Hunter managed only a 5-yard carry from a starting receiver spot. Hammball won by 28.40 after discovering that Pollard's touchdowns count considerably more when they happen inside the lineup.",
+      "w_keys": [
+        {
+          "player": "Tony Pollard",
+          "nfl_team": "TEN",
+          "pts": "28.70",
+          "line": "21 car, 117 rush yds, 2 TD; 3 rec (5 tgt), 20 rec yds; 63 of 77 snaps"
+        },
+        {
+          "player": "Braelon Allen",
+          "nfl_team": "NYJ",
+          "pts": "23.30",
+          "line": "21 car, 147 rush yds, 1 TD; 2 rec (2 tgt), 6 rec yds; 53 of 64 snaps"
+        }
+      ],
+      "l_keys": [
+        {
+          "player": "Bhayshul Tuten",
+          "nfl_team": "JAX",
+          "pts": "29.90",
+          "line": "16 car, 104 rush yds, 1 TD; 2 rec (2 tgt), 55 rec yds, 1 TD; 27 of 54 snaps"
+        },
+        {
+          "player": "Kyler Murray",
+          "nfl_team": "MIN",
+          "pts": "19.90",
+          "line": "17/29, 210 pass yds, 2 TD, 1 INT; 4 car, 35 rush yds; 53 of 53 snaps"
+        }
+      ]
+    },
+    {
+      "headline": "The fan club loses its headliners",
+      "winner": "Mendozareamazingpicks",
+      "w_manager": "DarknessMonster",
+      "w_score": "164.14",
+      "loser": "Micah parsons fan club",
+      "l_manager": "Packersfan1992",
+      "l_score": "102.50",
+      "margin": "61.64",
+      "body": "Michael Wilson caught eight passes for 111 yards and a touchdown, and Jaxon Smith-Njigba added six catches for 118 yards and a score. Mendoza won by 61.64 even with Brissett contributing 3.46 before his real-life benching. Lamar Jackson injured his throwing thumb on Baltimore's first offensive snap, while Baker Mayfield finished without a completion on three attempts for the fan club. Josh Jacobs scored rushing and receiving touchdowns, but there is only so much a running back can do when both quarterback slots resemble disconnected appliances.",
+      "w_keys": [
+        {
+          "player": "Michael Wilson",
+          "nfl_team": "ARI",
+          "pts": "26.80",
+          "line": "1 car, 17 rush yds; 8 rec (15 tgt), 111 rec yds, 1 TD; 64 of 81 snaps"
+        },
+        {
+          "player": "Jaxon Smith-Njigba",
+          "nfl_team": "SEA",
+          "pts": "23.80",
+          "line": "6 rec (11 tgt), 118 rec yds, 1 TD; 61 of 63 snaps"
+        }
+      ],
+      "l_keys": [
+        {
+          "player": "Josh Jacobs",
+          "nfl_team": "GB",
+          "pts": "23.20",
+          "line": "21 car, 39 rush yds, 1 TD; 6 rec (6 tgt), 13 rec yds, 1 TD; 49 of 69 snaps"
+        },
+        {
+          "player": "Trey McBride",
+          "nfl_team": "ARI",
+          "pts": "20.20",
+          "line": "7 rec (8 tgt), 72 rec yds, 1 TD; 77 of 81 snaps"
+        }
+      ]
+    },
+    {
+      "headline": "The sponsor gets the full invoice",
+      "winner": "Split Safety Syndicate",
+      "w_manager": "kylejones10",
+      "w_score": "182.60",
+      "loser": "Unsportsmanlike Conduct",
+      "l_manager": "JeffyWaterton",
+      "l_score": "105.06",
+      "margin": "77.54",
+      "body": "Ja'Marr Chase caught 11 passes for 141 yards and a touchdown as Split Safety Syndicate scored 182.60 and won by 77.54. Patrick Mahomes threw for 321 yards and three touchdowns, while Chuba Hubbard added 81 rushing yards, a rushing score and seven catches for 38 yards. D'Andre Swift's three rushing touchdowns and Drake Maye's three total scores gave Unsportsmanlike Conduct something to print on the insurance claim. JeffyWaterton still got 3.60 from Parker Washington at Superflex. The newsletter's presenting sponsor has discovered that the score does not accept ad credit.",
+      "w_keys": [
+        {
+          "player": "Ja'Marr Chase",
+          "nfl_team": "CIN",
+          "pts": "31.10",
+          "line": "11 rec (16 tgt), 141 rec yds, 1 TD; 71 of 74 snaps"
+        },
+        {
+          "player": "Patrick Mahomes",
+          "nfl_team": "KC",
+          "pts": "25.44",
+          "line": "30/41, 321 pass yds, 3 TD; 2 car, 6 rush yds; 69 of 69 snaps"
+        }
+      ],
+      "l_keys": [
+        {
+          "player": "D'Andre Swift",
+          "nfl_team": "CHI",
+          "pts": "27.90",
+          "line": "27 car, 69 rush yds, 3 TD; 2 rec (3 tgt), 10 rec yds; 54 of 70 snaps"
+        },
+        {
+          "player": "Drake Maye",
+          "nfl_team": "NE",
+          "pts": "22.46",
+          "line": "16/20, 199 pass yds, 2 TD; 8 car, 5 rush yds, 1 TD; 60 of 60 snaps"
+        }
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "name": "Manager of the Week",
+      "winner": "Split Safety Syndicate",
+      "stat": "182.60 points",
+      "body": "Chase caught 11 passes for 141 yards, Gibbs ran for 153 yards and Hubbard added seven receptions. That combination gave kylejones10 a scoring title and the presenting sponsor a very unpleasant amount of material to publish."
+    },
+    {
+      "name": "Lineup Crime",
+      "winner": "Unsportsmanlike Conduct",
+      "stat": "3.60 at Superflex",
+      "body": "Parker Washington caught one pass for 16 yards and ran once for 10. JeffyWaterton got 3.60 from a spot that can hold a quarterback, leaving Swift's three rushing touchdowns to perform community service for the rest of the lineup."
+    },
+    {
+      "name": "Floor of the Week",
+      "winner": "Micah parsons fan club",
+      "stat": "1.40 from two quarterbacks",
+      "body": "Jackson attempted one pass before his thumb injury, and Mayfield went 0-for-3 with 14 rushing yards. The injury was brutal luck; the resulting quarterback total made a one-catch tight end look like a source of financial stability."
+    },
+    {
+      "name": "Best Performance in a Loss",
+      "winner": "Bhayshul Tuten, WELL! It's The Big Shough",
+      "stat": "29.90 points",
+      "body": "Tuten ran 16 times for 104 yards and a touchdown, then caught both targets for 55 yards and a receiving touchdown. Jacksonville beat Indianapolis 42-7, but his fantasy team lost by 28.40. He completed both assignments and still got handed someone else's bad report card."
+    }
+  ],
+  "standouts": [
+    {
+      "pos": "QB",
+      "player": "Joe Burrow",
+      "nfl_team": "CIN",
+      "pts": "39.48",
+      "line": "38/48, 462 pass yds, 5 TD, 3 INT; 3 car, 10 rush yds, 1 TD; 74 of 74 snaps",
+      "team": "Dak Side of the Sun"
+    },
+    {
+      "pos": "RB",
+      "player": "Tyler Allgeier",
+      "nfl_team": "ARI",
+      "pts": "36.10",
+      "line": "11 car, 147 rush yds, 1 TD; 5 rec (5 tgt), 44 rec yds, 1 TD; 48 of 81 snaps",
+      "team": "ThePeopleBeaters"
+    },
+    {
+      "pos": "WR",
+      "player": "Tee Higgins",
+      "nfl_team": "CIN",
+      "pts": "37.50",
+      "line": "10 rec (11 tgt), 155 rec yds, 2 TD; 65 of 74 snaps",
+      "team": "J’Allen Waffle Stompers"
+    },
+    {
+      "pos": "TE",
+      "player": "Brock Bowers",
+      "nfl_team": "LV",
+      "pts": "28.20",
+      "line": "7 rec (10 tgt), 92 rec yds, 2 TD; 54 of 63 snaps",
+      "team": "ThePeopleBeaters"
+    },
+    {
+      "pos": "K",
+      "player": "Tyler Bass",
+      "nfl_team": "BUF",
+      "pts": "16.00",
+      "line": "FG 3/3 (long 56), XP 3/3",
+      "team": "Mendozareamazingpicks"
+    },
+    {
+      "pos": "DEF",
+      "player": "PIT DEF",
+      "nfl_team": "PIT",
+      "pts": "21.00",
+      "line": "6 pts allowed, 319 yds allowed, 8 sacks, 2 fumble rec",
+      "team": "hammball"
+    }
+  ],
+  "bench_note": "",
+  "injuries": [
+    {
+      "player": "Lamar Jackson",
+      "nfl_team": "BAL",
+      "team": "Micah parsons fan club",
+      "note": "November 1: injured his right throwing thumb on the first offensive snap. Baltimore announced surgery and an injured-reserve placement, with the rest of his season uncertain."
+    },
+    {
+      "player": "Tyler Huntley",
+      "nfl_team": "BAL",
+      "team": "Micah parsons fan club",
+      "note": "November 1: left in the second quarter with a toe injury. His status was uncertain in the postgame report."
+    },
+    {
+      "player": "Christian Watson",
+      "nfl_team": "GB",
+      "team": "Micah parsons fan club",
+      "note": "October 29: returned after a hospital evaluation for a chest injury and said he had broken a rib. He finished with eight catches for 113 yards."
+    },
+    {
+      "player": "Hunter Henry",
+      "nfl_team": "NE",
+      "team": "ThePeopleBeaters",
+      "note": "November 1: left in the second quarter with a foot injury and did not return."
+    },
+    {
+      "player": "Jeremiyah Love",
+      "nfl_team": "ARI",
+      "team": "Kingslayers",
+      "note": "November 1: left with another ankle injury after missing the previous two games with an ankle issue."
+    },
+    {
+      "player": "Zonovan Knight",
+      "nfl_team": "ARI",
+      "team": "J’Allen Waffle Stompers",
+      "note": "November 1: ruled out with a concussion after the hit on his lost fumble."
+    },
+    {
+      "player": "Jake Ferguson",
+      "nfl_team": "DAL",
+      "team": "Dak Side of the Sun",
+      "note": "November 1: exited in the first quarter with an ankle injury and did not return."
+    },
+    {
+      "player": "Kendrick Bourne",
+      "nfl_team": "ARI",
+      "team": "Unsportsmanlike Conduct",
+      "note": "November 1: an ankle injury ended his afternoon; he did not return."
+    },
+    {
+      "player": "Carnell Tate",
+      "nfl_team": "TEN",
+      "team": "Skat’s BruteForce Theorem",
+      "note": "November 1: inactive with a shoulder injury."
+    },
+    {
+      "player": "Tyjae Spears",
+      "nfl_team": "TEN",
+      "team": "hammball",
+      "note": "November 1: inactive with a knee injury."
+    },
+    {
+      "player": "A.J. Brown",
+      "nfl_team": "NE",
+      "team": "hammball",
+      "note": "November 1: sidelined with knee and ankle injuries."
+    },
+    {
+      "player": "TreVeyon Henderson",
+      "nfl_team": "NE",
+      "team": "Unsportsmanlike Conduct",
+      "note": "November 1: sidelined by illness."
+    },
+    {
+      "player": "Emeka Egbuka",
+      "nfl_team": "TB",
+      "team": "WELL! It's The Big Shough",
+      "note": "November 1: inactive with a foot injury."
+    },
+    {
+      "player": "Davante Adams",
+      "nfl_team": "LAR",
+      "team": "Rams of Steel",
+      "note": "November 1: missed the game with an injury; the game report did not specify the injury."
+    },
+    {
+      "player": "Jalen Hurts",
+      "nfl_team": "PHI",
+      "team": "Unsportsmanlike Conduct",
+      "note": "November 1: remained out injured as Tanner McKee made his third start in his place. No return date was given."
+    }
+  ],
+  "transactions": {
+    "stats": [
+      {
+        "value": "$175",
+        "label": "Successful waiver spending"
+      },
+      {
+        "value": "5",
+        "label": "Successful claims"
+      },
+      {
+        "value": "10",
+        "label": "Free-agent and drop-only moves"
+      }
+    ],
+    "waivers": [
+      {
+        "team": "hammball",
+        "add": "WAS DEF",
+        "pos": "DEF",
+        "nfl_team": "WAS",
+        "drop": null,
+        "faab": "$0",
+        "grade": "A",
+        "note": "A zero-dollar claim leaves hammball's full $200 intact. Washington held Philadelphia to 10 points and sacked McKee five times."
+      },
+      {
+        "team": "Dak Side of the Sun",
+        "add": "Greg Dulcich",
+        "pos": "TE",
+        "nfl_team": "MIA",
+        "drop": "Austin Ekeler",
+        "faab": "$20",
+        "grade": "C+",
+        "note": "Dak Side spends $20 and drops Ekeler for tight-end depth. Buying another option is sensible; buying a guaranteed solution is unfortunately unavailable."
+      },
+      {
+        "team": "Rams of Steel",
+        "add": "HOU DEF",
+        "pos": "DEF",
+        "nfl_team": "HOU",
+        "drop": null,
+        "faab": "$1",
+        "grade": "B",
+        "note": "The $1 replacement follows the Jets' minus three in the Rams' lineup. Houston comes off a bye, which at least spared it the opportunity to subtract last week."
+      },
+      {
+        "team": "Mendozareamazingpicks",
+        "add": "Gardner Minshew II",
+        "pos": "QB",
+        "nfl_team": "ARI",
+        "drop": null,
+        "faab": "$122",
+        "grade": "C",
+        "note": "Mendoza pays $122 after releasing Brissett, whom Minshew replaced during Arizona's overtime win. The role needs watching, and the price does not come with job security."
+      },
+      {
+        "team": "Mendozareamazingpicks",
+        "add": "Adonai Mitchell",
+        "pos": "WR",
+        "nfl_team": "NYJ",
+        "drop": "Tyler Higbee",
+        "faab": "$32",
+        "grade": "C+",
+        "note": "Another $32 goes to receiver depth, leaving Mendoza with $32 overall. Tyler Higbee exits as the shopping cart acquires a second passenger."
+      }
+    ],
+    "free_agents_label": "Free agents and drop-only moves",
+    "free_agents": [
+      {
+        "team": "Mendozareamazingpicks",
+        "add": "KC DEF",
+        "pos": "DEF",
+        "nfl_team": "KC",
+        "drop": "Tre' Harris",
+        "note": "Kansas City allowed 28 points and recorded one sack, returning 1.00 in Mendoza's lineup. The replacement defense at least kept the minus sign away."
+      },
+      {
+        "team": "J’Allen Waffle Stompers",
+        "add": null,
+        "pos": null,
+        "nfl_team": null,
+        "drop": "AJ Barner",
+        "note": "Barner later landed with Kingslayers and caught two passes for 23 yards. This roster exit turned into someone else's 4.30."
+      },
+      {
+        "team": "Dak Side of the Sun",
+        "add": "DET DEF",
+        "pos": "DEF",
+        "nfl_team": "DET",
+        "drop": "BAL DEF",
+        "note": "Detroit allowed 15 points with three sacks and an interception, delivering 6.00. Dak Side replaced Baltimore before the Bills scored 36 against it."
+      },
+      {
+        "team": "Unsportsmanlike Conduct",
+        "add": "Spencer Shrader",
+        "pos": "K",
+        "nfl_team": "IND",
+        "drop": "Drew Stevens",
+        "note": "Shrader made his only extra point and had no field-goal attempts for 1.00. JeffyWaterton replaced Stevens and received a very compact return."
+      },
+      {
+        "team": "Kingslayers",
+        "add": "Devin Singletary",
+        "pos": "RB",
+        "nfl_team": "NYG",
+        "drop": "Chris Rodriguez Jr.",
+        "note": "Kingslayers added running-back depth and moved on from Chris Rodriguez Jr. The transaction was completed; production remains a separate negotiation."
+      },
+      {
+        "team": "Kingslayers",
+        "add": "AJ Barner",
+        "pos": "TE",
+        "nfl_team": "SEA",
+        "drop": "Jalon Daniels",
+        "note": "Barner caught two of five targets for 23 yards and scored 4.30 in the starting lineup. Jalon Daniels made room for a tight end who at least saw the ball."
+      },
+      {
+        "team": "Split Safety Syndicate",
+        "add": null,
+        "pos": null,
+        "nfl_team": null,
+        "drop": "Treylon Burks",
+        "note": "Split Safety cleared a roster spot before scoring 182.60. Burks did not need to be present for the celebration."
+      },
+      {
+        "team": "Rams of Steel",
+        "add": "Elic Ayomanor",
+        "pos": "WR",
+        "nfl_team": "TEN",
+        "drop": "Darius Cooper",
+        "note": "Ayomanor caught three passes for 34 yards and supplied 6.40 in the Rams' lineup. The receiver did his part to keep the afternoon from becoming entirely theoretical."
+      },
+      {
+        "team": "Rams of Steel",
+        "add": null,
+        "pos": null,
+        "nfl_team": null,
+        "drop": "NYJ DEF",
+        "note": "The Jets allowed 38 points and supplied one sack for minus three. Rams of Steel closed the account before claiming Houston."
+      },
+      {
+        "team": "Mendozareamazingpicks",
+        "add": null,
+        "pos": null,
+        "nfl_team": null,
+        "drop": "Jacoby Brissett",
+        "note": "Brissett completed 10 of 23 passes for 119 yards and an interception before Minshew replaced him. Mendoza followed Arizona's change with a release of his own."
+      }
+    ],
+    "trades": [],
+    "no_trades": "No trades were completed in this reporting period."
+  },
+  "preview": {
+    "is_sample": false,
+    "label": "Week 9",
+    "note": "Pittsburgh and Tennessee are on bye. Cincinnati faces Atlanta in Madrid on Sunday; check the early international kickoff before setting lineups.",
+    "games": [
+      {
+        "a": "Skat’s BruteForce Theorem",
+        "b": "Kingslayers",
+        "line": "Both arrive at 2-6. Ward's 304 passing yards and Nacua's 11 catches offer more hope than either record, though someone still has to complete the rest of a lineup."
+      },
+      {
+        "a": "Rams of Steel",
+        "b": "J’Allen Waffle Stompers",
+        "line": "The Stompers bring Higgins' two-touchdown week against the 1-7 Rams. Fannin's 154 receiving yards were excellent, but Rams of Steel need help from positions that currently charge a penalty for showing up."
+      },
+      {
+        "a": "ThePeopleBeaters",
+        "b": "hammball",
+        "line": "Hammball must work around Pittsburgh and Tennessee byes, taking Pollard and the Steelers defense out of the weekly routine. ThePeopleBeaters would appreciate Allgeier keeping the emergency service open."
+      },
+      {
+        "a": "Dak Side of the Sun",
+        "b": "Mendozareamazingpicks",
+        "line": "The two 6-2 teams meet with Mendoza first in Elo and Dak Side second. Burrow's five-touchdown passing day sets a demanding standard for Mendoza's newly expensive quarterback room."
+      },
+      {
+        "a": "WELL! It's The Big Shough",
+        "b": "Split Safety Syndicate",
+        "line": "Shough meets the team that just scored 182.60. Tuten supplied two touchdowns, but another half-point receiver outing will leave him trying to stop a train with a lunch tray."
+      },
+      {
+        "a": "Micah parsons fan club",
+        "b": "Unsportsmanlike Conduct",
+        "line": "Both sit at 4-4. The fan club faces Jackson's thumb injury, while JeffyWaterton gets a chance to improve on 3.60 at Superflex before anyone commissions a plaque."
+      }
+    ]
+  },
+  "footer": {
+    "methods": "Public Sleeper scores, lineups, transactions and scoring; dated pre-cutoff ESPN game reporting. Injury entries describe dated game reports, not a current availability guarantee.",
+    "sources": [
+      {
+        "name": "Sleeper league",
+        "url": "https://api.sleeper.app/v1/league/1319718857249665024 (+ /users, /rosters, /matchups/1..9, /transactions/8, /transactions/9)"
+      },
+      {
+        "name": "GB 27, CAR 19 game report",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873023"
+      },
+      {
+        "name": "BUF 36, BAL 10 game report",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873026"
+      },
+      {
+        "name": "CIN 43, TEN 36 game report",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873031"
+      },
+      {
+        "name": "ARI 33, DAL 30 game report",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873024"
+      },
+      {
+        "name": "DET 19, MIN 15 game report",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873030"
+      },
+      {
+        "name": "LV 38, NYJ 33 game report",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873029"
+      },
+      {
+        "name": "PIT 27, CLE 6 game report",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873027"
+      },
+      {
+        "name": "TB 16, ATL 0 game report",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873025"
+      },
+      {
+        "name": "JAX 42, IND 7 game report",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873028"
+      },
+      {
+        "name": "LAR 24, LAC 9 game report",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873032"
+      },
+      {
+        "name": "DEN 28, KC 24 game report",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873033"
+      },
+      {
+        "name": "NE 24, MIA 19 game report",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873034"
+      },
+      {
+        "name": "WAS 27, PHI 10 game report",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873035"
+      },
+      {
+        "name": "CHI 34, SEA 17 game report",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873036"
+      }
+    ],
+    "credit": ""
+  },
+  "derived": [
+    {
+      "value": "50.60",
+      "expr": "26.8 + 23.8",
+      "why": "Wilson and Smith-Njigba starter points combined."
+    },
+    {
+      "value": "154",
+      "expr": "122 + 32",
+      "why": "Mendoza successful Wednesday waiver spending."
+    },
+    {
+      "value": "175",
+      "expr": "0 + 20 + 1 + 122 + 32",
+      "why": "Five successful claims only; failed bid excluded."
+    },
+    {
+      "value": "6",
+      "expr": "3 + 3",
+      "why": "Magnitude of Rams kicker and defense total, both minus three."
+    },
+    {
+      "value": "1.40",
+      "expr": "0 + 1.4",
+      "why": "Fan club Jackson and Mayfield starter points combined."
+    }
+  ]
+}

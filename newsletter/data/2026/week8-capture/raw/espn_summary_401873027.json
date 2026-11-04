@@ -1,0 +1,779 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "Pittsburgh Steelers",
+        "guid": "debcd592-8d53-71f1-fc15-5c8b8ef9df6e",
+        "id": 2776,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "PIT",
+          "description": "Pittsburgh Steelers",
+          "id": 23,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/pit/pittsburgh-steelers"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/pit/pittsburgh-steelers"
+              }
+            }
+          },
+          "shortDisplayName": "Steelers"
+        },
+        "teamId": 23,
+        "type": "team",
+        "uid": "s:20~l:28~t:23"
+      },
+      {
+        "description": "Cleveland Browns",
+        "guid": "539babc5-e5fb-753b-8ae1-c15032a91ef4",
+        "id": 2719,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "CLE",
+          "description": "Cleveland Browns",
+          "id": 5,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/cle/cleveland-browns"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/cle/cleveland-browns"
+              }
+            }
+          },
+          "shortDisplayName": "Browns"
+        },
+        "teamId": 5,
+        "type": "team",
+        "uid": "s:20~l:28~t:5"
+      },
+      {
+        "description": "Cleveland Browns @ Pittsburgh Steelers",
+        "event": {
+          "description": "Cleveland Browns @ Pittsburgh Steelers",
+          "id": 401873027,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873027"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873027"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873027,
+        "guid": "046a0f5d-491e-3341-a89a-fa687533fc65",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873027"
+      }
+    ],
+    "categorized": "2026-11-02T16:17:58Z",
+    "contentKey": "50351184-1-21-1",
+    "dataSourceIdentifier": "fedfc98e1b40d",
+    "description": "— The Pittsburgh Steelers spent all week hearing the chatter coming from Cleveland, then spent all Sunday emphatically and repeatedly putting their longtime rivals in their place.",
+    "gameId": "401873027",
+    "headline": "Steelers bulldoze Browns 27-6 to take AFC North lead, extend home streak over rivals to 23 straight",
+    "id": 50351184,
+    "images": [
+      {
+        "caption": "Pittsburgh Steelers vs. Cleveland Browns Game Highlights",
+        "height": 324,
+        "name": "Pittsburgh Steelers vs. Cleveland Browns Game Highlights",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/edb66ea3-ddb6-450a-b62a-7deaced0aa25/edb66ea3-ddb6-450a-b62a-7deaced0aa25.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "Pittsburgh Steelers",
+      "Cleveland Browns",
+      "Cleveland Browns @ Pittsburgh Steelers"
+    ],
+    "lastModified": "2026-11-01T23:12:47Z",
+    "linkText": "Steelers bulldoze Browns 27-6 to take AFC North lead, extend home streak over rivals to 23 straight",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50351184"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50351184"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50351184"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873027"
+      }
+    },
+    "nowId": "1-50351184",
+    "originallyPosted": "2026-11-01T21:17:46Z",
+    "premium": false,
+    "published": "2026-11-01T21:17:46Z",
+    "publishedkey": "nfl401873027",
+    "section": "NFL",
+    "source": "AP",
+    "story": "PITTSBURGH -- — The <a href=\"http://www.espn.com/nfl/team/_/name/pit/pittsburgh-steelers\">Pittsburgh Steelers</a> spent all week hearing the chatter coming from Cleveland, then spent all Sunday emphatically and repeatedly putting their longtime rivals in their place.\n\n\r\n              Maybe better days are coming for <a href=\"http://www.espn.com/nfl/player/_/id/3122840/deshaun-watson\">Deshaun Watson</a>, <a href=\"http://www.espn.com/nfl/player/_/id/4578085/jared-verse\">Jared Verse</a> and company. They're just not here yet. \n\n\r\n              At least not in Pittsburgh, where <a href=\"https://apnews.com/article/browns-steelers-monken-watson-48b09a48608b1755ccac445ad3ec02b2\">the Browns remain the Browns</a>.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4569987/jaylen-warren\">Jaylen Warren</a> tied a career high with 143 yards rushing and a touchdown on his 28th birthday, and <a href=\"https://apnews.com/hub/pittsburgh-steelers\">the Steelers</a> (6-2) moved into first place in the AFC North with a dominant 27-6 victory.\n\n\r\n              The Steelers sacked Watson eight times, and Pittsburgh piled up 200 yards on the ground to beat the Browns (5-3) for the 23rd straight time in the regular season at Acrisure Stadium, tying the NFL record for consecutive home victories over an opponent. Green Bay won 23 in a row against Detroit from 1992 to 2014.\n\n\r\n              “It kind of sends a message to the rest of the division, like we’re here to play,” Steelers right guard <a href=\"http://www.espn.com/nfl/player/_/id/4241087/brock-hoffman\">Brock Hoffman</a> said. “We’re here to be physical. We play the game the right way on both sides of the ball up front, and that’s what we want as our identity.”\n\n\r\n              It's an identity Cleveland (5-3) is trying to build, too. The Browns believe they're on their way, and Verse raised eyebrows in the run-up by saying it was time for Cleveland to take the two-hour drive southeast and “make Pittsburgh ours.”\n\n\r\n              It didn't quite turn out like that. It rarely does when the Browns play the Steelers on the road. \n\n\r\n              The Pittsburgh offensive line that Verse openly questioned spent three-plus hours bullying the Browns in general and the 2024 Defensive Rookie of the Year in particular. \n\n\r\n              “I stand by everything I say,” said Verse, who was held to one assisted tackle. “As a man, you have to naturally do that. We could’ve definitely did more to present ourselves as the team that we are. I don’t know who the hell that team was that walked out there.”\n\n\r\n              Verse called out Steelers left guard <a href=\"http://www.espn.com/nfl/player/_/id/4368304/mason-mccormick\">Mason McCormick</a> for slamming him into the ground head-first during a Pittsburgh field goal attempt in the first quarter, describing it as “an uncalled-for play.”\n\n\r\n              McCormick, who said he didn’t know it was Verse in the moment, drew a flag for unnecessary roughness. Not that it mattered. By the fourth quarter, the Steelers were up by three touchdowns, the clock was running, and Verse’s swagger had been replaced by silence.\n\n\r\n              “Well, what can you say when you’re down 27-6, whatever the score was?” Pittsburgh left tackle <a href=\"http://www.espn.com/nfl/player/_/id/4427170/troy-fautanu\">Troy Fautanu</a> said. “There’s not really much else you can say.”\n\n\r\n              The Steelers avenged <a href=\"https://apnews.com/article/steelers-browns-score-81887ac70308420c68610f99c16bd0f7\">a road loss</a> to <a href=\"https://apnews.com/hub/cleveland-browns\">the Browns</a> (5-3) a month ago by reminding Cleveland that while the faces may change, the result when the Browns play in Pittsburgh does not.\n\n\r\n              Warren, in the midst of a breakout year, and backfield mate <a href=\"http://www.espn.com/nfl/player/_/id/4038815/rico-dowdle\">Rico Dowdle</a> ran through gaping holes on a day the Steelers ran for three touchdowns, two more than they had managed all year coming in.\n\n\r\n              “It was good to see that,” Warren said. “Especially (after) the shaky start of the year. Like I said, (Dowdle), that's my brother. Seeing him successful makes all of us happy. That's what makes us great.”\n\n\r\n              Dowdle's 56 yards rushing included a 9-yard sprint up the middle to the end zone in the first quarter that gave Pittsburgh a lead it never came close to squandering. The Steelers scored on four of their next five possessions, <a href=\"https://x.com/NFL/status/2116976700638843333?a=isTiBUats--fLhwFFtCw&s=20\">including a 1-yard plunge</a> by tight end <a href=\"http://www.espn.com/nfl/player/_/id/4361411/pat-freiermuth\">Pat Freiermuth</a> on a tush push on the penultimate play of the first half that put Pittsburgh up 20-6.\n\n\r\n              The play carried some risk. There were 5 seconds on the clock at the snap, and the Steelers didn't have any timeouts. If Freiermuth had been stopped, the half would have ended, potentially giving the Browns some juice. Instead, the left side of the Pittsburgh line surged forward and the play ended with the ball — and at least a half-dozen men in black and yellow — well over the goal line, Freiermuth included.\n\n\r\n              “It's a group we have tremendous faith in,” Steelers coach Mike McCarthy said.\n\n\r\n              When <a href=\"http://www.espn.com/nfl/player/_/id/8439/aaron-rodgers\">Aaron Rodgers</a> hit 6-foot-7, 300-pound tight end <a href=\"http://www.espn.com/nfl/player/_/id/4430802/darnell-washington\">Darnell Washington</a> for a 58-yard catch-and-rumble early in the third quarter that set up Warren's 1-yard touchdown dive, the Steelers were firmly in control and the late magic Watson summoned five times over the season's first two months was nowhere to be found.\n\n\r\n              Watson, under pressure from the opening possession, passed for 324 yards, many of them in garbage time. He exited briefly in the first quarter after taking a late shot from Pittsburgh's <a href=\"http://www.espn.com/nfl/player/_/id/4570044/jaquan-brisker\">Jaquan Brisker</a>. <a href=\"http://www.espn.com/nfl/player/_/id/4432762/shedeur-sanders\">Shedeur Sanders</a> came in for a couple of chaotic plays, with his stint ending on a fumble by <a href=\"http://www.espn.com/nfl/player/_/id/5083076/harold-fannin-jr\">Harold Fannin Jr</a>.\n\n\r\n              The Browns fumbled on their next possession, too.\n\n\r\n              “There’s no doubt about it, we’re certainly capable of a hell of a lot better than that,” first-year Cleveland coach Todd Monken said. “It’s a good learning lesson from this young team that it’s week to week. Bottom line in this league is you speak with your play, and we didn’t play well enough today.”\n\n\r\n              <hl2>Injuries</hl2>\r\n              Cleveland: Defensive tackle <a href=\"http://www.espn.com/nfl/player/_/id/3040471/maliek-collins\">Maliek Collins</a> sustained an elbow injury in the first half. Cornerback <a href=\"http://www.espn.com/nfl/player/_/id/4379397/tyson-campbell\">Tyson Campbell</a> was evaluated for a possible concussion.\n\n\r\n              <hl2>Up next</hl2>\r\n              Browns: Visit New Orleans next Sunday.\n\n\r\n              Steelers: After a bye, visit Cincinnati on Nov. 15.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": []
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 0,
+      "clock": {
+        "displayValue": "7:57",
+        "value": 477.0
+      },
+      "homeScore": 7,
+      "id": "401873027627",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "PIT",
+        "displayName": "Pittsburgh Steelers",
+        "id": "23",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/pit/pittsburgh-steelers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/pit",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:23"
+      },
+      "text": "Rico Dowdle 9 Yd Rush (Chris Boswell Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 0,
+      "clock": {
+        "displayValue": "14:05",
+        "value": 845.0
+      },
+      "homeScore": 10,
+      "id": "4018730271109",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "PIT",
+        "displayName": "Pittsburgh Steelers",
+        "id": "23",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/pit/pittsburgh-steelers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/pit",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:23"
+      },
+      "text": "Chris Boswell 20 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "8:43",
+        "value": 523.0
+      },
+      "homeScore": 10,
+      "id": "4018730271410",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "CLE",
+        "displayName": "Cleveland Browns",
+        "id": "5",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/cle/cleveland-browns",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/cle",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/cle.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/cle.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:5"
+      },
+      "text": "Andre Szmyt 32 Yd Field Goal ",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "3:27",
+        "value": 207.0
+      },
+      "homeScore": 13,
+      "id": "4018730271692",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "PIT",
+        "displayName": "Pittsburgh Steelers",
+        "id": "23",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/pit/pittsburgh-steelers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/pit",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:23"
+      },
+      "text": "Chris Boswell 37 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 6,
+      "clock": {
+        "displayValue": "0:45",
+        "value": 45.0
+      },
+      "homeScore": 13,
+      "id": "4018730271966",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "CLE",
+        "displayName": "Cleveland Browns",
+        "id": "5",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/cle/cleveland-browns",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/cle",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/cle.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/cle.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:5"
+      },
+      "text": "Andre Szmyt 49 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 6,
+      "clock": {
+        "displayValue": "0:01",
+        "value": 1.0
+      },
+      "homeScore": 20,
+      "id": "4018730272170",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "PIT",
+        "displayName": "Pittsburgh Steelers",
+        "id": "23",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/pit/pittsburgh-steelers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/pit",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:23"
+      },
+      "text": "Pat Freiermuth 1 Yd Rush (Chris Boswell Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 6,
+      "clock": {
+        "displayValue": "9:39",
+        "value": 579.0
+      },
+      "homeScore": 27,
+      "id": "4018730272588",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "PIT",
+        "displayName": "Pittsburgh Steelers",
+        "id": "23",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/pit/pittsburgh-steelers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/pit",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/pit.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:23"
+      },
+      "text": "Jaylen Warren 1 Yd Rush (Chris Boswell Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    }
+  ]
+}

@@ -1,5 +1,14 @@
 {
-  "cutoff": "2026-10-28T12:00:00Z",
+  "corrections": [
+    {
+      "affected_week": 7,
+      "corrected_source": "newsletter/data/2026/week8-capture/raw/sleeper_matchups_w7.json",
+      "observed_utc": "2026-11-04T13:05:45.336475Z",
+      "original_source": "newsletter/data/2026/week7-capture/raw/sleeper_matchups_w7.json",
+      "reason": "Live Sleeper Week 7 matchup changed SF defense starter points from -1.00 to 0.00 for roster 8, increasing its total from 116.60 to 117.60. Winners and Elo unchanged. W/L/PF/PA and Elo recomputed together through Week 8; no extra game or transaction appended."
+    }
+  ],
+  "cutoff": "2026-11-04T13:00:00Z",
   "elo": {
     "k": 32,
     "league_id": "1319718857249665024",
@@ -406,6 +415,56 @@
           "elo": 1019.44,
           "team": "hammball"
         }
+      },
+      "8": {
+        "1": {
+          "elo": 948.95,
+          "team": "Skat’s BruteForce Theorem"
+        },
+        "10": {
+          "elo": 995.31,
+          "team": "Micah parsons fan club"
+        },
+        "11": {
+          "elo": 993.63,
+          "team": "Unsportsmanlike Conduct"
+        },
+        "12": {
+          "elo": 1027.09,
+          "team": "J’Allen Waffle Stompers"
+        },
+        "2": {
+          "elo": 968.55,
+          "team": "ThePeopleBeaters"
+        },
+        "3": {
+          "elo": 1058.61,
+          "team": "Dak Side of the Sun"
+        },
+        "4": {
+          "elo": 1026.78,
+          "team": "WELL! It's The Big Shough"
+        },
+        "5": {
+          "elo": 1024.06,
+          "team": "Split Safety Syndicate"
+        },
+        "6": {
+          "elo": 917.44,
+          "team": "Rams of Steel "
+        },
+        "7": {
+          "elo": 942.2,
+          "team": "Kingslayers"
+        },
+        "8": {
+          "elo": 1060.82,
+          "team": "Mendozareamazingpicks"
+        },
+        "9": {
+          "elo": 1036.56,
+          "team": "hammball"
+        }
       }
     }
   },
@@ -446,11 +505,11 @@
       "spent": 18
     },
     "3": {
-      "api_spent_at_fetch": 0,
+      "api_spent_at_fetch": 20,
       "net_transfers": 0,
       "reconciled": true,
-      "remaining": 200,
-      "spent": 0
+      "remaining": 180,
+      "spent": 20
     },
     "4": {
       "api_spent_at_fetch": 54,
@@ -467,11 +526,11 @@
       "spent": 150
     },
     "6": {
-      "api_spent_at_fetch": 171,
+      "api_spent_at_fetch": 172,
       "net_transfers": 0,
       "reconciled": true,
-      "remaining": 29,
-      "spent": 171
+      "remaining": 28,
+      "spent": 172
     },
     "7": {
       "api_spent_at_fetch": 44,
@@ -481,11 +540,11 @@
       "spent": 44
     },
     "8": {
-      "api_spent_at_fetch": 14,
+      "api_spent_at_fetch": 168,
       "net_transfers": 0,
       "reconciled": true,
-      "remaining": 186,
-      "spent": 14
+      "remaining": 32,
+      "spent": 168
     },
     "9": {
       "api_spent_at_fetch": 0,
@@ -501,7 +560,7 @@
     "IR/taxi history unavailable; retrospective live APIs may include later stat corrections"
   ],
   "observation_kind": "retrospective_retrieval",
-  "retrieved_utc": "2026-10-28T14:35:53.429349+00:00",
+  "retrieved_utc": "2026-11-04T13:05:45.336475Z",
   "schema": 1,
   "season": "2026",
   "team_names_observed": [
@@ -578,7 +637,7 @@
       "team": "J’Allen Waffle Stompers"
     }
   ],
-  "through_week": 7,
+  "through_week": 8,
   "transactions": [
     {
       "adds": {
@@ -5741,6 +5800,420 @@
       "transaction_id": "1421137809514795008",
       "type": "free_agent",
       "waiver_budget": []
+    },
+    {
+      "adds": {
+        "KC": 8
+      },
+      "consenter_ids": [
+        8
+      ],
+      "created": 1793216237054,
+      "creator": "1356115626329923584",
+      "draft_picks": [],
+      "drops": {
+        "12509": 8
+      },
+      "leg": 8,
+      "metadata": null,
+      "roster_ids": [
+        8
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1793216237054,
+      "transaction_id": "1421255545725145088",
+      "type": "free_agent",
+      "waiver_budget": []
+    },
+    {
+      "adds": null,
+      "consenter_ids": [
+        12
+      ],
+      "created": 1793220413761,
+      "creator": "1367167398649565184",
+      "draft_picks": [],
+      "drops": {
+        "11603": 12
+      },
+      "leg": 8,
+      "metadata": null,
+      "roster_ids": [
+        12
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1793220413761,
+      "transaction_id": "1421273064108257280",
+      "type": "free_agent",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
+        "DET": 3
+      },
+      "consenter_ids": [
+        3
+      ],
+      "created": 1793239476486,
+      "creator": "1319446801392095232",
+      "draft_picks": [],
+      "drops": {
+        "BAL": 3
+      },
+      "leg": 8,
+      "metadata": null,
+      "roster_ids": [
+        3
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1793239476486,
+      "transaction_id": "1421353018971942912",
+      "type": "free_agent",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
+        "12185": 11
+      },
+      "consenter_ids": [
+        11
+      ],
+      "created": 1793291776557,
+      "creator": "1366153680109203456",
+      "draft_picks": [],
+      "drops": {
+        "13968": 11
+      },
+      "leg": 8,
+      "metadata": null,
+      "roster_ids": [
+        11
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1793291776557,
+      "transaction_id": "1421572381368950784",
+      "type": "free_agent",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
+        "6130": 7
+      },
+      "consenter_ids": [
+        7
+      ],
+      "created": 1793316613112,
+      "creator": "1356084801446121472",
+      "draft_picks": [],
+      "drops": {
+        "10219": 7
+      },
+      "leg": 8,
+      "metadata": null,
+      "roster_ids": [
+        7
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1793316613112,
+      "transaction_id": "1421676553426759680",
+      "type": "free_agent",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
+        "11603": 7
+      },
+      "consenter_ids": [
+        7
+      ],
+      "created": 1793316691542,
+      "creator": "1356084801446121472",
+      "draft_picks": [],
+      "drops": {
+        "13425": 7
+      },
+      "leg": 8,
+      "metadata": null,
+      "roster_ids": [
+        7
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1793316691542,
+      "transaction_id": "1421676882390233088",
+      "type": "free_agent",
+      "waiver_budget": []
+    },
+    {
+      "adds": null,
+      "consenter_ids": [
+        5
+      ],
+      "created": 1793533355552,
+      "creator": "649471208764682240",
+      "draft_picks": [],
+      "drops": {
+        "8135": 5
+      },
+      "leg": 8,
+      "metadata": null,
+      "roster_ids": [
+        5
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1793533355552,
+      "transaction_id": "1422585637109780480",
+      "type": "free_agent",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
+        "12499": 6
+      },
+      "consenter_ids": [
+        6
+      ],
+      "created": 1793543585185,
+      "creator": "1321165369498402816",
+      "draft_picks": [],
+      "drops": {
+        "13150": 6
+      },
+      "leg": 8,
+      "metadata": null,
+      "roster_ids": [
+        6
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1793543585185,
+      "transaction_id": "1422628543300407296",
+      "type": "free_agent",
+      "waiver_budget": []
+    },
+    {
+      "adds": null,
+      "consenter_ids": [
+        6
+      ],
+      "created": 1793712529616,
+      "creator": "1321165369498402816",
+      "draft_picks": [],
+      "drops": {
+        "NYJ": 6
+      },
+      "leg": 8,
+      "metadata": null,
+      "roster_ids": [
+        6
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1793712529616,
+      "transaction_id": "1423337147607318528",
+      "type": "free_agent",
+      "waiver_budget": []
+    },
+    {
+      "adds": null,
+      "consenter_ids": [
+        8
+      ],
+      "created": 1793765906995,
+      "creator": "1356115626329923584",
+      "draft_picks": [],
+      "drops": {
+        "3257": 8
+      },
+      "leg": 8,
+      "metadata": null,
+      "roster_ids": [
+        8
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1793765906995,
+      "transaction_id": "1423561028561547264",
+      "type": "free_agent",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
+        "WAS": 9
+      },
+      "consenter_ids": [
+        9
+      ],
+      "created": 1793701665689,
+      "creator": "1321703323350364160",
+      "draft_picks": [],
+      "drops": null,
+      "leg": 8,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      },
+      "roster_ids": [
+        9
+      ],
+      "settings": {
+        "seq": 4,
+        "waiver_bid": 0
+      },
+      "status": "complete",
+      "status_updated": 1793779539036,
+      "transaction_id": "1423291580994822144",
+      "type": "waiver",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
+        "WAS": 9
+      },
+      "consenter_ids": [
+        9
+      ],
+      "created": 1793701750434,
+      "creator": "1321703323350364160",
+      "draft_picks": [],
+      "drops": null,
+      "leg": 8,
+      "metadata": {
+        "notes": "This player was claimed by another owner."
+      },
+      "roster_ids": [
+        9
+      ],
+      "settings": {
+        "seq": 5,
+        "waiver_bid": 0
+      },
+      "status": "failed",
+      "status_updated": 1793779539036,
+      "transaction_id": "1423291936436940800",
+      "type": "waiver",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
+        "8172": 3
+      },
+      "consenter_ids": [
+        3
+      ],
+      "created": 1793705541274,
+      "creator": "1319446801392095232",
+      "draft_picks": [],
+      "drops": {
+        "4663": 3
+      },
+      "leg": 8,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      },
+      "roster_ids": [
+        3
+      ],
+      "settings": {
+        "seq": 2,
+        "waiver_bid": 20
+      },
+      "status": "complete",
+      "status_updated": 1793779539036,
+      "transaction_id": "1423307836376485888",
+      "type": "waiver",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
+        "HOU": 6
+      },
+      "consenter_ids": [
+        6
+      ],
+      "created": 1793712557434,
+      "creator": "1321165369498402816",
+      "draft_picks": [],
+      "drops": null,
+      "leg": 8,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      },
+      "roster_ids": [
+        6
+      ],
+      "settings": {
+        "seq": 3,
+        "waiver_bid": 1
+      },
+      "status": "complete",
+      "status_updated": 1793779539036,
+      "transaction_id": "1423337264284471296",
+      "type": "waiver",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
+        "6011": 8
+      },
+      "consenter_ids": [
+        8
+      ],
+      "created": 1793765922747,
+      "creator": "1356115626329923584",
+      "draft_picks": [],
+      "drops": null,
+      "leg": 8,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      },
+      "roster_ids": [
+        8
+      ],
+      "settings": {
+        "seq": 0,
+        "waiver_bid": 122
+      },
+      "status": "complete",
+      "status_updated": 1793779539036,
+      "transaction_id": "1423561094626074624",
+      "type": "waiver",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
+        "11625": 8
+      },
+      "consenter_ids": [
+        8
+      ],
+      "created": 1793766022181,
+      "creator": "1356115626329923584",
+      "draft_picks": [],
+      "drops": {
+        "3271": 8
+      },
+      "leg": 8,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      },
+      "roster_ids": [
+        8
+      ],
+      "settings": {
+        "seq": 1,
+        "waiver_bid": 32
+      },
+      "status": "complete",
+      "status_updated": 1793779539036,
+      "transaction_id": "1423561511682560000",
+      "type": "waiver",
+      "waiver_budget": []
     }
   ],
   "weeks": {
@@ -7668,7 +8141,7 @@
           "matchup_id": 6,
           "opponent_id": 8,
           "points": 113.72,
-          "points_against": 116.6,
+          "points_against": 117.6,
           "result": "L",
           "roster_id": 5,
           "starter_total": 113.72
@@ -7700,11 +8173,11 @@
           "elo_change": 15.67,
           "matchup_id": 6,
           "opponent_id": 5,
-          "points": 116.6,
+          "points": 117.6,
           "points_against": 113.72,
           "result": "W",
           "roster_id": 8,
-          "starter_total": 116.6
+          "starter_total": 117.6
         },
         {
           "elo": 1019.44,
@@ -7773,7 +8246,7 @@
         {
           "l": 2,
           "pa": 963.34,
-          "pf": 1063.08,
+          "pf": 1064.08,
           "results": [
             "W",
             "L",
@@ -7808,7 +8281,7 @@
         },
         {
           "l": 3,
-          "pa": 908.56,
+          "pa": 909.56,
           "pf": 1100.62,
           "results": [
             "W",
@@ -7958,6 +8431,372 @@
             "L",
             "L",
             "W",
+            "L",
+            "L",
+            "L",
+            "L"
+          ],
+          "roster_id": 6,
+          "t": 0,
+          "team": "Rams of Steel ",
+          "w": 1
+        }
+      ]
+    },
+    "8": {
+      "results": [
+        {
+          "elo": 948.95,
+          "elo_change": -13.68,
+          "matchup_id": 1,
+          "opponent_id": 12,
+          "points": 135.16,
+          "points_against": 155.74,
+          "result": "L",
+          "roster_id": 1,
+          "starter_total": 135.16
+        },
+        {
+          "elo": 968.55,
+          "elo_change": 16.29,
+          "matchup_id": 2,
+          "opponent_id": 7,
+          "points": 139.16,
+          "points_against": 102.28,
+          "result": "W",
+          "roster_id": 2,
+          "starter_total": 139.16
+        },
+        {
+          "elo": 1058.61,
+          "elo_change": 10.69,
+          "matchup_id": 3,
+          "opponent_id": 6,
+          "points": 142.88,
+          "points_against": 105.46,
+          "result": "W",
+          "roster_id": 3,
+          "starter_total": 142.88
+        },
+        {
+          "elo": 1026.78,
+          "elo_change": -17.12,
+          "matchup_id": 4,
+          "opponent_id": 9,
+          "points": 139.04,
+          "points_against": 167.44,
+          "result": "L",
+          "roster_id": 4,
+          "starter_total": 139.04
+        },
+        {
+          "elo": 1024.06,
+          "elo_change": 16.08,
+          "matchup_id": 6,
+          "opponent_id": 11,
+          "points": 182.6,
+          "points_against": 105.06,
+          "result": "W",
+          "roster_id": 5,
+          "starter_total": 182.6
+        },
+        {
+          "elo": 917.44,
+          "elo_change": -10.69,
+          "matchup_id": 3,
+          "opponent_id": 3,
+          "points": 105.46,
+          "points_against": 142.88,
+          "result": "L",
+          "roster_id": 6,
+          "starter_total": 105.46
+        },
+        {
+          "elo": 942.2,
+          "elo_change": -16.29,
+          "matchup_id": 2,
+          "opponent_id": 2,
+          "points": 102.28,
+          "points_against": 139.16,
+          "result": "L",
+          "roster_id": 7,
+          "starter_total": 102.28
+        },
+        {
+          "elo": 1060.82,
+          "elo_change": 14.31,
+          "matchup_id": 5,
+          "opponent_id": 10,
+          "points": 164.14,
+          "points_against": 102.5,
+          "result": "W",
+          "roster_id": 8,
+          "starter_total": 164.14
+        },
+        {
+          "elo": 1036.56,
+          "elo_change": 17.12,
+          "matchup_id": 4,
+          "opponent_id": 4,
+          "points": 167.44,
+          "points_against": 139.04,
+          "result": "W",
+          "roster_id": 9,
+          "starter_total": 167.44
+        },
+        {
+          "elo": 995.31,
+          "elo_change": -14.31,
+          "matchup_id": 5,
+          "opponent_id": 8,
+          "points": 102.5,
+          "points_against": 164.14,
+          "result": "L",
+          "roster_id": 10,
+          "starter_total": 102.5
+        },
+        {
+          "elo": 993.63,
+          "elo_change": -16.08,
+          "matchup_id": 6,
+          "opponent_id": 5,
+          "points": 105.06,
+          "points_against": 182.6,
+          "result": "L",
+          "roster_id": 11,
+          "starter_total": 105.06
+        },
+        {
+          "elo": 1027.09,
+          "elo_change": 13.68,
+          "matchup_id": 1,
+          "opponent_id": 1,
+          "points": 155.74,
+          "points_against": 135.16,
+          "result": "W",
+          "roster_id": 12,
+          "starter_total": 155.74
+        }
+      ],
+      "standings": [
+        {
+          "l": 2,
+          "pa": 1129.12,
+          "pf": 1231.44,
+          "results": [
+            "L",
+            "W",
+            "L",
+            "W",
+            "W",
+            "W",
+            "W",
+            "W"
+          ],
+          "roster_id": 3,
+          "t": 0,
+          "team": "Dak Side of the Sun",
+          "w": 6
+        },
+        {
+          "l": 2,
+          "pa": 1065.84,
+          "pf": 1228.22,
+          "results": [
+            "W",
+            "L",
+            "W",
+            "L",
+            "W",
+            "W",
+            "W",
+            "W"
+          ],
+          "roster_id": 8,
+          "t": 0,
+          "team": "Mendozareamazingpicks",
+          "w": 6
+        },
+        {
+          "l": 3,
+          "pa": 1014.62,
+          "pf": 1283.22,
+          "results": [
+            "W",
+            "W",
+            "W",
+            "L",
+            "L",
+            "W",
+            "L",
+            "W"
+          ],
+          "roster_id": 5,
+          "t": 0,
+          "team": "Split Safety Syndicate",
+          "w": 5
+        },
+        {
+          "l": 3,
+          "pa": 1095.2,
+          "pf": 1168.12,
+          "results": [
+            "W",
+            "W",
+            "L",
+            "L",
+            "W",
+            "W",
+            "L",
+            "W"
+          ],
+          "roster_id": 12,
+          "t": 0,
+          "team": "J’Allen Waffle Stompers",
+          "w": 5
+        },
+        {
+          "l": 3,
+          "pa": 1095.52,
+          "pf": 1151.8,
+          "results": [
+            "L",
+            "L",
+            "W",
+            "W",
+            "W",
+            "L",
+            "W",
+            "W"
+          ],
+          "roster_id": 9,
+          "t": 0,
+          "team": "hammball",
+          "w": 5
+        },
+        {
+          "l": 3,
+          "pa": 1033.34,
+          "pf": 1060.8,
+          "results": [
+            "L",
+            "W",
+            "L",
+            "W",
+            "W",
+            "W",
+            "W",
+            "L"
+          ],
+          "roster_id": 4,
+          "t": 0,
+          "team": "WELL! It's The Big Shough",
+          "w": 5
+        },
+        {
+          "l": 4,
+          "pa": 1151.28,
+          "pf": 1153.52,
+          "results": [
+            "W",
+            "W",
+            "L",
+            "L",
+            "W",
+            "W",
+            "L",
+            "L"
+          ],
+          "roster_id": 11,
+          "t": 0,
+          "team": "Unsportsmanlike Conduct",
+          "w": 4
+        },
+        {
+          "l": 4,
+          "pa": 1130.28,
+          "pf": 1121.68,
+          "results": [
+            "W",
+            "W",
+            "L",
+            "W",
+            "L",
+            "L",
+            "W",
+            "L"
+          ],
+          "roster_id": 10,
+          "t": 0,
+          "team": "Micah parsons fan club",
+          "w": 4
+        },
+        {
+          "l": 5,
+          "pa": 1158.44,
+          "pf": 1094.02,
+          "results": [
+            "W",
+            "L",
+            "L",
+            "W",
+            "L",
+            "L",
+            "L",
+            "W"
+          ],
+          "roster_id": 2,
+          "t": 0,
+          "team": "ThePeopleBeaters",
+          "w": 3
+        },
+        {
+          "l": 6,
+          "pa": 1222.68,
+          "pf": 999.36,
+          "results": [
+            "L",
+            "L",
+            "W",
+            "W",
+            "L",
+            "L",
+            "L",
+            "L"
+          ],
+          "roster_id": 7,
+          "t": 0,
+          "team": "Kingslayers",
+          "w": 2
+        },
+        {
+          "l": 6,
+          "pa": 1096.28,
+          "pf": 964.94,
+          "results": [
+            "L",
+            "L",
+            "W",
+            "L",
+            "L",
+            "L",
+            "W",
+            "L"
+          ],
+          "roster_id": 1,
+          "t": 0,
+          "team": "Skat’s BruteForce Theorem",
+          "w": 2
+        },
+        {
+          "l": 7,
+          "pa": 1130.28,
+          "pf": 865.76,
+          "results": [
+            "L",
+            "L",
+            "W",
+            "L",
             "L",
             "L",
             "L",

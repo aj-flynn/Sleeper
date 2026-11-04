@@ -1,0 +1,692 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "Detroit Lions",
+        "guid": "56caffee-178d-f6f2-a076-b277486b8c32",
+        "id": 1805,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "DET",
+          "description": "Detroit Lions",
+          "id": 8,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/det/detroit-lions"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/det/detroit-lions"
+              }
+            }
+          },
+          "shortDisplayName": "Lions"
+        },
+        "teamId": 8,
+        "type": "team",
+        "uid": "s:20~l:28~t:8"
+      },
+      {
+        "description": "Minnesota Vikings",
+        "guid": "3db556c9-ed76-a7a5-4ccb-a92fc6db4334",
+        "id": 1920,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "MIN",
+          "description": "Minnesota Vikings",
+          "id": 16,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/min/minnesota-vikings"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/min/minnesota-vikings"
+              }
+            }
+          },
+          "shortDisplayName": "Vikings"
+        },
+        "teamId": 16,
+        "type": "team",
+        "uid": "s:20~l:28~t:16"
+      },
+      {
+        "description": "Minnesota Vikings @ Detroit Lions",
+        "event": {
+          "description": "Minnesota Vikings @ Detroit Lions",
+          "id": 401873030,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873030"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873030"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873030,
+        "guid": "a56d02c6-b6bb-3b37-9c50-5bc6497666b0",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873030"
+      }
+    ],
+    "categorized": "2026-11-01T22:45:46Z",
+    "contentKey": "50351207-1-21-1",
+    "dataSourceIdentifier": "8aa7c354bbeb0",
+    "description": "— The Detroit Lions handed the Minnesota Vikings their first loss of the season and had a muted celebration because All-Pro linebacker ",
+    "gameId": "401873030",
+    "headline": "Goff throws go-ahead touchdown pass to Williams and Lions beat Vikings 19-15 for their 1st loss",
+    "id": 50351207,
+    "images": [
+      {
+        "caption": "Jared Goff puts Lions ahead in 4th with a TD pass to Jameson Williams",
+        "height": 324,
+        "name": "Jared Goff puts Lions ahead in 4th with a TD pass to Jameson Williams",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/b9505f2b6cd64545a9fdc842418b2c01978/b9505f2b6cd64545a9fdc842418b2c01978.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "Detroit Lions",
+      "Minnesota Vikings",
+      "Minnesota Vikings @ Detroit Lions"
+    ],
+    "lastModified": "2026-11-01T22:45:46Z",
+    "linkText": "Goff throws go-ahead touchdown pass to Williams and Lions beat Vikings 19-15 for their 1st loss",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50351207"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50351207"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50351207"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873030"
+      }
+    },
+    "nowId": "1-50351207",
+    "originallyPosted": "2026-11-01T21:21:58Z",
+    "premium": false,
+    "published": "2026-11-01T21:21:58Z",
+    "publishedkey": "nfl401873030",
+    "section": "NFL",
+    "source": "AP",
+    "story": "DETROIT -- — The <a href=\"https://apnews.com/hub/detroit-lions\"><a href=\"http://www.espn.com/nfl/team/_/name/det/detroit-lions\">Detroit Lions</a></a> handed the <a href=\"https://apnews.com/hub/minnesota-vikings\"><a href=\"http://www.espn.com/nfl/team/_/name/min/minnesota-vikings\">Minnesota Vikings</a></a> their first loss of the season and had a muted celebration because All-Pro linebacker <a href=\"https://apnews.com/article/jack-campbell-lions-d424e948b5d3b35483c8057da459d850\"><a href=\"http://www.espn.com/nfl/player/_/id/4569465/jack-campbell\">Jack Campbell</a></a> was taken to a hospital with a neck injury.\n\n\r\n              “It's a little bittersweet,” Detroit coach Dan Campbell said after a 19-15 win on Sunday.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/3046779/jared-goff\">Jared Goff</a> threw a go-ahead, 7-yard touchdown pass to <a href=\"http://www.espn.com/nfl/player/_/id/4426388/jameson-williams\">Jameson Williams</a> with 4:35 left and the Lions made plays on both sides of the ball in a key NFC North matchup.\n\n\r\n              Detroit’s defense held the Vikings to a three-and-out possession and sealed the win with a running game that had 164 yards rushing in the second half to finish with 230 yards against one of the league’s best defenses that was giving up fewer than 100 yards on the ground per game.\n\n\r\n              The Lions (5-2) have won three straight, including their first two division games, but they were far from joyful following the game after seeing <a href=\"https://apnews.com/article/lions-jack-campbell-contract-extension-767fcef0541dc7f44b29f3a47f47bfd5\">Campbell</a> lay motionless face down on the turf after a tackle.\n\n\r\n              “That was definitely scary,” Goff said. “He’s a husband and a father.”\n\n\r\n              The Vikings (6-1) had a chance to stay unbeaten, but the league's stingiest defense couldn't hold onto a late lead, after coach Kevin O’Connell chose to punt on fourth-and-5 from his 33.\n\n\r\n              “We still had all three timeouts and we have total trust and confidence in our defense,” O’Connell said. “We thought we could get a stop and get the ball back.”\n\n\r\n              Minnesota, which like the Lions didn't make the playoffs last season, lost for the first time since Nov. 30, 2025, at Seattle.\n\n\r\n              Detroit's <a href=\"http://www.espn.com/nfl/player/_/id/4429795/jahmyr-gibbs\">Jahmyr Gibbs</a> ran for 153 yards, including a 30-yard, tackle-breaking touchdown in the third quarter. Goff was 18 of 25 for 176 yards with a touchdown and his first interception of the season.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/3917315/kyler-murray\">Kyler Murray</a> was 17 of 29 for 210 yards with two touchdown and an interception, leading an offensively challenged team that had just 81 yards rushing.\n\n\r\n              The Lions broke a scoreless tie late in the first quarter on <a href=\"http://www.espn.com/nfl/player/_/id/4689936/jake-bates\">Jake Bates</a>' 25-yard field goal after their star receivers — Amon Ra-St. Brown and Williams — stunted the first two drives with taunting penalties. \n\n\r\n              St. Brown had a chance to make up for his flag with a touchdown catch, but the play was reversed after a review that showed he didn't secure the football as he fell after making a reception with his fingertips and getting both feet in the end zone.\n\n\r\n              The Vikings went ahead 7-3 early in the second quarter when Murray lofted a 1-yard pass to the left side of the end zone that <a href=\"http://www.espn.com/nfl/player/_/id/4262921/justin-jefferson\">Justin Jefferson</a> snagged with his left hand before going to the turf and completing the catch.\n\n\r\n              Lions cornerback <a href=\"http://www.espn.com/nfl/player/_/id/3139387/dj-reed\">D.J. Reed</a>, who broke up a pass in the end zone on the game's first drive, cut in front of <a href=\"http://www.espn.com/nfl/player/_/id/4429205/jordan-addison\">Jordan Addison</a> to make a diving interception late in the second quarter. \n\n\r\n              Detroit converted a fourth-and-1 from its 47 and Bates later made a 37-yard field goal to make it 7-6.\n\n\r\n              Murray threw an 8-yard touchdown pass to <a href=\"http://www.espn.com/nfl/player/_/id/4036133/tj-hockenson\">T.J. Hockenson</a> and a 2-point conversion pass to Jordan Addison for a 15-12 lead midway through the fourth quarter.\n\n\r\n              Minnesota's defense, though, allowed Gibbs to run for 17 yards on the next snap and for the running back to gain 9 yards on consecutive carries to set up the game-winning touchdown. \n\n\r\n              “This is the first adversity we’ve faced in terms of results, and it didn’t happen until Nov. 1,” O’Connell said. “We have some things to work on, so I’m glad we have an extra day before a very tough game against the <a href=\"http://www.espn.com/nfl/team/_/name/buf/buffalo-bills\">Buffalo Bills</a>.\"\n\n\r\n              <hl2>Injuries</hl2>\r\n              Vikings: Safety <a href=\"http://www.espn.com/nfl/player/_/id/4242436/theo-jackson\">Theo Jackson</a> (quad) was injured during the game.\n\n\r\n              Lions: Linebacker Jack Campbell was placed on a backboard, carted off the field in the fourth quarter and taken to a hospital with a neck injury. Safety <a href=\"http://www.espn.com/nfl/player/_/id/4692025/brian-branch\">Brian Branch</a> and edge <a href=\"http://www.espn.com/nfl/player/_/id/4038849/dj-wonnum\">DJ Wonnum</a> were evaluated for concussions after colliding late in the second quarter and didn't return. Center <a href=\"http://www.espn.com/nfl/player/_/id/4361788/cade-mays\">Cade Mays</a> (ankle), kick returner <a href=\"http://www.espn.com/nfl/player/_/id/4383429/jacob-saylors\">Jacob Saylors</a> (neck), linebacker <a href=\"http://www.espn.com/nfl/player/_/id/4896353/jimmy-rolder\">Jimmy Rolder</a> (hamstring) and Reed (hip) were also hurt.\n\n\r\n              <hl2>Up next</hl2>\r\n              Vikings: Host the Bills on Monday, Nov. 9.\n\n\r\n              Lions: at Miami on Sunday.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": []
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 0,
+      "clock": {
+        "displayValue": "2:18",
+        "value": 138.0
+      },
+      "homeScore": 3,
+      "id": "401873030840",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "DET",
+        "displayName": "Detroit Lions",
+        "id": "8",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/det/detroit-lions",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/det",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:8"
+      },
+      "text": "Jake Bates 25 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "14:25",
+        "value": 865.0
+      },
+      "homeScore": 3,
+      "id": "4018730301086",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "MIN",
+        "displayName": "Minnesota Vikings",
+        "id": "16",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/min/minnesota-vikings",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/min",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+            "lastUpdated": "2023-08-24T19:26Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/min.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+            "lastUpdated": "2023-08-24T19:27Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/min.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:16"
+      },
+      "text": "Justin Jefferson 1 Yd pass from Kyler Murray (Will Reichard Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "0:02",
+        "value": 2.0
+      },
+      "homeScore": 6,
+      "id": "4018730302242",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "DET",
+        "displayName": "Detroit Lions",
+        "id": "8",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/det/detroit-lions",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/det",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:8"
+      },
+      "text": "Jake Bates 37 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "4:40",
+        "value": 280.0
+      },
+      "homeScore": 12,
+      "id": "4018730302812",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "DET",
+        "displayName": "Detroit Lions",
+        "id": "8",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/det/detroit-lions",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/det",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:8"
+      },
+      "text": "Jahmyr Gibbs 30 Yd Rush (Two-Point Run Conversion Failed)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 15,
+      "clock": {
+        "displayValue": "8:44",
+        "value": 524.0
+      },
+      "homeScore": 12,
+      "id": "4018730303536",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "MIN",
+        "displayName": "Minnesota Vikings",
+        "id": "16",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/min/minnesota-vikings",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/min",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+            "lastUpdated": "2023-08-24T19:26Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/min.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+            "lastUpdated": "2023-08-24T19:27Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/min.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:16"
+      },
+      "text": "T.J. Hockenson 8 Yd pass from Kyler Murray (Kyler Murray Pass to Jordan Addison for Two-Point Conversion)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 15,
+      "clock": {
+        "displayValue": "4:35",
+        "value": 275.0
+      },
+      "homeScore": 19,
+      "id": "4018730303743",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "DET",
+        "displayName": "Detroit Lions",
+        "id": "8",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/det/detroit-lions",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/det",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/det.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:8"
+      },
+      "text": "Jameson Williams 7 Yd pass from Jared Goff (Jake Bates Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    }
+  ]
+}
