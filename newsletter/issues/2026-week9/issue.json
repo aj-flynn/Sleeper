@@ -46,7 +46,7 @@
     },
     "recaps": {
       "figure": "5.46",
-      "text": "The fan club escaped Unsportsmanlike Conduct by the smallest margin of the week. The sponsor is taking a very dim view of arithmetic."
+      "text": "The fan club escaped Unsportsmanlike Conduct by the smallest margin of the week. Conduct is taking a very dim view of arithmetic."
     },
     "awards": {
       "figure": "36.30",
@@ -132,7 +132,7 @@
       "record": "4-5",
       "elo": "977.71",
       "elo_change": "-15.92",
-      "take": "Stroud threw five touchdown passes and still could not drag this lineup across the line. McConkey's zero stayed in the lineup, with Johnston's touchdown stranded on the bench, an editorial decision the newsletter is legally allowed to criticize."
+      "take": "Stroud threw five touchdown passes and still could not drag this lineup across the line. McConkey's zero stayed in the lineup while Johnston's touchdown sat on the bench, where it was considerably less useful."
     },
     {
       "rank": 9,
@@ -368,7 +368,7 @@
       ]
     },
     {
-      "headline": "The fan club survives the sponsor's complaint",
+      "headline": "The fan club survives Stroud's five touchdowns",
       "winner": "Micah parsons fan club",
       "w_manager": "Packersfan1992",
       "w_score": "135.08",
@@ -376,7 +376,7 @@
       "l_manager": "JeffyWaterton",
       "l_score": "129.62",
       "margin": "5.46",
-      "body": "Micah parsons fan club edged Unsportsmanlike Conduct 135.08-129.62 after Christian Watson piled up 171 yards and a touchdown on seven catches. Javonte Williams added 101 rushing yards and a score, enough to survive Josh Jacobs leaving with a broken finger after four carries for five yards. C.J. Stroud generated 384 passing yards and five scoring throws for Conduct, but Ladd McConkey's zero occupied a flex spot while Quentin Johnston's 58-yard touchdown catch stayed on the bench. That eligible swap alone was worth 13.30 against a 5.46-point margin. The sponsor has purchased advertising space, not immunity from the recap.",
+      "body": "Micah parsons fan club edged Unsportsmanlike Conduct 135.08-129.62 after Christian Watson piled up 171 yards and a touchdown on seven catches. Javonte Williams added 101 rushing yards and a score, enough to survive Josh Jacobs leaving with a broken finger after four carries for five yards. C.J. Stroud generated 384 passing yards and five scoring throws for Conduct, but Ladd McConkey's zero occupied a flex spot while Quentin Johnston's 58-yard touchdown catch stayed on the bench. That eligible swap alone was worth 13.30 against a 5.46-point margin. Conduct found the winning points and left them in the wrong part of the roster.",
       "w_keys": [
         {
           "player": "Christian Watson",
@@ -731,7 +731,7 @@
         "pos": "DEF",
         "nfl_team": "NYG",
         "drop": "CIN DEF",
-        "note": "The Giants supplied seven sacks, a fumble recovery and 14.00 for Conduct. Replacing Cincinnati was one of the sponsor's decisions that survived inspection."
+        "note": "The Giants supplied seven sacks, a fumble recovery and 14.00 for Conduct. Replacing Cincinnati was one of Conduct's decisions that survived inspection."
       },
       {
         "team": "Unsportsmanlike Conduct",
