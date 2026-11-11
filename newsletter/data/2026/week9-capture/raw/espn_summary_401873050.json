@@ -1,0 +1,1040 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "Chicago Bears",
+        "guid": "19d73366-b5a5-cca2-a176-a2c024ce0bb3",
+        "id": 1750,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "CHI",
+          "description": "Chicago Bears",
+          "id": 3,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/chi/chicago-bears"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/chi/chicago-bears"
+              }
+            }
+          },
+          "shortDisplayName": "Bears"
+        },
+        "teamId": 3,
+        "type": "team",
+        "uid": "s:20~l:28~t:3"
+      },
+      {
+        "description": "Tampa Bay Buccaneers",
+        "guid": "13e8b157-a75a-ff24-ae91-fa3d52ddf204",
+        "id": 2091,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "TB",
+          "description": "Tampa Bay Buccaneers",
+          "id": 27,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/tb/tampa-bay-buccaneers"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/tb/tampa-bay-buccaneers"
+              }
+            }
+          },
+          "shortDisplayName": "Buccaneers"
+        },
+        "teamId": 27,
+        "type": "team",
+        "uid": "s:20~l:28~t:27"
+      },
+      {
+        "description": "Tampa Bay Buccaneers @ Chicago Bears",
+        "event": {
+          "description": "Tampa Bay Buccaneers @ Chicago Bears",
+          "id": 401873050,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873050"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873050"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873050,
+        "guid": "37470d52-5e3d-3a1f-970a-95534d879171",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873050"
+      }
+    ],
+    "categorized": "2026-11-09T06:47:35Z",
+    "contentKey": "50429590-1-21-1",
+    "dataSourceIdentifier": "7e4620e1131cd",
+    "description": "— Caleb Williams and the Chicago Bears played one of their worst games of the season — and won.",
+    "gameId": "401873050",
+    "headline": "Williams connects with Loveland to set up Santos' winning field goal as Bears edge Buccaneers 27-24",
+    "id": 50429590,
+    "images": [
+      {
+        "caption": "Bears survive, take down Bucs with walk-off field goal",
+        "height": 324,
+        "name": "Bears survive, take down Bucs with walk-off field goal",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1109/2c6e187c-b15c-41f5-830a-f4794adc0f3f/2c6e187c-b15c-41f5-830a-f4794adc0f3f.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "Chicago Bears",
+      "Tampa Bay Buccaneers",
+      "Tampa Bay Buccaneers @ Chicago Bears"
+    ],
+    "lastModified": "2026-11-09T06:47:34Z",
+    "linkText": "Williams connects with Loveland to set up Santos' winning field goal as Bears edge Buccaneers 27-24",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50429590"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50429590"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50429590"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873050"
+      }
+    },
+    "nowId": "1-50429590",
+    "originallyPosted": "2026-11-09T04:52:34Z",
+    "premium": false,
+    "published": "2026-11-09T04:52:34Z",
+    "publishedkey": "nfl401873050",
+    "section": "NFL",
+    "source": "AP",
+    "story": "CHICAGO -- — <a href=\"http://www.espn.com/nfl/player/_/id/4431611/caleb-williams\">Caleb Williams</a> and the <a href=\"http://www.espn.com/nfl/team/_/name/chi/chicago-bears\">Chicago Bears</a> played one of their worst games of the season — and won.\n\n\r\n              That last part was the only thing that mattered to them Sunday night.\n\n\r\n              Williams found <a href=\"http://www.espn.com/nfl/player/_/id/4723086/colston-loveland\">Colston Loveland</a> for a 38-yard reception that set up <a href=\"http://www.espn.com/nfl/player/_/id/17427/cairo-santos\">Cairo Santos</a>' 38-yard field goal as time expired, and the Bears picked up a sloppy 27-24 victory over <a href=\"http://www.espn.com/nfl/player/_/id/3052587/baker-mayfield\">Baker Mayfield</a> and the <a href=\"http://www.espn.com/nfl/team/_/name/tb/tampa-bay-buccaneers\">Tampa Bay Buccaneers</a>.\n\n\r\n              Chicago (7-2) committed five turnovers, including <a href=\"https://apnews.com/article/buccaneers-anzalone-mccollum-6f6a17e45806b4bc696ba46b1a6fe042\">a career-high four interceptions</a> by Williams. But he delivered after Mayfield rallied the Buccaneers in the final minutes.\n\n\r\n              “I don’t get gun shy. That’s not me. That’s not my identity,” Williams said. “And with that, I’m going to keep ripping it and keep ripping it.”\n\n\r\n              With Chicago facing a second-and-9 from its own 46 in the final minute, Williams passed to a wide-open Loveland at the Tampa Bay 35. The tight end ran down the sideline before he <a href=\"https://x.com/NFL/status/2119650417973871049\">was pushed out of bounds at the 16</a>.\n\n\r\n              After two kneel-downs by Williams, Santos delighted the crowd of 60,470 by drilling his second field goal of the night.\n\n\r\n              It was Chicago's first win with five-plus turnovers since a 23-13 victory over the <a href=\"http://www.espn.com/nfl/team/_/name/min/minnesota-vikings\">Minnesota Vikings</a> on Dec. 3, 2006.\n\n\r\n              “It’s hard to win with five turnovers and yet we found a way to do it,” Bears coach Ben Johnson said. “They know that we didn't play as well as we’re capable of playing but I believe the best is yet to come in terms of our football in the back half of the season. So we’ll continue to build that as we go forward.” \n\n\r\n              Chicago had a 24-16 lead when Luther Burden fumbled on a helmet-to-helmet hit by Tampa Bay rookie <a href=\"http://www.espn.com/nfl/player/_/id/4870617/rueben-bain-jr\">Rueben Bain Jr</a>. Bucs defensive back <a href=\"http://www.espn.com/nfl/player/_/id/4240401/ifeatu-melifonwu\">Ifeatu Melifonwu</a> returned the ball to the Bears 17.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4596448/bucky-irving\">Bucky Irving</a> had an 11-yard carry before going in from the 6 for his second touchdown of the game. Mayfield scrambled for the 2-point conversion, tying it at 24 with 2:51 left.\n\n\r\n              Mayfield was 18 for 32 for 243 yards and two interceptions. Irving finished with 97 yards on 20 carries.\n\n\r\n              Mayfield failed to complete a pass in Tampa Bay’s previous game, <a href=\"https://apnews.com/article/falcons-buccaneers-score-a476e150ee23ddfd7450a1caf152a58d\">a 16-0 win over Atlanta</a> in wet conditions. The Buccaneers (3-6) rushed for a franchise-record 324 yards in the victory over the Falcons, including 170 by Irving.\n\n\r\n              Williams was 22 for 37 for 279 yards and two touchdowns in Chicago’s fourth straight win. Burden had seven catches for 97 yards before he was shelved by a concussion. <a href=\"http://www.espn.com/nfl/player/_/id/4035369/jeffery-simmons\">Jeffery Simmons</a> had a sack in his first home game since he was acquired <a href=\"https://apnews.com/article/chicago-bears-jeffery-simmons-50a7f8526496fa7a47930b73ff5ef7af\">in a trade</a> with Tennessee.\n\n\r\n              The Buccaneers and Bears were the NFL’s top rushing teams going into the weekend, but there wasn’t much room to maneuver on the ground. The Bucs finished with 126 yards rushing, and the Bears had 72.\n\n\r\n              Chicago had a 17-13 lead when Williams threw his fourth interception of the night, a deflected ball that landed in the hands of Tampa Bay linebacker <a href=\"http://www.espn.com/nfl/player/_/id/3043107/alex-anzalone\">Alex Anzalone</a>. The Buccaneers took over at the Bears 37 with 4:32 left in the third quarter.\n\n\r\n              One play later, Mayfield tried to throw the ball to <a href=\"http://www.espn.com/nfl/player/_/id/4243331/cade-otton\">Cade Otton</a>, but <a href=\"http://www.espn.com/nfl/player/_/id/4243253/jaylon-johnson\">Jaylon Johnson</a> stepped in front of the tight end and returned the interception 67 yards for his second career pick-6. It was his first interception of the season.\n\n\r\n              “That obviously was the difference in the game,” Mayfield said. “Defense, after they settled in, played amazing. So, you got to make the throws, you got to be more accurate.” \n\n\r\n              Chicago got off to a fast start, scoring on its first two possessions. Williams passed to a wide-open <a href=\"http://www.espn.com/nfl/player/_/id/4431299/rome-odunze\">Rome Odunze</a> for a 9-yard touchdown on the first drive of the game. Then Burden broke a couple of tackles while turning a third-and-8 reception into a 56-yard TD, making it 14-0 with 6:00 left in the first quarter.\n\n\r\n              But the next two possessions for the Bears ended with interceptions by Williams, and the Buccaneers rallied by scoring on each side of halftime. <a href=\"http://www.espn.com/nfl/player/_/id/3150744/chase-mclaughlin\">Chase McLaughlin</a> kicked a 21-yard field goal on the final play of the first half, and Tez Johnson’s 58-yard catch set up Irving’s 2-yard TD early in the third.\n\n\r\n              “They came out real hot, and I thought we were on our heels a little bit,” coach Todd Bowles said. “Then the younger guys settled down a little bit and we started playing football.”\n\n\r\n              <hl2>Injuries</hl2>\r\n              Buccaneers: S <a href=\"http://www.espn.com/nfl/player/_/id/4034790/antoine-winfield-jr\">Antoine Winfield Jr</a>. (ankle) departed in the second quarter with an ankle injury.\n\n\r\n              Bears: CB Tyrique Stevenson had a thumb injury.\n\n\r\n              <hl2>Up next</hl2>\r\n              Buccaneers: Bye week, and then a road game against the <a href=\"http://www.espn.com/nfl/team/_/name/det/detroit-lions\">Detroit Lions</a> on Nov. 22.\n\n\r\n              Bears: Bye week, and then a home game versus the <a href=\"http://www.espn.com/nfl/team/_/name/no/new-orleans-saints\">New Orleans Saints</a> on Nov. 22.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": []
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 0,
+      "clock": {
+        "displayValue": "9:38",
+        "value": 578.0
+      },
+      "homeScore": 7,
+      "id": "401873050292",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "CHI",
+        "displayName": "Chicago Bears",
+        "id": "3",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/chi/chicago-bears",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/chi",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:3"
+      },
+      "text": "Rome Odunze 9 Yd pass from Caleb Williams (Cairo Santos Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 0,
+      "clock": {
+        "displayValue": "6:00",
+        "value": 360.0
+      },
+      "homeScore": 14,
+      "id": "401873050546",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "CHI",
+        "displayName": "Chicago Bears",
+        "id": "3",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/chi/chicago-bears",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/chi",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:3"
+      },
+      "text": "Luther Burden III 56 Yd pass from Caleb Williams (Cairo Santos Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "13:48",
+        "value": 828.0
+      },
+      "homeScore": 14,
+      "id": "401873050936",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "TB",
+        "displayName": "Tampa Bay Buccaneers",
+        "id": "27",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/tb/tampa-bay-buccaneers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/tb",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:27"
+      },
+      "text": "Chase McLaughlin 27 Yd Field Goal ",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "3:02",
+        "value": 182.0
+      },
+      "homeScore": 17,
+      "id": "4018730501730",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "CHI",
+        "displayName": "Chicago Bears",
+        "id": "3",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/chi/chicago-bears",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/chi",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:3"
+      },
+      "text": "Cairo Santos 25 Yd Field Goal ",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 6,
+      "clock": {
+        "displayValue": "0:00",
+        "value": 0.0
+      },
+      "homeScore": 17,
+      "id": "4018730502220",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "TB",
+        "displayName": "Tampa Bay Buccaneers",
+        "id": "27",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/tb/tampa-bay-buccaneers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/tb",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:27"
+      },
+      "text": "Chase McLaughlin 21 Yd Field Goal ",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 13,
+      "clock": {
+        "displayValue": "11:37",
+        "value": 697.0
+      },
+      "homeScore": 17,
+      "id": "4018730502416",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "TB",
+        "displayName": "Tampa Bay Buccaneers",
+        "id": "27",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/tb/tampa-bay-buccaneers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/tb",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:27"
+      },
+      "text": "Bucky Irving 2 Yd Rush (Chase McLaughlin Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 13,
+      "clock": {
+        "displayValue": "3:39",
+        "value": 219.0
+      },
+      "homeScore": 24,
+      "id": "4018730503054",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "CHI",
+        "displayName": "Chicago Bears",
+        "id": "3",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/chi/chicago-bears",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/chi",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:3"
+      },
+      "text": "Jaylon Johnson 67 Yd Interception Return (Cairo Santos Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "36",
+        "text": "Interception Return Touchdown"
+      }
+    },
+    {
+      "awayScore": 16,
+      "clock": {
+        "displayValue": "11:24",
+        "value": 684.0
+      },
+      "homeScore": 24,
+      "id": "4018730503571",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "TB",
+        "displayName": "Tampa Bay Buccaneers",
+        "id": "27",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/tb/tampa-bay-buccaneers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/tb",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:27"
+      },
+      "text": "Chase McLaughlin 35 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 24,
+      "clock": {
+        "displayValue": "2:51",
+        "value": 171.0
+      },
+      "homeScore": 24,
+      "id": "4018730504163",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "TB",
+        "displayName": "Tampa Bay Buccaneers",
+        "id": "27",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/tb/tampa-bay-buccaneers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/tb",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/tb.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:27"
+      },
+      "text": "Bucky Irving 6 Yd Rush (Baker Mayfield Run for Two-Point Conversion)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 24,
+      "clock": {
+        "displayValue": "0:00",
+        "value": 0.0
+      },
+      "homeScore": 27,
+      "id": "4018730504405",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "CHI",
+        "displayName": "Chicago Bears",
+        "id": "3",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/chi/chicago-bears",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/chi",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/chi.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:3"
+      },
+      "text": "Cairo Santos 38 Yd Field Goal ",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    }
+  ]
+}

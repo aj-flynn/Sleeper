@@ -1,0 +1,952 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "San Francisco 49ers",
+        "guid": "985a261f-296c-c95c-32a5-addc4df75001",
+        "id": 1637,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "SF",
+          "description": "San Francisco 49ers",
+          "id": 25,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/sf/san-francisco-49ers"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/sf/san-francisco-49ers"
+              }
+            }
+          },
+          "shortDisplayName": "49ers"
+        },
+        "teamId": 25,
+        "type": "team",
+        "uid": "s:20~l:28~t:25"
+      },
+      {
+        "description": "Las Vegas Raiders",
+        "guid": "b18540eb-6f2b-534c-e7f9-9bd930518da9",
+        "id": 2553,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "LV",
+          "description": "Las Vegas Raiders",
+          "id": 13,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders"
+              }
+            }
+          },
+          "shortDisplayName": "Raiders"
+        },
+        "teamId": 13,
+        "type": "team",
+        "uid": "s:20~l:28~t:13"
+      },
+      {
+        "description": "Las Vegas Raiders @ San Francisco 49ers",
+        "event": {
+          "description": "Las Vegas Raiders @ San Francisco 49ers",
+          "id": 401873047,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873047"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873047"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873047,
+        "guid": "fe49869f-cf8e-33f8-9bdd-ce8d1e0e34b2",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873047"
+      }
+    ],
+    "categorized": "2026-11-09T20:53:04Z",
+    "contentKey": "50427438-1-21-1",
+    "dataSourceIdentifier": "4293254c9ceb3",
+    "description": "— Jaden Dugger set the tone for the second half when he returned an interception from Kirk Cousins on the first play for a touchdown.",
+    "gameId": "401873047",
+    "headline": "49ers capitalize on 5 2nd-half takeaways to cruise past Raiders 38-17",
+    "id": 50427438,
+    "images": [
+      {
+        "caption": "49ers move to 7-1 with 38-17 win over the Raiders",
+        "height": 324,
+        "name": "49ers move to 7-1 with 38-17 win over the Raiders",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1109/5946032b-9571-440e-beb6-21016ae589a3/5946032b-9571-440e-beb6-21016ae589a3.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "San Francisco 49ers",
+      "Las Vegas Raiders",
+      "Las Vegas Raiders @ San Francisco 49ers"
+    ],
+    "lastModified": "2026-11-09T16:24:34Z",
+    "linkText": "49ers capitalize on 5 2nd-half takeaways to cruise past Raiders 38-17",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50427438"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50427438"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50427438"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873047"
+      }
+    },
+    "nowId": "1-50427438",
+    "originallyPosted": "2026-11-09T00:29:34Z",
+    "premium": false,
+    "published": "2026-11-09T00:29:34Z",
+    "publishedkey": "nfl401873047",
+    "section": "NFL",
+    "source": "AP",
+    "story": "SANTA CLARA, Calif. -- — <a href=\"http://www.espn.com/nfl/player/_/id/5086161/jaden-dugger\">Jaden Dugger</a> set the tone for the second half when he returned an interception from <a href=\"http://www.espn.com/nfl/player/_/id/14880/kirk-cousins\">Kirk Cousins</a> on the first play for a touchdown.\n\n\r\n              Four more takeaways followed for San Francisco and the 49ers spoiled the return to the Bay Area for the Raiders with a 38-17 win Sunday.\n\n\r\n              “That was honestly the emphasis going into the week,” said linebacker <a href=\"http://www.espn.com/nfl/player/_/id/3138826/fred-warner\">Fred Warner</a>, who forced one fumble and recovered another. “To come out the second half and have five of those was unbelievable. It was guys being in the right spot doing their job.”\n\n\r\n              San Francisco (7-1) had five takeaways in the second half for the first time since doing it 20 years ago against the Raiders at Candlestick Park.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4361741/brock-purdy\">Brock Purdy</a> threw two touchdown passes and ran for another TD, and <a href=\"http://www.espn.com/nfl/player/_/id/3117251/christian-mccaffrey\">Christian McCaffrey</a> had one rushing touchdown and one receiving TD to keep the Niners on top of the NFC standings.\n\n\r\n              The 49ers broke the game open in the third quarter thanks to the opportunistic defense starting on the first play from scrimmage when Dugger returned a pass from Cousins 35 yards for the score.\n\n\r\n              Las Vegas (4-5) answered on the next drive with a touchdown pass from Cousins to <a href=\"http://www.espn.com/nfl/player/_/id/4432665/brock-bowers\">Brock Bowers</a> before the giveaways took over the game.\n\n\r\n              The Raiders were set up with good field position after <a href=\"http://www.espn.com/nfl/player/_/id/4697757/treydan-stukes\">Treydan Stukes</a> intercepted Purdy but Warner forced a fumble from Bowers.\n\n\r\n              Las Vegas stopped Purdy on a fourth down sneak but couldn’t capitalize when <a href=\"http://www.espn.com/nfl/player/_/id/4429086/michael-mayer\">Michael Mayer</a> lost a fumble just before crossing the goal line.\n\n\r\n              Purdy responded with a 37-yard touchdown pass to <a href=\"http://www.espn.com/nfl/player/_/id/4431466/jordan-watkins\">Jordan Watkins</a> to make it 35-17.\n\n\r\n              Watkins stepped up with star <a href=\"http://www.espn.com/nfl/player/_/id/16737/mike-evans\">Mike Evans</a> out with Achilles tendinitis and is trying to make a case that he can play a big role if the 49ers don’t make a trade before the deadline Tuesday.\n\n\r\n              “He’s made a huge step forward,” coach Kyle Shanahan said. “He hasn’t had his opportunities, but guys have been down and he’s been working and he’s been ready for it. He’s been better each week.”\n\n\r\n              Cousins then threw two interceptions in the fourth, including one that was picked off by <a href=\"http://www.espn.com/nfl/player/_/id/4427325/renardo-green\">Renardo Green</a> in the end zone.\n\n\r\n              “Sometimes when you get behind, you try to get it all back in one play and it’s hard to be patient,” Cousins said. “I just probably needed to be a little more patient and be OK with not getting it all back at one time, which is hard to do. You want to get your team back in the game quick.”\n\n\r\n              The Raiders tied an NFL record by allowing at least 30 points in six straight games in the same season, becoming the fifth team ever to do that.\n\n\r\n              Las Vegas has lost five of those six games following a 3-0 start.\n\n\r\n              “What’s my reaction? I think it’s pretty self explanatory,” defensive end <a href=\"http://www.espn.com/nfl/player/_/id/3916655/maxx-crosby\">Maxx Crosby</a> said. “You’re not going to win games if you’re letting up 30 points a game. … We have to be better.”\n\n\r\n              The 49ers scored touchdowns on their first three drives against an overmatched Raiders defense with McCaffrey scoring on a pass and run and Purdy scoring on a 1-yard run.\n\n\r\n              Purdy became the 10th quarterback since the merger with at least 100 touchdown passes in his first 57 career games.\n\n\r\n              “In the moment we’re competing and have a next-play mentality and I didn’t know that was a thing,” Purdy said. “In the locker room when I found out that was pretty cool. That’s something I don’t want to overlook. As a kid if you told me I’d be in the NFL and throw 100 touchdowns, that’s really cool.”\n\n\r\n              The Raiders scored on a 1-yard sneak by Cousins and a long field goal from <a href=\"http://www.espn.com/nfl/player/_/id/4249087/matt-gay\">Matt Gay</a> to trail 21-10 at the half.\n\n\r\n              <hl2>Return to the Bay</hl2>\r\n              The Raiders played their first regular-season game in the Bay Area since moving from Oakland to Las Vegas after the 2019 season.\n\n\r\n              There was a larger-than-usual contingent of visiting fans at Levi’s Stadium with many of the old Raiders fans taking advantage of the game near their homes.\n\n\r\n              <hl2>Injuries</hl2>\r\n              Raiders: OL Trey Zuhn left the game in the second half with a concussion.\n\n\r\n              49ers: Rookie DT <a href=\"http://www.espn.com/nfl/player/_/id/4685369/gracen-halton\">Gracen Halton</a> was taken off the field in the fourth quarter on a cart with a broken left ankle that will sideline him for the season. … Green left the game after his interception with a back injury and CB <a href=\"http://www.espn.com/nfl/player/_/id/4242488/deommodore-lenoir\">Deommodore Lenoir</a> (foot) also left late.\n\n\r\n              <hl2>Up next</hl2>\r\n              Raiders: Host Seattle on Sunday.\n\n\r\n              49ers: Visit Dallas on Sunday.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": []
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 0,
+      "clock": {
+        "displayValue": "9:32",
+        "value": 572.0
+      },
+      "homeScore": 7,
+      "id": "401873047355",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "SF",
+        "displayName": "San Francisco 49ers",
+        "id": "25",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/sf/san-francisco-49ers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/sf",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/sf.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/sf.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:25"
+      },
+      "text": "Christian McCaffrey 1 Yd Rush (Eddy Pineiro Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 0,
+      "clock": {
+        "displayValue": "1:52",
+        "value": 112.0
+      },
+      "homeScore": 14,
+      "id": "401873047892",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "SF",
+        "displayName": "San Francisco 49ers",
+        "id": "25",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/sf/san-francisco-49ers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/sf",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/sf.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/sf.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:25"
+      },
+      "text": "Brock Purdy 1 Yd Rush (Eddy Pineiro Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "12:41",
+        "value": 761.0
+      },
+      "homeScore": 14,
+      "id": "4018730471225",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "LV",
+        "displayName": "Las Vegas Raiders",
+        "id": "13",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lv",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+            "lastUpdated": "2020-02-25T17:01Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lv.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lv.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:13"
+      },
+      "text": "Kirk Cousins 2 Yd Rush (Matt Gay Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "5:15",
+        "value": 315.0
+      },
+      "homeScore": 21,
+      "id": "4018730471559",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "SF",
+        "displayName": "San Francisco 49ers",
+        "id": "25",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/sf/san-francisco-49ers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/sf",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/sf.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/sf.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:25"
+      },
+      "text": "Christian McCaffrey 12 Yd pass from Brock Purdy (Eddy Pineiro Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 10,
+      "clock": {
+        "displayValue": "1:12",
+        "value": 72.0
+      },
+      "homeScore": 21,
+      "id": "4018730471779",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "LV",
+        "displayName": "Las Vegas Raiders",
+        "id": "13",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lv",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+            "lastUpdated": "2020-02-25T17:01Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lv.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lv.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:13"
+      },
+      "text": "Matt Gay 50 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 10,
+      "clock": {
+        "displayValue": "14:43",
+        "value": 883.0
+      },
+      "homeScore": 28,
+      "id": "4018730471924",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "SF",
+        "displayName": "San Francisco 49ers",
+        "id": "25",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/sf/san-francisco-49ers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/sf",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/sf.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/sf.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:25"
+      },
+      "text": "Jaden Dugger 35 Yd Interception Return (Eddy Pineiro Kick)",
+      "type": {
+        "id": "9",
+        "text": "Fumble Recovery (Own)"
+      }
+    },
+    {
+      "awayScore": 17,
+      "clock": {
+        "displayValue": "9:29",
+        "value": 569.0
+      },
+      "homeScore": 28,
+      "id": "4018730472216",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "LV",
+        "displayName": "Las Vegas Raiders",
+        "id": "13",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lv",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+            "lastUpdated": "2020-02-25T17:01Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lv.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lv.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:13"
+      },
+      "text": "Brock Bowers 21 Yd pass from Kirk Cousins (Matt Gay Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 17,
+      "clock": {
+        "displayValue": "0:36",
+        "value": 36.0
+      },
+      "homeScore": 35,
+      "id": "4018730472791",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "SF",
+        "displayName": "San Francisco 49ers",
+        "id": "25",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/sf/san-francisco-49ers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/sf",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/sf.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/sf.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:25"
+      },
+      "text": "Jordan Watkins 37 Yd pass from Brock Purdy (Eddy Pineiro Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 17,
+      "clock": {
+        "displayValue": "5:21",
+        "value": 321.0
+      },
+      "homeScore": 38,
+      "id": "4018730473518",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "SF",
+        "displayName": "San Francisco 49ers",
+        "id": "25",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/sf/san-francisco-49ers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/sf",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/sf.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/sf.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:25"
+      },
+      "text": "Eddy Pineiro 35 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    }
+  ]
+}

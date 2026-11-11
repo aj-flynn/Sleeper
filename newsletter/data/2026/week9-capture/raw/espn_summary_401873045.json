@@ -1,0 +1,953 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "Kansas City Chiefs",
+        "guid": "f68f2343-8ceb-7a02-740d-af6338be21d2",
+        "id": 2496,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "KC",
+          "description": "Kansas City Chiefs",
+          "id": 12,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/kc/kansas-city-chiefs"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/kc/kansas-city-chiefs"
+              }
+            }
+          },
+          "shortDisplayName": "Chiefs"
+        },
+        "teamId": 12,
+        "type": "team",
+        "uid": "s:20~l:28~t:12"
+      },
+      {
+        "description": "New York Jets",
+        "guid": "732d3caf-b350-1e34-48c6-b7cebb4a0d88",
+        "id": 2378,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "NYJ",
+          "description": "New York Jets",
+          "id": 20,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/nyj/new-york-jets"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/nyj/new-york-jets"
+              }
+            }
+          },
+          "shortDisplayName": "Jets"
+        },
+        "teamId": 20,
+        "type": "team",
+        "uid": "s:20~l:28~t:20"
+      },
+      {
+        "description": "New York Jets @ Kansas City Chiefs",
+        "event": {
+          "description": "New York Jets @ Kansas City Chiefs",
+          "id": 401873045,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873045"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873045"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873045,
+        "guid": "5a408310-f8c2-3829-8899-19973c4d4e7c",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873045"
+      }
+    ],
+    "categorized": "2026-11-09T04:46:38Z",
+    "contentKey": "50424653-1-21-1",
+    "dataSourceIdentifier": "2d330cefadbf9",
+    "description": "— Chiefs quarterback Patrick Mahomes walked off the field dangling his right arm, which had been bent grotesquely on a strip-sack by the Jets' David Bailey, and for the briefest of moments a pall seemed to descend over Arrowhead Stadium on Sunday.",
+    "gameId": "401873045",
+    "headline": "Kenneth Walker scores 3 TDs as the Chiefs roll past the woeful Jets 35-12 to end their 2-game skid",
+    "id": 50424653,
+    "images": [
+      {
+        "caption": "Taylor Swift pumped after Travis Kelce's first TD since Week 3 ",
+        "height": 324,
+        "name": "Taylor Swift pumped after Travis Kelce's first TD since Week 3",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1108/04082e318c864f10b464e649c74cace4989/04082e318c864f10b464e649c74cace4989.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "Kansas City Chiefs",
+      "New York Jets",
+      "New York Jets @ Kansas City Chiefs"
+    ],
+    "lastModified": "2026-11-09T02:43:47Z",
+    "linkText": "Kenneth Walker scores 3 TDs as the Chiefs roll past the woeful Jets 35-12 to end their 2-game skid",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50424653"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50424653"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50424653"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873045"
+      }
+    },
+    "nowId": "1-50424653",
+    "originallyPosted": "2026-11-08T21:14:36Z",
+    "premium": false,
+    "published": "2026-11-08T21:14:36Z",
+    "publishedkey": "nfl401873045",
+    "section": "NFL",
+    "source": "AP",
+    "story": "KANSAS CITY, Mo. -- — Chiefs quarterback <a href=\"http://www.espn.com/nfl/player/_/id/3139477/patrick-mahomes\">Patrick Mahomes</a> walked off the field dangling his right arm, which had been bent grotesquely on a strip-sack by the Jets' <a href=\"http://www.espn.com/nfl/player/_/id/4685248/david-bailey\">David Bailey</a>, and for the briefest of moments a pall seemed to descend over Arrowhead Stadium on Sunday.\n\n\r\n              Mahomes flexed his ailing elbow on the sideline. Threw a couple of warmup passes. Then headed back into the game.\n\n\r\n              The two-time MVP proceeded to throw for 242 yards with <a href=\"https://x.com/NFLonCBS/status/2119501321774547040?a=bSzCj1AYLjCeyUcTenE&s=20\">pair of touchdown passes</a> to Kenneth Walker, who alleviated some of the pressure on Mahomes by adding 102 yards rushing and a score on the ground, while Kansas City's defense dominated the second half to finish off a <a href=\"https://apnews.com/hub/nfl\">35-12 rout</a> of the Jets that served to get the Chiefs back on track.\n\n\r\n              <a href=\"https://x.com/NFLonCBS/status/2119507311324467313?a=AGI-VqbsAEf9D8OpTWg&s=20\">Walker finished with 143 yards</a> from scrimmage and the Chiefs (6-2) sacked <a href=\"http://www.espn.com/nfl/player/_/id/15864/geno-smith\">Geno Smith</a> five times, all while keeping the Jets out of the end zone and allowing them to erase the stink of consecutive losses to the Seahawks and Broncos.\n\n\r\n              “If I’m able to play, I’m going to play. That’s part of the game,” said Mahomes, who got his elbow worked on during halftime by Chiefs trainer Julie Frymyer, but still planned to get more testing on it after the game. “Once I threw the football, I knew I was OK.”\n\n\r\n              Much to the relief of the Chiefs, who lost Mahomes to a season-ending knee injury just over a year ago.\n\n\r\n              Smith finished with 165 yards passing for the Jets (2-7), who managed just 229 of total offense. They were credited with minus-9 in the third quarter, when Kansas City scored a pair of touchdowns that turned a 14-12 halftime lead into a comfortable victory.\n\n\r\n              “You're coming off two losses there, and I felt like we had a good week of practice, and they didn't hang their heads,” said Chiefs coach Andy Reid, whose team was roundly criticized for blowing an 11-point fourth-quarter lead in Denver. “My hat goes off to the guys.”\n\n\r\n              The Chiefs have beaten New York, losers of four straight, in each of their last three meetings.\n\n\r\n              “I thought in the first half guys were making plays. We were playing with a lot of pride and a lot of spirit,” said Smith, who has been sacked 28 times for a league-high 236 yards this season. “I thought the same thing in the second half. It just got away from us.”\n\n\r\n              Missing star wide receiver <a href=\"https://apnews.com/article/jets-garrett-wilson-breece-hall-43f90d31edab72e6f53a91d10f1b85aa\"><a href=\"http://www.espn.com/nfl/player/_/id/4569618/garrett-wilson\">Garrett Wilson</a> to a concussion</a>, the Jets were reduced to running the ball with <a href=\"http://www.espn.com/nfl/player/_/id/4685247/braelon-allen\">Braelon Allen</a> or <a href=\"http://www.espn.com/nfl/player/_/id/4427366/breece-hall\">Breece Hall</a> — back from a quadriceps injury for the first time in five games — or having Smith throw short passes to rookie <a href=\"http://www.espn.com/nfl/player/_/id/4723820/omar-cooper-jr\">Omar Cooper Jr</a>.\n\n\r\n              They were able to move the ball that way for a while. They just couldn't get into the end zone.\n\n\r\n              One week after <a href=\"http://www.espn.com/nfl/player/_/id/3124679/jason-sanders\">Jason Sanders</a> kicked four field goals in a loss to the Raiders, he made four in the first half alone in Kansas City. And it would have been five had Sanders not missed from 53 yards with less than a minute to go in the first half.\n\n\r\n              The Chiefs, meanwhile, lost a fumble when backup quarterback <a href=\"http://www.espn.com/nfl/player/_/id/4362887/justin-fields\">Justin Fields</a> was trying a sneak on third-and-1. They lost another when Mahomes was sacked by Bailey for the second time in three plays — the strip-sack that left the QB hurting. And the Chiefs watched as embattled kicker <a href=\"http://www.espn.com/nfl/player/_/id/3055899/harrison-butker\">Harrison Butker</a> miss yet another field-goal attempt in the first half.\n\n\r\n              Butker actually missed twice: He got a do-over after missing from 56 yards because of a penalty, then missed again, casting his future with the team into greater doubt. The Chiefs recently signed former All-Pro kicker <a href=\"http://www.espn.com/nfl/player/_/id/15683/justin-tucker\">Justin Tucker</a> to their practice squad.\n\n\r\n              “No need to ask,” Reid said of a brewing kicking controversy. “I'm not making any decisions about that today.”\n\n\r\n              It was thanks to Walker, who was largely held in check by Seattle and Denver, that Kansas City took a lead into the break. His first touchdown reception came on the first play of the second quarter, and his second was a 25-yard screen pass in which offensive guards <a href=\"http://www.espn.com/nfl/player/_/id/4242459/trey-smith\">Trey Smith</a> and <a href=\"http://www.espn.com/nfl/player/_/id/4431595/kingsley-suamataia\">Kingsley Suamataia</a> laid down a trail of pancakes for him to follow.\n\n\r\n              “Honestly, the first half we were making a lot of mistakes,” Walker said. “At halftime, we straightened everything out.”\n\n\r\n              Walker ended up doing most of the work on a 60-yard TD drive to start the second half, though it was a lateral by Mahomes along the line of scrimmage to <a href=\"http://www.espn.com/nfl/player/_/id/15847/travis-kelce\">Travis Kelce</a> on fourth-and-goal at the New York 1 that finally got the Chiefs into the end zone.\n\n\r\n              They put the game out of reach later in the third quarter, after a 69-yard punt return was wiped out by penalty. Walker carried six times on an eight-play, 82-yard march, and his touchdown run to make it 28-12 gave him his third career three-TD game.\n\n\r\n              “I thought the first half everything was kind of on point. The second half we just didn’t play up to par,” Jets coach Aaron Glenn said. “It is disappointing, and I told our players that. All we can do is go back to work. That’s the only thing I know how to do. In situations like this, just go back to work and try to figure out how, as the head coach, get us to play two halves at a high level.\n\n\r\n              \"That’s something I have to think long and hard about. I’ve got a lot of thinking to do. Just looking forward to getting back to work.”\n\n\r\n              <hl2>Mahomes and Kelce make some quarterback-tight end history</hl2>\r\n              Mahomes and Kelce have connected for 9,365 yards, surpassing the Chargers' Philip Rivers and Pro Football Hall of Famer Antonio Gates (9,352) for the most yards by a quarterback-tight end duo in NFL history.\n\n\r\n              Kelce had four catches for 72 yards, along with his third career rushing touchdown.\n\n\r\n              <hl2>Injuries</hl2>\r\n              Jets: Wilson (concussion) was inactive. \n\n\r\n              Chiefs: RT Jaylen Moore hurt an ankle. ... WR <a href=\"http://www.espn.com/nfl/player/_/id/4683062/xavier-worthy\">Xavier Worthy</a> left in the closing minutes with a left hamstring injury.\n\n\r\n              <hl2>Up next</hl2>\r\n              Jets: Face Buffalo at home next Sunday.\n\n\r\n              Chiefs: Visit Atlanta next Sunday.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": []
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "6:47",
+        "value": 407.0
+      },
+      "homeScore": 0,
+      "id": "401873045399",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "NYJ",
+        "displayName": "New York Jets",
+        "id": "20",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/nyj/new-york-jets",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/nyj",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/nyj.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+            "lastUpdated": "2024-07-02T15:08Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/nyj.png",
+            "lastUpdated": "2024-07-02T15:09Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:20"
+      },
+      "text": "Jason Sanders 23 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 6,
+      "clock": {
+        "displayValue": "4:35",
+        "value": 275.0
+      },
+      "homeScore": 0,
+      "id": "401873045673",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "NYJ",
+        "displayName": "New York Jets",
+        "id": "20",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/nyj/new-york-jets",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/nyj",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/nyj.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+            "lastUpdated": "2024-07-02T15:08Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/nyj.png",
+            "lastUpdated": "2024-07-02T15:09Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:20"
+      },
+      "text": "Jason Sanders 48 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 6,
+      "clock": {
+        "displayValue": "14:56",
+        "value": 896.0
+      },
+      "homeScore": 7,
+      "id": "401873045997",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "KC",
+        "displayName": "Kansas City Chiefs",
+        "id": "12",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/kc/kansas-city-chiefs",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/kc",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:12"
+      },
+      "text": "Kenneth Walker III 7 Yd pass from Patrick Mahomes (Harrison Butker Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 9,
+      "clock": {
+        "displayValue": "8:12",
+        "value": 492.0
+      },
+      "homeScore": 7,
+      "id": "4018730451344",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "NYJ",
+        "displayName": "New York Jets",
+        "id": "20",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/nyj/new-york-jets",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/nyj",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/nyj.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+            "lastUpdated": "2024-07-02T15:08Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/nyj.png",
+            "lastUpdated": "2024-07-02T15:09Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:20"
+      },
+      "text": "Jason Sanders 49 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 9,
+      "clock": {
+        "displayValue": "5:37",
+        "value": 337.0
+      },
+      "homeScore": 14,
+      "id": "4018730451562",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "KC",
+        "displayName": "Kansas City Chiefs",
+        "id": "12",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/kc/kansas-city-chiefs",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/kc",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:12"
+      },
+      "text": "Kenneth Walker III 25 Yd pass from Patrick Mahomes (Harrison Butker Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 12,
+      "clock": {
+        "displayValue": "2:16",
+        "value": 136.0
+      },
+      "homeScore": 14,
+      "id": "4018730451817",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "NYJ",
+        "displayName": "New York Jets",
+        "id": "20",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/nyj/new-york-jets",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/nyj",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/nyj.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+            "lastUpdated": "2024-07-02T15:08Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/nyj.png",
+            "lastUpdated": "2024-07-02T15:09Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:20"
+      },
+      "text": "Jason Sanders 54 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 12,
+      "clock": {
+        "displayValue": "10:20",
+        "value": 620.0
+      },
+      "homeScore": 21,
+      "id": "4018730452566",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "KC",
+        "displayName": "Kansas City Chiefs",
+        "id": "12",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/kc/kansas-city-chiefs",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/kc",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:12"
+      },
+      "text": "Travis Kelce 1 Yd Rush (Harrison Butker Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 12,
+      "clock": {
+        "displayValue": "0:11",
+        "value": 11.0
+      },
+      "homeScore": 28,
+      "id": "4018730453229",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "KC",
+        "displayName": "Kansas City Chiefs",
+        "id": "12",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/kc/kansas-city-chiefs",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/kc",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:12"
+      },
+      "text": "Kenneth Walker III 2 Yd Rush (Harrison Butker Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 12,
+      "clock": {
+        "displayValue": "3:35",
+        "value": 215.0
+      },
+      "homeScore": 35,
+      "id": "4018730454040",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "KC",
+        "displayName": "Kansas City Chiefs",
+        "id": "12",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/kc/kansas-city-chiefs",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/kc",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/kc.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:12"
+      },
+      "text": "Emmett Johnson 6 Yd Rush (Harrison Butker Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    }
+  ]
+}

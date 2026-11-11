@@ -1,0 +1,1301 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "Los Angeles Chargers",
+        "guid": "84caf62b-c753-71ea-a787-44fd224a4294",
+        "id": 2610,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "LAC",
+          "description": "Los Angeles Chargers",
+          "id": 24,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/lac/los-angeles-chargers"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/lac/los-angeles-chargers"
+              }
+            }
+          },
+          "shortDisplayName": "Chargers"
+        },
+        "teamId": 24,
+        "type": "team",
+        "uid": "s:20~l:28~t:24"
+      },
+      {
+        "description": "Houston Texans",
+        "guid": "595690b3-2161-4913-a7a7-814af2fd2621",
+        "id": 3053,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "HOU",
+          "description": "Houston Texans",
+          "id": 34,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/hou/houston-texans"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/hou/houston-texans"
+              }
+            }
+          },
+          "shortDisplayName": "Texans"
+        },
+        "teamId": 34,
+        "type": "team",
+        "uid": "s:20~l:28~t:34"
+      },
+      {
+        "description": "Houston Texans @ Los Angeles Chargers",
+        "event": {
+          "description": "Houston Texans @ Los Angeles Chargers",
+          "id": 401873046,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873046"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873046"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873046,
+        "guid": "52d0aef3-10a2-3f53-aa36-f0a9fcce9d39",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873046"
+      }
+    ],
+    "categorized": "2026-11-09T21:31:36Z",
+    "contentKey": "50427615-1-21-1",
+    "dataSourceIdentifier": "004a5ebee491f",
+    "description": "— C.J. Stroud had been feeling lousy all week, barely practiced and woke up with chills on game day. Then he had his version of Michael Jordan's flu game.",
+    "gameId": "401873046",
+    "headline": "C.J. Stroud tosses 5 TD passes as Texans rout winless Chargers 44-22. LA finally scores a TD",
+    "id": 50427615,
+    "images": [
+      {
+        "caption": "Houston Texans vs. Los Angeles Chargers: Game Highlights",
+        "height": 324,
+        "name": "Houston Texans vs. Los Angeles Chargers: Game Highlights",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1109/570e2966-d15b-457d-819c-aa0e3858debd/570e2966-d15b-457d-819c-aa0e3858debd.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "Los Angeles Chargers",
+      "Houston Texans",
+      "Houston Texans @ Los Angeles Chargers"
+    ],
+    "lastModified": "2026-11-09T21:31:35Z",
+    "linkText": "C.J. Stroud tosses 5 TD passes as Texans rout winless Chargers 44-22. LA finally scores a TD",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50427615"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50427615"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50427615"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873046"
+      }
+    },
+    "nowId": "1-50427615",
+    "originallyPosted": "2026-11-09T00:44:34Z",
+    "premium": false,
+    "published": "2026-11-09T00:44:34Z",
+    "publishedkey": "nfl401873046",
+    "section": "NFL",
+    "source": "AP",
+    "story": "INGLEWOOD, Calif. -- — <a href=\"https://apnews.com/article/houston-texans-cj-stroud-193196b2af6ac3908eed9956ffdf57cc\"><a href=\"http://www.espn.com/nfl/player/_/id/4432577/cj-stroud\">C.J. Stroud</a></a> had been feeling lousy all week, barely practiced and woke up with chills on game day. Then he had his version of <a href=\"http://www.espn.com/nfl/player/_/id/4040622/michael-jordan\">Michael Jordan</a>'s flu game.\n\n\r\n              Stroud threw five touchdown passes, including a pair of season-best 63-yarders to <a href=\"http://www.espn.com/nfl/player/_/id/4366031/tank-dell\">Tank Dell</a> and <a href=\"http://www.espn.com/nfl/player/_/id/4429022/kayshon-boutte\">Kayshon Boutte</a>, and the <a href=\"http://www.espn.com/nfl/team/_/name/hou/houston-texans\">Houston Texans</a> routed the winless <a href=\"https://apnews.com/article/chargers-analysis-harbaugh-herbert-21fee1ed56a317973058ca0aba550b43\"><a href=\"http://www.espn.com/nfl/team/_/name/lac/los-angeles-chargers\">Los Angeles Chargers</a></a> 44-22 on Sunday.\n\n\r\n              “I don't know what I had but was not feeling good,” Stroud said. “My teammates really helped me. Just to have that type of performance under the weather a little bit was to me a testament to our team and our resilience.”\n\n\r\n              Throwing to four different receivers, Stroud came up one TD short of the franchise record of six TDs. He smiled at the comparison to Jordan, who overcame flu-like symptoms to famously score 38 points for the Chicago Bulls in Game 5 of the 1997 NBA Finals.\n\n\r\n              “Not there yet,” he said, “but maybe one day.”\n\n\r\n              Stroud completed 21 of 35 passes for 384 yards with one interception and one sack. \n\n\r\n              “I beat myself up a lot when I don’t do great, so I’m going to enjoy this,” he said, eager to reunite with friends and family after the game not far from his hometown of Rancho Cucamonga.\n\n\r\n              Houston (3-5) has won three of four after starting the season 0-4.\n\n\r\n              “I’m proud of our guys for getting back to repping our style of play,” Texans coach DeMeco Ryans said. “C.J. has brought elite execution and playmaking ability. He really gives that confidence to the entire team.”\n\n\r\n              The Chargers (0-8) ended a 37-drive touchdown drought when <a href=\"http://www.espn.com/nfl/player/_/id/4429025/quentin-johnston\">Quentin Johnston</a> caught <a href=\"http://www.espn.com/nfl/player/_/id/4038941/justin-herbert\">Justin Herbert</a>'s 58-yard scoring pass in the fourth quarter. It was their first TD since Oct. 11 against Denver. Their 22 points were the second most they've scored in a game this season.\n\n\r\n              “That was a positive,” coach Jim Harbaugh said.\n\n\r\n              Soon after, Herbert was wearing a large white glove on his left hand to protect a finger taped by trainers. “Shouldn't be an issue,” he said afterward. He was replaced by <a href=\"http://www.espn.com/nfl/player/_/id/4429020/dj-uiagalelei\">DJ Uiagalelei</a>, who threw his first career TD pass, a 15-yarder to <a href=\"http://www.espn.com/nfl/player/_/id/4362477/derius-davis\">Derius Davis</a>, his first scoring catch since December 2024.\n\n\r\n              The Chargers had scored 24 points on field goals during their TD drought. <a href=\"http://www.espn.com/nfl/player/_/id/4362081/cameron-dicker\">Cameron Dicker</a> had three, including a season-best 52-yarder, on Sunday.\n\n\r\n              Herbert finished 13 of 23 for 193 yards and an interception and was sacked a career-high eight times. He has been sacked 31 times this season, the second most in the league.\n\n\r\n              “I could have done a better job of getting the ball out quicker,” Herbert said. “I mean, they’re very good. They have a premier pass rush, and I got to do a better job getting the ball out.”\n\n\r\n              Boos cascaded down from the upper levels of SoFi Stadium, where the Bolts haven't won since last December. Los Angeles, which lost its final three games last season, tied a franchise record with an 11-game losing streak, set in 2000.\n\n\r\n              “We’ll have to figure it out and keep looking and doing our best to keep getting better because it hasn’t been good enough yet,” Herbert said.\n\n\r\n              Coming off their bye week, the Texans scored on their opening drive, with Stroud hitting <a href=\"http://www.espn.com/nfl/player/_/id/4686422/xavier-hutchinson\">Xavier Hutchinson</a> for a 17-yard score after the Chargers' self-inflicted face mask penalty away from the play.\n\n\r\n              Stroud was intercepted for just the second time this season by <a href=\"http://www.espn.com/nfl/player/_/id/4241597/daiyan-henley\">Daiyan Henley</a> in the first quarter.\n\n\r\n              On their ensuing possession, the Bolts trailed 10-9 on Dicker's 43-yard field goal.\n\n\r\n              But the Texans answered right back, with Dell scoring his first TD since a devastating knee injury in 2024 to cap a two-play, 43-second drive and extend the lead to 17-9.\n\n\r\n              Houston blew past its status as a 5 1/2-point favorite just before halftime, when Boutte caught his first TD of the season, a 12-yarder from Stroud that capped a seven-play, 76-yard, 34-second drive and made it 24-9.\n\n\r\n              Boutte's second TD catch, a 63-yard pass from Stroud, came in the fourth.\n\n\r\n              Embattled Chargers offensive coordinator Mike McDaniel moved from the field to the booth to call plays for the first time this season.\n\n\r\n              <hl2>Injuries </hl2>\r\n              Texans: CB <a href=\"http://www.espn.com/nfl/player/_/id/4426434/derek-stingley-jr\">Derek Stingley Jr</a>. was hurt late in the game. \n\n\r\n              Chargers: CB <a href=\"http://www.espn.com/nfl/player/_/id/4574105/isas-waxter\">Isas Waxter</a> (ankle) got hurt in the first quarter and didn't return. ... DL <a href=\"http://www.espn.com/nfl/player/_/id/4567138/justin-eboigbe\">Justin Eboigbe</a> (ankle) got hurt in the first quarter, but returned. ... WR <a href=\"http://www.espn.com/nfl/player/_/id/4612826/ladd-mcconkey\">Ladd McConkey</a> was active, but had back spasms before kickoff and didn't play. \n\n\r\n              <hl2>Up next </hl2>\r\n              Texans: Visit Cleveland next Sunday.\n\n\r\n              Chargers: Visit Baltimore in a matchup against former Bolts defensive coordinator Jesse Minter.\n\n\r\n              ------\n\n\r\n              This story has been corrected to remove an erroneous reference to the Chargers having the second-longest TD drought in NFL history.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": []
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "10:16",
+        "value": 616.0
+      },
+      "homeScore": 0,
+      "id": "401873046300",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "HOU",
+        "displayName": "Houston Texans",
+        "id": "34",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/hou/houston-texans",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/hou",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/hou.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/hou.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:34"
+      },
+      "text": "Xavier Hutchinson 17 Yd pass from C.J. Stroud (Ka'imi Fairbairn Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "6:14",
+        "value": 374.0
+      },
+      "homeScore": 3,
+      "id": "401873046573",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "LAC",
+        "displayName": "Los Angeles Chargers",
+        "id": "24",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lac/los-angeles-chargers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lac",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+            "lastUpdated": "2024-06-25T18:52Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lac.png",
+            "lastUpdated": "2024-06-25T18:52Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lac.png",
+            "lastUpdated": "2024-06-25T18:52Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:24"
+      },
+      "text": "Cameron Dicker 52 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 10,
+      "clock": {
+        "displayValue": "3:12",
+        "value": 192.0
+      },
+      "homeScore": 3,
+      "id": "401873046824",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "HOU",
+        "displayName": "Houston Texans",
+        "id": "34",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/hou/houston-texans",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/hou",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/hou.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/hou.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:34"
+      },
+      "text": "Ka'imi Fairbairn 56 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 10,
+      "clock": {
+        "displayValue": "8:13",
+        "value": 493.0
+      },
+      "homeScore": 6,
+      "id": "4018730461386",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "LAC",
+        "displayName": "Los Angeles Chargers",
+        "id": "24",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lac/los-angeles-chargers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lac",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+            "lastUpdated": "2024-06-25T18:52Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lac.png",
+            "lastUpdated": "2024-06-25T18:52Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lac.png",
+            "lastUpdated": "2024-06-25T18:52Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:24"
+      },
+      "text": "Cameron Dicker 33 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 10,
+      "clock": {
+        "displayValue": "5:11",
+        "value": 311.0
+      },
+      "homeScore": 9,
+      "id": "4018730461611",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "LAC",
+        "displayName": "Los Angeles Chargers",
+        "id": "24",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lac/los-angeles-chargers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lac",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+            "lastUpdated": "2024-06-25T18:52Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lac.png",
+            "lastUpdated": "2024-06-25T18:52Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lac.png",
+            "lastUpdated": "2024-06-25T18:52Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:24"
+      },
+      "text": "Cameron Dicker 43 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 17,
+      "clock": {
+        "displayValue": "4:28",
+        "value": 268.0
+      },
+      "homeScore": 9,
+      "id": "4018730461689",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "HOU",
+        "displayName": "Houston Texans",
+        "id": "34",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/hou/houston-texans",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/hou",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/hou.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/hou.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:34"
+      },
+      "text": "Tank Dell 63 Yd pass from C.J. Stroud (Ka'imi Fairbairn Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 24,
+      "clock": {
+        "displayValue": "0:31",
+        "value": 31.0
+      },
+      "homeScore": 9,
+      "id": "4018730462355",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "HOU",
+        "displayName": "Houston Texans",
+        "id": "34",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/hou/houston-texans",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/hou",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/hou.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/hou.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:34"
+      },
+      "text": "Kayshon Boutte 12 Yd pass from C.J. Stroud (Ka'imi Fairbairn Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 31,
+      "clock": {
+        "displayValue": "8:16",
+        "value": 496.0
+      },
+      "homeScore": 9,
+      "id": "4018730462990",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "HOU",
+        "displayName": "Houston Texans",
+        "id": "34",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/hou/houston-texans",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/hou",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/hou.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/hou.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:34"
+      },
+      "text": "Nico Collins 13 Yd pass from C.J. Stroud (Ka'imi Fairbairn Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 38,
+      "clock": {
+        "displayValue": "14:12",
+        "value": 852.0
+      },
+      "homeScore": 9,
+      "id": "4018730463522",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "HOU",
+        "displayName": "Houston Texans",
+        "id": "34",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/hou/houston-texans",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/hou",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/hou.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/hou.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:34"
+      },
+      "text": "Kayshon Boutte 63 Yd pass from C.J. Stroud (Ka'imi Fairbairn Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 38,
+      "clock": {
+        "displayValue": "12:47",
+        "value": 767.0
+      },
+      "homeScore": 15,
+      "id": "4018730463660",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "LAC",
+        "displayName": "Los Angeles Chargers",
+        "id": "24",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lac/los-angeles-chargers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lac",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+            "lastUpdated": "2024-06-25T18:52Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lac.png",
+            "lastUpdated": "2024-06-25T18:52Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lac.png",
+            "lastUpdated": "2024-06-25T18:52Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:24"
+      },
+      "text": "Quentin Johnston 58 Yd pass from Justin Herbert (Two-Point Pass Conversion Failed)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 41,
+      "clock": {
+        "displayValue": "8:50",
+        "value": 530.0
+      },
+      "homeScore": 15,
+      "id": "4018730463886",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "HOU",
+        "displayName": "Houston Texans",
+        "id": "34",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/hou/houston-texans",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/hou",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/hou.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/hou.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:34"
+      },
+      "text": "Ka'imi Fairbairn 31 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 41,
+      "clock": {
+        "displayValue": "4:19",
+        "value": 259.0
+      },
+      "homeScore": 22,
+      "id": "4018730464207",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "LAC",
+        "displayName": "Los Angeles Chargers",
+        "id": "24",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lac/los-angeles-chargers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lac",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+            "lastUpdated": "2024-06-25T18:52Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lac.png",
+            "lastUpdated": "2024-06-25T18:52Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+            "lastUpdated": "2024-06-25T18:51Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lac.png",
+            "lastUpdated": "2024-06-25T18:52Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:24"
+      },
+      "text": "Derius Davis 15 Yd pass from DJ Uiagalelei (Cameron Dicker Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 44,
+      "clock": {
+        "displayValue": "2:20",
+        "value": 140.0
+      },
+      "homeScore": 22,
+      "id": "4018730464426",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "HOU",
+        "displayName": "Houston Texans",
+        "id": "34",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/hou/houston-texans",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/hou",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/hou.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/hou.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:34"
+      },
+      "text": "Ka'imi Fairbairn 41 Yd Field Goal ",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    }
+  ]
+}

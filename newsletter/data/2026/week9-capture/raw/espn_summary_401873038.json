@@ -1,0 +1,953 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "Atlanta Falcons",
+        "guid": "49fd392a-86fe-4df3-1b77-9bbfa18b2ad5",
+        "id": 1979,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "ATL",
+          "description": "Atlanta Falcons",
+          "id": 1,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/atl/atlanta-falcons"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/atl/atlanta-falcons"
+              }
+            }
+          },
+          "shortDisplayName": "Falcons"
+        },
+        "teamId": 1,
+        "type": "team",
+        "uid": "s:20~l:28~t:1"
+      },
+      {
+        "description": "Cincinnati Bengals",
+        "guid": "75b8623b-8926-b411-0476-3d3602b78523",
+        "id": 2664,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "CIN",
+          "description": "Cincinnati Bengals",
+          "id": 4,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/cin/cincinnati-bengals"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/cin/cincinnati-bengals"
+              }
+            }
+          },
+          "shortDisplayName": "Bengals"
+        },
+        "teamId": 4,
+        "type": "team",
+        "uid": "s:20~l:28~t:4"
+      },
+      {
+        "description": "Cincinnati Bengals @ Atlanta Falcons",
+        "event": {
+          "description": "Cincinnati Bengals @ Atlanta Falcons",
+          "id": 401873038,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873038"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873038"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873038,
+        "guid": "a8b2b664-24ce-3118-8dca-b06ff3f3ea56",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873038"
+      }
+    ],
+    "categorized": "2026-11-08T23:52:17Z",
+    "contentKey": "50422166-1-21-1",
+    "dataSourceIdentifier": "da4428b159a34",
+    "description": "— Joe Burrow threw for three touchdowns and rushed for another and the Cincinnati Bengals' offense kept rolling to defeat the Atlanta Falcons 34-17 in Madrid on Sunday for their fourth straight win.",
+    "gameId": "401873038",
+    "headline": "Burrow powers Bengals past the Falcons in Madrid for their 4th straight win",
+    "id": 50422166,
+    "images": [
+      {
+        "caption": "Joe Burrow throws a dart to Tee Higgins for his 2nd TD of the game",
+        "height": 324,
+        "name": "Joe Burrow throws a dart to Tee Higgins for his 2nd TD of the game",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1108/d5a5c53d737f48d3975732165165b41f1132/d5a5c53d737f48d3975732165165b41f1132.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "Atlanta Falcons",
+      "Cincinnati Bengals",
+      "Cincinnati Bengals @ Atlanta Falcons"
+    ],
+    "lastModified": "2026-11-08T20:32:34Z",
+    "linkText": "Burrow powers Bengals past the Falcons in Madrid for their 4th straight win",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50422166"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50422166"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50422166"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873038"
+      }
+    },
+    "nowId": "1-50422166",
+    "originallyPosted": "2026-11-08T18:02:35Z",
+    "premium": false,
+    "published": "2026-11-08T18:02:35Z",
+    "publishedkey": "nfl401873038",
+    "section": "NFL",
+    "source": "AP",
+    "story": "MADRID -- — <a href=\"http://www.espn.com/nfl/player/_/id/3915511/joe-burrow\">Joe Burrow</a> threw for three touchdowns and rushed for another and the <a href=\"http://www.espn.com/nfl/team/_/name/cin/cincinnati-bengals\">Cincinnati Bengals</a>' offense kept rolling to defeat the <a href=\"http://www.espn.com/nfl/team/_/name/atl/atlanta-falcons\">Atlanta Falcons</a> 34-17 in Madrid on Sunday for their fourth straight win.\n\n\r\n              Ja’Marr Chase had eight receptions for 142 yards in a career-high first half for him. <a href=\"http://www.espn.com/nfl/player/_/id/4239993/tee-higgins\">Tee Higgins</a> added two touchdown catches at Real Madrid's Santiago Bernabeu Stadium. Chase finished with 10 catches for 155 yards and a touchdown.\n\n\r\n              After his 47-yard touchdown catch in the first quarter, Chase celebrated with Higgins in bullfighting style, with Higgins mimicking a bull by putting his hands on his head and Chase playing the matador with an imaginary cape. \n\n\r\n              “It was one of my best performances,\" Chase said. \"I just was getting good looks all day, honestly. I can say that. Joe was just believing in me on those one-on-one matchups and every time he got the opportunity, he was just feeding me.\"\n\n\r\n              Burrow appeared to celebrate his rushing touchdown by imitating a celebration by Brazil soccer great Neymar, who used to play for Barcelona, holding his hands beside his helmet and wiggling his fingers. \n\n\r\n              “I wanted to come out and put on a show for everybody and show what the excitement of the NFL can be,” said Burrow, playing in his first international game. \n\n\r\n              “And the NFL is really all about the stars and players making big-time plays. And so you saw <a href=\"http://www.espn.com/nfl/player/_/id/4362628/ja'marr-chase\">Ja'Marr Chase</a>, you saw me, you see Tee Higgins, you saw a lot of great players out there doing great things. And hopefully people took notice.”\n\n\r\n              The Bengals (6-2) have scored 30 points or more in four straight games for the first time since 1997, tying a franchise record. It was the second consecutive defeat for the Falcons (3-6).\n\n\r\n              Burrow, who completed 24 of 29 passes for 271 yards Sunday, had thrown five touchdown passes and rushed for another in overtime in the team’s <a href=\"https://apnews.com/article/titans-bengals-score-2467bd1f54600543ff6cbaa265fd6281\">43-36 win</a> over the <a href=\"http://www.espn.com/nfl/team/_/name/ten/tennessee-titans\">Tennessee Titans</a> last week.\n\n\r\n              “Joe’s playing at an unbelievably high level right now,” Bengals coach Zac Taylor said. “It’s difficult to not put the ball in his hands, given how everybody’s playing around him as well. So we just gotta keep this momentum going.”\n\n\r\n              The Bengals failed to convert on third down only once in the first half and didn’t punt until their first drive in the second half.\n\n\r\n              The Bengals scored on every possession before halftime, with three touchdowns and a field goal in the final seconds of the half.\n\n\r\n              Playing under the closed roof of the Bernabeu, Falcons quarterback <a href=\"http://www.espn.com/nfl/player/_/id/4360423/michael-penix-jr\">Michael Penix Jr</a>. played better than in the rain in a <a href=\"https://apnews.com/article/falcons-buccaneers-score-a476e150ee23ddfd7450a1caf152a58d\">16-0 loss</a> to the Buccaneers in Tampa Bay last week, but threw a late interception to go along with his opening-drive touchdown to tight end <a href=\"http://www.espn.com/nfl/player/_/id/4035020/charlie-woerner\">Charlie Woerner</a>. Penix was 20 of 31 for 162 yards with a touchdown and interception and added 50 yards rushing.\n\n\r\n              “We beat ourselves in a lot of areas of the game, and it’s tough,” Penix said. “We got to clean those things up. There is nothing that the guys don’t know. We go into the locker room after the game and it is like, we know what happened up there. We knew that was not who we wanted to be, who we want to be this season.”\n\n\r\n              Running back <a href=\"http://www.espn.com/nfl/player/_/id/4430807/bijan-robinson\">Bijan Robinson</a> had 42 yards on three carries on the Falcons' first drive. He ended with 100 yards rushing and a touchdown on 19 carries and 47 yards receiving on six receptions.\n\n\r\n              “We were not good enough, we have to do better,” Falcons coach Kevin Stefanski said. “We just were not at our best. And if you’re not at your best versus a good team, you’re not going to win.”\n\n\r\n              It was the <a href=\"https://apnews.com/article/nfl-madrid-american-football-european-leagues-7e3f8c7c6a3f27abedcf8f8ba6befc97\">second NFL regular-season game</a> in Madrid after the <a href=\"https://apnews.com/article/dolphins-commanders-nfl-madrid-score-dd5d81b54771122829b33ce85244b9fb\"><a href=\"http://www.espn.com/nfl/team/_/name/mia/miami-dolphins\">Miami Dolphins</a> beat the <a href=\"http://www.espn.com/nfl/team/_/name/wsh/washington-commanders\">Washington Commanders</a></a> 16-13 in overtime in last year’s inaugural game in the country. It was the seventh game in a <a href=\"https://apnews.com/article/nfl-international-games-d0a7b27dd491683d8d374f05b4cd9ba9\">record nine-game schedule</a> outside the U.S. for the NFL this season. The remaining games will be played in Munich, Germany, and Mexico City.\n\n\r\n              A crowd of 78,660 people was on hand on Sunday in the Spanish capital. Bengals fans appeared to outnumber Falcons supporters.\n\n\r\n              The lights at the Bernabeu suddenly went out just as the Bengals were taking a snap inside the final two minutes, prompting the down to be replayed. \n\n\r\n              Early in the game, some Bengals defensive players appeared to change into longer spikes after the first drive to adjust to the grass at the Bernabeu.\n\n\r\n              It was the Bengals’ first win in an international game. They had tied Washington in 2016 and lost to the <a href=\"http://www.espn.com/nfl/team/_/name/lar/los-angeles-rams\">Los Angeles Rams</a> in 2019, both times in London.\n\n\r\n              Falcons edge rusher <a href=\"http://www.espn.com/nfl/player/_/id/5081394/james-pearce-jr\">James Pearce Jr</a>. returned from an <a href=\"https://apnews.com/article/nfl-atlanta-falcons-b5eb71e5108fd4e5002b686a63427f84\">eight-game suspension</a> for violating the NFL’s personal conduct policy but had limited play. Pearce had a back issue in Friday’s practice and had been listed as <a href=\"https://apnews.com/article/falcons-james-pearce-bengals-madrid-03eacd3d6604e6423d460d68ac70e8c2\">questionable</a> ahead of the game.\n\n\r\n              Before kickoff, a moment of silence was held in tribute to the victims of the <a href=\"https://apnews.com/article/train-accident-spain-4f65471a0e36f448d7ee9efe0768cd77\">high-speed train crash</a> that killed 69 people in central Spain on Oct. 28, including four Americans. \n\n\r\n              Spain’s World Cup trophies for both the women’s and men’s soccer teams were displayed on the field, with national team players on hand as well.\n\n\r\n              Former Real Madrid and Brazil soccer great Roberto Carlos sounded the train horn in the Falcons' traditional pregame celebration. The halftime show featured Colombian music star Manuel Turizo. \n\n\r\n              <hl2>Up next</hl2>\r\n              Bengals: host Steelers on “Sunday Night Football” on Nov. 15.\n\n\r\n              Falcons: host Kansas City on Sunday.\n\n\r\n              ------\n\n\r\n              Associated Press writer Teresa Medrano contributed to this report.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": []
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 0,
+      "clock": {
+        "displayValue": "11:12",
+        "value": 672.0
+      },
+      "homeScore": 7,
+      "id": "401873038261",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "ATL",
+        "displayName": "Atlanta Falcons",
+        "id": "1",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/atl/atlanta-falcons",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/atl",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:1"
+      },
+      "text": "Charlie Woerner 1 Yd pass from Michael Penix Jr. (Nick Folk Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "8:49",
+        "value": 529.0
+      },
+      "homeScore": 7,
+      "id": "401873038441",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "CIN",
+        "displayName": "Cincinnati Bengals",
+        "id": "4",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/cin/cincinnati-bengals",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/cin",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/cin.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/cin.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:4"
+      },
+      "text": "Ja'Marr Chase 47 Yd pass from Joe Burrow (Evan McPherson Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "2:56",
+        "value": 176.0
+      },
+      "homeScore": 10,
+      "id": "401873038843",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "ATL",
+        "displayName": "Atlanta Falcons",
+        "id": "1",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/atl/atlanta-falcons",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/atl",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:1"
+      },
+      "text": "Nick Folk 31 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 14,
+      "clock": {
+        "displayValue": "12:56",
+        "value": 776.0
+      },
+      "homeScore": 10,
+      "id": "4018730381164",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "CIN",
+        "displayName": "Cincinnati Bengals",
+        "id": "4",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/cin/cincinnati-bengals",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/cin",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/cin.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/cin.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:4"
+      },
+      "text": "Joe Burrow 1 Yd Rush (Evan McPherson Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 21,
+      "clock": {
+        "displayValue": "4:03",
+        "value": 243.0
+      },
+      "homeScore": 10,
+      "id": "4018730381680",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "CIN",
+        "displayName": "Cincinnati Bengals",
+        "id": "4",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/cin/cincinnati-bengals",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/cin",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/cin.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/cin.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:4"
+      },
+      "text": "Tee Higgins 4 Yd pass from Joe Burrow (Evan McPherson Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 24,
+      "clock": {
+        "displayValue": "0:24",
+        "value": 24.0
+      },
+      "homeScore": 10,
+      "id": "4018730382126",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "CIN",
+        "displayName": "Cincinnati Bengals",
+        "id": "4",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/cin/cincinnati-bengals",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/cin",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/cin.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/cin.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:4"
+      },
+      "text": "Evan McPherson 57 Yd Field Goal ",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 24,
+      "clock": {
+        "displayValue": "6:18",
+        "value": 378.0
+      },
+      "homeScore": 17,
+      "id": "4018730382692",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "ATL",
+        "displayName": "Atlanta Falcons",
+        "id": "1",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/atl/atlanta-falcons",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/atl",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/atl.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:1"
+      },
+      "text": "Bijan Robinson 1 Yd Rush (Nick Folk Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 31,
+      "clock": {
+        "displayValue": "2:05",
+        "value": 125.0
+      },
+      "homeScore": 17,
+      "id": "4018730382937",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "CIN",
+        "displayName": "Cincinnati Bengals",
+        "id": "4",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/cin/cincinnati-bengals",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/cin",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/cin.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/cin.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:4"
+      },
+      "text": "Tee Higgins 8 Yd pass from Joe Burrow (Evan McPherson Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 34,
+      "clock": {
+        "displayValue": "4:36",
+        "value": 276.0
+      },
+      "homeScore": 17,
+      "id": "4018730383775",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "CIN",
+        "displayName": "Cincinnati Bengals",
+        "id": "4",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/cin/cincinnati-bengals",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/cin",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/cin.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/cin.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:4"
+      },
+      "text": "Evan McPherson 43 Yd Field Goal ",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    }
+  ]
+}

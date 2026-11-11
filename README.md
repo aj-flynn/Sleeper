@@ -1,6 +1,6 @@
 # Sleeper
 
-[Rebuilders Anonymous - Week 2](2026-week2.html) · [Week 4](2026-week4.html) · [Week 7 - Halloween](2026-week7.html) · [Week 8](2026-week8.html)
+[Rebuilders Anonymous - Week 2](2026-week2.html) · [Week 4](2026-week4.html) · [Week 7 - Halloween](2026-week7.html) · [Week 8](2026-week8.html) · [Week 9](2026-week9.html)
 
 ## Weekly newsletter
 
