@@ -21,6 +21,18 @@
       "published_at": "2026-11-04T13:13:33.252498Z",
       "scheduled": true,
       "url": "https://aj-flynn.github.io/Sleeper/2026-week8.html"
+    },
+    "2026-week9": {
+      "chat": {
+        "receipt": "Visible in Rebuilders Anonymous as JeffyWaterton, timestamp \"a few seconds ago\": Week 9 is live: hammball nearly wins with four players. https://aj-flynn.github.io/Sleeper/2026-week9.html",
+        "sender": "JeffyWaterton",
+        "started_at": "2026-11-11T13:29:31.695474Z",
+        "status": "sent",
+        "updated_at": "2026-11-11T13:31:09.600431Z"
+      },
+      "published_at": "2026-11-11T13:29:31.527455Z",
+      "scheduled": true,
+      "url": "https://aj-flynn.github.io/Sleeper/2026-week9.html"
     }
   },
   "league_id": "1319718857249665024"
