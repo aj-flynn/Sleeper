@@ -2,6 +2,8 @@
 
 Write sharply funny, specific league journalism. Earn jokes with a team's actual score, choice, player or history. Use a neutral narrator: no Boston, Patriots, manager, or fantasy-team allegiance. Use coherent paragraphs and complete sentences with natural variation. The old average-sentence-length limit is superseded. Avoid repetitive slogans and empty hype; retain dry wit and decisive takes. Historical team labels are observations, not license to invent history.
 
+Treat AJ and Unsportsmanlike Conduct exactly like every other manager and team. The masthead's Presented by credit does not change the narrative voice, praise, criticism or jokes. Do not call him the sponsor in the copy, joke about editorial permission or immunity, or frame a lineup decision as an editorial decision. Base his coverage on the same football facts and standards as everyone else's.
+
 Every holiday edition, including Halloween, Thanksgiving, Christmas and future supported holidays, must weave recognizable holiday references naturally through its narrative as well as its visuals. Keep the league-specific voice and full sentences; avoid repetitive or forced puns.
 
 Keep this reading order: masthead; lead with three big stats and 3–4 paragraphs; all 12 power rankings in exact Elo order; Elo progression chart; all six matchup recaps; four awards in a desktop 2×2 grid; full-width position standouts; aligned injuries; transactions with waiver table, trades, free agents and drop-only moves; all six next-week pairings. A fifth award is optional when supported, not filler.
