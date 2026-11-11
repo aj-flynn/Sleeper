@@ -1,0 +1,866 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "Carolina Panthers",
+        "guid": "647c27bf-ab86-550e-5b83-91c29e73e4a9",
+        "id": 2146,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "CAR",
+          "description": "Carolina Panthers",
+          "id": 29,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/car/carolina-panthers"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/car/carolina-panthers"
+              }
+            }
+          },
+          "shortDisplayName": "Panthers"
+        },
+        "teamId": 29,
+        "type": "team",
+        "uid": "s:20~l:28~t:29"
+      },
+      {
+        "description": "Denver Broncos",
+        "guid": "51042145-e3c1-0694-ae0d-f720342ff8fc",
+        "id": 2432,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "DEN",
+          "description": "Denver Broncos",
+          "id": 7,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/den/denver-broncos"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/den/denver-broncos"
+              }
+            }
+          },
+          "shortDisplayName": "Broncos"
+        },
+        "teamId": 7,
+        "type": "team",
+        "uid": "s:20~l:28~t:7"
+      },
+      {
+        "description": "Denver Broncos @ Carolina Panthers",
+        "event": {
+          "description": "Denver Broncos @ Carolina Panthers",
+          "id": 401873041,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873041"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873041"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873041,
+        "guid": "b0c568b6-0ad2-36a8-9b62-7ed786f445db",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873041"
+      }
+    ],
+    "categorized": "2026-11-08T23:23:14Z",
+    "contentKey": "50425319-1-21-1",
+    "dataSourceIdentifier": "44d2eddae47d7",
+    "description": "— The Denver Broncos continue to know how to win close games.",
+    "gameId": "401873041",
+    "headline": "Bo Nix throws for 2 TDs, Broncos win key challenge to beat Panthers 26-21 for fifth straight victory",
+    "id": 50425319,
+    "images": [
+      {
+        "caption": "Devon Key comes up with the most unbelievable INT you'll ever see",
+        "height": 324,
+        "name": "Devon Key comes up with the most unbelievable INT you'll ever see",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1108/e58a602d8c77457e8b0d4e85be64e54f1055/e58a602d8c77457e8b0d4e85be64e54f1055.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "Carolina Panthers",
+      "Denver Broncos",
+      "Denver Broncos @ Carolina Panthers"
+    ],
+    "lastModified": "2026-11-08T23:13:34Z",
+    "linkText": "Bo Nix throws for 2 TDs, Broncos win key challenge to beat Panthers 26-21 for fifth straight victory",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50425319"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50425319"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50425319"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873041"
+      }
+    },
+    "nowId": "1-50425319",
+    "originallyPosted": "2026-11-08T21:53:40Z",
+    "premium": false,
+    "published": "2026-11-08T21:53:40Z",
+    "publishedkey": "nfl401873041",
+    "section": "NFL",
+    "source": "AP",
+    "story": "CHARLOTTE, N.C. -- — The <a href=\"http://www.espn.com/nfl/team/_/name/den/denver-broncos\">Denver Broncos</a> continue to know how to win close games.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4426338/bo-nix\">Bo Nix</a> threw for 237 yards and two touchdowns and the Broncos benefitted from a momentum-turning coach’s challenge to beat the <a href=\"http://www.espn.com/nfl/team/_/name/car/carolina-panthers\">Carolina Panthers</a> 26-21 on Sunday for their fifth straight win.\n\n\r\n              Denver has won 16 straight one-score (eight points or fewer) games.\n\n\r\n              “When those things keep falling your way, that’s not by accident,” Broncos coach Sean Payton said.\n\n\r\n              Nix said it speaks to the character and toughness of the Broncos, who enter the bye week at 7-2 and alone atop the AFC West.\n\n\r\n              “I think we're just comfortable in that moment — when things get close at the end of the game,” Nix said. “... I'm just glad we're on this side of winning them and not in a streak of losing them.”\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4702555/jonah-coleman\">Jonah Coleman</a> ran for 57 yards and a score and <a href=\"http://www.espn.com/nfl/player/_/id/3128429/courtland-sutton\">Courtland Sutton</a> and <a href=\"http://www.espn.com/nfl/player/_/id/4600981/pat-bryant\">Pat Bryant</a> each caught TD passes for the Broncos.\n\n\r\n              Denver needed a late strip-sack and fumble recovery with 1:24 left from <a href=\"http://www.espn.com/nfl/player/_/id/4360259/nik-bonitto\">Nik Bonitto</a> on <a href=\"http://www.espn.com/nfl/player/_/id/4685720/bryce-young\">Bryce Young</a> to prevent the Panthers from ending their streak of close wins. After Bonitto's fumble recovery, Nix picked up a first down on a third down QB sneak to seal the win.\n\n\r\n              Bonitto said he had been setting up Panthers left tackle <a href=\"http://www.espn.com/nfl/player/_/id/4361429/rasheed-walker\">Rasheed Walker</a> all game for that particular rush around the outside.\n\n\r\n              “I had hit him with a few inside moves and I knew this could be one of my last rushes, so I set up a little jab inside and was able to (go outside) to make the play,” Bonitto said.\n\n\r\n              Young finished 28 of 39 for 276 yards with three touchdown passes and an interception for Carolina. He was sacked three times after being sacked six times in a loss last week to Green Bay.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/2576925/darren-waller\">Darren Waller</a> had eight catches for 90 yards and a touchdown for the Panthers (3-5),\n\n\r\n              The Panthers took their only lead early in the third quarter when Young found Waller over the middle for a 15-yard touchdown pass.\n\n\r\n              The turning point came late in the third quarter when Payton won a key challenge.\n\n\r\n              With Carolina facing a first-and-goal at the Denver 1, Young threw a pass toward the corner of the end zone that was initially ruled incomplete. After the Panthers had run a second down play, officials stepped in and determined Payton had thrown the red challenge flag before the snap. \n\n\r\n              Upon review, officials ruled that Denver safety <a href=\"http://www.espn.com/nfl/player/_/id/4037559/devon-key\">Devon Key</a> had caught a ball that deflected off tight end <a href=\"http://www.espn.com/nfl/player/_/id/4372780/tommy-tremble\">Tommy Tremble</a>'s hand before it hit the ground. The interception gave the Broncos the ball at their 20 and ended Carolina's momentum and a chance to go up by eight.\n\n\r\n              “No one thought that was a possibility,\" Tremble said of the late review. “We ran a play. I’ve never seen someone run a play full through and then get a challenge for a previous play. I didn’t think that was possible. It’s unfortunate for that to happen to us.”\n\n\r\n              Denver took advantage of the momentum shift.\n\n\r\n              The Broncos drove 80 yards in 14 plays to take a 19-14 lead on a 9-yard touchdown run by Jonah Coleman with 10:17 remaining. Denver's 2-point conversion pass failed, but Nix made it a two-possession game when he connected with a wide-open Bryant on a 25-yard touchdown pass down the seam.\n\n\r\n              Nix called it the team's “best stretch of football” to score TDs on back-to-back possessions.\n\n\r\n              Still, the Panthers gave themselves a chance.\n\n\r\n              Young completed a 25-yard pass on fourth-and-18 and found <a href=\"http://www.espn.com/nfl/player/_/id/4685472/tetairoa-mcmillan\">Tetairoa McMillan</a> for a 4-yard TD pass with 3:05 left. The Broncos nearly gave the game away when Coleman couldn't handle Nix's pitchout, resulting in an 18-yard loss and a punt with two minutes left.\n\n\r\n              But Bonitto saved the Broncos, sending Carolina to its third straight loss.\n\n\r\n              “No matter what, if the ball is in my hands we need to have it the next play,” Young said. “I take accountability for that. Good moment, we’re rolling, and then for it to be cut abrupt, again, I take accountability for that. We have to find a way to get it done in a moment like that.”\n\n\r\n              Despite the losing streak, the Panthers (3-5) are still in a three-way tie for first place with New Orleans and Tampa Bay in the NFC South. The Buccaneers play Sunday night at Chicago and could move into sole possession of first with a win.\n\n\r\n              <hl2>Broncos target Carolina's banged-up secondary</hl2>\r\n              The Broncos made a point early to go after Carolina's banged-up secondary, which was playing without its top four cornerbacks.\n\n\r\n              Denver's first two plays were deep throws, resulting in one pass interference penalty. Carolina starting cornerbacks <a href=\"http://www.espn.com/nfl/player/_/id/4240595/marco-wilson\">Marco Wilson</a> and <a href=\"http://www.espn.com/nfl/player/_/id/4431426/corey-thornton\">Corey Thornton</a> — both call-ups from the practice squad this week — combined for five defensive pass interference penalties.\n\n\r\n              “We knew they were banged up at that position,” Nix said. “It's always something you want to look out for and be aware of. When you have roster changes it's something to key on.”\n\n\r\n              <hl2>Injuries</hl2>\r\n              Denver: Wide receiver <a href=\"http://www.espn.com/nfl/player/_/id/4372016/jaylen-waddle\">Jaylen Waddle</a> and cornerback <a href=\"http://www.espn.com/nfl/player/_/id/4382401/riley-moss\">Riley Moss</a> suffered concussions in the first half and were ruled out for the remainder of the game.\n\n\r\n              Carolina: No injuries reported.\n\n\r\n              <hl2>Up next</hl2>\r\n              Denver: bye next week. Host Las Vegas on Nov. 22.\n\n\r\n              Carolina: at New Orleans on Sunday.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": []
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "11:09",
+        "value": 669.0
+      },
+      "homeScore": 0,
+      "id": "401873041322",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "DEN",
+        "displayName": "Denver Broncos",
+        "id": "7",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/den/denver-broncos",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/den",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:7"
+      },
+      "text": "Wil Lutz 26 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 10,
+      "clock": {
+        "displayValue": "1:23",
+        "value": 83.0
+      },
+      "homeScore": 0,
+      "id": "401873041850",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "DEN",
+        "displayName": "Denver Broncos",
+        "id": "7",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/den/denver-broncos",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/den",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:7"
+      },
+      "text": "Courtland Sutton 3 Yd pass from Bo Nix (Wil Lutz Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 10,
+      "clock": {
+        "displayValue": "1:27",
+        "value": 87.0
+      },
+      "homeScore": 7,
+      "id": "4018730411993",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "CAR",
+        "displayName": "Carolina Panthers",
+        "id": "29",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/car/carolina-panthers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/car",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+            "lastUpdated": "2024-06-25T18:45Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png",
+            "lastUpdated": "2024-06-25T18:45Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/car.png",
+            "lastUpdated": "2024-06-25T18:45Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:29"
+      },
+      "text": "Tommy Tremble 10 Yd pass from Bryce Young (Ryan Fitzgerald Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 13,
+      "clock": {
+        "displayValue": "0:04",
+        "value": 4.0
+      },
+      "homeScore": 7,
+      "id": "4018730412235",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "DEN",
+        "displayName": "Denver Broncos",
+        "id": "7",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/den/denver-broncos",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/den",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:7"
+      },
+      "text": "Wil Lutz 48 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 13,
+      "clock": {
+        "displayValue": "11:30",
+        "value": 690.0
+      },
+      "homeScore": 14,
+      "id": "4018730412546",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "CAR",
+        "displayName": "Carolina Panthers",
+        "id": "29",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/car/carolina-panthers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/car",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+            "lastUpdated": "2024-06-25T18:45Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png",
+            "lastUpdated": "2024-06-25T18:45Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/car.png",
+            "lastUpdated": "2024-06-25T18:45Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:29"
+      },
+      "text": "Darren Waller 15 Yd pass from Bryce Young (Ryan Fitzgerald Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 19,
+      "clock": {
+        "displayValue": "10:17",
+        "value": 617.0
+      },
+      "homeScore": 14,
+      "id": "4018730413583",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "DEN",
+        "displayName": "Denver Broncos",
+        "id": "7",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/den/denver-broncos",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/den",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:7"
+      },
+      "text": "Jonah Coleman 9 Yd Rush (Two-Point Pass Conversion Failed)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 26,
+      "clock": {
+        "displayValue": "5:41",
+        "value": 341.0
+      },
+      "homeScore": 14,
+      "id": "4018730413940",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "DEN",
+        "displayName": "Denver Broncos",
+        "id": "7",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/den/denver-broncos",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/den",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/den.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:7"
+      },
+      "text": "Pat Bryant 26 Yd pass from Bo Nix (Wil Lutz Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 26,
+      "clock": {
+        "displayValue": "3:05",
+        "value": 185.0
+      },
+      "homeScore": 21,
+      "id": "4018730414340",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "CAR",
+        "displayName": "Carolina Panthers",
+        "id": "29",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/car/carolina-panthers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/car",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+            "lastUpdated": "2024-06-25T18:45Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png",
+            "lastUpdated": "2024-06-25T18:45Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+            "lastUpdated": "2024-06-25T18:46Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/car.png",
+            "lastUpdated": "2024-06-25T18:45Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:29"
+      },
+      "text": "Tetairoa McMillan 4 Yd pass from Bryce Young (Ryan Fitzgerald Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    }
+  ]
+}

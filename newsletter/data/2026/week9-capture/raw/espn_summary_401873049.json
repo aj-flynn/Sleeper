@@ -1,0 +1,1440 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "New England Patriots",
+        "guid": "0078f353-fe3e-67ed-a42c-43cca0568e21",
+        "id": 2321,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "NE",
+          "description": "New England Patriots",
+          "id": 17,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/ne/new-england-patriots"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/ne/new-england-patriots"
+              }
+            }
+          },
+          "shortDisplayName": "Patriots"
+        },
+        "teamId": 17,
+        "type": "team",
+        "uid": "s:20~l:28~t:17"
+      },
+      {
+        "description": "Green Bay Packers",
+        "guid": "06cd3bcf-7a86-53d4-28e7-aa049dd36261",
+        "id": 1861,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "GB",
+          "description": "Green Bay Packers",
+          "id": 9,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/gb/green-bay-packers"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/gb/green-bay-packers"
+              }
+            }
+          },
+          "shortDisplayName": "Packers"
+        },
+        "teamId": 9,
+        "type": "team",
+        "uid": "s:20~l:28~t:9"
+      },
+      {
+        "description": "Green Bay Packers @ New England Patriots",
+        "event": {
+          "description": "Green Bay Packers @ New England Patriots",
+          "id": 401873049,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873049"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873049"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873049,
+        "guid": "517fda27-0296-38a6-8a5b-73f5290c5304",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873049"
+      }
+    ],
+    "categorized": "2026-11-09T04:50:43Z",
+    "contentKey": "50427818-1-21-1",
+    "dataSourceIdentifier": "e4f1d568e3e92",
+    "description": "— If Jordan Love has played a better game than he did on Sunday, he can't remember it.",
+    "gameId": "401873049",
+    "headline": "Jordan Love accounts for 4 touchdowns, Packers force 4 turnovers in 45-27 win over Patriots",
+    "id": 50427818,
+    "images": [
+      {
+        "caption": "Rob Demovsky goes in depth on how impressed Jordan Love's teammates were with his play.",
+        "height": 324,
+        "name": "Jordan Love puts on a show in win",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1108/dm_261108_Packers_beat_Patriots_IA/dm_261108_Packers_beat_Patriots_IA.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "New England Patriots",
+      "Green Bay Packers",
+      "Green Bay Packers @ New England Patriots"
+    ],
+    "lastModified": "2026-11-09T02:27:35Z",
+    "linkText": "Jordan Love accounts for 4 touchdowns, Packers force 4 turnovers in 45-27 win over Patriots",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50427818"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50427818"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50427818"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873049"
+      }
+    },
+    "nowId": "1-50427818",
+    "originallyPosted": "2026-11-09T01:05:35Z",
+    "premium": false,
+    "published": "2026-11-09T01:05:35Z",
+    "publishedkey": "nfl401873049",
+    "section": "NFL",
+    "source": "AP",
+    "story": "FOXBOROUGH, Mass. -- — If <a href=\"http://www.espn.com/nfl/player/_/id/4036378/jordan-love\">Jordan Love</a> has played a better game than he did on Sunday, he can't remember it. \n\n\r\n              “It’s definitely up there. It felt great,” the Packers quarterback said.\n\n\r\n              Because of it, <a href=\"https://apnews.com/hub/green-bay-packers\">Green Bay</a> looks like a team capable of staying in the mix in the formidable NFC North.\n\n\r\n              Love threw for 372 yards and three touchdowns and ran for a score, and the Packers scored 21 points off four <a href=\"http://www.espn.com/nfl/team/_/name/ne/new-england-patriots\">New England Patriots</a> turnovers to roll to a 45-27 win.\n\n\r\n              Green Bay's receivers had a huge day, with <a href=\"http://www.espn.com/nfl/player/_/id/4248528/christian-watson\">Christian Watson</a> catching seven passes for 171 yards and a TD and <a href=\"http://www.espn.com/nfl/player/_/id/4701936/matthew-golden\">Matthew Golden</a> finishing with 10 catches for 164 yards and a score. <a href=\"http://www.espn.com/nfl/player/_/id/4819231/kaleb-johnson\">Kaleb Johnson</a> ran for a touchdown and <a href=\"http://www.espn.com/nfl/player/_/id/4431487/savion-williams\">Savion Williams</a> had a TD catch as Green Bay finished with 478 total yards.\n\n\r\n              “It's crazy, because I know there's probably a lot more in there,” Golden said. “We've still got so many more plays out there to make.”\n\n\r\n              The Packers hadn’t scored 45 or more points and had 450 or more yards since Nov. 11, 1962 at Philadelphia.\n\n\r\n              “We got our (butts) kicked. There’s no two ways around it,” <a href=\"https://apnews.com/hub/new-england-patriots\">Patriots</a> coach Mike Vrabel said.\n\n\r\n              Late in the game, “MVP!” chants for Love could be heard from visiting Packers fans.\n\n\r\n              “It's a surreal feeling,” Love said.\n\n\r\n              Love completed three passes of at least 43 yards, and seven of 28 or more. \n\n\r\n              “Those are low-percentage throws in theory, but he’s making them look high-percentage,” Packers coach Matt LeFleur said. “They’re right on the money.”\n\n\r\n              Packers safety <a href=\"http://www.espn.com/nfl/player/_/id/4241470/xavier-mckinney\">Xavier McKinney</a> had a pair of interceptions and <a href=\"http://www.espn.com/nfl/player/_/id/4428863/evan-williams\">Evan Williams</a> also had a pick.\n\n\r\n              Green Bay entered the day last in the NFL in rushing, averaging 60.6 yards per game, but finished with 129 yards on the ground.\n\n\r\n              The Packers (6-3) got plenty of help from the Patriots (5-4) as they built a 24-7 lead en route to their fifth win in six games.\n\n\r\n              New England's <a href=\"http://www.espn.com/nfl/player/_/id/4431452/drake-maye\">Drake Maye</a> took a step backward after weeks of steady play, throwing three interceptions while completing 21 of 38 passes for 299 yards and three touchdowns. Maye had thrown just one pick in his previous four games. He's now tied with Chargers quarterback <a href=\"http://www.espn.com/nfl/player/_/id/4038941/justin-herbert\">Justin Herbert</a> with an NFL-worst 11 INTs.\n\n\r\n              “We haven’t had a clean, a turnover-free game yet,” Maye said. “It’s starting with me. It’s one of the biggest differences between winning and losing football games.”\n\n\r\n              The Patriots set a franchise record for points allowed at Gillette Stadium, which opened in 2002. New England hadn't given up 45 points in the regular season since a 45-7 loss to the <a href=\"http://www.espn.com/nfl/team/_/name/nyj/new-york-jets\">New York Jets</a> on Sept. 26, 1993.\n\n\r\n              Maye made questionable decisions on all three of his turnovers in the first half. Two of them set up Packers touchdowns. <a href=\"http://www.espn.com/nfl/player/_/id/4569173/rhamondre-stevenson\">Rhamondre Stevenson</a>, Efton Chism and <a href=\"http://www.espn.com/nfl/player/_/id/2991662/mack-hollins\">Mack Hollins</a> all had TD catches for the Patriots. Stevenson also had a fumble that set up Watson’s score before leaving with a knee injury late third quarter.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4427095/demario-douglas\">DeMario Douglas</a> caught five passes for 102 yards.\n\n\r\n              The Packers led 24-14 at halftime, then drove down the field on the opening possession of the second half. Love punctuated the seven-play, 70-yard drive with a 10-yard TD pass to Williams.\n\n\r\n              New England rookie <a href=\"http://www.espn.com/nfl/player/_/id/4606666/karon-prunty\">Karon Prunty</a> was in coverage on the score after <a href=\"http://www.espn.com/nfl/player/_/id/3916923/carlton-davis\">Carlton Davis III</a> suffered a knee injury in the second quarter.\n\n\r\n              Gillette Stadium was full of energy before the game as the Patriots celebrated members of their 2016 team — including an appearance by Tom Brady in the Fox broadcast booth — to commemorate the 10th anniversary of their record comeback win over the <a href=\"http://www.espn.com/nfl/team/_/name/atl/atlanta-falcons\">Atlanta Falcons</a> in Super Bowl 51. \n\n\r\n              It quickly dissipated after the Patriots opened with a penalty, followed on the next play by Maye throwing the ball into traffic and being intercepted by McKinney at the New England 14. \n\n\r\n              Two plays later, Love easily found the end zone on a scramble and the Packers jumped in front 7-0. \n\n\r\n              Green Bay never trailed.\n\n\r\n              <hl2>Injuries</hl2>\r\n              Packers: Linebacker Ty’Ron Hopper left early in the first quarter with a chest injury. Running back <a href=\"http://www.espn.com/nfl/player/_/id/4047365/josh-jacobs\">Josh Jacobs</a> left later in the quarter with a broken finger, LaFleur said. ... Wide receiver <a href=\"http://www.espn.com/nfl/player/_/id/4259305/bo-melton\">Bo Melton</a> was evaluated for a concussion.\n\n\r\n              Patriots: Left guard <a href=\"http://www.espn.com/nfl/player/_/id/4362890/ben-brown\">Ben Brown</a> (knee) limped off a few plays after Davis late in the second quarter. ... Special teamer <a href=\"http://www.espn.com/nfl/player/_/id/4047941/brenden-schooler\">Brenden Schooler</a> exited with a hamstring injury. ... Left tackle <a href=\"http://www.espn.com/nfl/player/_/id/4685298/will-campbell\">Will Campbell</a> walked off with a knee injury in the fourth quarter.\n\n\r\n              <hl2>Packers' receiving duo has rare achievement</hl2>\r\n              Watson and Golden became the first Packers teammates to have 150 or more receiving yards and a touchdown catch since Don Hutson and Andy Uram did it in 1942.\n\n\r\n              <hl2>Up next</hl2>\r\n              Packers: Host Minnesota next Sunday.\n\n\r\n              Patriots: Travel to Germany to play Detroit next Sunday in Munich.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": [
+      {
+        "ad": {
+          "bundle": "sportscenter",
+          "sport": "nfl"
+        },
+        "caption": "Rob Demovsky goes in depth on how impressed Jordan Love's teammates were with his play.",
+        "categories": [
+          {
+            "description": "Green Bay Packers",
+            "guid": "06cd3bcf-7a86-53d4-28e7-aa049dd36261",
+            "id": 1861,
+            "sportId": 28,
+            "team": {
+              "abbreviation": "GB",
+              "description": "Green Bay Packers",
+              "id": 9,
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nfl/team/_/name/gb/green-bay-packers"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nfl/team/_/name/gb/green-bay-packers"
+                  }
+                }
+              },
+              "shortDisplayName": "Packers"
+            },
+            "teamId": 9,
+            "type": "team",
+            "uid": "s:20~l:28~t:9"
+          },
+          {
+            "description": "SC4U  - Eligible",
+            "guid": "d348c764-47d9-3e31-bd75-d39dfde52c26",
+            "id": 711824,
+            "type": "editorialindicator"
+          },
+          {
+            "description": "SC4U - InstantAnalysis",
+            "guid": "2a4cc294-9e85-38be-b7ed-12d8b3f3c646",
+            "id": 718171,
+            "type": "editorialindicator"
+          },
+          {
+            "description": "Green Bay Packers @ New England Patriots",
+            "event": {
+              "description": "Green Bay Packers @ New England Patriots",
+              "id": 401873049,
+              "league": "nfl",
+              "links": {
+                "mobile": {
+                  "event": {
+                    "href": "https://www.espn.com/nfl/game/_/gameId/401873049"
+                  }
+                },
+                "web": {
+                  "event": {
+                    "href": "https://www.espn.com/nfl/game/_/gameId/401873049"
+                  }
+                }
+              },
+              "sport": "football"
+            },
+            "eventId": 401873049,
+            "guid": "517fda27-0296-38a6-8a5b-73f5290c5304",
+            "type": "event",
+            "uid": "s:20~l:28~e:401873049"
+          }
+        ],
+        "cerebroId": "6af150a2f1fa1079196922df",
+        "dataSourceIdentifier": "3787bf3e12a64",
+        "description": "Rob Demovsky goes in depth on how impressed Jordan Love's teammates were with his play.",
+        "deviceRestrictions": {
+          "devices": [
+            "settop",
+            "tablet",
+            "handset",
+            "ipad",
+            "desktop"
+          ],
+          "type": "whitelist"
+        },
+        "duration": 40,
+        "gameId": 401873049,
+        "headline": "Jordan Love puts on a show in win",
+        "id": 50429564,
+        "images": [
+          {
+            "alt": "",
+            "caption": "",
+            "credit": "",
+            "height": 324,
+            "name": "Poster Image",
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1108/dm_261108_Packers_beat_Patriots_IA/dm_261108_Packers_beat_Patriots_IA.jpg",
+            "width": 576
+          }
+        ],
+        "lastModified": "2026-11-09T04:50:18Z",
+        "links": {
+          "api": {
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/7b0a63f5-e1df-49b0-a3ed-c5e1890b360f"
+            },
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/video/clips/50429564"
+            }
+          },
+          "mobile": {
+            "alert": {
+              "href": "https://m.espn.com/general/video/videoAlert?vid=50429564"
+            },
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7b0a63f5-e1df-49b0-a3ed-c5e1890b360f/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50429564/jordan-love-puts-show-win",
+            "progressiveDownload": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7b0a63f5-e1df-49b0-a3ed-c5e1890b360f/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50429564/jordan-love-puts-show-win"
+            },
+            "source": {
+              "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1108/dm_261108_Packers_beat_Patriots_IA/dm_261108_Packers_beat_Patriots_IA.mp4"
+            },
+            "streaming": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7b0a63f5-e1df-49b0-a3ed-c5e1890b360f/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50429564/jordan-love-puts-show-win"
+            }
+          },
+          "source": {
+            "HD": {
+              "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1108/dm_261108_Packers_beat_Patriots_IA/dm_261108_Packers_beat_Patriots_IA.mp4"
+            },
+            "HLS": {
+              "9x16": {
+                "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/2026/1108/dm_261108_Packers_beat_Patriots_IA/dm_261108_Packers_beat_Patriots_IA/playlist.m3u8"
+              },
+              "HD": {
+                "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/1108/dm_261108_Packers_beat_Patriots_IA/dm_261108_Packers_beat_Patriots_IA/playlist.m3u8"
+              },
+              "cmaf": {
+                "9x16": {
+                  "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/2026/1108/dm_261108_Packers_beat_Patriots_IA/dm_261108_Packers_beat_Patriots_IA/playlist.m3u8"
+                },
+                "cmb": {
+                  "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/2026/1108/dm_261108_Packers_beat_Patriots_IA/dm_261108_Packers_beat_Patriots_IA/playlist.m3u8"
+                },
+                "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/2026/1108/dm_261108_Packers_beat_Patriots_IA/dm_261108_Packers_beat_Patriots_IA/playlist.m3u8"
+              },
+              "cmb": {
+                "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/2026/1108/dm_261108_Packers_beat_Patriots_IA/dm_261108_Packers_beat_Patriots_IA/playlist.m3u8"
+              },
+              "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/1108/dm_261108_Packers_beat_Patriots_IA/dm_261108_Packers_beat_Patriots_IA/playlist.m3u8",
+              "shield": {
+                "href": "https://watch.auth.api.espn.com/video/auth/media/7b0a63f5-e1df-49b0-a3ed-c5e1890b360f/asset"
+              }
+            },
+            "flash": {
+              "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1108/dm_261108_Packers_beat_Patriots_IA/dm_261108_Packers_beat_Patriots_IA.mp4"
+            },
+            "full": {
+              "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1108/dm_261108_Packers_beat_Patriots_IA/dm_261108_Packers_beat_Patriots_IA.mp4"
+            },
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1108/dm_261108_Packers_beat_Patriots_IA/dm_261108_Packers_beat_Patriots_IA.mp4",
+            "mezzanine": {
+              "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1108/dm_261108_Packers_beat_Patriots_IA/dm_261108_Packers_beat_Patriots_IA.mp4"
+            }
+          },
+          "sportscenter": {
+            "href": "sportscenter://x-callback-url/showVideo?videoID=50429564&videoDSI=3787bf3e12a64"
+          },
+          "web": {
+            "href": "https://www.espn.com/video/clip/_/id/50429564/jordan-love-puts-show-win",
+            "self": {
+              "dsi": {
+                "href": "https://www.espn.com/video/clip?id=3787bf3e12a64"
+              },
+              "href": "https://www.espn.com/video/clip/_/id/50429564/jordan-love-puts-show-win"
+            }
+          }
+        },
+        "originalPublishDate": "2026-11-09T04:48:35Z",
+        "pccId": "7b0a63f5-e1df-49b0-a3ed-c5e1890b360f",
+        "posterImages": {
+          "default": {
+            "height": 324,
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1108/dm_261108_Packers_beat_Patriots_IA/dm_261108_Packers_beat_Patriots_IA_default.jpg",
+            "width": 576
+          },
+          "firstFrame": {
+            "href": "https://cmp-espn.media.dssott.com/opp/img/espn/2026/1108/dm_261108_Packers_beat_Patriots_IA/dm_261108_Packers_beat_Patriots_IA/thumb-1-w720-h406-f4.jpg"
+          },
+          "full": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1108/dm_261108_Packers_beat_Patriots_IA/dm_261108_Packers_beat_Patriots_IA.jpg"
+          },
+          "square": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1108/dm_261108_Packers_beat_Patriots_IA/dm_261108_Packers_beat_Patriots_IA_1x1.jpg"
+          },
+          "vertical": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1108/dm_261108_Packers_beat_Patriots_IA/dm_261108_Packers_beat_Patriots_IA_9x16.jpg"
+          },
+          "verticalFirstFrame": {
+            "href": "https://cmp-espn.media.dssott.com/opp/img/espn/9x16/2026/1108/dm_261108_Packers_beat_Patriots_IA/dm_261108_Packers_beat_Patriots_IA/thumb-1-w406-h720-f4.jpg"
+          },
+          "wide": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1108/dm_261108_Packers_beat_Patriots_IA/dm_261108_Packers_beat_Patriots_IA_5x2.jpg"
+          }
+        },
+        "premium": false,
+        "shortDescription": "Rob Demovsky goes in depth on how impressed Jordan Love's teammates were with his play.",
+        "shortHeadline": "Jordan Love puts on a show in win",
+        "source": "espn",
+        "syndicatable": true,
+        "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1108/dm_261108_Packers_beat_Patriots_IA/dm_261108_Packers_beat_Patriots_IA.jpg",
+        "timeRestrictions": {
+          "embargoDate": "2026-11-09T04:47:16Z",
+          "expirationDate": "2026-11-12T04:47:16Z"
+        },
+        "title": "Jordan Love puts on a show in win",
+        "tracking": {
+          "coverageType": "InstantAnalysis",
+          "leagueName": "No League",
+          "program": "NFL",
+          "sportName": "nfl",
+          "trackingId": "dm_261108_Packers_beat_Patriots_IA",
+          "trackingName": "SC4U_NFL InstantAnalysis (Jordan Love puts on a show in win) 2026/11/8"
+        },
+        "videoRatio": "16:9,9:16"
+      }
+    ]
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 7,
+      "clock": {
+        "displayValue": "13:19",
+        "value": 799.0
+      },
+      "homeScore": 0,
+      "id": "401873049152",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "GB",
+        "displayName": "Green Bay Packers",
+        "id": "9",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/gb/green-bay-packers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/gb",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+            "lastUpdated": "2024-10-28T18:22Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:9"
+      },
+      "text": "Jordan Love 13 Yd Rush (Trey Smack Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 14,
+      "clock": {
+        "displayValue": "7:59",
+        "value": 479.0
+      },
+      "homeScore": 0,
+      "id": "401873049501",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "GB",
+        "displayName": "Green Bay Packers",
+        "id": "9",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/gb/green-bay-packers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/gb",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+            "lastUpdated": "2024-10-28T18:22Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:9"
+      },
+      "text": "Matthew Golden 5 Yd pass from Jordan Love (Trey Smack Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 17,
+      "clock": {
+        "displayValue": "13:37",
+        "value": 817.0
+      },
+      "homeScore": 0,
+      "id": "4018730491131",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "GB",
+        "displayName": "Green Bay Packers",
+        "id": "9",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/gb/green-bay-packers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/gb",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+            "lastUpdated": "2024-10-28T18:22Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:9"
+      },
+      "text": "Trey Smack 41 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 17,
+      "clock": {
+        "displayValue": "9:23",
+        "value": 563.0
+      },
+      "homeScore": 7,
+      "id": "4018730491437",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "NE",
+        "displayName": "New England Patriots",
+        "id": "17",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/ne/new-england-patriots",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/ne",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:17"
+      },
+      "text": "Rhamondre Stevenson 30 Yd pass from Drake Maye (Andy Borregales Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 24,
+      "clock": {
+        "displayValue": "4:45",
+        "value": 285.0
+      },
+      "homeScore": 7,
+      "id": "4018730491862",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "GB",
+        "displayName": "Green Bay Packers",
+        "id": "9",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/gb/green-bay-packers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/gb",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+            "lastUpdated": "2024-10-28T18:22Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:9"
+      },
+      "text": "Kaleb Johnson 2 Yd Rush (Trey Smack Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 24,
+      "clock": {
+        "displayValue": "2:37",
+        "value": 157.0
+      },
+      "homeScore": 14,
+      "id": "4018730492134",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "NE",
+        "displayName": "New England Patriots",
+        "id": "17",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/ne/new-england-patriots",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/ne",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:17"
+      },
+      "text": "Efton Chism III 8 Yd pass from Drake Maye (Andy Borregales Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 31,
+      "clock": {
+        "displayValue": "10:51",
+        "value": 651.0
+      },
+      "homeScore": 14,
+      "id": "4018730492786",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "GB",
+        "displayName": "Green Bay Packers",
+        "id": "9",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/gb/green-bay-packers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/gb",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+            "lastUpdated": "2024-10-28T18:22Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:9"
+      },
+      "text": "Savion Williams 10 Yd pass from Jordan Love (Trey Smack Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 34,
+      "clock": {
+        "displayValue": "5:13",
+        "value": 313.0
+      },
+      "homeScore": 14,
+      "id": "4018730493147",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "GB",
+        "displayName": "Green Bay Packers",
+        "id": "9",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/gb/green-bay-packers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/gb",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+            "lastUpdated": "2024-10-28T18:22Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:9"
+      },
+      "text": "Trey Smack 51 Yd Field Goal ",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 42,
+      "clock": {
+        "displayValue": "4:10",
+        "value": 250.0
+      },
+      "homeScore": 14,
+      "id": "4018730493266",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "GB",
+        "displayName": "Green Bay Packers",
+        "id": "9",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/gb/green-bay-packers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/gb",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+            "lastUpdated": "2024-10-28T18:22Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:9"
+      },
+      "text": "Christian Watson 39 Yd pass from Jordan Love (Jordan Love Run for Two-Point Conversion)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 42,
+      "clock": {
+        "displayValue": "1:11",
+        "value": 71.0
+      },
+      "homeScore": 21,
+      "id": "4018730493516",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "NE",
+        "displayName": "New England Patriots",
+        "id": "17",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/ne/new-england-patriots",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/ne",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:17"
+      },
+      "text": "Mack Hollins 22 Yd pass from Drake Maye (Andy Borregales Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 45,
+      "clock": {
+        "displayValue": "11:51",
+        "value": 711.0
+      },
+      "homeScore": 21,
+      "id": "4018730493809",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "GB",
+        "displayName": "Green Bay Packers",
+        "id": "9",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/gb/green-bay-packers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/gb",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+            "lastUpdated": "2024-10-28T18:22Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/gb.png",
+            "lastUpdated": "2024-06-25T18:49Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:9"
+      },
+      "text": "Trey Smack 38 Yd Field Goal ",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 45,
+      "clock": {
+        "displayValue": "3:54",
+        "value": 234.0
+      },
+      "homeScore": 27,
+      "id": "4018730494373",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "NE",
+        "displayName": "New England Patriots",
+        "id": "17",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/ne/new-england-patriots",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/ne",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ne.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:17"
+      },
+      "text": "Corey Kiner 4 Yd Rush (Two-Point Pass Conversion Failed)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    }
+  ]
+}

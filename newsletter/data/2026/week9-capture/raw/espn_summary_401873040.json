@@ -1,0 +1,1040 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "Indianapolis Colts",
+        "guid": "582d14eb-da61-e505-cc40-d972a1b60ed1",
+        "id": 2942,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "IND",
+          "description": "Indianapolis Colts",
+          "id": 11,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/ind/indianapolis-colts"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/ind/indianapolis-colts"
+              }
+            }
+          },
+          "shortDisplayName": "Colts"
+        },
+        "teamId": 11,
+        "type": "team",
+        "uid": "s:20~l:28~t:11"
+      },
+      {
+        "description": "Dallas Cowboys",
+        "guid": "b0fc8fb7-9dbe-e574-9008-6f0ee7c6b234",
+        "id": 1298,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "DAL",
+          "description": "Dallas Cowboys",
+          "id": 6,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys"
+              }
+            }
+          },
+          "shortDisplayName": "Cowboys"
+        },
+        "teamId": 6,
+        "type": "team",
+        "uid": "s:20~l:28~t:6"
+      },
+      {
+        "description": "Dallas Cowboys @ Indianapolis Colts",
+        "event": {
+          "description": "Dallas Cowboys @ Indianapolis Colts",
+          "id": 401873040,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873040"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873040"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873040,
+        "guid": "3ad54d77-c12b-3e5a-8663-7e511f64f991",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873040"
+      }
+    ],
+    "categorized": "2026-11-09T14:19:51Z",
+    "contentKey": "50425663-1-21-1",
+    "dataSourceIdentifier": "7a8e3a3b9b4a7",
+    "description": "— With the Dallas Cowboys trailing by three points and on the verge of yet another fourth-quarter collapse, Dak Prescott needed 29 seconds to bail them out.",
+    "gameId": "401873040",
+    "headline": "Javonte Williams' late TD run helps Cowboys avoid another 4th-quarter collapse and beat Colts 27-23",
+    "id": 50425663,
+    "images": [
+      {
+        "caption": "Seth McGowan scores his first NFL TD",
+        "height": 324,
+        "name": "Seth McGowan scores his first NFL TD",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1108/2d7c77530a1647e2ab5b42122af9b5ef1022/2d7c77530a1647e2ab5b42122af9b5ef1022.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "Indianapolis Colts",
+      "Dallas Cowboys",
+      "Dallas Cowboys @ Indianapolis Colts"
+    ],
+    "lastModified": "2026-11-09T00:05:36Z",
+    "linkText": "Javonte Williams' late TD run helps Cowboys avoid another 4th-quarter collapse and beat Colts 27-23",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50425663"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50425663"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50425663"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873040"
+      }
+    },
+    "nowId": "1-50425663",
+    "originallyPosted": "2026-11-08T22:21:35Z",
+    "premium": false,
+    "published": "2026-11-08T22:21:35Z",
+    "publishedkey": "nfl401873040",
+    "section": "NFL",
+    "source": "AP",
+    "story": "INDIANAPOLIS -- — With the <a href=\"http://www.espn.com/nfl/team/_/name/dal/dallas-cowboys\">Dallas Cowboys</a> trailing by three points and <a href=\"https://apnews.com/article/cowboys-jerry-jones-69e617dc02b869ab72ff8b3e03bdd240\">on the verge of yet another fourth-quarter collapse</a>, <a href=\"http://www.espn.com/nfl/player/_/id/2577417/dak-prescott\">Dak Prescott</a> needed 29 seconds to bail them out.\n\n\r\n              He hooked up with <a href=\"http://www.espn.com/nfl/player/_/id/5083754/ryan-flournoy\">Ryan Flournoy</a> on a 46-yard pass. Three plays and two Indianapolis penalties later, the Colts let <a href=\"http://www.espn.com/nfl/player/_/id/4361579/javonte-williams\">Javonte Williams</a> waltz in from 1 yard out with 1:08 remaining, and the Cowboys held on for a 27-23 victory one week after they blew a 14-point lead and <a href=\"https://apnews.com/article/cowboys-cardinals-score-6a8b77441b3d94511760bf38bd7cdd11\">lost in overtime to Arizona at home</a>.\n\n\r\n              Prescott, <a href=\"http://www.espn.com/nfl/player/_/id/4241389/ceedee-lamb\">CeeDee Lamb</a> and Williams refused to let it happen again.\n\n\r\n              “We got it done,” Prescott said. “It wasn't the prettiest, it wasn't the best second half from the whole team, but we got it done. We said at the beginning of the game, whatever it takes to come out with a win and we did that.”\n\n\r\n              The Cowboys (4-5) won for just the second time in five games, and it came on a day they dominated the stat sheet. They outgained the Colts 508 yards to 271. CeeDee Lamb caught 10 passes for 195 yards — the second-highest total of his career. And Williams finished with 101 yards rushing, his second 100-yard game.\n\n\r\n              Dallas also made enough miscues to lose.\n\n\r\n              The Cowboys were flagged 14 times for 153 yards, their highest total since 2021. The total even included an unsportsmanlike conduct call against inactive linebacker <a href=\"http://www.espn.com/nfl/player/_/id/4362088/demarvion-overshown\">DeMarvion Overshown</a>, who ran onto the field in street clothes to celebrate a takeaway.\n\n\r\n              Lamb had a 44-yard TD catch with 21 seconds left in the first half but failed to get both feet down on a second potential TD catch and cost Dallas another scoring chance when he realized he hadn't been touched, got up and ran inside the Colts 15-yard line — only to fumble the ball away.\n\n\r\n              Prescott, who was 21 of 34 for 335 yards and two TDs, lost a fumble at the Dallas 19-yard line that set up Indy's first touchdown.\n\n\r\n              But Dallas overcame all those mistakes — and Indy's <a href=\"http://www.espn.com/nfl/player/_/id/4571557/spencer-shrader\">Spencer Shrader</a> kicking field goals from 59 and 50 yards in the final six minutes that left Dallas in a 23-20 deficit with 1:37 to go.\n\n\r\n              Four plays and two Colts penalties later, the Cowboys were back on top — thanks in part to Colts coach Shane Steichen, who made the strategic decision to give his team the ball with time left for a winning drive.\n\n\r\n              “Yeah, we let them score,” Steichen said. “I mean they've got four shots from the 1-yard line so we have a chance to get the ball back. If not, they're bleeding the clock.”\n\n\r\n              If Sunday was the final game with Indy for quarterback <a href=\"http://www.espn.com/nfl/player/_/id/3917792/daniel-jones\">Daniel Jones</a> or <a href=\"https://apnews.com/article/indianapolis-colts-trades-focus-1a3495b3820eb4a31c49965fe7dc8179\">running back <a href=\"http://www.espn.com/nfl/player/_/id/4242335/jonathan-taylor\">Jonathan Taylor</a>,</a> both of whom could be dealt before Tuesday's deadline, it wasn't the ending they wanted.\n\n\r\n              Taylor rushed 13 times for 46 yards and lost a fumble that cost Indy (2-6) a scoring chance. Jones was picked off by <a href=\"http://www.espn.com/nfl/player/_/id/4870706/caleb-downs\">Caleb Downs</a> with 35 seconds left to seal the game and finished 20 of 34 for 180 yards with one TD as the Colts lost their fifth in a row.\n\n\r\n              “I just hope they appreciate and know that I appreciate them,” Taylor said of the Colts' fans. “They should know it was a pleasure to put on display my hard work and the team’s hard work.”\n\n\r\n              The fans booed Indy again as it went to the locker at halftime trailing 17-7.\n\n\r\n              But after the teams traded third-quarter field goals, <a href=\"http://www.espn.com/nfl/player/_/id/4061956/ashton-dulin\">Ashton Dulin</a> caught a short pass from Jones, made two defenders miss and sprinted down the sideline for a 55-yard score to cut the deficit 20-17 late in the third to set up the exciting finish.\n\n\r\n              “It's good to clean things up with a win,” Prescott said. “The way to get consistent is to get back to work and make sure we're doing everything right, discipline and details and make sure we're playing better.”\n\n\r\n              <hl2>Injuries</hl2>\r\n              Cowboys: Three starters, including receiver <a href=\"http://www.espn.com/nfl/player/_/id/4426354/george-pickens\">George Pickens</a>, were inactive. There has also been speculation Pickens could be traded. Sunday's most serious injury was to tight end <a href=\"http://www.espn.com/nfl/player/_/id/4242355/jake-ferguson\">Jake Ferguson</a>, who did not return after hurting his left knee in the third quarter.\n\n\r\n              Colts: Linebacker <a href=\"http://www.espn.com/nfl/player/_/id/4601021/jaylon-carlies\">Jaylon Carlies</a> (neck) and right tackle <a href=\"http://www.espn.com/nfl/player/_/id/4892240/jalen-travis\">Jalen Travis</a> (knee) left in the first half and did not return.\n\n\r\n              <hl2>Caleb Downs gets the better of his older brother</hl2>\r\n              Fifteen members of the Downs family attended the game to watch as younger brother Caleb got the better of Colts receiver <a href=\"http://www.espn.com/nfl/player/_/id/4688813/josh-downs\">Josh Downs</a>. It was the first time the brothers squared off since their Georgia prep days. Yes, they lined up against one another, and, yes, there was some trash-talking long before Caleb Downs' game-sealing interception.\n\n\r\n              <hl2>Allen reaches another career milestone</hl2>\r\n              Indy's <a href=\"http://www.espn.com/nfl/player/_/id/15818/keenan-allen\">Keenan Allen</a> passed Hall of Famer Tim Brown for No. 8 on the league's career receptions list. Allen finished with four catches for 26 yards, giving him 1,095 receptions — one more than Brown had.\n\n\r\n              <hl2>Up next</hl2>\r\n              Cowboys: Begin a three-game homestand next Sunday against San Francisco.\n\n\r\n              Colts: Host Miami next Sunday in what could be a matchup of rebuilding teams.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": []
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "11:45",
+        "value": 705.0
+      },
+      "homeScore": 0,
+      "id": "401873040213",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "DAL",
+        "displayName": "Dallas Cowboys",
+        "id": "6",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/dal",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:6"
+      },
+      "text": "Brandon Aubrey 45 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "6:13",
+        "value": 373.0
+      },
+      "homeScore": 7,
+      "id": "401873040546",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "IND",
+        "displayName": "Indianapolis Colts",
+        "id": "11",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/ind/indianapolis-colts",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/ind",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:11"
+      },
+      "text": "Seth McGowan 2 Yd Rush (Spencer Shrader Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 10,
+      "clock": {
+        "displayValue": "14:08",
+        "value": 848.0
+      },
+      "homeScore": 7,
+      "id": "4018730401041",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "DAL",
+        "displayName": "Dallas Cowboys",
+        "id": "6",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/dal",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:6"
+      },
+      "text": "Jake Ferguson 10 Yd pass from Dak Prescott (Brandon Aubrey Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 17,
+      "clock": {
+        "displayValue": "0:21",
+        "value": 21.0
+      },
+      "homeScore": 7,
+      "id": "4018730402283",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "DAL",
+        "displayName": "Dallas Cowboys",
+        "id": "6",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/dal",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:6"
+      },
+      "text": "CeeDee Lamb 44 Yd pass from Dak Prescott (Brandon Aubrey Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 17,
+      "clock": {
+        "displayValue": "6:12",
+        "value": 372.0
+      },
+      "homeScore": 10,
+      "id": "4018730402965",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "IND",
+        "displayName": "Indianapolis Colts",
+        "id": "11",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/ind/indianapolis-colts",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/ind",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:11"
+      },
+      "text": "Spencer Shrader 47 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 20,
+      "clock": {
+        "displayValue": "2:10",
+        "value": 130.0
+      },
+      "homeScore": 10,
+      "id": "4018730403273",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "DAL",
+        "displayName": "Dallas Cowboys",
+        "id": "6",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/dal",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:6"
+      },
+      "text": "Brandon Aubrey 28 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 20,
+      "clock": {
+        "displayValue": "1:17",
+        "value": 77.0
+      },
+      "homeScore": 17,
+      "id": "4018730403393",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "IND",
+        "displayName": "Indianapolis Colts",
+        "id": "11",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/ind/indianapolis-colts",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/ind",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:11"
+      },
+      "text": "Ashton Dulin 55 Yd pass from Daniel Jones (Spencer Shrader Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 20,
+      "clock": {
+        "displayValue": "5:56",
+        "value": 356.0
+      },
+      "homeScore": 20,
+      "id": "4018730404254",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "IND",
+        "displayName": "Indianapolis Colts",
+        "id": "11",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/ind/indianapolis-colts",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/ind",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:11"
+      },
+      "text": "Spencer Shrader 59 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 20,
+      "clock": {
+        "displayValue": "1:37",
+        "value": 97.0
+      },
+      "homeScore": 23,
+      "id": "4018730404633",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "IND",
+        "displayName": "Indianapolis Colts",
+        "id": "11",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/ind/indianapolis-colts",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/ind",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ind.png",
+            "lastUpdated": "2024-06-25T18:50Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:11"
+      },
+      "text": "Spencer Shrader 50 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 27,
+      "clock": {
+        "displayValue": "1:08",
+        "value": 68.0
+      },
+      "homeScore": 23,
+      "id": "4018730404797",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "DAL",
+        "displayName": "Dallas Cowboys",
+        "id": "6",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/dal",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:48Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/dal.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:6"
+      },
+      "text": "Javonte Williams 1 Yd Rush (Brandon Aubrey Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    }
+  ]
+}

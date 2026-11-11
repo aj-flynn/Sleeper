@@ -1,0 +1,518 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "Seattle Seahawks",
+        "guid": "3767a23c-a17d-294f-288a-9086ad1f0680",
+        "id": 1693,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "SEA",
+          "description": "Seattle Seahawks",
+          "id": 26,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/sea/seattle-seahawks"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/sea/seattle-seahawks"
+              }
+            }
+          },
+          "shortDisplayName": "Seahawks"
+        },
+        "teamId": 26,
+        "type": "team",
+        "uid": "s:20~l:28~t:26"
+      },
+      {
+        "description": "Arizona Cardinals",
+        "guid": "8fc7b962-95e1-3cb8-6a7d-b499de9ad546",
+        "id": 1583,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "ARI",
+          "description": "Arizona Cardinals",
+          "id": 22,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/ari/arizona-cardinals"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/ari/arizona-cardinals"
+              }
+            }
+          },
+          "shortDisplayName": "Cardinals"
+        },
+        "teamId": 22,
+        "type": "team",
+        "uid": "s:20~l:28~t:22"
+      },
+      {
+        "description": "Arizona Cardinals @ Seattle Seahawks",
+        "event": {
+          "description": "Arizona Cardinals @ Seattle Seahawks",
+          "id": 401873048,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873048"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873048"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873048,
+        "guid": "fd368215-8269-38e3-9b79-95ae01c89037",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873048"
+      }
+    ],
+    "categorized": "2026-11-09T18:03:22Z",
+    "contentKey": "50427543-1-21-1",
+    "dataSourceIdentifier": "ed623295ed13c",
+    "description": "— AJ Barner's breakout came just when the Seahawks needed it.",
+    "gameId": "401873048",
+    "headline": "AJ Barner has a TD catch and runs for a score in Seahawks' 17-3 win over Cardinals",
+    "id": 50427543,
+    "images": [
+      {
+        "caption": "AJ Barner hangs on for his 2nd TD of the game",
+        "height": 324,
+        "name": "AJ Barner hangs on for his 2nd TD of the game",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1109/81ba8a460d59436991ce613a779f514b782/81ba8a460d59436991ce613a779f514b782.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "Seattle Seahawks",
+      "Arizona Cardinals",
+      "Arizona Cardinals @ Seattle Seahawks"
+    ],
+    "lastModified": "2026-11-09T02:13:35Z",
+    "linkText": "AJ Barner has a TD catch and runs for a score in Seahawks' 17-3 win over Cardinals",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50427543"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50427543"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50427543"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873048"
+      }
+    },
+    "nowId": "1-50427543",
+    "originallyPosted": "2026-11-09T00:39:34Z",
+    "premium": false,
+    "published": "2026-11-09T00:39:34Z",
+    "publishedkey": "nfl401873048",
+    "section": "NFL",
+    "source": "AP",
+    "story": "SEATTLE -- — <a href=\"http://www.espn.com/nfl/player/_/id/4576297/aj-barner\">AJ Barner</a>'s breakout came just when the Seahawks needed it.\n\n\r\n              Barner caught a touchdown pass and ran for a score, and Seattle beat the <a href=\"http://www.espn.com/nfl/team/_/name/ari/arizona-cardinals\">Arizona Cardinals</a> 17-3 on Sunday without starting quarterback <a href=\"http://www.espn.com/nfl/player/_/id/3912547/sam-darnold\">Sam Darnold</a>.\n\n\r\n              Backup <a href=\"http://www.espn.com/nfl/player/_/id/3924327/drew-lock\">Drew Lock</a> completed 19 of 28 passes for 175 yards and a touchdown for the Seahawks (5-4), who rebounded from a <a href=\"https://apnews.com/article/bears-seahawks-score-db6943d180ef1a25f4b5031eda3c963f\">34-17 loss at home</a> on Monday night to Chicago. \n\n\r\n              Barner's two touchdowns were the tight end's first this season. \n\n\r\n              “We understand what kind of player he is. So we can kind of feel the frustration with him of like what he expects from himself,” Seahawks coach Mike Macdonald said. “But just no flinch, just keep attacking it, you know. And he’s a leader on our offense, and he provides so much great energy.”\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4430878/jaxon-smith-njigba\">Jaxon Smith-Njigba</a> caught seven passes for 51 yards in just his second game this season with fewer than 100 yards. <a href=\"https://apnews.com/article/seahawks-jaxon-smith-njigba-59a43f5052015d84cbe6248dfd023b99\">He now has 1.036 yards on the season</a>, becoming the third player in franchise history — along with Hall of Famer Steve Largent and <a href=\"http://www.espn.com/nfl/player/_/id/2577327/tyler-lockett\">Tyler Lockett</a> — with three consecutive 1,000-yard receiving seasons. Smith-Njigba is the first NFL receiver to reach 1,000 yards this year.\n\n\r\n              Gardner Minshew, known to fans in the Pacific Northwest because of his stellar 2018 season at Washington State, took over as the Cardinals' starting quarterback this week after leading Arizona to a <a href=\"https://apnews.com/article/cowboys-cardinals-score-6a8b77441b3d94511760bf38bd7cdd11\">come-from-behind overtime victory</a> over Dallas. He unseated <a href=\"http://www.espn.com/nfl/player/_/id/2578570/jacoby-brissett\">Jacoby Brissett</a>, who was then traded to Baltimore.\n\n\r\n              There was <a href=\"https://apnews.com/article/cardinals-gardner-minshew-seahawks-cc40f356dcd603785ef27241058a8048\">no Minshew Magic</a> in Seattle, however. He completed 21 of 30 passes for 166 yards as the Cardinals (3-6) dropped their 11th straight game to the Seahawks. \n\n\r\n              “We were a little bit off one way or another on a lot of our plays, and against a good team like that, you’re not going to have that many chances,” Minshew said.\n\n\r\n              <a href=\"https://apnews.com/article/sam-darnold-seahawks-458550628d55ad7079433992ec9177db\">Darnold was ruled out</a> because of a quad injury he sustained on the final series of the loss to the Bears. Macdonald said Darnold also cracked a rib early in the game. \n\n\r\n              Darnold also missed <a href=\"https://apnews.com/article/seahawks-cardinals-score-07a89fbfbb9c8380614272fa95aff70a\">Seattle’s Week 2 victory over the Cardinals</a> because of a glute injury. He did not miss a game last season while leading the Seahawks to the Super Bowl title.\n\n\r\n              Macdonald said after the game that Lock, who also led the team to a win at Arizona earlier this season, suffered an oblique injury during the game and his status going forward was uncertain. Lock characterized the injury as “not too bad.”\n\n\r\n              Lock had also been limited in practice this week because of tendinitis in his elbow. He was inactive for the previous two games.\n\n\r\n              “I’d say I felt pretty good going into it. The arm felt fresh; it felt good to start the game. And that’s kind of all the confidence I needed to be able to go out and not think about it and just play football,” Lock said. \n\n\r\n              Minshew led the Cardinals deep into Seahawks territory on the first series, helped by an unnecessary roughness penalty. The drive ended with <a href=\"http://www.espn.com/nfl/player/_/id/4363538/chad-ryland\">Chad Ryland</a>'s 28-yard field goal to put Arizona up 3-0. \n\n\r\n              Barner dived for a 1-yard touchdown early in the second quarter. It was his third career rushing TD.\n\n\r\n              Seattle was helped by a pass interference penalty and Smith-Njigba's 18-yard reception on its final series before halftime. Barner went on to score on <a href=\"https://x.com/NFL/status/2119562640972230720\">a 7-yard catch</a> that was upheld by a replay review, and he saw no need to question the officials' ruling that he controlled the ball.\n\n\r\n              “They called it a catch on the field. They reviewed them. They called it a catch. So it’ll live on as a catch forever,” said Barner, who finished with two catches for 7 yards and had three carries for 3 yards. \n\n\r\n              The Seahawks extended the lead to 17-3 in the third quarter on <a href=\"http://www.espn.com/nfl/player/_/id/2473037/jason-myers\">Jason Myers</a>' 45-yard field goal. Lock showed signs of the oblique injury on that drive, moving gingerly after grabbing his side on a throw. He went into the sideline medical tent but never left the game. <a href=\"http://www.espn.com/nfl/player/_/id/4432734/jalen-milroe\">Jalen Milroe</a> was his backup. \n\n\r\n              Seattle made a key stop in the fourth quarter, successfully defending Minshew's pass attempt to <a href=\"http://www.espn.com/nfl/player/_/id/4361307/trey-mcbride\">Trey McBride</a> on fourth-and-goal from the 2.\n\n\r\n              “I don’t care about the score. I just I just want us to go let it loose and go be us and feel like us,” Macdonald said. “And a lot of times we felt that way, and so that’s a that’s a that’s a positive step for us.”\n\n\r\n              <hl2>Injuries</hl2>\r\n              Arizona DL <a href=\"http://www.espn.com/nfl/player/_/id/4040805/roy-lopez\">Roy Lopez</a> injured a toe early in the second quarter and did not return. \n\n\r\n              The Seahawks were already hit with a few notable injuries before the game. In addition to Darnold, DT <a href=\"http://www.espn.com/nfl/player/_/id/2971622/leonard-williams\">Leonard Williams</a> (stinger), WR <a href=\"http://www.espn.com/nfl/player/_/id/4032473/rashid-shaheed\">Rashid Shaheed</a> (knee) and LB Uchenna Nwoso (ankle) were ruled out. \n\n\r\n              <hl2>Up next</hl2>\r\n              The Cardinals host the <a href=\"http://www.espn.com/nfl/team/_/name/lac/los-angeles-chargers\">Los Angeles Chargers</a> next Sunday. \n\n\r\n              The Seahawks visit the <a href=\"http://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders\">Las Vegas Raiders</a> next Sunday.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": []
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "9:23",
+        "value": 563.0
+      },
+      "homeScore": 0,
+      "id": "401873048427",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "ARI",
+        "displayName": "Arizona Cardinals",
+        "id": "22",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/ari/arizona-cardinals",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/ari",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+            "lastUpdated": "2024-06-25T18:44Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ari.png",
+            "lastUpdated": "2024-06-25T18:43Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:22"
+      },
+      "text": "Chad Ryland 28 Yd Field Goal ",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "14:23",
+        "value": 863.0
+      },
+      "homeScore": 7,
+      "id": "4018730481074",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "SEA",
+        "displayName": "Seattle Seahawks",
+        "id": "26",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/sea/seattle-seahawks",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/sea",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:26"
+      },
+      "text": "AJ Barner 1 Yd Rush (Jason Myers Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "0:15",
+        "value": 15.0
+      },
+      "homeScore": 14,
+      "id": "4018730482046",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "SEA",
+        "displayName": "Seattle Seahawks",
+        "id": "26",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/sea/seattle-seahawks",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/sea",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:26"
+      },
+      "text": "AJ Barner 7 Yd pass from Drew Lock (Jason Myers Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "3:50",
+        "value": 230.0
+      },
+      "homeScore": 17,
+      "id": "4018730482763",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "SEA",
+        "displayName": "Seattle Seahawks",
+        "id": "26",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/sea/seattle-seahawks",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/sea",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/sea.png",
+            "lastUpdated": "2024-06-25T18:57Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:26"
+      },
+      "text": "Jason Myers 45 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    }
+  ]
+}

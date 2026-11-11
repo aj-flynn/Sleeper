@@ -1,0 +1,779 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "Philadelphia Eagles",
+        "guid": "d1a9b001-1df7-fbd7-ae4c-6ca7065286ec",
+        "id": 1407,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "PHI",
+          "description": "Philadelphia Eagles",
+          "id": 21,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/phi/philadelphia-eagles"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/phi/philadelphia-eagles"
+              }
+            }
+          },
+          "shortDisplayName": "Eagles"
+        },
+        "teamId": 21,
+        "type": "team",
+        "uid": "s:20~l:28~t:21"
+      },
+      {
+        "description": "New York Giants",
+        "guid": "378600ea-2397-8364-8399-b7c1606a49a7",
+        "id": 1352,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "NYG",
+          "description": "New York Giants",
+          "id": 19,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/nyg/new-york-giants"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/nyg/new-york-giants"
+              }
+            }
+          },
+          "shortDisplayName": "Giants"
+        },
+        "teamId": 19,
+        "type": "team",
+        "uid": "s:20~l:28~t:19"
+      },
+      {
+        "description": "New York Giants @ Philadelphia Eagles",
+        "event": {
+          "description": "New York Giants @ Philadelphia Eagles",
+          "id": 401873044,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873044"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873044"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873044,
+        "guid": "a6c544ab-61ff-3db6-a79e-0126621a101f",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873044"
+      }
+    ],
+    "categorized": "2026-11-09T01:09:47Z",
+    "contentKey": "50425116-1-21-1",
+    "dataSourceIdentifier": "01f68814355f9",
+    "description": "— J.J. McCarthy may as well have been any New York Giants fan nervously watching on TV as the injured quarterback tossed a football to keep warm and paced around the locker room.",
+    "gameId": "401873044",
+    "headline": "Winston, McCarthy combine to lead Giants to 19-11 win and hand Eagles 7th straight loss",
+    "id": 50425116,
+    "images": [
+      {
+        "caption": "Joe Milton gets rocked and coughs up the football",
+        "height": 324,
+        "name": "Joe Milton gets rocked and coughs up the football",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/c689ee3a-d46c-4e77-9851-59d15afa229f/c689ee3a-d46c-4e77-9851-59d15afa229f.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "Philadelphia Eagles",
+      "New York Giants",
+      "New York Giants @ Philadelphia Eagles"
+    ],
+    "lastModified": "2026-11-08T23:44:35Z",
+    "linkText": "Winston, McCarthy combine to lead Giants to 19-11 win and hand Eagles 7th straight loss",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50425116"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50425116"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50425116"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873044"
+      }
+    },
+    "nowId": "1-50425116",
+    "originallyPosted": "2026-11-08T21:38:34Z",
+    "premium": false,
+    "published": "2026-11-08T21:38:34Z",
+    "publishedkey": "nfl401873044",
+    "section": "NFL",
+    "source": "AP",
+    "story": "PHILADELPHIA -- — <a href=\"http://www.espn.com/nfl/player/_/id/4433970/jj-mccarthy\">J.J. McCarthy</a> may as well have been any <a href=\"http://www.espn.com/nfl/team/_/name/nyg/new-york-giants\">New York Giants</a> fan nervously watching on TV as the injured quarterback tossed a football to keep warm and paced around the locker room.\n\n\r\n              He felt a tinge of anxiety when <a href=\"http://www.espn.com/nfl/player/_/id/2969939/jameis-winston\">Jameis Winston</a> led a drive that could finally put the Giants ahead and end 13 years of misery in Philadelphia.\n\n\r\n              It took two QBs to get it done. Now, New York has control of the division.\n\n\r\n              Winston replaced McCarthy long enough to throw a go-ahead touchdown pass and help the New York Giants keep their grip on the NFC East and beat Philadelphia 19-11 on Sunday to hand the Eagles their seventh straight loss.\n\n\r\n              “The fact that J-Mo and I got to do it, it’s just a testament of what this team’s all about,” McCarthy said.\n\n\r\n              The Eagles (2-7) are on their longest losing streak since they lost eight straight games in Andy Reid’s final season in 2012. \n\n\r\n              With <a href=\"http://www.espn.com/nfl/player/_/id/4040715/jalen-hurts\">Jalen Hurts</a> likely out for the season with <a href=\"https://apnews.com/article/jalen-hurts-blood-clots-eagles-d92af6b7ce495640139dd66a39f1ee86\">blood clots</a> and a playoff berth all but gone, the Eagles could get a roster makeover at Tuesday’s NFL <a href=\"https://apnews.com/article/simmons-titans-nfl-trade-25cb37cb5b3773543697a15dd7465b8a\">trade deadline</a>.\n\n\r\n              The Giants (5-2-1) are the only team in the division with a winning record.\n\n\r\n              “Have there been games where everything’s been going well for us this year? I would like to have one or two of those,” Giants coach John Harbaugh said. “I think we need to find out how to win when everything’s going our way and see how we are, see how we handle that.”\n\n\r\n              The Eagles had beaten the Giants 13 straight times at home — including one playoff win — since New York last won on Oct. 27, 2013.\n\n\r\n              It doesn’t seem to matter who’s playing quarterback for the Giants.\n\n\r\n              McCarthy suffered a hip injury in the third quarter that briefly forced him out of the game and the Giants trailing 8-6. \n\n\r\n              Harbaugh turned to Winston — who held the starting job for four games after No. 1 QB <a href=\"http://www.espn.com/nfl/player/_/id/4689114/jaxson-dart\">Jaxson Dart</a> was injured — to rally New York.\n\n\r\n              Winston did enough in his cameo to keep New York’s first division title since 2011 within reach. He hit wide receiver <a href=\"http://www.espn.com/nfl/player/_/id/4682648/malachi-fields\">Malachi Fields</a> for 14 yards that took the ball to the Eagles 3-yard line and followed two plays later with a 5-yard TD pass to <a href=\"http://www.espn.com/nfl/player/_/id/4361050/isaiah-likely\">Isaiah Likely</a> that sent the Giants into the fourth quarter with a 13-8 lead.\n\n\r\n              Winston was 6 of 8 for 71 yards and the lone touchdown.\n\n\r\n              “Circumstances are the circumstances,” Winston said. \"But today we found a way.\"\n\n\r\n              McCarthy returned for the final play of the third quarter. He completed 12 of 19 passes for 127 yards and no touchdowns or interceptions. \n\n\r\n              “That’s big to fight through that kind of thing, fight through an injury, go back in, take care of it, get back out there,” Harbaugh said.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/5082424/dominic-zvada\">Dominic Zvada</a> kicked field goals of 53 and 49 yards for a 6-0 lead in the first quarter and connected from 38 and 49 yards in the second half for a 19-8 lead.\n\n\r\n              Like the Giants, the Eagles have also cycled through quarterbacks because of injuries and ineffectiveness.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4685201/tanner-mckee\">Tanner McKee</a> went 0-3 after taking over for Hurts as the starter before he was benched this week for <a href=\"http://www.espn.com/nfl/player/_/id/4360698/joe-milton\">Joe Milton</a>. \n\n\r\n              The 26-year-old Milton had appeared in five NFL games in relief and was suddenly tasked with saving the Eagles' season.\n\n\r\n              He showed flashes of the speed and strong arm that McKee doesn't have. Like McKee. Milton couldn't do much to move the offense.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/3929630/saquon-barkley\">Saquon Barkley</a> scored on a 3-yard run late in the first quarter and — after a Giants penalty on the extra point — Milton ran in for the 2-point conversion for an 8-7 lead. Milton punctuated the score with a backflip in the end zone that got a rise out of the crowd.\n\n\r\n              Milton went 18 of 34 for 169 yards and was sacked seven times, including three times by linebacker <a href=\"http://www.espn.com/nfl/player/_/id/4950400/arvell-reese\">Arvell Reese</a>. \n\n\r\n              “Man, the Giants played great today,\" Milton said. “They had a great defensive (effort) and great players over there. What they did today was just pressure and play over top.”\n\n\r\n              <hl2>Greenard gets a sack</hl2>\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/3916409/jonathan-greenard\">Jonathan Greenard</a> finally got his first sack as an Eagle after he was acquired from Minnesota in a draft-weekend trade. The edge rusher subsequently agreed to a four-year, $98 million extension, including <a href=\"https://apnews.com/article/philadelphia-eagles-nfl-draft-2026-791003d99fbab26ea970b0da085cbcf2\">$50 million</a> guaranteed. \n\n\r\n              <hl2>Mann's punts</hl2>\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4035239/braden-mann\">Braden Mann</a> unleashed an <a href=\"https://x.com/NFL/status/2119514207636877598?a=BrOlGb6hbmw1BV9dhYM&s=20\">86-yard punt</a> for the Eagles at the end of the first half. It was the longest punt in the NFL since 2001. Mann punted out of the end zone (the ball was spotted at the Eagles 8) and rolled out of bounds at the Giants' 6-yard line.\n\n\r\n              Mann followed with a 60-yarder to end the Eagles' first drive of the second half. He also lost 2 yards on a botched punt.\n\n\r\n              Former Eagles quarterback Randall Cunningham actually holds the franchise record with a <a href=\"https://x.com/EaglesHistory/status/1864062727389319571?a=KP-a-ayarCTPpunI0mc&s=20\">91-yarder</a> in 1989.\n\n\r\n              <hl2>Home improvement</hl2>\r\n              Harbaugh didn't deny a report that the Giants — with all their banged-up running backs — were interested in trading for Colts running back <a href=\"http://www.espn.com/nfl/player/_/id/4242335/jonathan-taylor\">Jonathan Taylor</a>.\n\n\r\n              “I’m not saying that report’s not true,” Harbaugh said. “Those conversations are taking place and if something happens for any player, I can’t talk about any player because they’re with other teams right now, but we’re not ruling anything out, but I don’t see anything particularly imminent right now either.”\n\n\r\n              <hl2>Up next</hl2>\r\n              Giants host the Commanders on Thursday.\n\n\r\n              Eagles head into a bye and return on Nov. 22 to host the Steelers.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": []
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "10:30",
+        "value": 630.0
+      },
+      "homeScore": 0,
+      "id": "401873044272",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "NYG",
+        "displayName": "New York Giants",
+        "id": "19",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/nyg/new-york-giants",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/nyg",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/nyg.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/nyg.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:19"
+      },
+      "text": "Dominic Zvada 53 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 6,
+      "clock": {
+        "displayValue": "5:31",
+        "value": 331.0
+      },
+      "homeScore": 0,
+      "id": "401873044685",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "NYG",
+        "displayName": "New York Giants",
+        "id": "19",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/nyg/new-york-giants",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/nyg",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/nyg.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/nyg.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:19"
+      },
+      "text": "Dominic Zvada 49 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 6,
+      "clock": {
+        "displayValue": "2:09",
+        "value": 129.0
+      },
+      "homeScore": 8,
+      "id": "401873044955",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "PHI",
+        "displayName": "Philadelphia Eagles",
+        "id": "21",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/phi/philadelphia-eagles",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/phi",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/phi.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/phi.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:21"
+      },
+      "text": "Saquon Barkley 3 Yd Rush (Joe Milton Run for Two-Point Conversion)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 13,
+      "clock": {
+        "displayValue": "2:25",
+        "value": 145.0
+      },
+      "homeScore": 8,
+      "id": "4018730443124",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "NYG",
+        "displayName": "New York Giants",
+        "id": "19",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/nyg/new-york-giants",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/nyg",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/nyg.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/nyg.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:19"
+      },
+      "text": "Isaiah Likely 5 Yd pass from Jameis Winston (Dominic Zvada Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 16,
+      "clock": {
+        "displayValue": "9:06",
+        "value": 546.0
+      },
+      "homeScore": 8,
+      "id": "4018730443657",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "NYG",
+        "displayName": "New York Giants",
+        "id": "19",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/nyg/new-york-giants",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/nyg",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/nyg.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/nyg.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:19"
+      },
+      "text": "Dominic Zvada 38 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 19,
+      "clock": {
+        "displayValue": "4:24",
+        "value": 264.0
+      },
+      "homeScore": 8,
+      "id": "4018730443966",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "NYG",
+        "displayName": "New York Giants",
+        "id": "19",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/nyg/new-york-giants",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/nyg",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/nyg.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/nyg.png",
+            "lastUpdated": "2024-06-25T18:59Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:19"
+      },
+      "text": "Dominic Zvada 49 Yd Field Goal ",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 19,
+      "clock": {
+        "displayValue": "1:56",
+        "value": 116.0
+      },
+      "homeScore": 11,
+      "id": "4018730444231",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "PHI",
+        "displayName": "Philadelphia Eagles",
+        "id": "21",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/phi/philadelphia-eagles",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/phi",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+            "lastUpdated": "2024-06-25T18:55Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/phi.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/phi.png",
+            "lastUpdated": "2024-06-25T18:56Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:21"
+      },
+      "text": "Jake Elliott 45 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1040 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "New Orleans Saints",
+        "guid": "97d2f6c9-2f22-459c-306a-046941ccab2a",
+        "id": 2035,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "NO",
+          "description": "New Orleans Saints",
+          "id": 18,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/no/new-orleans-saints"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/no/new-orleans-saints"
+              }
+            }
+          },
+          "shortDisplayName": "Saints"
+        },
+        "teamId": 18,
+        "type": "team",
+        "uid": "s:20~l:28~t:18"
+      },
+      {
+        "description": "Cleveland Browns",
+        "guid": "539babc5-e5fb-753b-8ae1-c15032a91ef4",
+        "id": 2719,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "CLE",
+          "description": "Cleveland Browns",
+          "id": 5,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/cle/cleveland-browns"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/cle/cleveland-browns"
+              }
+            }
+          },
+          "shortDisplayName": "Browns"
+        },
+        "teamId": 5,
+        "type": "team",
+        "uid": "s:20~l:28~t:5"
+      },
+      {
+        "description": "Cleveland Browns @ New Orleans Saints",
+        "event": {
+          "description": "Cleveland Browns @ New Orleans Saints",
+          "id": 401873039,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873039"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873039"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873039,
+        "guid": "d149e7a1-6e45-3af5-9833-570c69ca67ae",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873039"
+      }
+    ],
+    "categorized": "2026-11-09T00:30:36Z",
+    "contentKey": "50425537-1-21-1",
+    "dataSourceIdentifier": "02f5834f6bc1d",
+    "description": "— Saints second-year quarterback Tyler Shough likes to think he has a refined and thoughtful approach to remaining calm and in control in the clutch.",
+    "gameId": "401873039",
+    "headline": "Saints hold on for a 23-22 overtime victory over the Browns by stopping a 2-point conversion",
+    "id": 50425537,
+    "images": [
+      {
+        "caption": "Cleveland Browns vs. New Orleans Saints Game Highlights",
+        "height": 324,
+        "name": "Cleveland Browns vs. New Orleans Saints Game Highlights",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/f57c6a65-73d5-42f1-8ba8-30653676dd5a/f57c6a65-73d5-42f1-8ba8-30653676dd5a.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "New Orleans Saints",
+      "Cleveland Browns",
+      "Cleveland Browns @ New Orleans Saints"
+    ],
+    "lastModified": "2026-11-09T00:30:36Z",
+    "linkText": "Saints hold on for a 23-22 overtime victory over the Browns by stopping a 2-point conversion",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50425537"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50425537"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50425537"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873039"
+      }
+    },
+    "nowId": "1-50425537",
+    "originallyPosted": "2026-11-08T22:10:34Z",
+    "premium": false,
+    "published": "2026-11-08T22:10:34Z",
+    "publishedkey": "nfl401873039",
+    "section": "NFL",
+    "source": "AP",
+    "story": "NEW ORLEANS -- — Saints second-year quarterback <a href=\"http://www.espn.com/nfl/player/_/id/4360689/tyler-shough\">Tyler Shough</a> likes to think he has a refined and thoughtful approach to remaining calm and in control in the clutch.\n\n\r\n              He backed it up against the <a href=\"http://www.espn.com/nfl/team/_/name/cle/cleveland-browns\">Cleveland Browns</a> and fellow second-year QB <a href=\"http://www.espn.com/nfl/player/_/id/4432762/shedeur-sanders\">Shedeur Sanders</a> on Sunday.\n\n\r\n              Shough floated a 15-yard timing pass to <a href=\"http://www.espn.com/nfl/player/_/id/3929645/juwan-johnson\">Juwan Johnson</a> toward the right corner of the end zone for a touchdown for New Orleans in overtime, and the desperate Saints stopped a do-or-die, 2-point conversion to hold on, 23-22.\n\n\r\n              “We go down to the end of the game, he gets better and better,\" Saints receiver <a href=\"http://www.espn.com/nfl/player/_/id/4361370/chris-olave\">Chris Olave</a> said of Shough. \"He’s calm and collected and we’ve got the utmost confidence in Tyler.”\n\n\r\n              After the Saints (3-5) scored on the first possession of overtime, Cleveland answered when <a href=\"http://www.espn.com/nfl/player/_/id/5083076/harold-fannin-jr\">Harold Fannin Jr</a>. turned a short pass from Sanders into a tackle-breaking, 39-yard touchdown with a minute left in overtime.\n\n\r\n              The Browns (5-4) opted for a 2-point conversion for the win, but Sanders was forced to roll right under pressure from <a href=\"http://www.espn.com/nfl/player/_/id/3918310/carl-granderson\">Carl Granderson</a> and threw incomplete, giving the Saints their first win at home this season.\n\n\r\n              “We looked at ourself in the mirror and we know what we've got to do,” said Granderson, who had two of the Saints' five sacks. “It’s time to turn this thing around now and we’re excited to get the next one. So, stay tuned.”\n\n\r\n              Cleveland coach Todd Monken said he never considered kicking the extra point.\n\n\r\n              “You’re not going to get the ball back, probably. So, you’re really saying tie or lose if you kick the extra point,” Monken said. “That’s not me. It was going to be win or lose.”\n\n\r\n              The thrilling finish followed a pedestrian first 54 minutes during which neither team scored a touchdown.\n\n\r\n              “We could have very easily lost the game and we could be sitting here talking about how we have to be better — and we have to,” Shough said. “Every single week it’s going to be a fight.” \n\n\r\n              The Saints led 9-6 after <a href=\"http://www.espn.com/nfl/player/_/id/5208518/charlie-smyth\">Charlie Smyth</a> — who made three of four field goal attempts after being elevated from the practice squad this week — split the uprights from 48 yards. But on Cleveland’s next offensive play, Sanders spotted <a href=\"http://www.espn.com/nfl/player/_/id/4870653/kc-concepcion\">KC Concepcion</a> Jr. racing past cornerback Martin Emmerson Jr. and hit him for a 64-yard, go-ahead score with 5:33 left. \n\n\r\n              The Saints took a late 16-13 lead on newly reacquired running back <a href=\"http://www.espn.com/nfl/player/_/id/4569682/audric-estime\">Audric Estime</a>'s 2-yard touchdown with 58 seconds left in the fourth quarter, capping a 55-yard drive that spanned just 50 seconds.\n\n\r\n              But Sanders, with the help of a 30-yard completion to <a href=\"http://www.espn.com/nfl/player/_/id/4241463/jerry-jeudy\">Jerry Jeudy</a>, was able to move the Browns to the Saints 33, setting up Andre Szmyt’s tying 51-yard field goal.\n\n\r\n              “It was cool to even be able to get in that position,” Sanders said. “The moment never felt big, so that’s how I know I’m growing as a quarterback in this league.” \n\n\r\n              Shough finished 21 of 35 for 265 yards and one TD.\n\n\r\n              “I have the utmost belief in myself,\" Shough said. “But I also know I have so much more to grow.”\n\n\r\n              Olave highlighted a seven-catch, 98-yard performance with a 33-yard reception to the 10-yard line to set up the late TD by Estime, who finished with 72 yards on 15 carries just five days after being claimed off waivers from Cleveland.\n\n\r\n              \"I just had a feeling that my time was coming,” said Estime, who made the Saints' Week 1 roster before being waived in late September. “It was definitely a roller coaster, but that’s just life, honestly. There’s ups and downs and it’s how you navigate those.”\n\n\r\n              Sanders was 19 of 31 for 297 yards and two TDs in his first start this season in place of <a href=\"http://www.espn.com/nfl/player/_/id/3122840/deshaun-watson\">Deshaun Watson</a>, who sat out after spending part of the past week in the NFL's concussion protocol.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4832800/denzel-boston\">Denzel Boston</a> caught six passes for 98 yards and Concepcion had four catches for 85 yards for Cleveland, which has lost two straight.\n\n\r\n              Poor red-zone execution by both teams left the game tied at 3 at halftime.\n\n\r\n              With two turnovers in the second quarter, the Saints went from being poised to take the lead to needing a defensive stop on their own goal line.\n\n\r\n              New Orleans had just reached the Cleveland 11 on rookie <a href=\"http://www.espn.com/nfl/player/_/id/4698597/barion-brown\">Barion Brown</a>'s 52-yard catch when fellow rookie <a href=\"http://www.espn.com/nfl/player/_/id/4880281/jordyn-tyson\">Jordyn Tyson</a> — the eighth overall pick in last spring's NFL Draft — followed two plays later with his first career reception inside the 5. But Tyson, making his NFL debut after missing seven games with a hamstring injury, fumbled at the 2 while diving forward.\n\n\r\n              “He was able to contribute and make some positive plays,\" Saints coach Kellen Moore said of Tyson, who finished with four receptions for 30 yards. \"We’re going to have to protect the football, but he’ll get to learn from that.” \n\n\r\n              New Orleans' defense forced a quick punt, but Brown fumbled away his return when <a href=\"http://www.espn.com/nfl/player/_/id/4605792/adin-huntington\">Adin Huntington</a> caught him from behind near the Saints 20. \n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4686027/donovan-mcmillon\">Donovan McMillon</a> recovered for Cleveland, setting the Browns up to also squander a scoring chance when <a href=\"http://www.espn.com/nfl/player/_/id/4685702/quinshon-judkins\">Quinshon Judkins</a> was stopped on fourth-and-goal from the 1.\n\n\r\n              <hl2>Injuries</hl2>\r\n              Browns: RG <a href=\"http://www.espn.com/nfl/player/_/id/4597310/austin-barber\">Austin Barber</a> received treatment on the field for an apparent left leg injury. ... S <a href=\"http://www.espn.com/nfl/player/_/id/4569620/ronnie-hickman\">Ronnie Hickman</a> limped into the injury tent late in the fourth quarter.\n\n\r\n              Saints: C <a href=\"http://www.espn.com/nfl/player/_/id/3917331/erik-mccoy\">Erik McCoy</a> left with a biceps injury.\n\n\r\n              <hl2>Up next</hl2>\r\n              Browns: Host the <a href=\"http://www.espn.com/nfl/team/_/name/hou/houston-texans\">Houston Texans</a> next Sunday.\n\n\r\n              Saints: Host the <a href=\"http://www.espn.com/nfl/team/_/name/car/carolina-panthers\">Carolina Panthers</a> next Sunday.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": []
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 0,
+      "clock": {
+        "displayValue": "7:20",
+        "value": 440.0
+      },
+      "homeScore": 3,
+      "id": "401873039397",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "NO",
+        "displayName": "New Orleans Saints",
+        "id": "18",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/no/new-orleans-saints",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/no",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/no.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/no.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:18"
+      },
+      "text": "Charlie Smyth 30 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "10:30",
+        "value": 630.0
+      },
+      "homeScore": 3,
+      "id": "4018730391161",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "CLE",
+        "displayName": "Cleveland Browns",
+        "id": "5",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/cle/cleveland-browns",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/cle",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/cle.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/cle.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:5"
+      },
+      "text": "Andre Szmyt 41 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 6,
+      "clock": {
+        "displayValue": "9:01",
+        "value": 541.0
+      },
+      "homeScore": 3,
+      "id": "4018730392330",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "CLE",
+        "displayName": "Cleveland Browns",
+        "id": "5",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/cle/cleveland-browns",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/cle",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/cle.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/cle.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:5"
+      },
+      "text": "Andre Szmyt 30 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 6,
+      "clock": {
+        "displayValue": "2:26",
+        "value": 146.0
+      },
+      "homeScore": 6,
+      "id": "4018730392671",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "NO",
+        "displayName": "New Orleans Saints",
+        "id": "18",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/no/new-orleans-saints",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/no",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/no.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/no.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:18"
+      },
+      "text": "Charlie Smyth 27 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 6,
+      "clock": {
+        "displayValue": "5:38",
+        "value": 338.0
+      },
+      "homeScore": 9,
+      "id": "4018730393462",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "NO",
+        "displayName": "New Orleans Saints",
+        "id": "18",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/no/new-orleans-saints",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/no",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/no.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/no.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:18"
+      },
+      "text": "Charlie Smyth 48 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 13,
+      "clock": {
+        "displayValue": "5:21",
+        "value": 321.0
+      },
+      "homeScore": 9,
+      "id": "4018730393512",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "CLE",
+        "displayName": "Cleveland Browns",
+        "id": "5",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/cle/cleveland-browns",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/cle",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/cle.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/cle.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:5"
+      },
+      "text": "KC Concepcion 64 Yd pass from Shedeur Sanders (Andre Szmyt Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 13,
+      "clock": {
+        "displayValue": "0:58",
+        "value": 58.0
+      },
+      "homeScore": 16,
+      "id": "4018730394054",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "NO",
+        "displayName": "New Orleans Saints",
+        "id": "18",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/no/new-orleans-saints",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/no",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/no.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/no.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:18"
+      },
+      "text": "Audric Estime 2 Yd Rush (Charlie Smyth Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 16,
+      "clock": {
+        "displayValue": "0:08",
+        "value": 8.0
+      },
+      "homeScore": 16,
+      "id": "4018730394304",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "CLE",
+        "displayName": "Cleveland Browns",
+        "id": "5",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/cle/cleveland-browns",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/cle",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/cle.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/cle.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:5"
+      },
+      "text": "Andre Szmyt 51 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 16,
+      "clock": {
+        "displayValue": "4:17",
+        "value": 257.0
+      },
+      "homeScore": 23,
+      "id": "4018730394697",
+      "period": {
+        "number": 5
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "NO",
+        "displayName": "New Orleans Saints",
+        "id": "18",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/no/new-orleans-saints",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/no",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/no.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/no.png",
+            "lastUpdated": "2024-06-25T18:54Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:18"
+      },
+      "text": "Juwan Johnson 15 Yd pass from Tyler Shough (Charlie Smyth Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 22,
+      "clock": {
+        "displayValue": "1:00",
+        "value": 60.0
+      },
+      "homeScore": 23,
+      "id": "4018730394973",
+      "period": {
+        "number": 5
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "CLE",
+        "displayName": "Cleveland Browns",
+        "id": "5",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/cle/cleveland-browns",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/cle",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/cle.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/cle.png",
+            "lastUpdated": "2024-06-25T18:47Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:5"
+      },
+      "text": "Harold Fannin Jr. 39 Yd pass from Shedeur Sanders (Two-Point Pass Conversion Failed)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    }
+  ]
+}

@@ -1,0 +1,779 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "Washington Commanders",
+        "guid": "fbeaf73e-6d6c-cca4-0809-713d9d741f90",
+        "id": 1462,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "WSH",
+          "description": "Washington Commanders",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/wsh/washington-commanders"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/wsh/washington-commanders"
+              }
+            }
+          },
+          "shortDisplayName": "Commanders"
+        },
+        "teamId": 28,
+        "type": "team",
+        "uid": "s:20~l:28~t:28"
+      },
+      {
+        "description": "Los Angeles Rams",
+        "guid": "2e1473b2-e269-fd7a-1137-c1edacb85986",
+        "id": 1519,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "LAR",
+          "description": "Los Angeles Rams",
+          "id": 14,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/lar/los-angeles-rams"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/lar/los-angeles-rams"
+              }
+            }
+          },
+          "shortDisplayName": "Rams"
+        },
+        "teamId": 14,
+        "type": "team",
+        "uid": "s:20~l:28~t:14"
+      },
+      {
+        "description": "Los Angeles Rams @ Washington Commanders",
+        "event": {
+          "description": "Los Angeles Rams @ Washington Commanders",
+          "id": 401873043,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873043"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873043"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873043,
+        "guid": "86424896-20e5-38ef-b8af-7c0cd8a5e418",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873043"
+      }
+    ],
+    "categorized": "2026-11-09T04:21:43Z",
+    "contentKey": "50425108-1-21-1",
+    "dataSourceIdentifier": "3064d189a5a35",
+    "description": "— There's still room for growth from the star-studded Rams, but they're starting to show again why they were a preseason Super Bowl favorite.",
+    "gameId": "401873043",
+    "headline": "Puka Nacua, Myles Garrett lead Rams to 20-13 win over Commanders",
+    "id": 50425108,
+    "images": [
+      {
+        "caption": "Rams outlast Commanders with defensive showcase",
+        "height": 324,
+        "name": "Rams outlast Commanders with defensive showcase",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1109/121b3f7d-f44a-401c-bbfc-ee0141a8a280/121b3f7d-f44a-401c-bbfc-ee0141a8a280.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "Washington Commanders",
+      "Los Angeles Rams",
+      "Los Angeles Rams @ Washington Commanders"
+    ],
+    "lastModified": "2026-11-08T23:01:35Z",
+    "linkText": "Puka Nacua, Myles Garrett lead Rams to 20-13 win over Commanders",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50425108"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50425108"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50425108"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873043"
+      }
+    },
+    "nowId": "1-50425108",
+    "originallyPosted": "2026-11-08T21:37:34Z",
+    "premium": false,
+    "published": "2026-11-08T21:37:34Z",
+    "publishedkey": "nfl401873043",
+    "section": "NFL",
+    "source": "AP",
+    "story": "LANDOVER, Md. -- — There's still room for growth from the star-studded Rams, but they're starting to show again why they were a preseason Super Bowl favorite.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4426515/puka-nacua\">Puka Nacua</a> caught 14 passes from <a href=\"http://www.espn.com/nfl/player/_/id/12483/matthew-stafford\">Matthew Stafford</a> for 150 yards and a touchdown, <a href=\"http://www.espn.com/nfl/player/_/id/3122132/myles-garrett\">Myles Garrett</a> had three sacks and a forced fumble in his return, and Los Angeles held on for its third consecutive victory, 20-13 over the <a href=\"http://www.espn.com/nfl/team/_/name/wsh/washington-commanders\">Washington Commanders</a> on Sunday.\n\n\r\n              The Rams (5-4) moved over .500 for the first time this season.\n\n\r\n              “I thought our guys did a great job of being able to find a way,” coach Sean McVay said. “There was a lot of opportunities that we missed offensively to make plays, extend drives, but they did enough. I love the way that Matthew responded after the turnover where he leads us down the field — had a bunch of gutsy conversions.”\n\n\r\n              Stafford threw for 219 yards with an interception on 26-of-43 passing. Nacua, seemingly open all afternoon, was the target on 19 of those attempts.\n\n\r\n              “He was awesome,” McVay said. “That’s one of the things that we want to be able to show as coaches, is show confidence to come right back to you. He made a bunch of plays. We needed all 14 of those catches.”\n\n\r\n              Nacua <a href=\"https://x.com/NFLonFOX/status/2119527479496867909\">made a leaping, contested catch</a> in the corner of the end zone for a 7-yard touchdown that broke a 13-all tie early in the fourth quarter.\n\n\r\n              “It's been something that we've been calling on our offense, to be able to execute on those critical downs,” Nacua said. “Obviously, still putting the defense out there at the end in that fourth quarter is something that we want to try to avoid, but when we're getting points in the red zone, it feels a lot better. Something that we can continue to improve upon.”\n\n\r\n              Garrett gave a lift to the Rams' defense in his first action since Los Angeles' season-opening loss to the 49ers in Australia. The All-Pro defensive end <a href=\"https://apnews.com/article/myles-garrett-la-rams-e7d890e1099464778c1eea9fca8f134c\">had missed seven games</a> with a knee injury.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/4426348/jayden-daniels\">Jayden Daniels</a> threw for 274 yards, but the Commanders (2-6-1) couldn't generate enough offense to keep up with the Rams. Absent <a href=\"http://www.espn.com/nfl/player/_/id/4567156/treylon-burks\">Treylon Burks</a>, and with top wideout <a href=\"http://www.espn.com/nfl/player/_/id/3121422/terry-mclaurin\">Terry McLaurin</a> out for the season, the Commanders' passing game was inconsistent.\n\n\r\n              Two Washington drives in the final minutes ended without points, including a lateral play as time expired.\n\n\r\n              “Frustrating game,” coach Dan Quinn said. “Once again, we have not nailed our complementary football and I'll keep saying it until we do. We're halfway through the season, and that all has to click. After stops, I don't think we capitalized.”\n\n\r\n              After a sluggish first half, the Rams' offense began to move the ball more consistently. Nacua was a large part of that resurgence.\n\n\r\n              The Commanders took a 10-6 lead into halftime with a defensive stand to force a Rams field goal as time expired. <a href=\"http://www.espn.com/nfl/player/_/id/3930066/van-jefferson\">Van Jefferson</a> caught a 7-yard touchdown pass from Daniels early in the second quarter for the only touchdown of the first half.\n\n\r\n              Garrett and the Rams' defense locked down after that. Despite being down two cornerbacks, the Rams forced either a punt or a turnover on five straight Commanders drives. Washington ended that scoreless stretch thanks to <a href=\"http://www.espn.com/nfl/player/_/id/4426403/nick-cross\">Nick Cross</a>' interception of Stafford; the Commanders gained only 9 yards on four plays and kicked a field goal.\n\n\r\n              That was Washington's only score in the final 44 minutes.\n\n\r\n              Garrett, acquired from Cleveland in the offseason, had a strip-sack of Daniels — his first sack as a Ram — late in the first half to set up <a href=\"http://www.espn.com/nfl/player/_/id/16339/brandon-mcmanus\">Brandon McManus</a>' short field goal. That followed a fumble by Nacua that gave Washington the ball.\n\n\r\n              The Commanders are running out of time to salvage their season. They face the NFC East-leading <a href=\"http://www.espn.com/nfl/team/_/name/nyg/new-york-giants\">New York Giants</a> on Thursday night.\n\n\r\n              “All that said, it's a short week,” Quinn said. “It's our division leader on the road. And we've got to go. We have to play all three phases together. Seen too much of it where it's part of it, not the whole thing. It has to get right — it has to. We're too far along to not have it all working together.”\n\n\r\n              <hl2>Injuries</hl2>\r\n              Rams: Guard <a href=\"http://www.espn.com/nfl/player/_/id/4362474/steve-avila\">Steve Avila</a> left with a hamstring injury and did not return.\n\n\r\n              Commanders: Guard <a href=\"http://www.espn.com/nfl/player/_/id/2576736/lucas-patrick\">Lucas Patrick</a> was ruled out with a concussion. Cornerback <a href=\"http://www.espn.com/nfl/player/_/id/4239694/amik-robertson\">Amik Robertson</a> was injured midway through the fourth quarter and did not return.\n\n\r\n              <hl2>Up next</hl2>\r\n              Rams: At Arizona next Sunday.\n\n\r\n              Commanders: Visit the Giants in a near-must-win game.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": []
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 0,
+      "clock": {
+        "displayValue": "9:07",
+        "value": 547.0
+      },
+      "homeScore": 3,
+      "id": "401873043406",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "WSH",
+        "displayName": "Washington Commanders",
+        "id": "28",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/wsh/washington-commanders",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/wsh",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:28"
+      },
+      "text": "Drew Stevens 37 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "2:10",
+        "value": 130.0
+      },
+      "homeScore": 3,
+      "id": "401873043813",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "LAR",
+        "displayName": "Los Angeles Rams",
+        "id": "14",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lar/los-angeles-rams",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lar",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+            "lastUpdated": "2026-04-24T14:36Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lar.png",
+            "lastUpdated": "2026-04-24T14:27Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+            "lastUpdated": "2026-04-24T14:36Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lar.png",
+            "lastUpdated": "2026-04-24T14:27Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:14"
+      },
+      "text": "Brandon McManus 33 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "14:00",
+        "value": 840.0
+      },
+      "homeScore": 10,
+      "id": "4018730431030",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "WSH",
+        "displayName": "Washington Commanders",
+        "id": "28",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/wsh/washington-commanders",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/wsh",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:28"
+      },
+      "text": "Van Jefferson 7 Yd pass from Jayden Daniels (Drew Stevens Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 6,
+      "clock": {
+        "displayValue": "0:00",
+        "value": 0.0
+      },
+      "homeScore": 10,
+      "id": "4018730432180",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "LAR",
+        "displayName": "Los Angeles Rams",
+        "id": "14",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lar/los-angeles-rams",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lar",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+            "lastUpdated": "2026-04-24T14:36Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lar.png",
+            "lastUpdated": "2026-04-24T14:27Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+            "lastUpdated": "2026-04-24T14:36Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lar.png",
+            "lastUpdated": "2026-04-24T14:27Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:14"
+      },
+      "text": "Brandon McManus 20 Yd Field Goal ",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 13,
+      "clock": {
+        "displayValue": "11:29",
+        "value": 689.0
+      },
+      "homeScore": 10,
+      "id": "4018730432478",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "LAR",
+        "displayName": "Los Angeles Rams",
+        "id": "14",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lar/los-angeles-rams",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lar",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+            "lastUpdated": "2026-04-24T14:36Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lar.png",
+            "lastUpdated": "2026-04-24T14:27Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+            "lastUpdated": "2026-04-24T14:36Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lar.png",
+            "lastUpdated": "2026-04-24T14:27Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:14"
+      },
+      "text": "Blake Corum 1 Yd Rush (Brandon McManus Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 13,
+      "clock": {
+        "displayValue": "3:24",
+        "value": 204.0
+      },
+      "homeScore": 13,
+      "id": "4018730433151",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "WSH",
+        "displayName": "Washington Commanders",
+        "id": "28",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/wsh/washington-commanders",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/wsh",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/wsh.png",
+            "lastUpdated": "2024-06-25T18:58Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:28"
+      },
+      "text": "Drew Stevens 41 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 20,
+      "clock": {
+        "displayValue": "12:51",
+        "value": 771.0
+      },
+      "homeScore": 13,
+      "id": "4018730433542",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "LAR",
+        "displayName": "Los Angeles Rams",
+        "id": "14",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/lar/los-angeles-rams",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/lar",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+            "lastUpdated": "2026-04-24T14:36Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lar.png",
+            "lastUpdated": "2026-04-24T14:27Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+            "lastUpdated": "2026-04-24T14:36Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lar.png",
+            "lastUpdated": "2026-04-24T14:27Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:14"
+      },
+      "text": "Puka Nacua 7 Yd pass from Matthew Stafford (Brandon McManus Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    }
+  ]
+}

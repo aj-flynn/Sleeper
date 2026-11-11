@@ -1,0 +1,1084 @@
+{
+  "article": {
+    "allowComments": true,
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "categories": [
+      {
+        "description": "NFL",
+        "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+        "id": 9572,
+        "league": {
+          "abbreviation": "NFL",
+          "description": "NFL",
+          "id": 28,
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nfl/"
+              }
+            }
+          }
+        },
+        "leagueId": 28,
+        "sportId": 28,
+        "type": "league",
+        "uid": "s:20~l:28"
+      },
+      {
+        "description": "Minnesota Vikings",
+        "guid": "3db556c9-ed76-a7a5-4ccb-a92fc6db4334",
+        "id": 1920,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "MIN",
+          "description": "Minnesota Vikings",
+          "id": 16,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/min/minnesota-vikings"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/min/minnesota-vikings"
+              }
+            }
+          },
+          "shortDisplayName": "Vikings"
+        },
+        "teamId": 16,
+        "type": "team",
+        "uid": "s:20~l:28~t:16"
+      },
+      {
+        "description": "Buffalo Bills",
+        "guid": "232afaf2-01ac-fcc2-8bd6-66550df1703a",
+        "id": 2203,
+        "sportId": 28,
+        "team": {
+          "abbreviation": "BUF",
+          "description": "Buffalo Bills",
+          "id": 2,
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/buf/buffalo-bills"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nfl/team/_/name/buf/buffalo-bills"
+              }
+            }
+          },
+          "shortDisplayName": "Bills"
+        },
+        "teamId": 2,
+        "type": "team",
+        "uid": "s:20~l:28~t:2"
+      },
+      {
+        "description": "Buffalo Bills @ Minnesota Vikings",
+        "event": {
+          "description": "Buffalo Bills @ Minnesota Vikings",
+          "id": 401873051,
+          "league": "nfl",
+          "links": {
+            "mobile": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873051"
+              }
+            },
+            "web": {
+              "event": {
+                "href": "https://www.espn.com/nfl/game/_/gameId/401873051"
+              }
+            }
+          },
+          "sport": "football"
+        },
+        "eventId": 401873051,
+        "guid": "345d82ed-4160-3c56-b1db-c53180bafea9",
+        "type": "event",
+        "uid": "s:20~l:28~e:401873051"
+      }
+    ],
+    "categorized": "2026-11-10T20:37:26Z",
+    "contentKey": "50439529-1-21-1",
+    "dataSourceIdentifier": "70e7b7200f3fd",
+    "description": "— The Buffalo Bills knew they weren't bound for many style points or likely to reach their league-leading scoring average against Minnesota's relentlessly...",
+    "gameId": "401873051",
+    "headline": "Josh Allen and the Bills move to 7-1 with a 23-6 win over the sputtering Vikings",
+    "id": 50439529,
+    "images": [
+      {
+        "caption": "Ever seen this before? Bills nearly intercept Vikings' spike",
+        "height": 324,
+        "name": "Ever seen this before? Bills nearly intercept Vikings' spike",
+        "type": "Media",
+        "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1110/32987e33-b631-47ea-b4be-d2ff43ad709b/32987e33-b631-47ea-b4be-d2ff43ad709b.jpg",
+        "width": 576
+      }
+    ],
+    "isLiveBlog": false,
+    "keywords": [
+      "NFL",
+      "Minnesota Vikings",
+      "Buffalo Bills",
+      "Buffalo Bills @ Minnesota Vikings"
+    ],
+    "lastModified": "2026-11-10T06:12:35Z",
+    "linkText": "Josh Allen and the Bills move to 7-1 with a 23-6 win over the sputtering Vikings",
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50439529"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50439529"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nfl/story?storyId=50439529"
+      },
+      "web": {
+        "href": "http://www.espn.com/nfl/recap?gameId=401873051"
+      }
+    },
+    "nowId": "1-50439529",
+    "originallyPosted": "2026-11-10T04:43:35Z",
+    "premium": false,
+    "published": "2026-11-10T04:43:35Z",
+    "publishedkey": "nfl401873051",
+    "section": "NFL",
+    "source": "AP",
+    "story": "MINNEAPOLIS -- — The <a href=\"http://www.espn.com/nfl/team/_/name/buf/buffalo-bills\">Buffalo Bills</a> knew they weren't bound for many style points or likely to reach their <a href=\"https://apnews.com/article/ravens-bills-score-42602e5aee03ae0d088093686e45db17\">league-leading scoring average</a> against Minnesota's relentlessly revved-up defense.\n\n\r\n              <a href=\"http://www.espn.com/nfl/player/_/id/17102/josh-allen\">Josh Allen</a>, James Cook and the rest of the group were more than content to grind this one out.\n\n\r\n              Allen threw a touchdown pass with 44 seconds left before halftime and Cook had 31 carries for 107 yards and a late score for the Bills in a 23-6 victory on Monday night, sending Vikings deeper into an unmitigated <a href=\"https://apnews.com/article/vikings-offense-murray-oconnell-a895afa9bac597eeb41e67ccdf2821dd\">offensive slump</a>.\n\n\r\n              “We stuck with it, stuck with it, and eventually we broke it,” Cook said. “We knew what type of game it was going to be, a bloody game.\"\n\n\r\n              With <a href=\"http://www.espn.com/nfl/player/_/id/3917315/kyler-murray\">Kyler Murray</a> sidelined by a <a href=\"https://apnews.com/article/vikings-kyler-murray-hamstring-injury-carson-wentz-a0e2f9cbd7b544ab004f63a33ac22b18\">hamstring injury</a>, <a href=\"http://www.espn.com/nfl/player/_/id/2573079/carson-wentz\">Carson Wentz</a> started at quarterback for the Vikings (6-2) and didn’t finish what became one of the worst performances of his 11-year career. \n\n\r\n              Linebackers <a href=\"http://www.espn.com/nfl/player/_/id/4259166/terrel-bernard\">Terrel Bernard</a> and <a href=\"http://www.espn.com/nfl/player/_/id/4568624/dorian-williams\">Dorian Williams</a> had interceptions and <a href=\"http://www.espn.com/nfl/player/_/id/3917232/tyler-bass\">Tyler Bass</a> made three field goals to stretch his franchise-record streak to 24 straight as the Bills (7-1) matched their best eight-game start since 1993. That season ended with the last of their four straight Super Bowl losses.\n\n\r\n              \"It’s just a mindset of going out there and not being result-driven, going out there and being process-driven and understanding what they’re trying to do,\" said Allen, who went 21 for 31 for 234 yards and one interception. “At the end of the day, having fun playing the game of football.” \n\n\r\n              The Vikings as usual sent blitzers at Allen from every angle possible, racking up four sacks. Allen heaved a third-and-23 throw into the end zone to beat the rush in the first quarter that Byron Murphy ran down and returned 55 yards. But the Bills eked out just enough in the first half to give themselves a lead, when Allen found tight end <a href=\"http://www.espn.com/nfl/player/_/id/4688552/keleki-latu\">Keleki Latu</a> open in the back of the end zone for a 25-yard touchdown as he rolled right and was hit hard by <a href=\"http://www.espn.com/nfl/player/_/id/3133487/andrew-van-ginkel\">Andrew Van Ginkel</a>.\n\n\r\n              “There was no panic early in the game when things weren’t going our way,” coach Joe Brady said, marveling at his team's 42:32 possession time. “Eventually you end up making it a game that they weren’t willing to play.”\n\n\r\n              <hl2>The Vikings are running out of answers on offense</hl2>\r\n              Wentz went 8 for 25 for 81 yards and three turnovers, including a backward pass in the first quarter that was thrown too high for even <a href=\"http://www.espn.com/nfl/player/_/id/4262921/justin-jefferson\">Justin Jefferson</a> to catch it — resulting in a lost fumble near midfield. \n\n\r\n              Wentz, who was checked out in the medical tent at one point for an apparent lower leg injury, was replaced by <a href=\"http://www.espn.com/nfl/player/_/id/4573398/max-brosmer\">Max Brosmer</a> midway through the fourth quarter. Wentz completed 1 of 8 passes in the second half, and the Vikings finished with just 178 total yards.\n\n\r\n              The battle between the best offense and best defense in the <a href=\"https://apnews.com/hub/nfl\">NFL</a> might well have gone to Minnesota had the offense been able to muster a decent drive or two.\n\n\r\n              But the Vikings had four straight possessions in the first half start beyond their 40-yard line, and the furthest they made it was the Bills 48. \n\n\r\n              “Put tonight 100% on me. It’s not about any one particular player,\" Vikings coach <a href=\"http://www.espn.com/nfl/player/_/id/2146711/kevin-o'connell\">Kevin O'Connell</a> said. \"But we’ve got to improve offensively, at a rapid pace.”\n\n\r\n              O'Connell blamed himself for not calling more running plays: <a href=\"http://www.espn.com/nfl/player/_/id/4360569/jordan-mason\">Jordan Mason</a> and Aaron Jones combined for just 11 carries when it was clear from the start how off-the-mark Wentz was. Jefferson finished with three catches for 58 yards on 11 targets. \n\n\r\n              “I've always said it doesn’t really matter who’s throwing the ball, as long as it gets there,” Jefferson said. \"That’s all that matters. It’s up to us to make those plays. It’s tough, definitely tough.”\n\n\r\n              <hl2>Allen matches Manning's 10-year touchdown mark</hl2>\r\n              With 322 regular-season touchdowns — 232 passing, 88 rushing and two receiving — Allen tied Peyton Manning for the most in NFL history over a player's first 10 years. Allen is halfway through his ninth season.\n\n\r\n              <hl2>Injury report</hl2>\r\n              Bills: Starting LT <a href=\"http://www.espn.com/nfl/player/_/id/3051324/dion-dawkins\">Dion Dawkins</a> (ribs) and starting LG <a href=\"http://www.espn.com/nfl/player/_/id/4367203/alec-anderson\">Alec Anderson</a> (ankle) were inactive.\n\n\r\n              Vikings: WR <a href=\"http://www.espn.com/nfl/player/_/id/3886598/jauan-jennings\">Jauan Jennings</a> (calf) and FS <a href=\"http://www.espn.com/nfl/player/_/id/4242436/theo-jackson\">Theo Jackson</a> (quadriceps) were inactive. \n\n\r\n              <hl2>Up next</hl2>\r\n              Bills: At the <a href=\"http://www.espn.com/nfl/team/_/name/nyj/new-york-jets\">New York Jets</a> on Sunday.\n\n\r\n              Vikings: At Green Bay on Sunday.\n\n\r\n              ------\n\n\r\n              \r\n                <a href=\"https://apnews.com/hub/nfl\">See AP’s full NFL coverage here</a>",
+    "type": "Recap",
+    "video": [
+      {
+        "ad": {
+          "bundle": "nfl_inprogress_highlights",
+          "sport": "nfl"
+        },
+        "caption": "Ever seen this before? Bills nearly intercept Vikings' spike",
+        "categories": [
+          {
+            "description": "Minnesota Vikings",
+            "guid": "3db556c9-ed76-a7a5-4ccb-a92fc6db4334",
+            "id": 1920,
+            "sportId": 28,
+            "team": {
+              "abbreviation": "MIN",
+              "description": "Minnesota Vikings",
+              "id": 16,
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nfl/team/_/name/min/minnesota-vikings"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nfl/team/_/name/min/minnesota-vikings"
+                  }
+                }
+              },
+              "shortDisplayName": "Vikings"
+            },
+            "teamId": 16,
+            "type": "team",
+            "uid": "s:20~l:28~t:16"
+          },
+          {
+            "athlete": {
+              "description": "Carson Wentz",
+              "id": 2573079,
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nfl/player/_/id/2573079/carson-wentz"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nfl/player/_/id/2573079/carson-wentz"
+                  }
+                }
+              }
+            },
+            "athleteId": 2573079,
+            "description": "Carson Wentz",
+            "guid": "ed28fa2c-63a1-8258-b6b0-618e79d3e363",
+            "id": 152816,
+            "sportId": 28,
+            "type": "athlete",
+            "uid": "s:20~l:28~a:2573079"
+          },
+          {
+            "description": "NFL",
+            "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+            "id": 9572,
+            "league": {
+              "abbreviation": "NFL",
+              "description": "NFL",
+              "id": 28,
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nfl/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nfl/"
+                  }
+                }
+              }
+            },
+            "leagueId": 28,
+            "sportId": 28,
+            "type": "league",
+            "uid": "s:20~l:28"
+          },
+          {
+            "description": "Buffalo Bills",
+            "guid": "232afaf2-01ac-fcc2-8bd6-66550df1703a",
+            "id": 2203,
+            "sportId": 28,
+            "team": {
+              "abbreviation": "BUF",
+              "description": "Buffalo Bills",
+              "id": 2,
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nfl/team/_/name/buf/buffalo-bills"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nfl/team/_/name/buf/buffalo-bills"
+                  }
+                }
+              },
+              "shortDisplayName": "Bills"
+            },
+            "teamId": 2,
+            "type": "team",
+            "uid": "s:20~l:28~t:2"
+          },
+          {
+            "description": "4 Star Rating",
+            "guid": "b14f9e1f-2d2c-3b10-b39d-d781f4c4aba7",
+            "id": 711828,
+            "type": "editorialindicator"
+          },
+          {
+            "description": "Buffalo Bills @ Minnesota Vikings",
+            "event": {
+              "description": "Buffalo Bills @ Minnesota Vikings",
+              "id": 401873051,
+              "league": "nfl",
+              "links": {
+                "mobile": {
+                  "event": {
+                    "href": "https://www.espn.com/nfl/game/_/gameId/401873051"
+                  }
+                },
+                "web": {
+                  "event": {
+                    "href": "https://www.espn.com/nfl/game/_/gameId/401873051"
+                  }
+                }
+              },
+              "sport": "football"
+            },
+            "eventId": 401873051,
+            "guid": "345d82ed-4160-3c56-b1db-c53180bafea9",
+            "type": "event",
+            "uid": "s:20~l:28~e:401873051"
+          }
+        ],
+        "cerebroId": "6af28e3ef1fa1079196a7578",
+        "contributingPartner": "wsc",
+        "contributingSystem": "wsc",
+        "dataSourceIdentifier": "6aea04f28f110",
+        "description": "Ever seen this before? Bills nearly intercept Vikings' spike",
+        "deviceRestrictions": {
+          "devices": [
+            "settop",
+            "tablet",
+            "handset",
+            "ipad",
+            "desktop"
+          ],
+          "type": "whitelist"
+        },
+        "duration": 24,
+        "gameId": 401873051,
+        "headline": "Ever seen this before? Bills nearly intercept Vikings' spike",
+        "id": 50438742,
+        "images": [
+          {
+            "alt": "",
+            "caption": "",
+            "credit": "",
+            "height": 324,
+            "name": "Poster Image",
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1110/32987e33-b631-47ea-b4be-d2ff43ad709b/32987e33-b631-47ea-b4be-d2ff43ad709b.jpg",
+            "width": 576
+          }
+        ],
+        "lastModified": "2026-11-10T20:37:25Z",
+        "links": {
+          "api": {
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/148ff40a-90d7-4f9c-96ba-74f07e1e7032"
+            },
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/video/clips/50438742"
+            }
+          },
+          "mobile": {
+            "alert": {
+              "href": "https://m.espn.com/general/video/videoAlert?vid=50438742"
+            },
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/148ff40a-90d7-4f9c-96ba-74f07e1e7032/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50438742/ever-seen-bills-nearly-intercept-vikings-spike",
+            "progressiveDownload": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/148ff40a-90d7-4f9c-96ba-74f07e1e7032/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50438742/ever-seen-bills-nearly-intercept-vikings-spike"
+            },
+            "source": {
+              "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1110/32987e33-b631-47ea-b4be-d2ff43ad709b/32987e33-b631-47ea-b4be-d2ff43ad709b.mp4"
+            },
+            "streaming": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/148ff40a-90d7-4f9c-96ba-74f07e1e7032/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50438742/ever-seen-bills-nearly-intercept-vikings-spike"
+            }
+          },
+          "source": {
+            "HD": {
+              "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1110/32987e33-b631-47ea-b4be-d2ff43ad709b/32987e33-b631-47ea-b4be-d2ff43ad709b.mp4"
+            },
+            "HLS": {
+              "9x16": {
+                "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1110/32987e33-b631-47ea-b4be-d2ff43ad709b/32987e33-b631-47ea-b4be-d2ff43ad709b/playlist.m3u8"
+              },
+              "HD": {
+                "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1110/32987e33-b631-47ea-b4be-d2ff43ad709b/32987e33-b631-47ea-b4be-d2ff43ad709b/playlist.m3u8"
+              },
+              "cmaf": {
+                "9x16": {
+                  "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1110/32987e33-b631-47ea-b4be-d2ff43ad709b/32987e33-b631-47ea-b4be-d2ff43ad709b/playlist.m3u8"
+                },
+                "cmb": {
+                  "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1110/32987e33-b631-47ea-b4be-d2ff43ad709b/32987e33-b631-47ea-b4be-d2ff43ad709b/playlist.m3u8"
+                },
+                "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1110/32987e33-b631-47ea-b4be-d2ff43ad709b/32987e33-b631-47ea-b4be-d2ff43ad709b/playlist.m3u8"
+              },
+              "cmb": {
+                "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1110/32987e33-b631-47ea-b4be-d2ff43ad709b/32987e33-b631-47ea-b4be-d2ff43ad709b/playlist.m3u8"
+              },
+              "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1110/32987e33-b631-47ea-b4be-d2ff43ad709b/32987e33-b631-47ea-b4be-d2ff43ad709b/playlist.m3u8",
+              "shield": {
+                "href": "https://watch.auth.api.espn.com/video/auth/media/148ff40a-90d7-4f9c-96ba-74f07e1e7032/asset"
+              }
+            },
+            "flash": {
+              "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1110/32987e33-b631-47ea-b4be-d2ff43ad709b/32987e33-b631-47ea-b4be-d2ff43ad709b.mp4"
+            },
+            "full": {
+              "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1110/32987e33-b631-47ea-b4be-d2ff43ad709b/32987e33-b631-47ea-b4be-d2ff43ad709b.mp4"
+            },
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1110/32987e33-b631-47ea-b4be-d2ff43ad709b/32987e33-b631-47ea-b4be-d2ff43ad709b.mp4",
+            "mezzanine": {
+              "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1110/32987e33-b631-47ea-b4be-d2ff43ad709b/32987e33-b631-47ea-b4be-d2ff43ad709b.mp4"
+            }
+          },
+          "sportscenter": {
+            "href": "sportscenter://x-callback-url/showVideo?videoID=50438742&videoDSI=6aea04f28f110"
+          },
+          "web": {
+            "href": "https://www.espn.com/video/clip/_/id/50438742/ever-seen-bills-nearly-intercept-vikings-spike",
+            "self": {
+              "dsi": {
+                "href": "https://www.espn.com/video/clip?id=6aea04f28f110"
+              },
+              "href": "https://www.espn.com/video/clip/_/id/50438742/ever-seen-bills-nearly-intercept-vikings-spike"
+            }
+          }
+        },
+        "originalPublishDate": "2026-11-10T03:23:43Z",
+        "pccId": "148ff40a-90d7-4f9c-96ba-74f07e1e7032",
+        "plays": [
+          {
+            "id": 4018730512207
+          }
+        ],
+        "posterImages": {
+          "default": {
+            "height": 324,
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1110/32987e33-b631-47ea-b4be-d2ff43ad709b/32987e33-b631-47ea-b4be-d2ff43ad709b_default.jpg",
+            "width": 576
+          },
+          "firstFrame": {
+            "href": "https://cmp-espn.media.dssott.com/opp/img/espn/wsc/2026/1110/32987e33-b631-47ea-b4be-d2ff43ad709b/32987e33-b631-47ea-b4be-d2ff43ad709b/thumb-1-w720-h406-f4.jpg"
+          },
+          "full": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1110/32987e33-b631-47ea-b4be-d2ff43ad709b/32987e33-b631-47ea-b4be-d2ff43ad709b.jpg"
+          },
+          "square": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1110/32987e33-b631-47ea-b4be-d2ff43ad709b/32987e33-b631-47ea-b4be-d2ff43ad709b_1x1.jpg"
+          },
+          "vertical": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1110/32987e33-b631-47ea-b4be-d2ff43ad709b/32987e33-b631-47ea-b4be-d2ff43ad709b_9x16.jpg"
+          },
+          "verticalFirstFrame": {
+            "href": "https://cmp-espn.media.dssott.com/opp/img/espn/9x16/wsc/2026/1110/32987e33-b631-47ea-b4be-d2ff43ad709b/32987e33-b631-47ea-b4be-d2ff43ad709b/thumb-1-w406-h720-f4.jpg"
+          },
+          "wide": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1110/32987e33-b631-47ea-b4be-d2ff43ad709b/32987e33-b631-47ea-b4be-d2ff43ad709b_5x2.jpg"
+          }
+        },
+        "premium": false,
+        "shortDescription": "Ever seen this before? Bills nearly intercept Vikings' spike",
+        "shortHeadline": "Ever seen this before? Bills nearly intercept Vikings' spike",
+        "source": "espn",
+        "syndicatable": true,
+        "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1110/32987e33-b631-47ea-b4be-d2ff43ad709b/32987e33-b631-47ea-b4be-d2ff43ad709b.jpg",
+        "timeRestrictions": {
+          "embargoDate": "2026-11-10T03:23:41Z",
+          "expirationDate": "2026-11-12T03:23:00Z"
+        },
+        "title": "Ever seen this before? Bills nearly intercept Vikings' spike",
+        "tracking": {
+          "coverageType": "OnePlay",
+          "leagueName": "NFL",
+          "program": "espnnfl",
+          "sportName": "football",
+          "trackingId": "dm_20261110_NFL_ever_seen_this_before_bills_nearly_intercept_vikings_spike",
+          "trackingName": "NFL_One-Play (Ever seen this before? Bills nearly intercept Vikings' spike) 2026/11/10 ESHEET"
+        },
+        "videoRatio": "16:9,9:16"
+      }
+    ]
+  },
+  "scoringPlays": [
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "1:57",
+        "value": 117.0
+      },
+      "homeScore": 0,
+      "id": "401873051804",
+      "period": {
+        "number": 1
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "BUF",
+        "displayName": "Buffalo Bills",
+        "id": "2",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/buf/buffalo-bills",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/buf",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+            "lastUpdated": "2024-06-25T18:45Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/buf.png",
+            "lastUpdated": "2024-06-25T18:45Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
+            "lastUpdated": "2024-06-25T18:45Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/buf.png",
+            "lastUpdated": "2024-06-25T18:45Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:2"
+      },
+      "text": "Tyler Bass 39 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 3,
+      "clock": {
+        "displayValue": "4:02",
+        "value": 242.0
+      },
+      "homeScore": 3,
+      "id": "4018730511798",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "MIN",
+        "displayName": "Minnesota Vikings",
+        "id": "16",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/min/minnesota-vikings",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/min",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+            "lastUpdated": "2023-08-24T19:26Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/min.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+            "lastUpdated": "2023-08-24T19:27Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/min.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:16"
+      },
+      "text": "Will Reichard 43 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 10,
+      "clock": {
+        "displayValue": "0:44",
+        "value": 44.0
+      },
+      "homeScore": 3,
+      "id": "4018730512011",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "BUF",
+        "displayName": "Buffalo Bills",
+        "id": "2",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/buf/buffalo-bills",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/buf",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+            "lastUpdated": "2024-06-25T18:45Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/buf.png",
+            "lastUpdated": "2024-06-25T18:45Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
+            "lastUpdated": "2024-06-25T18:45Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/buf.png",
+            "lastUpdated": "2024-06-25T18:45Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:2"
+      },
+      "text": "Keleki Latu 25 Yd pass from Josh Allen (Tyler Bass Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "67",
+        "text": "Passing Touchdown"
+      }
+    },
+    {
+      "awayScore": 10,
+      "clock": {
+        "displayValue": "0:05",
+        "value": 5.0
+      },
+      "homeScore": 6,
+      "id": "4018730512253",
+      "period": {
+        "number": 2
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "MIN",
+        "displayName": "Minnesota Vikings",
+        "id": "16",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/min/minnesota-vikings",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/min",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+            "lastUpdated": "2023-08-24T19:26Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/min.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+            "lastUpdated": "2023-08-24T19:27Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/min.png",
+            "lastUpdated": "2024-06-25T18:53Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:16"
+      },
+      "text": "Will Reichard 53 Yd Field Goal ",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 13,
+      "clock": {
+        "displayValue": "6:03",
+        "value": 363.0
+      },
+      "homeScore": 6,
+      "id": "4018730512840",
+      "period": {
+        "number": 3
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "BUF",
+        "displayName": "Buffalo Bills",
+        "id": "2",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/buf/buffalo-bills",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/buf",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+            "lastUpdated": "2024-06-25T18:45Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/buf.png",
+            "lastUpdated": "2024-06-25T18:45Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
+            "lastUpdated": "2024-06-25T18:45Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/buf.png",
+            "lastUpdated": "2024-06-25T18:45Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:2"
+      },
+      "text": "Tyler Bass 25 Yd Field Goal ",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    },
+    {
+      "awayScore": 20,
+      "clock": {
+        "displayValue": "6:17",
+        "value": 377.0
+      },
+      "homeScore": 6,
+      "id": "4018730513698",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "TD",
+        "displayName": "Touchdown",
+        "name": "touchdown"
+      },
+      "team": {
+        "abbreviation": "BUF",
+        "displayName": "Buffalo Bills",
+        "id": "2",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/buf/buffalo-bills",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/buf",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+            "lastUpdated": "2024-06-25T18:45Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/buf.png",
+            "lastUpdated": "2024-06-25T18:45Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
+            "lastUpdated": "2024-06-25T18:45Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/buf.png",
+            "lastUpdated": "2024-06-25T18:45Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:2"
+      },
+      "text": "James Cook III 5 Yd Rush (Tyler Bass Kick)",
+      "type": {
+        "abbreviation": "TD",
+        "id": "68",
+        "text": "Rushing Touchdown"
+      }
+    },
+    {
+      "awayScore": 23,
+      "clock": {
+        "displayValue": "4:40",
+        "value": 280.0
+      },
+      "homeScore": 6,
+      "id": "4018730513935",
+      "period": {
+        "number": 4
+      },
+      "scoringType": {
+        "abbreviation": "FG",
+        "displayName": "Field Goal",
+        "name": "field-goal"
+      },
+      "team": {
+        "abbreviation": "BUF",
+        "displayName": "Buffalo Bills",
+        "id": "2",
+        "links": [
+          {
+            "href": "https://www.espn.com/nfl/team/_/name/buf/buffalo-bills",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "https://www.espn.com/nfl/team/schedule/_/name/buf",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+        "logos": [
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+            "lastUpdated": "2024-06-25T18:45Z",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/buf.png",
+            "lastUpdated": "2024-06-25T18:45Z",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
+            "lastUpdated": "2024-06-25T18:45Z",
+            "rel": [
+              "full",
+              "scoreboard"
+            ],
+            "width": 500
+          },
+          {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/buf.png",
+            "lastUpdated": "2024-06-25T18:45Z",
+            "rel": [
+              "full",
+              "scoreboard",
+              "dark"
+            ],
+            "width": 500
+          }
+        ],
+        "uid": "s:20~l:28~t:2"
+      },
+      "text": "Tyler Bass 52 Yd Field Goal",
+      "type": {
+        "abbreviation": "FG",
+        "id": "59",
+        "text": "Field Goal Good"
+      }
+    }
+  ]
+}
